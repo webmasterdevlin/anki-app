@@ -2,38 +2,49 @@ import { Link } from '@tanstack/react-router';
 
 const Navigation = () => {
   return (
-    <div className="bg-gray-900 p-4 text-gray-200 shadow-lg">
-      <nav className="flex gap-6">
-        <Link
-          to="/"
-          className="transform rounded-md px-6 py-2 text-sm font-medium transition duration-300 ease-in-out hover:scale-110 hover:bg-gray-700"
-          activeProps={{
-            className: 'font-bold bg-gray-700 scale-100',
-          }}
-          activeOptions={{ exact: true }}
-        >
-          Home
-        </Link>
-        <Link
-          to="/norsk"
-          className="transform rounded-md px-6 py-2 text-sm font-medium transition duration-300 ease-in-out hover:scale-110 hover:bg-gray-700"
-          activeProps={{
-            className: 'font-bold bg-gray-700 scale-100',
-          }}
-        >
-          Norsk
-        </Link>
-        <Link
-          to="/english"
-          className="transform rounded-md px-6 py-2 text-sm font-medium transition duration-300 ease-in-out hover:scale-110 hover:bg-gray-700"
-          activeProps={{
-            className: 'font-bold bg-gray-700 scale-100',
-          }}
-        >
-          English
-        </Link>
-      </nav>
-    </div>
+    <nav className="bg-gray-800">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between">
+          <div className="flex items-center">
+            <div className="flex-shrink-0">devlin</div>
+            <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+                <Link
+                  to="/"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                  activeProps={{
+                    className: 'bg-gray-900 text-white',
+                  }}
+                  activeOptions={{ exact: true }}
+                >
+                  Home
+                </Link>
+                <Link
+                  to="/norsk"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                  activeProps={{
+                    className: 'bg-gray-900 text-white',
+                  }}
+                >
+                  Norsk
+                </Link>
+                <Link
+                  to="/english"
+                  className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                  activeProps={{
+                    className: 'bg-gray-900 text-white',
+                  }}
+                >
+                  English
+                </Link>
+                {/* More navigation items */}
+              </div>
+            </div>
+          </div>
+          {/* Additional elements like search/profile/etc. */}
+        </div>
+      </div>
+    </nav>
   );
 };
 
