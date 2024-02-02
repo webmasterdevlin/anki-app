@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import { RouterProvider, createRouter } from '@tanstack/react-router';
+import { RouterProvider, ErrorComponent, createRouter } from '@tanstack/react-router';
 import { routeTree } from './routeTree.gen';
 import './index.css';
 
@@ -7,6 +7,7 @@ import './index.css';
 const router = createRouter({
   routeTree,
   defaultPreload: 'intent',
+  defaultErrorComponent: ({ error }) => <ErrorComponent error={error} />,
 });
 
 // Register things for typesafety
