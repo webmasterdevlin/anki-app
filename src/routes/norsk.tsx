@@ -2,38 +2,28 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent } from 'react';
 import { data } from '../data';
 import { Question } from '../types';
+import { shuffleArray } from '../utils/utility.ts';
 
 export const Route = createFileRoute('/norsk')({
   component: Norsk,
 });
 
-function shuffleArray(array: Question[]) {
-  for (let i = array.length - 1; i > 0; i--) {
-    // Generate a random index from 0 to i
-    const j = Math.floor(Math.random() * (i + 1));
-
-    // Swap elements at indices i and j
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
 function Norsk() {
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>();
-  const [wrongAnswers, setWrongAnswers] = useState<Question[]>([]);
-  const [inputValue, setInputValue] = useState('');
+  const [questionsFromIncorrectAnswers, setQuestionsFromIncorrectAnswers] = useState<Question[]>([]);
+  const [answer, setAnswer] = useState('');
   const [questionLimit, setQuestionLimit] = useState(0);
   const [questionCount, setQuestionCount] = useState(0);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [isAtWrongAnswers, setIsAtWrongAnswers] = useState(false);
+  const [isReview, setIsReview] = useState(false);
 
   const startQuiz = () => {
     shuffleArray(data);
     data.splice(questionLimit, data.length - questionLimit);
     const question = data.pop();
-    setQuestions([...data]);
     setCurrentQuestion(question);
+    setQuestions([...data]);
     setHasQuizStarted(true);
   };
 
@@ -44,38 +34,33 @@ function Norsk() {
       return;
     }
 
-    if (isAtWrongAnswers) {
-      if (currentQuestion.english.toLowerCase().includes(inputValue.toLowerCase().trim())) {
+    if (isReview) {
+      if (currentQuestion.english.toLowerCase().includes(answer.toLowerCase().trim())) {
         alert('Correct!');
-        wrongAnswers.splice(wrongAnswers.indexOf(currentQuestion), 1);
-        const result = wrongAnswers.pop();
+        questionsFromIncorrectAnswers.splice(questionsFromIncorrectAnswers.indexOf(currentQuestion), 1);
+        const result = questionsFromIncorrectAnswers.pop();
         if (result) {
           setCurrentQuestion(result);
-          wrongAnswers.unshift(result);
-          setWrongAnswers([...wrongAnswers]);
+          questionsFromIncorrectAnswers.unshift(result);
+          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers]);
         } else {
           alert('You have completed the quiz!');
-          setCurrentQuestion(null);
-          setWrongAnswers([]);
-          setIsAtWrongAnswers(false);
-          setHasQuizStarted(false);
-          setQuestionLimit(0);
-          setQuestionCount(0);
+          resetQuiz();
         }
       } else {
         alert(`Incorrect! The correct answer was: ${currentQuestion.english}`);
-        let question = wrongAnswers.pop();
+        let question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
-          setWrongAnswers([...wrongAnswers, currentQuestion]);
+          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
         }
       }
     } else {
-      if (currentQuestion.english.toLowerCase().includes(inputValue.toLowerCase().trim())) {
+      if (currentQuestion.english.toLowerCase().includes(answer.toLowerCase().trim())) {
         alert('Correct!');
       } else {
         alert(`Incorrect! The correct answer was: ${currentQuestion.english}`);
-        setWrongAnswers([...wrongAnswers, currentQuestion]);
+        setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
       }
 
       if (questionCount < questionLimit) {
@@ -88,26 +73,30 @@ function Norsk() {
         setCurrentQuestion(question);
         setQuestions([...questions]);
       } else {
-        if (wrongAnswers.length > 0) {
-          setIsAtWrongAnswers(true);
-          const result = wrongAnswers.pop();
+        if (questionsFromIncorrectAnswers.length > 0) {
+          setIsReview(true);
+          const result = questionsFromIncorrectAnswers.pop();
           if (result) {
             setCurrentQuestion(result);
-            wrongAnswers.unshift(result);
+            questionsFromIncorrectAnswers.unshift(result);
           }
         } else {
           alert('You have completed the quiz!');
-          setCurrentQuestion(null);
-          setWrongAnswers([]);
-          setIsAtWrongAnswers(false);
-          setHasQuizStarted(false);
-          setQuestionLimit(0);
-          setQuestionCount(0);
+          resetQuiz();
         }
       }
     }
 
-    setInputValue('');
+    setAnswer('');
+  };
+
+  const resetQuiz = () => {
+    setCurrentQuestion(null);
+    setQuestionsFromIncorrectAnswers([]);
+    setIsReview(false);
+    setHasQuizStarted(false);
+    setQuestionLimit(0);
+    setQuestionCount(0);
   };
 
   return (
@@ -139,7 +128,11 @@ function Norsk() {
         ) : (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to English:</h2>
-            {isAtWrongAnswers && <p>reviewing {wrongAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers</p>}
+            {isReview && (
+              <div className="mb-5">
+                <p>reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers</p>
+              </div>
+            )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
               <div
                 className="
@@ -165,8 +158,8 @@ function Norsk() {
                 placeholder="Type your answer here..."
                 required={true}
                 type="text"
-                value={inputValue}
-                onChange={e => setInputValue(e.target.value)}
+                value={answer}
+                onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               <button
