@@ -10,4 +10,3 @@ export function shuffleArray(array: Question[]) {
   }
   return array;
 }
-

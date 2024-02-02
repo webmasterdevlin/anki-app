@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent } from 'react';
 import { data } from '../data';
 import { Question } from '../types';
-import { shuffleArray } from '../utils/utility.ts';
+import { shuffleArray } from '../utils/question';
 
 export const Route = createFileRoute('/norsk')({
   component: Norsk,

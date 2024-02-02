@@ -2,7 +2,7 @@ import { createLazyFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent } from 'react';
 import { data } from '../data.ts';
 import { Question } from '../types.ts';
-import { shuffleArray } from '../utils/utility.ts';
+import { shuffleArray } from '../utils/question';
 
 export const Route: any = createLazyFileRoute('/english')({
   component: English,
