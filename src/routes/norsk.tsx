@@ -1,90 +1,147 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useState, useEffect, FormEvent } from 'react';
-import { questions } from '../data';
+import { useState, FormEvent } from 'react';
+import { data } from '../data';
 import { Question } from '../types';
-import FeedbackModal from '../components/feedbackModal';
 
 export const Route = createFileRoute('/norsk')({
   component: Norsk,
 });
 
+function shuffleArray(array: Question[]) {
+  for (let i = array.length - 1; i > 0; i--) {
+    // Generate a random index from 0 to i
+    const j = Math.floor(Math.random() * (i + 1));
+
+    // Swap elements at indices i and j
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 function Norsk() {
-  const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
+  const [currentQuestion, setCurrentQuestion] = useState<Question | null>();
   const [wrongAnswers, setWrongAnswers] = useState<Question[]>([]);
   const [inputValue, setInputValue] = useState('');
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [modalMessage, setModalMessage] = useState('');
+  const [questionLimit, setQuestionLimit] = useState(0);
+  const [questionCount, setQuestionCount] = useState(0);
+  const [hasQuizStarted, setHasQuizStarted] = useState(false);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [isAtWrongAnswers, setIsAtWrongAnswers] = useState(false);
 
-  useEffect(() => {
-    setCurrentQuestion(getRandomQuestion());
-  }, []);
-
-  const getRandomQuestion = (): Question | null => {
-    const unansweredQuestions = questions.filter(q => !wrongAnswers.includes(q) && q !== currentQuestion);
-
-    if (unansweredQuestions.length > 0) {
-      // If there are unanswered questions, return one of them
-      const randomIndex = Math.floor(Math.random() * unansweredQuestions.length);
-      return unansweredQuestions[randomIndex];
-    } else if (wrongAnswers.length > 0) {
-      // If all questions have been answered but some were wrong, start returning from wrongAnswers
-      const randomIndex = Math.floor(Math.random() * wrongAnswers.length);
-      return wrongAnswers[randomIndex];
-    }
-
-    return null; // Return null if there are no questions left to answer
-  };
-
-  const handleAnswer = () => {
-    if (!currentQuestion) {
-      return; // Do nothing if there's no current question
-    }
-
-    if (inputValue.toLowerCase().trim() === currentQuestion.english.toLowerCase()) {
-      // Correct answer
-      setModalMessage('Correct!');
-      setWrongAnswers(wrongAnswers.filter(q => q !== currentQuestion)); // Remove from wrongAnswers if it's there
-    } else {
-      // Incorrect answer
-      setModalMessage(`Incorrect! The correct answer was: ${currentQuestion.english}`);
-      if (!wrongAnswers.includes(currentQuestion)) {
-        setWrongAnswers([...wrongAnswers, currentQuestion]);
-      }
-    }
-    setModalIsOpen(true);
-    setInputValue(''); // Clear the input field
-    setCurrentQuestion(getRandomQuestion()); // Fetch the next question
+  const startQuiz = () => {
+    shuffleArray(data);
+    data.splice(questionLimit, data.length - questionLimit);
+    const question = data.pop();
+    setQuestions([...data]);
+    setCurrentQuestion(question);
+    setHasQuizStarted(true);
   };
 
   const handleFormSubmit = (event: FormEvent) => {
-    event.preventDefault(); // Prevents the default form submission action
-    handleAnswer();
+    event.preventDefault();
+    if (!currentQuestion) {
+      alert('No question found');
+      return;
+    }
+
+    if (isAtWrongAnswers) {
+      if (inputValue.toLowerCase().trim() === currentQuestion.english.toLowerCase()) {
+        alert('Correct!');
+        const result = wrongAnswers.pop();
+        if (result) {
+          setWrongAnswers([...wrongAnswers]);
+        } else {
+          alert('You have completed the quiz!');
+        }
+      } else {
+        alert(`Incorrect! The correct answer was: ${currentQuestion.english}`);
+        let question = wrongAnswers.pop();
+        if (question) {
+          setCurrentQuestion(question);
+          setWrongAnswers([...wrongAnswers, currentQuestion]);
+        }
+      }
+    } else {
+      if (inputValue.toLowerCase().trim() === currentQuestion.english.toLowerCase()) {
+        alert('Correct!');
+      } else {
+        alert(`Incorrect! The correct answer was: ${currentQuestion.english}`);
+        console.log('wrongAnswers', wrongAnswers);
+        console.log('currentQuestion', currentQuestion);
+        setWrongAnswers([...wrongAnswers, currentQuestion]);
+      }
+
+      if (questionCount < questionLimit) {
+        setQuestionCount(questionCount + 1);
+      } else {
+        alert('You have completed the quiz!');
+      }
+      let question = questions.pop();
+      if (question) {
+        setCurrentQuestion(question);
+        setQuestions([...questions]);
+      } else {
+        setIsAtWrongAnswers(true);
+        const result = wrongAnswers.pop();
+        if (result) {
+          setCurrentQuestion(result);
+          wrongAnswers.unshift(result);
+        }
+      }
+    }
+
+    setInputValue('');
   };
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
-        <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to English:</h2>
-        <form onSubmit={handleFormSubmit} className="space-y-4">
-          <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
-          <input
-            required={true}
-            type="text"
-            value={inputValue}
-            onChange={e => setInputValue(e.target.value)}
-            className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <button type="submit" className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600">
-            Submit
-          </button>
-        </form>
+        {!hasQuizStarted ? (
+          <>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">How many questions would you like to answer?</h2>
+            <div className="mb-4">
+              <input
+                required={true}
+                type="number"
+                value={questionLimit}
+                onChange={e => setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)))}
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                min="10"
+              />
+            </div>
+            <button
+              onClick={startQuiz}
+              className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
+            >
+              Start Quiz
+            </button>
+          </>
+        ) : (
+          <>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to English:</h2>
+            {isAtWrongAnswers && <p>reviewing {wrongAnswers.length} incorrect answers</p>}
+            <form onSubmit={handleFormSubmit} className="space-y-4">
+              <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
+              <input
+                required={true}
+                type="text"
+                value={inputValue}
+                onChange={e => setInputValue(e.target.value)}
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <button
+                type="submit"
+                className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
+              >
+                Submit
+              </button>
+            </form>
+            <div className="mt-4 text-sm text-gray-600">
+              Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
+            </div>
+          </>
+        )}
       </div>
-      <FeedbackModal
-        isOpen={modalIsOpen}
-        onRequestClose={() => setModalIsOpen(false)}
-        contentLabel="Feedback Modal"
-        message={modalMessage}
-      />
     </div>
   );
 }
