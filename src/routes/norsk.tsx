@@ -45,13 +45,21 @@ function Norsk() {
     }
 
     if (isAtWrongAnswers) {
-      if (inputValue.toLowerCase().trim() === currentQuestion.english.toLowerCase()) {
+      if (currentQuestion.english.toLowerCase().includes(inputValue.toLowerCase().trim())) {
         alert('Correct!');
+        wrongAnswers.splice(wrongAnswers.indexOf(currentQuestion), 1);
         const result = wrongAnswers.pop();
         if (result) {
+          setCurrentQuestion(result);
           setWrongAnswers([...wrongAnswers]);
         } else {
           alert('You have completed the quiz!');
+          setCurrentQuestion(null);
+          setWrongAnswers([]);
+          setIsAtWrongAnswers(false);
+          setHasQuizStarted(false);
+          setQuestionLimit(0);
+          setQuestionCount(0);
         }
       } else {
         alert(`Incorrect! The correct answer was: ${currentQuestion.english}`);
@@ -62,12 +70,10 @@ function Norsk() {
         }
       }
     } else {
-      if (inputValue.toLowerCase().trim() === currentQuestion.english.toLowerCase()) {
+      if (currentQuestion.english.toLowerCase().includes(inputValue.toLowerCase().trim())) {
         alert('Correct!');
       } else {
         alert(`Incorrect! The correct answer was: ${currentQuestion.english}`);
-        console.log('wrongAnswers', wrongAnswers);
-        console.log('currentQuestion', currentQuestion);
         setWrongAnswers([...wrongAnswers, currentQuestion]);
       }
 
@@ -81,11 +87,21 @@ function Norsk() {
         setCurrentQuestion(question);
         setQuestions([...questions]);
       } else {
-        setIsAtWrongAnswers(true);
-        const result = wrongAnswers.pop();
-        if (result) {
-          setCurrentQuestion(result);
-          wrongAnswers.unshift(result);
+        if (wrongAnswers.length > 0) {
+          setIsAtWrongAnswers(true);
+          const result = wrongAnswers.pop();
+          if (result) {
+            setCurrentQuestion(result);
+            wrongAnswers.unshift(result);
+          }
+        } else {
+          alert('You have completed the quiz!');
+          setCurrentQuestion(null);
+          setWrongAnswers([]);
+          setIsAtWrongAnswers(false);
+          setHasQuizStarted(false);
+          setQuestionLimit(0);
+          setQuestionCount(0);
         }
       }
     }
