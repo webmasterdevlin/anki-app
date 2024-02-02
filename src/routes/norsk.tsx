@@ -51,6 +51,7 @@ function Norsk() {
         const result = wrongAnswers.pop();
         if (result) {
           setCurrentQuestion(result);
+          wrongAnswers.unshift(result);
           setWrongAnswers([...wrongAnswers]);
         } else {
           alert('You have completed the quiz!');
@@ -114,7 +115,9 @@ function Norsk() {
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
         {!hasQuizStarted ? (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">How many questions would you like to answer?</h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">
+              How many questions would you like to answer? Minimum 5 and maximum 50
+            </h2>
             <div className="mb-4">
               <input
                 required={true}
@@ -122,10 +125,11 @@ function Norsk() {
                 value={questionLimit}
                 onChange={e => setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)))}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                min="10"
+                min="5"
               />
             </div>
             <button
+              disabled={questionLimit < 5 || questionLimit > 50}
               onClick={startQuiz}
               className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
             >
@@ -135,10 +139,30 @@ function Norsk() {
         ) : (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to English:</h2>
-            {isAtWrongAnswers && <p>reviewing {wrongAnswers.length} incorrect answers</p>}
+            {isAtWrongAnswers && <p>reviewing {wrongAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers</p>}
             <form onSubmit={handleFormSubmit} className="space-y-4">
-              <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
+              <div
+                className="
+                  flex
+                  w-full
+                  items-center
+                  justify-center
+                  rounded-md
+                  border
+                  border-gray-300
+                  px-3
+                  py-2
+                  shadow-sm
+                  focus:border-transparent
+                  focus:outline-none
+                  focus:ring-2
+                  focus:ring-blue-500
+              "
+              >
+                <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
+              </div>
               <input
+                placeholder="Type your answer here..."
                 required={true}
                 type="text"
                 value={inputValue}
