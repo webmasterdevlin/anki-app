@@ -1,10 +1,10 @@
-import { createFileRoute } from '@tanstack/react-router';
+import { createLazyFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent } from 'react';
-import { data } from '../data';
-import { Question } from '../types';
+import { data } from '../data.ts';
+import { Question } from '../types.ts';
 import { shuffleArray } from '../utils/utility.ts';
 
-export const Route = createFileRoute('/english')({
+export const Route: any = createLazyFileRoute('/english')({
   component: English,
 });
 
@@ -101,6 +101,7 @@ function English() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
+      <h1 className="mb-4">Practicing English words</h1>
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
         {!hasQuizStarted ? (
           <>
