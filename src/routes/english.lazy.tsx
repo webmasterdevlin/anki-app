@@ -4,7 +4,7 @@ import { data } from '../data.ts';
 import { Question } from '../types.ts';
 import { shuffleArray } from '../utils/question';
 
-export const Route: any = createLazyFileRoute('/english')({
+export const Route = createLazyFileRoute('/english')({
   component: English,
 });
 
