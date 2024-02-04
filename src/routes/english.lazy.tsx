@@ -1,5 +1,7 @@
 import { createLazyFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent } from 'react';
+import Confetti from 'react-confetti';
+import useWindowSize from 'react-use/lib/useWindowSize';
 import { data } from '../data.ts';
 import { Question } from '../types.ts';
 import { shuffleArray } from '../utils/question';
@@ -19,6 +21,8 @@ function English() {
   const [isReview, setIsReview] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [finished, setFinished] = useState(false);
+  const { width, height } = useWindowSize();
 
   const startQuiz = () => {
     shuffleArray(data);
@@ -27,18 +31,19 @@ function English() {
     setCurrentQuestion(question);
     setQuestions([...data]);
     setHasQuizStarted(true);
+    setFinished(false);
   };
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
     if (!currentQuestion) {
-      alert('No question found');
+      alert('Ingen spørsmål funnet');
       return;
     }
 
     if (isReview) {
       if (currentQuestion.norwegian.toLowerCase().includes(answer.toLowerCase().trim())) {
-        alert('Correct!');
+        alert('Riktig!');
         questionsFromIncorrectAnswers.splice(questionsFromIncorrectAnswers.indexOf(currentQuestion), 1);
         const result = questionsFromIncorrectAnswers.pop();
         if (result) {
@@ -46,11 +51,12 @@ function English() {
           questionsFromIncorrectAnswers.unshift(result);
           setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers]);
         } else {
-          alert('You have completed the quiz!');
+          setFinished(true);
+          alert('Du har fullført quizen!');
           resetQuiz();
         }
       } else {
-        alert(`Incorrect! The correct answer was: ${currentQuestion.norwegian}`);
+        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian}`);
         let question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
@@ -59,16 +65,18 @@ function English() {
       }
     } else {
       if (currentQuestion.norwegian.toLowerCase().includes(answer.toLowerCase().trim())) {
-        alert('Correct!');
+        alert('Riktig!');
       } else {
-        alert(`Incorrect! The correct answer was: ${currentQuestion.norwegian}`);
+        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian}`);
         setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
       }
 
       if (questionCount < questionLimit) {
         setQuestionCount(questionCount + 1);
       } else {
-        alert('You have completed the quiz!');
+        setFinished(true);
+        alert('Du har fullført quizen!');
+        resetQuiz();
       }
       let question = questions.pop();
       if (question) {
@@ -83,7 +91,7 @@ function English() {
             questionsFromIncorrectAnswers.unshift(result);
           }
         } else {
-          alert('You have completed the quiz!');
+          alert('Du har fullført quizen!');
           resetQuiz();
         }
       }
@@ -91,6 +99,7 @@ function English() {
 
     setAnswer('');
     setShowHint(false);
+    setShowAnswer(false);
   };
 
   const resetQuiz = () => {
@@ -106,6 +115,7 @@ function English() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <h1 className="mb-4">Øve på engelske ord</h1>
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
+        {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800">
@@ -174,9 +184,30 @@ function English() {
                 Sende inn
               </button>
             </form>
+            {showAnswer && <strong>{currentQuestion?.english}</strong>}
             <div className="mb-4 mt-4 text-sm text-gray-600">
               Spørsmål {Math.min(questionCount + 1, questionLimit)} av {questionLimit}
             </div>
+            {!showAnswer && (
+              <div className="flex h-3 items-center justify-between">
+                <button
+                  className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                  onClick={() => {
+                    if (showHint) {
+                      setShowAnswer(true);
+                    } else {
+                      setShowHint(true);
+                    }
+                  }}
+                  type="button"
+                >
+                  {showHint ? 'show answer' : 'hint'}
+                </button>
+                {showHint && (
+                  <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
+                )}
+              </div>
+            )}
             <div className="flex h-3 items-center justify-between">
               {/* a simple small tailwind ui button below */}
               <button
