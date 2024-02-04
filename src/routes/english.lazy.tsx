@@ -186,7 +186,9 @@ function English() {
               >
                 hint
               </button>
-              {showHint && <pre className="text-xl text-gray-700">{currentQuestion?.english[0]}</pre>}
+              {showHint && (
+                <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
+              )}
             </div>
           </>
         )}
