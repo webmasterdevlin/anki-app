@@ -17,6 +17,7 @@ function Norsk() {
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [isReview, setIsReview] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   const startQuiz = () => {
     shuffleArray(data);
@@ -88,6 +89,7 @@ function Norsk() {
     }
 
     setAnswer('');
+    setShowHint(false);
   };
 
   const resetQuiz = () => {
@@ -114,14 +116,14 @@ function Norsk() {
                 type="number"
                 value={questionLimit}
                 onChange={e => setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)))}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
               />
             </div>
             <button
               disabled={questionLimit < 5 || questionLimit > 50}
               onClick={startQuiz}
-              className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
+              className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
               Start Quiz
             </button>
@@ -150,7 +152,7 @@ function Norsk() {
                   focus:border-transparent
                   focus:outline-none
                   focus:ring-2
-                  focus:ring-blue-500
+                  focus:ring-indigo-500
               "
               >
                 <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
@@ -161,18 +163,31 @@ function Norsk() {
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 minLength={4}
               />
               <button
                 type="submit"
-                className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
+                className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
                 Submit
               </button>
             </form>
-            <div className="mt-4 text-sm text-gray-600">
+            <div className="mb-4 mt-4 text-sm text-gray-600">
               Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
+            </div>
+            <div className="flex h-3 items-center justify-between">
+              {/* a simple small tailwind ui button below */}
+              <button
+                className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                onClick={() => {
+                  setShowHint(!showHint);
+                }}
+                type="button"
+              >
+                hint
+              </button>
+              {showHint && <pre className="text-xl text-gray-700">{currentQuestion?.english[0]}</pre>}
             </div>
           </>
         )}
