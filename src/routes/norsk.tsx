@@ -149,7 +149,7 @@ function Norsk() {
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
               <div className="flex w-full items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
+                <p className="text-lg capitalize text-gray-700">{currentQuestion?.norwegian}</p>
               </div>
               <input
                 placeholder="Type your answer here..."
