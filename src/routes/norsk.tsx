@@ -125,7 +125,7 @@ function Norsk() {
               onClick={startQuiz}
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              Start Quiz
+              Start the Quiz
             </button>
           </>
         ) : (
@@ -164,7 +164,7 @@ function Norsk() {
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                minLength={4}
+                minLength={3}
               />
               <button
                 type="submit"

@@ -102,12 +102,12 @@ function English() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
-      <h1 className="mb-4">Practicing English words</h1>
+      <h1 className="mb-4">Øve på engelske ord</h1>
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800">
-              How many questions would you like to answer? Minimum 5 and maximum 50
+              HHvor mange spørsmål vil du svare på? Minimum 5 og maksimum 50
             </h2>
             <div className="mb-4">
               <input
@@ -124,15 +124,15 @@ function English() {
               onClick={startQuiz}
               className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
             >
-              Start Quiz
+              starte quizen
             </button>
           </>
         ) : (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to Norsk:</h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">Oversett til norsk:</h2>
             {isReview && (
               <div className="mb-5">
-                <p>reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers</p>
+                <p>gjennomgå {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} feil svar</p>
               </div>
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
@@ -157,23 +157,23 @@ function English() {
                 <p className="text-lg text-gray-700">{currentQuestion?.english}</p>
               </div>
               <input
-                placeholder="Type your answer here..."
+                placeholder="Skriv svaret ditt her..."
                 required={true}
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                minLength={4}
+                minLength={3}
               />
               <button
                 type="submit"
                 className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
               >
-                Submit
+                Sende inn
               </button>
             </form>
             <div className="mb-4 mt-4 text-sm text-gray-600">
-              Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
+              Spørsmål {Math.min(questionCount + 1, questionLimit)} av {questionLimit}
             </div>
             <div className="flex h-3 items-center justify-between">
               {/* a simple small tailwind ui button below */}
