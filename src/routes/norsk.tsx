@@ -1,5 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent } from 'react';
+import Confetti from 'react-confetti';
+import useWindowSize from 'react-use/lib/useWindowSize';
 import { data } from '../data';
 import { Question } from '../types';
 import { shuffleArray } from '../utils/question';
@@ -18,6 +20,9 @@ function Norsk() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [isReview, setIsReview] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false);
+  const [finished, setFinished] = useState(false);
+  const { width, height } = useWindowSize();
 
   const startQuiz = () => {
     shuffleArray(data);
@@ -26,6 +31,7 @@ function Norsk() {
     setCurrentQuestion(question);
     setQuestions([...data]);
     setHasQuizStarted(true);
+    setFinished(false);
   };
 
   const handleFormSubmit = (event: FormEvent) => {
@@ -45,6 +51,7 @@ function Norsk() {
           questionsFromIncorrectAnswers.unshift(result);
           setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers]);
         } else {
+          setFinished(true);
           alert('You have completed the quiz!');
           resetQuiz();
         }
@@ -67,7 +74,9 @@ function Norsk() {
       if (questionCount < questionLimit) {
         setQuestionCount(questionCount + 1);
       } else {
+        setFinished(true);
         alert('You have completed the quiz!');
+        resetQuiz();
       }
       let question = questions.pop();
       if (question) {
@@ -90,6 +99,7 @@ function Norsk() {
 
     setAnswer('');
     setShowHint(false);
+    setShowAnswer(false);
   };
 
   const resetQuiz = () => {
@@ -105,6 +115,7 @@ function Norsk() {
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <h1 className="mb-4">Practicing Norsk words</h1>
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
+        {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800">
@@ -173,24 +184,30 @@ function Norsk() {
                 Submit
               </button>
             </form>
+            {showAnswer && <strong>{currentQuestion?.english}</strong>}
             <div className="mb-4 mt-4 text-sm text-gray-600">
               Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
             </div>
-            <div className="flex h-3 items-center justify-between">
-              {/* a simple small tailwind ui button below */}
-              <button
-                className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
-                onClick={() => {
-                  setShowHint(!showHint);
-                }}
-                type="button"
-              >
-                hint
-              </button>
-              {showHint && (
-                <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
-              )}
-            </div>
+            {!showAnswer && (
+              <div className="flex h-3 items-center justify-between">
+                <button
+                  className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                  onClick={() => {
+                    if (showHint) {
+                      setShowAnswer(true);
+                    } else {
+                      setShowHint(true);
+                    }
+                  }}
+                  type="button"
+                >
+                  {showHint ? 'show answer' : 'hint'}
+                </button>
+                {showHint && (
+                  <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
+                )}
+              </div>
+            )}
           </>
         )}
       </div>

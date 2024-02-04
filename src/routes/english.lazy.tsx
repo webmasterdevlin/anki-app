@@ -18,6 +18,7 @@ function English() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [isReview, setIsReview] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [showAnswer, setShowAnswer] = useState(false);
 
   const startQuiz = () => {
     shuffleArray(data);
@@ -89,6 +90,7 @@ function English() {
     }
 
     setAnswer('');
+    setShowHint(false);
   };
 
   const resetQuiz = () => {
@@ -180,7 +182,8 @@ function English() {
               <button
                 className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                 onClick={() => {
-                  setShowHint(!showHint);
+                  setShowHint(true);
+                  setShowAnswer(true);
                 }}
                 type="button"
               >
