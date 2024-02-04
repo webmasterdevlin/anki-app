@@ -172,7 +172,7 @@ function English() {
                 Submit
               </button>
             </form>
-            <div className="mt-4 text-sm text-gray-600">
+            <div className="mb-4 mt-4 text-sm text-gray-600">
               Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
             </div>
             <div className="flex h-3 items-center justify-between">
