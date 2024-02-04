@@ -42,7 +42,7 @@ function English() {
     }
 
     if (isReview) {
-      if (currentQuestion.norwegian.toLowerCase().includes(answer.toLowerCase().trim())) {
+      if (currentQuestion.norwegian.toLowerCase() === answer.toLowerCase().trim()) {
         alert('Riktig!');
         questionsFromIncorrectAnswers.splice(questionsFromIncorrectAnswers.indexOf(currentQuestion), 1);
         const result = questionsFromIncorrectAnswers.pop();
@@ -64,7 +64,7 @@ function English() {
         }
       }
     } else {
-      if (currentQuestion.norwegian.toLowerCase().includes(answer.toLowerCase().trim())) {
+      if (currentQuestion.norwegian.toLowerCase() === answer.toLowerCase().trim()) {
         alert('Riktig!');
       } else {
         alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian}`);
@@ -148,40 +148,23 @@ function English() {
               </div>
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
-              <div
-                className="
-                  flex
-                  w-full
-                  items-center
-                  justify-center
-                  rounded-md
-                  border
-                  border-gray-300
-                  px-3
-                  py-2
-                  shadow-sm
-                  focus:border-transparent
-                  focus:outline-none
-                  focus:ring-2
-                  focus:ring-blue-500
-              "
-              >
-                <p className="text-lg text-gray-700">{currentQuestion?.english}</p>
+              <div className="flex w-full items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <p className="text-lg text-gray-700">{currentQuestion?.norwegian}</p>
               </div>
               <input
                 placeholder="Skriv svaret ditt her..."
-                required={true}
+                required={showAnswer ? false : true}
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                minLength={3}
+                minLength={showAnswer ? 0 : 3}
               />
               <button
                 type="submit"
                 className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
               >
-                Sende inn
+                {showAnswer ? 'Fortsette' : 'Sende inn'}
               </button>
             </form>
             {showAnswer && <strong>{currentQuestion?.english}</strong>}
