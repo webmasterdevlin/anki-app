@@ -5,7 +5,7 @@
 /*apply directives are not recommended*/
 
 body {
-  background-image: url('/bg.jpg');
+  background-image: url('https://res.cloudinary.com/dtxpbduyz/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1707169989/anki-app/bg-sky_nwpizz.jpg?_s=public-apps');
   background-size: cover;
   background-position: center;
 }
