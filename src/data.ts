@@ -550,7 +550,7 @@ export const data: Question[] = [
   { norwegian: 'hermetikk', english: 'canned' },
   { norwegian: 'unødvendig', english: 'unnecessary' },
   { norwegian: 'plastemballasjer', english: 'plastic packaging' },
-  { norwegian: 'fordele', english: 'advantage,benefit' },
+  { norwegian: 'fordel', english: 'advantage,benefit' },
   { norwegian: 'fordeler', english: 'benefits,advantages' },
   { norwegian: 'fordelene', english: 'the benefits' },
   { norwegian: 'bevaring', english: 'conservation,preservation,retention' },
