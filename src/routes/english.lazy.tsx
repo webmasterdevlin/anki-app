@@ -43,6 +43,8 @@ function English() {
       return;
     }
 
+    setPreviousQuestion(currentQuestion);
+
     if (isReview) {
       if (currentQuestion.norwegian.toLowerCase() === answer.toLowerCase().trim()) {
         alert('Riktig!');
