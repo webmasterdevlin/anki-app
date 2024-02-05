@@ -22,6 +22,7 @@ function English() {
   const [showHint, setShowHint] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [finished, setFinished] = useState(false);
+  const [previousQuestion, setPreviousQuestion] = useState<Question>();
   const { width, height } = useWindowSize();
 
   const startQuiz = () => {
@@ -117,6 +118,11 @@ function English() {
     else setShowHint(true);
   };
 
+  const handleReportQuestion = () => {
+    alert('Spørsmål rapportert!');
+    throw new Error(`Rapportert spørsmål : ` + JSON.stringify(previousQuestion, null, 2));
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <h1 className="mb-4">Øve på engelske ord</h1>
@@ -140,7 +146,7 @@ function English() {
             <button
               disabled={questionLimit < 5 || questionLimit > 50}
               onClick={startQuiz}
-              className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
+              className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
               starte quizen
             </button>
@@ -209,6 +215,12 @@ function English() {
           </>
         )}
       </div>
+      <button
+        onClick={handleReportQuestion}
+        className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
+      >
+        rapporter tidligere spørsmål
+      </button>
     </div>
   );
 }

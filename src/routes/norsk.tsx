@@ -22,6 +22,7 @@ function Norsk() {
   const [showHint, setShowHint] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [finished, setFinished] = useState(false);
+  const [previousQuestion, setPreviousQuestion] = useState<Question>();
   const { width, height } = useWindowSize();
 
   const startQuiz = () => {
@@ -42,6 +43,8 @@ function Norsk() {
       alert('No question found');
       return;
     }
+
+    setPreviousQuestion(currentQuestion);
 
     if (isReview) {
       if (currentQuestion.english.toLowerCase() === answer.toLowerCase().trim()) {
@@ -118,6 +121,11 @@ function Norsk() {
     else setShowHint(true);
   };
 
+  const handleReportQuestion = () => {
+    alert('Question reported!');
+    throw new Error(`Reported question : ` + JSON.stringify(previousQuestion, null, 2));
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <h1 className="mb-4">Practicing Norwegian words</h1>
@@ -143,7 +151,7 @@ function Norsk() {
               onClick={startQuiz}
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              Start the Quiz
+              start the quiz
             </button>
           </>
         ) : (
@@ -196,11 +204,8 @@ function Norsk() {
         )}
       </div>
       <button
-        onClick={() => {
-          alert('Reported question');
-          throw new Error('Reported question');
-        }}
-        className="mt-4 rounded-md bg-red-500 px-4 py-2 text-white shadow-md hover:bg-red-600"
+        onClick={handleReportQuestion}
+        className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
       >
         report previous question
       </button>
