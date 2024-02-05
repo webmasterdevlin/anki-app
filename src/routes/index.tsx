@@ -2,7 +2,7 @@ import { Link, createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/')({
   component: () => (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
+    <div className="flex min-h-screen flex-col items-center justify-center ">
       <div className="max-w-md rounded-lg bg-white px-8 py-6 shadow-lg">
         <h1 className="mb-4 text-center text-3xl font-bold text-gray-800">Master Norwegian Vocabulary</h1>
         <p className="mb-6 text-center text-gray-600">
