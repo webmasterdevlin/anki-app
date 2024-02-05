@@ -113,7 +113,7 @@ function Norsk() {
 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
-      <h1 className="mb-4">Practicing Norsk words</h1>
+      <h1 className="mb-4">Practicing Norwegian words</h1>
       <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
         {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (

@@ -119,7 +119,7 @@ function English() {
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800">
-              HHvor mange spørsmål vil du svare på? Minimum 5 og maksimum 50
+              Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 50
             </h2>
             <div className="mb-4">
               <input
