@@ -187,7 +187,7 @@ export const data: Question[] = [
   { norwegian: 'ferdighetene', english: 'the skills' },
   { norwegian: 'avbryt', english: 'cancel' },
   { norwegian: 'forsette', english: 'continue' },
-  { norwegian: 'skrivere', english: 'printer' },
+  { norwegian: 'skrivere', english: 'printers' },
   { norwegian: 'ved', english: 'by' },
   { norwegian: 'opplevelse', english: 'experience' },
   { norwegian: 'ytelse', english: 'performance' },
@@ -959,4 +959,7 @@ export const data: Question[] = [
   { norwegian: 'foreta', english: 'undertake' },
   { norwegian: 'bestandig', english: 'always' },
   { norwegian: 'i den grad', english: 'to the extent' },
+  { norwegian: 'rett og slett', english: 'simply' },
+  { norwegian: 'som følge', english: 'as a result' },
+  { norwegian: 'tyder på', english: 'indicate' },
 ];
