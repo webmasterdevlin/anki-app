@@ -112,13 +112,11 @@ function English() {
   };
 
   const handleShowHint = () => {
-    () => {
-      if (showHint) {
-        setShowAnswer(true);
-      } else {
-        setShowHint(true);
-      }
-    };
+    if (showHint) {
+      setShowAnswer(true);
+    } else {
+      setShowHint(true);
+    }
   };
 
   return (
