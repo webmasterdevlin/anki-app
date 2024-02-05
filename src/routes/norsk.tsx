@@ -110,7 +110,6 @@ function Norsk() {
     setHasQuizStarted(false);
     setQuestionLimit(0);
     setQuestionCount(0);
-    startQuiz();
   };
 
   const handleShowHint = () => {
