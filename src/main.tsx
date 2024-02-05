@@ -3,6 +3,9 @@ import { RouterProvider, ErrorComponent, createRouter } from '@tanstack/react-ro
 import { routeTree } from './routeTree.gen';
 import './index.css';
 
+import LogRocket from 'logrocket';
+LogRocket.init('gbsta4/anki-app');
+
 // Set up a Router instance
 const router = createRouter({
   routeTree,

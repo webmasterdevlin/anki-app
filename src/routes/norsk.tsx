@@ -37,6 +37,7 @@ function Norsk() {
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
+
     if (!currentQuestion) {
       alert('No question found');
       return;
@@ -194,6 +195,15 @@ function Norsk() {
           </>
         )}
       </div>
+      <button
+        onClick={() => {
+          alert('Reported question');
+          throw new Error('Reported question');
+        }}
+        className="mt-4 rounded-md bg-red-500 px-4 py-2 text-white shadow-md hover:bg-red-600"
+      >
+        report previous question
+      </button>
     </div>
   );
 }
