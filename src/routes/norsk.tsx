@@ -25,11 +25,12 @@ function Norsk() {
   const { width, height } = useWindowSize();
 
   const startQuiz = () => {
-    shuffleArray(data);
-    data.splice(questionLimit, data.length - questionLimit);
-    const question = data.pop();
+    const newData = { ...data };
+    shuffleArray(newData);
+    newData.splice(questionLimit, newData.length - questionLimit);
+    const question = newData.pop();
     setCurrentQuestion(question);
-    setQuestions([...data]);
+    setQuestions([...newData]);
     setHasQuizStarted(true);
     setFinished(false);
   };
