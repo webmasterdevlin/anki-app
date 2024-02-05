@@ -111,6 +111,16 @@ function Norsk() {
     setQuestionCount(0);
   };
 
+  const handleShowHint = () => {
+    () => {
+      if (showHint) {
+        setShowAnswer(true);
+      } else {
+        setShowHint(true);
+      }
+    };
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <h1 className="mb-4">Practicing Norwegian words</h1>
@@ -172,16 +182,10 @@ function Norsk() {
               Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
             </div>
             {!showAnswer && (
-              <div className="flex h-3 items-center justify-between">
+              <div className="flex h-3 flex-wrap items-center justify-between">
                 <button
                   className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
-                  onClick={() => {
-                    if (showHint) {
-                      setShowAnswer(true);
-                    } else {
-                      setShowHint(true);
-                    }
-                  }}
+                  onClick={handleShowHint}
                   type="button"
                 >
                   {showHint ? 'show answer' : 'hint'}

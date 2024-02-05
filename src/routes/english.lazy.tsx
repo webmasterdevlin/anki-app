@@ -111,6 +111,16 @@ function English() {
     setQuestionCount(0);
   };
 
+  const handleShowHint = () => {
+    () => {
+      if (showHint) {
+        setShowAnswer(true);
+      } else {
+        setShowHint(true);
+      }
+    };
+  };
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50">
       <h1 className="mb-4">Øve på engelske ord</h1>
@@ -172,27 +182,20 @@ function English() {
               Spørsmål {Math.min(questionCount + 1, questionLimit)} av {questionLimit}
             </div>
             {!showAnswer && (
-              <div className="flex h-3 items-center justify-between">
+              <div className="flex h-3 flex-wrap items-center justify-between">
                 <button
                   className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
-                  onClick={() => {
-                    if (showHint) {
-                      setShowAnswer(true);
-                    } else {
-                      setShowHint(true);
-                    }
-                  }}
+                  onClick={handleShowHint}
                   type="button"
                 >
-                  {showHint ? 'show answer' : 'hint'}
+                  {showHint ? 'Vis svar' : 'hint'}
                 </button>
                 {showHint && (
-                  <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
+                  <pre className="text-xl text-gray-700">begynner med bokstaven: {currentQuestion?.english[0]}</pre>
                 )}
               </div>
             )}
             <div className="flex h-3 items-center justify-between">
-              {/* a simple small tailwind ui button below */}
               <button
                 className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                 onClick={() => {
@@ -204,7 +207,7 @@ function English() {
                 hint
               </button>
               {showHint && (
-                <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
+                <pre className="text-xl text-gray-700">begynner med bokstaven:{currentQuestion?.english[0]}</pre>
               )}
             </div>
           </>

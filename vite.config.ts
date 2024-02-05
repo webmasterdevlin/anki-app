@@ -12,6 +12,11 @@ export default defineConfig({
     vercel(),
     TanStackRouterVite(),
     million.vite({ auto: true }),
-    VitePWA({ registerType: 'autoUpdate' }),
+    VitePWA({
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: true,
+      },
+    }),
   ],
 });
