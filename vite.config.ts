@@ -19,9 +19,9 @@ export default defineConfig({
       },
       includeAssets: ['favicon.ico', 'robots.txt', 'apple-touch-icon.png', 'maskable_icon.png'],
       manifest: {
-        name: 'React-vite-app',
-        short_name: 'react-vite-app',
-        description: 'I am a simple vite app',
+        name: 'anki-app',
+        short_name: 'anki-app',
+        description: 'for learning norsk',
         icons: [
           {
             src: '/android-chrome-192x192.png',
