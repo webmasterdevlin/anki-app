@@ -155,7 +155,7 @@ function English() {
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
               <div className="flex w-full items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                <p className="text-lg capitalize text-gray-700">{currentQuestion?.norwegian}</p>
+                <p className="text-lg lowercase text-gray-700">{currentQuestion?.norwegian}</p>
               </div>
               <input
                 placeholder="Skriv svaret ditt her..."
