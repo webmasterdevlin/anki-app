@@ -25,7 +25,7 @@ function Norsk() {
   const { width, height } = useWindowSize();
 
   const startQuiz = () => {
-    const newData = { ...data };
+    const newData = [...data];
     shuffleArray(newData);
     newData.splice(questionLimit, newData.length - questionLimit);
     const question = newData.pop();
