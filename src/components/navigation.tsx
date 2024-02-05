@@ -1,4 +1,5 @@
 import { Link } from '@tanstack/react-router';
+import { FaGithub } from 'react-icons/fa'; // Import the GitHub icon
 
 const Navigation = () => {
   return (
@@ -40,6 +41,17 @@ const Navigation = () => {
                 {/* More navigation items */}
               </div>
             </div>
+          </div>
+          <div>
+            {/* Link to your GitHub repository */}
+            <a
+              href="https://github.com/webmasterdevlin/anki-app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white"
+            >
+              <FaGithub className="h-6 w-6" />
+            </a>
           </div>
           {/* Additional elements like search/profile/etc. */}
         </div>
