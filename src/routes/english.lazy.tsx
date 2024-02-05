@@ -57,7 +57,7 @@ function English() {
           resetQuiz();
         }
       } else {
-        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian}`);
+        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
         let question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
@@ -68,7 +68,7 @@ function English() {
       if (currentQuestion.norwegian.toLowerCase() === answer.toLowerCase().trim()) {
         alert('Riktig!');
       } else {
-        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian}`);
+        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
         setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
       }
 
