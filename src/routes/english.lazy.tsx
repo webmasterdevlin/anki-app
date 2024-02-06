@@ -70,7 +70,7 @@ function English() {
         let question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
+          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
         }
       }
     } else {
@@ -78,7 +78,7 @@ function English() {
         alert('Riktig!');
       } else {
         alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
-        setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
+        setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
       }
 
       if (questionCount < questionLimit) {

@@ -71,7 +71,7 @@ function Norsk() {
         let question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
+          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
         }
       }
     } else {
@@ -79,7 +79,7 @@ function Norsk() {
         alert('Correct!');
       } else {
         alert(`Incorrect! The correct answer was: ${currentQuestion.english.toLowerCase()}`);
-        setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
+        setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
       }
 
       if (questionCount < questionLimit) {
