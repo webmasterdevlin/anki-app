@@ -176,6 +176,7 @@ function English() {
               <input
                 placeholder="Skriv svaret ditt her..."
                 required={showAnswer ? false : true}
+                disabled={showAnswer ? true : false}
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}

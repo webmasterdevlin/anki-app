@@ -177,6 +177,7 @@ function Norsk() {
               <input
                 placeholder="Type your answer here..."
                 required={showAnswer ? false : true}
+                disabled={showAnswer ? true : false}
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
