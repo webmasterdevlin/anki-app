@@ -9,7 +9,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0  text-emerald-300">inmeta</div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-10 flex items-baseline gap-2 space-x-4">
                 <Link
                   to="/"
                   className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
