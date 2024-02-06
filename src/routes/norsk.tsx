@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useState, FormEvent, useRef, ButtonHTMLAttributes } from 'react';
+import { useState, FormEvent, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import { data } from '../data';
