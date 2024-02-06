@@ -3,11 +3,11 @@ import { FaGithub } from 'react-icons/fa'; // Import the GitHub icon
 
 const Navigation = () => {
   return (
-    <nav className="bg-gray-800">
+    <nav className="sticky top-0 z-10 bg-gray-800">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <div className="flex-shrink-0  text-emerald-300">inmeta</div>
+            <div className="flex-shrink-0 text-emerald-300">inmeta</div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline gap-2 space-x-4">
                 <Link
@@ -43,7 +43,6 @@ const Navigation = () => {
             </div>
           </div>
           <div>
-            {/* Link to your GitHub repository */}
             <a
               href="https://github.com/webmasterdevlin/anki-app"
               target="_blank"
