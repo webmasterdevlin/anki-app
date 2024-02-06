@@ -305,7 +305,7 @@ export const data: Question[] = [
   { norwegian: 'avstengningsventil', english: 'shut-off valve' },
   { norwegian: 'bøtte', english: 'bucket' },
   { norwegian: 'svamp', english: 'sponge' },
-  { norwegian: 'etterfulgt', english: 'followed' },
+  { norwegian: 'etterfulgt av', english: 'followed by' },
   { norwegian: 'skylling', english: 'rinse' },
   {
     norwegian: 'hjemmeunderholdningssystem',
