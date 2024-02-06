@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useState, FormEvent } from 'react';
+import { useState, FormEvent, useRef, ButtonHTMLAttributes } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import { data } from '../data';
@@ -24,6 +24,12 @@ function Norsk() {
   const [finished, setFinished] = useState(false);
   const [previousQuestion, setPreviousQuestion] = useState<Question>();
   const { width, height } = useWindowSize();
+
+  const submitButtonRef = useRef<HTMLButtonElement>(null);
+
+  const focusToSubmitButton = () => {
+    submitButtonRef?.current?.focus();
+  };
 
   const startQuiz = () => {
     const newData = [...data];
@@ -117,8 +123,10 @@ function Norsk() {
   };
 
   const handleShowHint = () => {
-    if (showHint) setShowAnswer(true);
-    else setShowHint(true);
+    if (showHint) {
+      setShowAnswer(true);
+      focusToSubmitButton();
+    } else setShowHint(true);
   };
 
   const handleReportQuestion = () => {
@@ -176,6 +184,7 @@ function Norsk() {
                 minLength={showAnswer ? 0 : 2}
               />
               <button
+                ref={submitButtonRef}
                 type="submit"
                 className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
