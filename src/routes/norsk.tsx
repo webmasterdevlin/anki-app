@@ -137,7 +137,7 @@ function Norsk() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <h1 className="mb-4 text-white">Practicing Norwegian words</h1>
-      <div className="w-full max-w-md rounded-lg bg-white px-6 py-8 shadow-md">
+      <div className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md">
         {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
@@ -149,7 +149,7 @@ function Norsk() {
                 required={true}
                 type="number"
                 value={questionLimit}
-                onChange={e => setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)))}
+                onChange={e => setQuestionLimit(Math.max(5, parseInt(e.target.value, 10)))}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
               />
@@ -176,13 +176,13 @@ function Norsk() {
               </div>
               <input
                 placeholder="Type your answer here..."
-                required={showAnswer ? false : true}
-                disabled={showAnswer ? true : false}
+                required={showAnswer}
+                disabled={!showAnswer}
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                minLength={showAnswer ? 0 : 2}
+                minLength={!showAnswer ? 2 : 0}
               />
               <button
                 ref={submitButtonRef}
