@@ -175,13 +175,13 @@ function English() {
               </div>
               <input
                 placeholder="Skriv svaret ditt her..."
-                required={showAnswer ? false : true}
-                disabled={showAnswer ? true : false}
+                required={!showAnswer}
+                disabled={showAnswer}
                 type="text"
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                minLength={showAnswer ? 0 : 2}
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                minLength={!showAnswer ? 2 : 0}
               />
               <button
                 ref={submitButtonRef}
