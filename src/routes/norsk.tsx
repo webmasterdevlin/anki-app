@@ -197,7 +197,7 @@ function Norsk() {
               Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
             </div>
             {!showAnswer && (
-              <div className="flex h-3 flex-wrap items-center justify-between">
+              <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
                 <button
                   className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                   onClick={handleShowHint}
