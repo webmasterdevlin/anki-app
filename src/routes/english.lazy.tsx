@@ -172,7 +172,7 @@ function English() {
                 value={answer}
                 onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
-                minLength={showAnswer ? 0 : 3}
+                minLength={showAnswer ? 0 : 2}
               />
               <button
                 type="submit"
