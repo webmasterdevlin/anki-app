@@ -7,7 +7,7 @@ export const Route = createRootRoute({
     <>
       <Navigation />
       <Outlet />
-      <TanStackRouterDevtools position="bottom-right" />
+      {import.meta.env.NODE_ENV !== 'production' && <TanStackRouterDevtools position="bottom-right" />}
     </>
   ),
 });
