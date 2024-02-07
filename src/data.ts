@@ -471,7 +471,7 @@ export const data: Question[] = [
   { norwegian: 'et vare', english: 'an item' },
   { norwegian: 'fasthet', english: 'firmness' },
   { norwegian: 'skadet', english: 'hurt' },
-  { norwegian: 'moden', english: 'ripe,mature' },
+  { norwegian: 'moden', english: 'ripe, mature' },
   { norwegian: 'overmoden', english: 'overripe' },
   { norwegian: 'bestill', english: 'order' },
   { norwegian: 'forrett', english: 'appetizer' },
