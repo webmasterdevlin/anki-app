@@ -33,11 +33,14 @@ function English() {
 
   const startQuiz = () => {
     const newData = [...data];
-    shuffleArray(newData);
-    newData.splice(questionLimit, newData.length - questionLimit);
-    const question = newData.pop();
+    const firstShuffled = shuffleArray(newData);
+    const secondShuffled = shuffleArray([...firstShuffled]);
+    const thirdShuffled = shuffleArray([...secondShuffled]);
+    const shuffledNewData = shuffleArray([...thirdShuffled]);
+    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+    const question = shuffledNewData.pop();
     setCurrentQuestion(question);
-    setQuestions([...newData]);
+    setQuestions([...shuffledNewData]);
     setHasQuizStarted(true);
     setFinished(false);
   };
