@@ -143,7 +143,7 @@ function English() {
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
-              Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 50
+              Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 100
             </h2>
             <div className="mb-4">
               <label htmlFor="questionLimit" className="sr-only">
@@ -157,14 +157,15 @@ function English() {
                 onChange={e => setQuestionLimit(Math.max(5, parseInt(e.target.value, 10)))}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
                 min="5"
+                max="100"
                 aria-describedby="questionLimitHelp"
               />
               <p id="questionLimitHelp" className="sr-only">
-                Velg et tall mellom 5 og 50.
+                Velg et tall mellom 5 og 100.
               </p>
             </div>
             <button
-              disabled={questionLimit < 5 || questionLimit > 50}
+              disabled={questionLimit < 5 || questionLimit > 100}
               onClick={startQuiz}
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
