@@ -134,44 +134,60 @@ function English() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="mb-4 text-white">Øve på engelske ord</h1>
-      <div className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md">
+    <main className="flex min-h-screen flex-col items-center justify-center">
+      <h1 className="mb-4 text-white" tabIndex={0}>
+        Øve på engelske ord
+      </h1>
+      <div className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md" aria-live="polite">
         {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">
+            <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 50
             </h2>
             <div className="mb-4">
+              <label htmlFor="questionLimit" className="sr-only">
+                Antall spørsmål
+              </label>
               <input
-                required={true}
+                id="questionLimit"
+                required
                 type="number"
                 value={questionLimit}
-                onChange={e => setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)))}
+                onChange={e => setQuestionLimit(Math.max(5, parseInt(e.target.value, 10)))}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
                 min="5"
+                aria-describedby="questionLimitHelp"
               />
+              <p id="questionLimitHelp" className="sr-only">
+                Velg et tall mellom 5 og 50.
+              </p>
             </div>
             <button
               disabled={questionLimit < 5 || questionLimit > 50}
               onClick={startQuiz}
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              starte quizen
+              Starte quizen
             </button>
           </>
         ) : (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">Oversett til norsk:</h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
+              Oversett til norsk:
+            </h2>
             {isReview && (
               <div className="mb-5">
-                <p>gjennomgå {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} feil svar</p>
+                <p tabIndex={0}>
+                  Gjennomgå {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} feil svar
+                </p>
               </div>
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
               <div className="flex w-full items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                <p className="text-lg lowercase text-gray-700">{currentQuestion?.norwegian}</p>
+                <p className="text-lg lowercase text-gray-700" tabIndex={0}>
+                  {currentQuestion?.norwegian}
+                </p>
               </div>
               <input
                 placeholder="Skriv svaret ditt her..."
@@ -182,6 +198,7 @@ function English() {
                 onChange={e => setAnswer(e.target.value)}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 minLength={!showAnswer ? 2 : 0}
+                aria-label="Ditt svar"
               />
               <button
                 ref={submitButtonRef}
@@ -191,7 +208,8 @@ function English() {
                 {showAnswer ? 'Fortsette' : 'Sende inn'}
               </button>
             </form>
-            {showAnswer && <strong>{currentQuestion?.english}</strong>}
+            {showAnswer && <strong tabIndex={0}>{currentQuestion?.english}</strong>}
+            {/* Making answer reveal focusable */}
             <div className="mb-4 mt-4 text-sm text-gray-600">
               Spørsmål {Math.min(questionCount + 1, questionLimit)} av {questionLimit}
             </div>
@@ -205,34 +223,22 @@ function English() {
                   {showHint ? 'Vis svar' : 'hint'}
                 </button>
                 {showHint && (
-                  <pre className="text-xl text-gray-700">begynner med bokstaven: {currentQuestion?.english[0]}</pre>
+                  <pre className="text-xl text-gray-700" tabIndex={0}>
+                    Begynner med bokstaven: {currentQuestion?.english[0]}
+                  </pre>
                 )}
               </div>
             )}
-            <div className="flex h-3 items-center justify-between">
-              <button
-                className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
-                onClick={() => {
-                  setShowHint(true);
-                  setShowAnswer(true);
-                }}
-                type="button"
-              >
-                hint
-              </button>
-              {showHint && (
-                <pre className="text-xl text-gray-700">begynner med bokstaven:{currentQuestion?.english[0]}</pre>
-              )}
-            </div>
           </>
         )}
       </div>
       <button
         onClick={handleReportQuestion}
         className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
+        aria-label="Rapporter tidligere spørsmål"
       >
-        rapporter tidligere spørsmål
+        Rapporter tidligere spørsmål
       </button>
-    </div>
+    </main>
   );
 }

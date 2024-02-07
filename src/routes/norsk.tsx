@@ -135,55 +135,84 @@ function Norsk() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="mb-4 text-white">Practicing Norwegian words</h1>
-      <div className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md">
+    <main className="flex min-h-screen flex-col items-center justify-center">
+      <h1 className="mb-4 text-white" tabIndex={0}>
+        Practicing Norwegian words
+      </h1>
+      <section className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md" aria-live="polite">
         {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">
+            <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               How many questions would you like to answer? Minimum 5 and maximum 50
             </h2>
             <div className="mb-4">
+              <label htmlFor="questionLimit" className="block text-sm font-medium text-gray-700">
+                Question Limit
+              </label>
               <input
-                required={true}
+                id="questionLimit"
+                required
                 type="number"
                 value={questionLimit}
                 onChange={e => setQuestionLimit(Math.max(5, parseInt(e.target.value, 10)))}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
+                aria-describedby="questionLimitHelp"
               />
+              <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
+                Enter a number between 5 and 50.
+              </p>
             </div>
             <button
               disabled={questionLimit < 5 || questionLimit > 50}
               onClick={startQuiz}
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              start the quiz
+              Start the quiz
             </button>
           </>
         ) : (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to English:</h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
+              Translate to English:
+            </h2>
             {isReview && (
               <div className="mb-5">
-                <p>reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers</p>
+                <p tabIndex={0}>
+                  Reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers
+                </p>
               </div>
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
-              <div className="flex w-full items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                <p className="text-lg lowercase text-gray-700">{currentQuestion?.norwegian}</p>
+              <fieldset className="w-full">
+                <legend className="sr-only">Norwegian word to translate</legend>
+                <div
+                  className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  aria-label="Current Question"
+                >
+                  <p className="text-lg lowercase text-gray-700" tabIndex={0}>
+                    {currentQuestion?.norwegian}
+                  </p>
+                </div>
+              </fieldset>
+              <div>
+                <label htmlFor="answerInput" className="sr-only">
+                  Type your answer here
+                </label>
+                <input
+                  id="answerInput"
+                  placeholder="Type your answer here..."
+                  required={!showAnswer}
+                  disabled={showAnswer}
+                  type="text"
+                  value={answer}
+                  onChange={e => setAnswer(e.target.value)}
+                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  minLength={!showAnswer ? 2 : 0}
+                  aria-required={!showAnswer}
+                />
               </div>
-              <input
-                placeholder="Type your answer here..."
-                required={!showAnswer}
-                disabled={showAnswer}
-                type="text"
-                value={answer}
-                onChange={e => setAnswer(e.target.value)}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                minLength={!showAnswer ? 2 : 0}
-              />
               <button
                 ref={submitButtonRef}
                 type="submit"
@@ -192,8 +221,8 @@ function Norsk() {
                 {showAnswer ? 'Continue' : 'Submit'}
               </button>
             </form>
-            {showAnswer && <strong>{currentQuestion?.english}</strong>}
-            <div className="mb-4 mt-4 text-sm text-gray-600">
+            {showAnswer && <strong tabIndex={0}>{currentQuestion?.english}</strong>}
+            <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
               Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
             </div>
             {!showAnswer && (
@@ -202,23 +231,27 @@ function Norsk() {
                   className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                   onClick={handleShowHint}
                   type="button"
+                  aria-pressed={showHint ? 'true' : 'false'}
                 >
                   {showHint ? 'show answer' : 'hint'}
                 </button>
                 {showHint && (
-                  <pre className="text-xl text-gray-700">starts with letter: {currentQuestion?.english[0]}</pre>
+                  <pre className="text-xl text-gray-700" tabIndex={0}>
+                    Starts with letter: {currentQuestion?.english[0]}
+                  </pre>
                 )}
               </div>
             )}
           </>
         )}
-      </div>
+      </section>
       <button
         onClick={handleReportQuestion}
         className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
+        aria-label="Report the previous question"
       >
-        report previous question
+        Report previous question
       </button>
-    </div>
+    </main>
   );
 }
