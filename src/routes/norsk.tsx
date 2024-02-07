@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
+import { useSpring, animated } from '@react-spring/web';
 import { data } from '../data';
 import { Question } from '../types';
 import { shuffleArray } from '../utils/question';
@@ -24,6 +25,27 @@ function Norsk() {
   const [finished, setFinished] = useState(false);
   const [previousQuestion, setPreviousQuestion] = useState<Question>();
   const { width, height } = useWindowSize();
+
+  // Animation for the title
+  const fadeIn = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 100,
+  });
+
+  // Animation for the quiz section
+  const scaleUp = useSpring({
+    from: { transform: 'scale(0.8)' },
+    to: { transform: 'scale(1)' },
+    delay: 300,
+  });
+
+  // Animation for buttons on hover
+  const [hoverProps, setHover] = useSpring(() => ({
+    to: { scale: 1 },
+    from: { scale: 1 },
+    config: { mass: 5, tension: 350, friction: 40 },
+  }));
 
   const submitButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -136,10 +158,14 @@ function Norsk() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="mb-4 text-white" tabIndex={0}>
+      <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
         Practicing Norwegian words
-      </h1>
-      <section className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md" aria-live="polite">
+      </animated.h1>
+      <animated.section
+        style={scaleUp}
+        className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md"
+        aria-live="polite"
+      >
         {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
@@ -244,14 +270,17 @@ function Norsk() {
             )}
           </>
         )}
-      </section>
-      <button
+      </animated.section>
+      <animated.button
+        onMouseEnter={() => setHover({ scale: 1.1 })}
+        onMouseLeave={() => setHover({ scale: 1 })}
+        style={{ transform: hoverProps.scale.to(scale => `scale(${scale})`) }}
         onClick={handleReportQuestion}
         className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
         aria-label="Report the previous question"
       >
         Report previous question
-      </button>
+      </animated.button>
     </main>
   );
 }
