@@ -14,7 +14,7 @@ function English() {
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>();
   const [questionsFromIncorrectAnswers, setQuestionsFromIncorrectAnswers] = useState<Question[]>([]);
   const [answer, setAnswer] = useState('');
-  const [questionLimit, setQuestionLimit] = useState(0);
+  const [questionLimit, setQuestionLimit] = useState(5);
   const [questionCount, setQuestionCount] = useState(0);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
