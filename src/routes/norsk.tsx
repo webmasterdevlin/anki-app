@@ -158,6 +158,7 @@ function Norsk() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
+      {finished && <Confetti width={width} height={height} />}
       <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
         Practicing Norwegian words
       </animated.h1>
@@ -166,7 +167,6 @@ function Norsk() {
         className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md"
         aria-live="polite"
       >
-        {finished && <Confetti width={width} height={height} />}
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
