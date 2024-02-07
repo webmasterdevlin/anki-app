@@ -312,7 +312,7 @@ export const data: Question[] = [
     english: 'home entertainment system',
   },
   { norwegian: 'tilgang', english: 'access' },
-  { norwegian: 'å beholde, å holde', english: 'to retain,to keep' },
+  { norwegian: 'å beholde, å holde', english: 'to retain, to keep' },
   { norwegian: 'fuktigheten', english: 'the humidity' },
   { norwegian: 'fuktighet', english: 'moisture' },
   { norwegian: 'kjølig', english: 'cool' },
