@@ -89,7 +89,9 @@ function Norsk() {
           resetQuiz();
         }
       } else {
-        alert(`Incorrect! The correct answer was: ${currentQuestion.english.toLowerCase()}`);
+        alert(
+          `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
+        );
         let question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
@@ -100,7 +102,9 @@ function Norsk() {
       if (currentQuestion.english.toLowerCase() === answer.toLowerCase().trim()) {
         alert('Correct!');
       } else {
-        alert(`Incorrect! The correct answer was: ${currentQuestion.english.toLowerCase()}`);
+        alert(
+          `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
+        );
         setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
       }
 
