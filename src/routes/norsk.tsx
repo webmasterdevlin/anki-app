@@ -95,10 +95,10 @@ function Norsk() {
         alert(
           `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
         );
-        const question = questionsFromIncorrectAnswers.pop();
+        const question = questionsFromIncorrectAnswers.shift();
         if (question) {
           setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
+          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
         }
       }
     } else {
@@ -108,13 +108,8 @@ function Norsk() {
         alert(
           `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
         );
-        const question = questionsFromIncorrectAnswers.pop();
-        if (question) {
-          setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
-        }
+        setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
       }
-
       if (questionCount < questionLimit) {
         setQuestionCount(questionCount + 1);
       } else {
@@ -122,7 +117,7 @@ function Norsk() {
         alert('You have completed the quiz!');
         resetQuiz();
       }
-      let question = questions.pop();
+      const question = questions.pop();
       if (question) {
         setCurrentQuestion(question);
         setQuestions([...questions]);
