@@ -70,7 +70,7 @@ function English() {
         }
       } else {
         alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
-        let question = questionsFromIncorrectAnswers.pop();
+        const question = questionsFromIncorrectAnswers.pop();
         if (question) {
           setCurrentQuestion(question);
           setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
@@ -81,7 +81,11 @@ function English() {
         alert('Riktig!');
       } else {
         alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
-        setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
+        const question = questionsFromIncorrectAnswers.pop();
+        if (question) {
+          setCurrentQuestion(question);
+          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
+        }
       }
 
       if (questionCount < questionLimit) {
