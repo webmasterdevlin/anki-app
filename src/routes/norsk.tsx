@@ -94,13 +94,15 @@ function Norsk() {
         alert(
           `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
         );
-        const filteredQuestions = questionsFromIncorrectAnswers.filter(q => q !== currentQuestion);
-
-        const question = filteredQuestions.shift();
+        const question = questionsFromIncorrectAnswers.shift();
         if (question) {
           setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([...filteredQuestions, currentQuestion]);
+          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
         }
+        setAnswer('');
+        setShowHint(false);
+        setShowAnswer(false);
+        return;
       }
     } else {
       if (currentQuestion.english.toLowerCase() === answer.toLowerCase().trim()) {
@@ -118,6 +120,7 @@ function Norsk() {
         alert('You have completed the quiz!');
         resetQuiz();
       }
+
       const question = questions.pop();
       if (question) {
         setCurrentQuestion(question);
@@ -125,10 +128,11 @@ function Norsk() {
       } else {
         if (questionsFromIncorrectAnswers.length > 0) {
           setIsReview(true);
-          setCurrentQuestion(null);
           const result = questionsFromIncorrectAnswers.shift();
           if (result) {
             setCurrentQuestion(result);
+            questionsFromIncorrectAnswers.unshift(result);
+            setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
           }
         } else {
           alert('You have completed the quiz!');
@@ -214,7 +218,7 @@ function Norsk() {
             {isReview && (
               <div className="mb-5">
                 <p tabIndex={0}>
-                  Reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 1 : 0)} incorrect answers
+                  Reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers
                 </p>
               </div>
             )}
@@ -289,6 +293,7 @@ function Norsk() {
       >
         Report previous question
       </animated.button>
+      <h1 className="text-white">{JSON.stringify(questionsFromIncorrectAnswers)}</h1>
     </main>
   );
 }
