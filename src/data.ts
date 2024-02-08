@@ -450,7 +450,7 @@ export const data: Question[] = [
   { norwegian: 'grundig', english: 'thoroughly' },
   { norwegian: 'å samle', english: 'to collect,to gather' },
   { norwegian: 'ubrukt', english: 'unused' },
-  { norwegian: 'støy,bråk', english: 'noise' },
+  { norwegian: 'støy, bråk', english: 'noise' },
   { norwegian: 'å dekke', english: 'to cover' },
   { norwegian: 'lyder', english: 'sounds' },
   { norwegian: 'tykk', english: 'thick' },
