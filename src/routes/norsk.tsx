@@ -12,18 +12,13 @@ export const Route = createFileRoute('/norsk')({
 });
 
 function Norsk() {
-  const [currentQuestion, setCurrentQuestion] = useState<Question | null>();
-  const [questionsFromIncorrectAnswers, setQuestionsFromIncorrectAnswers] = useState<Question[]>([]);
   const [answer, setAnswer] = useState('');
-  const [questionLimit, setQuestionLimit] = useState(5);
-  const [questionCount, setQuestionCount] = useState(0);
+  const [questionLimit, setQuestionLimit] = useState(0);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [isReview, setIsReview] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [previousQuestion, setPreviousQuestion] = useState<Question>();
   const { width, height } = useWindowSize();
 
   // Animation for the title
@@ -59,8 +54,6 @@ function Norsk() {
     const thirdShuffled = shuffleArray([...secondShuffled]);
     const shuffledNewData = shuffleArray([...thirdShuffled]);
     shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-    const question = shuffledNewData.pop();
-    setCurrentQuestion(question);
     setQuestions([...shuffledNewData]);
     setHasQuizStarted(true);
     setFinished(false);
@@ -69,76 +62,27 @@ function Norsk() {
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
 
-    if (!currentQuestion) {
-      alert('No question found');
-      return;
+    if (questions[0].english.toLowerCase() === answer.toLowerCase().trim()) {
+      alert('Correct!');
+      // removes the first question from the array
+      questions.splice(questions.indexOf(questions[0]), 1);
+    } else {
+      alert(
+        `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
+      );
+      // adds the first question to the end of the array or moving the first question to the end of the array
+      const currentQuestion = questions[0];
+      questions.splice(questions.indexOf(currentQuestion), 1);
+      setQuestions([...questions, currentQuestion]);
     }
 
-    setPreviousQuestion(currentQuestion);
-
-    if (isReview) {
-      if (currentQuestion.english.toLowerCase() === answer.toLowerCase().trim()) {
-        alert('Correct!');
-        questionsFromIncorrectAnswers.splice(questionsFromIncorrectAnswers.indexOf(currentQuestion), 1);
-        const result = questionsFromIncorrectAnswers.pop();
-        if (result) {
-          setCurrentQuestion(result);
-          questionsFromIncorrectAnswers.unshift(result);
-          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers]);
-        } else {
-          setFinished(true);
-          alert('You have completed the quiz!');
-          resetQuiz();
-        }
-      } else {
-        alert(
-          `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
-        );
-        const question = questionsFromIncorrectAnswers.shift();
-        if (question) {
-          setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
-        }
-        setAnswer('');
-        setShowHint(false);
-        setShowAnswer(false);
-        return;
-      }
-    } else {
-      if (currentQuestion.english.toLowerCase() === answer.toLowerCase().trim()) {
-        alert('Correct!');
-      } else {
-        alert(
-          `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
-        );
-        setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
-      }
-      if (questionCount < questionLimit) {
-        setQuestionCount(questionCount + 1);
-      } else {
-        setFinished(true);
-        alert('You have completed the quiz!');
-        resetQuiz();
-      }
-
-      const question = questions.pop();
-      if (question) {
-        setCurrentQuestion(question);
-        setQuestions([...questions]);
-      } else {
-        if (questionsFromIncorrectAnswers.length > 0) {
-          setIsReview(true);
-          const result = questionsFromIncorrectAnswers.shift();
-          if (result) {
-            setCurrentQuestion(result);
-            questionsFromIncorrectAnswers.unshift(result);
-            setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
-          }
-        } else {
-          alert('You have completed the quiz!');
-          resetQuiz();
-        }
-      }
+    // This finished the game
+    if (questions.length === 0) {
+      alert('You have completed the quiz!');
+      setFinished(true);
+      alert('You have completed the quiz!');
+      resetQuiz();
+      return;
     }
 
     setAnswer('');
@@ -147,12 +91,8 @@ function Norsk() {
   };
 
   const resetQuiz = () => {
-    setCurrentQuestion(null);
-    setQuestionsFromIncorrectAnswers([]);
-    setIsReview(false);
     setHasQuizStarted(false);
     setQuestionLimit(0);
-    setQuestionCount(0);
   };
 
   const handleShowHint = () => {
@@ -164,7 +104,7 @@ function Norsk() {
 
   const handleReportQuestion = () => {
     alert('Question reported!');
-    throw new Error(`Reported question : ` + JSON.stringify(previousQuestion, null, 2));
+    throw new Error(`Reported question : ` + JSON.stringify(questions[questions.length - 1], null, 2));
   };
 
   return (
@@ -215,13 +155,6 @@ function Norsk() {
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Translate to English:
             </h2>
-            {isReview && (
-              <div className="mb-5">
-                <p tabIndex={0}>
-                  Reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers
-                </p>
-              </div>
-            )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
               <fieldset className="w-full">
                 <legend className="sr-only">Norwegian word to translate</legend>
@@ -230,7 +163,7 @@ function Norsk() {
                   aria-label="Current Question"
                 >
                   <p className="text-lg lowercase text-gray-700" tabIndex={0}>
-                    {currentQuestion?.norwegian}
+                    {questions[0]?.norwegian}
                   </p>
                 </div>
               </fieldset>
@@ -259,9 +192,17 @@ function Norsk() {
                 {showAnswer ? 'Continue' : 'Submit'}
               </button>
             </form>
-            {showAnswer && <strong tabIndex={0}>{currentQuestion?.english}</strong>}
+            {showAnswer && <strong tabIndex={0}>{questions[0]?.english}</strong>}
             <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
-              Question {Math.min(questionCount + 1, questionLimit)} of {questionLimit}
+              progress
+              <div className="w-full rounded-full bg-gray-200 dark:bg-gray-700">
+                <div
+                  className="rounded-full bg-indigo-500 p-0.5 text-center text-xs font-medium leading-none text-indigo-100"
+                  style={{ width: `${((questionLimit - questions.length + 1) / questionLimit) * 100}%` }}
+                >
+                  {questionLimit - questions.length + 1} of {questionLimit}
+                </div>
+              </div>
             </div>
             {!showAnswer && (
               <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
@@ -275,7 +216,7 @@ function Norsk() {
                 </button>
                 {showHint && (
                   <pre className="text-xl text-gray-700" tabIndex={0}>
-                    Starts with letter: {currentQuestion?.english[0]}
+                    Starts with letter: {questions[0]?.english[0]}
                   </pre>
                 )}
               </div>
@@ -293,7 +234,6 @@ function Norsk() {
       >
         Report previous question
       </animated.button>
-      <h1 className="text-white">{JSON.stringify(questionsFromIncorrectAnswers)}</h1>
     </main>
   );
 }
