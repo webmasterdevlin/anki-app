@@ -3,7 +3,7 @@
   "short_name": "anki-app",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFFFFF",
+  "background_color": "#00FFFF",
   "lang": "en",
   "scope": "/",
   "description": "improve your norsk vocabularies",
@@ -17,5 +17,5 @@
     { "src": "/mobile-screenshot-1.png", "sizes": "640x1136", "type": "image/png", "form_factor": "narrow" },
     { "src": "/desktop-screenshot-1.png", "sizes": "1136x640", "type": "image/png", "form_factor": "wide" }
   ],
-  "theme_color": "#FFFFFF"
+  "theme_color": "#00FFFF"
 }
