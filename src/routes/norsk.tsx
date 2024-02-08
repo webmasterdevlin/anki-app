@@ -13,7 +13,7 @@ export const Route = createFileRoute('/norsk')({
 
 function Norsk() {
   const [answer, setAnswer] = useState('');
-  const [questionLimit, setQuestionLimit] = useState(0);
+  const [questionLimit, setQuestionLimit] = useState(5);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [showHint, setShowHint] = useState(false);
@@ -64,19 +64,20 @@ function Norsk() {
 
     if (questions[0].english.toLowerCase() === answer.toLowerCase().trim()) {
       alert('Correct!');
-      // removes the first question from the array
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
       alert(
         `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
       );
-      // adds the first question to the end of the array or moving the first question to the end of the array
       const currentQuestion = questions[0];
       questions.splice(questions.indexOf(currentQuestion), 1);
       setQuestions([...questions, currentQuestion]);
+      if (questions.length === 0) {
+        resetForm();
+        return;
+      }
     }
 
-    // This finished the game
     if (questions.length === 0) {
       resetForm();
       resetQuiz();
