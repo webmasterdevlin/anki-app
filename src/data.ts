@@ -571,7 +571,7 @@ export const data: Question[] = [
   { norwegian: 'utsikt', english: 'view' },
   { norwegian: 'utmerket', english: 'excellent' },
   { norwegian: 'vennligst', english: 'please' },
-  { norwegian: 'vanntette,vanntett materiale', english: 'waterproof' },
+  { norwegian: 'vanntette, vanntett materiale', english: 'waterproof' },
   { norwegian: 'ull', english: 'wool' },
   { norwegian: 'fullkornsbrød', english: 'whole grain bread' },
   { norwegian: 'glutenfritt', english: 'gluten free' },

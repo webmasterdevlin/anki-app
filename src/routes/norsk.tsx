@@ -78,21 +78,25 @@ function Norsk() {
 
     // This finished the game
     if (questions.length === 0) {
-      alert('You have completed the quiz!');
+      resetForm();
+      resetQuiz();
       setFinished(true);
       alert('You have completed the quiz!');
-      resetQuiz();
       return;
     }
 
-    setAnswer('');
-    setShowHint(false);
-    setShowAnswer(false);
+    resetForm();
   };
 
   const resetQuiz = () => {
     setHasQuizStarted(false);
     setQuestionLimit(0);
+  };
+
+  const resetForm = () => {
+    setAnswer('');
+    setShowHint(false);
+    setShowAnswer(false);
   };
 
   const handleShowHint = () => {
