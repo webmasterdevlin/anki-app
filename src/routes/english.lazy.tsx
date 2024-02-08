@@ -2,8 +2,9 @@ import { createLazyFileRoute } from '@tanstack/react-router';
 import { useState, FormEvent, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
-import { data } from '../data.ts';
-import { Question } from '../types.ts';
+import { useSpring, animated } from '@react-spring/web';
+import { data } from '../data';
+import { Question } from '../types';
 import { shuffleArray } from '../utils/question';
 
 export const Route = createLazyFileRoute('/english')({
@@ -25,6 +26,27 @@ function English() {
   const [previousQuestion, setPreviousQuestion] = useState<Question>();
   const { width, height } = useWindowSize();
 
+  // Animation for the title
+  const fadeIn = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    delay: 100,
+  });
+
+  // Animation for the quiz section
+  const scaleUp = useSpring({
+    from: { transform: 'scale(0.8)' },
+    to: { transform: 'scale(1)' },
+    delay: 300,
+  });
+
+  // Animation for buttons on hover
+  const [hoverProps, setHover] = useSpring(() => ({
+    to: { scale: 1 },
+    from: { scale: 1 },
+    config: { mass: 5, tension: 350, friction: 40 },
+  }));
+
   const submitButtonRef = useRef<HTMLButtonElement>(null);
 
   const focusToSubmitButton = () => {
@@ -32,8 +54,7 @@ function English() {
   };
 
   const startQuiz = () => {
-    const newData = [...data];
-    const firstShuffled = shuffleArray(newData);
+    const firstShuffled = shuffleArray([...data]);
     const secondShuffled = shuffleArray([...firstShuffled]);
     const thirdShuffled = shuffleArray([...secondShuffled]);
     const shuffledNewData = shuffleArray([...thirdShuffled]);
@@ -47,6 +68,7 @@ function English() {
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
+
     if (!currentQuestion) {
       alert('Ingen spørsmål funnet');
       return;
@@ -69,25 +91,26 @@ function English() {
           resetQuiz();
         }
       } else {
-        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
-        const question = questionsFromIncorrectAnswers.pop();
+        alert(
+          `Stemmer ikke! Riktig svar var: ${currentQuestion.english.toLowerCase()} = ${currentQuestion.norwegian.toLowerCase()}`,
+        );
+        const filteredQuestions = questionsFromIncorrectAnswers.filter(q => q !== currentQuestion);
+
+        const question = filteredQuestions.shift();
         if (question) {
           setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
+          setQuestionsFromIncorrectAnswers([...filteredQuestions, currentQuestion]);
         }
       }
     } else {
       if (currentQuestion.norwegian.toLowerCase() === answer.toLowerCase().trim()) {
         alert('Riktig!');
       } else {
-        alert(`Stemmer ikke! Riktig svar var: ${currentQuestion.norwegian.toLowerCase()}`);
-        const question = questionsFromIncorrectAnswers.pop();
-        if (question) {
-          setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([currentQuestion, ...questionsFromIncorrectAnswers]);
-        }
+        alert(
+          `Stemmer ikke! Riktig svar var: ${currentQuestion.english.toLowerCase()} = ${currentQuestion.norwegian.toLowerCase()}`,
+        );
+        setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
       }
-
       if (questionCount < questionLimit) {
         setQuestionCount(questionCount + 1);
       } else {
@@ -95,17 +118,17 @@ function English() {
         alert('Du har fullført quizen!');
         resetQuiz();
       }
-      let question = questions.pop();
+      const question = questions.pop();
       if (question) {
         setCurrentQuestion(question);
         setQuestions([...questions]);
       } else {
         if (questionsFromIncorrectAnswers.length > 0) {
           setIsReview(true);
-          const result = questionsFromIncorrectAnswers.pop();
+          setCurrentQuestion(null);
+          const result = questionsFromIncorrectAnswers.shift();
           if (result) {
             setCurrentQuestion(result);
-            questionsFromIncorrectAnswers.unshift(result);
           }
         } else {
           alert('Du har fullført quizen!');
@@ -142,18 +165,22 @@ function English() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
-      <h1 className="mb-4 text-white" tabIndex={0}>
-        Øve på engelske ord
-      </h1>
-      <div className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md" aria-live="polite">
-        {finished && <Confetti width={width} height={height} />}
+      {finished && <Confetti width={width} height={height} />}
+      <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
+        Practicing Norwegian words
+      </animated.h1>
+      <animated.section
+        style={scaleUp}
+        className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md"
+        aria-live="polite"
+      >
         {!hasQuizStarted ? (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 100
             </h2>
             <div className="mb-4">
-              <label htmlFor="questionLimit" className="sr-only">
+              <label htmlFor="questionLimit" className="block text-sm font-medium text-gray-700">
                 Antall spørsmål
               </label>
               <input
@@ -162,12 +189,12 @@ function English() {
                 type="number"
                 value={questionLimit}
                 onChange={e => setQuestionLimit(Math.max(5, parseInt(e.target.value, 10)))}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
                 max="100"
                 aria-describedby="questionLimitHelp"
               />
-              <p id="questionLimitHelp" className="sr-only">
+              <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
                 Velg et tall mellom 5 og 100.
               </p>
             </div>
@@ -187,38 +214,49 @@ function English() {
             {isReview && (
               <div className="mb-5">
                 <p tabIndex={0}>
-                  Gjennomgå {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} feil svar
+                  Gjennomgå {questionsFromIncorrectAnswers.length + (currentQuestion ? 1 : 0)} feil svar
                 </p>
               </div>
             )}
             <form onSubmit={handleFormSubmit} className="space-y-4">
-              <div className="flex w-full items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                <p className="text-lg lowercase text-gray-700" tabIndex={0}>
-                  {currentQuestion?.norwegian}
-                </p>
+              <fieldset className="w-full">
+                <legend className="sr-only">Engelsk ord å oversette</legend>
+                <div
+                  className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  aria-label="Current Question"
+                >
+                  <p className="text-lg lowercase text-gray-700" tabIndex={0}>
+                    {currentQuestion?.norwegian}
+                  </p>
+                </div>
+              </fieldset>
+              <div>
+                <label htmlFor="answerInput" className="sr-only">
+                  Skriv svaret ditt her
+                </label>
+                <input
+                  id="answerInput"
+                  placeholder="Skriv svaret ditt her..."
+                  required={!showAnswer}
+                  disabled={showAnswer}
+                  type="text"
+                  value={answer}
+                  onChange={e => setAnswer(e.target.value)}
+                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  minLength={!showAnswer ? 2 : 0}
+                  aria-required={!showAnswer}
+                />
               </div>
-              <input
-                placeholder="Skriv svaret ditt her..."
-                required={!showAnswer}
-                disabled={showAnswer}
-                type="text"
-                value={answer}
-                onChange={e => setAnswer(e.target.value)}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                minLength={!showAnswer ? 2 : 0}
-                aria-label="Ditt svar"
-              />
               <button
                 ref={submitButtonRef}
                 type="submit"
-                className="w-full rounded-md bg-blue-500 py-2 font-medium text-white hover:bg-blue-600"
+                className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
                 {showAnswer ? 'Fortsette' : 'Sende inn'}
               </button>
             </form>
             {showAnswer && <strong tabIndex={0}>{currentQuestion?.english}</strong>}
-            {/* Making answer reveal focusable */}
-            <div className="mb-4 mt-4 text-sm text-gray-600">
+            <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
               Spørsmål {Math.min(questionCount + 1, questionLimit)} av {questionLimit}
             </div>
             {!showAnswer && (
@@ -239,14 +277,17 @@ function English() {
             )}
           </>
         )}
-      </div>
-      <button
+      </animated.section>
+      <animated.button
+        onMouseEnter={() => setHover({ scale: 1.1 })}
+        onMouseLeave={() => setHover({ scale: 1 })}
+        style={{ transform: hoverProps.scale.to(scale => `scale(${scale})`) }}
         onClick={handleReportQuestion}
         className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
         aria-label="Rapporter tidligere spørsmål"
       >
         Rapporter tidligere spørsmål
-      </button>
+      </animated.button>
     </main>
   );
 }

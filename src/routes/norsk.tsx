@@ -54,8 +54,7 @@ function Norsk() {
   };
 
   const startQuiz = () => {
-    const newData = [...data];
-    const firstShuffled = shuffleArray(newData);
+    const firstShuffled = shuffleArray([...data]);
     const secondShuffled = shuffleArray([...firstShuffled]);
     const thirdShuffled = shuffleArray([...secondShuffled]);
     const shuffledNewData = shuffleArray([...thirdShuffled]);
@@ -95,10 +94,12 @@ function Norsk() {
         alert(
           `Incorrect! The correct answer was: ${currentQuestion.norwegian.toLowerCase()} = ${currentQuestion.english.toLowerCase()}`,
         );
-        const question = questionsFromIncorrectAnswers.shift();
+        const filteredQuestions = questionsFromIncorrectAnswers.filter(q => q !== currentQuestion);
+
+        const question = filteredQuestions.shift();
         if (question) {
           setCurrentQuestion(question);
-          setQuestionsFromIncorrectAnswers([...questionsFromIncorrectAnswers, currentQuestion]);
+          setQuestionsFromIncorrectAnswers([...filteredQuestions, currentQuestion]);
         }
       }
     } else {
@@ -124,10 +125,10 @@ function Norsk() {
       } else {
         if (questionsFromIncorrectAnswers.length > 0) {
           setIsReview(true);
-          const result = questionsFromIncorrectAnswers.pop();
+          setCurrentQuestion(null);
+          const result = questionsFromIncorrectAnswers.shift();
           if (result) {
             setCurrentQuestion(result);
-            questionsFromIncorrectAnswers.unshift(result);
           }
         } else {
           alert('You have completed the quiz!');
@@ -213,7 +214,7 @@ function Norsk() {
             {isReview && (
               <div className="mb-5">
                 <p tabIndex={0}>
-                  Reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 0 : 1)} incorrect answers
+                  Reviewing {questionsFromIncorrectAnswers.length + (currentQuestion ? 1 : 0)} incorrect answers
                 </p>
               </div>
             )}
