@@ -115,7 +115,7 @@ function Norsk() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
       {finished && <Confetti width={width} height={height} />}
-      <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
+      <animated.h1 style={fadeIn} className="mb-4 text-white">
         Practicing Norwegian words
       </animated.h1>
       <animated.section
@@ -125,7 +125,7 @@ function Norsk() {
       >
         {!hasQuizStarted ? (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">
               How many questions would you like to answer? Minimum 5 and maximum 100
             </h2>
             <div className="mb-4">
