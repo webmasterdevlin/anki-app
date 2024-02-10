@@ -221,7 +221,10 @@ function Norsk() {
                 </button>
                 {showHint && (
                   <pre className="text-xl text-gray-700" tabIndex={0}>
-                    Starts with letter: {questions[0]?.english[0]}
+                    Starts with letter:{' '}
+                    {questions[0]?.english.startsWith('to ')
+                      ? questions[0]?.english.substring(0, 5)
+                      : questions[0]?.english.substring(0, 2)}
                   </pre>
                 )}
               </div>
