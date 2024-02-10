@@ -29,6 +29,8 @@ function Norsk() {
     if (questions.length > 0) {
       const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
       utterance.voice = norwegianVoices[0];
+      utterance.rate = 0.8;
+      utterance.pitch = 0.8;
       window.speechSynthesis.speak(utterance);
     }
   }, [questions]);
@@ -187,12 +189,16 @@ function Norsk() {
               <fieldset className="w-full">
                 <legend className="sr-only">Norwegian word to translate</legend>
                 <div
-                  className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                  aria-label="Current Question"
+                  role="button"
+                  onClick={speak}
+                  tabIndex={0}
+                  aria-label="Speak the current question"
+                  className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <p className="text-lg lowercase text-gray-700" tabIndex={0}>
                     {questions[0]?.norwegian}
                   </p>
+                  <p aria-hidden="true">🔊</p>
                 </div>
               </fieldset>
               <div>
