@@ -183,7 +183,7 @@ function English() {
                   type="text"
                   value={answer}
                   onChange={e => setAnswer(e.target.value)}
-                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-gray-200"
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
                 />

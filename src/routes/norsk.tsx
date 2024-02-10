@@ -207,7 +207,7 @@ function Norsk() {
                   type="text"
                   value={answer}
                   onChange={e => setAnswer(e.target.value)}
-                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-gray-200"
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
                 />
@@ -243,12 +243,12 @@ function Norsk() {
                   {showHint ? 'show answer' : 'hint'}
                 </button>
                 {showHint && (
-                  <pre className="text-xl text-gray-700" tabIndex={0}>
-                    Starts with letter:{' '}
+                  <p className="text-gray-700" tabIndex={0}>
+                    Starts with letters:{' '}
                     {questions[0]?.english.startsWith('to ')
                       ? questions[0]?.english.substring(0, 5)
                       : questions[0]?.english.substring(0, 2)}
-                  </pre>
+                  </p>
                 )}
               </div>
             )}
