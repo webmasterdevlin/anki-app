@@ -31,7 +31,7 @@ function Norsk() {
       utterance.voice = norwegianVoices[0];
       window.speechSynthesis.speak(utterance);
     }
-  }, [questions.length]);
+  }, [questions]);
 
   const speak = () => {
     if (voices.length > 0) {
