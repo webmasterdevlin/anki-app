@@ -88,7 +88,6 @@ function Norsk() {
     event.preventDefault();
 
     if (questions[0].english.toLowerCase() === answer.toLowerCase().trim()) {
-      alert('Correct!');
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
       alert(
