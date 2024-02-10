@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useState, FormEvent, useRef } from 'react';
+import { useState, FormEvent, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import { useSpring, animated } from '@react-spring/web';
@@ -85,7 +85,6 @@ function Norsk() {
       alert('You have completed the quiz!');
       return;
     }
-
     resetForm();
   };
 
@@ -111,6 +110,16 @@ function Norsk() {
     alert('Question reported!');
     throw new Error(`Reported question : ` + JSON.stringify(questions[questions.length - 1], null, 2));
   };
+
+  useEffect(() => {
+    const availableVoices = window.speechSynthesis.getVoices();
+    const norwegianVoices = availableVoices.filter(voice => voice.lang.startsWith('nb') || voice.lang.startsWith('nn'));
+    if (questions.length > 0) {
+      const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
+      utterance.voice = norwegianVoices[0];
+      window.speechSynthesis.speak(utterance);
+    }
+  }, [questions]);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
