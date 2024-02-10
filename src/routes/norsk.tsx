@@ -20,6 +20,29 @@ function Norsk() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [finished, setFinished] = useState(false);
   const { width, height } = useWindowSize();
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+
+  useEffect(() => {
+    const availableVoices = window.speechSynthesis.getVoices();
+    const norwegianVoices = availableVoices.filter(voice => voice.lang.startsWith('nb') || voice.lang.startsWith('nn'));
+    setVoices(norwegianVoices);
+    if (questions.length > 0) {
+      const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
+      utterance.voice = norwegianVoices[0];
+      window.speechSynthesis.speak(utterance);
+    }
+  }, [questions.length]);
+
+  const speak = () => {
+    if (voices.length > 0) {
+      const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
+      utterance.voice = voices[0];
+
+      window.speechSynthesis.speak(utterance);
+    } else {
+      console.log('No Norwegian voices available');
+    }
+  };
 
   // Animation for the title
   const fadeIn = useSpring({
@@ -86,6 +109,7 @@ function Norsk() {
       return;
     }
     resetForm();
+    speak();
   };
 
   const resetQuiz = () => {
@@ -110,16 +134,6 @@ function Norsk() {
     alert('Question reported!');
     throw new Error(`Reported question : ` + JSON.stringify(questions[questions.length - 1], null, 2));
   };
-
-  useEffect(() => {
-    const availableVoices = window.speechSynthesis.getVoices();
-    const norwegianVoices = availableVoices.filter(voice => voice.lang.startsWith('nb') || voice.lang.startsWith('nn'));
-    if (questions.length > 0) {
-      const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
-      utterance.voice = norwegianVoices[0];
-      window.speechSynthesis.speak(utterance);
-    }
-  }, [questions]);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
