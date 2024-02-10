@@ -198,7 +198,7 @@ function Norsk() {
                   <p className="text-lg lowercase text-gray-700" tabIndex={0}>
                     {questions[0]?.norwegian}
                   </p>
-                  <p aria-hidden="true">🔊</p>
+                  <p aria-hidden="true">🔊👈</p>
                 </div>
               </fieldset>
               <div>
