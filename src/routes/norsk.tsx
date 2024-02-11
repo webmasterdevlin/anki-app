@@ -148,7 +148,7 @@ function Norsk() {
         aria-live="polite"
       >
         {!hasQuizStarted ? (
-          <>
+          <form onSubmit={startQuiz}>
             <h2 className="mb-4 text-xl font-bold text-gray-800">
               How many questions would you like to answer? Minimum 5 and maximum 100
             </h2>
@@ -173,12 +173,12 @@ function Norsk() {
             </div>
             <button
               disabled={questionLimit < 5 || questionLimit > 100}
-              onClick={startQuiz}
+              type="submit"
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
               Start the quiz
             </button>
-          </>
+          </form>
         ) : (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
