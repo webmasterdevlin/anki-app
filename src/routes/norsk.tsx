@@ -240,6 +240,7 @@ function Norsk() {
             {!showAnswer && (
               <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
                 <button
+                  tabIndex={0}
                   className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                   onClick={handleShowHint}
                   type="button"
