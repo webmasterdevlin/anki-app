@@ -1371,4 +1371,9 @@ export const data: Question[] = [
   { norwegian: 'befaring', english: 'inspection' },
   { norwegian: 'tilfelle', english: 'case' },
   { norwegian: 'i ferd med', english: 'about to' },
+  { norwegian: 'kjenner igjen', english: 'recognize' },
+  { norwegian: 'hellige', english: 'holy' },
+  { norwegian: 'å sukke', english: 'to sigh' },
+  { norwegian: 'kommer på', english: 'remember' },
+  { norwegian: 'sjelden', english: 'rare' },
 ];
