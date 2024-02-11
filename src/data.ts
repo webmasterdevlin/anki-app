@@ -363,7 +363,7 @@ export const data: Question[] = [
   { norwegian: 'samtidig', english: 'simultaneous' },
   { norwegian: 'økt', english: 'increased' },
   { norwegian: 'å håndtere', english: 'to manage, to handle' },
-  { norwegian: 'enheter', english: 'devices,units' },
+  { norwegian: 'enheter', english: 'devices, units' },
   { norwegian: 'enheten', english: 'the device,the unit' },
   { norwegian: 'enhetene', english: 'the devices, the units' },
   { norwegian: 'påslått', english: 'switched on' },
