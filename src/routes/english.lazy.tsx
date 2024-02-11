@@ -198,14 +198,12 @@ function English() {
             </form>
             {showAnswer && <strong tabIndex={0}>{questions[0]?.english}</strong>}
             <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
-              progress
-              <div className="w-full rounded-full bg-gray-200 dark:bg-gray-700">
+              fremgang {questionLimit - questions.length + 1} av {questionLimit}
+              <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
                 <div
-                  className="rounded-full bg-indigo-500 p-0.5 text-center text-xs font-medium leading-none text-indigo-100"
+                  className="h-2 rounded-full bg-indigo-500 p-0.5 text-center text-xs font-medium leading-none text-indigo-100"
                   style={{ width: `${((questionLimit - questions.length + 1) / questionLimit) * 100}%` }}
-                >
-                  {questionLimit - questions.length + 1} of {questionLimit}
-                </div>
+                ></div>
               </div>
             </div>
             {!showAnswer && (
