@@ -123,7 +123,7 @@ function English() {
         aria-live="polite"
       >
         {!hasQuizStarted ? (
-          <>
+          <form onSubmit={startQuiz}>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 100
             </h2>
@@ -148,12 +148,12 @@ function English() {
             </div>
             <button
               disabled={questionLimit < 5 || questionLimit > 100}
-              onClick={startQuiz}
+              type="submit"
               className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
               Starte quizen
             </button>
-          </>
+          </form>
         ) : (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
