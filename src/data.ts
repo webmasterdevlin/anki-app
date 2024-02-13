@@ -1446,7 +1446,7 @@ export const data: Question[] = [
   { norwegian: 'treff, møte', english: 'meet' },
   { norwegian: 'dypt', english: 'deep' },
   { norwegian: 'ny, nyt', english: 'new' },
-  { norwegian: 'akurat nå', english: 'right now' },
+  { norwegian: 'akkurat nå', english: 'right now' },
   { norwegian: 'heldigvis', english: 'luckily, fortunately' },
   { norwegian: 'enkelt', english: 'simple' },
   { norwegian: 'det er fort gjort', english: "it's done fast" },

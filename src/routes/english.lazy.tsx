@@ -7,11 +7,7 @@ import { data } from '../data';
 import { Question } from '../types';
 import { shuffleArray } from '../utils/question';
 
-export const Route = createLazyFileRoute('/english')({
-  component: English,
-});
-
-function English() {
+const English = () => {
   const [answer, setAnswer] = useState('');
   const [questionLimit, setQuestionLimit] = useState(5);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
@@ -241,4 +237,8 @@ function English() {
       </animated.button>
     </main>
   );
-}
+};
+
+export const Route = createLazyFileRoute('/english')({
+  component: English,
+});

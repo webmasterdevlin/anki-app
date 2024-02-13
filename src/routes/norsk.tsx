@@ -165,7 +165,6 @@ function Norsk() {
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
                 max="100"
-                aria-describedby="questionLimitHelp"
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
                 Enter a number between 5 and 100.
