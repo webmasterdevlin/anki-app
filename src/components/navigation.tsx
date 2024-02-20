@@ -1,5 +1,6 @@
 import { Link } from '@tanstack/react-router';
 import { FaGithub } from 'react-icons/fa';
+import { root } from '../utils/routePaths';
 
 const Navigation = () => {
   return (
@@ -11,25 +12,18 @@ const Navigation = () => {
               inmeta
             </Link>
             <div className="ml-10 flex items-baseline gap-2 space-x-4">
-              <Link
-                to="/"
-                className="hidden rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white md:block"
-                aria-current="page"
-              >
-                Home
-              </Link>
-              <Link
-                to="/norsk"
-                className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                Norsk
-              </Link>
-              <Link
-                to="/english"
-                className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-              >
-                English
-              </Link>
+              {root.map(([to, label]) => {
+                return (
+                  <Link
+                    to={to}
+                    className="hidden rounded-md px-3 py-2 text-sm capitalize  text-gray-300 hover:bg-gray-700 hover:text-white md:block"
+                    aria-current="page"
+                    activeProps={{ className: `font-bold` }}
+                  >
+                    {label}
+                  </Link>
+                );
+              })}
             </div>
           </div>
           <div>
