@@ -1,6 +1,6 @@
-import { Question } from './types';
+import { Question } from '../models/types.ts';
 
-export const data: Question[] = [
+export const words: Question[] = [
   { norwegian: 'tale', english: 'speech' },
   { norwegian: 'formidle', english: 'convey' },
   { norwegian: 'muntlig', english: 'oral' },
@@ -1392,7 +1392,7 @@ export const data: Question[] = [
   { norwegian: 'database', english: 'database' },
   { norwegian: 'databasen', english: 'the database' },
   { norwegian: 'databasene', english: 'the databases' },
-  { norwegian: 'dataen', english: 'the data' },
+  { norwegian: 'dataen', english: 'the words' },
   { norwegian: 'sikkerhet', english: 'security' },
   { norwegian: 'sikkerheten', english: 'the security' },
   { norwegian: 'appen', english: 'the app' },

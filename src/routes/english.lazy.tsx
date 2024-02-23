@@ -3,8 +3,8 @@ import { useState, FormEvent, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import { useSpring, animated } from '@react-spring/web';
-import { data } from '../data';
-import { Question } from '../types';
+import { words } from '../data/words.ts';
+import { Question } from '../models/types.ts';
 import { shuffleArray } from '../utils/question';
 
 const English = () => {
@@ -45,7 +45,7 @@ const English = () => {
   };
 
   const startQuiz = () => {
-    const firstShuffled = shuffleArray([...data]);
+    const firstShuffled = shuffleArray([...words]);
     const secondShuffled = shuffleArray([...firstShuffled]);
     const thirdShuffled = shuffleArray([...secondShuffled]);
     const shuffledNewData = shuffleArray([...thirdShuffled]);
