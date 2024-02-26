@@ -1384,7 +1384,7 @@ export const words: Question[] = [
   { norwegian: 'nettsidene', english: 'the websites' },
   { norwegian: 'nettside', english: 'web page' },
   { norwegian: 'laste opp og laste ned', english: 'upload and download' },
-  { norwegian: 'laster opp og laster ned', english: 'uploading or downloading' },
+  { norwegian: 'laster opp eller laster ned', english: 'uploading or downloading' },
   { norwegian: 'farge', english: 'color' },
   { norwegian: 'farger', english: 'colors' },
   { norwegian: 'fargen', english: 'the color' },

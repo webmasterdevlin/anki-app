@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import eslint from 'vite-plugin-eslint';
 import vercel from 'vite-plugin-vercel';
 import { TanStackRouterVite } from '@tanstack/router-vite-plugin';
 import million from 'million/compiler';
@@ -9,6 +10,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   plugins: [
     react(),
+    eslint(),
     vercel(),
     TanStackRouterVite(),
     million.vite({ auto: true }),
