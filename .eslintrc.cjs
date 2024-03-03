@@ -15,7 +15,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
-    'plugin:jsx-a11y/recommended',
+    // 'plugin:jsx-a11y/recommended',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -57,14 +57,14 @@ module.exports = {
         'react/jsx-key': 'warn',
         'arrow-body-style': ['error', 'always'],
         'react/self-closing-comp': ['error', { component: true, html: true }],
-        // 'autofix/no-unused-vars': [
-        //   'warn',
-        //   {
-        //     argsIgnorePattern: '^_',
-        //     ignoreRestSiblings: true,
-        //     destructuredArrayIgnorePattern: '^_',
-        //   },
-        // ],
+        'autofix/no-unused-vars': [
+          'warn',
+          {
+            argsIgnorePattern: '^_',
+            ignoreRestSiblings: true,
+            destructuredArrayIgnorePattern: '^_',
+          },
+        ],
         '@typescript-eslint/consistent-type-imports': [
           'error',
           {

@@ -1,11 +1,12 @@
+import { useSpring, animated } from '@react-spring/web';
 import { createLazyFileRoute } from '@tanstack/react-router';
-import { useState, FormEvent, useRef } from 'react';
+import { useState, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
-import { useSpring, animated } from '@react-spring/web';
 import { words } from '../data/words.ts';
-import { Question } from '../models/types.ts';
 import { shuffleArray } from '../utils/question';
+import type { Question } from '../models/types.ts';
+import type { FormEvent } from 'react';
 
 const English = () => {
   const [answer, setAnswer] = useState('');
@@ -19,24 +20,26 @@ const English = () => {
 
   // Animation for the title
   const fadeIn = useSpring({
+    delay: 100,
     from: { opacity: 0 },
     to: { opacity: 1 },
-    delay: 100,
   });
 
   // Animation for the quiz section
   const scaleUp = useSpring({
+    delay: 300,
     from: { transform: 'scale(0.8)' },
     to: { transform: 'scale(1)' },
-    delay: 300,
   });
 
   // Animation for buttons on hover
-  const [hoverProps, setHover] = useSpring(() => ({
-    to: { scale: 1 },
-    from: { scale: 1 },
-    config: { mass: 5, tension: 350, friction: 40 },
-  }));
+  const [hoverProps, setHover] = useSpring(() => {
+    return {
+      config: { friction: 40, mass: 5, tension: 350 },
+      from: { scale: 1 },
+      to: { scale: 1 },
+    };
+  });
 
   const submitButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -105,7 +108,7 @@ const English = () => {
 
   const handleReportQuestion = () => {
     alert('Question reported!');
-    throw new Error(`Reported question : ` + JSON.stringify(questions[questions.length - 1], null, 2));
+    throw new Error('Reported question : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-center">
@@ -132,7 +135,9 @@ const English = () => {
                 required
                 type="number"
                 value={questionLimit}
-                onChange={e => setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)))}
+                onChange={e => {
+                  return setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
+                }}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
                 max="100"
@@ -178,7 +183,9 @@ const English = () => {
                   disabled={showAnswer}
                   type="text"
                   value={answer}
-                  onChange={e => setAnswer(e.target.value)}
+                  onChange={e => {
+                    return setAnswer(e.target.value);
+                  }}
                   className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-gray-200"
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
@@ -199,7 +206,7 @@ const English = () => {
                 <div
                   className="h-2 rounded-full bg-indigo-500 p-0.5 text-center text-xs font-medium leading-none text-indigo-100"
                   style={{ width: `${((questionLimit - questions.length + 1) / questionLimit) * 100}%` }}
-                ></div>
+                />
               </div>
             </div>
             {!showAnswer && (
@@ -226,9 +233,17 @@ const English = () => {
         )}
       </animated.section>
       <animated.button
-        onMouseEnter={() => setHover({ scale: 1.1 })}
-        onMouseLeave={() => setHover({ scale: 1 })}
-        style={{ transform: hoverProps.scale.to(scale => `scale(${scale})`) }}
+        onMouseEnter={() => {
+          return setHover({ scale: 1.1 });
+        }}
+        onMouseLeave={() => {
+          return setHover({ scale: 1 });
+        }}
+        style={{
+          transform: hoverProps.scale.to(scale => {
+            return `scale(${scale})`;
+          }),
+        }}
         onClick={handleReportQuestion}
         className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
         aria-label="Rapporter tidligere spørsmål"

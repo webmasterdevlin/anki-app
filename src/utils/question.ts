@@ -1,4 +1,4 @@
-import { Question } from '../models/types.ts';
+import type { Question } from '../models/types.ts';
 
 export function shuffleArray(array: Question[]) {
   for (let i = array.length - 1; i > 0; i--) {

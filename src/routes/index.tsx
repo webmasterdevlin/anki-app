@@ -1,5 +1,5 @@
-import { Link, createFileRoute } from '@tanstack/react-router';
 import { useSpring, animated } from '@react-spring/web';
+import { Link, createFileRoute } from '@tanstack/react-router';
 
 export const Route = createFileRoute('/')({
   component: Home,
@@ -7,9 +7,9 @@ export const Route = createFileRoute('/')({
 
 function Home() {
   const fadeInUp = useSpring({
+    config: { duration: 1000 },
     from: { opacity: 0, transform: 'translate3d(0, 30px, 0)' },
-    to: { opacity: 1, transform: 'translate3d(0, 0, 0)' },
-    config: { duration: 1000 }, // Adjust the timing here (in ms)
+    to: { opacity: 1, transform: 'translate3d(0, 0, 0)' }, // Adjust the timing here (in ms)
   });
 
   return (
