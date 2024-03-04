@@ -1,0 +1,38 @@
+trigger:
+  branches:
+    exclude:
+      - '*'  # Prevents automatic triggering
+
+pr:
+  branches:
+    include:
+      - main  # Ensures this pipeline runs for PRs targeting main
+
+jobs:
+# - job: CheckSourceBranch
+#   displayName: 'Check Source Branch'
+#   pool:
+#     vmImage: 'ubuntu-latest'
+#   steps:
+#   - checkout: none
+#   - script: |
+#       if [ "$(System.PullRequest.SourceBranch)" != "refs/heads/development" ]; then
+#         echo "##vso[task.logissue type=error]Only PRs from the 'development' branch are allowed to merge into 'main'."
+#         exit 1
+#       fi
+#     displayName: 'Validate Source Branch'
+
+- job: BuildApplication
+  displayName: 'Build Vite React App'
+  pool:
+    vmImage: 'ubuntu-latest'
+  steps:
+  - checkout: self
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '20.x'
+    displayName: 'Install Node.js'
+  - script: |
+      npm install
+      npm run build
+    displayName: 'Install dependencies and build'
