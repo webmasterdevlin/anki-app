@@ -111,7 +111,7 @@ const English = () => {
     throw new Error('Reported question : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <div>
       {finished && <Confetti width={width} height={height} />}
       <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
         Øve på engelske ord
@@ -250,7 +250,7 @@ const English = () => {
       >
         Rapporter tidligere spørsmål
       </animated.button>
-    </main>
+    </div>
   );
 };
 

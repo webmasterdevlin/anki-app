@@ -142,7 +142,7 @@ function Norsk() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
+    <div>
       {finished && <Confetti width={width} height={height} />}
       <animated.h1 style={fadeIn} className="mb-4 text-white">
         Practicing Norwegian words
@@ -288,6 +288,6 @@ function Norsk() {
       >
         Report previous question
       </animated.button>
-    </main>
+    </div>
   );
 }

@@ -18,13 +18,15 @@ const TanStackRouterDevtools =
 export const Route = createRootRoute({
   component: () => {
     return (
-      <>
+      <div className="h-svh">
         <Navigation />
-        <Outlet />
+        <main className="flex h-[90%] items-center justify-center ">
+          <Outlet />
+        </main>
         <Suspense>
           <TanStackRouterDevtools />
         </Suspense>
-      </>
+      </div>
     );
   },
 });
