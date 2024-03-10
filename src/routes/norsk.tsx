@@ -142,7 +142,7 @@ function Norsk() {
   };
 
   return (
-    <div>
+    <div className="min-w-96">
       {finished && <Confetti width={width} height={height} />}
       <animated.h1 style={fadeIn} className="mb-4 text-white">
         Practicing Norwegian words
@@ -250,7 +250,7 @@ function Norsk() {
               <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
                 <button
                   tabIndex={0}
-                  className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                  className="mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                   onClick={handleShowHint}
                   type="button"
                   aria-pressed={showHint ? 'true' : 'false'}

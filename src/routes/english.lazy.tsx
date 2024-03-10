@@ -111,7 +111,7 @@ const English = () => {
     throw new Error('Reported question : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
   return (
-    <div>
+    <div className="min-w-96">
       {finished && <Confetti width={width} height={height} />}
       <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
         Øve på engelske ord
@@ -200,7 +200,7 @@ const English = () => {
               </button>
             </form>
             {showAnswer && <strong tabIndex={0}>{questions[0]?.english}</strong>}
-            <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
+            <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
               fremgang {questionLimit - questions.length + 1} av {questionLimit}
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
                 <div
