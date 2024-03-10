@@ -15,6 +15,7 @@ const Navigation = () => {
               {root.map(([to, label]) => {
                 return (
                   <Link
+                    key={to}
                     to={to}
                     className="hidden rounded-md px-3 py-2 text-sm capitalize  text-gray-300 hover:bg-gray-700 hover:text-white md:block"
                     aria-current="page"
