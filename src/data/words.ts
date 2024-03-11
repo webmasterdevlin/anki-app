@@ -2126,4 +2126,9 @@ export const words: Question[] = [
   { english: 'disgusting', norwegian: 'ekkelt' },
   { english: 'education', norwegian: 'utdanning' },
   { english: 'to force', norwegian: 'å tvinge' },
+  { english: 'there was great laughter', norwegian: 'det var stor latter' },
+  { english: 'during the day', norwegian: 'i løpet av dagen' },
+  { english: 'have increased', norwegian: 'har økt' },
+  { english: 'ensure', norwegian: 'sikre' },
+  { english: 'very dissapointed', norwegian: 'veldig skuffet' },
 ];
