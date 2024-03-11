@@ -448,7 +448,7 @@ export const words: Question[] = [
   { english: 'the bathroom', norwegian: 'badet' },
   { english: 'bathroom', norwegian: 'bad' },
   { english: 'thoroughly', norwegian: 'grundig' },
-  { english: 'to collect,to gather', norwegian: 'å samle' },
+  { english: 'to collect, to gather', norwegian: 'å samle' },
   { english: 'unused', norwegian: 'ubrukt' },
   { english: 'noise', norwegian: 'støy, bråk' },
   { english: 'to cover', norwegian: 'å dekke' },
