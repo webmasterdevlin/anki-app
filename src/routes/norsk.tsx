@@ -187,7 +187,7 @@ function Norsk() {
             </div>
             <div className="mb-4">
               <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
-                Offset
+                Offsetting from the last question (only for 2nd option)
               </label>
               <input
                 id="questionOffset"
@@ -222,7 +222,7 @@ function Norsk() {
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >
-              start with last added questions
+              start with latest questions added
             </button>
           </form>
         ) : (
