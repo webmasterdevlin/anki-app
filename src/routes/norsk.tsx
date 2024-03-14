@@ -5,6 +5,7 @@ import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import { words } from '../data/words.ts';
 import { shuffleArray } from '../utils/question';
+
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
 
@@ -22,6 +23,8 @@ function Norsk() {
   const [finished, setFinished] = useState(false);
   const { width, height } = useWindowSize();
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [isShuffled, setIsShuffled] = useState(false);
+  const [questionOffset, setQuestionOffset] = useState(0);
 
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
@@ -79,12 +82,18 @@ function Norsk() {
   };
 
   const startQuiz = () => {
-    const firstShuffled = shuffleArray([...words]);
-    const secondShuffled = shuffleArray([...firstShuffled]);
-    const thirdShuffled = shuffleArray([...secondShuffled]);
-    const shuffledNewData = shuffleArray([...thirdShuffled]);
-    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-    setQuestions([...shuffledNewData]);
+    if (isShuffled) {
+      const firstShuffled = shuffleArray([...words]);
+      const secondShuffled = shuffleArray([...firstShuffled]);
+      const thirdShuffled = shuffleArray([...secondShuffled]);
+      const shuffledNewData = shuffleArray([...thirdShuffled]);
+      shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+      setQuestions([...shuffledNewData]);
+    } else {
+      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+      setQuestions([...lastAddedQuestions]);
+    }
+    // TODO: Add a button to start the quiz with the last added questions
     setHasQuizStarted(true);
     setFinished(false);
   };
@@ -177,12 +186,44 @@ function Norsk() {
                 Enter a number between 5 and 100.
               </p>
             </div>
+            <div className="mb-4">
+              <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
+                Offset
+              </label>
+              <input
+                id="questionOffset"
+                type="number"
+                value={questionOffset}
+                onChange={e => {
+                  return setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                }}
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                min="0"
+                max="100"
+              />
+              <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
+                Enter a number for the offset.
+              </p>
+            </div>
             <button
+              onClick={() => {
+                return setIsShuffled(true);
+              }}
               disabled={questionLimit < 5 || questionLimit > 100}
               type="submit"
-              className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
+              className="mb-4 w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              Start the quiz
+              start with random questions
+            </button>
+            <button
+              onClick={() => {
+                return setIsShuffled(false);
+              }}
+              disabled={questionLimit < 5 || questionLimit > 100}
+              type="submit"
+              className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
+            >
+              start with last added questions
             </button>
           </form>
         ) : (
