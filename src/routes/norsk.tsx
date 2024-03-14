@@ -93,7 +93,6 @@ function Norsk() {
       const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
       setQuestions([...lastAddedQuestions]);
     }
-    // TODO: Add a button to start the quiz with the last added questions
     setHasQuizStarted(true);
     setFinished(false);
   };
