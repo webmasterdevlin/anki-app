@@ -235,7 +235,7 @@ export const words: Question[] = [
   { english: 'equality', norwegian: 'likestilling' },
   { english: 'have equal', norwegian: 'har like' },
   { english: 'fairly', norwegian: 'rettferdig' },
-  { english: 'gender, age, ethnicity, etc.', norwegian: 'kjønn, alder, etnisitet osv.' },
+  { english: 'gender, age, ethnicity, etc.', norwegian: 'kjønn, alder, etnisitet, osv.' },
   { english: 'skill', norwegian: 'evne' },
   { english: 'the ability', norwegian: 'evnen' },
   { english: 'thicker', norwegian: 'tykkere' },
