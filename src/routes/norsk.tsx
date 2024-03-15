@@ -254,6 +254,8 @@ function Norsk() {
                   Type your answer here
                 </label>
                 <input
+                  autoComplete="off"
+                  autoCorrect="off"
                   id="answerInput"
                   placeholder="Type your answer here..."
                   required={!showAnswer}
