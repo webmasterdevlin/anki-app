@@ -157,6 +157,25 @@ function English() {
                 Velg et tall mellom 5 og 100.
               </p>
             </div>
+            <div className="mb-4">
+              <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
+                Offsetting from the last question (only for 2nd option)
+              </label>
+              <input
+                id="questionOffset"
+                type="number"
+                value={questionOffset}
+                onChange={e => {
+                  return setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                }}
+                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                min="0"
+                max="100"
+              />
+              <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
+                Enter a number for the offset.
+              </p>
+            </div>
             <button
               onClick={() => {
                 return setIsShuffled(true);
