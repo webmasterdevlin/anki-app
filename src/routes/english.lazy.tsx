@@ -77,7 +77,7 @@ function English() {
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
       alert(
-        `Incorrect! The correct answer was: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
+        `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
       );
       const currentQuestion = questions[0];
       questions.splice(questions.indexOf(currentQuestion), 1);
@@ -92,7 +92,7 @@ function English() {
       resetForm();
       resetQuiz();
       setFinished(true);
-      alert('You have completed the quiz!');
+      alert('Du har fullført quizen!');
       return;
     }
     resetForm();
@@ -117,8 +117,8 @@ function English() {
   };
 
   const handleReportQuestion = () => {
-    alert('Question reported!');
-    throw new Error('Reported question : ' + JSON.stringify(questions[questions.length - 1], null, 2));
+    alert('Spørsmål rapportert!');
+    throw new Error('Rapportert spørsmål : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
 
   return (
