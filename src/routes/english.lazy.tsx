@@ -1,14 +1,19 @@
 import { useSpring, animated } from '@react-spring/web';
-import { createLazyFileRoute } from '@tanstack/react-router';
+import { createFileRoute } from '@tanstack/react-router';
 import { useState, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import { words } from '../data/words.ts';
 import { shuffleArray } from '../utils/question';
+
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
 
-const English = () => {
+export const Route = createFileRoute('/english')({
+  component: English,
+});
+
+function English() {
   const [answer, setAnswer] = useState('');
   const [questionLimit, setQuestionLimit] = useState(5);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
@@ -17,6 +22,8 @@ const English = () => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [finished, setFinished] = useState(false);
   const { width, height } = useWindowSize();
+  const [isShuffled, setIsShuffled] = useState(false);
+  const [questionOffset, setQuestionOffset] = useState(0);
 
   // Animation for the title
   const fadeIn = useSpring({
@@ -48,12 +55,17 @@ const English = () => {
   };
 
   const startQuiz = () => {
-    const firstShuffled = shuffleArray([...words]);
-    const secondShuffled = shuffleArray([...firstShuffled]);
-    const thirdShuffled = shuffleArray([...secondShuffled]);
-    const shuffledNewData = shuffleArray([...thirdShuffled]);
-    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-    setQuestions([...shuffledNewData]);
+    if (isShuffled) {
+      const firstShuffled = shuffleArray([...words]);
+      const secondShuffled = shuffleArray([...firstShuffled]);
+      const thirdShuffled = shuffleArray([...secondShuffled]);
+      const shuffledNewData = shuffleArray([...thirdShuffled]);
+      shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+      setQuestions([...shuffledNewData]);
+    } else {
+      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+      setQuestions([...lastAddedQuestions]);
+    }
     setHasQuizStarted(true);
     setFinished(false);
   };
@@ -62,7 +74,6 @@ const English = () => {
     event.preventDefault();
 
     if (questions[0].english.toLowerCase() === answer.toLowerCase().trim()) {
-      alert('Correct!');
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
       alert(
@@ -84,7 +95,6 @@ const English = () => {
       alert('You have completed the quiz!');
       return;
     }
-
     resetForm();
   };
 
@@ -110,6 +120,7 @@ const English = () => {
     alert('Question reported!');
     throw new Error('Reported question : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
+
   return (
     <div className="min-w-96">
       {finished && <Confetti width={width} height={height} />}
@@ -141,18 +152,30 @@ const English = () => {
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
                 max="100"
-                aria-describedby="questionLimitHelp"
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
                 Velg et tall mellom 5 og 100.
               </p>
             </div>
             <button
+              onClick={() => {
+                return setIsShuffled(true);
+              }}
               disabled={questionLimit < 5 || questionLimit > 100}
               type="submit"
-              className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
+              className="mb-4 w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              Starte quizen
+              start with random questions
+            </button>
+            <button
+              onClick={() => {
+                return setIsShuffled(false);
+              }}
+              disabled={questionLimit < 5 || questionLimit > 100}
+              type="submit"
+              className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
+            >
+              start with latest questions added
             </button>
           </form>
         ) : (
@@ -177,6 +200,8 @@ const English = () => {
                   Skriv svaret ditt her
                 </label>
                 <input
+                  autoComplete="off"
+                  autoCorrect="off"
                   id="answerInput"
                   placeholder="Skriv svaret ditt her..."
                   required={!showAnswer}
@@ -196,7 +221,7 @@ const English = () => {
                 type="submit"
                 className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
-                {showAnswer ? 'Fortsette' : 'Sende inn'}
+                {showAnswer ? 'Continue' : 'Submit'}
               </button>
             </form>
             {showAnswer && <strong tabIndex={0}>{questions[0]?.english}</strong>}
@@ -213,18 +238,19 @@ const English = () => {
               <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
                 <button
                   tabIndex={0}
-                  className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                  className="mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                   onClick={handleShowHint}
                   type="button"
+                  aria-pressed={showHint ? 'true' : 'false'}
                 >
-                  {showHint ? 'Vis svar' : 'hint'}
+                  {showHint ? 'show answer' : 'hint'}
                 </button>
                 {showHint && (
                   <pre className="text-xl text-gray-700" tabIndex={0}>
                     Begynner med bokstaven:{' '}
                     {questions[0]?.norwegian.startsWith('to ')
-                      ? questions[0]?.norwegian.substring(0, 6)
-                      : questions[0]?.norwegian.substring(0, 3)}
+                      ? questions[0]?.norwegian.substring(0, 5)
+                      : questions[0]?.norwegian.substring(0, 2)}
                   </pre>
                 )}
               </div>
@@ -252,8 +278,4 @@ const English = () => {
       </animated.button>
     </div>
   );
-};
-
-export const Route = createLazyFileRoute('/english')({
-  component: English,
-});
+}
