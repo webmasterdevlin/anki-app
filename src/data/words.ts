@@ -2149,6 +2149,5 @@ export const words: Question[] = [
   { english: 'we will make sure to have', norwegian: 'vi vil sørge for å ha' },
   { english: 'lecture', norwegian: 'foredrag' },
   { english: 'you rank the days', norwegian: 'du rangerer dagene' },
-  { english: 'participate', norwegian: 'a delta' },
   { english: 'to map out', norwegian: 'å kartlegge' },
 ];
