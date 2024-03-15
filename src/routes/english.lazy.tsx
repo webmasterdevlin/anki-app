@@ -73,11 +73,11 @@ function English() {
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
 
-    if (questions[0].english.toLowerCase() === answer.toLowerCase().trim()) {
+    if (questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim()) {
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
       alert(
-        `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
+        `Incorrect! The correct answer was: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
       );
       const currentQuestion = questions[0];
       questions.splice(questions.indexOf(currentQuestion), 1);
@@ -159,7 +159,7 @@ function English() {
             </div>
             <div className="mb-4">
               <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
-                Offsetting from the last question (only for 2nd option)
+                Offsetting fra det siste spørsmålet (kun for det andre alternativet)
               </label>
               <input
                 id="questionOffset"
@@ -173,7 +173,7 @@ function English() {
                 max="100"
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
-                Enter a number for the offset.
+                Skriv inn et tall for forskyvningen (offset).
               </p>
             </div>
             <button
@@ -184,7 +184,7 @@ function English() {
               type="submit"
               className="mb-4 w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              start with random questions
+              start med tilfeldige spørsmål
             </button>
             <button
               onClick={() => {
@@ -194,7 +194,7 @@ function English() {
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >
-              start with latest questions added
+              start med de siste spørsmålene lagt til
             </button>
           </form>
         ) : (
@@ -210,7 +210,7 @@ function English() {
                   aria-label="Current Question"
                 >
                   <p className="text-lg lowercase text-gray-700" tabIndex={0}>
-                    {questions[0]?.norwegian}
+                    {questions[0]?.english}
                   </p>
                 </div>
               </fieldset>
