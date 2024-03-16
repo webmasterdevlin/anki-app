@@ -3,6 +3,7 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
+import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
 import { shuffleArray } from '../utils/question';
 
@@ -171,17 +172,15 @@ function Norsk() {
               <label htmlFor="questionLimit" className="block text-sm font-medium text-gray-700">
                 Question Limit
               </label>
-              <input
+              <Input
                 id="questionLimit"
-                required
                 type="number"
-                value={questionLimit}
-                onChange={e => {
-                  return setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
-                }}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="5"
                 max="100"
+                value={questionLimit}
+                onChange={e => {
+                  setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
+                }}
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
                 Enter a number between 5 and 100.
@@ -191,16 +190,15 @@ function Norsk() {
               <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
                 Offsetting from the last question (only for 2nd option)
               </label>
-              <input
+              <Input
                 id="questionOffset"
                 type="number"
-                value={questionOffset}
-                onChange={e => {
-                  return setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
-                }}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 min="0"
                 max="100"
+                value={questionOffset}
+                onChange={e => {
+                  setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                }}
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
                 Enter a number for the offset.
@@ -255,19 +253,17 @@ function Norsk() {
                 <label htmlFor="answerInput" className="sr-only">
                   Type your answer here
                 </label>
-                <input
+                <Input
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"
                   placeholder="Type your answer here..."
                   required={!showAnswer}
                   disabled={showAnswer}
-                  type="text"
                   value={answer}
                   onChange={e => {
                     return setAnswer(e.target.value);
                   }}
-                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-gray-200"
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
                 />
