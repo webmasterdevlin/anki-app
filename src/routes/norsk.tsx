@@ -100,7 +100,9 @@ function Norsk() {
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
 
-    if (questions[0].english.toLowerCase() === answer.toLowerCase().trim()) {
+    const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
+
+    if (areStringsEqual) {
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
       alert(
