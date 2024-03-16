@@ -249,7 +249,7 @@ function Norsk() {
                   <p aria-hidden="true">🔊👈</p>
                 </div>
               </fieldset>
-              <div>
+              <div className="mb-2">
                 <label htmlFor="answerInput" className="sr-only">
                   Type your answer here
                 </label>

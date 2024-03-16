@@ -214,7 +214,7 @@ function English() {
                   </p>
                 </div>
               </fieldset>
-              <div>
+              <div className="mb-2">
                 <label htmlFor="answerInput" className="sr-only">
                   Skriv svaret ditt her
                 </label>
