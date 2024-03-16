@@ -204,7 +204,7 @@ function English() {
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Oversett til norsk:
             </h2>
-            <form onSubmit={handleFormSubmit} className="space-y-4">
+            <form onSubmit={handleFormSubmit} className="mb-2 space-y-4">
               <fieldset className="w-full">
                 <legend className="sr-only">Engelsk ord å oversette</legend>
                 <div

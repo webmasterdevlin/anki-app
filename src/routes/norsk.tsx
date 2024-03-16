@@ -230,7 +230,7 @@ function Norsk() {
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Translate to English:
             </h2>
-            <form onSubmit={handleFormSubmit} className="space-y-4">
+            <form onSubmit={handleFormSubmit} className="mb-2 space-y-4">
               <fieldset className="w-full">
                 <legend className="sr-only">Norwegian word to translate</legend>
                 <div
