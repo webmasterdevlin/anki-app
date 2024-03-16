@@ -2154,4 +2154,11 @@ export const words: Question[] = [
   { english: 'siktede', norwegian: 'accused' },
   { english: 'sour, sad', norwegian: 'sur' },
   { english: 'public', norwegian: 'offentlige' },
+  { english: 'suspect', norwegian: 'mistenker' },
+  { english: 'to chase', norwegian: 'å jage' },
+  { english: 'to tan, to spill', norwegian: 'å søle' },
+  { english: 'uppermost', norwegian: 'øverste' },
+  { english: 'stop by', norwegian: 'innom' },
+  { english: 'to happen', norwegian: 'å hende, å skje' },
+  { english: 'detour', norwegian: 'omvei' },
 ];
