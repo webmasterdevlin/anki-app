@@ -2149,4 +2149,9 @@ export const words: Question[] = [
   { english: 'lecture', norwegian: 'foredrag' },
   { english: 'you rank the days', norwegian: 'du rangerer dagene' },
   { english: 'to map out', norwegian: 'å kartlegge' },
+  { english: 'hun mener', norwegian: 'she thinks' },
+  { english: 'kunne skadene vært livstruende', norwegian: 'the injuries could have been life-threatening' },
+  { english: 'siktede', norwegian: 'accused' },
+  { english: 'sour, sad', norwegian: 'sur' },
+  { english: 'public', norwegian: 'offentlige' },
 ];
