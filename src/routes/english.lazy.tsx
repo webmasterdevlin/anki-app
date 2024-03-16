@@ -245,7 +245,7 @@ function English() {
                 {showAnswer ? 'Continue' : 'Submit'}
               </button>
             </form>
-            {showAnswer && <strong tabIndex={0}>{questions[0]?.english}</strong>}
+            {showAnswer && <strong tabIndex={0}>{questions[0]?.norwegian}</strong>}
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
               fremgang {questionLimit - questions.length + 1} av {questionLimit}
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
