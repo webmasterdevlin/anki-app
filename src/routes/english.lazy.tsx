@@ -35,7 +35,7 @@ function English() {
   const { width, height } = useWindowSize();
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
-  const [soundTracker, setSoundTracker] = useState(1);
+  const [soundTracker, setSoundTracker] = useState(0);
   // Reference to the audio element
   const audioRef = useRef<any>(null);
   // Animation for the title
@@ -85,51 +85,51 @@ function English() {
 
   const playSound = () => {
     switch (soundTracker) {
-      case 3:
+      case 2:
         audioRef.current.src = killingSpree;
         audioRef.current?.play();
         break;
-      case 4:
+      case 3:
         audioRef.current.src = dominating;
         audioRef.current?.play();
         break;
-      case 5:
+      case 4:
         audioRef.current.src = megaKill;
         audioRef.current?.play();
         break;
-      case 6:
+      case 5:
         audioRef.current.src = wickedSick;
         audioRef.current?.play();
         break;
-      case 7:
+      case 6:
         audioRef.current.src = monsterKill;
         audioRef.current?.play();
         break;
-      case 8:
+      case 7:
         audioRef.current.src = godlike;
         audioRef.current?.play();
         break;
-      case 9:
+      case 8:
         audioRef.current.src = holyShit;
         audioRef.current?.play();
         break;
-      case 11:
+      case 10:
         audioRef.current.src = doubleKill;
         audioRef.current?.play();
         break;
-      case 12:
+      case 11:
         audioRef.current.src = tripleKill;
         audioRef.current?.play();
         break;
-      case 13:
+      case 12:
         audioRef.current.src = ultraKill;
         audioRef.current?.play();
         break;
-      case 14:
+      case 13:
         audioRef.current.src = rampage;
         audioRef.current?.play();
         break;
-      case 15:
+      case 14:
         audioRef.current.src = holyShit;
         audioRef.current?.play();
         break;
@@ -174,6 +174,7 @@ function English() {
   const resetQuiz = () => {
     setHasQuizStarted(false);
     setQuestionLimit(0);
+    setSoundTracker(0);
   };
 
   const resetForm = () => {
