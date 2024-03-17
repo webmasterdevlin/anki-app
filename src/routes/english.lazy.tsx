@@ -321,8 +321,16 @@ function English() {
             {showAnswer && <strong tabIndex={0}>{questions[0]?.norwegian}</strong>}
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
               <div className="flex justify-between">
-                <span>fremgang <span className="underline decoration-2 decoration-pink-700">{questionLimit - questions.length + 1}</span> av {questionLimit}</span>
-                <span>seiersrekke: <span className="underline decoration-2 decoration-pink-700">{streak}</span></span>
+                <span>
+                  fremgang{' '}
+                  <span className="underline decoration-pink-700 decoration-2">
+                    {questionLimit - questions.length + 1}
+                  </span>{' '}
+                  av {questionLimit}
+                </span>
+                <span>
+                  seiersrekke: <span className="underline decoration-pink-700 decoration-2">{streak}</span>
+                </span>
               </div>
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
                 <div
