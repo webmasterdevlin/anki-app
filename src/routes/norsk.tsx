@@ -193,7 +193,7 @@ function Norsk() {
                 id="questionOffset"
                 type="number"
                 min="0"
-                max="100"
+                max="200"
                 value={questionOffset}
                 onChange={e => {
                   setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
@@ -217,7 +217,7 @@ function Norsk() {
               onClick={() => {
                 return setIsShuffled(false);
               }}
-              disabled={questionLimit < 5 || questionLimit > 100}
+              disabled={questionLimit < 5 || questionLimit > 200}
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >
