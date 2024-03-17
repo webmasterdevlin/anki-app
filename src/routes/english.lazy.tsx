@@ -35,7 +35,7 @@ function English() {
   const { width, height } = useWindowSize();
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
-  const [soundTracker, setSoundTracker] = useState(0);
+  const [streak, setStreak] = useState(0);
   // Reference to the audio element
   const audioRef = useRef<any>(null);
   // Animation for the title
@@ -84,7 +84,7 @@ function English() {
   };
 
   const playSound = () => {
-    switch (soundTracker) {
+    switch (streak) {
       case 2:
         audioRef.current.src = killingSpree;
         audioRef.current?.play();
@@ -146,12 +146,12 @@ function English() {
     if (areStringsEqual) {
       questions.splice(questions.indexOf(questions[0]), 1);
       playSound();
-      setSoundTracker(soundTracker + 1);
+      setStreak(streak + 1);
     } else {
       alert(
         `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
       );
-      setSoundTracker(0);
+      setStreak(0);
       const currentQuestion = questions[0];
       questions.splice(questions.indexOf(currentQuestion), 1);
       setQuestions([...questions, currentQuestion]);
@@ -174,7 +174,7 @@ function English() {
   const resetQuiz = () => {
     setHasQuizStarted(false);
     setQuestionLimit(0);
-    setSoundTracker(0);
+    setStreak(0);
   };
 
   const resetForm = () => {
@@ -320,7 +320,10 @@ function English() {
             </form>
             {showAnswer && <strong tabIndex={0}>{questions[0]?.norwegian}</strong>}
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
-              fremgang {questionLimit - questions.length + 1} av {questionLimit}
+              <div className="flex justify-between">
+                <span>fremgang <span className="underline decoration-2 decoration-pink-700">{questionLimit - questions.length + 1}</span> av {questionLimit}</span>
+                <span>seiersrekke: <span className="underline decoration-2 decoration-pink-700">{streak}</span></span>
+              </div>
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
                 <div
                   className="h-2 rounded-full bg-indigo-500 p-0.5 text-center text-xs font-medium leading-none text-indigo-100"
