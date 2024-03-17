@@ -199,9 +199,21 @@ function English() {
     <div className="min-w-96">
       <audio ref={audioRef} />
       {finished && <Confetti width={width} height={height} />}
-      <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
-        Øve på engelske ord
-      </animated.h1>
+      <div className="mb-4 flex items-center justify-between text-white">
+        <animated.h1 style={fadeIn} tabIndex={0}>
+          Øve på engelske ord
+        </animated.h1>
+        {hasQuizStarted && (
+          <button
+            onClick={resetQuiz}
+            className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow hover:bg-cyan-600"
+            aria-label="nytt spill"
+          >
+            nytt spill
+          </button>
+        )}
+      </div>
+
       <animated.section
         style={scaleUp}
         className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md"
