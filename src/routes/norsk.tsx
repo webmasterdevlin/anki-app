@@ -6,7 +6,6 @@ import useWindowSize from 'react-use/lib/useWindowSize';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
 import { shuffleArray } from '../utils/question';
-
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
 

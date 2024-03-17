@@ -3,6 +3,17 @@ import { createFileRoute } from '@tanstack/react-router';
 import { useState, useRef } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
+import dominating from '../assets/dominating.mp3';
+import doubleKill from '../assets/doubleKill.mp3';
+import godlike from '../assets/godlike.mp3';
+import holyShit from '../assets/holyShit.mp3';
+import killingSpree from '../assets/killingSpree.mp3';
+import megaKill from '../assets/megaKill.mp3';
+import monsterKill from '../assets/monsterKill.mp3';
+import rampage from '../assets/rampage.mp3';
+import tripleKill from '../assets/tripleKill.mp3';
+import ultraKill from '../assets/ultraKill.mp3';
+import wickedSick from '../assets/wickedSick.mp3';
 import { words } from '../data/words.ts';
 import { shuffleArray } from '../utils/question';
 
@@ -24,7 +35,9 @@ function English() {
   const { width, height } = useWindowSize();
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
-
+  const [soundTracker, setSoundTracker] = useState(1);
+  // Reference to the audio element
+  const audioRef = useRef<any>(null);
   // Animation for the title
   const fadeIn = useSpring({
     delay: 100,
@@ -70,6 +83,61 @@ function English() {
     setFinished(false);
   };
 
+  const playSound = () => {
+    switch (soundTracker) {
+      case 3:
+        audioRef.current.src = killingSpree;
+        audioRef.current?.play();
+        break;
+      case 4:
+        audioRef.current.src = dominating;
+        audioRef.current?.play();
+        break;
+      case 5:
+        audioRef.current.src = megaKill;
+        audioRef.current?.play();
+        break;
+      case 6:
+        audioRef.current.src = wickedSick;
+        audioRef.current?.play();
+        break;
+      case 7:
+        audioRef.current.src = monsterKill;
+        audioRef.current?.play();
+        break;
+      case 8:
+        audioRef.current.src = godlike;
+        audioRef.current?.play();
+        break;
+      case 9:
+        audioRef.current.src = holyShit;
+        audioRef.current?.play();
+        break;
+      case 11:
+        audioRef.current.src = doubleKill;
+        audioRef.current?.play();
+        break;
+      case 12:
+        audioRef.current.src = tripleKill;
+        audioRef.current?.play();
+        break;
+      case 13:
+        audioRef.current.src = ultraKill;
+        audioRef.current?.play();
+        break;
+      case 14:
+        audioRef.current.src = rampage;
+        audioRef.current?.play();
+        break;
+      case 15:
+        audioRef.current.src = holyShit;
+        audioRef.current?.play();
+        break;
+      default:
+        break;
+    }
+  };
+
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
 
@@ -77,10 +145,13 @@ function English() {
 
     if (areStringsEqual) {
       questions.splice(questions.indexOf(questions[0]), 1);
+      playSound();
+      setSoundTracker(soundTracker + 1);
     } else {
       alert(
         `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
       );
+      setSoundTracker(0);
       const currentQuestion = questions[0];
       questions.splice(questions.indexOf(currentQuestion), 1);
       setQuestions([...questions, currentQuestion]);
@@ -125,6 +196,7 @@ function English() {
 
   return (
     <div className="min-w-96">
+      <audio ref={audioRef} />
       {finished && <Confetti width={width} height={height} />}
       <animated.h1 style={fadeIn} className="mb-4 text-white" tabIndex={0}>
         Øve på engelske ord
