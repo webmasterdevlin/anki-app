@@ -309,7 +309,11 @@ function English() {
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"
-                  placeholder="Skriv svaret ditt her..."
+                  placeholder={
+                    questions[0]?.norwegian.includes(',')
+                      ? 'Skriv inn to svar atskilt med komma... '
+                      : 'Skriv inn ett enkelt svar her...'
+                  }
                   required={!showAnswer}
                   disabled={showAnswer}
                   type="text"

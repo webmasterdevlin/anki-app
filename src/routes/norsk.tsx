@@ -267,7 +267,11 @@ function Norsk() {
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"
-                  placeholder="Type your answer here..."
+                  placeholder={
+                    questions[0]?.english.includes(',')
+                      ? 'Type two answers separated by a comma...'
+                      : 'Type a single answer here...'
+                  }
                   required={!showAnswer}
                   disabled={showAnswer}
                   value={answer}
