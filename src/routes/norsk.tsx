@@ -175,9 +175,7 @@ function Norsk() {
       >
         {!hasQuizStarted ? (
           <form onSubmit={startQuiz}>
-            <h2 className="mb-4 text-xl font-bold text-gray-800">
-              How many questions would you like to answer? Minimum 5 and maximum 100
-            </h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">How many questions would you like to answer?</h2>
             <div className="mb-4">
               <label htmlFor="questionLimit" className="block text-sm font-medium text-gray-700">
                 Question Limit
@@ -185,7 +183,7 @@ function Norsk() {
               <Input
                 id="questionLimit"
                 type="number"
-                min="5"
+                min="1"
                 max="100"
                 value={questionLimit}
                 onChange={e => {
@@ -193,7 +191,7 @@ function Norsk() {
                 }}
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
-                Enter a number between 5 and 100.
+                Enter a number.
               </p>
             </div>
             <div className="mb-4">
@@ -203,8 +201,6 @@ function Norsk() {
               <Input
                 id="questionOffset"
                 type="number"
-                min="0"
-                max="200"
                 value={questionOffset}
                 onChange={e => {
                   setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
@@ -218,7 +214,7 @@ function Norsk() {
               onClick={() => {
                 return setIsShuffled(true);
               }}
-              disabled={questionLimit < 5 || questionLimit > 100}
+              disabled={questionLimit > 100}
               type="submit"
               className="mb-4 w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
@@ -228,7 +224,6 @@ function Norsk() {
               onClick={() => {
                 return setIsShuffled(false);
               }}
-              disabled={questionLimit < 5 || questionLimit > 200}
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >

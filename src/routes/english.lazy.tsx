@@ -5,6 +5,7 @@ import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import dominating from '../assets/dominating.mp3';
 import doubleKill from '../assets/doubleKill.mp3';
+import dragonballZ from '../assets/dragonballZ.mp3';
 import godlike from '../assets/godlike.mp3';
 import holyShit from '../assets/holyShit.mp3';
 import killingSpree from '../assets/killingSpree.mp3';
@@ -14,6 +15,7 @@ import rampage from '../assets/rampage.mp3';
 import tripleKill from '../assets/tripleKill.mp3';
 import ultraKill from '../assets/ultraKill.mp3';
 import wickedSick from '../assets/wickedSick.mp3';
+import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
 import { shuffleArray } from '../utils/question';
 
@@ -165,6 +167,8 @@ function English() {
       resetForm();
       resetQuiz();
       setFinished(true);
+      audioRef.current.src = dragonballZ;
+      audioRef.current?.play();
       alert('Du har fullført quizen!');
       return;
     }
@@ -222,13 +226,13 @@ function English() {
         {!hasQuizStarted ? (
           <form onSubmit={startQuiz}>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
-              Hvor mange spørsmål vil du svare på? Minimum 5 og maksimum 100
+              Hvor mange spørsmål vil du svare på?
             </h2>
             <div className="mb-4">
               <label htmlFor="questionLimit" className="block text-sm font-medium text-gray-700">
                 Antall spørsmål
               </label>
-              <input
+              <Input
                 id="questionLimit"
                 required
                 type="number"
@@ -236,28 +240,25 @@ function English() {
                 onChange={e => {
                   return setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
                 }}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                min="5"
                 max="100"
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
-                Velg et tall mellom 5 og 100.
+                Velg et tall.
               </p>
             </div>
             <div className="mb-4">
               <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
                 Offsetting fra det siste spørsmålet (kun for det andre alternativet)
               </label>
-              <input
+              <Input
                 id="questionOffset"
-                type="number"
                 value={questionOffset}
+                type="number"
+                min={1}
                 onChange={e => {
                   return setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
                 }}
                 className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                min="0"
-                max="200"
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
                 Skriv inn et tall for forskyvningen (offset).
@@ -267,7 +268,7 @@ function English() {
               onClick={() => {
                 return setIsShuffled(true);
               }}
-              disabled={questionLimit < 5 || questionLimit > 100}
+              disabled={questionLimit > 100}
               type="submit"
               className="mb-4 w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
@@ -277,7 +278,6 @@ function English() {
               onClick={() => {
                 return setIsShuffled(false);
               }}
-              disabled={questionLimit < 5 || questionLimit > 200}
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >
@@ -305,7 +305,7 @@ function English() {
                 <label htmlFor="answerInput" className="sr-only">
                   Skriv svaret ditt her
                 </label>
-                <input
+                <Input
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"
@@ -321,7 +321,6 @@ function English() {
                   onChange={e => {
                     return setAnswer(e.target.value);
                   }}
-                  className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500 disabled:cursor-not-allowed disabled:bg-gray-200"
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
                 />
