@@ -38,15 +38,8 @@ function English() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
   const [streak, setStreak] = useState(0);
-
   // Reference to the audio element
   const audioRef = useRef<any>(null);
-
-  const submitButtonRef = useRef<HTMLButtonElement>(null);
-  const focusToSubmitButton = () => {
-    submitButtonRef?.current?.focus();
-  };
-
   // Animation for the title
   const fadeIn = useSpring({
     delay: 100,
@@ -70,78 +63,26 @@ function English() {
     };
   });
 
+  const submitButtonRef = useRef<HTMLButtonElement>(null);
+
+  const focusToSubmitButton = () => {
+    submitButtonRef?.current?.focus();
+  };
+
   const startQuiz = () => {
     if (isShuffled) {
-      processShuffledQuestions();
+      const firstShuffled = shuffleArray([...words]);
+      const secondShuffled = shuffleArray([...firstShuffled]);
+      const thirdShuffled = shuffleArray([...secondShuffled]);
+      const shuffledNewData = shuffleArray([...thirdShuffled]);
+      shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+      setQuestions([...shuffledNewData]);
     } else {
-      processLastestQuestions();
+      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+      setQuestions([...lastAddedQuestions]);
     }
     setHasQuizStarted(true);
     setFinished(false);
-  };
-
-  const processShuffledQuestions = () => {
-    const firstShuffled = shuffleArray([...words]);
-    const secondShuffled = shuffleArray([...firstShuffled]);
-    const thirdShuffled = shuffleArray([...secondShuffled]);
-    const shuffledNewData = shuffleArray([...thirdShuffled]);
-    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-    setQuestions([...shuffledNewData]);
-  };
-
-  const processLastestQuestions = () => {
-    const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
-    setQuestions([...lastAddedQuestions]);
-  };
-
-  const handleFormSubmit = (event: FormEvent) => {
-    event.preventDefault();
-
-    const isEmptyQuestions = questions.length === 0;
-    const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
-
-    if (areStringsEqual) {
-      processCorrectAnswer();
-    } else {
-      processIncorrectAnswer();
-    }
-
-    if (isEmptyQuestions) {
-      processFinishedQuiz();
-    }
-    resetForm();
-  };
-
-  const processCorrectAnswer = () => {
-    questions.splice(questions.indexOf(questions[0]), 1);
-    playSound();
-    setStreak(streak + 1);
-  };
-
-  const processIncorrectAnswer = () => {
-    alert(
-      `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
-    );
-    setStreak(0);
-    const currentQuestion = questions[0];
-    questions.splice(questions.indexOf(currentQuestion), 1);
-    setQuestions([...questions, currentQuestion]);
-
-    const isEmptyQuestions = questions.length === 0;
-    if (isEmptyQuestions) {
-      resetForm();
-      return;
-    }
-  };
-
-  const processFinishedQuiz = () => {
-    resetForm();
-    resetQuiz();
-    setFinished(true);
-    audioRef.current.src = dragonballZ;
-    audioRef.current?.play();
-    alert('Du har fullført quizen!');
-    return;
   };
 
   const playSound = () => {
@@ -197,6 +138,41 @@ function English() {
       default:
         break;
     }
+  };
+
+  const handleFormSubmit = (event: FormEvent) => {
+    event.preventDefault();
+
+    const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
+
+    if (areStringsEqual) {
+      questions.splice(questions.indexOf(questions[0]), 1);
+      playSound();
+      setStreak(streak + 1);
+    } else {
+      alert(
+        `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
+      );
+      setStreak(0);
+      const currentQuestion = questions[0];
+      questions.splice(questions.indexOf(currentQuestion), 1);
+      setQuestions([...questions, currentQuestion]);
+      if (questions.length === 0) {
+        resetForm();
+        return;
+      }
+    }
+
+    if (questions.length === 0) {
+      resetForm();
+      resetQuiz();
+      setFinished(true);
+      audioRef.current.src = dragonballZ;
+      audioRef.current?.play();
+      alert('Du har fullført quizen!');
+      return;
+    }
+    resetForm();
   };
 
   const resetQuiz = () => {
@@ -279,6 +255,7 @@ function English() {
                 id="questionOffset"
                 value={questionOffset}
                 type="number"
+                min="0"
                 onChange={e => {
                   setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
                 }}

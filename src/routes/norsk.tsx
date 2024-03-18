@@ -26,11 +26,6 @@ function Norsk() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
 
-  const submitButtonRef = useRef<HTMLButtonElement>(null);
-  const focusToSubmitButton = () => {
-    submitButtonRef?.current?.focus();
-  };
-
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
     const norwegianVoices = availableVoices.filter(voice => {
@@ -80,74 +75,57 @@ function Norsk() {
     };
   });
 
+  const submitButtonRef = useRef<HTMLButtonElement>(null);
+
+  const focusToSubmitButton = () => {
+    submitButtonRef?.current?.focus();
+  };
+
   const startQuiz = () => {
     if (isShuffled) {
-      processShuffledQuestions();
+      const firstShuffled = shuffleArray([...words]);
+      const secondShuffled = shuffleArray([...firstShuffled]);
+      const thirdShuffled = shuffleArray([...secondShuffled]);
+      const shuffledNewData = shuffleArray([...thirdShuffled]);
+      shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+      setQuestions([...shuffledNewData]);
     } else {
-      processLatestQuestions();
+      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+      setQuestions([...lastAddedQuestions]);
     }
     setHasQuizStarted(true);
     setFinished(false);
-  };
-
-  const processShuffledQuestions = () => {
-    const firstShuffled = shuffleArray([...words]);
-    const secondShuffled = shuffleArray([...firstShuffled]);
-    const thirdShuffled = shuffleArray([...secondShuffled]);
-    const shuffledNewData = shuffleArray([...thirdShuffled]);
-    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-    setQuestions([...shuffledNewData]);
-  };
-
-  const processLatestQuestions = () => {
-    const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
-    setQuestions([...lastAddedQuestions]);
   };
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
 
     const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
-    const isEmptyQuestions = questions.length === 0;
 
     if (areStringsEqual) {
-      processCorrectAnswer();
+      questions.splice(questions.indexOf(questions[0]), 1);
     } else {
-      processIncorrectAnswer();
+      alert(
+        `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
+      );
+      const currentQuestion = questions[0];
+      questions.splice(questions.indexOf(currentQuestion), 1);
+      setQuestions([...questions, currentQuestion]);
+      if (questions.length === 0) {
+        resetForm();
+        return;
+      }
     }
 
-    if (isEmptyQuestions) {
-      processFinishedQuiz();
+    if (questions.length === 0) {
+      resetForm();
+      resetQuiz();
+      setFinished(true);
+      alert('You have completed the quiz!');
+      return;
     }
     resetForm();
     speak();
-  };
-
-  const processCorrectAnswer = () => {
-    questions.splice(questions.indexOf(questions[0]), 1);
-  };
-
-  const processIncorrectAnswer = () => {
-    alert(
-      `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
-    );
-    const currentQuestion = questions[0];
-    questions.splice(questions.indexOf(currentQuestion), 1);
-    setQuestions([...questions, currentQuestion]);
-
-    const isEmptyQuestions = questions.length === 0;
-    if (isEmptyQuestions) {
-      resetForm();
-      return;
-    }
-  };
-
-  const processFinishedQuiz = () => {
-    resetForm();
-    resetQuiz();
-    setFinished(true);
-    alert('You have completed the quiz!');
-    return;
   };
 
   const resetQuiz = () => {
@@ -264,7 +242,7 @@ function Norsk() {
                   role="button"
                   onClick={speak}
                   onKeyDown={e => {
-                    e.key === 'Enter' && speak();
+                    return e.key === 'Enter' && speak();
                   }}
                   tabIndex={0}
                   aria-label="Speak the current question"
