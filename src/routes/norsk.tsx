@@ -26,6 +26,14 @@ function Norsk() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
 
+  const isEmptyQuestions = questions.length === 0;
+  const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
+
+  const submitButtonRef = useRef<HTMLButtonElement>(null);
+  const focusToSubmitButton = () => {
+    submitButtonRef?.current?.focus();
+  };
+
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
     const norwegianVoices = availableVoices.filter(voice => {
@@ -75,57 +83,69 @@ function Norsk() {
     };
   });
 
-  const submitButtonRef = useRef<HTMLButtonElement>(null);
-
-  const focusToSubmitButton = () => {
-    submitButtonRef?.current?.focus();
-  };
-
   const startQuiz = () => {
     if (isShuffled) {
-      const firstShuffled = shuffleArray([...words]);
-      const secondShuffled = shuffleArray([...firstShuffled]);
-      const thirdShuffled = shuffleArray([...secondShuffled]);
-      const shuffledNewData = shuffleArray([...thirdShuffled]);
-      shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-      setQuestions([...shuffledNewData]);
+      processShuffledQuestions();
     } else {
-      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
-      setQuestions([...lastAddedQuestions]);
+      processLatestQuestions();
     }
     setHasQuizStarted(true);
     setFinished(false);
   };
 
+  const processShuffledQuestions = () => {
+    const firstShuffled = shuffleArray([...words]);
+    const secondShuffled = shuffleArray([...firstShuffled]);
+    const thirdShuffled = shuffleArray([...secondShuffled]);
+    const shuffledNewData = shuffleArray([...thirdShuffled]);
+    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+    setQuestions([...shuffledNewData]);
+  };
+
+  const processLatestQuestions = () => {
+    const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+    setQuestions([...lastAddedQuestions]);
+  };
+
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
 
-    const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
-
     if (areStringsEqual) {
-      questions.splice(questions.indexOf(questions[0]), 1);
+      processCorrectAnswer();
     } else {
-      alert(
-        `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
-      );
-      const currentQuestion = questions[0];
-      questions.splice(questions.indexOf(currentQuestion), 1);
-      setQuestions([...questions, currentQuestion]);
-      if (questions.length === 0) {
-        resetForm();
-        return;
-      }
+      processIncorrectAnswer();
     }
 
-    if (questions.length === 0) {
-      resetForm();
-      resetQuiz();
-      setFinished(true);
-      alert('You have completed the quiz!');
-      return;
+    if (isEmptyQuestions) {
+      processFinishedQuiz();
     }
     resetForm();
     speak();
+  };
+
+  const processCorrectAnswer = () => {
+    questions.splice(questions.indexOf(questions[0]), 1);
+  };
+
+  const processIncorrectAnswer = () => {
+    alert(
+      `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
+    );
+    const currentQuestion = questions[0];
+    questions.splice(questions.indexOf(currentQuestion), 1);
+    setQuestions([...questions, currentQuestion]);
+    if (isEmptyQuestions) {
+      resetForm();
+      return;
+    }
+  };
+
+  const processFinishedQuiz = () => {
+    resetForm();
+    resetQuiz();
+    setFinished(true);
+    alert('You have completed the quiz!');
+    return;
   };
 
   const resetQuiz = () => {
@@ -212,7 +232,7 @@ function Norsk() {
             </div>
             <button
               onClick={() => {
-                return setIsShuffled(true);
+                setIsShuffled(true);
               }}
               disabled={questionLimit > 100}
               type="submit"
@@ -222,7 +242,7 @@ function Norsk() {
             </button>
             <button
               onClick={() => {
-                return setIsShuffled(false);
+                setIsShuffled(false);
               }}
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
@@ -242,7 +262,7 @@ function Norsk() {
                   role="button"
                   onClick={speak}
                   onKeyDown={e => {
-                    return e.key === 'Enter' && speak();
+                    e.key === 'Enter' && speak();
                   }}
                   tabIndex={0}
                   aria-label="Speak the current question"
@@ -271,7 +291,7 @@ function Norsk() {
                   disabled={showAnswer}
                   value={answer}
                   onChange={e => {
-                    return setAnswer(e.target.value);
+                    setAnswer(e.target.value);
                   }}
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
@@ -321,10 +341,10 @@ function Norsk() {
       </animated.section>
       <animated.button
         onMouseEnter={() => {
-          return setHover({ scale: 1.1 });
+          setHover({ scale: 1.1 });
         }}
         onMouseLeave={() => {
-          return setHover({ scale: 1 });
+          setHover({ scale: 1 });
         }}
         style={{
           transform: hoverProps.scale.to(scale => {

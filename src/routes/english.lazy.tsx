@@ -38,8 +38,17 @@ function English() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
   const [streak, setStreak] = useState(0);
+
+  const isEmptyQuestions = questions.length === 0;
+  const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
   // Reference to the audio element
   const audioRef = useRef<any>(null);
+
+  const submitButtonRef = useRef<HTMLButtonElement>(null);
+  const focusToSubmitButton = () => {
+    submitButtonRef?.current?.focus();
+  };
+
   // Animation for the title
   const fadeIn = useSpring({
     delay: 100,
@@ -63,26 +72,73 @@ function English() {
     };
   });
 
-  const submitButtonRef = useRef<HTMLButtonElement>(null);
-
-  const focusToSubmitButton = () => {
-    submitButtonRef?.current?.focus();
-  };
-
   const startQuiz = () => {
     if (isShuffled) {
-      const firstShuffled = shuffleArray([...words]);
-      const secondShuffled = shuffleArray([...firstShuffled]);
-      const thirdShuffled = shuffleArray([...secondShuffled]);
-      const shuffledNewData = shuffleArray([...thirdShuffled]);
-      shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
-      setQuestions([...shuffledNewData]);
+      processShuffledQuestions();
     } else {
-      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
-      setQuestions([...lastAddedQuestions]);
+      processLastestQuestions();
     }
     setHasQuizStarted(true);
     setFinished(false);
+  };
+
+  const processShuffledQuestions = () => {
+    const firstShuffled = shuffleArray([...words]);
+    const secondShuffled = shuffleArray([...firstShuffled]);
+    const thirdShuffled = shuffleArray([...secondShuffled]);
+    const shuffledNewData = shuffleArray([...thirdShuffled]);
+    shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
+    setQuestions([...shuffledNewData]);
+  };
+
+  const processLastestQuestions = () => {
+    const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+    setQuestions([...lastAddedQuestions]);
+  };
+
+  const handleFormSubmit = (event: FormEvent) => {
+    event.preventDefault();
+
+    if (areStringsEqual) {
+      processCorrectAnswer();
+    } else {
+      processIncorrectAnswer();
+    }
+
+    if (isEmptyQuestions) {
+      processFinishedQuiz();
+    }
+    resetForm();
+  };
+
+  const processCorrectAnswer = () => {
+    questions.splice(questions.indexOf(questions[0]), 1);
+    playSound();
+    setStreak(streak + 1);
+  };
+
+  const processIncorrectAnswer = () => {
+    alert(
+      `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
+    );
+    setStreak(0);
+    const currentQuestion = questions[0];
+    questions.splice(questions.indexOf(currentQuestion), 1);
+    setQuestions([...questions, currentQuestion]);
+    if (isEmptyQuestions) {
+      resetForm();
+      return;
+    }
+  };
+
+  const processFinishedQuiz = () => {
+    resetForm();
+    resetQuiz();
+    setFinished(true);
+    audioRef.current.src = dragonballZ;
+    audioRef.current?.play();
+    alert('Du har fullført quizen!');
+    return;
   };
 
   const playSound = () => {
@@ -138,41 +194,6 @@ function English() {
       default:
         break;
     }
-  };
-
-  const handleFormSubmit = (event: FormEvent) => {
-    event.preventDefault();
-
-    const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
-
-    if (areStringsEqual) {
-      questions.splice(questions.indexOf(questions[0]), 1);
-      playSound();
-      setStreak(streak + 1);
-    } else {
-      alert(
-        `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
-      );
-      setStreak(0);
-      const currentQuestion = questions[0];
-      questions.splice(questions.indexOf(currentQuestion), 1);
-      setQuestions([...questions, currentQuestion]);
-      if (questions.length === 0) {
-        resetForm();
-        return;
-      }
-    }
-
-    if (questions.length === 0) {
-      resetForm();
-      resetQuiz();
-      setFinished(true);
-      audioRef.current.src = dragonballZ;
-      audioRef.current?.play();
-      alert('Du har fullført quizen!');
-      return;
-    }
-    resetForm();
   };
 
   const resetQuiz = () => {
@@ -238,7 +259,7 @@ function English() {
                 type="number"
                 value={questionLimit}
                 onChange={e => {
-                  return setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
+                  setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
                 }}
                 max="100"
               />
@@ -254,11 +275,9 @@ function English() {
                 id="questionOffset"
                 value={questionOffset}
                 type="number"
-                min={1}
                 onChange={e => {
-                  return setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                  setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
                 }}
-                className="w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
                 Skriv inn et tall for forskyvningen (offset).
@@ -266,7 +285,7 @@ function English() {
             </div>
             <button
               onClick={() => {
-                return setIsShuffled(true);
+                setIsShuffled(true);
               }}
               disabled={questionLimit > 100}
               type="submit"
@@ -276,7 +295,7 @@ function English() {
             </button>
             <button
               onClick={() => {
-                return setIsShuffled(false);
+                setIsShuffled(false);
               }}
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
@@ -319,7 +338,7 @@ function English() {
                   type="text"
                   value={answer}
                   onChange={e => {
-                    return setAnswer(e.target.value);
+                    setAnswer(e.target.value);
                   }}
                   minLength={!showAnswer ? 2 : 0}
                   aria-required={!showAnswer}
@@ -380,10 +399,10 @@ function English() {
       </animated.section>
       <animated.button
         onMouseEnter={() => {
-          return setHover({ scale: 1.1 });
+          setHover({ scale: 1.1 });
         }}
         onMouseLeave={() => {
-          return setHover({ scale: 1 });
+          setHover({ scale: 1 });
         }}
         style={{
           transform: hoverProps.scale.to(scale => {
