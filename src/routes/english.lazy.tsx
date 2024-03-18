@@ -264,6 +264,7 @@ function English() {
                 onChange={e => {
                   setQuestionLimit(Math.max(1, parseInt(e.target.value, 10)));
                 }}
+                min="1"
                 max="100"
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
