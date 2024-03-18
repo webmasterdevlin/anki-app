@@ -126,6 +126,8 @@ function English() {
     const currentQuestion = questions[0];
     questions.splice(questions.indexOf(currentQuestion), 1);
     setQuestions([...questions, currentQuestion]);
+
+    const isEmptyQuestions = questions.length === 0;
     if (isEmptyQuestions) {
       resetForm();
       return;
