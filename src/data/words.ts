@@ -2164,4 +2164,6 @@ export const words: Question[] = [
   { english: 'the chatter', norwegian: 'skravlingen' },
   { english: 'come close', norwegian: 'kom tett på' },
   { english: 'departures', norwegian: 'avganger' },
+  { english: 'judgement', norwegian: 'dom' },
+  { english: 'judge', norwegian: 'dommer' },
 ];
