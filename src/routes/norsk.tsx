@@ -26,9 +26,6 @@ function Norsk() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
 
-  const isEmptyQuestions = questions.length === 0;
-  const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
-
   const submitButtonRef = useRef<HTMLButtonElement>(null);
   const focusToSubmitButton = () => {
     submitButtonRef?.current?.focus();
@@ -109,6 +106,9 @@ function Norsk() {
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
+
+    const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
+    const isEmptyQuestions = questions.length === 0;
 
     if (areStringsEqual) {
       processCorrectAnswer();

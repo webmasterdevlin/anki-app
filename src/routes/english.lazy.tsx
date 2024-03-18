@@ -39,8 +39,6 @@ function English() {
   const [questionOffset, setQuestionOffset] = useState(0);
   const [streak, setStreak] = useState(0);
 
-  const isEmptyQuestions = questions.length === 0;
-  const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
   // Reference to the audio element
   const audioRef = useRef<any>(null);
 
@@ -98,6 +96,9 @@ function English() {
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
+
+    const isEmptyQuestions = questions.length === 0;
+    const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
 
     if (areStringsEqual) {
       processCorrectAnswer();
