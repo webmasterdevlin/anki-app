@@ -78,7 +78,12 @@ function English() {
       shuffledNewData.splice(questionLimit, shuffledNewData.length - questionLimit);
       setQuestions([...shuffledNewData]);
     } else {
-      const lastAddedQuestions = words.splice(questions.length - questionOffset - questionLimit, questionLimit);
+      const questionData = [...words];
+      const lastAddedQuestions = [...questionData].splice(
+        questions.length - questionOffset - questionLimit,
+        questionLimit,
+      );
+      console.log(questions.length);
       setQuestions([...lastAddedQuestions]);
     }
     setHasQuizStarted(true);
@@ -179,6 +184,7 @@ function English() {
     setHasQuizStarted(false);
     setQuestionLimit(0);
     setStreak(0);
+    setQuestions([]);
   };
 
   const resetForm = () => {
