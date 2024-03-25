@@ -48,7 +48,7 @@ function Norsk() {
 
       window.speechSynthesis.speak(utterance);
     } else {
-      console.log('No Norwegian voices available');
+      alert('No Norwegian voices available');
     }
   };
 

@@ -1,6 +1,6 @@
 import { useSpring, animated } from '@react-spring/web';
 import { createFileRoute } from '@tanstack/react-router';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import dominating from '../assets/dominating.mp3';
@@ -37,6 +37,7 @@ function English() {
   const { width, height } = useWindowSize();
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [streak, setStreak] = useState(0);
   // Reference to the audio element
   const audioRef = useRef<any>(null);
@@ -63,6 +64,14 @@ function English() {
     };
   });
 
+  useEffect(() => {
+    const availableVoices = window.speechSynthesis.getVoices();
+    const norwegianVoices = availableVoices.filter(voice => {
+      return voice.lang.startsWith('nb') || voice.lang.startsWith('nn');
+    });
+    setVoices(norwegianVoices);
+  }, [questions]);
+
   const submitButtonRef = useRef<HTMLButtonElement>(null);
 
   const focusToSubmitButton = () => {
@@ -83,7 +92,6 @@ function English() {
         questions.length - questionOffset - questionLimit,
         questionLimit,
       );
-      console.log(questions.length);
       setQuestions([...lastAddedQuestions]);
     }
     setHasQuizStarted(true);
@@ -203,6 +211,17 @@ function English() {
   const handleReportQuestion = () => {
     alert('Spørsmål rapportert!');
     throw new Error('Rapportert spørsmål : ' + JSON.stringify(questions[questions.length - 1], null, 2));
+  };
+
+  const speak = () => {
+    if (voices.length > 0) {
+      const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
+      utterance.voice = voices[0];
+
+      window.speechSynthesis.speak(utterance);
+    } else {
+      alert('No Norwegian voices available');
+    }
   };
 
   return (
@@ -336,10 +355,26 @@ function English() {
                 type="submit"
                 className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
-                {showAnswer ? 'Continue' : 'Submit'}
+                {showAnswer ? 'Fortsette' : 'Sende inn'}
               </button>
             </form>
-            {showAnswer && <strong tabIndex={0}>{questions[0]?.norwegian}</strong>}
+            {showAnswer && (
+              <div
+                role="button"
+                onClick={speak}
+                onKeyDown={e => {
+                  return e.key === 'Enter' && speak();
+                }}
+                tabIndex={0}
+                aria-label="Speak the current question"
+                className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              >
+                <p className="text-lg lowercase text-gray-700" tabIndex={0}>
+                  <strong tabIndex={0}>{questions[0]?.norwegian}</strong>
+                </p>
+                <p aria-hidden="true">🔊👈</p>
+              </div>
+            )}
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
               <div className="flex justify-between">
                 <span>
