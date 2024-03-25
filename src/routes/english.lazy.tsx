@@ -2,6 +2,8 @@ import { useSpring, animated } from '@react-spring/web';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
+
+import Joyride, { STATUS, type CallBackProps, type Step } from 'react-joyride';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import dominating from '../assets/dominating.mp3';
 import doubleKill from '../assets/doubleKill.mp3';
@@ -26,6 +28,38 @@ export const Route = createFileRoute('/english')({
   component: English,
 });
 
+type JoyrideOptions = {
+  run: boolean;
+  steps: Step[];
+};
+
+const joyrideSteps: Step[] = [
+  {
+    content: <h3>Hvor mange spørsmål liker du?</h3>,
+    placement: 'top',
+    target: '#questionLimit',
+    title: 'Spørsmålsgrense',
+  },
+  {
+    content: <h3>Hvor mange siste spørsmål skal du hoppe over?</h3>,
+    placement: 'top',
+    target: '#questionOffset',
+    title: 'Offset fra siste spørsmål',
+  },
+  {
+    content: <h3>Du vil få spørsmål inn tilfeldig fra databasen.</h3>,
+    placement: 'top',
+    target: '#randomButton',
+    title: 'Start med tilfeldige spørsmål',
+  },
+  {
+    content: <h3>Du vil få de siste spørsmålene lagt til i databasen.</h3>,
+    placement: 'top',
+    target: '#lastQuestionsButton',
+    title: 'Start med de siste spørsmålene lagt til',
+  },
+];
+
 function English() {
   const [answer, setAnswer] = useState('');
   const [questionLimit, setQuestionLimit] = useState(5);
@@ -39,6 +73,19 @@ function English() {
   const [questionOffset, setQuestionOffset] = useState(0);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [streak, setStreak] = useState(0);
+
+  const [joyRide, setJoyRide] = useState<JoyrideOptions>({ run: false, steps: joyrideSteps });
+
+  const handleJoyrideCallback = (data: CallBackProps) => {
+    const { status } = data;
+    const finishedStatuses: string[] = [STATUS.FINISHED, STATUS.SKIPPED];
+
+    if (finishedStatuses.includes(status)) {
+      setJoyRide({ ...joyRide, run: false });
+      localStorage.setItem('joyride', 'completed');
+    }
+  };
+
   // Reference to the audio element
   const audioRef = useRef<any>(null);
   // Animation for the title
@@ -70,7 +117,15 @@ function English() {
       return voice.lang.startsWith('nb') || voice.lang.startsWith('nn');
     });
     setVoices(norwegianVoices);
+    checkJoyride();
   }, [questions]);
+
+  const checkJoyride = () => {
+    const joyrideCompleted = localStorage.getItem('joyride');
+    if (!joyrideCompleted) {
+      setJoyRide({ ...joyRide, run: true });
+    }
+  };
 
   const submitButtonRef = useRef<HTMLButtonElement>(null);
 
@@ -226,6 +281,24 @@ function English() {
 
   return (
     <div className="min-w-96">
+      <Joyride
+        callback={handleJoyrideCallback}
+        continuous
+        hideCloseButton
+        run={joyRide.run}
+        scrollToFirstStep
+        showProgress
+        showSkipButton
+        steps={joyRide.steps}
+        styles={{
+          buttonNext: {
+            backgroundColor: '#6365f1',
+          },
+          options: {
+            zIndex: 10000,
+          },
+        }}
+      />
       <audio ref={audioRef} />
       {finished && <Confetti width={width} height={height} />}
       <div className="mb-4 flex items-center justify-between text-white">
@@ -290,6 +363,7 @@ function English() {
               </p>
             </div>
             <button
+              id="randomButton"
               onClick={() => {
                 setIsShuffled(true);
               }}
@@ -300,6 +374,7 @@ function English() {
               start med tilfeldige spørsmål
             </button>
             <button
+              id="lastQuestionsButton"
               onClick={() => {
                 setIsShuffled(false);
               }}

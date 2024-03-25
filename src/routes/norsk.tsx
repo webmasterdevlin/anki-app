@@ -2,6 +2,8 @@ import { useSpring, animated } from '@react-spring/web';
 import { createFileRoute } from '@tanstack/react-router';
 import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
+
+import Joyride, { STATUS, type CallBackProps, type Step } from 'react-joyride';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
@@ -12,6 +14,38 @@ import type { FormEvent } from 'react';
 export const Route = createFileRoute('/norsk')({
   component: Norsk,
 });
+
+type JoyrideOptions = {
+  run: boolean;
+  steps: Step[];
+};
+
+const joyrideSteps: Step[] = [
+  {
+    content: <h3>How many questions you like?</h3>,
+    placement: 'top',
+    target: '#questionLimit',
+    title: 'Question Limit',
+  },
+  {
+    content: <h3>How many latest questions to skip?</h3>,
+    placement: 'top',
+    target: '#questionOffset',
+    title: 'Offset from the last question',
+  },
+  {
+    content: <h3>You will get questions in randomly from the database.</h3>,
+    placement: 'top',
+    target: '#randomButton',
+    title: 'Start with random questions',
+  },
+  {
+    content: <h3>You will get the latest questions added in the database.</h3>,
+    placement: 'top',
+    target: '#lastQuestionsButton',
+    title: 'Start with latest questions added',
+  },
+];
 
 function Norsk() {
   const [answer, setAnswer] = useState('');
@@ -26,6 +60,18 @@ function Norsk() {
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
 
+  const [joyRide, setJoyRide] = useState<JoyrideOptions>({ run: false, steps: joyrideSteps });
+
+  const handleJoyrideCallback = (data: CallBackProps) => {
+    const { status } = data;
+    const finishedStatuses: string[] = [STATUS.FINISHED, STATUS.SKIPPED];
+
+    if (finishedStatuses.includes(status)) {
+      setJoyRide({ ...joyRide, run: false });
+      localStorage.setItem('joyride', 'completed');
+    }
+  };
+
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
     const norwegianVoices = availableVoices.filter(voice => {
@@ -39,7 +85,15 @@ function Norsk() {
       utterance.pitch = 0.8;
       window.speechSynthesis.speak(utterance);
     }
+    checkJoyride();
   }, [questions]);
+
+  const checkJoyride = () => {
+    const joyrideCompleted = localStorage.getItem('joyride');
+    if (!joyrideCompleted) {
+      setJoyRide({ ...joyRide, run: true });
+    }
+  };
 
   const speak = () => {
     if (voices.length > 0) {
@@ -154,6 +208,24 @@ function Norsk() {
 
   return (
     <div className="min-w-96">
+      <Joyride
+        callback={handleJoyrideCallback}
+        continuous
+        hideCloseButton
+        run={joyRide.run}
+        scrollToFirstStep
+        showProgress
+        showSkipButton
+        steps={joyRide.steps}
+        styles={{
+          buttonNext: {
+            backgroundColor: '#6365f1',
+          },
+          options: {
+            zIndex: 10000,
+          },
+        }}
+      />
       {finished && <Confetti width={width} height={height} />}
       <div className="mb-4 flex items-center justify-between text-white">
         <animated.h1 style={fadeIn} className="mb-4 text-white">
@@ -212,6 +284,7 @@ function Norsk() {
               </p>
             </div>
             <button
+              id="randomButton"
               onClick={() => {
                 setIsShuffled(true);
               }}
@@ -222,6 +295,7 @@ function Norsk() {
               start with random questions
             </button>
             <button
+              id="lastQuestionsButton"
               onClick={() => {
                 setIsShuffled(false);
               }}
