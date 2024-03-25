@@ -399,7 +399,7 @@ function English() {
               <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
                 <button
                   tabIndex={0}
-                  className="mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                  className="mb-2 mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                   onClick={handleShowHint}
                   type="button"
                   aria-pressed={showHint ? 'true' : 'false'}
@@ -407,7 +407,7 @@ function English() {
                   {showHint ? 'show answer' : 'hint'}
                 </button>
                 {showHint && (
-                  <pre className="text-xl text-gray-700" tabIndex={0}>
+                  <pre className="text-lg text-gray-700" tabIndex={0}>
                     Begynner med bokstaven:{' '}
                     {questions[0]?.norwegian.startsWith('to ')
                       ? questions[0]?.norwegian.substring(0, 5)
