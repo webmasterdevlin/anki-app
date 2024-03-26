@@ -2176,7 +2176,7 @@ export const words: Question[] = [
   { english: 'permanent job', norwegian: 'fast jobb' },
   { english: 'have given up', norwegian: 'har gitt opp' },
   { english: 'afford', norwegian: 'råd til' },
-  { english: 'except', norwegian: 'utenom' },
+  { english: 'except', norwegian: 'unntatt, utenom' },
   { english: 'exhausting', norwegian: 'slitsomt' },
   { english: 'really', norwegian: 'virkelig' },
   { english: 'counting', norwegian: 'teller' },
