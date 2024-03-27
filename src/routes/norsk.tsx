@@ -323,7 +323,7 @@ function Norsk() {
                   aria-label="Speak the current question"
                   className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
-                  <p className="text-lg font-bold lowercase text-gray-700" tabIndex={0}>
+                  <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
                     {questions[0]?.norwegian}
                   </p>
                   <p aria-hidden="true">🔊👈</p>
