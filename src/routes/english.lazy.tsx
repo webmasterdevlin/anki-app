@@ -484,8 +484,8 @@ function English() {
                 {showHint && (
                   <pre className="text-lg text-gray-700" tabIndex={0}>
                     Begynner med bokstaven:{' '}
-                    {questions[0]?.norwegian.startsWith('to ')
-                      ? questions[0]?.norwegian.substring(0, 5)
+                    {questions[0]?.norwegian.startsWith('å ')
+                      ? questions[0]?.norwegian.substring(0, 4)
                       : questions[0]?.norwegian.substring(0, 2)}
                   </pre>
                 )}
