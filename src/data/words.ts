@@ -1596,7 +1596,7 @@ export const words: Question[] = [
   { english: 'similar', norwegian: 'lignende' },
   { english: 'letter', norwegian: 'brev' },
   { english: 'checkout (store)', norwegian: 'kassa' },
-  { english: 'points', norwegian: 'peker' },
+  { english: 'to point', norwegian: 'å peke' },
   { english: 'fainted', norwegian: 'besvimte' },
   { english: 'bankruptcy', norwegian: 'konkurser' },
   { english: 'I am on my way', norwegian: 'jeg er på vei' },
