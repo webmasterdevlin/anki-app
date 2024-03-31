@@ -2223,7 +2223,7 @@ export const words: Question[] = [
   { english: 'drop by', norwegian: 'stikker innom' },
   { english: 'rude', norwegian: 'frekt' },
   { english: 'thorough', norwegian: 'grundig' },
-  // { english: '', norwegian: '' },
+  { english: 'rude, naughty', norwegian: 'frekt' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
