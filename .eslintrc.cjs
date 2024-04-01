@@ -15,6 +15,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/recommended',
+    'plugin:astro/recommended',
     // 'plugin:jsx-a11y/recommended',
   ],
   parser: '@typescript-eslint/parser',

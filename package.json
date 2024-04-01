@@ -12,14 +12,14 @@
     "generate-assets-2023": "pwa-assets-generator --preset minimal-2023 public/logo.png",
     "eslint": "eslint --fix --ext .ts,.tsx ./src",
     "checkTs": "tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "husky && husky install"
   },
   "dependencies": {
     "@react-spring/web": "^9.7.3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.12",
-    "@tanstack/react-router": "^1.26.1",
+    "@tanstack/react-router": "^1.26.3",
     "autoprefixer": "^10.4.19",
     "clsx": "^2.1.0",
     "logrocket-react": "6.0.3",
@@ -38,7 +38,7 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "devDependencies": {
-    "@tanstack/router-devtools": "^1.26.1",
+    "@tanstack/router-devtools": "^1.26.3",
     "@tanstack/router-vite-plugin": "^1.25.0",
     "@types/react": "^18.2.73",
     "@types/react-dom": "^18.2.23",
@@ -50,6 +50,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-astro": "^0.33.1",
     "eslint-plugin-autofix": "^1.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.8.0",
