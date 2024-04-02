@@ -1,2 +1,2 @@
-npm run eslint
-npm run checkTs
+bun run eslint
+bun run checkTs
