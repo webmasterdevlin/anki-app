@@ -144,7 +144,7 @@ function English() {
     } else {
       const questionData = [...words];
       const lastAddedQuestions = [...questionData].splice(
-        questions.length - questionOffset - questionLimit,
+        questions.length - (questionOffset == undefined ? 0 : questionOffset) - questionLimit,
         questionLimit,
       );
       setQuestions([...lastAddedQuestions]);
