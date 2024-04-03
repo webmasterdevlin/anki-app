@@ -529,7 +529,7 @@ function English() {
               setIsMuted(!isMuted);
             }}
           />
-          <span className="ml-2 text-sm text-white">stum uttale</span>
+          <span className="ml-2 text-sm text-white">demp uttale</span>
         </label>
       </div>
     </div>
