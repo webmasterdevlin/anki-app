@@ -276,7 +276,11 @@ function Norsk() {
                 type="number"
                 value={questionOffset}
                 onChange={e => {
-                  setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                  if (e.target.value === '') {
+                    setQuestionOffset(0);
+                  } else {
+                    setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                  }
                 }}
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">

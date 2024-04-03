@@ -144,7 +144,7 @@ function English() {
     } else {
       const questionData = [...words];
       const lastAddedQuestions = [...questionData].splice(
-        questions.length - (questionOffset == undefined ? 0 : questionOffset) - questionLimit,
+        questions.length - questionOffset - questionLimit,
         questionLimit,
       );
       setQuestions([...lastAddedQuestions]);
@@ -355,7 +355,11 @@ function English() {
                 type="number"
                 min="0"
                 onChange={e => {
-                  setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                  if (e.target.value === '') {
+                    setQuestionOffset(0);
+                  } else {
+                    setQuestionOffset(Math.max(1, parseInt(e.target.value, 10)));
+                  }
                 }}
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
