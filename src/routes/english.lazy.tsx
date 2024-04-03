@@ -59,7 +59,6 @@ const joyrideSteps: Step[] = [
     title: 'Start med de siste spørsmålene lagt til',
   },
 ];
-
 function English() {
   const [answer, setAnswer] = useState('');
   const [questionLimit, setQuestionLimit] = useState(5);
@@ -73,7 +72,7 @@ function English() {
   const [questionOffset, setQuestionOffset] = useState(0);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [streak, setStreak] = useState(0);
-
+  const [isMuted, setIsMuted] = useState(false);
   const [joyRide, setJoyRide] = useState<JoyrideOptions>({ run: false, steps: joyrideSteps });
 
   const handleJoyrideCallback = (data: CallBackProps) => {
@@ -260,6 +259,7 @@ function English() {
     if (showHint) {
       setShowAnswer(true);
       focusToSubmitButton();
+      speak();
     } else setShowHint(true);
   };
 
@@ -269,6 +269,9 @@ function English() {
   };
 
   const speak = () => {
+    if (isMuted) {
+      return;
+    }
     if (voices.length > 0) {
       const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
       utterance.voice = voices[0];
@@ -442,7 +445,7 @@ function English() {
                 role="button"
                 onClick={speak}
                 onKeyDown={e => {
-                  return e.key === 'Enter' && speak();
+                  e.key === 'Enter' && speak();
                 }}
                 tabIndex={0}
                 aria-label="Speak the current question"
@@ -483,7 +486,7 @@ function English() {
                   type="button"
                   aria-pressed={showHint ? 'true' : 'false'}
                 >
-                  {showHint ? 'show answer' : 'hint'}
+                  {showHint ? 'Vis svar' : 'hint'}
                 </button>
                 {showHint && (
                   <pre className="text-lg text-gray-700" tabIndex={0}>
@@ -498,24 +501,37 @@ function English() {
           </>
         )}
       </animated.section>
-      <animated.button
-        onMouseEnter={() => {
-          setHover({ scale: 1.1 });
-        }}
-        onMouseLeave={() => {
-          setHover({ scale: 1 });
-        }}
-        style={{
-          transform: hoverProps.scale.to(scale => {
-            return `scale(${scale})`;
-          }),
-        }}
-        onClick={handleReportQuestion}
-        className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
-        aria-label="Rapporter tidligere spørsmål"
-      >
-        Rapporter tidligere spørsmål
-      </animated.button>
+      <div className="flex w-full items-center justify-between">
+        <animated.button
+          onMouseEnter={() => {
+            setHover({ scale: 1.1 });
+          }}
+          onMouseLeave={() => {
+            setHover({ scale: 1 });
+          }}
+          style={{
+            transform: hoverProps.scale.to(scale => {
+              return `scale(${scale})`;
+            }),
+          }}
+          onClick={handleReportQuestion}
+          className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
+          aria-label="Rapporter tidligere spørsmål"
+        >
+          Rapporter tidligere spørsmål
+        </animated.button>
+        <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
+          <input
+            className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
+            type="checkbox"
+            checked={isMuted}
+            onChange={() => {
+              setIsMuted(!isMuted);
+            }}
+          />
+          <span className="ml-2 text-sm text-white">stum uttale</span>
+        </label>
+      </div>
     </div>
   );
 }

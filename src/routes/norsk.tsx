@@ -59,6 +59,7 @@ function Norsk() {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [isShuffled, setIsShuffled] = useState(false);
   const [questionOffset, setQuestionOffset] = useState(0);
+  const [isMuted, setIsMuted] = useState(false);
 
   const [joyRide, setJoyRide] = useState<JoyrideOptions>({ run: false, steps: joyrideSteps });
 
@@ -83,7 +84,9 @@ function Norsk() {
       utterance.voice = norwegianVoices[0];
       utterance.rate = 0.8;
       utterance.pitch = 0.8;
-      window.speechSynthesis.speak(utterance);
+      if (!isMuted) {
+        window.speechSynthesis.speak(utterance);
+      }
     }
     checkJoyride();
   }, [questions]);
@@ -96,6 +99,9 @@ function Norsk() {
   };
 
   const speak = () => {
+    if (isMuted) {
+      return;
+    }
     if (voices.length > 0) {
       const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
       utterance.voice = voices[0];
@@ -398,24 +404,37 @@ function Norsk() {
           </>
         )}
       </animated.section>
-      <animated.button
-        onMouseEnter={() => {
-          setHover({ scale: 1.1 });
-        }}
-        onMouseLeave={() => {
-          setHover({ scale: 1 });
-        }}
-        style={{
-          transform: hoverProps.scale.to(scale => {
-            return `scale(${scale})`;
-          }),
-        }}
-        onClick={handleReportQuestion}
-        className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
-        aria-label="Report the previous question"
-      >
-        Report previous question
-      </animated.button>
+      <div className="flex w-full items-center justify-between">
+        <animated.button
+          onMouseEnter={() => {
+            setHover({ scale: 1.1 });
+          }}
+          onMouseLeave={() => {
+            setHover({ scale: 1 });
+          }}
+          style={{
+            transform: hoverProps.scale.to(scale => {
+              return `scale(${scale})`;
+            }),
+          }}
+          onClick={handleReportQuestion}
+          className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
+          aria-label="Report the previous question"
+        >
+          Report previous question
+        </animated.button>
+        <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
+          <input
+            className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
+            type="checkbox"
+            checked={isMuted}
+            onChange={() => {
+              setIsMuted(!isMuted);
+            }}
+          />
+          <span className="ml-2 text-sm text-white">Mute pronounce</span>
+        </label>
+      </div>
     </div>
   );
 }
