@@ -402,8 +402,8 @@ function English() {
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Oversett til norsk:
             </h2>
-            <form onSubmit={handleFormSubmit} className="mb-2 space-y-4">
-              <fieldset className="w-full">
+            <form onSubmit={handleFormSubmit} className="mb-2">
+              <fieldset className="mb-4 w-full">
                 <legend className="sr-only">Engelsk ord å oversette</legend>
                 <div
                   className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
@@ -414,7 +414,43 @@ function English() {
                   </p>
                 </div>
               </fieldset>
-              <div className="mb-2">
+              {showAnswer ? (
+                <div
+                  role="button"
+                  onClick={speak}
+                  onKeyDown={e => {
+                    e.key === 'Enter' && speak();
+                  }}
+                  aria-label="Speak the current question"
+                  className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                >
+                  <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
+                    {questions[0]?.norwegian}
+                  </p>
+                  <p aria-hidden="true">🔊👈</p>
+                </div>
+              ) : (
+                <div className="mb-4 flex flex-wrap items-center justify-between">
+                  <button
+                    tabIndex={0}
+                    className="mb-2 mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                    onClick={handleShowHint}
+                    type="button"
+                    aria-pressed={showHint ? 'true' : 'false'}
+                  >
+                    {showHint ? 'Vis svar' : 'hint'}
+                  </button>
+                  {showHint && (
+                    <pre className="text-lg text-gray-700" tabIndex={0}>
+                      Begynner med bokstaven:{' '}
+                      {questions[0]?.norwegian.startsWith('å ')
+                        ? questions[0]?.norwegian.substring(0, 4)
+                        : questions[0]?.norwegian.substring(0, 2)}
+                    </pre>
+                  )}
+                </div>
+              )}
+              <div className="mb-4 ">
                 <label htmlFor="answerInput" className="sr-only">
                   Skriv svaret ditt her
                 </label>
@@ -447,23 +483,6 @@ function English() {
                 {showAnswer ? 'Fortsette' : 'Sende inn'}
               </button>
             </form>
-            {showAnswer && (
-              <div
-                role="button"
-                onClick={speak}
-                onKeyDown={e => {
-                  e.key === 'Enter' && speak();
-                }}
-                tabIndex={0}
-                aria-label="Speak the current question"
-                className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              >
-                <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
-                  {questions[0]?.norwegian}
-                </p>
-                <p aria-hidden="true">🔊👈</p>
-              </div>
-            )}
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
               <div className="flex justify-between">
                 <span>
@@ -484,27 +503,6 @@ function English() {
                 />
               </div>
             </div>
-            {!showAnswer && (
-              <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
-                <button
-                  tabIndex={0}
-                  className="mb-2 mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
-                  onClick={handleShowHint}
-                  type="button"
-                  aria-pressed={showHint ? 'true' : 'false'}
-                >
-                  {showHint ? 'Vis svar' : 'hint'}
-                </button>
-                {showHint && (
-                  <pre className="text-lg text-gray-700" tabIndex={0}>
-                    Begynner med bokstaven:{' '}
-                    {questions[0]?.norwegian.startsWith('å ')
-                      ? questions[0]?.norwegian.substring(0, 4)
-                      : questions[0]?.norwegian.substring(0, 2)}
-                  </pre>
-                )}
-              </div>
-            )}
           </>
         )}
       </animated.section>

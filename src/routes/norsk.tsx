@@ -326,8 +326,8 @@ function Norsk() {
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
               Translate to English:
             </h2>
-            <form onSubmit={handleFormSubmit} className="mb-2 space-y-4">
-              <fieldset className="w-full">
+            <form onSubmit={handleFormSubmit} className="mb-2">
+              <fieldset className="mb-4 w-full">
                 <legend className="sr-only">Norwegian word to translate</legend>
                 <div
                   role="button"
@@ -335,7 +335,6 @@ function Norsk() {
                   onKeyDown={e => {
                     return e.key === 'Enter' && speak();
                   }}
-                  tabIndex={0}
                   aria-label="Speak the current question"
                   className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
@@ -345,7 +344,34 @@ function Norsk() {
                   <p aria-hidden="true">🔊👈</p>
                 </div>
               </fieldset>
-              <div className="mb-2">
+              {showAnswer ? (
+                <div className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                  <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
+                    {questions[0]?.english}
+                  </p>
+                </div>
+              ) : (
+                <div className="mb-4 flex flex-wrap items-center justify-between">
+                  <button
+                    tabIndex={0}
+                    className="mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                    onClick={handleShowHint}
+                    type="button"
+                    aria-pressed={showHint ? 'true' : 'false'}
+                  >
+                    {showHint ? 'show answer' : 'hint'}
+                  </button>
+                  {showHint && (
+                    <p className="text-gray-700" tabIndex={0}>
+                      Starts with letters:{' '}
+                      {questions[0]?.english.startsWith('to ')
+                        ? questions[0]?.english.substring(0, 5)
+                        : questions[0]?.english.substring(0, 2)}
+                    </p>
+                  )}
+                </div>
+              )}
+              <div className="mb-4">
                 <label htmlFor="answerInput" className="sr-only">
                   Type your answer here
                 </label>
@@ -377,7 +403,6 @@ function Norsk() {
                 {showAnswer ? 'Continue' : 'Submit'}
               </button>
             </form>
-            {showAnswer && <strong tabIndex={0}>{questions[0]?.english}</strong>}
             <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
               progress {questionLimit - questions.length + 1} of {questionLimit}
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
@@ -387,27 +412,6 @@ function Norsk() {
                 />
               </div>
             </div>
-            {!showAnswer && (
-              <div className="mb-10 flex h-3 flex-wrap items-center justify-between">
-                <button
-                  tabIndex={0}
-                  className="mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
-                  onClick={handleShowHint}
-                  type="button"
-                  aria-pressed={showHint ? 'true' : 'false'}
-                >
-                  {showHint ? 'show answer' : 'hint'}
-                </button>
-                {showHint && (
-                  <p className="text-gray-700" tabIndex={0}>
-                    Starts with letters:{' '}
-                    {questions[0]?.english.startsWith('to ')
-                      ? questions[0]?.english.substring(0, 5)
-                      : questions[0]?.english.substring(0, 2)}
-                  </p>
-                )}
-              </div>
-            )}
           </>
         )}
       </animated.section>
