@@ -117,6 +117,7 @@ function English() {
     });
     setVoices(norwegianVoices);
     checkJoyride();
+    focusToInput();
   }, [questions]);
 
   const checkJoyride = () => {
@@ -127,9 +128,14 @@ function English() {
   };
 
   const submitButtonRef = useRef<HTMLButtonElement>(null);
+  const answerInputRef = useRef<HTMLInputElement>(null);
 
   const focusToSubmitButton = () => {
     submitButtonRef?.current?.focus();
+  };
+
+  const focusToInput = () => {
+    answerInputRef.current?.focus();
   };
 
   const startQuiz = () => {
@@ -413,6 +419,7 @@ function English() {
                   Skriv svaret ditt her
                 </label>
                 <Input
+                  ref={answerInputRef}
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"

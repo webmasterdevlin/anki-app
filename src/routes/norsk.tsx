@@ -89,6 +89,7 @@ function Norsk() {
       }
     }
     checkJoyride();
+    focusToInput();
   }, [questions]);
 
   const checkJoyride = () => {
@@ -136,9 +137,14 @@ function Norsk() {
   });
 
   const submitButtonRef = useRef<HTMLButtonElement>(null);
+  const answerInputRef = useRef<HTMLInputElement>(null);
 
   const focusToSubmitButton = () => {
     submitButtonRef?.current?.focus();
+  };
+
+  const focusToInput = () => {
+    answerInputRef.current?.focus();
   };
 
   const startQuiz = () => {
@@ -344,6 +350,7 @@ function Norsk() {
                   Type your answer here
                 </label>
                 <Input
+                  ref={answerInputRef}
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"
