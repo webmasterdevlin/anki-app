@@ -117,7 +117,8 @@ function English() {
     });
     setVoices(norwegianVoices);
     checkJoyride();
-    focusToInput();
+    // focusToInput(); // enable this if you don't use the hint that often, otherwise use focusToHintButton();
+    focusToHintButton();
   }, [questions]);
 
   const checkJoyride = () => {
@@ -129,6 +130,7 @@ function English() {
 
   const submitButtonRef = useRef<HTMLButtonElement>(null);
   const answerInputRef = useRef<HTMLInputElement>(null);
+  const hintButtonRef = useRef<HTMLButtonElement>(null);
 
   const focusToSubmitButton = () => {
     submitButtonRef?.current?.focus();
@@ -136,6 +138,10 @@ function English() {
 
   const focusToInput = () => {
     answerInputRef.current?.focus();
+  };
+
+  const focusToHintButton = () => {
+    hintButtonRef.current?.focus();
   };
 
   const startQuiz = () => {
@@ -432,6 +438,7 @@ function English() {
               ) : (
                 <div className="mb-4 flex flex-wrap items-center justify-between">
                   <button
+                    ref={hintButtonRef}
                     tabIndex={0}
                     className="mb-2 mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                     onClick={handleShowHint}
