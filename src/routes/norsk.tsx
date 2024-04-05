@@ -362,7 +362,7 @@ function Norsk() {
                   <button
                     ref={hintButtonRef}
                     tabIndex={0}
-                    className="mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                    className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                     onClick={handleShowHint}
                     type="button"
                     aria-pressed={showHint ? 'true' : 'false'}
@@ -370,12 +370,14 @@ function Norsk() {
                     {showHint ? 'show answer' : 'hint'}
                   </button>
                   {showHint && (
-                    <p className="text-gray-700">
+                    <pre className="text-xs text-gray-700">
                       Starts with letters:{' '}
-                      {questions[0]?.english.startsWith('to ')
-                        ? questions[0]?.english.substring(0, 5)
-                        : questions[0]?.english.substring(0, 2)}
-                    </p>
+                      <span className="text-base">
+                        {questions[0]?.english.startsWith('to ')
+                          ? questions[0]?.english.substring(0, 5)
+                          : questions[0]?.english.substring(0, 2)}
+                      </span>
+                    </pre>
                   )}
                 </div>
               )}
@@ -427,7 +429,6 @@ function Norsk() {
       </animated.section>
       <div className="flex w-full items-center justify-between">
         <animated.button
-          tabIndex={0}
           onMouseEnter={() => {
             setHover({ scale: 1.1 });
           }}
@@ -447,6 +448,7 @@ function Norsk() {
         </animated.button>
         <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
+            tabIndex={1}
             className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
             type="checkbox"
             checked={isMuted}
@@ -454,9 +456,7 @@ function Norsk() {
               setIsMuted(!isMuted);
             }}
           />
-          <span tabIndex={0} className="ml-2 text-sm text-white">
-            Mute pronounce
-          </span>
+          <span className="ml-2 text-sm text-white">Mute pronounce</span>
         </label>
       </div>
     </div>

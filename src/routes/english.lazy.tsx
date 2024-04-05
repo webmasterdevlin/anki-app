@@ -439,7 +439,7 @@ function English() {
                   <button
                     ref={hintButtonRef}
                     tabIndex={0}
-                    className="mb-2 mr-2 rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
+                    className="rounded-md bg-gray-500 px-4 py-2 text-white shadow-md hover:bg-gray-600"
                     onClick={handleShowHint}
                     type="button"
                     aria-pressed={showHint ? 'true' : 'false'}
@@ -447,11 +447,13 @@ function English() {
                     {showHint ? 'Vis svar' : 'hint'}
                   </button>
                   {showHint && (
-                    <pre className="text-lg text-gray-700">
+                    <pre className="text-xs text-gray-700">
                       Begynner med bokstaven:{' '}
-                      {questions[0]?.norwegian.startsWith('å ')
-                        ? questions[0]?.norwegian.substring(0, 4)
-                        : questions[0]?.norwegian.substring(0, 2)}
+                      <span className="text-base">
+                        {questions[0]?.norwegian.startsWith('å ')
+                          ? questions[0]?.norwegian.substring(0, 4)
+                          : questions[0]?.norwegian.substring(0, 2)}
+                      </span>
                     </pre>
                   )}
                 </div>
@@ -515,7 +517,6 @@ function English() {
       </animated.section>
       <div className="flex w-full items-center justify-between">
         <animated.button
-          tabIndex={0}
           onMouseEnter={() => {
             setHover({ scale: 1.1 });
           }}
@@ -535,6 +536,7 @@ function English() {
         </animated.button>
         <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
+            tabIndex={1}
             className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
             type="checkbox"
             checked={isMuted}
@@ -542,9 +544,7 @@ function English() {
               setIsMuted(!isMuted);
             }}
           />
-          <span tabIndex={0} className="ml-2 text-sm text-white">
-            demp uttale
-          </span>
+          <span className="ml-2 text-sm text-white">demp uttale</span>
         </label>
       </div>
     </div>
