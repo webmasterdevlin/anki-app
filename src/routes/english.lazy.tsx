@@ -317,14 +317,13 @@ function English() {
       <audio ref={audioRef} />
       {finished && <Confetti width={width} height={height} />}
       <div className="mb-4 flex items-center justify-between text-white">
-        <animated.h1 style={fadeIn} tabIndex={0}>
-          Øve på engelske ord
-        </animated.h1>
+        <animated.h1 style={fadeIn}>Øve på engelske ord</animated.h1>
         {hasQuizStarted && (
           <button
             onClick={resetQuiz}
             className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow hover:bg-cyan-600"
             aria-label="nytt spill"
+            tabIndex={0}
           >
             nytt spill
           </button>
@@ -383,6 +382,7 @@ function English() {
             </div>
             <button
               id="randomButton"
+              tabIndex={0}
               onClick={() => {
                 setIsShuffled(true);
               }}
@@ -394,6 +394,7 @@ function English() {
             </button>
             <button
               id="lastQuestionsButton"
+              tabIndex={0}
               onClick={() => {
                 setIsShuffled(false);
               }}
@@ -415,9 +416,7 @@ function English() {
                   className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   aria-label="Current Question"
                 >
-                  <p className="text-lg lowercase text-gray-700" tabIndex={0}>
-                    {questions[0]?.english}
-                  </p>
+                  <p className="text-lg lowercase text-gray-700">{questions[0]?.english}</p>
                 </div>
               </fieldset>
               {showAnswer ? (
@@ -448,7 +447,7 @@ function English() {
                     {showHint ? 'Vis svar' : 'hint'}
                   </button>
                   {showHint && (
-                    <pre className="text-lg text-gray-700" tabIndex={0}>
+                    <pre className="text-lg text-gray-700">
                       Begynner med bokstaven:{' '}
                       {questions[0]?.norwegian.startsWith('å ')
                         ? questions[0]?.norwegian.substring(0, 4)
@@ -491,7 +490,7 @@ function English() {
                 {showAnswer ? 'Fortsette' : 'Sende inn'}
               </button>
             </form>
-            <div className="mb-4 mr-2 mt-4 text-sm text-gray-600" tabIndex={0}>
+            <div className="mb-4 mr-2 mt-4 text-sm text-gray-600">
               <div className="flex justify-between">
                 <span>
                   fremgang{' '}
@@ -516,6 +515,7 @@ function English() {
       </animated.section>
       <div className="flex w-full items-center justify-between">
         <animated.button
+          tabIndex={0}
           onMouseEnter={() => {
             setHover({ scale: 1.1 });
           }}
@@ -533,7 +533,7 @@ function English() {
         >
           Rapporter tidligere spørsmål
         </animated.button>
-        <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
+        <label tabIndex={0} className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
             className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
             type="checkbox"

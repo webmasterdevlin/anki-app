@@ -252,6 +252,7 @@ function Norsk() {
         {hasQuizStarted && (
           <button
             onClick={resetQuiz}
+            tabIndex={0}
             className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow hover:bg-cyan-600"
             aria-label="nytt spill"
           >
@@ -307,6 +308,7 @@ function Norsk() {
             </div>
             <button
               id="randomButton"
+              tabIndex={0}
               onClick={() => {
                 setIsShuffled(true);
               }}
@@ -318,6 +320,7 @@ function Norsk() {
             </button>
             <button
               id="lastQuestionsButton"
+              tabIndex={0}
               onClick={() => {
                 setIsShuffled(false);
               }}
@@ -329,9 +332,7 @@ function Norsk() {
           </form>
         ) : (
           <>
-            <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
-              Translate to English:
-            </h2>
+            <h2 className="mb-4 text-xl font-bold text-gray-800">Translate to English:</h2>
             <form onSubmit={handleFormSubmit} className="mb-2">
               <fieldset className="mb-4 w-full">
                 <legend className="sr-only">Norwegian word to translate</legend>
@@ -369,7 +370,7 @@ function Norsk() {
                     {showHint ? 'show answer' : 'hint'}
                   </button>
                   {showHint && (
-                    <p className="text-gray-700" tabIndex={0}>
+                    <p className="text-gray-700">
                       Starts with letters:{' '}
                       {questions[0]?.english.startsWith('to ')
                         ? questions[0]?.english.substring(0, 5)
@@ -384,6 +385,7 @@ function Norsk() {
                 </label>
                 <Input
                   ref={answerInputRef}
+                  tabIndex={0}
                   autoComplete="off"
                   autoCorrect="off"
                   id="answerInput"
@@ -411,7 +413,7 @@ function Norsk() {
                 {showAnswer ? 'Continue' : 'Submit'}
               </button>
             </form>
-            <div className="mb-4 mt-4 text-sm text-gray-600" tabIndex={0}>
+            <div className="mb-4 mt-4 text-sm text-gray-600">
               progress {questionLimit - questions.length + 1} of {questionLimit}
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
                 <div
@@ -425,6 +427,7 @@ function Norsk() {
       </animated.section>
       <div className="flex w-full items-center justify-between">
         <animated.button
+          tabIndex={0}
           onMouseEnter={() => {
             setHover({ scale: 1.1 });
           }}
@@ -442,7 +445,7 @@ function Norsk() {
         >
           Report previous question
         </animated.button>
-        <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
+        <label tabIndex={0} className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
             className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
             type="checkbox"
