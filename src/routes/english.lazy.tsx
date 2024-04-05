@@ -289,7 +289,7 @@ function English() {
   };
 
   return (
-    <div className="min-w-96">
+    <div lang="nb" className="min-w-96">
       <Joyride
         callback={handleJoyrideCallback}
         continuous

@@ -1431,7 +1431,7 @@ export const words: Question[] = [
   { english: 'created', norwegian: 'skapt' },
   { english: 'find, finds, found, found', norwegian: 'finne, finner, funnet, fant' },
   { english: 'early', norwegian: 'tidlig' },
-  { english: 'actually', norwegian: 'egentlig' },
+  { english: 'actually', norwegian: 'egentlig, faktisk' },
   { english: 'very good', norwegian: 'meget god' },
   { english: 'tired', norwegian: 'trøtt, trett' },
   { english: 'tiring', norwegian: 'slitsomt' },
