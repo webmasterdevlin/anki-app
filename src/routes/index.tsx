@@ -19,7 +19,7 @@ function Home() {
         Discover the power of spaced repetition learning. Boost your linguistic prowess and start your journey to
         fluency today!
       </p>
-      <div tabIndex={0} className="text-center">
+      <div className="text-center">
         <Link
           to="/norsk"
           className="inline-block rounded-lg bg-blue-500 px-6 py-2 text-white transition duration-300 hover:bg-blue-600"

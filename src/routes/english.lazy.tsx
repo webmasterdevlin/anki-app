@@ -533,8 +533,9 @@ function English() {
         >
           Rapporter tidligere spørsmål
         </animated.button>
-        <label tabIndex={0} className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
+        <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
+            tabIndex={0}
             className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
             type="checkbox"
             checked={isMuted}
