@@ -404,6 +404,7 @@ function Norsk() {
               </div>
               <button
                 ref={submitButtonRef}
+                tabIndex={0}
                 type="submit"
                 className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
