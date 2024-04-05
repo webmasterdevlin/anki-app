@@ -89,7 +89,7 @@ function Norsk() {
       }
     }
     checkJoyride();
-    // focusToInput(); // enable this if you don't use the hint that often, otherwise use focusToHintButton();
+    // focusToInput(); // enable this and the noUnusedLocals in tsconfig if you don't use the hint that often, otherwise use focusToHintButton();
     focusToHintButton();
   }, [questions]);
 
