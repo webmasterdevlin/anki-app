@@ -535,7 +535,6 @@ function English() {
         </animated.button>
         <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
-            tabIndex={0}
             className="mr-2 h-5 w-5 cursor-pointer appearance-none rounded-full bg-gray-300"
             type="checkbox"
             checked={isMuted}
@@ -543,7 +542,9 @@ function English() {
               setIsMuted(!isMuted);
             }}
           />
-          <span className="ml-2 text-sm text-white">demp uttale</span>
+          <span tabIndex={0} className="ml-2 text-sm text-white">
+            demp uttale
+          </span>
         </label>
       </div>
     </div>

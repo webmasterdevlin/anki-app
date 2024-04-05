@@ -21,6 +21,7 @@ function Home() {
       </p>
       <div className="text-center">
         <Link
+          tabIndex={0}
           to="/norsk"
           className="inline-block rounded-lg bg-blue-500 px-6 py-2 text-white transition duration-300 hover:bg-blue-600"
           role="button"
