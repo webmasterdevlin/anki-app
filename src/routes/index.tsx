@@ -31,7 +31,7 @@ function Home() {
         </Link>
         <Link
           tabIndex={0}
-          to="/norsk"
+          to="/english"
           className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
           role="button"
           aria-label="Start learning Norwegian vocabulary"
