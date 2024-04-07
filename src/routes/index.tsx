@@ -14,10 +14,10 @@ function Home() {
 
   return (
     <animated.article style={fadeInUp} className="max-w-md rounded-lg bg-white px-8 py-6 shadow-lg">
-      <h1 className="mb-4 text-center text-3xl font-bold text-gray-800">Norsk vocab drills</h1>
+      <h1 className="mb-4 text-center text-3xl font-bold text-gray-800">Norsk vocabs drills</h1>
       <p className="mb-6 text-center text-gray-600">
-        Discover the power of spaced repetition learning. Boost your linguistic prowess and start your journey to
-        fluency today! Start learning now!
+        Improve your Norwegian vocabulary with this simple app. Choose between Norwegian to English or English to
+        Norwegian translations.
       </p>
       <div className="flex flex-col gap-2 text-center">
         <Link
