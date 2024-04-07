@@ -14,20 +14,29 @@ function Home() {
 
   return (
     <animated.article style={fadeInUp} className="max-w-md rounded-lg bg-white px-8 py-6 shadow-lg">
-      <h1 className="mb-4 text-center text-3xl font-bold text-gray-800">Master Norwegian Vocabulary</h1>
+      <h1 className="mb-4 text-center text-3xl font-bold text-gray-800">Norsk vocab drills</h1>
       <p className="mb-6 text-center text-gray-600">
         Discover the power of spaced repetition learning. Boost your linguistic prowess and start your journey to
-        fluency today!
+        fluency today! Start learning now!
       </p>
-      <div className="text-center">
+      <div className="flex flex-col gap-2 text-center">
         <Link
           tabIndex={0}
           to="/norsk"
-          className="inline-block rounded-lg bg-blue-500 px-6 py-2 text-white transition duration-300 hover:bg-blue-600"
+          className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
           role="button"
           aria-label="Start learning Norwegian vocabulary"
         >
-          Start Learning
+          Norwegian to english
+        </Link>
+        <Link
+          tabIndex={0}
+          to="/norsk"
+          className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
+          role="button"
+          aria-label="Start learning Norwegian vocabulary"
+        >
+          Engelsk til norsk
         </Link>
       </div>
     </animated.article>

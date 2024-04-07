@@ -358,7 +358,7 @@ function Norsk() {
                   </p>
                 </div>
               ) : (
-                <div className="mb-4 flex flex-wrap items-center justify-between">
+                <div className="mb-4 flex flex-row-reverse flex-wrap items-center justify-between">
                   <button
                     ref={hintButtonRef}
                     tabIndex={0}
