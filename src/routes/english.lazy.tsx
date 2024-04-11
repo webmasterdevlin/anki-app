@@ -451,8 +451,8 @@ function English() {
                       Begynner med bokstaven:{' '}
                       <span className="text-base">
                         {questions[0]?.norwegian.startsWith('å ')
-                          ? questions[0]?.norwegian.substring(0, 4)
-                          : questions[0]?.norwegian.substring(0, 2)}
+                          ? questions[0]?.norwegian.substring(0, 4).toLocaleLowerCase()
+                          : questions[0]?.norwegian.substring(0, 2).toLocaleLowerCase()}
                       </span>
                     </pre>
                   )}

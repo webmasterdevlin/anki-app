@@ -374,8 +374,8 @@ function Norsk() {
                       Starts with letters:{' '}
                       <span className="text-base">
                         {questions[0]?.english.startsWith('to ')
-                          ? questions[0]?.english.substring(0, 5)
-                          : questions[0]?.english.substring(0, 2)}
+                          ? questions[0]?.english.substring(0, 5).toLocaleLowerCase()
+                          : questions[0]?.english.substring(0, 2).toLocaleLowerCase()}
                       </span>
                     </pre>
                   )}
