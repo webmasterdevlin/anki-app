@@ -19,6 +19,7 @@ import ultraKill from '../assets/ultraKill.mp3';
 import wickedSick from '../assets/wickedSick.mp3';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
+import { stripNorskWordForHint } from '../utils/answer.ts';
 import { shuffleArray } from '../utils/question';
 
 import type { Question } from '../models/types.ts';
@@ -449,11 +450,7 @@ function English() {
                   {showHint && (
                     <pre className="text-xs text-gray-700">
                       Begynner med bokstaven:{' '}
-                      <span className="text-base">
-                        {questions[0]?.norwegian.startsWith('å ')
-                          ? questions[0]?.norwegian.substring(0, 4).toLocaleLowerCase()
-                          : questions[0]?.norwegian.substring(0, 2).toLocaleLowerCase()}
-                      </span>
+                      <span className="text-base">{stripNorskWordForHint(questions[0]?.norwegian)}</span>
                     </pre>
                   )}
                 </div>

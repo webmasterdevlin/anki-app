@@ -7,6 +7,7 @@ import Joyride, { STATUS, type CallBackProps, type Step } from 'react-joyride';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
+import { stripEnglishWordForHint } from '../utils/answer.ts';
 import { shuffleArray } from '../utils/question';
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
@@ -372,11 +373,7 @@ function Norsk() {
                   {showHint && (
                     <pre className="text-xs text-gray-700">
                       Starts with letters:{' '}
-                      <span className="text-base">
-                        {questions[0]?.english.startsWith('to ')
-                          ? questions[0]?.english.substring(0, 5).toLocaleLowerCase()
-                          : questions[0]?.english.substring(0, 2).toLocaleLowerCase()}
-                      </span>
+                      <span className="text-base">{stripEnglishWordForHint(questions[0]?.english)}</span>
                     </pre>
                   )}
                 </div>
