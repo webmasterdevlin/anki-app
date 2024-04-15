@@ -17,7 +17,11 @@ export function stripNorskWordForHint(answer: string) {
 }
 
 export function stripEnglishWordForHint(answer: string) {
-  if (answer.startsWith('to ') || answer.startsWith('an ')) {
+  if (answer.startsWith('have ')) {
+    return answer.substring(0, 7).toLocaleLowerCase();
+  } else if (answer.startsWith('har ')) {
+    return answer.substring(0, 6).toLocaleLowerCase();
+  } else if (answer.startsWith('to ') || answer.startsWith('an ')) {
     return answer.substring(0, 5).toLocaleLowerCase();
   } else if (answer.startsWith('a ')) {
     return answer.substring(0, 4).toLocaleLowerCase();

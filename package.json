@@ -21,6 +21,7 @@
     "@tailwindcss/typography": "^0.5.12",
     "@tanstack/react-router": "^1.27.0",
     "autoprefixer": "^10.4.19",
+    "axios": "^1.6.8",
     "clsx": "^2.1.0",
     "logrocket": "^8.1.0",
     "logrocket-react": "6.0.3",
