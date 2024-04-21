@@ -371,10 +371,10 @@ function Norsk() {
                     {showHint ? 'show answer' : 'hint'}
                   </button>
                   {showHint && (
-                    <pre className="text-xs text-gray-700">
+                    <p className="text-xs text-gray-700">
                       Starts with letters:{' '}
                       <span className="text-base">{stripEnglishWordForHint(questions[0]?.english)}</span>
-                    </pre>
+                    </p>
                   )}
                 </div>
               )}

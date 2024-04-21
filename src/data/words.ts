@@ -2886,7 +2886,7 @@ export const words: Question[] = [
   { english: 'larger quantities', norwegian: 'større mengder' },
   { english: 'editorial content', norwegian: 'redaksjonelt innhold' },
   { english: 'sixth place', norwegian: 'sjetteplass' },
-  { english: 'except', norwegian: 'med unntak av, bortsett' },
+  { english: 'except', norwegian: 'med unntak av, bortsett fra' },
   { english: 'not surprised', norwegian: 'ikke overrasket' },
   { english: 'content production', norwegian: 'innholdsproduksjon' },
   { english: 'stands out by', norwegian: 'skiller seg ut ved' },
