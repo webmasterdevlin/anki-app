@@ -260,6 +260,7 @@ function English() {
     setQuestionLimit(0);
     setStreak(0);
     setQuestions([]);
+    setShowAnswer(false);
   };
 
   const resetForm = () => {

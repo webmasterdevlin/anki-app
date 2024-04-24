@@ -205,6 +205,7 @@ function Norsk() {
     setHasQuizStarted(false);
     setQuestionLimit(0);
     setQuestions([]);
+    setShowAnswer(false);
   };
 
   const resetForm = () => {
