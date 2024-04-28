@@ -193,7 +193,8 @@ function Norsk() {
     if (areStringsEqual) {
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
-      if (!answer)
+      console.log('answer:', answer);
+      if (answer)
         message(
           `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
         );

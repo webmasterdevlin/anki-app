@@ -245,7 +245,7 @@ function English() {
       playSound();
       setStreak(streak + 1);
     } else {
-      if (!answer)
+      if (answer)
         message(
           `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
         );
