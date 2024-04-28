@@ -245,9 +245,10 @@ function English() {
       playSound();
       setStreak(streak + 1);
     } else {
-      message(
-        `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
-      );
+      if (!answer)
+        message(
+          `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
+        );
       setStreak(0);
       const currentQuestion = questions[0];
       questions.splice(questions.indexOf(currentQuestion), 1);
