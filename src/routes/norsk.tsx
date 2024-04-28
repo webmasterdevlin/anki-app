@@ -187,7 +187,7 @@ function Norsk() {
 
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
-
+    toast.dismiss();
     const areStringsEqual = questions[0].english.toLowerCase() === answer.toLowerCase().trim();
 
     if (areStringsEqual) {
