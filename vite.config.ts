@@ -13,7 +13,7 @@ export default defineConfig({
     eslint(),
     vercel(),
     TanStackRouterVite(),
-    million.vite({ auto: true }),
+    // million.vite({ auto: true }), # disable million for now. Getting keys not found warning.
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
