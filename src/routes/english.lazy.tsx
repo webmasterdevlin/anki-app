@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
 
 import Joyride, { STATUS, type CallBackProps, type Step } from 'react-joyride';
+import { Bounce, ToastContainer, toast } from 'react-toastify';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import dominating from '../assets/dominating.mp3';
 import doubleKill from '../assets/doubleKill.mp3';
@@ -129,6 +130,20 @@ function English() {
     }
   };
 
+  const message = (info: string) => {
+    toast.warn(info, {
+      autoClose: 5000,
+      closeOnClick: true,
+      draggable: true,
+      hideProgressBar: false,
+      pauseOnHover: true,
+      position: 'top-center',
+      progress: undefined,
+      theme: 'light',
+      transition: Bounce,
+    });
+  };
+
   const submitButtonRef = useRef<HTMLButtonElement>(null);
   const answerInputRef = useRef<HTMLInputElement>(null);
   const hintButtonRef = useRef<HTMLButtonElement>(null);
@@ -230,7 +245,7 @@ function English() {
       playSound();
       setStreak(streak + 1);
     } else {
-      alert(
+      message(
         `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
       );
       setStreak(0);
@@ -249,7 +264,7 @@ function English() {
       setFinished(true);
       audioRef.current.src = dragonballZ;
       audioRef.current?.play();
-      alert('Du har fullført quizen!');
+      message('Du har fullført quizen!');
       return;
     }
     resetForm();
@@ -278,7 +293,7 @@ function English() {
   };
 
   const handleReportQuestion = () => {
-    alert('Spørsmål rapportert!');
+    message('Spørsmål rapportert!');
     throw new Error('Rapportert spørsmål : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
 
@@ -292,12 +307,13 @@ function English() {
 
       window.speechSynthesis.speak(utterance);
     } else {
-      alert('No Norwegian voices available');
+      message('No Norwegian voices available');
     }
   };
 
   return (
     <div lang="nb" className="min-w-96">
+      <ToastContainer />
       <Joyride
         callback={handleJoyrideCallback}
         continuous

@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
 
 import Joyride, { STATUS, type CallBackProps, type Step } from 'react-joyride';
+import { Bounce, ToastContainer, toast } from 'react-toastify';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
@@ -101,6 +102,20 @@ function Norsk() {
     }
   };
 
+  const message = (info: string) => {
+    toast.warn(info, {
+      autoClose: 5000,
+      closeOnClick: true,
+      draggable: true,
+      hideProgressBar: false,
+      pauseOnHover: true,
+      position: 'top-center',
+      progress: undefined,
+      theme: 'light',
+      transition: Bounce,
+    });
+  };
+
   const speak = () => {
     if (isMuted) {
       return;
@@ -111,7 +126,7 @@ function Norsk() {
 
       window.speechSynthesis.speak(utterance);
     } else {
-      alert('No Norwegian voices available');
+      message('No Norwegian voices available');
     }
   };
 
@@ -178,7 +193,7 @@ function Norsk() {
     if (areStringsEqual) {
       questions.splice(questions.indexOf(questions[0]), 1);
     } else {
-      alert(
+      message(
         `Incorrect! The correct answer was: ${questions[0].norwegian.toLowerCase()} = ${questions[0].english.toLowerCase()}`,
       );
       const currentQuestion = questions[0];
@@ -194,7 +209,7 @@ function Norsk() {
       resetForm();
       resetQuiz();
       setFinished(true);
-      alert('You have completed the quiz!');
+      message('You have completed the quiz!');
       return;
     }
     resetForm();
@@ -222,12 +237,13 @@ function Norsk() {
   };
 
   const handleReportQuestion = () => {
-    alert('Question reported!');
+    message('Question reported!');
     throw new Error('Reported question : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
 
   return (
     <div lang="en" className="min-w-96">
+      <ToastContainer />
       <Joyride
         callback={handleJoyrideCallback}
         continuous

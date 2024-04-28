@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import { routeTree } from './routeTree.gen';
 
 import './index.css';
-
+import 'react-toastify/dist/ReactToastify.css';
 LogRocket.init('gbsta4/anki-app');
 
 // Set up a Router instance
