@@ -24,6 +24,10 @@ sdk use java 17.0.11-tem
 bunx tauri init
 ```
 
+```zsh
+bun add @tauri-apps/api@next @tauri-apps/plugin-shell@next internal-ip@7.0.0
+```
+
 - initialize android project (see package.json's scripts section for more commands)
 ```zsh
 bun init:android
