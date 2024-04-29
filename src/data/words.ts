@@ -2951,7 +2951,7 @@ export const words: Question[] = [
   { english: 'shocks', norwegian: 'sjokkerer' },
   { english: 'to murder', norwegian: 'å drap' },
   { english: 'thanks the same', norwegian: 'takk i lige måde' },
-  { english: 'har tjent', norwegian: 'have earned' },
+  { english: 'have earned', norwegian: 'har tjent' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
