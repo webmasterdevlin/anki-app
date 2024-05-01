@@ -2967,7 +2967,7 @@ export const words: Question[] = [
   { english: 'mosquito-borne', norwegian: 'myggbårne' },
   { english: 'has changed', norwegian: 'har forandret' },
   { english: 'treat oneself', norwegian: 'unne seg' },
-  { english: 'i beste fall', norwegian: 'i beste fall' },
+  { english: 'at best', norwegian: 'i beste fall' },
   { english: 'cause', norwegian: 'føre til' },
   { english: 'a move', norwegian: 'et trekk' },
   { english: 'recognizable', norwegian: 'gjenkjennelig' },
