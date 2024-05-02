@@ -1540,7 +1540,7 @@ export const words: Question[] = [
   { english: 'his, her', norwegian: 'sitt' },
   { english: 'your turn', norwegian: 'din tur' },
   { english: 'sound (noun)', norwegian: 'lyd' },
-  { english: 'what kind?', norwegian: 'hva slags' },
+  { english: 'what kind?', norwegian: 'hva slags?' },
   { english: 'geeking', norwegian: 'gluping' },
   { english: 'has named', norwegian: 'har kåret' },
   { english: 'unfair', norwegian: 'urettferdig' },
