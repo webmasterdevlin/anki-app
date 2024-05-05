@@ -3002,7 +3002,7 @@ export const words: Question[] = [
   { english: 'a sight', norwegian: 'et syn' },
   { english: 'the customs officers', norwegian: 'tollerne' },
   { english: 'treats', norwegian: 'unner' },
-  { english: 'to con', norwegian: 'å lure' },
+  { english: 'to trick', norwegian: 'å lure' },
   { english: 'in that case', norwegian: 'i så fall' },
   { english: 'to react', norwegian: 'å reagere' },
   { english: 'have to', norwegian: 'nødt til' },
