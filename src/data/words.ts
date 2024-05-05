@@ -2990,7 +2990,7 @@ export const words: Question[] = [
   { english: 'to wave', norwegian: 'å vinke' },
   { english: 'the idea', norwegian: 'ideen' },
   { english: 'preferably', norwegian: 'helst' },
-  { english: 'existence', norwegian: 'tilværelsen' },
+  { english: 'the existence', norwegian: 'tilværelsen' },
   { english: 'range', norwegian: 'rekkevidde' },
   { english: 'within', norwegian: 'innen' },
   { english: 'moments', norwegian: 'stunder' },
