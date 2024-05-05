@@ -2953,7 +2953,7 @@ export const words: Question[] = [
   { english: 'thanks the same', norwegian: 'takk i lige måde' },
   { english: 'have earned', norwegian: 'har tjent' },
   { english: 'market forces', norwegian: 'markedskreftene' },
-  { english: 'noen sinne', norwegian: 'ever' },
+  { english: 'ever', norwegian: 'noen sinne' },
   { english: 'too big', norwegian: 'altfor stor' },
   { english: 'attitude', norwegian: 'holdning' },
   { english: 'contempt', norwegian: 'forakt' },
