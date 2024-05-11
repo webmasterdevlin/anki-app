@@ -3011,7 +3011,7 @@ export const words: Question[] = [
   { english: 'fool me out', norwegian: 'dumme meg ut' },
   { english: 'hardly', norwegian: 'neppe' },
   { english: 'cowardly', norwegian: 'feigt' },
-  // { english: '', norwegian: '' },
+  { english: 'suggestion', norwegian: 'oppfordring' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
