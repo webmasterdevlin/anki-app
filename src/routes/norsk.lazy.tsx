@@ -9,7 +9,7 @@ import useWindowSize from 'react-use/lib/useWindowSize';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
 import { stripEnglishWordForHint } from '../utils/answer.ts';
-import { shuffleArray } from '../utils/question';
+import { shuffleArray } from '../utils/question.ts';
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
 

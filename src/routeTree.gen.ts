@@ -13,22 +13,22 @@ import { createFileRoute } from '@tanstack/react-router'
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
-import { Route as NorskImport } from './routes/norsk'
+import { Route as EnglishImport } from './routes/english'
 import { Route as IndexImport } from './routes/index'
 
 // Create Virtual Routes
 
-const EnglishLazyImport = createFileRoute('/english')()
+const NorskLazyImport = createFileRoute('/norsk')()
 
 // Create/Update Routes
 
-const EnglishLazyRoute = EnglishLazyImport.update({
-  path: '/english',
-  getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/english.lazy').then((d) => d.Route))
-
-const NorskRoute = NorskImport.update({
+const NorskLazyRoute = NorskLazyImport.update({
   path: '/norsk',
+  getParentRoute: () => rootRoute,
+} as any).lazy(() => import('./routes/norsk.lazy').then((d) => d.Route))
+
+const EnglishRoute = EnglishImport.update({
+  path: '/english',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -45,12 +45,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/norsk': {
-      preLoaderRoute: typeof NorskImport
+    '/english': {
+      preLoaderRoute: typeof EnglishImport
       parentRoute: typeof rootRoute
     }
-    '/english': {
-      preLoaderRoute: typeof EnglishLazyImport
+    '/norsk': {
+      preLoaderRoute: typeof NorskLazyImport
       parentRoute: typeof rootRoute
     }
   }
@@ -60,8 +60,8 @@ declare module '@tanstack/react-router' {
 
 export const routeTree = rootRoute.addChildren([
   IndexRoute,
-  NorskRoute,
-  EnglishLazyRoute,
+  EnglishRoute,
+  NorskLazyRoute,
 ])
 
 /* prettier-ignore-end */

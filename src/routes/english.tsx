@@ -21,7 +21,7 @@ import wickedSick from '../assets/wickedSick.mp3';
 import Input from '../components/input.tsx';
 import { words } from '../data/words.ts';
 import { stripNorskWordForHint } from '../utils/answer.ts';
-import { shuffleArray } from '../utils/question';
+import { shuffleArray } from '../utils/question.ts';
 
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
