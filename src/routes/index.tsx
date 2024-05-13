@@ -22,21 +22,21 @@ function Home() {
       <div className="flex flex-col gap-2 text-center">
         <Link
           tabIndex={0}
-          to="/norsk"
-          className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
-          role="button"
-          aria-label="Start learning Norwegian vocabulary"
-        >
-          Norwegian to english
-        </Link>
-        <Link
-          tabIndex={0}
           to="/english"
           className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
           role="button"
           aria-label="Start learning Norwegian vocabulary"
         >
           Engelsk til norsk
+        </Link>
+        <Link
+          tabIndex={0}
+          to="/norsk"
+          className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
+          role="button"
+          aria-label="Start learning Norwegian vocabulary"
+        >
+          Norwegian to english
         </Link>
       </div>
     </animated.article>
