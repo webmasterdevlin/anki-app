@@ -42,14 +42,23 @@ const IndexRoute = IndexImport.update({
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
     '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
     '/english': {
+      id: '/english'
+      path: '/english'
+      fullPath: '/english'
       preLoaderRoute: typeof EnglishImport
       parentRoute: typeof rootRoute
     }
     '/norsk': {
+      id: '/norsk'
+      path: '/norsk'
+      fullPath: '/norsk'
       preLoaderRoute: typeof NorskLazyImport
       parentRoute: typeof rootRoute
     }
@@ -58,10 +67,10 @@ declare module '@tanstack/react-router' {
 
 // Create and export the route tree
 
-export const routeTree = rootRoute.addChildren([
+export const routeTree = rootRoute.addChildren({
   IndexRoute,
   EnglishRoute,
   NorskLazyRoute,
-])
+})
 
 /* prettier-ignore-end */
