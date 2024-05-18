@@ -333,7 +333,7 @@ function English() {
           },
         }}
       />
-      <audio ref={audioRef} />
+      <audio ref={audioRef} preload="auto" />
       {finished && <Confetti width={width} height={height} />}
       <div className="mb-4 flex items-center justify-between text-white">
         <animated.h1 style={fadeIn}>Øve på engelske ord</animated.h1>

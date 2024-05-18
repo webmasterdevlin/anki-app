@@ -18,7 +18,14 @@ export default defineConfig({
     // million.vite({ auto: true }), # disable million for now. Getting keys not found warning.
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+      includeAssets: [
+        'favicon.ico',
+        'apple-touch-icon.png',
+        'mask-icon.svg',
+        'src/assets/dragonballZ.mp3',
+        'assets/dragonballZ-CBedy-bg.mp3',
+        'assets/dragonballZ.mp3',
+      ],
       manifest: {
         name: 'Anki App',
         short_name: 'anki-app',
