@@ -16,8 +16,8 @@
     "tauri": "tauri",
     "init:android": "tauri android init",
     "init:ios": "tauri ios init",
-    "dev:android": "tauri android dev",
-    "dev:ios": "tauri ios dev",
+    "dev:android": "RUST_BACKTRACE=1 tauri android dev",
+    "dev:ios": "RUST_BACKTRACE=1 tauri ios dev",
     "build:desktop": "tauri build --target aarch64-apple-darwin"
   },
   "dependencies": {
