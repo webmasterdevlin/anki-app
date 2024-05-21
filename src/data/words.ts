@@ -3573,7 +3573,6 @@ export const words: Question[] = [
   { english: 'a try', norwegian: 'et forsøk' },
   { english: 'nope', norwegian: 'neida' },
   { english: 'the concepts', norwegian: 'begrepene' },
-  { english: 'a sommelier recommended us', norwegian: 'en vinkelner anbefalte oss' },
   { english: 'a successful composition', norwegian: 'en vellykket sammensetning' },
   { english: 'a bit cumbersome', norwegian: 'litt tungvint' },
   { english: 'en konkret produktidé', norwegian: 'a concrete product idea' },
