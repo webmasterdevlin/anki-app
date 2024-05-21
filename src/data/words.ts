@@ -3592,7 +3592,7 @@ export const words: Question[] = [
   { english: 'suspect you', norwegian: 'mistenker deg' },
   { english: 'performance', norwegian: 'forestilling' },
   { english: 'settle with', norwegian: 'nøye seg med' },
-  // { english: '', norwegian: '' },
+  { english: 'confidence', norwegian: 'selvtillit, selvsikkerhet' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
