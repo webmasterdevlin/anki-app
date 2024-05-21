@@ -3575,7 +3575,7 @@ export const words: Question[] = [
   { english: 'the concepts', norwegian: 'begrepene' },
   { english: 'a successful composition', norwegian: 'en vellykket sammensetning' },
   { english: 'a bit cumbersome', norwegian: 'litt tungvint' },
-  { english: 'en konkret produktidé', norwegian: 'a concrete product idea' },
+  { english: 'a concrete product idea', norwegian: 'en konkret produktidé' },
   { english: 'considerable', norwegian: 'betydelig' },
   { english: 'in approximately 7 minutes', norwegian: 'på omtrent 7 minutter' },
   { english: 'loses time', norwegian: 'mister tid' },
