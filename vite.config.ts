@@ -83,14 +83,14 @@ export default defineConfig({
   clearScreen: false,
   // 2. tauri expects a fixed port, fail if that port is not available
   server: {
-    port: 1420,
+    port: 5173,
     strictPort: true,
     host: mobile ? '0.0.0.0' : false,
     hmr: mobile
       ? {
           protocol: 'ws',
           host: await internalIpV4(),
-          port: 1421,
+          port: 5173,
         }
       : undefined,
     watch: {
