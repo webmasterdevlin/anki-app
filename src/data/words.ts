@@ -3524,7 +3524,7 @@ export const words: Question[] = [
   { english: 'some redundancy in operation', norwegian: 'noen redundans på drift' },
   { english: 'for years with', norwegian: 'i årevis med' },
   { english: 'to throw up', norwegian: 'å slenge opp' },
-  { english: 'but consider', norwegian: 'ben vurder' },
+  { english: 'but consider', norwegian: 'men vurder' },
   { english: 'to explore dedicated hardware', norwegian: 'for å utforske dedikert hardware' },
   { english: 'may be wise', norwegian: 'kan det være klokt' },
   { english: 'to edit content on', norwegian: 'å redigere innhold på' },
