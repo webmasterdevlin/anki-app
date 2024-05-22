@@ -3468,7 +3468,7 @@ export const words: Question[] = [
   { english: 'other than', norwegian: 'annet enn' },
   { english: 'also currently unknown', norwegian: 'også foreløpig uvisst' },
   { english: 'the road to irrelevance', norwegian: 'veien til irrelevans' },
-  { english: 'emaining enterprise customers', norwegian: 'resterende enterprise kundene' },
+  { english: 'remaining enterprise customers', norwegian: 'resterende enterprise kundene' },
   { english: 'to be responsible', norwegian: 'til å være forsvarlig' },
   { english: 'imagine myself', norwegian: 'forestille meg' },
   { english: 'you are welcome to stop by', norwegian: 'velkommen innom' },
