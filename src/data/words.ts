@@ -3373,7 +3373,7 @@ export const words: Question[] = [
   { english: 'have done the homework', norwegian: 'har gjort leksa' },
   { english: 'explore new ways', norwegian: 'utforske nye måter' },
   { english: 'crucial', norwegian: 'avgjørende' },
-  { english: '', norwegian: 'menneskelig innsikt' },
+  { english: 'human insight', norwegian: 'menneskelig innsikt' },
   { english: 'a real difference', norwegian: 'en reell forskjell' },
   { english: 'sparring partner', norwegian: 'sparringspartner' },
   { english: 'caution is required', norwegian: 'det kreves forsiktighet' },
