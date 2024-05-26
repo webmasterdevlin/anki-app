@@ -1,4 +1,4 @@
 export const root = [
-  ['/norsk', 'norsk'],
   ['/english', 'english'],
+  ['/norsk', 'norsk'],
 ] as const;
