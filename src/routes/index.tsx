@@ -18,6 +18,7 @@ function Home() {
       <h1
         onClick={() => {
           invoke('my_custom_command');
+          console.log('invoking rust custom command');
         }}
         className="mb-4 text-center text-3xl font-bold text-gray-800"
       >
