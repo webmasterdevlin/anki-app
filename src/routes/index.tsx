@@ -1,5 +1,6 @@
 import { useSpring, animated } from '@react-spring/web';
 import { Link, createFileRoute } from '@tanstack/react-router';
+import { invoke } from '@tauri-apps/api/core';
 
 export const Route = createFileRoute('/')({
   component: Home,
@@ -14,7 +15,14 @@ function Home() {
 
   return (
     <animated.article style={fadeInUp} className="max-w-md rounded-lg bg-white px-8 py-6 shadow-lg">
-      <h1 className="mb-4 text-center text-3xl font-bold text-gray-800">Norsk vocabs drills</h1>
+      <h1
+        onClick={() => {
+          invoke('my_custom_command');
+        }}
+        className="mb-4 text-center text-3xl font-bold text-gray-800"
+      >
+        Norsk vocabs drills
+      </h1>
       <p className="mb-6 text-center text-gray-600">
         Improve your Norwegian vocabulary with this simple app. Choose between Norwegian to English or English to
         Norwegian translations.
