@@ -1,28 +1,36 @@
 import { useSpring, animated } from '@react-spring/web';
 import { Link, createFileRoute } from '@tanstack/react-router';
 import { invoke } from '@tauri-apps/api/core';
+import { scan, Format } from '@tauri-apps/plugin-barcode-scanner';
+import { ask } from '@tauri-apps/plugin-dialog';
+import { useState } from 'react';
 
 export const Route = createFileRoute('/')({
   component: Home,
 });
 
 function Home() {
+  const [tapTitle, setTapTitle] = useState(false);
   const fadeInUp = useSpring({
     config: { duration: 1000 },
     from: { opacity: 0, transform: 'translate3d(0, 30px, 0)' },
     to: { opacity: 1, transform: 'translate3d(0, 0, 0)' }, // Adjust the timing here (in ms)
   });
 
+  const handleOpenDialog = async () => {
+    setTapTitle(true);
+    await invoke('my_custom_command');
+    await ask('This action cannot be reverted. Are you sure?', {
+      kind: 'warning',
+      title: 'Tauri',
+    });
+    scan({ formats: [Format.QRCode], windowed: true });
+  };
+
   return (
     <animated.article style={fadeInUp} className="max-w-md rounded-lg bg-white px-8 py-6 shadow-lg">
-      <h1
-        onClick={() => {
-          invoke('my_custom_command');
-          console.log('invoking rust custom command');
-        }}
-        className="mb-4 text-center text-3xl font-bold text-gray-800"
-      >
-        Norsk vocabs drills
+      <h1 onClick={handleOpenDialog} className="mb-4 text-center text-3xl font-bold text-gray-800">
+        Norsk {tapTitle && 'vocabs'} drills
       </h1>
       <p className="mb-6 text-center text-gray-600">
         Improve your Norwegian vocabulary with this simple app. Choose between Norwegian to English or English to

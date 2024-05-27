@@ -1,16 +1,10 @@
 {
-  "$schema": "../gen/schemas/mobile-schema.json",
+  "$schema": "../gen/schemas/desktop-schema.json",
   "identifier": "main-capability",
   "description": "Capability for the main window",
   "local": true,
   "windows": ["main"],
   "permissions": [
-    "dialog:default",
-    "dialog:allow-ask",
-    "dialog:allow-open",
-    "dialog:allow-save",
-    "dialog:allow-message",
-    "dialog:allow-confirm",
     "path:default",
     "event:default",
     "window:default",

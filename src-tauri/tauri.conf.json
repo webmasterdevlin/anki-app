@@ -18,7 +18,28 @@
     ],
     "security": {
       "csp": null,
-      "capabilities": ["main-capability"]
+      "capabilities": [
+        {
+          "identifier": "my-inline-capability",
+          "description": "My application capability used for all windows",
+          "local": true,
+          "windows": ["*"],
+          "platforms": ["android", "iOS", "windows", "macOS", "linux"],
+          "permissions": [
+            "dialog:default",
+            "dialog:allow-ask",
+            "dialog:allow-open",
+            "dialog:allow-save",
+            "dialog:allow-message",
+            "dialog:allow-confirm",
+            "nfc:allow-scan",
+            "barcode-scanner:allow-scan",
+            "barcode-scanner:allow-cancel"
+          ]
+        },
+        "main-capability",
+        "mobile-capability"
+      ]
     }
   },
   "plugins": {},
