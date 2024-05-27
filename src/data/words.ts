@@ -3659,7 +3659,7 @@ export const words: Question[] = [
   { english: 'especially this one', norwegian: 'særlig denne' },
   { english: 'press the button', norwegian: 'trykk på knappen' },
   { english: 'i was supposed to join them', norwegian: 'jeg skulle bli med dem' },
-  // { english: '', norwegian: '' },
+  { english: 'an existing app', norwegian: 'en eksisterende app' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
