@@ -3661,7 +3661,7 @@ export const words: Question[] = [
   { english: 'i was supposed to join them', norwegian: 'jeg skulle bli med dem' },
   { english: 'an existing app', norwegian: 'en eksisterende app' },
   { english: 'a dirty hand', norwegian: 'en skitten hånd' },
-  { english: 'jeg ikke har rukket', norwegian: 'i haven not made it' },
+  { english: 'i have not made it', norwegian: 'jeg ikke har rukket' },
   { english: 'a delay', norwegian: 'en forsinkelse' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
