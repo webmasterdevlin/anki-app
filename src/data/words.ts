@@ -3662,7 +3662,7 @@ export const words: Question[] = [
   { english: 'an existing app', norwegian: 'en eksisterende app' },
   { english: 'a dirty hand', norwegian: 'en skitten hånd' },
   { english: 'jeg ikke har rukket', norwegian: 'i haven not made it' },
-  // { english: '', norwegian: '' },
+  { english: 'a delay', norwegian: 'en forsinkelse' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
   // { english: '', norwegian: '' },
