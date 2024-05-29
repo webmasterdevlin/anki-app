@@ -1,7 +1,6 @@
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 use tauri_plugin_dialog::DialogExt;
 
-
 #[tauri::command]
 fn greet(name: &str) -> String {
     format!("Hello, {}! You've been greeted from Rust!", name)
@@ -9,7 +8,8 @@ fn greet(name: &str) -> String {
 
 #[tauri::command]
 fn my_custom_command() {
-    let answer = app.dialog()
+    let answer = app
+        .dialog()
         .message("Tauri is Awesome")
         .title("Tauri is Awesome")
         .ok_button_label("Absolutely")
