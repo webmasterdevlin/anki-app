@@ -3753,7 +3753,7 @@ export const words: Question[] = [
   { english: 'clear and clearly visible', norwegian: 'tydelig og godt synlig' },
   { english: 'placed either at the top', norwegian: 'plassert enten øverst' },
   { english: 'contains links', norwegian: 'inneholder lenker' },
-  { english: 'a section', norwegian: 'en seksjon ' },
+  { english: 'a section', norwegian: 'en seksjon' },
   { english: 'customized', norwegian: 'tilpassede' },
   { english: 'detail view', norwegian: 'detaljvisning' },
   { english: 'search results', norwegian: 'søkeresultater' },
