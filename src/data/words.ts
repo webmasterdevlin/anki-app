@@ -3766,7 +3766,7 @@ export const words: Question[] = [
   { english: 'attract users', norwegian: 'tiltrekke brukere' },
   { english: 'personal fulfillment', norwegian: 'personlig tilfredsstillelse' },
   { english: 'engaged and motivated', norwegian: 'engasjerte og motiverte' },
-  { english: 'from certain activities', norwegian: 'fra bestemte aktiviteter ' },
+  { english: 'from certain activities', norwegian: 'fra bestemte aktiviteter' },
   { english: 'exclusive content', norwegian: 'eksklusivt innhold' },
   { english: 'participate in', norwegian: 'deltar i' },
   { english: 'scolding', norwegian: 'skjeller ut' },
