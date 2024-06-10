@@ -13,6 +13,7 @@ import { createFileRoute } from '@tanstack/react-router'
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as SpanishImport } from './routes/spanish'
 import { Route as EnglishImport } from './routes/english'
 import { Route as IndexImport } from './routes/index'
 
@@ -26,6 +27,11 @@ const NorskLazyRoute = NorskLazyImport.update({
   path: '/norsk',
   getParentRoute: () => rootRoute,
 } as any).lazy(() => import('./routes/norsk.lazy').then((d) => d.Route))
+
+const SpanishRoute = SpanishImport.update({
+  path: '/spanish',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const EnglishRoute = EnglishImport.update({
   path: '/english',
@@ -55,6 +61,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EnglishImport
       parentRoute: typeof rootRoute
     }
+    '/spanish': {
+      id: '/spanish'
+      path: '/spanish'
+      fullPath: '/spanish'
+      preLoaderRoute: typeof SpanishImport
+      parentRoute: typeof rootRoute
+    }
     '/norsk': {
       id: '/norsk'
       path: '/norsk'
@@ -70,6 +83,7 @@ declare module '@tanstack/react-router' {
 export const routeTree = rootRoute.addChildren({
   IndexRoute,
   EnglishRoute,
+  SpanishRoute,
   NorskLazyRoute,
 })
 
@@ -83,6 +97,7 @@ export const routeTree = rootRoute.addChildren({
       "children": [
         "/",
         "/english",
+        "/spanish",
         "/norsk"
       ]
     },
@@ -91,6 +106,9 @@ export const routeTree = rootRoute.addChildren({
     },
     "/english": {
       "filePath": "english.tsx"
+    },
+    "/spanish": {
+      "filePath": "spanish.tsx"
     },
     "/norsk": {
       "filePath": "norsk.lazy.tsx"

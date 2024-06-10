@@ -30,7 +30,7 @@ function Home() {
   return (
     <animated.article style={fadeInUp} className="max-w-md rounded-lg bg-white px-8 py-6 shadow-lg">
       <h1 onClick={handleOpenDialog} className="mb-4 text-center text-3xl font-bold text-gray-800">
-        Norsk {tapTitle && 'vocabs'} drills
+        Norsk and Spanish {tapTitle && 'vocabs'} drills
       </h1>
       <p className="mb-6 text-center text-gray-600">
         Improve your Norwegian vocabulary with this simple app. Choose between Norwegian to English or English to
@@ -54,6 +54,15 @@ function Home() {
           aria-label="Start learning Norwegian vocabulary"
         >
           Norwegian to english
+        </Link>
+        <Link
+          tabIndex={0}
+          to="/spanish"
+          className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
+          role="button"
+          aria-label="Start learning Norwegian vocabulary"
+        >
+          Practice Spanish
         </Link>
       </div>
     </animated.article>

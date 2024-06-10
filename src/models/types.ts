@@ -2,4 +2,5 @@
 export type Question = {
   norwegian: string;
   english: string;
+  spanish: string;
 };

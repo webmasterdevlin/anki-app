@@ -26,42 +26,41 @@ import { shuffleArray } from '../utils/question.ts';
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
 
-export const Route = createFileRoute('/english')({
-  component: English,
+export const Route = createFileRoute('/spanish')({
+  component: Spanish,
 });
 
 type JoyrideOptions = {
   run: boolean;
   steps: Step[];
 };
-
 const joyrideSteps: Step[] = [
   {
-    content: <h3>Hvor mange spørsmål liker du?</h3>,
+    content: <h3>¿Cuántas preguntas te gustaría responder?</h3>,
     placement: 'top',
     target: '#questionLimit',
-    title: 'Spørsmålsgrense',
+    title: 'Límite de preguntas',
   },
   {
-    content: <h3>Hvor mange siste spørsmål skal du hoppe over?</h3>,
+    content: <h3>¿Cuántas preguntas quieres saltar desde la última pregunta?</h3>,
     placement: 'top',
     target: '#questionOffset',
-    title: 'Offset fra siste spørsmål',
+    title: 'Desplazamiento desde la última pregunta',
   },
   {
-    content: <h3>Du vil få spørsmål inn tilfeldig fra databasen.</h3>,
+    content: <h3>Recibirás preguntas al azar de la base de datos.</h3>,
     placement: 'top',
     target: '#randomButton',
-    title: 'Start med tilfeldige spørsmål',
+    title: 'Comenzar con preguntas aleatorias',
   },
   {
-    content: <h3>Du vil få de siste spørsmålene lagt til i databasen.</h3>,
+    content: <h3>Recibirás las últimas preguntas agregadas a la base de datos.</h3>,
     placement: 'top',
     target: '#lastQuestionsButton',
-    title: 'Start med de siste spørsmålene lagt til',
+    title: 'Comenzar con las últimas preguntas agregadas',
   },
 ];
-function English() {
+function Spanish() {
   const [answer, setAnswer] = useState('');
   const [questionLimit, setQuestionLimit] = useState(5);
   const [hasQuizStarted, setHasQuizStarted] = useState(false);
@@ -114,10 +113,12 @@ function English() {
 
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
-    const norwegianVoices = availableVoices.filter(voice => {
-      return voice.name === 'Flo (Spanish (Spain))' || voice.name === 'Eddy (Spanish (Spain))';
+    const spanishVoices = availableVoices.filter(voice => {
+      return voice.name === 'Flo (Spanish (Spain))'; // female voice
+      return voice.name === 'Flo (Spanish (Mexico))';
+      return voice.name === 'Eddy (Spanish (Spain))'; // male voice
     });
-    setVoices(norwegianVoices);
+    setVoices(spanishVoices);
     checkJoyride();
     // focusToInput(); // enable this and the noUnusedLocals in tsconfig if you don't use the hint that often, otherwise use focusToHintButton();
     focusToHintButton();
@@ -238,7 +239,7 @@ function English() {
   const handleFormSubmit = (event: FormEvent) => {
     event.preventDefault();
     toast.dismiss();
-    const areStringsEqual = questions[0].norwegian.toLowerCase() === answer.toLowerCase().trim();
+    const areStringsEqual = questions[0].spanish.toLowerCase() === answer.toLowerCase().trim();
 
     if (areStringsEqual) {
       questions.splice(questions.indexOf(questions[0]), 1);
@@ -247,7 +248,7 @@ function English() {
     } else {
       if (answer)
         message(
-          `Stemmer ikke! Riktig svar var: ${questions[0].english.toLowerCase()} = ${questions[0].norwegian.toLowerCase()}`,
+          `¡Incorrecto! La respuesta correcta era: ${questions[0].english.toLowerCase()} = ${questions[0].spanish.toLowerCase()}`,
         );
       setStreak(0);
       const currentQuestion = questions[0];
@@ -294,8 +295,8 @@ function English() {
   };
 
   const handleReportQuestion = () => {
-    message('Spørsmål rapportert!');
-    throw new Error('Rapportert spørsmål : ' + JSON.stringify(questions[questions.length - 1], null, 2));
+    message('¡Pregunta reportada!');
+    throw new Error('Pregunta reportada : ' + JSON.stringify(questions[questions.length - 1], null, 2));
   };
 
   const speak = () => {
@@ -303,12 +304,12 @@ function English() {
       return;
     }
     if (voices.length > 0) {
-      const utterance = new SpeechSynthesisUtterance(questions[0].norwegian);
+      const utterance = new SpeechSynthesisUtterance(questions[0].spanish);
       utterance.voice = voices[0];
 
       window.speechSynthesis.speak(utterance);
     } else {
-      message('No Norwegian voices available');
+      message('No spanish voices available');
     }
   };
 
@@ -336,19 +337,18 @@ function English() {
       <audio ref={audioRef} preload="auto" />
       {finished && <Confetti width={width} height={height} />}
       <div className="mb-4 flex items-center justify-between text-white">
-        <animated.h1 style={fadeIn}>Øve på engelske ord</animated.h1>
+        <animated.h1 style={fadeIn}>Practicar palabras en español</animated.h1>
         {hasQuizStarted && (
           <button
             onClick={resetQuiz}
             className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow hover:bg-cyan-600"
-            aria-label="nytt spill"
+            aria-label="nuevo juego"
             tabIndex={0}
           >
-            nytt spill
+            nuevo juego
           </button>
         )}
       </div>
-
       <animated.section
         style={scaleUp}
         className="w-full max-w-md overflow-y-auto rounded-lg bg-white px-6 py-8 shadow-md"
@@ -357,11 +357,11 @@ function English() {
         {!hasQuizStarted ? (
           <form onSubmit={startQuiz}>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
-              Hvor mange spørsmål vil du svare på?
+              ¿Cuántas preguntas te gustaría responder?
             </h2>
             <div className="mb-4">
               <label htmlFor="questionLimit" className="block text-sm font-medium text-gray-700">
-                Antall spørsmål
+                ¿Cuántas preguntas?
               </label>
               <Input
                 id="questionLimit"
@@ -375,12 +375,12 @@ function English() {
                 max="100"
               />
               <p id="questionLimitHelp" className="mt-2 text-sm text-gray-500">
-                Velg et tall.
+                Elige un número.
               </p>
             </div>
             <div className="mb-4">
               <label htmlFor="questionOffset" className="block text-sm font-medium text-gray-700">
-                Offsetting fra det siste spørsmålet (kun for det andre alternativet)
+                ¿Cuántas preguntas quieres saltar desde la última pregunta?
               </label>
               <Input
                 id="questionOffset"
@@ -396,7 +396,7 @@ function English() {
                 }}
               />
               <p id="questionOffsetHelp" className="mt-2 text-sm text-gray-500">
-                Skriv inn et tall for forskyvningen (offset).
+                Ingresa un número para el desplazamiento.
               </p>
             </div>
             <button
@@ -409,7 +409,7 @@ function English() {
               type="submit"
               className="mb-4 w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
             >
-              start med tilfeldige spørsmål
+              Empezar con preguntas aleatorias
             </button>
             <button
               id="lastQuestionsButton"
@@ -420,17 +420,17 @@ function English() {
               type="submit"
               className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >
-              start med de siste spørsmålene lagt til
+              Empezar con las últimas preguntas agregadas
             </button>
           </form>
         ) : (
           <>
             <h2 className="mb-4 text-xl font-bold text-gray-800" tabIndex={0}>
-              Oversett til norsk:
+              Traducir al español
             </h2>
             <form onSubmit={handleFormSubmit} className="mb-2">
               <fieldset className="mb-4 w-full">
-                <legend className="sr-only">Engelsk ord å oversette</legend>
+                <legend className="sr-only">Palabras en ingles para traducir</legend>
                 <div
                   className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   aria-label="Current Question"
@@ -449,7 +449,7 @@ function English() {
                   className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
-                    {questions[0]?.norwegian}
+                    {questions[0]?.spanish}
                   </p>
                   <p aria-hidden="true">🔊👈</p>
                 </div>
@@ -467,15 +467,15 @@ function English() {
                   </button>
                   {showHint && (
                     <p className="text-xs text-gray-700">
-                      Begynner med bokstaven:{' '}
-                      <span className="text-base">{stripNorskWordForHint(questions[0]?.norwegian)}</span>
+                      Comienza con la letra:{' '}
+                      <span className="text-base">{stripNorskWordForHint(questions[0]?.spanish)}</span>
                     </p>
                   )}
                 </div>
               )}
               <div className="mb-4">
                 <label htmlFor="answerInput" className="sr-only">
-                  Skriv svaret ditt her
+                  Escribe tu respuesta aquí
                 </label>
                 <Input
                   ref={answerInputRef}
@@ -483,9 +483,9 @@ function English() {
                   autoCorrect="off"
                   id="answerInput"
                   placeholder={
-                    questions[0]?.norwegian.includes(',')
-                      ? 'Skriv inn to svar atskilt med komma... '
-                      : 'Skriv inn ett enkelt svar her...'
+                    questions[0]?.spanish.includes(',')
+                      ? 'Escriba dos respuestas separadas por comas...'
+                      : 'Escriba aquí una respuesta sencilla...'
                   }
                   required={!showAnswer}
                   disabled={showAnswer}
@@ -504,7 +504,7 @@ function English() {
                 type="submit"
                 className="w-full rounded-md bg-indigo-500 py-2 font-medium text-white hover:bg-indigo-600"
               >
-                {showAnswer ? 'Fortsette' : 'Sende inn'}
+                {showAnswer ? 'Continúe en' : 'Enviar'}
               </button>
             </form>
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600">
@@ -517,7 +517,7 @@ function English() {
                   av {questionLimit}
                 </span>
                 <span>
-                  seiersrekke: <span className="underline decoration-pink-700 decoration-2">{streak}</span>
+                  racha ganadora: <span className="underline decoration-pink-700 decoration-2">{streak}</span>
                 </span>
               </div>
               <div className="mt-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
@@ -545,9 +545,9 @@ function English() {
           }}
           onClick={handleReportQuestion}
           className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
-          aria-label="Rapporter tidligere spørsmål"
+          aria-label="Informar sobre preguntas anteriores"
         >
-          Rapporter tidligere spørsmål
+          Informar sobre preguntas anteriores
         </animated.button>
         <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
@@ -559,7 +559,7 @@ function English() {
               setIsMuted(!isMuted);
             }}
           />
-          <span className="ml-2 text-sm text-white">demp uttale</span>
+          <span className="ml-2 text-sm text-white">pronunciación de mute</span>
         </label>
       </div>
     </div>
