@@ -103,7 +103,7 @@ function Spanish() {
   });
 
   // Animation for buttons on hover
-  const [hoverProps, setHover] = useSpring(() => {
+  const [,] = useSpring(() => {
     return {
       config: { friction: 40, mass: 5, tension: 350 },
       from: { scale: 1 },
@@ -114,6 +114,7 @@ function Spanish() {
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
     const spanishVoices = availableVoices.filter(voice => {
+      return voice.lang.startsWith('es');
       return voice.name === 'Flo (Spanish (Spain))'; // female voice
       return voice.name === 'Flo (Spanish (Mexico))';
       return voice.name === 'Eddy (Spanish (Spain))'; // male voice
@@ -418,7 +419,7 @@ function Spanish() {
                 setIsShuffled(false);
               }}
               type="submit"
-              className="w-full rounded-md border border-indigo-500 bg-white py-2 font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
+              className="w-full rounded-md border border-indigo-500 bg-white py-2 text-sm font-medium text-indigo-500 hover:border-indigo-600 hover:bg-indigo-100"
             >
               Empezar con las últimas preguntas agregadas
             </button>
@@ -531,24 +532,6 @@ function Spanish() {
         )}
       </animated.section>
       <div className="flex w-full items-center justify-between">
-        <animated.button
-          onMouseEnter={() => {
-            setHover({ scale: 1.1 });
-          }}
-          onMouseLeave={() => {
-            setHover({ scale: 1 });
-          }}
-          style={{
-            transform: hoverProps.scale.to(scale => {
-              return `scale(${scale})`;
-            }),
-          }}
-          onClick={handleReportQuestion}
-          className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
-          aria-label="Informar sobre preguntas anteriores"
-        >
-          Informar sobre preguntas anteriores
-        </animated.button>
         <label className="mt-4 flex cursor-pointer items-center justify-center text-gray-700">
           <input
             tabIndex={1}
