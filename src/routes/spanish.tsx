@@ -434,7 +434,7 @@ function Spanish() {
                 <legend className="sr-only">Palabras en ingles para traducir</legend>
                 <div
                   className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                  aria-label="Current Question"
+                  aria-label="Pregunta actual"
                 >
                   <p className="text-lg lowercase text-gray-700">{questions[0]?.english}</p>
                 </div>
@@ -446,7 +446,7 @@ function Spanish() {
                   onKeyDown={e => {
                     e.key === 'Enter' && speak();
                   }}
-                  aria-label="Speak the current question"
+                  aria-label="Habla la pregunta actual"
                   className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
                 >
                   <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>

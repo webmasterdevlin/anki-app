@@ -51,7 +51,7 @@ function Home() {
           to="/norsk"
           className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
           role="button"
-          aria-label="Start learning Norwegian vocabulary"
+          aria-label="Start learning Norwegian vocabularies"
         >
           Norwegian to english
         </Link>
@@ -60,7 +60,7 @@ function Home() {
           to="/spanish"
           className="inline-block rounded-lg bg-indigo-500 px-6 py-2 text-white transition duration-300 hover:bg-indigo-600"
           role="button"
-          aria-label="Start learning Norwegian vocabulary"
+          aria-label="Start learning Spanish vocabularies"
         >
           Practice Spanish
         </Link>
