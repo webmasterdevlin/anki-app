@@ -464,7 +464,7 @@ function Spanish() {
                     type="button"
                     aria-pressed={showHint ? 'true' : 'false'}
                   >
-                    {showHint ? 'Vis svar' : 'hint'}
+                    {showHint ? 'Muestra la respuesta' : 'pista'}
                   </button>
                   {showHint && (
                     <p className="text-xs text-gray-700">
@@ -511,11 +511,11 @@ function Spanish() {
             <div className="mb-4 mr-2 mt-4 text-sm text-gray-600">
               <div className="flex justify-between">
                 <span>
-                  fremgang{' '}
+                  progreso{' '}
                   <span className="underline decoration-pink-700 decoration-2">
                     {questionLimit - questions.length + 1}
                   </span>{' '}
-                  av {questionLimit}
+                  de {questionLimit}
                 </span>
                 <span>
                   racha ganadora: <span className="underline decoration-pink-700 decoration-2">{streak}</span>
