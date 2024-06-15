@@ -1,5 +1,5 @@
 import { useSpring, animated } from '@react-spring/web';
-import { createFileRoute } from '@tanstack/react-router';
+import { createLazyFileRoute } from '@tanstack/react-router';
 import { useState, useRef, useEffect } from 'react';
 import Confetti from 'react-confetti';
 
@@ -13,7 +13,7 @@ import { shuffleArray } from '../utils/question.ts';
 import type { Question } from '../models/types.ts';
 import type { FormEvent } from 'react';
 
-export const Route = createFileRoute('/norsk')({
+export const Route = createLazyFileRoute('/norsk')({
   component: Norsk,
 });
 
