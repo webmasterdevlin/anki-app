@@ -115,8 +115,8 @@ function English() {
   useEffect(() => {
     const availableVoices = window.speechSynthesis.getVoices();
     const norwegianVoices = availableVoices.filter(voice => {
-      return voice.name === 'Flo (Spanish (Spain))' || voice.name === 'Eddy (Spanish (Spain))';
-    });
+      voice.lang.startsWith('nb') || voice.lang.startsWith('nn');
+    };
     setVoices(norwegianVoices);
     checkJoyride();
     // focusToInput(); // enable this and the noUnusedLocals in tsconfig if you don't use the hint that often, otherwise use focusToHintButton();
