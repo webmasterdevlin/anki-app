@@ -4706,7 +4706,7 @@ export const words: Question[] = [
     norwegian: 'for alt utviklerrelatert',
     spanish: 'para todo lo relacionado con el desarrollador',
   },
-  { english: 'nyttigste', norwegian: 'nyttigste', spanish: 'más útil' },
+  { english: 'most useful', norwegian: 'nyttigste', spanish: 'más útil' },
   { english: 'wizard', norwegian: 'veiviser', spanish: 'asistente' },
   {
     english: 'it is worth mentioning that',
