@@ -4625,7 +4625,11 @@ export const words: Question[] = [
     spanish: 'puede guiar y crear seguridad',
   },
   { english: 'your age', norwegian: 'alderen din', spanish: 'tu edad' },
-  { english: 'hvis noen mot formodning', norwegian: 'hvis noen mot formodning', spanish: 'hvis noen mot formodning' },
+  {
+    english: 'if someone against all odds',
+    norwegian: 'hvis noen mot formodning',
+    spanish: 'hvis noen mot formodning',
+  },
   {
     english: 'do not have the opportunity to use',
     norwegian: 'ikke har anledning til å bruke',
@@ -4717,7 +4721,7 @@ export const words: Question[] = [
   { english: 'in court', norwegian: 'i retten', spanish: 'en la corte' },
   { english: 'long distance relationship', norwegian: 'avstandsforholdet', spanish: 'relación a larga distancia' },
   { english: 'anything that is possible', norwegian: 'alt som er mulig', spanish: 'cualquier cosa que sea posible' },
-  // { english: '', norwegian: '', spanish: '' },
+  { english: 'truthfulness', norwegian: 'sannsyn', spanish: 'veracidad' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
