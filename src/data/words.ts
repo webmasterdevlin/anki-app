@@ -4659,7 +4659,7 @@ export const words: Question[] = [
   { english: 'ambitious', norwegian: 'ambisiøse', spanish: 'ambicioso' },
   { english: 'had fought', norwegian: 'hadde kjempet', spanish: 'había luchado' },
   { english: 'mysterious', norwegian: 'mystiske', spanish: 'misterioso' },
-  { english: 'jeg er kåt', norwegian: 'i am horny', spanish: 'estoy caliente' },
+  { english: 'i am horny', norwegian: 'jeg er kåt', spanish: 'estoy caliente' },
   { english: 'maintains', norwegian: 'opprettholder', spanish: 'mantiene' },
   { english: 'life-changing choice', norwegian: 'livsendrende valg', spanish: 'elección que cambia la vida' },
   { english: 'the license model', norwegian: 'lisensmodellen', spanish: 'el modelo de licencia' },
