@@ -4998,7 +4998,7 @@ export const words: Question[] = [
   { english: 'do you think he is proposing', norwegian: 'tror du at han frir', spanish: 'crees que está proponiendo' },
   { english: 'read the list', norwegian: 'lese listen', spanish: 'leer la lista' },
   { english: 'there is a lot of curriculum', norwegian: 'det er mye pensum', spanish: 'hay mucho currículo' },
-  // { english: '', norwegian: '', spanish: '' },
+  { english: 'i am saved', norwegian: 'jer er frelst', spanish: 'estoy salvado' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
