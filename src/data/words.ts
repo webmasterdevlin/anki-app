@@ -4550,7 +4550,7 @@ export const words: Question[] = [
   { english: 'relatively tight', norwegian: 'relativt tett', spanish: 'relativamente apretado' },
   { english: 'taking several steps back', norwegian: 'ta flere steg tilbake', spanish: 'dar varios pasos atrás' },
   { english: 'most likely increase', norwegian: 'mest sannsynlig øke', spanish: 'probablemente aumentará' },
-  { english: 'included in the package', norwegian: 'følger med på lasset.', spanish: 'incluido en el paquete' },
+  { english: 'included in the package', norwegian: 'følger med på lasset', spanish: 'incluido en el paquete' },
   { english: 'a decision', norwegian: 'en avgjørelse', spanish: 'una decisión' },
   { english: 'to expose', norwegian: 'å utsette', spanish: 'exponer' },
   { english: 'psychological violence', norwegian: 'psykisk vold', spanish: 'violencia psicológica' },
