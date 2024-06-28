@@ -5258,7 +5258,7 @@ export const words: Question[] = [
   { english: 'insane', norwegian: 'vanvittig', spanish: 'loco' },
   { english: 'to disbelieve', norwegian: 'å vantrives', spanish: 'no creer' },
   { english: 'to disgrace', norwegian: 'å vanære', spanish: 'desgraciar' },
-  // { english: '', norwegian: '', spanish: '' },
+  { english: 'it is reliable', norwegian: 'det er pålitelig', spanish: 'es confiable' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
