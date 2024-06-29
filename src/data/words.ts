@@ -5277,7 +5277,7 @@ export const words: Question[] = [
   },
   { english: 'anxiety', norwegian: 'angst', spanish: 'ansiedad' },
   { english: 'homeless person', norwegian: 'uteligger', spanish: 'persona sin hogar' },
-  // { english: '', norwegian: '', spanish: '' },
+  { english: 'touching', norwegian: 'rørende', spanish: 'conmovedor' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
   // { english: '', norwegian: '', spanish: '' },
