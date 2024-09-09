@@ -80,12 +80,54 @@ declare module '@tanstack/react-router' {
 
 // Create and export the route tree
 
-export const routeTree = rootRoute.addChildren({
-  IndexRoute,
-  EnglishRoute,
-  SpanishRoute,
-  NorskLazyRoute,
-})
+export interface FileRoutesByFullPath {
+  '/': typeof IndexRoute
+  '/english': typeof EnglishRoute
+  '/spanish': typeof SpanishRoute
+  '/norsk': typeof NorskLazyRoute
+}
+
+export interface FileRoutesByTo {
+  '/': typeof IndexRoute
+  '/english': typeof EnglishRoute
+  '/spanish': typeof SpanishRoute
+  '/norsk': typeof NorskLazyRoute
+}
+
+export interface FileRoutesById {
+  __root__: typeof rootRoute
+  '/': typeof IndexRoute
+  '/english': typeof EnglishRoute
+  '/spanish': typeof SpanishRoute
+  '/norsk': typeof NorskLazyRoute
+}
+
+export interface FileRouteTypes {
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths: '/' | '/english' | '/spanish' | '/norsk'
+  fileRoutesByTo: FileRoutesByTo
+  to: '/' | '/english' | '/spanish' | '/norsk'
+  id: '__root__' | '/' | '/english' | '/spanish' | '/norsk'
+  fileRoutesById: FileRoutesById
+}
+
+export interface RootRouteChildren {
+  IndexRoute: typeof IndexRoute
+  EnglishRoute: typeof EnglishRoute
+  SpanishRoute: typeof SpanishRoute
+  NorskLazyRoute: typeof NorskLazyRoute
+}
+
+const rootRouteChildren: RootRouteChildren = {
+  IndexRoute: IndexRoute,
+  EnglishRoute: EnglishRoute,
+  SpanishRoute: SpanishRoute,
+  NorskLazyRoute: NorskLazyRoute,
+}
+
+export const routeTree = rootRoute
+  ._addFileChildren(rootRouteChildren)
+  ._addFileTypes<FileRouteTypes>()
 
 /* prettier-ignore-end */
 
