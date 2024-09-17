@@ -30,6 +30,9 @@ export default defineConfig({
         name: 'Anki App',
         short_name: 'anki-app',
         description: 'improve your norsk vocabularies',
+        display: 'standalone',
+        "background_color": "peachpuff",
+        "theme_color": "rgb(255 218 185)",
         icons: [
           {
             src: '/pwa-192x192.png',
@@ -70,10 +73,7 @@ export default defineConfig({
             form_factor: 'wide',
           },
         ],
-        start_url: '/',
-        display: 'standalone',
-        background_color: '#00FFFF',
-        theme_color: '#00FFFF',
+        start_url: '/'
       },
     }),
   ],
