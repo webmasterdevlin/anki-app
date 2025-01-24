@@ -6134,4 +6134,5 @@ export const words: Question[] = [
   { english: 'safeguard', norwegian: 'ivaretar', spanish: 'salvaguardar' },
   { english: 'manageable', norwegian: 'forvaltningsbar', spanish: 'manejable' },
   { english: 'I prefer tools like', norwegian: 'jeg heller verktøy som', spanish: 'prefiero herramientas como' },
+  { english: 'with support', norwegian: 'med støtte', spanish: 'con soporte' },
 ];
