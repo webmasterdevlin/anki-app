@@ -7,6 +7,9 @@ import million from 'million/compiler';
 import { VitePWA } from 'vite-plugin-pwa';
 import { internalIpV4 } from 'internal-ip';
 
+// @ts-expect-error process is a nodejs global
+const host = process.env.TAURI_DEV_HOST;
+
 const mobile = !!/android|ios/.exec(process.env.TAURI_ENV_PLATFORM);
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -31,8 +34,8 @@ export default defineConfig({
         short_name: 'anki-app',
         description: 'improve your norsk vocabularies',
         display: 'standalone',
-        "background_color": "peachpuff",
-        "theme_color": "rgb(255 218 185)",
+        background_color: 'peachpuff',
+        theme_color: 'rgb(255 218 185)',
         icons: [
           {
             src: '/pwa-192x192.png',
@@ -73,7 +76,7 @@ export default defineConfig({
             form_factor: 'wide',
           },
         ],
-        start_url: '/'
+        start_url: '/',
       },
     }),
   ],
@@ -85,12 +88,12 @@ export default defineConfig({
   server: {
     port: 1420,
     strictPort: true,
-    host: mobile ? '0.0.0.0' : false,
-    hmr: mobile
+    host: host || false,
+    hmr: host
       ? {
           protocol: 'ws',
-          host: await internalIpV4(),
-          port: 1420,
+          host,
+          port: 1421,
         }
       : undefined,
     watch: {
