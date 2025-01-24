@@ -1,51 +1,35 @@
 {
-  "productName": "devlin",
-  "version": "0.0.0",
-  "identifier": "com.tauri.devlin",
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "anki-app",
+  "version": "0.1.0",
+  "identifier": "com.anki-app.app",
   "build": {
-    "beforeDevCommand": "bun dev",
+    "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "bun build",
+    "beforeBuildCommand": "bun run build",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
-        "title": "devlin",
+        "title": "anki-app",
         "width": 800,
         "height": 600
       }
     ],
     "security": {
-      "csp": null,
-      "capabilities": [
-        {
-          "identifier": "my-inline-capability",
-          "description": "My application capability used for all windows",
-          "local": true,
-          "windows": ["*"],
-          "platforms": ["android", "iOS", "windows", "macOS", "linux"],
-          "permissions": [
-            "dialog:default",
-            "dialog:allow-ask",
-            "dialog:allow-open",
-            "dialog:allow-save",
-            "dialog:allow-message",
-            "dialog:allow-confirm",
-            "nfc:allow-scan",
-            "barcode-scanner:allow-scan",
-            "barcode-scanner:allow-cancel"
-          ]
-        },
-        "main-capability",
-        "mobile-capability"
-      ]
+      "csp": null
     }
   },
-  "plugins": {},
   "bundle": {
     "active": true,
     "targets": "all",
-    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"]
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
   }
 }

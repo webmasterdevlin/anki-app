@@ -1,13 +1,13 @@
 # Uncomment the next line to define a global platform for your project
 
-target 'devlin_iOS' do
+target 'anki-app_iOS' do
 platform :ios, '13.0'
-  # Pods for devlin_iOS
+  # Pods for anki-app_iOS
 end
 
-target 'devlin_macOS' do
+target 'anki-app_macOS' do
 platform :osx, '11.0'
-  # Pods for devlin_macOS
+  # Pods for anki-app_macOS
 end
 
 # Delete the deployment target for iOS and macOS, causing it to be inherited from the Podfile

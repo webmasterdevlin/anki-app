@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D3BC5A73E9B36BD84244D07A"
-               BuildableName = "devlin.app"
-               BlueprintName = "devlin_iOS"
-               ReferencedContainer = "container:devlin.xcodeproj">
+               BlueprintIdentifier = "84C285A8B44558AD734D90D8"
+               BuildableName = "anki-app.app"
+               BlueprintName = "anki-app_iOS"
+               ReferencedContainer = "container:anki-app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -30,10 +30,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3BC5A73E9B36BD84244D07A"
-            BuildableName = "devlin.app"
-            BlueprintName = "devlin_iOS"
-            ReferencedContainer = "container:devlin.xcodeproj">
+            BlueprintIdentifier = "84C285A8B44558AD734D90D8"
+            BuildableName = "anki-app.app"
+            BlueprintName = "anki-app_iOS"
+            ReferencedContainer = "container:anki-app.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <EnvironmentVariables>
@@ -65,10 +65,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3BC5A73E9B36BD84244D07A"
-            BuildableName = "devlin.app"
-            BlueprintName = "devlin_iOS"
-            ReferencedContainer = "container:devlin.xcodeproj">
+            BlueprintIdentifier = "84C285A8B44558AD734D90D8"
+            BuildableName = "anki-app.app"
+            BlueprintName = "anki-app_iOS"
+            ReferencedContainer = "container:anki-app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3BC5A73E9B36BD84244D07A"
-            BuildableName = "devlin.app"
-            BlueprintName = "devlin_iOS"
-            ReferencedContainer = "container:devlin.xcodeproj">
+            BlueprintIdentifier = "84C285A8B44558AD734D90D8"
+            BuildableName = "anki-app.app"
+            BlueprintName = "anki-app_iOS"
+            ReferencedContainer = "container:anki-app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
