@@ -2,12 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-   	<key>NSCameraUsageDescription</key>
-    <string>Will use it to scan Bar code for faster check-in and check-out </string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Please allow access to save photo in your photo library</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>Please allow access to save photo in your photo library</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Will use it to scan Bar code for faster check-in and check-out </string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow access to save photo in your photo library</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow access to save photo in your photo library</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
