@@ -342,7 +342,7 @@ function Spanish() {
         {hasQuizStarted && (
           <button
             onClick={resetQuiz}
-            className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow hover:bg-cyan-600"
+            className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow-sm hover:bg-cyan-600"
             aria-label="nuevo juego"
             tabIndex={0}
           >
@@ -433,7 +433,7 @@ function Spanish() {
               <fieldset className="mb-4 w-full">
                 <legend className="sr-only">Palabras en ingles para traducir</legend>
                 <div
-                  className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="flex items-center justify-center rounded-md border border-gray-300 px-3 py-2 shadow-xs focus:border-transparent focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
                   aria-label="Pregunta actual"
                 >
                   <p className="text-lg lowercase text-gray-700">{questions[0]?.english}</p>
@@ -447,7 +447,7 @@ function Spanish() {
                     e.key === 'Enter' && speak();
                   }}
                   aria-label="Habla la pregunta actual"
-                  className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-xs focus:border-transparent focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
                 >
                   <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
                     {questions[0]?.spanish}

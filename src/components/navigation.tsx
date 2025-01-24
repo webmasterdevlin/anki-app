@@ -9,7 +9,7 @@ const Navigation = () => {
       <div className="mx-auto max-w-7xl px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0 text-emerald-300" aria-label="inmeta logo">
+            <Link to="/" className="shrink-0 text-emerald-300" aria-label="inmeta logo">
               inmeta
             </Link>
             <div className="ml-10 flex items-baseline gap-2 space-x-4">

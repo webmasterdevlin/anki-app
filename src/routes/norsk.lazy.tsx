@@ -273,7 +273,7 @@ function Norsk() {
           <button
             onClick={resetQuiz}
             tabIndex={0}
-            className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow hover:bg-cyan-600"
+            className="rounded-md bg-cyan-500 px-2 py-1 text-sm shadow-sm hover:bg-cyan-600"
             aria-label="nytt spill"
           >
             new game
@@ -363,7 +363,7 @@ function Norsk() {
                     return e.key === 'Enter' && speak();
                   }}
                   aria-label="Speak the current question"
-                  className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-xs focus:border-transparent focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
                 >
                   <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
                     {questions[0]?.norwegian}
@@ -372,7 +372,7 @@ function Norsk() {
                 </div>
               </fieldset>
               {showAnswer ? (
-                <div className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <div className="mb-4 flex items-center justify-center gap-4 rounded-md border border-gray-300 px-3 py-2 shadow-xs focus:border-transparent focus:outline-hidden focus:ring-2 focus:ring-indigo-500">
                   <p className="text-lg font-semibold lowercase text-gray-700" tabIndex={0}>
                     {questions[0]?.english}
                   </p>
@@ -457,7 +457,7 @@ function Norsk() {
             }),
           }}
           onClick={handleReportQuestion}
-          className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow hover:bg-pink-600"
+          className="mt-4 rounded-md bg-pink-500 px-2 py-1 text-sm text-white shadow-sm hover:bg-pink-600"
           aria-label="Report the previous question"
         >
           Report previous question
