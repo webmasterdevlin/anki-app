@@ -6126,7 +6126,7 @@ export const words: Question[] = [
   { english: 'insanely', norwegian: 'sinnsykt', spanish: 'locamente' },
   { english: 'conservatively assumes', norwegian: 'konservativt antar', spanish: 'asumir conservadoramente' },
   { english: 'still gets paid', norwegian: 'likevel får lønn', spanish: 'aún recibe salario' },
-  { english: 'i sitt innlegg', norwegian: 'i sitt innlegg', spanish: 'en su entrada' },
+  { english: 'in his post', norwegian: 'i sitt innlegg', spanish: 'en su entrada' },
   { english: 'to get rid of', norwegian: 'å kvitte', spanish: 'desprenderse de' },
   { english: 'will find out', norwegian: 'vil finne ut', spanish: 'descubrirá' },
   { english: 'recovery', norwegian: 'innhenting', spanish: 'recuperación' },
