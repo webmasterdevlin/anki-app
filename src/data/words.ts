@@ -6350,4 +6350,28 @@ export const words: Question[] = [
   { english: 'societal security', norwegian: 'samfunnssikkerhet', spanish: 'seguridad societal' },
   { english: 'the call', norwegian: 'oppfordringen', spanish: 'la llamada' },
   { english: 'the crew', norwegian: 'besetningen', spanish: 'la tripulación' },
+  { english: 'transferred', norwegian: 'overføres', spanish: 'transferido' },
+  { english: 'ownership', norwegian: 'eierskapet', spanish: 'la propiedad' },
+  { english: 'the Ministry of Fisheries', norwegian: 'fiskeridepartementet', spanish: 'el Ministerio de Pesca' },
+  {
+    english: 'the Ministry of Transport',
+    norwegian: 'samferdselsdepartementet',
+    spanish: 'el Ministerio de Transporte',
+  },
+  { english: 'holistic', norwegian: 'helhetlig', spanish: 'holístico' },
+  { english: 'the railway sector', norwegian: 'jernbanesektoren', spanish: 'el sector ferroviario' },
+  { english: 'a holistic management', norwegian: 'en samlet forvaltning', spanish: 'una gestión holística' },
+  { english: 'neither for', norwegian: 'verken for', spanish: 'ni para' },
+  {
+    english: 'passenger train operations',
+    norwegian: 'persontogvirksomhet',
+    spanish: 'operaciones de trenes de pasajeros',
+  },
+  {
+    english: 'a direct award agreement',
+    norwegian: 'en direktetildelingsavtale',
+    spanish: 'un acuerdo de adjudicación directa',
+  },
+  { english: 'the government', norwegian: 'regjeringen', spanish: 'el gobierno' },
+  { english: 'has adopted', norwegian: 'har vedtatt', spanish: 'ha adoptado' },
 ];
