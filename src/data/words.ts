@@ -7084,4 +7084,22 @@ export const words: Question[] = [
   { english: 'not used to seeing', norwegian: 'ikke vant til å se', spanish: 'no acostumbrado a ver' },
   { english: 'follows up', norwegian: 'følger opp', spanish: 'sigue' },
   { english: 'has input to', norwegian: 'har innspill til', spanish: 'tiene aportes a' },
+  {
+    english: 'next general meeting postponed',
+    norwegian: 'neste allmøte utsettes',
+    spanish: 'la próxima reunión general se pospone',
+  },
+  { english: 'income and insight', norwegian: 'inntekt og innsikt', spanish: 'ingresos y conocimiento' },
+  { english: 'we are hiring', norwegian: 'vi ansetter', spanish: 'estamos contratando' },
+  { english: 'is available', norwegian: 'er tilgjengelig', spanish: 'está disponible' },
+  { english: 'take the opportunity', norwegian: 'benytte anledningen', spanish: 'aprovechar la oportunidad' },
+  { english: 'to gather', norwegian: 'til å samles', spanish: 'reunirse' },
+  { english: 'explore the opportunity', norwegian: 'utforske anledningen', spanish: 'explorar la oportunidad' },
+  { english: 'the renewable industry with', norwegian: 'fornybar næringen med', spanish: 'la industria renovable con' },
+  {
+    english: 'including theme division',
+    norwegian: 'inkludert tematildeling',
+    spanish: 'incluyendo la división de temas',
+  },
+  { english: 'I have to pass the exam', norwegian: 'jeg må bestå eksamen', spanish: 'tengo que pasar el examen' },
 ];
