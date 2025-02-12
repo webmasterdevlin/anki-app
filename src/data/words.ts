@@ -4209,7 +4209,7 @@ export const words: Question[] = [
   { english: 'have the proof', norwegian: 'har beviset', spanish: 'tienen la prueba' },
   { english: 'where you previously', norwegian: 'der du tidligere', spanish: 'donde antes' },
   { english: 'a discount', norwegian: 'en rabatt', spanish: 'un descuento' },
-  { english: 'during', norwegian: 'i løpet', spanish: 'durante' },
+  { english: 'during', norwegian: 'i løpet av', spanish: 'durante' },
   {
     english: 'some have reported a little longer',
     norwegian: 'noen har meldt litt lengere',
