@@ -7454,5 +7454,9 @@ export const words: Question[] = [
   { english: 'ready to go', norwegian: 'ferdistilles', spanish: 'listo para ir' },
   { english: 'complete', norwegian: 'komplett', spanish: 'completo' },
   { english: 'awaiting', norwegian: 'avvente', spanish: 'pendiente' },
+  { english: 'consists of layers of', norwegian: 'består av lag med', spanish: 'consiste en capas de' },
+  { english: 'chopped tomatoes', norwegian: 'hakkede tomater', spanish: 'tomates picados' },
+  { english: 'ingredients', norwegian: 'ingredienser', spanish: 'ingredientes' },
+  { english: 'melted butter', norwegian: 'smeltet smør', spanish: 'mantequilla derretida' },
+  { english: 'a joke', norwegian: 'en spøk', spanish: 'una broma' },
 ];
- 

@@ -1,3 +1,5 @@
+// eslint-disable-next-line import/order
+import { scan } from 'react-scan';
 import { RouterProvider, ErrorComponent, createRouter } from '@tanstack/react-router';
 import LogRocket from 'logrocket';
 import ReactDOM from 'react-dom/client';
@@ -5,6 +7,11 @@ import { routeTree } from './routeTree.gen';
 
 import './index.css';
 import 'react-toastify/dist/ReactToastify.css';
+
+scan({
+  enabled: true,
+});
+
 LogRocket.init('gbsta4/anki-app');
 
 // Set up a Router instance
