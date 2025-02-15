@@ -18,7 +18,7 @@ export default defineConfig({
     vercel(),
     TanStackRouterVite(),
     // eslint(), # disable eslint for now. Getting errors with vite-plugin-eslint
-    // million.vite({ auto: true }), # disable million for now. Getting keys not found warning.
+    million.vite({ auto: true }),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: [
