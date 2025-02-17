@@ -7327,7 +7327,7 @@ export const words: Question[] = [
   { english: 'van', norwegian: 'varebil', spanish: 'furgoneta' },
   { english: 'goods delivery', norwegian: 'varelevering', spanish: 'entrega de mercancías' },
   { english: 'load ski equipment', norwegian: 'laste inn skiutstyr', spanish: 'cargar equipo de esquí' },
-  { english: 'gives a lecture', norwegian: 'holder foredrag', spanish: 'da una conferencia' },
+  { english: 'gives a lecture', norwegian: 'holder foredrag/forelesning', spanish: 'da una conferencia' },
   {
     english: 'calculate the correct amount',
     norwegian: 'beregne riktig mengde',
@@ -7502,4 +7502,5 @@ export const words: Question[] = [
   { english: 'but in anticipation of', norwegian: 'men i påvente av', spanish: 'pero en anticipación de' },
   { english: 'lecture', norwegian: 'forelesning, foredrag', spanish: 'conferencia' },
   { english: 'to meet that need', norwegian: 'for å dekke det behovet', spanish: 'para satisfacer esa necesidad' },
+  { english: 'ears', norwegian: 'ører', spanish: 'orejas' },
 ];
