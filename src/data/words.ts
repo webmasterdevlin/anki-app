@@ -1788,7 +1788,7 @@ export const words: Question[] = [
   { english: 'huge', norwegian: 'kjempediger', spanish: 'enorme' },
   { english: 'gravity', norwegian: 'tyngdekraften', spanish: 'gravedad' },
   { english: 'voice, the voice', norwegian: 'stemme, stemmen', spanish: 'voz' },
-  { english: 'lecture', norwegian: 'foredrag', spanish: 'conferencia' },
+  { english: 'lecture', norwegian: 'foredrag, forelesning', spanish: 'conferencia' },
   { english: 'huge, big', norwegian: 'stor, diger', spanish: 'enorme' },
   { english: 'waste', norwegian: 'bortkaste', spanish: 'desperdiciar' },
   { english: 'make up', norwegian: 'sminke', spanish: 'maquillaje' },
@@ -2267,7 +2267,7 @@ export const words: Question[] = [
   { english: 'discovers', norwegian: 'oppdager', spanish: 'descubre' },
   { english: 'locks', norwegian: 'låser', spanish: 'cerraduras' },
   { english: 'we will make sure to have', norwegian: 'vi vil sørge for å ha', spanish: 'nos aseguraremos de tener' },
-  { english: 'lecture', norwegian: 'foredrag', spanish: 'conferencia' },
+  { english: 'lecture', norwegian: 'forelesning, foredrag', spanish: 'conferencia' },
   { english: 'you rank the days', norwegian: 'du rangerer dagene', spanish: 'clasificas los días' },
   { english: 'to map out', norwegian: 'å kartlegge', spanish: 'mapear' },
   { english: 'hun mener', norwegian: 'she thinks', spanish: 'ella piensa' },
@@ -3531,7 +3531,7 @@ export const words: Question[] = [
   { english: 'lightweight', norwegian: 'lettvekts', spanish: 'ligero' },
   {
     english: 'recently held a lecture',
-    norwegian: 'holdt nylig et foredrag',
+    norwegian: 'holdt nylig et foredrag/forelesning',
     spanish: 'recientemente dio una conferencia',
   },
   { english: 'she went through', norwegian: 'hun gikk igjennom', spanish: 'ella pasó por' },
@@ -7500,4 +7500,6 @@ export const words: Question[] = [
   { english: 'eager to lead', norwegian: 'ivrig på å føre', spanish: 'ansioso por liderar' },
   { english: 'shadow before', norwegian: 'skyggefør', spanish: 'sombra antes' },
   { english: 'but in anticipation of', norwegian: 'men i påvente av', spanish: 'pero en anticipación de' },
+  { english: 'lecture', norwegian: 'forelesning, foredrag', spanish: 'conferencia' },
+  { english: 'to meet that need', norwegian: 'for å dekke det behovet', spanish: 'para satisfacer esa necesidad' },
 ];
