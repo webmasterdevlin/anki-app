@@ -7047,7 +7047,7 @@ export const words: Question[] = [
   { english: 'approaching', norwegian: 'nærmer seg', spanish: 'aproximándose' },
   {
     english: 'to meet different desires',
-    norwegian: ' å imøtekomme ulike ønsker',
+    norwegian: 'å imøtekomme ulike ønsker',
     spanish: 'para satisfacer diferentes deseos',
   },
   {
@@ -7116,7 +7116,7 @@ export const words: Question[] = [
     norwegian: 'bekrefter deltakelsen deres',
     spanish: 'confirma su participación',
   },
-  { english: 'to participate in', norwegian: ' å delta på', spanish: 'participar en' },
+  { english: 'to participate in', norwegian: 'å delta på', spanish: 'participar en' },
   { english: 'own summons', norwegian: 'egen innkalling', spanish: 'propia convocatoria' },
   {
     english: 'to order your own merch',
@@ -7503,4 +7503,17 @@ export const words: Question[] = [
   { english: 'lecture', norwegian: 'forelesning, foredrag', spanish: 'conferencia' },
   { english: 'to meet that need', norwegian: 'for å dekke det behovet', spanish: 'para satisfacer esa necesidad' },
   { english: 'ears', norwegian: 'ører', spanish: 'orejas' },
+  {
+    english: 'kan de bekrefte om det er godkjent',
+    norwegian: 'can they confirm if it is approved',
+    spanish: 'pueden confirmar si está aprobado',
+  },
+  { english: 'to spread', norwegian: 'å spre', spanish: 'esparcir' },
+  { english: 'now it is even', norwegian: 'nå er det likt', spanish: 'ahora está parejo' },
+  { english: 'chemistry', norwegian: 'kjemi', spanish: 'química' },
+  { english: 'everyone else disappears', norwegian: 'alle andre forsvinner', spanish: 'todos los demás desaparecen' },
+  { english: 'a song', norwegian: 'en låt', spanish: 'una canción' },
+  { english: 'a magician', norwegian: 'et tryllekunstner', spanish: 'un mago' },
+  { english: 'beauty', norwegian: 'skjønnhet', spanish: 'belleza' },
+  { english: 'sunrise', norwegian: 'soloppgang', spanish: 'amanecer' },
 ];
