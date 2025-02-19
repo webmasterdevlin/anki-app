@@ -7836,4 +7836,10 @@ export const words: Question[] = [
   { english: 'the defense', norwegian: 'forsvaret', spanish: 'la defensa' },
   { english: 'sensible', norwegian: 'fornuftig', spanish: 'sensato' },
   { english: 'he walked past', norwegian: 'han gikk forbi', spanish: 'pasó por' },
+  {
+    english: 'i thought you are preparing',
+    norwegian: 'jeg trodde du forbereder',
+    spanish: 'pensé que estás preparando',
+  },
+  { english: 'a famous place', norwegian: 'et kjent sted', spanish: 'un lugar famoso' },
 ];
