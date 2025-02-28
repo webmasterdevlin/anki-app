@@ -2210,10 +2210,14 @@ export const words: Question[] = [
   { english: 'on the lookout', norwegian: 'på utkikk', spanish: 'en busca' },
   { english: 'scary', norwegian: 'skummel', spanish: 'aterrador' },
   { english: 'curious', norwegian: 'nysgjerrig', spanish: 'curioso' },
-  { english: 'fully support you', norwegian: 'støtter dem fullt ut', spanish: 'te apoyo completamente' },
+  { english: 'fully support you', norwegian: 'støtter deg fullt ut', spanish: 'te apoyo completamente' },
   { english: 'the joy', norwegian: 'gleden', spanish: 'la alegría' },
   { english: 'he spent his whole life', norwegian: 'tilbrakte han hele livet', spanish: 'pasó toda su vida' },
-  { english: 'his, her, their', norwegian: 'hans, hennes, deres', spanish: 'su' },
+  {
+    english: 'him, her, them, his, hers, theirs',
+    norwegian: 'ham, henne, dem, hans, hennes, deres',
+    spanish: 'él, ella, ellos, su, su, su',
+  },
   { english: 'our, us', norwegian: 'vår, oss', spanish: 'nuestro' },
   { english: 'he, she', norwegian: 'han, hun', spanish: 'él, ella' },
   {
@@ -2453,7 +2457,7 @@ export const words: Question[] = [
   { english: 'chinese', norwegian: 'kinesiske', spanish: 'chino' },
   { english: 'the attack', norwegian: 'angrepet', spanish: 'el ataque' },
   { english: 'likely, probably', norwegian: 'sannsynlig', spanish: 'probablemente' },
-  { english: 'built', norwegian: 'Bygde', spanish: 'construido' },
+  { english: 'built', norwegian: 'bygde', spanish: 'construido' },
   { english: 'debt', norwegian: 'gjeld', spanish: 'deuda' },
   { english: 'as starting point', norwegian: 'som utgangspunkt', spanish: 'como punto de partida' },
   { english: 'regrets', norwegian: 'angrer', spanish: 'lamenta' },
@@ -7913,4 +7917,11 @@ export const words: Question[] = [
     spanish: 'necesito aprender mucho vocabulario',
   },
   { english: 'power', norwegian: 'makt', spanish: 'poder' },
+  { english: 'det er skittent', norwegian: 'it is dirty', spanish: 'está sucio' },
+  { english: 'they are pressuring me', norwegian: 'de presser meg', spanish: 'me están presionando' },
+  {
+    english: 'is there something wrong with you',
+    norwegian: 'er det noe galt med deg',
+    spanish: 'hay algo mal contigo',
+  },
 ];
