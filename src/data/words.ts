@@ -8058,9 +8058,9 @@ export const words: Question[] = [
   { english: 'are you coming with', norwegian: 'blir du med', spanish: '¿vienes con' },
   { english: 'fills', norwegian: 'fyller', spanish: 'rellena' },
   { english: 'responsible', norwegian: 'ansvarlig', spanish: 'responsable' },
-  { english: 'Responsibility', norwegian: 'Ansvarlighet', spanish: 'Responsabilidad' },
+  { english: 'responsibility', norwegian: 'ansvarlighet', spanish: 'Responsabilidad' },
   { english: 'responsibilities', norwegian: 'ansvarsområder', spanish: 'responsabilidades' },
-  { english: 'snop', norwegian: 'snopp', spanish: 'snop' },
+  { english: 'candy', norwegian: 'snop', spanish: 'caramelo' },
   { english: 'to avoid', norwegian: 'å unngå', spanish: 'evitar' },
   { english: 'high self-esteem', norwegian: 'høy selvtillit', spanish: 'alta autoestima' },
   { english: 'caring', norwegian: 'omsorgsfull', spanish: 'cariñoso' },
@@ -8218,4 +8218,6 @@ export const words: Question[] = [
     norwegian: 'litt dypere daler sammenlignet med',
     spanish: 'valles un poco más profundos en comparación con',
   },
+  { english: 'I do not trust you', norwegian: 'jeg stoler ikke på deg', spanish: 'no confío en ti' },
+  { english: 'trust', norwegian: 'tillit', spanish: 'confianza' },
 ];
