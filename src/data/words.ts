@@ -8401,9 +8401,9 @@ export const words: Question[] = [
   { english: 'more squeak', norwegian: 'mer gniss', spanish: 'más chirrido' },
   { english: 'tears', norwegian: 'tårer', spanish: 'lágrimas' },
   {
-    english: 'That can be addicting and it is bad',
-    norwegian: 'Det kan være avhengighetsskapende og det er ille',
-    spanish: 'Eso puede ser adictivo y es malo',
+    english: 'that can be addicting and it is bad',
+    norwegian: 'det kan være avhengighetsskapende og det er ille',
+    spanish: 'eso puede ser adictivo y es malo',
   },
   { english: 'online shopping', norwegian: 'netthandle', spanish: 'compras en línea' },
   { english: 'in front of you', norwegian: 'foran deg', spanish: 'delante de ti' },
@@ -8455,4 +8455,5 @@ export const words: Question[] = [
   { english: 'to make out', norwegian: 'å kline', spanish: 'hacerlo' },
   { english: 'expectations', norwegian: 'forhåpninger', spanish: 'expectativas' },
   { english: 'mature', norwegian: 'moden', spanish: 'maduro' },
+  { english: 'foreigners and migrants', norwegian: 'utlendinger og innvandrere', spanish: 'extranjeros e inmigrantes' },
 ];
