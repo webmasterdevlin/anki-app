@@ -8449,4 +8449,10 @@ export const words: Question[] = [
   },
   { english: 'addictive', norwegian: 'avhengighetsskapende', spanish: 'adictivo' },
   { english: 'distractions', norwegian: 'distraksjoner', spanish: 'distracciones' },
+  { english: 'playing with hearts', norwegian: 'luremus', spanish: 'jugando con corazones' },
+  { english: 'cornered', norwegian: 'hjørnet', spanish: 'acornerado' },
+  { english: 'to hurt me', norwegian: 'å såre meg', spanish: 'herirme' },
+  { english: 'to make out', norwegian: 'å kline', spanish: 'hacerlo' },
+  { english: 'expectations', norwegian: 'forhåpninger', spanish: 'expectativas' },
+  { english: 'mature', norwegian: 'moden', spanish: 'maduro' },
 ];
