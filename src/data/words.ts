@@ -8505,4 +8505,6 @@ export const words: Question[] = [
   { english: 'to spell out', norwegian: 'å stave ut', spanish: 'deletrear' },
   { english: 'to preserve', norwegian: 'å bevare', spanish: 'preservar' },
   { english: 'to live your life', norwegian: 'å leve livet sitt', spanish: 'vivir tu vida' },
+  {english:'based on a research', norwegian:'basert på en forskning', spanish:'basado en una investigación' },
+  {english:'lead to sick leave', norwegian:'føre til sykefravær', spanish:'llevar a la baja por enfermedad' },
 ];
