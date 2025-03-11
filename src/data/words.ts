@@ -8454,4 +8454,29 @@ export const words: Question[] = [
   { english: 'expectations', norwegian: 'forhåpninger', spanish: 'expectativas' },
   { english: 'mature', norwegian: 'moden', spanish: 'maduro' },
   { english: 'foreigners and migrants', norwegian: 'utlendinger og innvandrere', spanish: 'extranjeros e inmigrantes' },
+  { english: 'arrival and departure', norwegian: 'ankomst og avgang', spanish: 'llegada y salida' },
+  {
+    english: 'hooray for you who fill your year',
+    norwegian: 'hurra for deg som fyller ditt år',
+    spanish: 'hurra por ti que cumples tu año',
+  },
+  {
+    english: 'all in a circle around you we stand',
+    norwegian: 'alle i ring omkring deg vi står',
+    spanish: 'todos en círculo alrededor de ti estamos',
+  },
+  { english: 'and see now we will march', norwegian: 'og se nå vil vi marsjere', spanish: 'y mira ahora marcharemos' },
+  { english: 'bow, nod, bow', norwegian: 'bukke, nikke, neie', spanish: 'inclinarse, asentir, inclinarse' },
+  { english: 'turn around', norwegian: 'snu oss omkring', spanish: 'dar la vuelta' },
+  {
+    english: 'with jumps and jumps and spring',
+    norwegian: 'med hopp og sprett og spring',
+    spanish: 'con saltos y saltos y primavera',
+  },
+  { english: 'wish you from the heart', norwegian: 'ønsker deg av hjertet', spanish: 'te deseo de corazón' },
+  {
+    english: 'and tell me what you want more',
+    norwegian: 'og si meg så hva vil du mere',
+    spanish: 'y dime qué más quieres',
+  },
 ];
