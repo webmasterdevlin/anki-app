@@ -8469,9 +8469,9 @@ export const words: Question[] = [
   { english: 'bow, nod, bow', norwegian: 'bukke, nikke, neie', spanish: 'inclinarse, asentir, inclinarse' },
   { english: 'turn around', norwegian: 'snu oss omkring', spanish: 'dar la vuelta' },
   {
-    english: 'with jumps and jumps and spring',
+    english: 'with jumps and bounces and spring',
     norwegian: 'med hopp og sprett og spring',
-    spanish: 'con saltos y saltos y primavera',
+    spanish: 'con saltos y rebotes y primavera',
   },
   { english: 'wish you from the heart', norwegian: 'ønsker deg av hjertet', spanish: 'te deseo de corazón' },
   {
