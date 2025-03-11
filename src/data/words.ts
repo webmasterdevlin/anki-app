@@ -8429,7 +8429,7 @@ export const words: Question[] = [
   { english: 'tax system', norwegian: 'skattesystem', spanish: 'sistema fiscal' },
   {
     english: 'get, gets, got, has got',
-    norwegian: 'få, får, fikk har fått',
+    norwegian: 'få, får, fikk, har fått',
     spanish: 'conseguir, consigue, consiguió, ha conseguido',
   },
   { english: 'environmental issues', norwegian: 'miljøspørsmål', spanish: 'cuestiones ambientales' },
@@ -8466,7 +8466,7 @@ export const words: Question[] = [
     spanish: 'todos en círculo alrededor de ti estamos',
   },
   { english: 'and see now we will march', norwegian: 'og se nå vil vi marsjere', spanish: 'y mira ahora marcharemos' },
-  { english: 'bow, nod, bow', norwegian: 'bukke, nikke, neie', spanish: 'inclinarse, asentir, inclinarse' },
+  { english: 'bow, nod, decline', norwegian: 'bukke, nikke, neie', spanish: 'inclinarse, asentir, inclinarse' },
   { english: 'turn around', norwegian: 'snu oss omkring', spanish: 'dar la vuelta' },
   {
     english: 'with jumps and bounces and spring',
