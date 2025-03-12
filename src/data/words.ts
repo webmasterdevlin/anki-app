@@ -8109,9 +8109,29 @@ export const words: Question[] = [
   { english: 'rude and sarcastic about', norwegian: 'frekk og spydig på', spanish: 'grosero y sarcástico sobre' },
   { english: 'hush', norwegian: 'hysj', spanish: 'hysj' },
   {
-    english: 'lie, lying, lied, has lied',
-    norwegian: 'lyve, lyver, løy, har løyet',
-    spanish: 'mentir, mintiendo, mintió, ha mentido',
+    english: 'to lie, lying, lied, has lied',
+    norwegian: 'å lyve, lyver, løy, har løyet',
+    spanish: 'mentir, miente, mintió, ha mentido',
+  },
+  {
+    english: 'to feel, feels, felt, has felt',
+    norwegian: 'å føle, føler, følte, har følt',
+    spanish: 'sentir, siente, sintió, ha sentido',
+  },
+  {
+    english: 'to read, reads, read, has read',
+    norwegian: 'å lese, leser, leste, har lest',
+    spanish: 'leer, lee, leyó, ha leído',
+  },
+  {
+    english: 'to follow, follows, followed, has followed',
+    norwegian: 'å følge, følger, fulgte, har fulgt',
+    spanish: 'seguir, sigue, siguió, ha seguido',
+  },
+  {
+    english: 'to feel, feel, felt, has felt',
+    norwegian: 'å føle, føler, følte, har følt',
+    spanish: 'sentir, sentir, sintió, ha sentido',
   },
   { english: 'do you mind going', norwegian: 'gidder du å dra', spanish: 'te importar' },
   { english: 'acknowledge', norwegian: 'anerkjenne', spanish: 'reconocer' },
@@ -8367,11 +8387,6 @@ export const words: Question[] = [
   { english: 'nod and think', norwegian: 'nikke og tenke', spanish: 'asentir y pensar' },
   { english: 'embarrassing', norwegian: 'flaut', spanish: 'embarazoso' },
   { english: 'better than the understanding', norwegian: 'bedre enn forstanden', spanish: 'mejor que entender' },
-  {
-    english: 'to feel, feel, felt, has felt',
-    norwegian: 'å føle, føler, følte, har følt',
-    spanish: 'sentir, sentir, sintió, ha sentido',
-  },
   { english: 'bet', norwegian: 'satset', spanish: 'apostó' },
   { english: 'to starve', norwegian: 'å sulte', spanish: 'morir de hambre' },
   { english: 'he looks a bit', norwegian: 'han ligner litt', spanish: 'él se ve un poco' },
@@ -8534,4 +8549,10 @@ export const words: Question[] = [
   { english: 'corner', norwegian: 'hjørne', spanish: 'esquina' },
   { english: 'obviously', norwegian: 'tydeligvis', spanish: 'obviamente' },
   { english: 'to lose', norwegian: 'å tape', spanish: 'perder' },
+  { english: 'oral', norwegian: 'muntlig', spanish: 'oral' },
+  {
+    english: 'in my opinion it depends on',
+    norwegian: 'etter min mening det kommer an på',
+    spanish: 'en mi opinión depende de',
+  },
 ];
