@@ -8981,4 +8981,32 @@ export const words: Question[] = [
     norwegian: 'glattisen',
     spanish: 'el hielo',
   },
+  { english: 'understanding', norwegian: 'forståelse', spanish: 'comprensión' },
+  {
+    english: 'to request, requests, requested, has requested',
+    norwegian: 'å be om, ber om, ba om, har bedt om',
+    spanish: 'solicitar, solicita, solicitó, ha solicitado',
+  },
+  {
+    english: 'innocent',
+    norwegian: 'uskyldige',
+    spanish: 'inocente',
+  },
+  { english: 'catholic church', norwegian: 'katolske kirken', spanish: 'iglesia católica' },
+  { english: 'allowed', norwegian: 'tillot', spanish: 'permitido' },
+  {
+    english: 'to stay, stays, stayed, has stayed',
+    norwegian: ' å oppholde, oppholder, oppholdt, har oppholdt',
+    spanish: 'quedarse, se queda, se quedó, se ha quedado',
+  },
+  {
+    english: 'First of all, it was',
+    norwegian: 'For det første var',
+    spanish: 'En primer lugar, fue',
+  },
+  {
+    english: 'Secondly, it was',
+    norwegian: 'For det andre var',
+    spanish: 'En segundo lugar, fue',
+  },
 ];
