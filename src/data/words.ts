@@ -9009,4 +9009,189 @@ export const words: Question[] = [
     norwegian: 'For det andre var',
     spanish: 'En segundo lugar, fue',
   },
+  {
+    english: 'to take with',
+    norwegian: 'ta med',
+    spanish: 'llevar',
+  },
+  {
+    english: 'equality',
+    norwegian: 'likestilling',
+    spanish: 'igualdad',
+  },
+  {
+    english: 'around',
+    norwegian: 'omkring',
+    spanish: 'alrededor',
+  },
+  {
+    english: 'violence',
+    norwegian: 'vold',
+    spanish: 'violencia',
+  },
+  {
+    english: 'brave',
+    norwegian: 'modig',
+    spanish: 'valiente',
+  },
+  {
+    english: 'mamasboy',
+    norwegian: 'mammadalt',
+    spanish: 'mamón',
+  },
+  {
+    english: 'papasboy',
+    norwegian: 'pappaadalt',
+    spanish: 'papón',
+  },
+  {
+    english: 'to establish',
+    norwegian: 'å etablere',
+    spanish: 'establecer',
+  },
+  {
+    english: 'at the end of',
+    norwegian: 'på tampen av',
+    spanish: 'al final de',
+  },
+  {
+    english: 'paper and cardboard',
+    norwegian: 'pappir og papp',
+    spanish: 'papel y cartón',
+  },
+  {
+    english: 'thick',
+    norwegian: 'tykke',
+    spanish: 'grueso',
+  },
+  {
+    english: 'I am disappointed because it is scary',
+    norwegian: 'jeg er skuffet fordi det er skummelt',
+    spanish: 'Estoy decepcionado porque es aterrador',
+  },
+  {
+    english: 'the pipes',
+    norwegian: 'rørene',
+    spanish: 'las tuberías',
+  },
+  {
+    english: 'polite',
+    norwegian: 'høflig',
+    spanish: 'educado',
+  },
+  {
+    english: 'bless you',
+    norwegian: 'prosit',
+    spanish: 'salud',
+  },
+  {
+    english: 'composite',
+    norwegian: 'sammensatte',
+    spanish: 'compuesto',
+  },
+  {
+    english: 'buy',
+    norwegian: 'kjøpe',
+    spanish: 'comprar',
+  },
+  {
+    english: 'mate',
+    norwegian: 'kamerat',
+    spanish: 'compañero',
+  },
+  {
+    english: 'I was angry yesterday',
+    norwegian: 'jeg var sint igår',
+    spanish: 'Estaba enojado ayer',
+  },
+  {
+    english: 'public',
+    norwegian: 'offentlig',
+    spanish: 'público',
+  },
+  {
+    english: 'emigration',
+    norwegian: 'utvandring og innvandring',
+    spanish: 'emigración',
+  },
+  {
+    english: 'freedom of expression',
+    norwegian: 'ytringsfrihet',
+    spanish: 'libertad de expresión',
+  },
+  {
+    english: 'pollution',
+    norwegian: 'forurensing',
+    spanish: 'contaminación',
+  },
+  {
+    english: 'application',
+    norwegian: 'søknad',
+    spanish: 'solicitud',
+  },
+  {
+    english: 'rights',
+    norwegian: 'rettigheter',
+    spanish: 'derechos',
+  },
+  {
+    english: 'education',
+    norwegian: 'utdannelse',
+    spanish: 'educación',
+  },
+  {
+    english: 'legal system',
+    norwegian: 'rettsystem',
+    spanish: 'sistema legal',
+  },
+  {
+    english: 'housing types',
+    norwegian: 'boformer',
+    spanish: 'tipos de vivienda',
+  },
+  {
+    english: 'belief',
+    norwegian: 'livssyn',
+    spanish: 'creencia',
+  },
+  {
+    english: 'holidays',
+    norwegian: 'høytider',
+    spanish: 'fiestas',
+  },
+  {
+    english: 'career opportunities',
+    norwegian: 'yrkesmuligheter',
+    spanish: 'oportunidades profesionales',
+  },
+  {
+    english: 'seasons',
+    norwegian: 'årstider',
+    spanish: 'estaciones',
+  },
+  {
+    english: 'world parts',
+    norwegian: 'verdensdeller',
+    spanish: 'partes del mundo',
+  },
+  {
+    english: 'professions',
+    norwegian: 'yrker',
+    spanish: 'profesiones',
+  },
+  {
+    english: 'title',
+    norwegian: 'tittel',
+    spanish: 'título',
+  },
+  {
+    english: 'in front of',
+    norwegian: 'foran',
+    spanish: 'delante de',
+  },
+  {
+    english: 'subscribe',
+    norwegian: 'abonner',
+    spanish: 'suscribirse',
+  },
 ];
