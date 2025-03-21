@@ -10580,4 +10580,559 @@ export const words: Question[] = [
     norwegian: 'har stadig gjort',
     spanish: 'ha hecho constantemente',
   },
+  {
+    english: 'except',
+    norwegian: 'unntatt',
+    spanish: 'excepto',
+  },
+  {
+    english: 'drastic',
+    norwegian: 'drastiske',
+    spanish: 'drástico/a',
+  },
+  {
+    english: 'how disgusting you are',
+    norwegian: 'så ekkel du er',
+    spanish: 'qué asqueroso/a eres',
+  },
+  {
+    english: 'I am genuinely sorry',
+    norwegian: 'er genuint lei meg',
+    spanish: 'estoy sinceramente arrepentido/a',
+  },
+  {
+    english: 'over the edge',
+    norwegian: 'over kanten',
+    spanish: 'al límite',
+  },
+  {
+    english: 'have you calmed down',
+    norwegian: 'har du roet deg',
+    spanish: 'te has calmado',
+  },
+  {
+    english: 'properly/decent',
+    norwegian: 'ordentlig',
+    spanish: 'apropiadamente/decente',
+  },
+  {
+    english: 'get so angry',
+    norwegian: 'blir så sint',
+    spanish: 'me pongo tan enfadado/a',
+  },
+  {
+    english: 'obviously',
+    norwegian: 'tydeligvis',
+    spanish: 'obviamente',
+  },
+  {
+    english: 'protection',
+    norwegian: 'beskyttelse',
+    spanish: 'protección',
+  },
+  {
+    english: 'first impression',
+    norwegian: 'førsteinntrykket',
+    spanish: 'primera impresión',
+  },
+  {
+    english: 'he seems',
+    norwegian: 'han virker',
+    spanish: 'él parece',
+  },
+  {
+    english: 'was correct',
+    norwegian: 'var riktige',
+    spanish: 'fue correcto',
+  },
+  {
+    english: 'the circumstances',
+    norwegian: 'omstendighetene',
+    spanish: 'las circunstancias',
+  },
+  {
+    english: 'barely/just',
+    norwegian: 'så vidt',
+    spanish: 'apenas',
+  },
+  {
+    english: 'is the best/of all time',
+    norwegian: 'er tidenes',
+    spanish: 'es el mejor de todos los tiempos',
+  },
+  {
+    english: 'the whole gang',
+    norwegian: 'hele gjengen',
+    spanish: 'toda la pandilla',
+  },
+  {
+    english: 'two pillows and magazines',
+    norwegian: 'to puter og blader',
+    spanish: 'dos almohadas y revistas',
+  },
+  {
+    english: 'in accordance with',
+    norwegian: 'overens med',
+    spanish: 'de acuerdo con',
+  },
+  {
+    english: 'to lie around',
+    norwegian: 'å ligge rundt',
+    spanish: 'estar tumbado',
+  },
+  {
+    english: 'tears of joy',
+    norwegian: 'gledestårer',
+    spanish: 'lágrimas de alegría',
+  },
+  {
+    english: 'jumped',
+    norwegian: 'joppet',
+    spanish: 'saltó',
+  },
+  {
+    english: 'at breakfast',
+    norwegian: 'på frokosten',
+    spanish: 'en el desayuno',
+  },
+  {
+    english: 'that excursion',
+    norwegian: 'den utflukten',
+    spanish: 'esa excursión',
+  },
+  {
+    english: 'is punch (drink)',
+    norwegian: 'er pønsj',
+    spanish: 'es ponche',
+  },
+  {
+    english: 'uncomfortable',
+    norwegian: 'ukomfortabelt',
+    spanish: 'incómodo',
+  },
+  {
+    english: 'will pitch',
+    norwegian: 'skal pitche',
+    spanish: 'va a presentar',
+  },
+  {
+    english: 'are doable (slang)',
+    norwegian: 'er pulbare',
+    spanish: 'son follables',
+  },
+  {
+    english: 'so alright',
+    norwegian: 'så ålreit',
+    spanish: 'tan bien',
+  },
+  {
+    english: 'off you go',
+    norwegian: 'av gårde med deg',
+    spanish: 'vete ya',
+  },
+  {
+    english: 'he is lying',
+    norwegian: 'han lyver',
+    spanish: 'él está mintiendo',
+  },
+  {
+    english: 'angry at you',
+    norwegian: 'sinna på deg',
+    spanish: 'enfadado contigo',
+  },
+  {
+    english: 'she throws up at the sight',
+    norwegian: 'hun kaster opp av synet',
+    spanish: 'ella vomita con la vista',
+  },
+  {
+    english: 'in the thing with him',
+    norwegian: 'i greiene med ham',
+    spanish: 'en el asunto con él',
+  },
+  {
+    english: 'get it over with',
+    norwegian: 'det unnagjort',
+    spanish: 'terminar con eso',
+  },
+  {
+    english: 'super charming',
+    norwegian: 'kjempesjarmerende',
+    spanish: 'super encantador',
+  },
+  {
+    english: 'perhaps sweet and kind',
+    norwegian: 'kan hende søt og snill',
+    spanish: 'quizás dulce y amable',
+  },
+  {
+    english: 'tells the truth',
+    norwegian: 'dar sannheten',
+    spanish: 'dice la verdad',
+  },
+  {
+    english: 'get out of here',
+    norwegian: 'dra herfra',
+    spanish: 'vete de aquí',
+  },
+  {
+    english: 'uncertain',
+    norwegian: 'usikker',
+    spanish: 'inseguro/a',
+  },
+  {
+    english: 'pulls/draws',
+    norwegian: 'trekker',
+    spanish: 'tira',
+  },
+  {
+    english: 'has been standing smiling',
+    norwegian: 'har stått og smilt',
+    spanish: 'ha estado de pie sonriendo',
+  },
+  {
+    english: 'takes the antidote',
+    norwegian: 'tar motgiften',
+    spanish: 'toma el antídoto',
+  },
+  {
+    english: 'own gut feeling',
+    norwegian: 'egen magefølelse',
+    spanish: 'propio instinto',
+  },
+  {
+    english: 'guys atmosphere',
+    norwegian: 'guttastemning',
+    spanish: 'ambiente de chicos',
+  },
+  {
+    english: 'deadly excursion',
+    norwegian: 'dødelig utflukt',
+    spanish: 'excursión mortal',
+  },
+  {
+    english: 'first hits',
+    norwegian: 'først treffer',
+    spanish: 'primero golpea',
+  },
+  {
+    english: 'the skull',
+    norwegian: 'hodeskallen',
+    spanish: 'el cráneo',
+  },
+  {
+    english: 'ten thoughts',
+    norwegian: 'ti tanker',
+    spanish: 'diez pensamientos',
+  },
+  {
+    english: 'has constantly shown',
+    norwegian: 'har stadig vist',
+    spanish: 'ha mostrado constantemente',
+  },
+  {
+    english: 'extremely backstabbed',
+    norwegian: 'uhyre backstabbed',
+    spanish: 'apuñalado por la espalda',
+  },
+  {
+    english: 'won over',
+    norwegian: 'vunnet over',
+    spanish: 'ganado',
+  },
+  {
+    english: 'base them on',
+    norwegian: 'basere de på',
+    spanish: 'basarlos en',
+  },
+  {
+    english: 'big chance',
+    norwegian: 'stor sjanse',
+    spanish: 'gran oportunidad',
+  },
+  {
+    english: 'is cowardly',
+    norwegian: 'er feigt',
+    spanish: 'es cobarde',
+  },
+  {
+    english: 'has been grinning',
+    norwegian: 'har vært grinning',
+    spanish: 'ha estado sonriendo',
+  },
+  {
+    english: 'was genuinely very difficult',
+    norwegian: 'var oppriktig drittungt',
+    spanish: 'fue sinceramente muy difícil',
+  },
+  {
+    english: 'make-out tricks',
+    norwegian: 'klinetriks',
+    spanish: 'trucos para besarse',
+  },
+  {
+    english: 'uncertainties',
+    norwegian: 'usikkerheter',
+    spanish: 'incertidumbres',
+  },
+  {
+    english: 'in your face',
+    norwegian: 'oppi trynet',
+    spanish: 'en tu cara',
+  },
+  {
+    english: 'end/finish',
+    norwegian: 'avslutt',
+    spanish: 'terminar',
+  },
+  {
+    english: 'hurts',
+    norwegian: 'sårer',
+    spanish: 'hiere',
+  },
+  {
+    english: 'has obviously been',
+    norwegian: 'har tydeligvis vært',
+    spanish: 'ha sido obviamente',
+  },
+  {
+    english: 'off the slice/disc',
+    norwegian: 'av skiven',
+    spanish: 'fuera del disco',
+  },
+  {
+    english: 'the nightmare',
+    norwegian: 'marerittet',
+    spanish: 'la pesadilla',
+  },
+  {
+    english: 'the volcano island',
+    norwegian: 'vulkanøya',
+    spanish: 'la isla volcánica',
+  },
+  {
+    english: 'has revealed/uncovered',
+    norwegian: 'har avdekket',
+    spanish: 'ha revelado',
+  },
+  {
+    english: 'fraud method',
+    norwegian: 'svindelmetode',
+    spanish: 'método de fraude',
+  },
+  {
+    english: 'the kindergarten authority',
+    norwegian: 'barnehagemyndigheten',
+    spanish: 'la autoridad de guardería',
+  },
+  {
+    english: 'the kindergarten management',
+    norwegian: 'barnehageledelsen',
+    spanish: 'la dirección de guardería',
+  },
+  {
+    english: 'the concern report',
+    norwegian: 'bekymringsmeldingen',
+    spanish: 'el informe de preocupación',
+  },
+  {
+    english: 'the sidewalk on',
+    norwegian: 'fortauet på',
+    spanish: 'la acera en',
+  },
+  {
+    english: 'of the street is upgraded and expanded',
+    norwegian: 'av gaten oppgraderes og utvides',
+    spanish: 'de la calle se mejora y amplía',
+  },
+  {
+    english: "the cinema's sidewalk limited",
+    norwegian: 'kinoens fortau begrenset',
+    spanish: 'acera del cine limitada',
+  },
+  {
+    english: 'holistic/comprehensive',
+    norwegian: 'helhetlig',
+    spanish: 'integral',
+  },
+  {
+    english: 'adapted/adjusted',
+    norwegian: 'tilpasset',
+    spanish: 'adaptado',
+  },
+  {
+    english: 'the surroundings',
+    norwegian: 'omgivelsene',
+    spanish: 'los alrededores',
+  },
+  {
+    english: 'a good compromise',
+    norwegian: 'et godt kompromiss',
+    spanish: 'un buen compromiso',
+  },
+  {
+    english: 'according to the city council',
+    norwegian: 'ifølge byråden',
+    spanish: 'según el concejal',
+  },
+  {
+    english: 'the students',
+    norwegian: 'elevene',
+    spanish: 'los estudiantes',
+  },
+  {
+    english: 'after recess',
+    norwegian: 'etter storefri',
+    spanish: 'después del recreo',
+  },
+  {
+    english: 'the local school reacts',
+    norwegian: 'nærskolen reagerer',
+    spanish: 'la escuela local reacciona',
+  },
+  {
+    english: 'has long since had enough',
+    norwegian: 'har for lengst fått nok',
+    spanish: 'hace tiempo que ha tenido suficiente',
+  },
+  {
+    english: 'a holiday/festive day',
+    norwegian: 'en høytidsdag',
+    spanish: 'un día festivo',
+  },
+  {
+    english: 'are you in/coming along',
+    norwegian: 'er du med',
+    spanish: 'estás con nosotros',
+  },
+  {
+    english: "now we're really going for it",
+    norwegian: 'nå kliner vi skikkelig til',
+    spanish: 'ahora vamos con todo',
+  },
+  {
+    english: 'price cut',
+    norwegian: 'priskutt',
+    spanish: 'recorte de precio',
+  },
+  {
+    english: 'reveals good news',
+    norwegian: 'røper gladmelding',
+    spanish: 'revela buenas noticias',
+  },
+  {
+    english: 'he decided to shut down',
+    norwegian: 'han vedtok å legge ned',
+    spanish: 'decidió cerrar',
+  },
+  {
+    english: 'he praised Norway in the same breath',
+    norwegian: 'han roste Norge i samme åndedrag',
+    spanish: 'elogió a Noruega en el mismo aliento',
+  },
+  {
+    english: 'gives thumbs up',
+    norwegian: 'gir tommel opp',
+    spanish: 'da el visto bueno',
+  },
+  {
+    english: 'preparedness within five years',
+    norwegian: 'beredskap innen fem år',
+    spanish: 'preparación dentro de cinco años',
+  },
+  {
+    english: 'rumors were swirling last night',
+    norwegian: 'ryktene svirret i natt',
+    spanish: 'los rumores circulaban anoche',
+  },
+  {
+    english: 'then they disappeared to sea',
+    norwegian: 'så forsvant de til havs',
+    spanish: 'luego desaparecieron en el mar',
+  },
+  {
+    english: 'the incidence increases',
+    norwegian: 'forekomsten øker',
+    spanish: 'la incidencia aumenta',
+  },
+  {
+    english: 'informs about',
+    norwegian: 'opplyser om',
+    spanish: 'informa sobre',
+  },
+  {
+    english: 'but ended with bruises and cuts',
+    norwegian: 'men endte med blåmerker og kutt',
+    spanish: 'pero terminó con moretones y cortes',
+  },
+  {
+    english: 'is scrapped',
+    norwegian: 'skrotes',
+    spanish: 'se descarta',
+  },
+  {
+    english: 'in the prime ministers residence without her husband',
+    norwegian: 'i statsministerboligen uten ektemannen',
+    spanish: 'en la residencia del primer ministro sin su marido',
+  },
+  {
+    english: 'credibility',
+    norwegian: 'troverdighet',
+    spanish: 'credibilidad',
+  },
+  {
+    english: 'hit by major fire',
+    norwegian: 'rammet av storbrann',
+    spanish: 'afectado por un gran incendio',
+  },
+  {
+    english: 'a little taste/preview',
+    norwegian: 'en liten forsmak',
+    spanish: 'un pequeño anticipo',
+  },
+  {
+    english: 'fully suspended electric bicycle',
+    norwegian: 'fulldempet elsykkel',
+    spanish: 'bicicleta eléctrica totalmente amortiguada',
+  },
+  {
+    english: 'lights too much',
+    norwegian: 'tenner for mye',
+    spanish: 'enciende demasiado',
+  },
+  {
+    english: 'after vandalism on',
+    norwegian: 'etter hærverk på',
+    spanish: 'después de vandalismo en',
+  },
+  {
+    english: 'the wealth tax',
+    norwegian: 'formuesskatten',
+    spanish: 'el impuesto sobre el patrimonio',
+  },
+  {
+    english: 'the air passenger tax',
+    norwegian: 'flypassasjeravgiften',
+    spanish: 'la tasa de pasajeros aéreos',
+  },
+  {
+    english: 'a burden',
+    norwegian: 'en belasting',
+    spanish: 'una carga',
+  },
+  {
+    english: 'is heavily overrepresented',
+    norwegian: 'er kraftig overrepresentert',
+    spanish: 'está fuertemente sobrerrepresentado',
+  },
+  {
+    english: 'the top boss',
+    norwegian: 'toppsjefen',
+    spanish: 'el jefe principal',
+  },
+  {
+    english: 'the fraud',
+    norwegian: 'svindelen',
+    spanish: 'el fraude',
+  },
 ];
