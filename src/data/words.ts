@@ -11506,4 +11506,264 @@ export const words: Question[] = [
     norwegian: 'skiller',
     spanish: 'separa/distingue',
   },
+  {
+    english: 'completely changed',
+    norwegian: 'totalforandret',
+    spanish: 'completamente cambiado',
+  },
+  {
+    english: 'diving accident',
+    norwegian: 'stupeulykke',
+    spanish: 'accidente de buceo',
+  },
+  {
+    english: 'damn/cursed',
+    norwegian: 'forbanna',
+    spanish: 'maldito',
+  },
+  {
+    english: 'shitty day',
+    norwegian: 'drittdag',
+    spanish: 'día de mierda',
+  },
+  {
+    english: 'go to bed with',
+    norwegian: 'legge meg med',
+    spanish: 'acostarme con',
+  },
+  {
+    english: 'seeks out',
+    norwegian: 'oppsøker',
+    spanish: 'busca',
+  },
+  {
+    english: 'today I wake up at',
+    norwegian: 'i dag våkner jeg på',
+    spanish: 'hoy me despierto en',
+  },
+  {
+    english: 'the relationship',
+    norwegian: 'forholdet',
+    spanish: 'la relación',
+  },
+  {
+    english: 'the towel',
+    norwegian: 'håndkleet',
+    spanish: 'la toalla',
+  },
+  {
+    english: 'the realm of the dead',
+    norwegian: 'dødsriket',
+    spanish: 'el reino de los muertos',
+  },
+  {
+    english: 'I am voting you out',
+    norwegian: 'jeg kipper dere',
+    spanish: 'les estoy eliminando',
+  },
+  {
+    english: 'voted you out',
+    norwegian: 'kjippet deg ut',
+    spanish: 'te eliminé',
+  },
+  {
+    english: 'he does not dare',
+    norwegian: 'han ikke tør',
+    spanish: 'él no se atreve',
+  },
+  {
+    english: 'chance with you two',
+    norwegian: 'kjangs hos dere to',
+    spanish: 'oportunidad con ustedes dos',
+  },
+  {
+    english: 'she saves me to the semi-finals',
+    norwegian: 'hun redder meg til semien',
+    spanish: 'ella me salva para la semifinal',
+  },
+  {
+    english: 'will sacrifice her',
+    norwegian: 'skal ofre henne',
+    spanish: 'la sacrificará',
+  },
+  {
+    english: 'completely messed up',
+    norwegian: 'helt føkka',
+    spanish: 'completamente jodido',
+  },
+  {
+    english: 'two court jesters',
+    norwegian: 'to hoffnarrer',
+    spanish: 'dos bufones',
+  },
+  {
+    english: 'self-proclaimed king',
+    norwegian: 'selvutnevnt konge',
+    spanish: 'rey autoproclamado',
+  },
+  {
+    english: 'unraveled',
+    norwegian: 'nøstet opp',
+    spanish: 'desenredado',
+  },
+  {
+    english: 'he opened them',
+    norwegian: 'han åpnet dem',
+    spanish: 'él los abrió',
+  },
+  {
+    english: 'it nuzzled',
+    norwegian: 'det nusset',
+    spanish: 'acarició',
+  },
+  {
+    english: 'bet on',
+    norwegian: 'satse på',
+    spanish: 'apostar por',
+  },
+  {
+    english: 'mutual',
+    norwegian: 'gjensidig',
+    spanish: 'mutuo',
+  },
+  {
+    english: 'it is about getting out',
+    norwegian: 'det gjelder å få ut',
+    spanish: 'se trata de sacar',
+  },
+  {
+    english: 'in hand',
+    norwegian: 'i hånden',
+    spanish: 'en la mano',
+  },
+  {
+    english: 'in the bag',
+    norwegian: 'i veska',
+    spanish: 'en el bolso',
+  },
+  {
+    english: 'in the danger zone',
+    norwegian: 'i faresonen',
+    spanish: 'en zona de peligro',
+  },
+  {
+    english: 'in first place',
+    norwegian: 'på førsteplass',
+    spanish: 'en primer lugar',
+  },
+  {
+    english: 'I place here',
+    norwegian: 'jeg plasserer her',
+    spanish: 'coloco aquí',
+  },
+  {
+    english: 'a strong player according to',
+    norwegian: 'en sterk spiller ifølge',
+    spanish: 'un jugador fuerte según',
+  },
+  {
+    english: 'the ranking',
+    norwegian: 'rangeringen',
+    spanish: 'la clasificación',
+  },
+  {
+    english: 'fair',
+    norwegian: 'rettferdig',
+    spanish: 'justo',
+  },
+  {
+    english: 'punish',
+    norwegian: 'straffe',
+    spanish: 'castigar',
+  },
+  {
+    english: 'a weak pair',
+    norwegian: 'et svakt par',
+    spanish: 'una pareja débil',
+  },
+  {
+    english: 'the trust',
+    norwegian: 'tilliten',
+    spanish: 'la confianza',
+  },
+  {
+    english: 'trust me',
+    norwegian: 'stol på meg',
+    spanish: 'confía en mí',
+  },
+  {
+    english: 'the ace up my sleeve',
+    norwegian: 'esset i ermet',
+    spanish: 'el as en la manga',
+  },
+  {
+    english: 'a mix',
+    norwegian: 'en miks',
+    spanish: 'una mezcla',
+  },
+  {
+    english: 'so stingy of me',
+    norwegian: 'så gjerrig av meg',
+    spanish: 'tan tacaño de mi parte',
+  },
+  {
+    english: 'the most cynical player',
+    norwegian: 'mest kyniske spilleren',
+    spanish: 'el jugador más cínico',
+  },
+  {
+    english: 'one of a kind',
+    norwegian: 'et uten like',
+    spanish: 'único en su clase',
+  },
+  {
+    english: 'out scouting',
+    norwegian: 'ut og speide',
+    spanish: 'salir a explorar',
+  },
+  {
+    english: 'the binoculars',
+    norwegian: 'kikkerten',
+    spanish: 'los prismáticos',
+  },
+  {
+    english: 'fears',
+    norwegian: 'frykter',
+    spanish: 'teme',
+  },
+  {
+    english: 'he sacrifices me',
+    norwegian: 'han ofrer meg',
+    spanish: 'él me sacrifica',
+  },
+  {
+    english: 'voted out',
+    norwegian: 'kjippet ut',
+    spanish: 'eliminado',
+  },
+  {
+    english: 'except',
+    norwegian: 'unntatt',
+    spanish: 'excepto',
+  },
+  {
+    english: 'drastic',
+    norwegian: 'drastiske',
+    spanish: 'drástico/a',
+  },
+  {
+    english: 'how disgusting you are',
+    norwegian: 'så ekkel du er',
+    spanish: 'qué asqueroso/a eres',
+  },
+  {
+    english: 'I am genuinely sorry',
+    norwegian: 'er genuint lei meg',
+    spanish: 'estoy sinceramente arrepentido/a',
+  },
+  {
+    english: 'over the edge',
+    norwegian: 'over kanten',
+    spanish: 'al límite',
+  },
 ];
