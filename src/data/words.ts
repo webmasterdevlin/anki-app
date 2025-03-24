@@ -10946,7 +10946,7 @@ export const words: Question[] = [
     spanish: 'de la calle se mejora y amplía',
   },
   {
-    english: "the cinema's sidewalk limited",
+    english: 'the cinemas sidewalk limited',
     norwegian: 'kinoens fortau begrenset',
     spanish: 'acera del cine limitada',
   },
@@ -11006,7 +11006,7 @@ export const words: Question[] = [
     spanish: 'estás con nosotros',
   },
   {
-    english: "now we're really going for it",
+    english: 'now we are really going for it',
     norwegian: 'nå kliner vi skikkelig til',
     spanish: 'ahora vamos con todo',
   },
@@ -11134,5 +11134,376 @@ export const words: Question[] = [
     english: 'the fraud',
     norwegian: 'svindelen',
     spanish: 'el fraude',
+  },
+
+  {
+    english: 'be torn away',
+    norwegian: 'rives vekk',
+    spanish: 'ser arrancado',
+  },
+  {
+    english: 'after the accident',
+    norwegian: 'etter uhellet',
+    spanish: 'después del accidente',
+  },
+  {
+    english: 'many would take advantage',
+    norwegian: 'mange ville benytte seg',
+    spanish: 'muchos aprovecharían',
+  },
+  {
+    english: 'claims it',
+    norwegian: 'hevder det',
+    spanish: 'lo afirma',
+  },
+  {
+    english: 'balks/resists strongly',
+    norwegian: 'steiler',
+    spanish: 'se resiste fuertemente',
+  },
+  {
+    english: 'thumbs (clumsy fingers)',
+    norwegian: 'tommeltotter',
+    spanish: 'pulgares torpes',
+  },
+  {
+    english: 'to assemble',
+    norwegian: 'å montere',
+    spanish: 'montar',
+  },
+  {
+    english: 'to sew cushions',
+    norwegian: 'å sy puter',
+    spanish: 'coser cojines',
+  },
+  {
+    english: 'he can neither',
+    norwegian: 'han klarer verken',
+    spanish: 'él no puede ni',
+  },
+  {
+    english: 'to fight',
+    norwegian: 'å sloss',
+    spanish: 'pelear',
+  },
+  {
+    english: 'the students',
+    norwegian: 'elevene',
+    spanish: 'los estudiantes',
+  },
+  {
+    english: 'the skin/appearance',
+    norwegian: 'skinnet',
+    spanish: 'la apariencia',
+  },
+  {
+    english: 'shot',
+    norwegian: 'skutt',
+    spanish: 'disparado',
+  },
+  {
+    english: 'the more mess',
+    norwegian: 'desto mer søl',
+    spanish: 'más desorden',
+  },
+  {
+    english: 'wet behind the ears (inexperienced)',
+    norwegian: 'tørr bak ørene',
+    spanish: 'inexperto',
+  },
+  {
+    english: 'back on track',
+    norwegian: 'på kjerringa',
+    spanish: 'de vuelta en marcha',
+  },
+  {
+    english: 'fire in',
+    norwegian: 'ild i',
+    spanish: 'fuego en',
+  },
+  {
+    english: 'long-faced (sad)',
+    norwegian: 'lang i maska',
+    spanish: 'cabizbajo',
+  },
+  {
+    english: 'ants in pants (restless)',
+    norwegian: 'maur i rompa',
+    spanish: 'inquieto',
+  },
+  {
+    english: 'to carry out',
+    norwegian: 'å fiemføre',
+    spanish: 'llevar a cabo',
+  },
+  {
+    english: 'to lose',
+    norwegian: 'å tape',
+    spanish: 'perder',
+  },
+  {
+    english: 'to abandon/shelve',
+    norwegian: 'å skrinlegge',
+    spanish: 'abandonar/archivar',
+  },
+  {
+    english: 'shelved/abandoned',
+    norwegian: 'skrinlagt',
+    spanish: 'archivado/abandonado',
+  },
+  {
+    english: 'has been fired',
+    norwegian: 'har fått sparken',
+    spanish: 'ha sido despedido',
+  },
+  {
+    english: 'on the right track',
+    norwegian: 'på rett kjøl',
+    spanish: 'por buen camino',
+  },
+  {
+    english: 'a vessel',
+    norwegian: 'et fartøy',
+    spanish: 'un barco',
+  },
+  {
+    english: 'special significance',
+    norwegian: 'sørlig betydning',
+    spanish: 'significado especial',
+  },
+  {
+    english: 'offended by',
+    norwegian: 'krenket av',
+    spanish: 'ofendido por',
+  },
+  {
+    english: 'good memory',
+    norwegian: 'god hukommelse',
+    spanish: 'buena memoria',
+  },
+  {
+    english: 'factual information',
+    norwegian: 'faktaopplysninger',
+    spanish: 'información factual',
+  },
+  {
+    english: 'a walking encyclopedia',
+    norwegian: 'et vandrende leksikon',
+    spanish: 'una enciclopedia ambulante',
+  },
+  {
+    english: 'to be caught (lit: to feel the louse)',
+    norwegian: 'å kjenne lusa',
+    spanish: 'ser pillado',
+  },
+  {
+    english: 'a serious talk',
+    norwegian: 'en alvorsprat',
+    spanish: 'una charla seria',
+  },
+  {
+    english: 'joy and delight',
+    norwegian: 'fryd og gammen',
+    spanish: 'alegría y felicidad',
+  },
+  {
+    english: 'finished with renovations',
+    norwegian: 'ferdig med oppussingen',
+    spanish: 'terminado con las renovaciones',
+  },
+  {
+    english: 'pleasure',
+    norwegian: 'førnøyelse',
+    spanish: 'placer',
+  },
+  {
+    english: 'to lead/conduct',
+    norwegian: 'å føre',
+    spanish: 'dirigir/llevar',
+  },
+  {
+    english: 'the stock exchange',
+    norwegian: 'børsen',
+    spanish: 'la bolsa',
+  },
+  {
+    english: 'by the throat',
+    norwegian: 'på strupen',
+    spanish: 'por la garganta',
+  },
+  {
+    english: 'to satisfy',
+    norwegian: 'å tilfredsstille',
+    spanish: 'satisfacer',
+  },
+  {
+    english: 'a peep',
+    norwegian: 'et kvekk',
+    spanish: 'un sonido',
+  },
+  {
+    english: 'a nail',
+    norwegian: 'en negl',
+    spanish: 'una uña',
+  },
+  {
+    english: 'a snail',
+    norwegian: 'en snegle',
+    spanish: 'un caracol',
+  },
+  {
+    english: 'common sense',
+    norwegian: 'sunn fornuft',
+    spanish: 'sentido común',
+  },
+  {
+    english: 'to triumph',
+    norwegian: 'seire',
+    spanish: 'triunfar',
+  },
+  {
+    english: 'headlamp',
+    norwegian: 'hodelykte',
+    spanish: 'linterna frontal',
+  },
+  {
+    english: 'the tiles',
+    norwegian: 'flisene',
+    spanish: 'los azulejos',
+  },
+  {
+    english: 'a factory',
+    norwegian: 'en fabrikk',
+    spanish: 'una fábrica',
+  },
+  {
+    english: 'regarding new customers',
+    norwegian: 'vedrørende nye kunder',
+    spanish: 'sobre nuevos clientes',
+  },
+  {
+    english: 'kick scooter',
+    norwegian: 'sparkesykkel',
+    spanish: 'patinete',
+  },
+  {
+    english: 'a prize/price',
+    norwegian: 'en pris',
+    spanish: 'un premio/precio',
+  },
+  {
+    english: 'found out',
+    norwegian: 'fant ut',
+    spanish: 'descubrió',
+  },
+  {
+    english: 'Other topics for',
+    norwegian: 'Andre emner for',
+    spanish: 'Otros temas para',
+  },
+  {
+    english: 'she helped me',
+    norwegian: 'hun hjalp meg',
+    spanish: 'ella me ayudó',
+  },
+  {
+    english: 'a task/assignment',
+    norwegian: 'en oppgave',
+    spanish: 'una tarea',
+  },
+  {
+    english: 'studied',
+    norwegian: 'studerte',
+    spanish: 'estudiaba',
+  },
+  {
+    english: 'the skills',
+    norwegian: 'ferdighetene',
+    spanish: 'las habilidades',
+  },
+  {
+    english: 'is the importance',
+    norwegian: 'er viktigheten',
+    spanish: 'es la importancia',
+  },
+  {
+    english: 'a direction',
+    norwegian: 'en retning',
+    spanish: 'una dirección',
+  },
+  {
+    english: 'routine',
+    norwegian: 'rutine',
+    spanish: 'rutina',
+  },
+  {
+    english: 'a routine you can follow',
+    norwegian: 'en rutine du kan følge',
+    spanish: 'una rutina que puedes seguir',
+  },
+  {
+    english: 'business/activity',
+    norwegian: 'virksomhet',
+    spanish: 'actividad/negocio',
+  },
+  {
+    english: 'the character/grade',
+    norwegian: 'karakteren',
+    spanish: 'el carácter/la nota',
+  },
+  {
+    english: 'expand ones perspective',
+    norwegian: 'utvide ens perspektiv',
+    spanish: 'ampliar la perspectiva',
+  },
+  {
+    english: 'our society',
+    norwegian: 'samfunnet vårt',
+    spanish: 'nuestra sociedad',
+  },
+  {
+    english: 'it is going steadily',
+    norwegian: 'det går jevnt og trutt',
+    spanish: 'va constantemente',
+  },
+  {
+    english: 'a student',
+    norwegian: 'en elev',
+    spanish: 'un estudiante',
+  },
+  {
+    english: 'a good doctor, carpenter, businessman, engineer and so on',
+    norwegian: 'en god lege, snekker, forretningsmann, ingeniør og så videre',
+    spanish: 'un buen médico, carpintero, hombre de negocios, ingeniero, etc.',
+  },
+  {
+    english: 'despite that',
+    norwegian: 'til tross for at',
+    spanish: 'a pesar de que',
+  },
+  {
+    english: 'try it on',
+    norwegian: 'prøve den på',
+    spanish: 'probarlo en',
+  },
+  {
+    english: 'such',
+    norwegian: 'slike',
+    spanish: 'tales',
+  },
+  {
+    english: 'threats',
+    norwegian: 'trusler',
+    spanish: 'amenazas',
+  },
+  {
+    english: 'disappears',
+    norwegian: 'forsvinner',
+    spanish: 'desaparece',
+  },
+  {
+    english: 'separates/distinguishes',
+    norwegian: 'skiller',
+    spanish: 'separa/distingue',
   },
 ];
