@@ -76,8 +76,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "typescript": "^5.8.2",
-    "vite": "^6.2.3",
-    "vite-plugin-pwa": "^0.21.2",
+    "vite": "^6.2.1",
+    "vite-plugin-pwa": "^0.21.1",
     "vite-plugin-vercel": "^9.0.5",
     "workbox-build": "^7.3.0",
     "workbox-window": "^7.3.0"
