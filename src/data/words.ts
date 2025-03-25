@@ -12003,7 +12003,7 @@ export const words: Question[] = [
   },
   {
     english: 'do not touch it',
-    norwegian: 'ikke røre den',
+    norwegian: 'ikke rør den',
     spanish: 'no lo toques',
   },
   {
@@ -12100,5 +12100,315 @@ export const words: Question[] = [
     english: 'not get a flock of sheep',
     norwegian: 'ikke skaffe en saueflokk',
     spanish: 'no conseguir un rebaño de ovejas',
+  },
+  {
+    english: 'break out',
+    norwegian: 'utbryt',
+    spanish: 'escapar',
+  },
+  {
+    english: 'to change/be changed',
+    norwegian: 'forandres',
+    spanish: 'cambiar/ser cambiado',
+  },
+  {
+    english: 'express opinion and own',
+    norwegian: 'uttrykke mening og egen',
+    spanish: 'expresar opinión y propio',
+  },
+  {
+    english: 'is that much/to that extent',
+    norwegian: 'er såpass',
+    spanish: 'es tanto así',
+  },
+  {
+    english: 'an online resource',
+    norwegian: 'en nettressurs',
+    spanish: 'un recurso en línea',
+  },
+  {
+    english: 'paragraph',
+    norwegian: 'avsnitt',
+    spanish: 'párrafo',
+  },
+  {
+    english: 'written test',
+    norwegian: 'skriftlig prøve',
+    spanish: 'examen escrito',
+  },
+  {
+    english: 'to renounce',
+    norwegian: 'å frasi',
+    spanish: 'renunciar',
+  },
+  {
+    english: 'to transfer/convey',
+    norwegian: 'å overdra',
+    spanish: 'transferir',
+  },
+  {
+    english: 'to pull over',
+    norwegian: 'å dra over',
+    spanish: 'tirar por encima',
+  },
+  {
+    english: 'to realize',
+    norwegian: 'å innse',
+    spanish: 'darse cuenta',
+  },
+  {
+    english: 'to look in',
+    norwegian: 'å se inn',
+    spanish: 'mirar dentro',
+  },
+  {
+    english: 'to fulfill',
+    norwegian: 'å oppfylle',
+    spanish: 'cumplir',
+  },
+  {
+    english: 'to transfer',
+    norwegian: 'å overføre',
+    spanish: 'transferir',
+  },
+  {
+    english: 'to lead across',
+    norwegian: 'å føre over',
+    spanish: 'guiar a través',
+  },
+  {
+    english: 'to give birth',
+    norwegian: 'å nedkomme',
+    spanish: 'dar a luz',
+  },
+  {
+    english: 'to come down',
+    norwegian: 'å komme ned',
+    spanish: 'bajar',
+  },
+  {
+    english: 'a well-formed son',
+    norwegian: 'en velskapt sønn',
+    spanish: 'un hijo bien formado',
+  },
+  {
+    english: 'compound/composite',
+    norwegian: 'sammensatte',
+    spanish: 'compuesto',
+  },
+  {
+    english: 'to postpone',
+    norwegian: 'å utsette',
+    spanish: 'posponer',
+  },
+  {
+    english: 'to put out/set out',
+    norwegian: 'å sette ut',
+    spanish: 'poner fuera',
+  },
+  {
+    english: 'put out/set out',
+    norwegian: 'satt ut',
+    spanish: 'puesto fuera',
+  },
+  {
+    english: 'to win over',
+    norwegian: 'å vinne over',
+    spanish: 'ganar',
+  },
+  {
+    english: 'to overcome',
+    norwegian: 'å overvinne',
+    spanish: 'superar',
+  },
+  {
+    english: 'to interrupt',
+    norwegian: 'å avbryte',
+    spanish: 'interrumpir',
+  },
+  {
+    english: 'a ridge',
+    norwegian: 'åsa',
+    spanish: 'una cresta',
+  },
+  {
+    english: 'puppies',
+    norwegian: 'valper',
+    spanish: 'cachorros',
+  },
+  {
+    english: 'to manage',
+    norwegian: 'å greie seg',
+    spanish: 'arreglárselas',
+  },
+  {
+    english: 'protect oneself',
+    norwegian: 'beskytte seg selv',
+    spanish: 'protegerse a sí mismo',
+  },
+  {
+    english: 'to overlook',
+    norwegian: 'å overse',
+    spanish: 'pasar por alto',
+  },
+  {
+    english: 'to look over',
+    norwegian: 'å se over',
+    spanish: 'revisar',
+  },
+  {
+    english: 'to reject',
+    norwegian: 'å avslå',
+    spanish: 'rechazar',
+  },
+  {
+    english: 'to turn off',
+    norwegian: 'å slå av',
+    spanish: 'apagar',
+  },
+  {
+    english: 'fast food',
+    norwegian: 'hurtig mat',
+    spanish: 'comida rápida',
+  },
+  {
+    english: 'the prize pool',
+    norwegian: 'premiepotten',
+    spanish: 'el pozo de premios',
+  },
+  {
+    english: 'slaughtered me',
+    norwegian: 'slaktet meg',
+    spanish: 'me masacró',
+  },
+  {
+    english: 'mutual',
+    norwegian: 'gjensidig',
+    spanish: 'mutuo',
+  },
+  {
+    english: 'worries me',
+    norwegian: 'engster meg',
+    spanish: 'me preocupa',
+  },
+  {
+    english: 'I swear',
+    norwegian: 'jeg sverger',
+    spanish: 'lo juro',
+  },
+  {
+    english: 'of course/that would be the least',
+    norwegian: 'det skulle mangle',
+    spanish: 'faltaría más',
+  },
+  {
+    english: 'did you fall asleep again',
+    norwegian: 'sovnet du igjen',
+    spanish: 'te dormiste otra vez',
+  },
+  {
+    english: 'vote you out of here',
+    norwegian: 'kjippe deg ut herfra',
+    spanish: 'eliminarte de aquí',
+  },
+  {
+    english: 'indifferent',
+    norwegian: 'likegyldig',
+    spanish: 'indiferente',
+  },
+  {
+    english: 'has warred/fought',
+    norwegian: 'har kriget',
+    spanish: 'ha luchado',
+  },
+  {
+    english: 'the jury will decide',
+    norwegian: 'juryen skal avgjøre',
+    spanish: 'el jurado decidirá',
+  },
+  {
+    english: 'the least worthy finalist',
+    norwegian: 'den minst verdige finalisten',
+    spanish: 'el finalista menos digno',
+  },
+  {
+    english: 'is crystal clear',
+    norwegian: 'er soleklart',
+    spanish: 'está clarísimo',
+  },
+  {
+    english: 'preliminary/for now',
+    norwegian: 'foreløpig',
+    spanish: 'provisional/por ahora',
+  },
+  {
+    english: 'I am calm',
+    norwegian: 'jeg er lugn',
+    spanish: 'estoy tranquilo',
+  },
+  {
+    english: 'the f***ed up gang',
+    norwegian: 'forpulte gjengen',
+    spanish: 'la pandilla jodida',
+  },
+  {
+    english: 'a c**t',
+    norwegian: 'ei fitte',
+    spanish: 'un coño',
+  },
+  {
+    english: 'feels to constantly',
+    norwegian: 'føles å stadig',
+    spanish: 'se siente constantemente',
+  },
+  {
+    english: 'is well equipped',
+    norwegian: 'er godt rustet',
+    spanish: 'está bien equipado',
+  },
+  {
+    english: 'spat at you',
+    norwegian: 'spyttet til deg',
+    spanish: 'te escupió',
+  },
+  {
+    english: 'worse than',
+    norwegian: 'verre enn',
+    spanish: 'peor que',
+  },
+  {
+    english: 'defend oneself',
+    norwegian: 'forsvare seg',
+    spanish: 'defenderse',
+  },
+  {
+    english: 'to save oneself',
+    norwegian: 'å redde seg selv',
+    spanish: 'salvarse a sí mismo',
+  },
+  {
+    english: 'behave',
+    norwegian: 'oppføre seg',
+    spanish: 'comportarse',
+  },
+  {
+    english: 'has neither participated',
+    norwegian: 'har verken deltatt',
+    spanish: 'no ha participado',
+  },
+  {
+    english: 'here shortest',
+    norwegian: 'her kortest',
+    spanish: 'aquí más corto',
+  },
+  {
+    english: 'deserves it the most',
+    norwegian: 'fortjener det mest',
+    spanish: 'lo merece más',
+  },
+  {
+    english: 'to serve',
+    norwegian: 'å servere',
+    spanish: 'servir',
   },
 ];
