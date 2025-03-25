@@ -11766,4 +11766,339 @@ export const words: Question[] = [
     norwegian: 'over kanten',
     spanish: 'al límite',
   },
+  {
+    english: 'the sandwich topping/spread',
+    norwegian: 'pålegget',
+    spanish: 'el condimento/acompañamiento',
+  },
+  {
+    english: 'to stop',
+    norwegian: 'å stanse',
+    spanish: 'detener',
+  },
+  {
+    english: 'assistance for',
+    norwegian: 'bistand for',
+    spanish: 'asistencia para',
+  },
+  {
+    english: 'rolled them',
+    norwegian: 'rullet dem',
+    spanish: 'los enrolló',
+  },
+  {
+    english: 'to thresh',
+    norwegian: 'å treske',
+    spanish: 'trillar',
+  },
+  {
+    english: 'moisture meters',
+    norwegian: 'fuktighetsmålere',
+    spanish: 'medidores de humedad',
+  },
+  {
+    english: 'a digital scale',
+    norwegian: 'en digital skala',
+    spanish: 'una báscula digital',
+  },
+  {
+    english: 'another happy matter',
+    norwegian: 'en annen gladsak',
+    spanish: 'otra buena noticia',
+  },
+  {
+    english: 'the journey home',
+    norwegian: 'hjemreisen',
+    spanish: 'el viaje de regreso',
+  },
+  {
+    english: 'has thought',
+    norwegian: 'har tenkt',
+    spanish: 'ha pensado',
+  },
+  {
+    english: 'so intrusive',
+    norwegian: 'så påtrengende',
+    spanish: 'tan intrusivo',
+  },
+  {
+    english: 'on the stairs',
+    norwegian: 'på trappen',
+    spanish: 'en las escaleras',
+  },
+  {
+    english: 'an outdoor theater production',
+    norwegian: 'en friluftsteateroppsetning',
+    spanish: 'una producción teatral al aire libre',
+  },
+  {
+    english: 'to get to know people at',
+    norwegian: 'å bli kjent med folk på',
+    spanish: 'conocer a gente en',
+  },
+  {
+    english: 'a hopeless romantic',
+    norwegian: 'en håpløs romantiker',
+    spanish: 'un romántico sin remedio',
+  },
+  {
+    english: 'what a setup',
+    norwegian: 'for et opplegg',
+    spanish: 'qué montaje',
+  },
+  {
+    english: 'more professional setup',
+    norwegian: 'proffere opplegg',
+    spanish: 'configuración más profesional',
+  },
+  {
+    english: 'to the audience',
+    norwegian: 'til publikum',
+    spanish: 'al público',
+  },
+  {
+    english: 'threads',
+    norwegian: 'tråder',
+    spanish: 'hilos',
+  },
+  {
+    english: 'peace to work',
+    norwegian: 'arbeidsro',
+    spanish: 'paz para trabajar',
+  },
+  {
+    english: 'humble and soft',
+    norwegian: 'ydmyke og bløte',
+    spanish: 'humilde y blando',
+  },
+  {
+    english: 'moist',
+    norwegian: 'fuktig',
+    spanish: 'húmedo',
+  },
+  {
+    english: 'the moisture',
+    norwegian: 'fuktigheten',
+    spanish: 'la humedad',
+  },
+  {
+    english: 'delicious beans and peas',
+    norwegian: 'deilige bønner og erter',
+    spanish: 'deliciosas judías y guisantes',
+  },
+  {
+    english: 'the voles drown',
+    norwegian: 'jordrottene drukner',
+    spanish: 'los topillos se ahogan',
+  },
+  {
+    english: 'confirm',
+    norwegian: 'bekreft',
+    spanish: 'confirmar',
+  },
+  {
+    english: 'delete',
+    norwegian: 'slett',
+    spanish: 'borrar',
+  },
+  {
+    english: 'be aware of',
+    norwegian: 'vær oppmerksom på',
+    spanish: 'tener en cuenta',
+  },
+  {
+    english: 'available credit',
+    norwegian: 'tilgjengelig kreditt',
+    spanish: 'crédito disponible',
+  },
+  {
+    english: 'is ready for harvest',
+    norwegian: 'er høstemodent',
+    spanish: 'está listo para cosechar',
+  },
+  {
+    english: 'some moisture',
+    norwegian: 'en del fukt',
+    spanish: 'algo de humedad',
+  },
+  {
+    english: 'destroy',
+    norwegian: 'ødelegge',
+    spanish: 'destruir',
+  },
+  {
+    english: 'it is rumbling',
+    norwegian: 'durer det',
+    spanish: 'está retumbando',
+  },
+  {
+    english: 'made noise',
+    norwegian: 'bråkte',
+    spanish: 'hizo ruido',
+  },
+  {
+    english: 'the blame',
+    norwegian: 'skylden',
+    spanish: 'la culpa',
+  },
+  {
+    english: 'about the crops',
+    norwegian: 'om avlingene',
+    spanish: 'sobre las cosechas',
+  },
+  {
+    english: 'luck or bad luck',
+    norwegian: 'flaks eller uflaks',
+    spanish: 'suerte o mala suerte',
+  },
+  {
+    english: 'the feeling',
+    norwegian: 'følelsen',
+    spanish: 'el sentimiento',
+  },
+  {
+    english: 'leased',
+    norwegian: 'forpaktet',
+    spanish: 'arrendado',
+  },
+  {
+    english: 'the community spirit',
+    norwegian: 'dugnansånden',
+    spanish: 'el espíritu comunitario',
+  },
+  {
+    english: 'a kind of barter',
+    norwegian: 'en slags byttehandel',
+    spanish: 'un tipo de trueque',
+  },
+  {
+    english: 'not empty',
+    norwegian: 'ikke tomt',
+    spanish: 'no vacío',
+  },
+  {
+    english: 'to see the amount of grain',
+    norwegian: 'å se mengden korn',
+    spanish: 'ver la cantidad de grano',
+  },
+  {
+    english: 'pedal to the metal',
+    norwegian: 'kløtsen i bånn',
+    spanish: 'a toda velocidad',
+  },
+  {
+    english: 'gas and brake',
+    norwegian: 'gass og brems',
+    spanish: 'acelerador y freno',
+  },
+  {
+    english: 'not a lecture',
+    norwegian: 'ikke foredrag',
+    spanish: 'no una conferencia',
+  },
+  {
+    english: 'many buttons',
+    norwegian: 'mange knapper',
+    spanish: 'muchos botones',
+  },
+  {
+    english: 'do not touch it',
+    norwegian: 'ikke røre den',
+    spanish: 'no lo toques',
+  },
+  {
+    english: 'the top stub',
+    norwegian: 'den øverste stubben',
+    spanish: 'el muñón superior',
+  },
+  {
+    english: 'the pinch/grip',
+    norwegian: 'klypa',
+    spanish: 'el pellizco/agarre',
+  },
+  {
+    english: 'point downward',
+    norwegian: 'peke nedover',
+    spanish: 'apuntar hacia abajo',
+  },
+  {
+    english: 'has fumbled',
+    norwegian: 'har klønet',
+    spanish: 'ha metido la pata',
+  },
+  {
+    english: 'have you tasted',
+    norwegian: 'har du smakt på',
+    spanish: 'has probado',
+  },
+  {
+    english: 'really good candy',
+    norwegian: 'kjempebra drops',
+    spanish: 'caramelos muy buenos',
+  },
+  {
+    english: 'useless',
+    norwegian: 'ubrukelig',
+    spanish: 'inútil',
+  },
+  {
+    english: 'we change',
+    norwegian: 'vi forandrer oss',
+    spanish: 'cambiamos',
+  },
+  {
+    english: 'your cap',
+    norwegian: 'kapsen din',
+    spanish: 'tu gorra',
+  },
+  {
+    english: 'has such a hairdo',
+    norwegian: 'har sånn sveis',
+    spanish: 'tiene tal peinado',
+  },
+  {
+    english: 'to my playground',
+    norwegian: 'til min lekegrind',
+    spanish: 'a mi patio de recreo',
+  },
+  {
+    english: 'the seed drill',
+    norwegian: 'såmaskinen',
+    spanish: 'la sembradora',
+  },
+  {
+    english: 'open the door yourself',
+    norwegian: 'åpne døra selv',
+    spanish: 'abre la puerta tú mismo',
+  },
+  {
+    english: 'who has taught me everything',
+    norwegian: 'som har lært meg alt',
+    spanish: 'quien me ha enseñado todo',
+  },
+  {
+    english: 'have you wandered',
+    norwegian: 'har du forvillet',
+    spanish: 'te has extraviado',
+  },
+  {
+    english: 'has come into this',
+    norwegian: 'har kommet inn i dette',
+    spanish: 'ha entrado en esto',
+  },
+  {
+    english: 'hangs over the fence',
+    norwegian: 'henger over gjerdet',
+    spanish: 'cuelga sobre la valla',
+  },
+  {
+    english: 'at a celebrity party',
+    norwegian: 'på kjendisfest',
+    spanish: 'en una fiesta de famosos',
+  },
+  {
+    english: 'not get a flock of sheep',
+    norwegian: 'ikke skaffe en saueflokk',
+    spanish: 'no conseguir un rebaño de ovejas',
+  },
 ];
