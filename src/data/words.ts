@@ -12412,7 +12412,7 @@ export const words: Question[] = [
     spanish: 'servir',
   },
   {
-    english: "right on target/bull's eye",
+    english: 'right on target/bulls eye',
     norwegian: 'midt i blinken',
     spanish: 'justo en el blanco',
   },
