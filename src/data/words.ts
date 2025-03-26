@@ -12411,4 +12411,419 @@ export const words: Question[] = [
     norwegian: 'å servere',
     spanish: 'servir',
   },
+  {
+    english: "right on target/bull's eye",
+    norwegian: 'midt i blinken',
+    spanish: 'justo en el blanco',
+  },
+  {
+    english: 'I have no idea',
+    norwegian: 'jeg aner ikke',
+    spanish: 'no tengo ni idea',
+  },
+  {
+    english: 'I have no clue',
+    norwegian: 'jeg har ikke peiling',
+    spanish: 'no tengo ni idea',
+  },
+  {
+    english: 'to complain about',
+    norwegian: 'å klage på',
+    spanish: 'quejarse de',
+  },
+  {
+    english: 'again/anew',
+    norwegian: 'på nytt',
+    spanish: 'de nuevo',
+  },
+  {
+    english: 'rent',
+    norwegian: 'husleie',
+    spanish: 'alquiler',
+  },
+  {
+    english: 'sweats a lot',
+    norwegian: 'svetter mye',
+    spanish: 'suda mucho',
+  },
+  {
+    english: 'shocking',
+    norwegian: 'sjokkerende',
+    spanish: 'impactante',
+  },
+  {
+    english: 'quite weak there',
+    norwegian: 'gangske svak der',
+    spanish: 'bastante débil ahí',
+  },
+  {
+    english: 'I feel f***ed',
+    norwegian: 'jeg føler meg føkked',
+    spanish: 'me siento jodido',
+  },
+  {
+    english: 'gut feeling',
+    norwegian: 'magefølelse',
+    spanish: 'intuición',
+  },
+  {
+    english: 'damn lame gang',
+    norwegian: 'jævla lame gjeng',
+    spanish: 'pandilla malditamente patética',
+  },
+  {
+    english: 'attention',
+    norwegian: 'oppmerksomhet',
+    spanish: 'atención',
+  },
+  {
+    english: 'tactics',
+    norwegian: 'taktikk',
+    spanish: 'táctica',
+  },
+  {
+    english: 'to clear my name',
+    norwegian: 'å renvaske meg',
+    spanish: 'limpiar mi nombre',
+  },
+  {
+    english: 'to sail a bit',
+    norwegian: 'å seile litt',
+    spanish: 'navegar un poco',
+  },
+  {
+    english: 'to vote me out',
+    norwegian: 'å kippe ut meg',
+    spanish: 'votarme fuera',
+  },
+  {
+    english: 'to hide',
+    norwegian: 'å skjule',
+    spanish: 'esconder',
+  },
+  {
+    english: 'the meat now',
+    norwegian: 'kjøttet nå',
+    spanish: 'la carne ahora',
+  },
+  {
+    english: 'to get along with everyone',
+    norwegian: 'å komme overens med alle',
+    spanish: 'llevarse bien con todos',
+  },
+  {
+    english: 'has played',
+    norwegian: 'har spilt',
+    spanish: 'ha jugado',
+  },
+  {
+    english: 'has been able to',
+    norwegian: 'har kunnet',
+    spanish: 'ha podido',
+  },
+  {
+    english: 'to separate it',
+    norwegian: 'å skille det',
+    spanish: 'separarlo',
+  },
+  {
+    english: 'adr. is address',
+    norwegian: 'adr. er adresse',
+    spanish: 'adr. es dirección',
+  },
+  {
+    english: 'avs. is sender',
+    norwegian: 'avs. er avsender',
+    spanish: 'avs. es remitente',
+  },
+  {
+    english: 'bhg. is kindergarten',
+    norwegian: 'bhg. er barnehagen',
+    spanish: 'bhg. es guardería',
+  },
+  {
+    english: 'bl.a. is among other things',
+    norwegian: 'bl.a. er blant annet',
+    spanish: 'bl.a. es entre otras cosas',
+  },
+  {
+    english: 'd.d. is current date',
+    norwegian: 'd.d. er dags dato',
+    spanish: 'd.d. es fecha actual',
+  },
+  {
+    english: 'e.l. is or similar',
+    norwegian: 'e.l. er eller lignende',
+    spanish: 'e.l. es o similar',
+  },
+  {
+    english: 'ev is possibly',
+    norwegian: 'ev er eventuelt',
+    spanish: 'ev es posiblemente',
+  },
+  {
+    english: 'f.eks. is for example',
+    norwegian: 'f.eks. er for eksempel',
+    spanish: 'f.eks. es por ejemplo',
+  },
+  {
+    english: 'f.o.m. is from and including',
+    norwegian: 'f.o.m. er fra og med',
+    spanish: 'f.o.m. es desde inclusive',
+  },
+  {
+    english: 'i flg is according to',
+    norwegian: 'i flg er ifølge',
+    spanish: 'i flg es según',
+  },
+  {
+    english: 'kl. is oclock',
+    norwegian: 'kl. er klokka',
+    spanish: 'kl. es en punto',
+  },
+  {
+    english: 'm.a.o. is in other words',
+    norwegian: 'm.a.o. er med andre ord',
+    spanish: 'm.a.o. es en otras palabras',
+  },
+  {
+    english: 'm.m. is with more',
+    norwegian: 'm.m. er med mer',
+    spanish: 'm.m. es con más',
+  },
+  {
+    english: 'mfl. is with several',
+    norwegian: 'mfl. er med flere',
+    spanish: 'mfl. es con varios',
+  },
+  {
+    english: 'mnd is month',
+    norwegian: 'mnd er måned',
+    spanish: 'mnd es mes',
+  },
+  {
+    english: 'moh. is meters above sea level',
+    norwegian: 'moh. er meter over havet',
+    spanish: 'moh. es metros sobre el nivel del mar',
+  },
+  {
+    english: 'I hurt',
+    norwegian: 'jeg såret',
+    spanish: 'yo herí',
+  },
+  {
+    english: 'has made tough choices',
+    norwegian: 'har tatt kjipe valg',
+    spanish: 'ha tomado decisiones difíciles',
+  },
+  {
+    english: 'is used',
+    norwegian: 'blir brukt',
+    spanish: 'es usado',
+  },
+  {
+    english: 'was used',
+    norwegian: 'ble brukt',
+    spanish: 'fue usado',
+  },
+  {
+    english: 'has not been eliminated',
+    norwegian: 'har ikke røket',
+    spanish: 'no ha sido eliminado',
+  },
+  {
+    english: 'was eliminated twice',
+    norwegian: 'røk to ganger',
+    spanish: 'fue eliminado dos veces',
+  },
+  {
+    english: 'the government is corrupt',
+    norwegian: 'regjeringen er korrupt',
+    spanish: 'el gobierno es corrupto',
+  },
+  {
+    english: 'average',
+    norwegian: 'gjennomsnittlig',
+    spanish: 'promedio',
+  },
+  {
+    english: 'balance diet',
+    norwegian: 'balansere kosthold',
+    spanish: 'equilibrar la dieta',
+  },
+  {
+    english: 'mrd. is billion',
+    norwegian: 'mrd. er milliard',
+    spanish: 'mrd. es mil millones',
+  },
+  {
+    english: 'mva. is value-added tax',
+    norwegian: 'mva. er mer verdi avgift',
+    spanish: 'mva. es impuesto sobre el valor añadido',
+  },
+  {
+    english: 'mvh. is with kind regards',
+    norwegian: 'mvh. er med vennlig hilsen',
+    spanish: 'mvh. es atentamente',
+  },
+  {
+    english: 'nr. is number',
+    norwegian: 'nr. er nummer',
+    spanish: 'nr. es número',
+  },
+  {
+    english: 'o.l. is and similar',
+    norwegian: 'o.l. er og lignende',
+    spanish: 'o.l. es y similar',
+  },
+  {
+    english: 'osv. is and so on',
+    norwegian: 'osv. er og så videre',
+    spanish: 'osv. es etcétera',
+  },
+  {
+    english: 'pga. is because of',
+    norwegian: 'pga. er på grunn av',
+    spanish: 'pga. es debido a',
+  },
+  {
+    english: 'pkt. is point',
+    norwegian: 'pkt. er punkt',
+    spanish: 'pkt. es punto',
+  },
+  {
+    english: 's.u. is please reply',
+    norwegian: 's.u. er svar utbes',
+    spanish: 's.u. es se ruega contestación',
+  },
+  {
+    english: 'stk. is piece',
+    norwegian: 'stk. er stykk',
+    spanish: 'stk. es pieza',
+  },
+  {
+    english: 't.d. is for example',
+    norwegian: 't.d. er til dømes',
+    spanish: 't.d. es por ejemplo',
+  },
+  {
+    english: 't.h. is to the right',
+    norwegian: 't.h. er til høyre',
+    spanish: 't.h. es a la derecha',
+  },
+  {
+    english: 't.v. to the left',
+    norwegian: 't.v. til venstre',
+    spanish: 't.v. a la izquierda',
+  },
+  {
+    english: 'tlf. is telephone',
+    norwegian: 'tlf. er telefon',
+    spanish: 'tlf. es teléfono',
+  },
+  {
+    english: 'utg. is edition',
+    norwegian: 'utg. er utgave',
+    spanish: 'utg. es edición',
+  },
+  {
+    english: 'vgs. is high school',
+    norwegian: 'vgs. er videregående skole',
+    spanish: 'vgs. es escuela secundaria',
+  },
+  {
+    english: 'beaten',
+    norwegian: 'slått',
+    spanish: 'golpeado',
+  },
+  {
+    english: 'bitter in the jury',
+    norwegian: 'bitre i juryen',
+    spanish: 'amargado en el jurado',
+  },
+  {
+    english: 'crime scene',
+    norwegian: 'åsted',
+    spanish: 'escena del crimen',
+  },
+  {
+    english: 'deserves a place',
+    norwegian: 'fortjener en plass',
+    spanish: 'merece un lugar',
+  },
+  {
+    english: 'abnormal',
+    norwegian: 'unormalt',
+    spanish: 'anormal',
+  },
+  {
+    english: 'a sewer drain',
+    norwegian: 'et kloakkavløp',
+    spanish: 'un desagüe de alcantarilla',
+  },
+  {
+    english: 'I switch',
+    norwegian: 'jeg svitsjer',
+    spanish: 'yo cambio',
+  },
+  {
+    english: 'I separate game',
+    norwegian: 'jeg skiller spill',
+    spanish: 'separo el juego',
+  },
+  {
+    english: 'I separate feelings',
+    norwegian: 'jeg skiller følelser',
+    spanish: 'separo sentimientos',
+  },
+  {
+    english: 'here in the chest',
+    norwegian: 'her i kisten',
+    spanish: 'aquí en el cofre',
+  },
+  {
+    english: 'has given the trust',
+    norwegian: 'har gitt tilliten',
+    spanish: 'ha dado la confianza',
+  },
+  {
+    english: 'become fat on the outside',
+    norwegian: 'bli fett på utsiden',
+    spanish: 'volverse gordo por fuera',
+  },
+  {
+    english: 'was unanimously approved',
+    norwegian: 'ble enstemmig vedtatt',
+    spanish: 'fue aprobado por unanimidad',
+  },
+  {
+    english: 'is well-deserved',
+    norwegian: 'er velfortjent',
+    spanish: 'es bien merecido',
+  },
+  {
+    english: 'in the palapa',
+    norwegian: 'i palapaen',
+    spanish: 'en la palapa',
+  },
+  {
+    english: 'a human relationship',
+    norwegian: 'en menneskelig relasjon',
+    spanish: 'una relación humana',
+  },
+  {
+    english: 'they dare',
+    norwegian: 'de våger',
+    spanish: 'ellos se atreven',
+  },
+  {
+    english: 'so deserved',
+    norwegian: 'så fortjent',
+    spanish: 'tan merecido',
+  },
+  {
+    english: 'it seems like',
+    norwegian: 'virker det som',
+    spanish: 'parece que',
+  },
 ];
