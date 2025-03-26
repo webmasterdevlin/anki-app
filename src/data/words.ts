@@ -12826,4 +12826,89 @@ export const words: Question[] = [
     norwegian: 'virker det som',
     spanish: 'parece que',
   },
+  {
+    english: 'democracy',
+    norwegian: 'demokrati',
+    spanish: 'democracia',
+  },
+  {
+    english: 'parliament',
+    norwegian: 'parlament',
+    spanish: 'parlamento',
+  },
+  {
+    english: 'government',
+    norwegian: 'regjering',
+    spanish: 'gobierno',
+  },
+  {
+    english: 'court',
+    norwegian: 'domstol',
+    spanish: 'tribunal',
+  },
+  {
+    english: 'principle of separation of powers',
+    norwegian: 'maktfordelingsprinsippet',
+    spanish: 'principio de separación de poderes',
+  },
+  {
+    english: 'right to vote',
+    norwegian: 'stemmerett',
+    spanish: 'derecho al voto',
+  },
+  {
+    english: 'freedom of speech',
+    norwegian: 'ytringsfrihet',
+    spanish: 'libertad de expresión',
+  },
+  {
+    english: 'freedom of organization',
+    norwegian: 'organisasjonsfrihet',
+    spanish: 'libertad de organización',
+  },
+  {
+    english: 'equality',
+    norwegian: 'likestilling',
+    spanish: 'igualdad',
+  },
+  {
+    english: 'to work/function',
+    norwegian: 'å virke',
+    spanish: 'funcionar',
+  },
+  {
+    english: 'payment slip',
+    norwegian: 'giro',
+    spanish: 'giro bancario',
+  },
+  {
+    english: 'brochure',
+    norwegian: 'brosjyre',
+    spanish: 'folleto',
+  },
+  {
+    english: 'registration',
+    norwegian: 'oppmelding',
+    spanish: 'inscripción',
+  },
+  {
+    english: 'to transfer/put over',
+    norwegian: 'å sette over',
+    spanish: 'transferir',
+  },
+  {
+    english: 'to translate',
+    norwegian: 'å oversette',
+    spanish: 'traducir',
+  },
+  {
+    english: 'to stand for/be responsible for',
+    norwegian: 'å stå for',
+    spanish: 'representar/ser responsable de',
+  },
+  {
+    english: 'expression',
+    norwegian: 'uttrykk',
+    spanish: 'expresión',
+  },
 ];
