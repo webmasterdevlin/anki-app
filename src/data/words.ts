@@ -12911,4 +12911,259 @@ export const words: Question[] = [
     norwegian: 'uttrykk',
     spanish: 'expresión',
   },
+  {
+    english: 'fewer opportunities',
+    norwegian: 'færre muligheter',
+    spanish: 'menos oportunidades',
+  },
+  {
+    english: 'thank you in advance for your understanding',
+    norwegian: 'på forhånd takk for forståelsen',
+    spanish: 'gracias de antemano por su comprensión',
+  },
+  {
+    english: 'uncomfortable/unpleasant',
+    norwegian: 'ubehagelig',
+    spanish: 'incómodo/desagradable',
+  },
+  {
+    english: 'peaceful',
+    norwegian: 'fredelig',
+    spanish: 'pacífico',
+  },
+  {
+    english: 'relaxed',
+    norwegian: 'avslappet',
+    spanish: 'relajado',
+  },
+  {
+    english: 'homework',
+    norwegian: 'hjemmelekser',
+    spanish: 'deberes',
+  },
+  {
+    english: 'position on the matter',
+    norwegian: 'til stilling til saken',
+    spanish: 'posición sobre el asunto',
+  },
+  {
+    english: 'my arguments',
+    norwegian: 'mine argumenter',
+    spanish: 'mis argumentos',
+  },
+  {
+    english: 'maybe not homework',
+    norwegian: 'kanskje ikke lekser',
+    spanish: 'quizás no deberes',
+  },
+  {
+    english: 'personally I think that',
+    norwegian: 'personlig synes jeg at',
+    spanish: 'personalmente creo que',
+  },
+  {
+    english: 'busy weekdays',
+    norwegian: 'travle hverdager',
+    spanish: 'días laborables ocupados',
+  },
+  {
+    english: 'in the kitchen',
+    norwegian: 'på kjøkkenet',
+    spanish: 'en la cocina',
+  },
+  {
+    english: 'attention',
+    norwegian: 'oppmerksomhet',
+    spanish: 'atención',
+  },
+  {
+    english: 'understand',
+    norwegian: 'skjønne',
+    spanish: 'entender',
+  },
+  {
+    english: 'I am changing clothes now',
+    norwegian: 'jeg skifter klær nå',
+    spanish: 'me estoy cambiando de ropa ahora',
+  },
+  {
+    english: 'to change/shift',
+    norwegian: 'å skifte',
+    spanish: 'cambiar',
+  },
+  {
+    english: 'sore throat',
+    norwegian: 'sår hals',
+    spanish: 'dolor de garganta',
+  },
+  {
+    english: 'bless you',
+    norwegian: 'prosit',
+    spanish: 'salud',
+  },
+  {
+    english: 'get well soon',
+    norwegian: 'god bedring',
+    spanish: 'que te mejores',
+  },
+  {
+    english: 'take it easy',
+    norwegian: 'ta det med ro',
+    spanish: 'tómatelo con calma',
+  },
+  {
+    english: 'slowly',
+    norwegian: 'langsomt',
+    spanish: 'lentamente',
+  },
+  {
+    english: 'rather',
+    norwegian: 'heller',
+    spanish: 'más bien',
+  },
+  {
+    english: 'hardly',
+    norwegian: 'neppe',
+    spanish: 'apenas',
+  },
+  {
+    english: 'quite/fairly',
+    norwegian: 'nokså',
+    spanish: 'bastante',
+  },
+  {
+    english: 'almost',
+    norwegian: 'nesten',
+    spanish: 'casi',
+  },
+  {
+    english: 'completely',
+    norwegian: 'aldeles',
+    spanish: 'completamente',
+  },
+  {
+    english: 'dampen/reduce',
+    norwegian: 'dempe',
+    spanish: 'amortiguar/reducir',
+  },
+  {
+    english: 'strengthen/amplify',
+    norwegian: 'forsterke',
+    spanish: 'fortalecer/amplificar',
+  },
+  {
+    english: 'deny/refuse',
+    norwegian: 'nekte',
+    spanish: 'negar/rechazar',
+  },
+  {
+    english: 'uncountable',
+    norwegian: 'utellelig',
+    spanish: 'incontable',
+  },
+  {
+    english: 'correct enough/true enough',
+    norwegian: 'riktig nok',
+    spanish: 'bastante correcto',
+  },
+  {
+    english: 'in time',
+    norwegian: 'tidsnok',
+    spanish: 'a tiempo',
+  },
+  {
+    english: 'we had to drive',
+    norwegian: 'vi måtte kjøre',
+    spanish: 'tuvimos que conducir',
+  },
+  {
+    english: 'professions',
+    norwegian: 'yrker',
+    spanish: 'profesiones',
+  },
+  {
+    english: 'titles',
+    norwegian: 'titler',
+    spanish: 'títulos',
+  },
+  {
+    english: 'abolish',
+    norwegian: 'avskaffe',
+    spanish: 'abolir',
+  },
+  {
+    english: 'the monarchy',
+    norwegian: 'monarkiet',
+    spanish: 'la monarquía',
+  },
+  {
+    english: 'anchored',
+    norwegian: 'forankret',
+    spanish: 'anclado',
+  },
+  {
+    english: 'in the final analysis/when all is said and done',
+    norwegian: 'til syvende og sist',
+    spanish: 'a fin de cuentas',
+  },
+  {
+    english: 'puppy meeting',
+    norwegian: 'valpetreff',
+    spanish: 'encuentro de cachorros',
+  },
+  {
+    english: 'across',
+    norwegian: 'på tvers',
+    spanish: 'a través',
+  },
+  {
+    english: 'comfortable/pleasant',
+    norwegian: 'behagelig',
+    spanish: 'cómodo/agradable',
+  },
+  {
+    english: 'dresses up',
+    norwegian: 'pynter seg',
+    spanish: 'se arregla',
+  },
+  {
+    english: 'is bored',
+    norwegian: 'kjeder seg',
+    spanish: 'se aburre',
+  },
+  {
+    english: 'to come late',
+    norwegian: 'å komme sent',
+    spanish: 'llegar tarde',
+  },
+  {
+    english: 'to be late',
+    norwegian: 'å komme for sent',
+    spanish: 'llegar tarde',
+  },
+  {
+    english: 'to be late',
+    norwegian: 'å være sen',
+    spanish: 'estar retrasado',
+  },
+  {
+    english: 'to be delayed',
+    norwegian: 'å være forsinket',
+    spanish: 'estar retrasado',
+  },
+  {
+    english: 'to become late',
+    norwegian: 'a bli sen',
+    spanish: 'retrasarse',
+  },
+  {
+    english: 'to become delayed',
+    norwegian: 'a bli forsinket',
+    spanish: 'retrasarse',
+  },
+  {
+    english: 'humble',
+    norwegian: 'ydmyk',
+    spanish: 'humilde',
+  },
 ];
