@@ -13166,4 +13166,749 @@ export const words: Question[] = [
     norwegian: 'ydmyk',
     spanish: 'humilde',
   },
+  {
+    english: 'investments',
+    norwegian: 'investeringer',
+    spanish: 'inversiones',
+  },
+  {
+    english: 'hunts and chases',
+    norwegian: 'jakter og jager',
+    spanish: 'caza y persigue',
+  },
+  {
+    english: 'two mothers',
+    norwegian: 'to mødre',
+    spanish: 'dos madres',
+  },
+  {
+    english: 'busy',
+    norwegian: 'travel/travle',
+    spanish: 'ocupado/a',
+  },
+  {
+    english: 'in the baskets',
+    norwegian: 'i kurvene',
+    spanish: 'en las cestas',
+  },
+  {
+    english: 'the market square',
+    norwegian: 'torget',
+    spanish: 'la plaza del mercado',
+  },
+  {
+    english: 'the wallet',
+    norwegian: 'lommeboka',
+    spanish: 'la cartera',
+  },
+  {
+    english: 'unexpected',
+    norwegian: 'uventet',
+    spanish: 'inesperado',
+  },
+  {
+    english: 'took out the trash',
+    norwegian: 'tok ut søpla',
+    spanish: 'sacó la basura',
+  },
+  {
+    english: 'hustle/bustle',
+    norwegian: 'sjau',
+    spanish: 'ajetreo',
+  },
+  {
+    english: 'sunrise',
+    norwegian: 'soloppgang',
+    spanish: 'amanecer',
+  },
+  {
+    english: 'the sunset',
+    norwegian: 'solnedgangen',
+    spanish: 'la puesta del sol',
+  },
+  {
+    english: 'dizzy',
+    norwegian: 'svimmel',
+    spanish: 'mareado',
+  },
+  {
+    english: 'beautiful',
+    norwegian: 'vakker',
+    spanish: 'hermoso',
+  },
+  {
+    english: 'withered',
+    norwegian: 'vissen',
+    spanish: 'marchito',
+  },
+  {
+    english: 'scary',
+    norwegian: 'skummel',
+    spanish: 'espeluznante',
+  },
+  {
+    english: 'dirty',
+    norwegian: 'skitten',
+    spanish: 'sucio',
+  },
+  {
+    english: 'rotten',
+    norwegian: 'råtten',
+    spanish: 'podrido',
+  },
+  {
+    english: 'delicious/attractive',
+    norwegian: 'lekker',
+    spanish: 'delicioso/atractivo',
+  },
+  {
+    english: 'moldy',
+    norwegian: 'muggen',
+    spanish: 'mohoso',
+  },
+  {
+    english: 'two dizzy',
+    norwegian: 'to svimle',
+    spanish: 'dos mareados',
+  },
+  {
+    english: 'two beautiful',
+    norwegian: 'to vakre',
+    spanish: 'dos hermosos',
+  },
+  {
+    english: 'two withered',
+    norwegian: 'to visne',
+    spanish: 'dos marchitos',
+  },
+  {
+    english: 'two scary',
+    norwegian: 'to skumle',
+    spanish: 'dos espeluznantes',
+  },
+  {
+    english: 'two dirty',
+    norwegian: 'to skitne',
+    spanish: 'dos sucios',
+  },
+  {
+    english: 'two rotten',
+    norwegian: 'to råtne',
+    spanish: 'dos podridos',
+  },
+  {
+    english: 'two delicious/attractive',
+    norwegian: 'to lekre',
+    spanish: 'dos deliciosos/atractivos',
+  },
+  {
+    english: 'two moldy',
+    norwegian: 'to mugne',
+    spanish: 'dos mohosos',
+  },
+  {
+    english: 'a torch',
+    norwegian: 'en fakkel',
+    spanish: 'una antorcha',
+  },
+  {
+    english: 'two torches',
+    norwegian: 'to fakler',
+    spanish: 'dos antorchas',
+  },
+  {
+    english: 'a waffle',
+    norwegian: 'en vaffel',
+    spanish: 'un gofre',
+  },
+  {
+    english: 'two waffles',
+    norwegian: 'to fakfler',
+    spanish: 'dos gofres',
+  },
+  {
+    english: 'a summer',
+    norwegian: 'en sommer',
+    spanish: 'un verano',
+  },
+  {
+    english: 'two summers',
+    norwegian: 'to somrer',
+    spanish: 'dos veranos',
+  },
+  {
+    english: 'a bill/note',
+    norwegian: 'en seddel',
+    spanish: 'un billete',
+  },
+  {
+    english: 'two bills/notes',
+    norwegian: 'to sedler',
+    spanish: 'dos billetes',
+  },
+  {
+    english: 'a key',
+    norwegian: 'en nøkkel',
+    spanish: 'una llave',
+  },
+  {
+    english: 'two keys',
+    norwegian: 'to nøkler',
+    spanish: 'dos llaves',
+  },
+  {
+    english: 'a fork',
+    norwegian: 'en gaffel',
+    spanish: 'un tenedor',
+  },
+  {
+    english: 'two forks',
+    norwegian: 'to gafler',
+    spanish: 'dos tenedores',
+  },
+  {
+    english: 'a poodle',
+    norwegian: 'en puddel',
+    spanish: 'un caniche',
+  },
+  {
+    english: 'two poodles',
+    norwegian: 'to pudler',
+    spanish: 'dos caniches',
+  },
+  {
+    english: 'a dome',
+    norwegian: 'en kuppel',
+    spanish: 'una cúpula',
+  },
+  {
+    english: 'two domes',
+    norwegian: 'to kupler',
+    spanish: 'dos cúpulas',
+  },
+  {
+    english: 'mulled wine',
+    norwegian: 'gløgg',
+    spanish: 'vino caliente especiado',
+  },
+  {
+    english: 'clever child',
+    norwegian: 'gløgt barn',
+    spanish: 'niño inteligente',
+  },
+  {
+    english: 'cheeky/insolent',
+    norwegian: 'frekk',
+    spanish: 'descarado',
+  },
+  {
+    english: 'cheeky question',
+    norwegian: 'frekt spørsmål',
+    spanish: 'pregunta descarada',
+  },
+  {
+    english: 'ugly',
+    norwegian: 'stygg',
+    spanish: 'feo',
+  },
+  {
+    english: 'ugly house',
+    norwegian: 'stygt hus',
+    spanish: 'casa fea',
+  },
+  {
+    english: 'beautiful/lovely',
+    norwegian: 'skjønn',
+    spanish: 'hermoso/encantador',
+  },
+  {
+    english: 'beautiful picture',
+    norwegian: 'skjønt bilde',
+    spanish: 'imagen hermosa',
+  },
+  {
+    english: 'crooked/askew',
+    norwegian: 'skakk',
+    spanish: 'torcido',
+  },
+  {
+    english: 'crooked fence',
+    norwegian: 'skakt gjerde',
+    spanish: 'valla torcida',
+  },
+  {
+    english: 'thin',
+    norwegian: 'tynn',
+    spanish: 'delgado',
+  },
+  {
+    english: 'thin shawl',
+    norwegian: 'tynt sjal',
+    spanish: 'chal fino',
+  },
+  {
+    english: 'kind',
+    norwegian: 'snill',
+    spanish: 'amable',
+  },
+  {
+    english: 'kind person',
+    norwegian: 'snilt menneske',
+    spanish: 'persona amable',
+  },
+  {
+    english: 'to vote',
+    norwegian: 'å stemme',
+    spanish: 'votar',
+  },
+  {
+    english: 'voted',
+    norwegian: 'stemte',
+    spanish: 'votó',
+  },
+  {
+    english: 'to burn',
+    norwegian: 'å brenne',
+    spanish: 'quemar',
+  },
+  {
+    english: 'burned',
+    norwegian: 'brente',
+    spanish: 'quemó',
+  },
+  {
+    english: 'to play',
+    norwegian: 'å spille',
+    spanish: 'jugar/tocar',
+  },
+  {
+    english: 'played',
+    norwegian: 'spilte',
+    spanish: 'jugó/tocó',
+  },
+  {
+    english: 'to build',
+    norwegian: 'å bygge',
+    spanish: 'construir',
+  },
+  {
+    english: 'built',
+    norwegian: 'bygde',
+    spanish: 'construyó',
+  },
+  {
+    english: 'we have lost the plane tickets',
+    norwegian: 'vi har mistet flybillettene',
+    spanish: 'hemos perdido los billetes de avión',
+  },
+  {
+    english: 'Liverpool lost against Arsenal',
+    norwegian: 'Liverpool tapte mot Arsenal',
+    spanish: 'Liverpool perdió contra Arsenal',
+  },
+  {
+    english: 'she lost the lawsuit',
+    norwegian: 'hun tapte rettsaken',
+    spanish: 'ella perdió el juicio',
+  },
+  {
+    english: 'they lack warm clothes',
+    norwegian: 'de mangler varme klør',
+    spanish: 'les faltan ropas de abrigo',
+  },
+  {
+    english: 'I miss you',
+    norwegian: 'jeg savner deg',
+    spanish: 'te echo de menos',
+  },
+  {
+    english: 'housing types',
+    norwegian: 'bolig typer',
+    spanish: 'tipos de vivienda',
+  },
+  {
+    english: 'internet etiquette',
+    norwegian: 'nettvett',
+    spanish: 'etiqueta en internet',
+  },
+  {
+    english: 'contains',
+    norwegian: 'inneholder',
+    spanish: 'contiene',
+  },
+  {
+    english: 'public',
+    norwegian: 'offentlige',
+    spanish: 'público',
+  },
+  {
+    english: 'appears/seems',
+    norwegian: 'virkes',
+    spanish: 'parece',
+  },
+  {
+    english: 'career opportunities',
+    norwegian: 'yrkesmuligheter',
+    spanish: 'oportunidades profesionales',
+  },
+  {
+    english: 'about equality',
+    norwegian: 'om likestilling',
+    spanish: 'sobre igualdad',
+  },
+  {
+    english: 'Norwegian immigration policy',
+    norwegian: 'norsk inuvandringspolitikk',
+    spanish: 'política de inmigración noruega',
+  },
+  {
+    english: 'housing market',
+    norwegian: 'boligmarkeda',
+    spanish: 'mercado inmobiliario',
+  },
+  {
+    english: 'fake news',
+    norwegian: 'falske nyheter',
+    spanish: 'noticias falsas',
+  },
+  {
+    english: 'waiting or neither',
+    norwegian: 'venter eller verken',
+    spanish: 'esperando o ninguno',
+  },
+  {
+    english: 'endorphins',
+    norwegian: 'endorfiner',
+    spanish: 'endorfinas',
+  },
+  {
+    english: 'thunders',
+    norwegian: 'tordner',
+    spanish: 'truena',
+  },
+  {
+    english: 'look carefully at these',
+    norwegian: 'se nøye på disse',
+    spanish: 'mira estos con cuidado',
+  },
+  {
+    english: 'in the throat',
+    norwegian: 'i strupen',
+    spanish: 'en la garganta',
+  },
+  {
+    english: 'was subjected to vandalism',
+    norwegian: 'ble utsatt for hærverk',
+    spanish: 'fue objeto de vandalismo',
+  },
+  {
+    english: 'releases name after fatal accident',
+    norwegian: 'frigir navn etter dødsulykke',
+    spanish: 'divulga nombre tras accidente mortal',
+  },
+  {
+    english: 'reveals break-up',
+    norwegian: 'røper brudd',
+    spanish: 'revela ruptura',
+  },
+  {
+    english: 'the appearance',
+    norwegian: 'utseendet',
+    spanish: 'la apariencia',
+  },
+  {
+    english: 'assessment',
+    norwegian: 'vuredering',
+    spanish: 'evaluación',
+  },
+  {
+    english: 'voluntary community work',
+    norwegian: 'dugnad',
+    spanish: 'trabajo comunitario voluntario',
+  },
+  {
+    english: 'successful',
+    norwegian: 'vellykket',
+    spanish: 'exitoso',
+  },
+  {
+    english: 'applies/concerns',
+    norwegian: 'gjelder',
+    spanish: 'aplica/concierne',
+  },
+  {
+    english: 'very angry',
+    norwegian: 'veldig sint',
+    spanish: 'muy enfadado',
+  },
+  {
+    english: 'the pipes',
+    norwegian: 'rørene',
+    spanish: 'las tuberías',
+  },
+  {
+    english: 'to blame the source',
+    norwegian: 'å skylde på kilden',
+    spanish: 'culpar a la fuente',
+  },
+  {
+    english: 'to comfort',
+    norwegian: 'å trøste',
+    spanish: 'consolar',
+  },
+  {
+    english: 'to doubt',
+    norwegian: 'å tvile',
+    spanish: 'dudar',
+  },
+  {
+    english: 'in the barn',
+    norwegian: 'i fjøset',
+    spanish: 'en el establo',
+  },
+  {
+    english: 'sports',
+    norwegian: 'i drett',
+    spanish: 'deporte',
+  },
+  {
+    english: 'the countess',
+    norwegian: 'grevinnen',
+    spanish: 'la condesa',
+  },
+  {
+    english: 'to exploit',
+    norwegian: 'å utnytte',
+    spanish: 'explotar',
+  },
+  {
+    english: 'to make use of',
+    norwegian: 'å nytte ut',
+    spanish: 'aprovechar',
+  },
+  {
+    english: 'to publish',
+    norwegian: 'å ut gi',
+    spanish: 'publicar',
+  },
+  {
+    english: 'to release/publish',
+    norwegian: 'å gi ut',
+    spanish: 'publicar/lanzar',
+  },
+  {
+    english: 'acquaintance',
+    norwegian: 'bekjent',
+    spanish: 'conocido',
+  },
+  {
+    english: 'slow',
+    norwegian: 'langsom',
+    spanish: 'lento',
+  },
+  {
+    english: 'slow',
+    norwegian: 'sakte',
+    spanish: 'lento',
+  },
+  {
+    english: 'slow/sluggish',
+    norwegian: 'treg',
+    spanish: 'lento/perezoso',
+  },
+  {
+    english: 'to acquire',
+    norwegian: 'å tilegne seg',
+    spanish: 'adquirir',
+  },
+  {
+    english: 'wonder about',
+    norwegian: 'stusse over',
+    spanish: 'preguntarse sobre',
+  },
+  {
+    english: 'wonder about',
+    norwegian: 'undre seg over',
+    spanish: 'preguntarse',
+  },
+  {
+    english: 'dig',
+    norwegian: 'grave',
+    spanish: 'cavar',
+  },
+  {
+    english: 'to ponder on',
+    norwegian: 'å fundere på',
+    spanish: 'reflexionar sobre',
+  },
+  {
+    english: 'to ponder over',
+    norwegian: 'å fundere over',
+    spanish: 'reflexionar sobre',
+  },
+  {
+    english: 'membership',
+    norwegian: 'medlemskap',
+    spanish: 'membresía',
+  },
+  {
+    english: 'landscape',
+    norwegian: 'landskap',
+    spanish: 'paisaje',
+  },
+  {
+    english: 'company/party',
+    norwegian: 'selskap',
+    spanish: 'empresa/fiesta',
+  },
+  {
+    english: 'accounts',
+    norwegian: 'regnskap',
+    spanish: 'contabilidad',
+  },
+  {
+    english: 'knowledge',
+    norwegian: 'kunnskap',
+    spanish: 'conocimiento',
+  },
+  {
+    english: 'science',
+    norwegian: 'vitenskap',
+    spanish: 'ciencia',
+  },
+  {
+    english: 'marriage',
+    norwegian: 'ekteskap',
+    spanish: 'matrimonio',
+  },
+  {
+    english: 'championship',
+    norwegian: 'mesterskap',
+    spanish: 'campeonato',
+  },
+  {
+    english: 'preparedness',
+    norwegian: 'beredskap',
+    spanish: 'preparación',
+  },
+  {
+    english: 'crew',
+    norwegian: 'mannskap',
+    spanish: 'tripulación',
+  },
+  {
+    english: 'tool/implement',
+    norwegian: 'redskap',
+    spanish: 'herramienta',
+  },
+  {
+    english: 'cabinet/closet',
+    norwegian: 'skap',
+    spanish: 'armario',
+  },
+  {
+    english: 'evil',
+    norwegian: 'ondskap',
+    spanish: 'maldad',
+  },
+  {
+    english: 'leadership',
+    norwegian: 'ledeskap',
+    spanish: 'liderazgo',
+  },
+  {
+    english: 'friendship',
+    norwegian: 'vennskap',
+    spanish: 'amistad',
+  },
+  {
+    english: 'message',
+    norwegian: 'budskap',
+    spanish: 'mensaje',
+  },
+  {
+    english: 'quality/property',
+    norwegian: 'egenskap',
+    spanish: 'cualidad/propiedad',
+  },
+  {
+    english: 'madness',
+    norwegian: 'galskap',
+    spanish: 'locura',
+  },
+  {
+    english: 'pregnancy',
+    norwegian: 'svangerskap',
+    spanish: 'embarazo',
+  },
+  {
+    english: 'faithfulness',
+    norwegian: 'troskap',
+    spanish: 'fidelidad',
+  },
+  {
+    english: 'kinship/relationship',
+    norwegian: 'slektskap',
+    spanish: 'parentesco',
+  },
+  {
+    english: 'agree with',
+    norwegian: 'enig med',
+    spanish: 'de acuerdo con',
+  },
+  {
+    english: 'agree with (statement)',
+    norwegian: 'enig i',
+    spanish: 'de acuerdo con (declaración)',
+  },
+  {
+    english: 'agree about',
+    norwegian: 'enig om',
+    spanish: 'de acuerdo sobre',
+  },
+  {
+    english: 'I do not know if',
+    norwegian: 'jeg vet ikke om',
+    spanish: 'no sé si',
+  },
+  {
+    english: 'others',
+    norwegian: 'andre',
+    spanish: 'otros',
+  },
+  {
+    english: 'another',
+    norwegian: 'annen',
+    spanish: 'otro',
+  },
+  {
+    english: 'other',
+    norwegian: 'annet',
+    spanish: 'otro',
+  },
+  {
+    english: 'other',
+    norwegian: 'anna',
+    spanish: 'otro',
+  },
+  {
+    english: 'numeral',
+    norwegian: 'tallord',
+    spanish: 'numeral',
+  },
+  {
+    english: 'in any case',
+    norwegian: 'i alle fall',
+    spanish: 'en cualquier caso',
+  },
+  {
+    english: 'at least/anyway',
+    norwegian: 'i hvert fall',
+    spanish: 'al menos/de todos modos',
+  },
+  {
+    english: 'is healthy',
+    norwegian: 'er frisk',
+    spanish: 'está sano',
+  },
 ];
