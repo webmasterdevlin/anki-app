@@ -13323,7 +13323,7 @@ export const words: Question[] = [
   },
   {
     english: 'two waffles',
-    norwegian: 'to fakfler',
+    norwegian: 'to vafler',
     spanish: 'dos gofres',
   },
   {
@@ -13910,5 +13910,10 @@ export const words: Question[] = [
     english: 'is healthy',
     norwegian: 'er frisk',
     spanish: 'está sano',
+  },
+  {
+    english: 'is fresh',
+    norwegian: 'er fersk',
+    spanish: 'está fresco',
   },
 ];
