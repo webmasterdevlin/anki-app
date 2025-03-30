@@ -13916,4 +13916,199 @@ export const words: Question[] = [
     norwegian: 'er fersk',
     spanish: 'está fresco',
   },
+  {
+    english: 'admirer',
+    norwegian: 'beundrer',
+    spanish: 'admirador',
+  },
+  {
+    english: 'famous researchers',
+    norwegian: 'kjente forskere',
+    spanish: 'investigadores famosos',
+  },
+  {
+    english: 'management',
+    norwegian: 'ledelse',
+    spanish: 'dirección/gestión',
+  },
+  {
+    english: 'exports',
+    norwegian: 'eksporterer',
+    spanish: 'exporta',
+  },
+  {
+    english: 'in the parade',
+    norwegian: 'i paraden',
+    spanish: 'en el desfile',
+  },
+  {
+    english: 'I have crashed many times',
+    norwegian: 'Jeg har krasjet mange ganger',
+    spanish: 'He chocado muchas veces',
+  },
+  {
+    english: 'she wants to see the buildings and food',
+    norwegian: 'hun vil se bygningene og maten',
+    spanish: 'ella quiere ver los edificios y la comida',
+  },
+  {
+    english: 'we would like to travel to China',
+    norwegian: 'vi vil gjerne reise til Kina',
+    spanish: 'nos gustaría viajar a China',
+  },
+  {
+    english: 'she has never been',
+    norwegian: 'hun aldri har vært',
+    spanish: 'ella nunca ha estado',
+  },
+  {
+    english: 'how people celebrate festivals',
+    norwegian: 'hvordan har måten folk feirer festivaler',
+    spanish: 'cómo la gente celebra festivales',
+  },
+  {
+    english: "a country's flag",
+    norwegian: 'et lands flagg',
+    spanish: 'la bandera de un país',
+  },
+  {
+    english: 'a dragon',
+    norwegian: 'en drage',
+    spanish: 'un dragón',
+  },
+  {
+    english: 'I can mention',
+    norwegian: 'Jeg kan nevne',
+    spanish: 'Puedo mencionar',
+  },
+  {
+    english: 'the fireworks disappear slowly',
+    norwegian: 'fyrverkeriet forsvinner sakte',
+    spanish: 'los fuegos artificiales desaparecen lentamente',
+  },
+  {
+    english: 'special occasions',
+    norwegian: 'spesielle anledninger',
+    spanish: 'ocasiones especiales',
+  },
+  {
+    english: 'achievements',
+    norwegian: 'prestasjoner',
+    spanish: 'logros',
+  },
+  {
+    english: 'benefit',
+    norwegian: 'gavne',
+    spanish: 'beneficiar',
+  },
+  {
+    english: 'sponsorship',
+    norwegian: 'sponsing',
+    spanish: 'patrocinio',
+  },
+  {
+    english: 'to abbreviate',
+    norwegian: 'or å forkorte',
+    spanish: 'abreviar',
+  },
+  {
+    english: 'prefers rural areas',
+    norwegian: 'foretrekker landlige områder',
+    spanish: 'prefiere zonas rurales',
+  },
+  {
+    english: 'customs/traditions',
+    norwegian: 'skikker',
+    spanish: 'costumbres/tradiciones',
+  },
+  {
+    english: 'they grew up in a different way',
+    norwegian: 'de vokste opp på en annen måte',
+    spanish: 'crecieron de una manera diferente',
+  },
+  {
+    english: 'to be unhappy/uncomfortable',
+    norwegian: 'å vantrives',
+    spanish: 'sentirse infeliz/incómodo',
+  },
+  {
+    english: 'the tusks',
+    norwegian: 'hoggtennene',
+    spanish: 'los colmillos',
+  },
+  {
+    english: 'dowry',
+    norwegian: 'medgift',
+    spanish: 'dote',
+  },
+  {
+    english: 'expense',
+    norwegian: 'utgift',
+    spanish: 'gasto',
+  },
+  {
+    english: 'chemotherapy',
+    norwegian: 'cellegift',
+    spanish: 'quimioterapia',
+  },
+  {
+    english: 'early bird',
+    norwegian: 'morgenfugl',
+    spanish: 'madrugador',
+  },
+  {
+    english: 'night owl',
+    norwegian: 'natteravn',
+    spanish: 'noctámbulo',
+  },
+  {
+    english: 'listen to the music',
+    norwegian: 'lytte til musikken',
+    spanish: 'escuchar la música',
+  },
+  {
+    english: 'forge ahead',
+    norwegian: 'brøyt i vei',
+    spanish: 'seguir adelante',
+  },
+  {
+    english: 'illness and disability',
+    norwegian: 'sykdom og uførhet',
+    spanish: 'enfermedad y discapacidad',
+  },
+  {
+    english: 'pension and social benefits',
+    norwegian: 'pensjon og sosiale ytelser',
+    spanish: 'pensión y prestaciones sociales',
+  },
+  {
+    english: 'business economic purposes',
+    norwegian: 'næringsøkonomiske formål',
+    spanish: 'fines económicos comerciales',
+  },
+  {
+    english: 'other public services',
+    norwegian: 'annen offentlig tjenesteyting',
+    spanish: 'otros servicios públicos',
+  },
+  {
+    english: 'defense',
+    norwegian: 'forsvar',
+    spanish: 'defensa',
+  },
+  {
+    english: 'public order and safety',
+    norwegian: 'offentlig orden og trygghet',
+    spanish: 'orden público y seguridad',
+  },
+  {
+    english: 'environmental protection',
+    norwegian: 'miljøvern',
+    spanish: 'protección ambiental',
+  },
+  {
+    english: 'housing and local environment',
+    norwegian: 'bolig og nærmiljø',
+    spanish: 'vivienda y entorno local',
+  },
 ];
