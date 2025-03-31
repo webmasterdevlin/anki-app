@@ -14111,4 +14111,339 @@ export const words: Question[] = [
     norwegian: 'bolig og nærmiljø',
     spanish: 'vivienda y entorno local',
   },
+  {
+    english: 'should be',
+    norwegian: 'skulle være',
+    spanish: 'debería ser',
+  },
+  {
+    english: 'would become',
+    norwegian: 'skull bli',
+    spanish: 'llegaría a ser',
+  },
+  {
+    english: 'our',
+    norwegian: 'våre',
+    spanish: 'nuestro/a',
+  },
+  {
+    english: 'spring',
+    norwegian: 'våret',
+    spanish: 'primavera',
+  },
+  {
+    english: 'is cancelled',
+    norwegian: 'er avlyst',
+    spanish: 'está cancelado',
+  },
+  {
+    english: 'fully charged',
+    norwegian: 'fulladet',
+    spanish: 'completamente cargado',
+  },
+  {
+    english: 'the battery',
+    norwegian: 'batteriet',
+    spanish: 'la batería',
+  },
+  {
+    english: 'gourmet',
+    norwegian: 'gourmet',
+    spanish: 'gourmet',
+  },
+  {
+    english: 'fiasco',
+    norwegian: 'fiasko',
+    spanish: 'fracaso',
+  },
+  {
+    english: 'copy from the board',
+    norwegian: 'skrive av fra tavla',
+    spanish: 'copiar de la pizarra',
+  },
+  {
+    english: 'okay',
+    norwegian: 'okå',
+    spanish: 'vale',
+  },
+  {
+    english: 'origin',
+    norwegian: 'opphav',
+    spanish: 'origen',
+  },
+  {
+    english: 'moving/relocation',
+    norwegian: 'flytting',
+    spanish: 'mudanza/traslado',
+  },
+  {
+    english: 'imitation',
+    norwegian: 'etterligning',
+    spanish: 'imitación',
+  },
+  {
+    english: 'after copy',
+    norwegian: 'etter kopi',
+    spanish: 'después de la copia',
+  },
+  {
+    english: 'away/off',
+    norwegian: 'av gårde',
+    spanish: 'fuera/lejos',
+  },
+  {
+    english: 'do with',
+    norwegian: 'gjøre av',
+    spanish: 'hacer con',
+  },
+  {
+    english: 'jump off',
+    norwegian: 'hoppe av',
+    spanish: 'saltar',
+  },
+  {
+    english: 'leave',
+    norwegian: 'forlate',
+    spanish: 'abandonar',
+  },
+  {
+    english: 'take off',
+    norwegian: 'ta av',
+    spanish: 'despegar/quitar',
+  },
+  {
+    english: 'get off',
+    norwegian: 'stige av',
+    spanish: 'bajarse',
+  },
+  {
+    english: 'reserve',
+    norwegian: 'holde av',
+    spanish: 'reservar',
+  },
+  {
+    english: 'become of',
+    norwegian: 'bli av',
+    spanish: 'resultar de',
+  },
+  {
+    english: 'check off',
+    norwegian: 'krysse av',
+    spanish: 'marcar',
+  },
+  {
+    english: 'set aside/drop off',
+    norwegian: 'sette av',
+    spanish: 'reservar/dejar',
+  },
+  {
+    english: 'put away/save',
+    norwegian: 'legge av',
+    spanish: 'guardar/ahorrar',
+  },
+  {
+    english: 'run away',
+    norwegian: 'stikke av',
+    spanish: 'huir/escapar',
+  },
+  {
+    english: 'relax',
+    norwegian: 'slappe av',
+    spanish: 'relajarse',
+  },
+  {
+    english: 'play',
+    norwegian: 'spile av',
+    spanish: 'reproducir',
+  },
+  {
+    english: 'disconnect',
+    norwegian: 'koble av',
+    spanish: 'desconectar',
+  },
+  {
+    english: 'take off (clothing)',
+    norwegian: 'ta av seg',
+    spanish: 'quitarse',
+  },
+  {
+    english: 'undress',
+    norwegian: 'kle av seg',
+    spanish: 'desvestirse',
+  },
+  {
+    english: 'take care of',
+    norwegian: 'ta seg av',
+    spanish: 'encargarse de',
+  },
+  {
+    english: 'derail',
+    norwegian: 'spore av',
+    spanish: 'descarrilar',
+  },
+  {
+    english: 'drive off',
+    norwegian: 'kjøre av',
+    spanish: 'salirse de la carretera',
+  },
+  {
+    english: 'use of',
+    norwegian: 'bruk av',
+    spanish: 'uso de',
+  },
+  {
+    english: 'resign/get off',
+    norwegian: 'gå av',
+    spanish: 'renunciar/bajarse',
+  },
+  {
+    english: 'mistake',
+    norwegian: 'ta feil av',
+    spanish: 'confundir',
+  },
+  {
+    english: 'de-ice',
+    norwegian: 'ise av',
+    spanish: 'deshelar',
+  },
+  {
+    english: 'shut off',
+    norwegian: 'stenge av',
+    spanish: 'cerrar/apagar',
+  },
+  {
+    english: 'round off',
+    norwegian: 'runde av',
+    spanish: 'redondear',
+  },
+  {
+    english: 'stowed/packed',
+    norwegian: 'stuvte',
+    spanish: 'guardó/empacó',
+  },
+  {
+    english: 'to bother me',
+    norwegian: 'å plage meg',
+    spanish: 'molestarme',
+  },
+  {
+    english: 'title',
+    norwegian: 'tittel',
+    spanish: 'título',
+  },
+  {
+    english: 'profession',
+    norwegian: 'yrke',
+    spanish: 'profesión',
+  },
+  {
+    english: 'cruel',
+    norwegian: 'grusom',
+    spanish: 'cruel',
+  },
+  {
+    english: 'the wallet',
+    norwegian: 'lommeboken',
+    spanish: 'la cartera',
+  },
+  {
+    english: 'things to preserve and strengthen',
+    norwegian: 'ting å bevare og styrke',
+    spanish: 'cosas para preservar y fortalecer',
+  },
+  {
+    english: 'facial expression',
+    norwegian: 'ansiktsuttrykk',
+    spanish: 'expresión facial',
+  },
+  {
+    english: 'irritated',
+    norwegian: 'irretert',
+    spanish: 'irritado',
+  },
+  {
+    english: 'dissatisfied',
+    norwegian: 'misfornoyd',
+    spanish: 'insatisfecho',
+  },
+  {
+    english: 'exasperated',
+    norwegian: 'oppgitt',
+    spanish: 'exasperado',
+  },
+  {
+    english: 'tired of/fed up',
+    norwegian: 'lei',
+    spanish: 'cansado de',
+  },
+  {
+    english: 'sour/grumpy',
+    norwegian: 'sur',
+    spanish: 'agrio/malhumorado',
+  },
+  {
+    english: 'angry',
+    norwegian: 'sint',
+    spanish: 'enfadado',
+  },
+  {
+    english: 'furious/damn',
+    norwegian: 'forbannet',
+    spanish: 'furioso/maldito',
+  },
+  {
+    english: 'disagree',
+    norwegian: 'uenig',
+    spanish: 'en desacuerdo',
+  },
+  {
+    english: 'authors',
+    norwegian: 'forfattere',
+    spanish: 'autores',
+  },
+  {
+    english: 'a plot',
+    norwegian: 'et plott',
+    spanish: 'un argumento',
+  },
+  {
+    english: 'fog',
+    norwegian: 'tåke',
+    spanish: 'niebla',
+  },
+  {
+    english: 'should have traveled',
+    norwegian: 'skulle ha reist',
+    spanish: 'debería haber viajado',
+  },
+  {
+    english: 'thought cases',
+    norwegian: 'tenkte tilfeller',
+    spanish: 'casos pensados',
+  },
+  {
+    english: 'must have traveled',
+    norwegian: 'måtte ha reist',
+    spanish: 'debe haber viajado',
+  },
+  {
+    english: 'you thought long-term',
+    norwegian: 'du tenkte langsiktig',
+    spanish: 'pensaste a largo plazo',
+  },
+  {
+    english: 'you should have saved',
+    norwegian: 'skulle du ha spart',
+    spanish: 'deberías haber ahorrado',
+  },
+  {
+    english: 'could have studied in the USA',
+    norwegian: 'kunne ha studert i USA',
+    spanish: 'podría haber estudiado en Estados Unidos',
+  },
+  {
+    english: 'should have listened to me',
+    norwegian: 'burde ha hørt på meg',
+    spanish: 'debería haberme escuchado',
+  },
 ];
