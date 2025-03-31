@@ -14446,4 +14446,274 @@ export const words: Question[] = [
     norwegian: 'burde ha hørt på meg',
     spanish: 'debería haberme escuchado',
   },
+  {
+    english: 'you are far from',
+    norwegian: 'du er langt fra',
+    spanish: 'estás lejos de',
+  },
+  {
+    english: 'he gave me a job here',
+    norwegian: 'han ga meg en jobb her',
+    spanish: 'me dio un trabajo aquí',
+  },
+  {
+    english: 'mango decorations',
+    norwegian: 'mango dekorasjoner',
+    spanish: 'decoraciones de mango',
+  },
+  {
+    english: 'mammoth tusk',
+    norwegian: 'mammoth tusk',
+    spanish: 'colmillo de mamut',
+  },
+  {
+    english: 'before we do not know each other',
+    norwegian: 'før vi ikke kjenner hverandre',
+    spanish: 'antes de que no nos conozcamos',
+  },
+  {
+    english: 'the whole office',
+    norwegian: 'hele kontoret',
+    spanish: 'toda la oficina',
+  },
+  {
+    english: 'ever since',
+    norwegian: 'helt siden',
+    spanish: 'desde entonces',
+  },
+  {
+    english: 'my economy/finances',
+    norwegian: 'min økonomi',
+    spanish: 'mi economía/finanzas',
+  },
+  {
+    english: 'from his book',
+    norwegian: 'fra boken hans',
+    spanish: 'de su libro',
+  },
+  {
+    english: 'who wrote',
+    norwegian: 'som skrev',
+    spanish: 'quien escribió',
+  },
+  {
+    english: 'which profession',
+    norwegian: 'hvilket yrke',
+    spanish: 'qué profesión',
+  },
+  {
+    english: 'the solution',
+    norwegian: 'løsningen',
+    spanish: 'la solución',
+  },
+  {
+    english: 'a nursing position',
+    norwegian: 'en sykepleierstilling',
+    spanish: 'un puesto de enfermería',
+  },
+  {
+    english: 'celebrities',
+    norwegian: 'kjendiser',
+    spanish: 'celebridades',
+  },
+  {
+    english: 'the government and crime',
+    norwegian: 'regjeringen og kriminalitet',
+    spanish: 'el gobierno y el crimen',
+  },
+  {
+    english: 'the government',
+    norwegian: 'regjeringen',
+    spanish: 'el gobierno',
+  },
+  {
+    english: 'to spend time outdoors',
+    norwegian: 'å tilbringe tid utendørs',
+    spanish: 'pasar tiempo al aire libre',
+  },
+  {
+    english: 'you had to solve a difficult problem',
+    norwegian: 'du måtte løse et vanskelig problem',
+    spanish: 'tuviste que resolver un problema difícil',
+  },
+  {
+    english: 'a memorable journey',
+    norwegian: 'en minneverdig reise',
+    spanish: 'un viaje memorable',
+  },
+  {
+    english: 'you have taken',
+    norwegian: 'du har tatt',
+    spanish: 'has tomado',
+  },
+  {
+    english: 'a piece of art',
+    norwegian: 'et kunstverk',
+    spanish: 'una obra de arte',
+  },
+  {
+    english: 'you want to achieve in the future',
+    norwegian: 'du ønsker å oppnå i fremtiden',
+    spanish: 'quieres lograr en el futuro',
+  },
+  {
+    english: 'gave advice to someone',
+    norwegian: 'ga råd til noen',
+    spanish: 'dio consejos a alguien',
+  },
+  {
+    english: 'what you achieved',
+    norwegian: 'hva du oppnådde',
+    spanish: 'lo que lograste',
+  },
+  {
+    english: 'the ethical considerations',
+    norwegian: 'de etiske vurderingene',
+    spanish: 'las consideraciones éticas',
+  },
+  {
+    english: 'individuals contribute to environmental protection',
+    norwegian: 'enkeltpersoner bidra til miljøvern',
+    spanish: 'las personas contribuyen a la protección del medio ambiente',
+  },
+  {
+    english: 'to maintain a healthy lifestyle',
+    norwegian: 'å opprettholde en sunn livsstil',
+    spanish: 'mantener un estilo de vida saludable',
+  },
+  {
+    english: 'cultural traditions affect peoples behavior',
+    norwegian: 'påvirker kulturelle tradisjoner folks atferd',
+    spanish: 'las tradiciones culturales afectan al comportamiento de las personas',
+  },
+  {
+    english: 'the benefits of volunteer work',
+    norwegian: 'fordelene med frivillig arbeid',
+    spanish: 'los beneficios del trabajo voluntario',
+  },
+  {
+    english: 'the long-term effects of globalization',
+    norwegian: 'de langsiktige effektene av globalisering',
+    spanish: 'los efectos a largo plazo de la globalización',
+  },
+  {
+    english: 'to encourage creativity in education',
+    norwegian: 'å oppmuntre til kreativitet i utdanningen',
+    spanish: 'fomentar la creatividad en la educación',
+  },
+  {
+    english: 'is generous',
+    norwegian: 'er sjenerøs',
+    spanish: 'es generoso',
+  },
+  {
+    english: 'is kind-hearted',
+    norwegian: 'er godhjertet',
+    spanish: 'es bondadoso',
+  },
+  {
+    english: 'is loving',
+    norwegian: 'er kjærlig',
+    spanish: 'es cariñoso',
+  },
+  {
+    english: 'is considerate',
+    norwegian: 'er hensynsfull',
+    spanish: 'es considerado',
+  },
+  {
+    english: 'in my opinion',
+    norwegian: 'etter min mening',
+    spanish: 'en mi opinión',
+  },
+  {
+    english: 'one more thing',
+    norwegian: 'enda en ting',
+    spanish: 'una cosa más',
+  },
+  {
+    english: 'secondly',
+    norwegian: 'for det andre',
+    spanish: 'en segundo lugar',
+  },
+  {
+    english: 'it is recommended',
+    norwegian: 'det er anbefalt',
+    spanish: 'se recomienda',
+  },
+  {
+    english: 'meals',
+    norwegian: 'måltider',
+    spanish: 'comidas',
+  },
+  {
+    english: 'he found out',
+    norwegian: 'fant han ut',
+    spanish: 'descubrió',
+  },
+  {
+    english: 'the capital',
+    norwegian: 'hovedstaden',
+    spanish: 'la capital',
+  },
+  {
+    english: 'weak',
+    norwegian: 'svak',
+    spanish: 'débil',
+  },
+  {
+    english: 'at the schools',
+    norwegian: 'på skolene',
+    spanish: 'en las escuelas',
+  },
+  {
+    english: 'has no respect for teachers',
+    norwegian: 'har ingen respekt for lærere',
+    spanish: 'no tiene respeto por los profesores',
+  },
+  {
+    english: 'mobile phone addicts',
+    norwegian: 'mobilavhengige',
+    spanish: 'adictos al móvil',
+  },
+  {
+    english: 'it is just a tool',
+    norwegian: 'det er bare et verktøy',
+    spanish: 'es solo una herramienta',
+  },
+  {
+    english: 'to trick you',
+    norwegian: 'å lure deg',
+    spanish: 'engañarte',
+  },
+  {
+    english: 'save the plastic you use',
+    norwegian: 'spar plasten du bruker',
+    spanish: 'ahorra el plástico que usas',
+  },
+  {
+    english: 'do the waste sorting correctly',
+    norwegian: 'gjør søppelsorteringen riktig',
+    spanish: 'haz la clasificación de residuos correctamente',
+  },
+  {
+    english: 'how we live our lives',
+    norwegian: 'hvordan vi lever livene våre',
+    spanish: 'cómo vivimos nuestras vidas',
+  },
+  {
+    english: 'places',
+    norwegian: 'steder',
+    spanish: 'lugares',
+  },
+  {
+    english: 'some advantages',
+    norwegian: 'noen fordeler',
+    spanish: 'algunas ventajas',
+  },
+  {
+    english: 'challenges',
+    norwegian: 'utfordringer',
+    spanish: 'desafíos',
+  },
 ];
