@@ -13967,7 +13967,7 @@ export const words: Question[] = [
     spanish: 'cómo la gente celebra festivales',
   },
   {
-    english: "a country's flag",
+    english: 'a countrys flag',
     norwegian: 'et lands flagg',
     spanish: 'la bandera de un país',
   },
