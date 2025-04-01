@@ -14716,4 +14716,694 @@ export const words: Question[] = [
     norwegian: 'utfordringer',
     spanish: 'desafíos',
   },
+  {
+    english: 'to wash up',
+    norwegian: 'vaske opp',
+    spanish: 'lavar los platos',
+  },
+  {
+    english: 'to support/gather around',
+    norwegian: 'slutte opp',
+    spanish: 'apoyar/reunirse alrededor',
+  },
+  {
+    english: 'to read aloud',
+    norwegian: 'lese opp',
+    spanish: 'leer en voz alta',
+  },
+  {
+    english: 'to stand up',
+    norwegian: 'reise seg opp',
+    spanish: 'ponerse de pie',
+  },
+  {
+    english: 'to get up',
+    norwegian: 'stå opp',
+    spanish: 'levantarse',
+  },
+  {
+    english: 'to call up',
+    norwegian: 'ringe opp',
+    spanish: 'llamar',
+  },
+  {
+    english: 'to write down',
+    norwegian: 'skrive opp',
+    spanish: 'apuntar',
+  },
+  {
+    english: 'to check up on',
+    norwegian: 'sjekke opp',
+    spanish: 'comprobar',
+  },
+  {
+    english: 'to climb up',
+    norwegian: 'klatre opp',
+    spanish: 'subir escalando',
+  },
+  {
+    english: 'to burn up',
+    norwegian: 'brenne opp',
+    spanish: 'quemar completamente',
+  },
+  {
+    english: 'to eat up',
+    norwegian: 'spise opp',
+    spanish: 'comer todo',
+  },
+  {
+    english: 'to tear up',
+    norwegian: 'rive opp',
+    spanish: 'romper/desgarrar',
+  },
+  {
+    english: 'to break up',
+    norwegian: 'bryte opp',
+    spanish: 'romper/disolver',
+  },
+  {
+    english: 'to stop/hold up',
+    norwegian: 'holde opp',
+    spanish: 'parar/levantar',
+  },
+  {
+    english: 'to recite/list',
+    norwegian: 'ramse opp',
+    spanish: 'recitar/enumerar',
+  },
+  {
+    english: 'to invent',
+    norwegian: 'finne opp',
+    spanish: 'inventar',
+  },
+  {
+    english: 'to slam up',
+    norwegian: 'smelle opp',
+    spanish: 'poner de golpe',
+  },
+  {
+    english: 'to pick up/record',
+    norwegian: 'ta opp',
+    spanish: 'recoger/grabar',
+  },
+  {
+    english: 'to bounce up',
+    norwegian: 'sprette opp',
+    spanish: 'rebotar',
+  },
+  {
+    english: 'to cut up',
+    norwegian: 'skjøre opp',
+    spanish: 'cortar en pedazos',
+  },
+  {
+    english: 'to give up',
+    norwegian: 'gi opp',
+    spanish: 'rendirse',
+  },
+  {
+    english: 'to dress up',
+    norwegian: 'stase seg opp',
+    spanish: 'arreglarse',
+  },
+  {
+    english: 'to soften up',
+    norwegian: 'myke opp',
+    spanish: 'ablandar',
+  },
+  {
+    english: 'to set up',
+    norwegian: 'sette opp',
+    spanish: 'establecer/montar',
+  },
+  {
+    english: 'to support/back up',
+    norwegian: 'bakke opp',
+    spanish: 'apoyar/respaldar',
+  },
+  {
+    english: 'to liven up',
+    norwegian: 'live opp',
+    spanish: 'animar',
+  },
+  {
+    english: 'to look up/break up',
+    norwegian: 'slå opp',
+    spanish: 'buscar/romper una relación',
+  },
+  {
+    english: 'to light up',
+    norwegian: 'lyse opp',
+    spanish: 'iluminar',
+  },
+  {
+    english: 'to cut up',
+    norwegian: 'kutte opp',
+    spanish: 'cortar en trozos',
+  },
+  {
+    english: 'to get hung up on',
+    norwegian: 'henge seg opp',
+    spanish: 'obsesionarse con',
+  },
+  {
+    english: 'to use up',
+    norwegian: 'bruke opp',
+    spanish: 'gastar/agotar',
+  },
+  {
+    english: 'to fly up',
+    norwegian: 'fyke opp',
+    spanish: 'salir volando',
+  },
+  {
+    english: 'to rush up',
+    norwegian: 'fare opp',
+    spanish: 'subir rápidamente',
+  },
+  {
+    english: 'to follow up',
+    norwegian: 'følge opp',
+    spanish: 'hacer seguimiento',
+  },
+  {
+    english: 'to throw up/vomit',
+    norwegian: 'kaste opp',
+    spanish: 'vomitar',
+  },
+  {
+    english: 'to press up',
+    norwegian: 'presse opp',
+    spanish: 'presionar hacia arriba',
+  },
+  {
+    english: 'to come up',
+    norwegian: 'komme opp',
+    spanish: 'subir/surgir',
+  },
+  {
+    english: 'to escalate',
+    norwegian: 'trappe opp',
+    spanish: 'intensificar',
+  },
+  {
+    english: 'to settle/make up',
+    norwegian: 'gjøre opp',
+    spanish: 'saldar/reconciliarse',
+  },
+  {
+    english: 'to pile up/tower',
+    norwegian: 'tårne seg opp',
+    spanish: 'amontonarse',
+  },
+  {
+    english: 'to freshen up',
+    norwegian: 'friske opp',
+    spanish: 'refrescar',
+  },
+  {
+    english: 'to snap up/catch',
+    norwegian: 'snappe opp',
+    spanish: 'atrapar/captar',
+  },
+  {
+    english: 'to go up/understand',
+    norwegian: 'gå opp',
+    spanish: 'subir/entender',
+  },
+  {
+    english: 'to appear/show up',
+    norwegian: 'dukke opp',
+    spanish: 'aparecer',
+  },
+  {
+    english: 'to bring up/feed',
+    norwegian: 'fø opp',
+    spanish: 'criar/alimentar',
+  },
+  {
+    english: 'to correct/straighten',
+    norwegian: 'rette opp',
+    spanish: 'corregir/enderezar',
+  },
+  {
+    english: 'to renovate',
+    norwegian: 'pusse opp',
+    spanish: 'renovar',
+  },
+  {
+    english: 'to charge/recharge',
+    norwegian: 'lade opp',
+    spanish: 'cargar/recargar',
+  },
+  {
+    english: 'to turn up',
+    norwegian: 'skru opp',
+    spanish: 'subir (volumen)/desenroscar',
+  },
+  {
+    english: 'to cheer up',
+    norwegian: 'kvikke opp',
+    spanish: 'animar',
+  },
+  {
+    english: 'to thaw',
+    norwegian: 'tø opp',
+    spanish: 'descongelar',
+  },
+  {
+    english: 'to straighten up',
+    norwegian: 'rette seg opp',
+    spanish: 'enderezarse',
+  },
+  {
+    english: 'to grow up',
+    norwegian: 'vokse opp',
+    spanish: 'crecer',
+  },
+  {
+    english: 'to run out/let up',
+    norwegian: 'slippe opp',
+    spanish: 'agotarse/aflojar',
+  },
+  {
+    english: 'to make up (story)',
+    norwegian: 'dikle opp',
+    spanish: 'inventar (historia)',
+  },
+  {
+    english: 'to open wide',
+    norwegian: 'sprerre opp',
+    spanish: 'abrir mucho',
+  },
+  {
+    english: 'to pull up/wind up',
+    norwegian: 'trekke opp',
+    spanish: 'subir/dar cuerda',
+  },
+  {
+    english: 'to sort out',
+    norwegian: 'ordne opp',
+    spanish: 'solucionar',
+  },
+  {
+    english: 'very slippery now',
+    norwegian: 'veldig glatt nå',
+    spanish: 'muy resbaladizo ahora',
+  },
+  {
+    english: 'you use ice grips',
+    norwegian: 'du bruke brodder',
+    spanish: 'usas crampones',
+  },
+  {
+    english: 'predicted',
+    norwegian: 'spådd',
+    spanish: 'pronosticado',
+  },
+  {
+    english: 'all the more',
+    norwegian: 'desto mer',
+    spanish: 'tanto más',
+  },
+  {
+    english: 'despite',
+    norwegian: 'till tross for',
+    spanish: 'a pesar de',
+  },
+  {
+    english: 'namely/that is',
+    norwegian: 'nemlig',
+    spanish: 'es decir/a saber',
+  },
+  {
+    english: 'regardless/anyway',
+    norwegian: 'uansett',
+    spanish: 'sin importar/de todos modos',
+  },
+  {
+    english: 'properly/really',
+    norwegian: 'skikkelig',
+    spanish: 'apropiadamente/realmente',
+  },
+  {
+    english: 'at all',
+    norwegian: 'i det hele tatt',
+    spanish: 'en absoluto',
+  },
+  {
+    english: 'however',
+    norwegian: 'imidlertid',
+    spanish: 'sin embargo',
+  },
+  {
+    english: 'all the less',
+    norwegian: 'desto mindre',
+    spanish: 'tanto menos',
+  },
+  {
+    english: 'tasteful',
+    norwegian: 'smakfull',
+    spanish: 'de buen gusto',
+  },
+  {
+    english: 'juicy',
+    norwegian: 'saftig',
+    spanish: 'jugoso',
+  },
+  {
+    english: 'spicy',
+    norwegian: 'krydret',
+    spanish: 'especiado',
+  },
+  {
+    english: 'appetizing',
+    norwegian: 'appetittvekkende',
+    spanish: 'apetitoso',
+  },
+  {
+    english: 'exquisite',
+    norwegian: 'utsøkt',
+    spanish: 'exquisito',
+  },
+  {
+    english: 'full-bodied/rich',
+    norwegian: 'fyldig',
+    spanish: 'rico/corpulento',
+  },
+  {
+    english: 'tasty',
+    norwegian: 'velsmakende',
+    spanish: 'sabroso',
+  },
+  {
+    english: 'delightful',
+    norwegian: 'herlig',
+    spanish: 'delicioso',
+  },
+  {
+    english: 'excellent',
+    norwegian: 'utmerket',
+    spanish: 'excelente',
+  },
+  {
+    english: 'stylish',
+    norwegian: 'stilig',
+    spanish: 'elegante',
+  },
+  {
+    english: 'elegant',
+    norwegian: 'elegant',
+    spanish: 'elegante',
+  },
+  {
+    english: 'beautiful',
+    norwegian: 'skjønn',
+    spanish: 'hermoso',
+  },
+  {
+    english: 'lovely/gorgeous',
+    norwegian: 'nydelig',
+    spanish: 'precioso',
+  },
+  {
+    english: 'cool',
+    norwegian: 'kul',
+    spanish: 'guay',
+  },
+  {
+    english: 'decorative',
+    norwegian: 'dekorativ',
+    spanish: 'decorativo',
+  },
+  {
+    english: 'graceful/sweet',
+    norwegian: 'yndig',
+    spanish: 'gracioso/dulce',
+  },
+  {
+    english: 'tough/cool',
+    norwegian: 'tøff',
+    spanish: 'duro/guay',
+  },
+  {
+    english: 'aesthetic',
+    norwegian: 'estetisk',
+    spanish: 'estético',
+  },
+  {
+    english: 'super',
+    norwegian: 'supert',
+    spanish: 'estupendo',
+  },
+  {
+    english: 'really nice',
+    norwegian: 'kjempefint',
+    spanish: 'muy bonito',
+  },
+  {
+    english: 'tip top',
+    norwegian: 'tipp topp',
+    spanish: 'excelente',
+  },
+  {
+    english: 'great',
+    norwegian: 'toppers',
+    spanish: 'genial',
+  },
+  {
+    english: 'rewarding',
+    norwegian: 'givende',
+    spanish: 'gratificante',
+  },
+  {
+    english: 'fun',
+    norwegian: 'morsomt',
+    spanish: 'divertido',
+  },
+  {
+    english: 'thought-provoking',
+    norwegian: 'tankevekkende',
+    spanish: 'que hace reflexionar',
+  },
+  {
+    english: 'engaging',
+    norwegian: 'engasjerende',
+    spanish: 'interesante',
+  },
+  {
+    english: 'sensational',
+    norwegian: 'oppsiktsvekkende',
+    spanish: 'sensacional',
+  },
+  {
+    english: 'to ask/pray (ber, ba, har bedt)',
+    norwegian: 'å be',
+    spanish: 'pedir/rezar',
+  },
+  {
+    english: 'to mean (betyr, betydde, har betydd)',
+    norwegian: 'å bety',
+    spanish: 'significar',
+  },
+  {
+    english: 'to bind/tie (binder, bandt, har bundet)',
+    norwegian: 'å binde',
+    spanish: 'atar/vincular',
+  },
+  {
+    english: 'to bite (biter, bet, har bitt)',
+    norwegian: 'å bite',
+    spanish: 'morder',
+  },
+  {
+    english: 'to break (brekker, brakk, har brukket)',
+    norwegian: 'å brekke',
+    spanish: 'romper',
+  },
+  {
+    english: 'to burn (brenner, brant, har brent)',
+    norwegian: 'å brenne',
+    spanish: 'quemar',
+  },
+  {
+    english: 'to break/violate (bryter, brøt, har brutt)',
+    norwegian: 'å bryte',
+    spanish: 'romper/violar',
+  },
+  {
+    english: 'to offer (byr, bød, har bydd)',
+    norwegian: 'å by',
+    spanish: 'ofrecer',
+  },
+  {
+    english: 'to carry (bærer, bar, har båret)',
+    norwegian: 'å bære',
+    spanish: 'llevar/cargar',
+  },
+  {
+    english: 'salary',
+    norwegian: 'lønn',
+    spanish: 'salario',
+  },
+  {
+    english: 'loan',
+    norwegian: 'lån',
+    spanish: 'préstamo',
+  },
+  {
+    english: 'loose',
+    norwegian: 'løs',
+    spanish: 'suelto',
+  },
+  {
+    english: 'lock',
+    norwegian: 'lås',
+    spanish: 'cerradura',
+  },
+  {
+    english: 'to hear',
+    norwegian: 'høre',
+    spanish: 'oír',
+  },
+  {
+    english: 'the hair',
+    norwegian: 'håret',
+    spanish: 'el pelo',
+  },
+  {
+    english: 'south',
+    norwegian: 'sør',
+    spanish: 'sur',
+  },
+  {
+    english: 'wound',
+    norwegian: 'sår',
+    spanish: 'herida',
+  },
+  {
+    english: 'sore (muscles)',
+    norwegian: 'støl',
+    spanish: 'dolorido',
+  },
+  {
+    english: 'steel',
+    norwegian: 'stål',
+    spanish: 'acero',
+  },
+  {
+    english: 'ear',
+    norwegian: 'øre',
+    spanish: 'oreja',
+  },
+  {
+    english: 'vein/oar',
+    norwegian: 'åre',
+    spanish: 'vena/remo',
+  },
+  {
+    english: 'tender (meat)',
+    norwegian: 'mør',
+    spanish: 'tierno',
+  },
+  {
+    english: 'marten (animal)',
+    norwegian: 'mår',
+    spanish: 'marta (animal)',
+  },
+  {
+    english: 'beer',
+    norwegian: 'øl',
+    spanish: 'cerveza',
+  },
+  {
+    english: 'eel',
+    norwegian: 'ål',
+    spanish: 'anguila',
+  },
+  {
+    english: 'ladle/pour',
+    norwegian: 'øse',
+    spanish: 'cucharón/verter',
+  },
+  {
+    english: 'the bus stop',
+    norwegian: 'bussholdeplassen',
+    spanish: 'la parada de autobús',
+  },
+  {
+    english: 'with sports',
+    norwegian: 'med idrett',
+    spanish: 'con deportes',
+  },
+  {
+    english: 'what a fantastic day',
+    norwegian: 'for en fantastisk dag',
+    spanish: 'qué día tan fantástico',
+  },
+  {
+    english: 'professionally',
+    norwegian: 'fagmessig',
+    spanish: 'profesionalmente',
+  },
+  {
+    english: 'rationally',
+    norwegian: 'fornuffmessig',
+    spanish: 'racionalmente',
+  },
+  {
+    english: 'contractually',
+    norwegian: 'kontraktsmessig',
+    spanish: 'contractualmente',
+  },
+  {
+    english: 'career-wise',
+    norwegian: 'karrieremessig',
+    spanish: 'en términos de carrera',
+  },
+  {
+    english: 'in relation to',
+    norwegian: 'i forhold til',
+    spanish: 'en relación con',
+  },
+  {
+    english: 'the number of',
+    norwegian: 'antallet av',
+    spanish: 'el número de',
+  },
+  {
+    english: 'regarding/when it comes to',
+    norwegian: 'når det gjelder',
+    spanish: 'en cuanto a',
+  },
+  {
+    english: 'the point is',
+    norwegian: 'poenget er',
+    spanish: 'el punto es',
+  },
+  {
+    english: 'the starting point is',
+    norwegian: 'utgangspunket er',
+    spanish: 'el punto de partida es',
+  },
+  {
+    english: 'to fall (detter, datt, har detter)',
+    norwegian: 'å dette',
+    spanish: 'caer',
+  },
+  {
+    english: 'to defecate/not care (driter, dreit, har dritet)',
+    norwegian: 'å drite',
+    spanish: 'defecar/no importar',
+  },
+  {
+    english: 'to drink (drikker, drakk, har drukket)',
+    norwegian: 'å drikke',
+    spanish: 'beber',
+  },
+  {
+    english: 'to run/operate (driver, drev, har drever)',
+    norwegian: 'å drive',
+    spanish: 'dirigir/operar',
+  },
 ];
