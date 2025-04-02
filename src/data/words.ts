@@ -15406,4 +15406,369 @@ export const words: Question[] = [
     norwegian: 'å drive',
     spanish: 'dirigir/operar',
   },
+  {
+    english: 'see that the ball becomes',
+    norwegian: 'se at kula blir',
+    spanish: 'ver que la bola se vuelve',
+  },
+  {
+    english: 'probably',
+    norwegian: 'sannsynligvis',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'to ride/slide',
+    norwegian: 'å åke',
+    spanish: 'montar/deslizarse',
+  },
+  {
+    english: 'dependent/addicted',
+    norwegian: 'avhengig',
+    spanish: 'dependiente/adicto',
+  },
+  {
+    english: 'so wild',
+    norwegian: 'så vilt',
+    spanish: 'tan salvaje',
+  },
+  {
+    english: 'to keep your appeal',
+    norwegian: 'å holde din appell',
+    spanish: 'mantener tu atractivo',
+  },
+  {
+    english: 'the advantage',
+    norwegian: 'fordelen',
+    spanish: 'la ventaja',
+  },
+  {
+    english: 'spews out',
+    norwegian: 'spyr ut',
+    spanish: 'escupe/vomita',
+  },
+  {
+    english: 'at an angle',
+    norwegian: 'i vinkel',
+    spanish: 'en ángulo',
+  },
+  {
+    english: 'the old woman',
+    norwegian: 'kjerringa',
+    spanish: 'la anciana',
+  },
+  {
+    english: 'has been completely broken down',
+    norwegian: 'har blitt brutt fullstendig ned',
+    spanish: 'ha sido completamente descompuesto',
+  },
+  {
+    english: 'the reassurance',
+    norwegian: 'betryggelsen',
+    spanish: 'la tranquilidad',
+  },
+  {
+    english: 'she lied to me',
+    norwegian: 'hun løy meg opp',
+    spanish: 'ella me mintió',
+  },
+  {
+    english: 'is reprehensible',
+    norwegian: 'er forkastelig',
+    spanish: 'es reprochable',
+  },
+  {
+    english: 'as a joke/kidding',
+    norwegian: 'på kødd',
+    spanish: 'en broma',
+  },
+  {
+    english: 'fun/funny',
+    norwegian: 'artig',
+    spanish: 'divertido',
+  },
+  {
+    english: 'umpteen times',
+    norwegian: 'ørten ganger',
+    spanish: 'montones de veces',
+  },
+  {
+    english: 'get thrown/tossed',
+    norwegian: 'bli slengt',
+    spanish: 'ser lanzado',
+  },
+  {
+    english: "it's embarrassing",
+    norwegian: 'det er flaut',
+    spanish: 'es vergonzoso',
+  },
+  {
+    english: 'tunnel vision on a truth',
+    norwegian: 'tunnelsyn på en sannhet',
+    spanish: 'visión de túnel sobre una verdad',
+  },
+  {
+    english: 'she gets slaughtered',
+    norwegian: 'hun blir slaktet',
+    spanish: 'ella es destrozada',
+  },
+  {
+    english: 'we had won',
+    norwegian: 'vi hadde vunnet',
+    spanish: 'habíamos ganado',
+  },
+  {
+    english: 'in that way',
+    norwegian: 'på den måten',
+    spanish: 'de esa manera',
+  },
+  {
+    english: 'has played dirty',
+    norwegian: 'har spilt skittent',
+    spanish: 'ha jugado sucio',
+  },
+  {
+    english: 'finally decided',
+    norwegian: 'endelig avgjøres',
+    spanish: 'finalmente decidido',
+  },
+  {
+    english: '2 years ago',
+    norwegian: '2 år siden',
+    spanish: 'hace 2 años',
+  },
+  {
+    english: 'I have many tasks',
+    norwegian: 'jeg har mange oppgaver',
+    spanish: 'tengo muchas tareas',
+  },
+  {
+    english: 'a positive influence',
+    norwegian: 'en positiv innflytelse',
+    spanish: 'una influencia positiva',
+  },
+  {
+    english: 'taught',
+    norwegian: 'underviste',
+    spanish: 'enseñó',
+  },
+  {
+    english: 'other subjects',
+    norwegian: 'andre emner',
+    spanish: 'otros temas',
+  },
+  {
+    english: 'an unexpected surprise',
+    norwegian: 'en uventet overraskelse',
+    spanish: 'una sorpresa inesperada',
+  },
+  {
+    english: 'person you admire',
+    norwegian: 'person du beundrer',
+    spanish: 'persona que admiras',
+  },
+  {
+    english: 'the buildings and food',
+    norwegian: 'bygningene og maten',
+    spanish: 'los edificios y la comida',
+  },
+  {
+    english: 'an offer to work',
+    norwegian: 'et tilbud om å jobbe',
+    spanish: 'una oferta para trabajar',
+  },
+  {
+    english: 'with my attached CV',
+    norwegian: 'med min vedlagte cv',
+    spanish: 'con mi CV adjunto',
+  },
+  {
+    english: 'most of them are scientists',
+    norwegian: 'de fleste av dem er vitenskapsmenn',
+    spanish: 'la mayoría de ellos son científicos',
+  },
+  {
+    english: 'to sacrifice',
+    norwegian: 'å ofre',
+    spanish: 'sacrificar',
+  },
+  {
+    english: 'sacrificed their life',
+    norwegian: 'ofret livet sitt',
+    spanish: 'sacrificó su vida',
+  },
+  {
+    english: 'to work hard',
+    norwegian: 'å jobbe hardt',
+    spanish: 'trabajar duro',
+  },
+  {
+    english: 'students will be able to',
+    norwegian: 'elevene vil kunne',
+    spanish: 'los estudiantes podrán',
+  },
+  {
+    english: 'successful',
+    norwegian: 'vellykket',
+    spanish: 'exitoso',
+  },
+  {
+    english: 'how you take care of yourself',
+    norwegian: 'hvordan du tar vare på deg selv',
+    spanish: 'cómo te cuidas',
+  },
+  {
+    english: 'you will not forget them',
+    norwegian: 'du kommer ikke til å glemme dem',
+    spanish: 'no los olvidarás',
+  },
+  {
+    english: 'translate',
+    norwegian: 'oversette',
+    spanish: 'traducir',
+  },
+  {
+    english: 'celebrities',
+    norwegian: 'kjendiser',
+    spanish: 'celebridades',
+  },
+  {
+    english: 'I enjoy the weather',
+    norwegian: 'jeg nyter været',
+    spanish: 'disfruto del clima',
+  },
+  {
+    english: 'to unlearn',
+    norwegian: 'å avlære',
+    spanish: 'desaprender',
+  },
+  {
+    english: 'a common currency',
+    norwegian: 'en fellesvaluta',
+    spanish: 'una moneda común',
+  },
+  {
+    english: 'I am genuinely concerned',
+    norwegian: 'jeg oppriktig bekyret',
+    spanish: 'estoy genuinamente preocupado',
+  },
+  {
+    english: 'is vengeful',
+    norwegian: 'er hevngjerrig',
+    spanish: 'es vengativo',
+  },
+  {
+    english: 'checked',
+    norwegian: 'sjekket',
+    spanish: 'revisado',
+  },
+  {
+    english: 'a decent addition',
+    norwegian: 'et greit tilskudd',
+    spanish: 'una buena adición',
+  },
+  {
+    english: 'they deserve to sit there',
+    norwegian: 'de fortjener å sitte der',
+    spanish: 'merecen estar sentados allí',
+  },
+  {
+    english: 'my trust',
+    norwegian: 'min tillit',
+    spanish: 'mi confianza',
+  },
+  {
+    english: 'has undergone',
+    norwegian: 'har gjennomgått',
+    spanish: 'ha pasado por',
+  },
+  {
+    english: 'have had our clash',
+    norwegian: 'har hatt vår klinsj',
+    spanish: 'hemos tenido nuestro enfrentamiento',
+  },
+  {
+    english: 'turbulent relationships',
+    norwegian: 'turbulente forhold',
+    spanish: 'relaciones turbulentas',
+  },
+  {
+    english: 'are close friends of mine',
+    norwegian: 'er nære venner av meg',
+    spanish: 'son amigos cercanos míos',
+  },
+  {
+    english: 'have at least been',
+    norwegian: 'har iallfall vært',
+    spanish: 'al menos han sido',
+  },
+  {
+    english: 'on the rack longer',
+    norwegian: 'på pinebenken lenger',
+    spanish: 'en el banquillo por más tiempo',
+  },
+  {
+    english: 'an honor',
+    norwegian: 'en ære',
+    spanish: 'un honor',
+  },
+  {
+    english: 'have received',
+    norwegian: 'har fått',
+    spanish: 'han recibido',
+  },
+  {
+    english: 'the final loyalty test',
+    norwegian: 'endelige troskapstesten',
+    spanish: 'la prueba final de lealtad',
+  },
+  {
+    english: 'these gold bars',
+    norwegian: 'disse gullbarrene',
+    spanish: 'estas barras de oro',
+  },
+  {
+    english: 'empty-handed',
+    norwegian: 'tomhendt',
+    spanish: 'con las manos vacías',
+  },
+  {
+    english: 'fingers are itching to',
+    norwegian: 'det klør i fingrene etter',
+    spanish: 'me pican los dedos por',
+  },
+  {
+    english: 'was hard on the ground',
+    norwegian: 'var hardt i bakken',
+    spanish: 'estaba duro en el suelo',
+  },
+  {
+    english: 'was never in doubt',
+    norwegian: 'var aldri i tvil',
+    spanish: 'nunca estuvo en duda',
+  },
+  {
+    english: 'has voted out',
+    norwegian: 'har kippet ut',
+    spanish: 'ha votado para eliminar',
+  },
+  {
+    english: 'was afraid that',
+    norwegian: 'var frykt for at',
+    spanish: 'tenía miedo de que',
+  },
+  {
+    english: 'has broken the trust',
+    norwegian: 'har brutt tilliten',
+    spanish: 'ha roto la confianza',
+  },
+  {
+    english: 'to release/let go',
+    norwegian: 'å slippe',
+    spanish: 'soltar/dejar ir',
+  },
+  {
+    english: 'hurts the most',
+    norwegian: 'sårer mest',
+    spanish: 'duele más',
+  },
 ];
