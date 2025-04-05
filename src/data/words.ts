@@ -15497,7 +15497,7 @@ export const words: Question[] = [
     spanish: 'ser lanzado',
   },
   {
-    english: "it's embarrassing",
+    english: 'it is embarrassing',
     norwegian: 'det er flaut',
     spanish: 'es vergonzoso',
   },
