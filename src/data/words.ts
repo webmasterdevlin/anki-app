@@ -15771,4 +15771,24 @@ export const words: Question[] = [
     norwegian: 'sårer mest',
     spanish: 'duele más',
   },
+  {
+    english: 'diapers smuggled out',
+    norwegian: 'bleier smugles ut',
+    spanish: 'los pañales contrabandeados fuera',
+  },
+  {
+    english: 'current, applicable, valid',
+    norwegian: 'gjeldende',
+    spanish: 'pañales contrabandeados fuera',
+  },
+  {
+    english: 'gathering, meeting',
+    norwegian: 'sammenkomst',
+    spanish: 'reunión, encuentro',
+  },
+  {
+    english: 'serving ban (for alcohol)',
+    norwegian: 'skjenkestopp',
+    spanish: 'reunión, encuentro',
+  },
 ];
