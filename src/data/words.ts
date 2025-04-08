@@ -15791,4 +15791,904 @@ export const words: Question[] = [
     norwegian: 'skjenkestopp',
     spanish: 'reunión, encuentro',
   },
+  {
+    english: 'presumably',
+    norwegian: 'antageligvis',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'possibly/eventually',
+    norwegian: 'eventuelt',
+    spanish: 'posiblemente/eventualmente',
+  },
+  {
+    english: 'online shopping',
+    norwegian: 'nett handel',
+    spanish: 'compras en línea',
+  },
+  {
+    english: 'probably',
+    norwegian: 'sannsynligvis',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'likely',
+    norwegian: 'trolig',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'apparently',
+    norwegian: 'tilsynelatende',
+    spanish: 'aparentemente',
+  },
+  {
+    english: 'certainly',
+    norwegian: 'ganske visst',
+    spanish: 'ciertamente',
+  },
+  {
+    english: 'possibly',
+    norwegian: 'muligens',
+    spanish: 'posiblemente',
+  },
+  {
+    english: 'to follow, follows, followed, has followed',
+    norwegian: 'følge, følger, fulgte, har fulgt',
+    spanish: 'seguir, sigue, siguió, ha seguido',
+  },
+  {
+    english: 'random/coincidental',
+    norwegian: 'tilfeldig',
+    spanish: 'aleatorio/casual',
+  },
+  {
+    english: 'comma rules',
+    norwegian: 'kommaregler',
+    spanish: 'reglas de la coma',
+  },
+  {
+    english: 'shoot him',
+    norwegian: 'skyt ham',
+    spanish: 'dispárale',
+  },
+  {
+    english: 'is bound together',
+    norwegian: 'er bundet sammen',
+    spanish: 'está unido',
+  },
+  {
+    english: 'she widow',
+    norwegian: 'hun enke',
+    spanish: 'ella viuda',
+  },
+  {
+    english: 'almost swearing',
+    norwegian: 'nestenbanning',
+    spanish: 'casi blasfemia',
+  },
+  {
+    english: 'loose',
+    norwegian: 'løs',
+    spanish: 'suelto',
+  },
+  {
+    english: 'timeless',
+    norwegian: 'tidløs',
+    spanish: 'atemporal',
+  },
+  {
+    english: 'exclamation mark',
+    norwegian: 'utropstegn',
+    spanish: 'signo de exclamación',
+  },
+  {
+    english: 'to fit/to suit',
+    norwegian: 'Å passe',
+    spanish: 'caber/convenir',
+  },
+  {
+    english: 'to be appropriate',
+    norwegian: 'Å være passe',
+    spanish: 'ser apropiado',
+  },
+  {
+    english: 'exclamation in connection',
+    norwegian: 'utrop i forbindelse',
+    spanish: 'exclamación en conexión',
+  },
+  {
+    english: 'appear',
+    norwegian: 'fremstå',
+    spanish: 'aparecer',
+  },
+  {
+    english: 'a good sense of humor',
+    norwegian: 'en god sans for humor',
+    spanish: 'un buen sentido del humor',
+  },
+  {
+    english: 'condition/state',
+    norwegian: 'stand',
+    spanish: 'condición/estado',
+  },
+  {
+    english: 'to connect',
+    norwegian: 'å koble til',
+    spanish: 'conectar',
+  },
+  {
+    english: 'a beautiful natural landscape',
+    norwegian: 'et vakkert naturlandskap',
+    spanish: 'un hermoso paisaje natural',
+  },
+  {
+    english: 'clear/ready',
+    norwegian: 'klar',
+    spanish: 'claro/listo',
+  },
+  {
+    english: 'peaceful',
+    norwegian: 'fredelig',
+    spanish: 'pacífico',
+  },
+  {
+    english: 'original plans',
+    norwegian: 'opprinnelige planene',
+    spanish: 'planes originales',
+  },
+  {
+    english: 'it changed',
+    norwegian: 'det endret seg',
+    spanish: 'cambió',
+  },
+  {
+    english: 'I have met my love',
+    norwegian: 'jeg har truffet min kjærlighet',
+    spanish: 'he conocido a mi amor',
+  },
+  {
+    english: 'what you imagined',
+    norwegian: 'hva du forestilte deg',
+    spanish: 'lo que te imaginaste',
+  },
+  {
+    english: 'a new piece of equipment',
+    norwegian: 'et nytt stykke utstyr',
+    spanish: 'un nuevo equipo',
+  },
+  {
+    english: 'has the concept of friendship changed',
+    norwegian: 'har begrepet vennskap endret seg',
+    spanish: 'ha cambiado el concepto de amistad',
+  },
+  {
+    english: 'in the digital age',
+    norwegian: 'i den digitale tidsalderen',
+    spanish: 'en la era digital',
+  },
+  {
+    english: 'talk with families',
+    norwegian: 'snakke med familier',
+    spanish: 'hablar con familias',
+  },
+  {
+    english: 'you should not change the appearance',
+    norwegian: 'du bør ikke endre utseendet',
+    spanish: 'no deberías cambiar la apariencia',
+  },
+  {
+    english: 'we can fight against cancer',
+    norwegian: 'vi kan kjempe mot kreft',
+    spanish: 'podemos luchar contra el cáncer',
+  },
+  {
+    english: 'scary',
+    norwegian: 'skummelt',
+    spanish: 'aterrador',
+  },
+  {
+    english: 'scary to change something',
+    norwegian: 'skummelt å endre noe',
+    spanish: 'da miedo cambiar algo',
+  },
+  {
+    english: 'one-way street',
+    norwegian: 'enveiskjørt gate',
+    spanish: 'calle de sentido único',
+  },
+  {
+    english: 'authorities encourage sustainable development',
+    norwegian: 'myndigheter oppmuntre til bærekraftig utvikling',
+    spanish: 'las autoridades fomentan el desarrollo sostenible',
+  },
+  {
+    english: 'farm',
+    norwegian: 'gård',
+    spanish: 'granja',
+  },
+  {
+    english: 'to raise children',
+    norwegian: 'å oppdra barn',
+    spanish: 'criar niños',
+  },
+  {
+    english: 'to give birth',
+    norwegian: 'å føde',
+    spanish: 'dar a luz',
+  },
+  {
+    english: 'different art forms',
+    norwegian: 'forskjellige kunstformer',
+    spanish: 'diferentes formas de arte',
+  },
+  {
+    english: 'our lives',
+    norwegian: 'våre liv',
+    spanish: 'nuestras vidas',
+  },
+  {
+    english: 'advantages and disadvantages',
+    norwegian: 'fordeler og ulemper',
+    spanish: 'ventajas y desventajas',
+  },
+  {
+    english: 'a discipline',
+    norwegian: 'en disiplin',
+    spanish: 'una disciplina',
+  },
+  {
+    english: 'to preserve traditional crafts and skills',
+    norwegian: 'å bevare tradisjonelt håndverk og ferdigheter',
+    spanish: 'preservar artesanías y habilidades tradicionales',
+  },
+  {
+    english: 'the effects of climate change',
+    norwegian: 'effektene av klimaendringer',
+    spanish: 'los efectos del cambio climático',
+  },
+  {
+    english: 'challenges in education',
+    norwegian: 'utfordringer i utdanningen',
+    spanish: 'desafíos en la educación',
+  },
+  {
+    english: 'the changes',
+    norwegian: 'forandringene',
+    spanish: 'los cambios',
+  },
+  {
+    english: 'significant',
+    norwegian: 'betydelig',
+    spanish: 'significativo',
+  },
+  {
+    english: 'preliminary to',
+    norwegian: 'foreløpig til',
+    spanish: 'preliminar a',
+  },
+  {
+    english: 'something new',
+    norwegian: 'noe nytt',
+    spanish: 'algo nuevo',
+  },
+  {
+    english: 'useful',
+    norwegian: 'nyttig',
+    spanish: 'útil',
+  },
+  {
+    english: 'rushed out',
+    norwegian: 'styrte ut',
+    spanish: 'salió precipitadamente',
+  },
+  {
+    english: 'shout out',
+    norwegian: 'rope ut',
+    spanish: 'gritar',
+  },
+  {
+    english: 'pour out',
+    norwegian: 'helle ut',
+    spanish: 'verter',
+  },
+  {
+    english: 'drink up',
+    norwegian: 'drikke ut',
+    spanish: 'beber todo',
+  },
+  {
+    english: 'knock out',
+    norwegian: 'slå ut',
+    spanish: 'noquear',
+  },
+  {
+    english: 'comb out/sort out',
+    norwegian: 'greie ut',
+    spanish: 'desenredar/aclarar',
+  },
+  {
+    english: 'wear out',
+    norwegian: 'slite ut',
+    spanish: 'desgastar',
+  },
+  {
+    english: 'announce',
+    norwegian: 'lyse ut',
+    spanish: 'anunciar',
+  },
+  {
+    english: 'form out',
+    norwegian: 'skjema ut',
+    spanish: 'formulario completado',
+  },
+  {
+    english: 'fill out',
+    norwegian: 'fylle ut',
+    spanish: 'rellenar',
+  },
+  {
+    english: 'blunder',
+    norwegian: 'tabbe seg ut',
+    spanish: 'meter la pata',
+  },
+  {
+    english: 'pay up',
+    norwegian: 'punge ut',
+    spanish: 'pagar',
+  },
+  {
+    english: 'separate out',
+    norwegian: 'skille ut',
+    spanish: 'separar',
+  },
+  {
+    english: 'lead to/result in',
+    norwegian: 'munne ut',
+    spanish: 'desembocar en',
+  },
+  {
+    english: 'calculate',
+    norwegian: 'regne ut',
+    spanish: 'calcular',
+  },
+  {
+    english: 'think up/devise',
+    norwegian: 'tenke ut',
+    spanish: 'idear',
+  },
+  {
+    english: 'sounds like',
+    norwegian: 'høres ut',
+    spanish: 'suena como',
+  },
+  {
+    english: 'endure',
+    norwegian: 'holde ut',
+    spanish: 'aguantar',
+  },
+  {
+    english: 'break out',
+    norwegian: 'bryte ut',
+    spanish: 'estallar',
+  },
+  {
+    english: 'print out',
+    norwegian: 'skrive ut',
+    spanish: 'imprimir',
+  },
+  {
+    english: 'connected to',
+    norwegian: 'knyttet til',
+    spanish: 'conectado a',
+  },
+  {
+    english: 'help yourself',
+    norwegian: 'forsyn deg',
+    spanish: 'sírvete',
+  },
+  {
+    english: 'again',
+    norwegian: 'på nytt',
+    spanish: 'de nuevo',
+  },
+  {
+    english: 'in competition',
+    norwegian: 'om kapp',
+    spanish: 'en competencia',
+  },
+  {
+    english: 'to death',
+    norwegian: 'i hjel',
+    spanish: 'hasta la muerte',
+  },
+  {
+    english: 'in total',
+    norwegian: 'i alt',
+    spanish: 'en total',
+  },
+  {
+    english: 'away',
+    norwegian: 'av sted',
+    spanish: 'lejos',
+  },
+  {
+    english: 'deceased/dead',
+    norwegian: 'av dage',
+    spanish: 'fallecido/muerto',
+  },
+  {
+    english: 'so that',
+    norwegian: 'for at',
+    spanish: 'para que',
+  },
+  {
+    english: 'moreover',
+    norwegian: 'for øvrig',
+    spanish: 'además',
+  },
+  {
+    english: 'lengthwise',
+    norwegian: 'på langs',
+    spanish: 'a lo largo',
+  },
+  {
+    english: 'to length',
+    norwegian: 'til langds',
+    spanish: 'a lo largo',
+  },
+  {
+    english: 'at the table',
+    norwegian: 'til bords',
+    spanish: 'a la mesa',
+  },
+  {
+    english: 'in that case',
+    norwegian: 'i så fall',
+    spanish: 'en ese caso',
+  },
+  {
+    english: 'sometimes',
+    norwegian: 'iblant',
+    spanish: 'a veces',
+  },
+  {
+    english: 'between',
+    norwegian: 'imellom',
+    spanish: 'entre',
+  },
+  {
+    english: 'instead of',
+    norwegian: 'istedenfor',
+    spanish: 'en lugar de',
+  },
+  {
+    english: 'instead',
+    norwegian: 'isteden',
+    spanish: 'en cambio',
+  },
+  {
+    english: 'against',
+    norwegian: 'imot',
+    spanish: 'contra',
+  },
+  {
+    english: 'there are rumors that',
+    norwegian: 'det går rykter om at',
+    spanish: 'hay rumores de que',
+  },
+  {
+    english: 'gossip',
+    norwegian: 'sladder',
+    spanish: 'chisme',
+  },
+  {
+    english: 'a noise',
+    norwegian: 'en ulyd',
+    spanish: 'un ruido',
+  },
+  {
+    english: 'you dare not drive the car',
+    norwegian: 'du tør ikke å kjøre bilen',
+    spanish: 'no te atreves a conducir el coche',
+  },
+  {
+    english: 'to the car shop',
+    norwegian: 'til bilbutikken',
+    spanish: 'a la tienda de coches',
+  },
+  {
+    english: 'van',
+    norwegian: 'varebil',
+    spanish: 'furgoneta',
+  },
+  {
+    english: 'affects my work',
+    norwegian: 'går utover arbeidet mitt',
+    spanish: 'afecta mi trabajo',
+  },
+  {
+    english: 'to decrease',
+    norwegian: 'å minke',
+    spanish: 'disminuir',
+  },
+  {
+    english: 'to lower',
+    norwegian: 'å senke',
+    spanish: 'bajar',
+  },
+  {
+    english: 'the coffin',
+    norwegian: 'kista',
+    spanish: 'el ataúd',
+  },
+  {
+    english: 'to sink',
+    norwegian: 'å synke',
+    spanish: 'hundir',
+  },
+  {
+    english: 'to descend',
+    norwegian: 'å dale',
+    spanish: 'descender',
+  },
+  {
+    english: 'to reduce',
+    norwegian: 'å redusere',
+    spanish: 'reducir',
+  },
+  {
+    english: 'to increase',
+    norwegian: 'å øke',
+    spanish: 'aumentar',
+  },
+  {
+    english: 'to raise',
+    norwegian: 'å heve',
+    spanish: 'elevar',
+  },
+  {
+    english: 'to rise',
+    norwegian: 'å stige',
+    spanish: 'subir',
+  },
+  {
+    english: 'headache',
+    norwegian: 'hodepine',
+    spanish: 'dolor de cabeza',
+  },
+  {
+    english: 'regarding',
+    norwegian: 'angående',
+    spanish: 'con respecto a',
+  },
+  {
+    english: 'on the residents',
+    norwegian: 'på beboerenes',
+    spanish: 'de los residentes',
+  },
+  {
+    english: 'expense',
+    norwegian: 'bekosting',
+    spanish: 'costo',
+  },
+  {
+    english: 'take a stand on the question',
+    norwegian: 'ta stilling til spørsmålet',
+    spanish: 'tomar posición sobre la pregunta',
+  },
+  {
+    english: 'however',
+    norwegian: 'imidlertid',
+    spanish: 'sin embargo',
+  },
+  {
+    english: 'even if I pass this exam',
+    norwegian: 'selv om jeg består denne eksamenen',
+    spanish: 'incluso si apruebo este examen',
+  },
+  {
+    english: 'it is certain and sure',
+    norwegian: 'det er sikkert og visst',
+    spanish: 'es seguro y cierto',
+  },
+  {
+    english: 'sharp',
+    norwegian: 'skarp',
+    spanish: 'afilado',
+  },
+  {
+    english: 'to the mountains',
+    norwegian: 'til fjells',
+    spanish: 'a las montañas',
+  },
+  {
+    english: 'on foot',
+    norwegian: 'til fots',
+    spanish: 'a pie',
+  },
+  {
+    english: 'at the table',
+    norwegian: 'til bords',
+    spanish: 'a la mesa',
+  },
+  {
+    english: 'at sea',
+    norwegian: 'til sjøs',
+    spanish: 'en el mar',
+  },
+  {
+    english: 'to the altar',
+    norwegian: 'til alters',
+    spanish: 'al altar',
+  },
+  {
+    english: 'in common',
+    norwegian: 'til felles',
+    spanish: 'en común',
+  },
+  {
+    english: 'to the council',
+    norwegian: 'til råds',
+    spanish: 'al consejo',
+  },
+  {
+    english: 'to bed',
+    norwegian: 'til sengs',
+    spanish: 'a la cama',
+  },
+  {
+    english: 'to the bottom',
+    norwegian: 'til bunns',
+    spanish: 'al fondo',
+  },
+  {
+    english: 'to some extent',
+    norwegian: 'til dels',
+    spanish: 'en cierta medida',
+  },
+  {
+    english: 'a carpenter',
+    norwegian: 'en snekker',
+    spanish: 'un carpintero',
+  },
+  {
+    english: 'carpenters',
+    norwegian: 'snekkere',
+    spanish: 'carpinteros',
+  },
+  {
+    english: 'duration',
+    norwegian: 'varighet',
+    spanish: 'duración',
+  },
+  {
+    english: 'generally',
+    norwegian: 'generelt',
+    spanish: 'generalmente',
+  },
+  {
+    english: 'pull oneself together',
+    norwegian: 'skjerpe seg',
+    spanish: 'controlarse',
+  },
+  {
+    english: 'touch/affect',
+    norwegian: 'berøre',
+    spanish: 'tocar/afectar',
+  },
+  {
+    english: 'confront',
+    norwegian: 'konfrontere',
+    spanish: 'confrontar',
+  },
+  {
+    english: 'be frustrated',
+    norwegian: 'være frustrert',
+    spanish: 'estar frustrado',
+  },
+  {
+    english: 'this and that',
+    norwegian: 'ditt og datt',
+    spanish: 'esto y aquello',
+  },
+  {
+    english: 'here and there',
+    norwegian: 'hit og dit',
+    spanish: 'aquí y allá',
+  },
+  {
+    english: 'odds and ends',
+    norwegian: 'løst og fast',
+    spanish: 'de todo un poco',
+  },
+  {
+    english: 'here and there',
+    norwegian: 'hist og pist',
+    spanish: 'por todas partes',
+  },
+  {
+    english: 'dead honest',
+    norwegian: 'dønn ærlig',
+    spanish: 'completamente honesto',
+  },
+  {
+    english: 'is not the dress nice',
+    norwegian: 'er ikke kjolen fin',
+    spanish: '¿no es bonito el vestido?',
+  },
+  {
+    english: 'I have had enough',
+    norwegian: 'jeg er forsynt',
+    spanish: 'estoy satisfecho',
+  },
+  {
+    english: 'the soup is being eaten',
+    norwegian: 'suppa blir spist',
+    spanish: 'la sopa está siendo comida',
+  },
+  {
+    english: 'had hit',
+    norwegian: 'hadd slått',
+    spanish: 'había golpeado',
+  },
+  {
+    english: 'had been taken',
+    norwegian: 'hadde blitt tatt',
+    spanish: 'había sido tomado',
+  },
+  {
+    english: 'near',
+    norwegian: 'nær',
+    spanish: 'cerca',
+  },
+  {
+    english: 'increased significantly',
+    norwegian: 'økt kraftig',
+    spanish: 'aumentado significativamente',
+  },
+  {
+    english: 'shot up',
+    norwegian: 'skutt i været',
+    spanish: 'disparado',
+  },
+  {
+    english: 'has a finger in the game',
+    norwegian: 'har en finger med i spillet',
+    spanish: 'tiene un dedo en el juego',
+  },
+  {
+    english: 'there is little doubt about',
+    norwegian: 'er det liten tvil om',
+    spanish: 'hay poca duda sobre',
+  },
+  {
+    english: 'introduced many measures',
+    norwegian: 'innført mange tiltak',
+    spanish: 'introducido muchas medidas',
+  },
+  {
+    english: 'a larger share of',
+    norwegian: 'en større andel av',
+    spanish: 'una mayor parte de',
+  },
+  {
+    english: 'earmarked',
+    norwegian: 'øremerkes',
+    spanish: 'reservado',
+  },
+  {
+    english: 'it comes at the expense of',
+    norwegian: 'det går på bekostning av',
+    spanish: 'va a costa de',
+  },
+  {
+    english: 'to keep our roads in order',
+    norwegian: 'å holde våre veier i orden',
+    spanish: 'mantener nuestras carreteras en orden',
+  },
+  {
+    english: 'implement measures',
+    norwegian: 'sette i verk tiltak',
+    spanish: 'implementar medidas',
+  },
+  {
+    english: 'suddenly lost',
+    norwegian: 'brått mistet',
+    spanish: 'perdido repentinamente',
+  },
+  {
+    english: 'caring colleague',
+    norwegian: 'omsorgsfull kollega',
+    spanish: 'colega atento',
+  },
+  {
+    english: 'that little extra',
+    norwegian: 'det lille ekstra',
+    spanish: 'ese pequeño extra',
+  },
+  {
+    english: 'a difficult time',
+    norwegian: 'en tung stund',
+    spanish: 'un momento difícil',
+  },
+  {
+    english: 'Access card in Easter week',
+    norwegian: 'Adgangskort i påskeuken',
+    spanish: 'tarjeta de acceso en la semana de Pascua',
+  },
+  {
+    english: 'integrity behind the promise',
+    norwegian: 'integritet bak løftet',
+    spanish: 'integridad detrás de la promesa',
+  },
+  {
+    english: 'atmosphere both on the track and at the after-party',
+    norwegian: 'stemning både i løypa og på etterfesten',
+    spanish: 'ambiente tanto en la pista como en la fiesta posterior',
+  },
+  {
+    english: 'decided about',
+    norwegian: 'avgjort om',
+    spanish: 'decidido sobre',
+  },
+  {
+    english: 'to implement a division in the team classification',
+    norwegian: 'å gjennomføre et skille i laginndelingen',
+    spanish: 'implementar una división en la clasificación del equipo',
+  },
+  {
+    english: 'in the registration form is meant',
+    norwegian: 'i påmeldingsskjemaet er ment',
+    spanish: 'en el formulario de inscripción está destinado',
+  },
+  {
+    english: 'to gauge the mood',
+    norwegian: 'for å lodde stemningen',
+    spanish: 'para medir el ambiente',
+  },
+  {
+    english: 'for a commitment team',
+    norwegian: 'for et satselag',
+    spanish: 'para un equipo comprometido',
+  },
+  {
+    english: 'is in no way binding',
+    norwegian: 'er på ingen måte bindene',
+    spanish: 'no es de ninguna manera vinculante',
+  },
+  {
+    english: 'an illness in their home',
+    norwegian: 'et illebefinnende i sitt hjem',
+    spanish: 'una indisposición en su hogar',
+  },
+  {
+    english: 'presumably',
+    norwegian: 'antageligvis',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'possibly/eventually',
+    norwegian: 'eventuelt',
+    spanish: 'posiblemente/eventualmente',
+  },
+  {
+    english: 'online shopping',
+    norwegian: 'nett handel',
+    spanish: 'compras en línea',
+  },
+  {
+    english: 'probably',
+    norwegian: 'sannsynligvis',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'likely',
+    norwegian: 'trolig',
+    spanish: 'probablemente',
+  },
+  {
+    english: 'apparently',
+    norwegian: 'tilsynelatende',
+    spanish: 'aparentemente',
+  },
 ];
