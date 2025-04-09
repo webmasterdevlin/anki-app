@@ -17732,4 +17732,29 @@ export const words: Question[] = [
     norwegian: 'frysninger',
     spanish: 'escalofríos',
   },
+  {
+    english: 'teased',
+    norwegian: 'ertet',
+    spanish: 'burlado',
+  },
+  {
+    english: 'took special note of',
+    norwegian: 'bet seg spesielt merke i',
+    spanish: 'tomó nota especial de',
+  },
+  {
+    english: 'a target for teasing',
+    norwegian: 'ei målskive for småerting',
+    spanish: 'un objetivo para burlarse',
+  },
+  {
+    english: 'to get it right in Spanish',
+    norwegian: 'seg riktig på spansk',
+    spanish: 'para acertar en español',
+  },
+  {
+    english: 'insult',
+    norwegian: 'fornærmelse',
+    spanish: 'insulto',
+  },
 ];
