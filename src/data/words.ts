@@ -17396,4 +17396,114 @@ export const words: Question[] = [
     norwegian: 'en fase',
     spanish: 'una fase',
   },
+  {
+    english: 'the subject/topic',
+    norwegian: 'emnet',
+    spanish: 'el tema',
+  },
+  {
+    english: 'pinch',
+    norwegian: 'klype',
+    spanish: 'pellizco',
+  },
+  {
+    english: 'tight spot/dilemma',
+    norwegian: 'knipe',
+    spanish: 'aprieto/dilema',
+  },
+  {
+    english: 'to roll ones eyes',
+    norwegian: 'himle',
+    spanish: 'poner los ojos en blanco',
+  },
+  {
+    english: 'admits',
+    norwegian: 'innrømmer',
+    spanish: 'admite',
+  },
+  {
+    english: 'afraid of',
+    norwegian: 'redd for',
+    spanish: 'asustado de',
+  },
+  {
+    english: 'scared by',
+    norwegian: 'skremt av',
+    spanish: 'asustado por',
+  },
+  {
+    english: 'based on',
+    norwegian: 'baserer seg på',
+    spanish: 'basado en',
+  },
+  {
+    english: 'on the contrary',
+    norwegian: 'tvert imot',
+    spanish: 'al contrario',
+  },
+  {
+    english: 'in this way',
+    norwegian: 'på denne måten',
+    spanish: 'de esta manera',
+  },
+  {
+    english: 'for so many things',
+    norwegian: 'til så mangt',
+    spanish: 'para tantas cosas',
+  },
+  {
+    english: 'the globe/planet',
+    norwegian: 'kloden',
+    spanish: 'el globo/planeta',
+  },
+  {
+    english: 'nowadays',
+    norwegian: 'nå til dags',
+    spanish: 'hoy en día',
+  },
+  {
+    english: 'plays an important role in our lives',
+    norwegian: 'spiller en viktig rolle i vårt liv',
+    spanish: 'juega un papel importante en nuestras vidas',
+  },
+  {
+    english: 'in the final analysis/ultimately',
+    norwegian: 'til syvende og sist',
+    spanish: 'en última instancia',
+  },
+  {
+    english: 'separate writing (of compound words)',
+    norwegian: 'særskriving',
+    spanish: 'escritura separada',
+  },
+  {
+    english: 'phrase loan',
+    norwegian: 'fraselån',
+    spanish: 'préstamo de frases',
+  },
+  {
+    english: 'loyal to',
+    norwegian: 'lojal mot',
+    spanish: 'leal a',
+  },
+  {
+    english: 'at a distance',
+    norwegian: 'på avstand',
+    spanish: 'a distancia',
+  },
+  {
+    english: 'extensive',
+    norwegian: 'utstrakt',
+    spanish: 'extenso',
+  },
+  {
+    english: 'to keep an eye on',
+    norwegian: 'å holde øye med',
+    spanish: 'vigilar',
+  },
+  {
+    english: 'to lighten the mood',
+    norwegian: 'å lette på stemningen',
+    spanish: 'aligerar el ambiente',
+  },
 ];
