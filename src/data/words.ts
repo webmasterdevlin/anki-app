@@ -1,5 +1,241 @@
 import type { Question } from '../models/types.ts';
 // must be english to norwegian to spanish
+
+interface VocabularyItem {
+  norwegian: string;
+  english: string;
+  spanish: string;
+}
+
+const words: VocabularyItem[] = [
+  {
+    english: 'the subject/topic',
+    norwegian: 'emnet',
+    spanish: 'el tema',
+  },
+  {
+    english: 'pinch',
+    norwegian: 'klype',
+    spanish: 'pellizco',
+  },
+  {
+    english: 'tight spot/dilemma',
+    norwegian: 'knipe',
+    spanish: 'aprieto/dilema',
+  },
+  {
+    english: "to roll one's eyes",
+    norwegian: 'himle',
+    spanish: 'poner los ojos en blanco',
+  },
+  {
+    english: 'admits',
+    norwegian: 'innrømmer',
+    spanish: 'admite',
+  },
+  {
+    english: 'afraid of',
+    norwegian: 'redd for',
+    spanish: 'asustado de',
+  },
+  {
+    english: 'scared by',
+    norwegian: 'skremt av',
+    spanish: 'asustado por',
+  },
+  {
+    english: 'based on',
+    norwegian: 'baserer seg på',
+    spanish: 'basado en',
+  },
+  {
+    english: 'on the contrary',
+    norwegian: 'tvert imot',
+    spanish: 'al contrario',
+  },
+  {
+    english: 'in this way',
+    norwegian: 'på denne måten',
+    spanish: 'de esta manera',
+  },
+  {
+    english: 'for so many things',
+    norwegian: 'til så mangt',
+    spanish: 'para tantas cosas',
+  },
+  {
+    english: 'the globe/planet',
+    norwegian: 'kloden',
+    spanish: 'el globo/planeta',
+  },
+  {
+    english: 'nowadays',
+    norwegian: 'nå til dags',
+    spanish: 'hoy en día',
+  },
+  {
+    english: 'plays an important role in our lives',
+    norwegian: 'spiller en viktig rolle i vårt liv',
+    spanish: 'juega un papel importante en nuestras vidas',
+  },
+  {
+    english: 'in the final analysis/ultimately',
+    norwegian: 'til syvende og sist',
+    spanish: 'en última instancia',
+  },
+  {
+    english: 'separate writing (of compound words)',
+    norwegian: 'særskriving',
+    spanish: 'escritura separada',
+  },
+  {
+    english: 'phrase loan',
+    norwegian: 'fraselån',
+    spanish: 'préstamo de frases',
+  },
+  {
+    english: 'loyal to',
+    norwegian: 'lojal mot',
+    spanish: 'leal a',
+  },
+  {
+    english: 'at a distance',
+    norwegian: 'på avstand',
+    spanish: 'a distancia',
+  },
+  {
+    english: 'extensive',
+    norwegian: 'utstrakt',
+    spanish: 'extenso',
+  },
+  {
+    english: 'to keep an eye on',
+    norwegian: 'å holde øye med',
+    spanish: 'vigilar',
+  },
+  {
+    english: 'to lighten the mood',
+    norwegian: 'å lette på stemningen',
+    spanish: 'aligerar el ambiente',
+  },
+  {
+    english: 'to receive',
+    norwegian: 'å motta',
+    spanish: 'recibir',
+  },
+  {
+    english: 'I grew up',
+    norwegian: 'jeg vokste opp',
+    spanish: 'crecí',
+  },
+  {
+    english: 'entertaining',
+    norwegian: 'underholdende',
+    spanish: 'entretenido',
+  },
+  {
+    english: 'freedom',
+    norwegian: 'freedom',
+    spanish: 'libertad',
+  },
+  {
+    english: 'to hire/employ',
+    norwegian: 'å ansette',
+    spanish: 'contratar/emplear',
+  },
+  {
+    english: 'temporary positions',
+    norwegian: 'midlertidige stillinger',
+    spanish: 'puestos temporales',
+  },
+  {
+    english: 'to change pasture/job',
+    norwegian: 'å skifte beite',
+    spanish: 'cambiar de trabajo',
+  },
+  {
+    english: 'characterizes',
+    norwegian: 'kjennetegner',
+    spanish: 'caracteriza',
+  },
+  {
+    english: 'it is required',
+    norwegian: 'stilles det',
+    spanish: 'se requiere',
+  },
+  {
+    english: 'permanent job',
+    norwegian: 'fast jobb',
+    spanish: 'trabajo fijo',
+  },
+  {
+    english: 'upbringing',
+    norwegian: 'oppdragelse',
+    spanish: 'educación/crianza',
+  },
+  {
+    english: 'child rearing',
+    norwegian: 'barneoppdragelse',
+    spanish: 'crianza de los hijos',
+  },
+  {
+    english: 'to be raised',
+    norwegian: 'oppdras',
+    spanish: 'ser criado',
+  },
+  {
+    english: 'as a rich country',
+    norwegian: 'som et rikt land',
+    spanish: 'como un país rico',
+  },
+  {
+    english: 'immigrants',
+    norwegian: 'innvandrere',
+    spanish: 'inmigrantes',
+  },
+  {
+    english: 'a threat to',
+    norwegian: 'en trussel mot',
+    spanish: 'una amenaza para',
+  },
+  {
+    english: 'refugees',
+    norwegian: 'flyktniger',
+    spanish: 'refugiados',
+  },
+  {
+    english: 'a resource',
+    norwegian: 'en ressurs',
+    spanish: 'un recurso',
+  },
+  {
+    english: 'good health necessary',
+    norwegian: 'en god helse nødvendig',
+    spanish: 'buena salud necesaria',
+  },
+  {
+    english: 'to be happy',
+    norwegian: 'for å være lykkelig',
+    spanish: 'para ser feliz',
+  },
+  {
+    english: 'strengths and weaknesses',
+    norwegian: 'styrkene og svakhetene',
+    spanish: 'fortalezas y debilidades',
+  },
+  {
+    english: 'the healthcare system',
+    norwegian: 'helsevesenet',
+    spanish: 'el sistema sanitario',
+  },
+  {
+    english: 'chills/shivers',
+    norwegian: 'frysninger',
+    spanish: 'escalofríos',
+  },
+];
+
+export default words;
 export const words: Question[] = [
   { english: 'speech', norwegian: 'tale', spanish: 'discurso' },
   { english: 'convey', norwegian: 'formidle', spanish: 'transmitir' },
@@ -17505,5 +17741,230 @@ export const words: Question[] = [
     english: 'to lighten the mood',
     norwegian: 'å lette på stemningen',
     spanish: 'aligerar el ambiente',
+  },
+  {
+    english: 'the subject/topic',
+    norwegian: 'emnet',
+    spanish: 'el tema',
+  },
+  {
+    english: 'pinch',
+    norwegian: 'klype',
+    spanish: 'pellizco',
+  },
+  {
+    english: 'tight spot/dilemma',
+    norwegian: 'knipe',
+    spanish: 'aprieto/dilema',
+  },
+  {
+    english: "to roll one's eyes",
+    norwegian: 'himle',
+    spanish: 'poner los ojos en blanco',
+  },
+  {
+    english: 'admits',
+    norwegian: 'innrømmer',
+    spanish: 'admite',
+  },
+  {
+    english: 'afraid of',
+    norwegian: 'redd for',
+    spanish: 'asustado de',
+  },
+  {
+    english: 'scared by',
+    norwegian: 'skremt av',
+    spanish: 'asustado por',
+  },
+  {
+    english: 'based on',
+    norwegian: 'baserer seg på',
+    spanish: 'basado en',
+  },
+  {
+    english: 'on the contrary',
+    norwegian: 'tvert imot',
+    spanish: 'al contrario',
+  },
+  {
+    english: 'in this way',
+    norwegian: 'på denne måten',
+    spanish: 'de esta manera',
+  },
+  {
+    english: 'for so many things',
+    norwegian: 'til så mangt',
+    spanish: 'para tantas cosas',
+  },
+  {
+    english: 'the globe/planet',
+    norwegian: 'kloden',
+    spanish: 'el globo/planeta',
+  },
+  {
+    english: 'nowadays',
+    norwegian: 'nå til dags',
+    spanish: 'hoy en día',
+  },
+  {
+    english: 'plays an important role in our lives',
+    norwegian: 'spiller en viktig rolle i vårt liv',
+    spanish: 'juega un papel importante en nuestras vidas',
+  },
+  {
+    english: 'in the final analysis/ultimately',
+    norwegian: 'til syvende og sist',
+    spanish: 'en última instancia',
+  },
+  {
+    english: 'separate writing (of compound words)',
+    norwegian: 'særskriving',
+    spanish: 'escritura separada',
+  },
+  {
+    english: 'phrase loan',
+    norwegian: 'fraselån',
+    spanish: 'préstamo de frases',
+  },
+  {
+    english: 'loyal to',
+    norwegian: 'lojal mot',
+    spanish: 'leal a',
+  },
+  {
+    english: 'at a distance',
+    norwegian: 'på avstand',
+    spanish: 'a distancia',
+  },
+  {
+    english: 'extensive',
+    norwegian: 'utstrakt',
+    spanish: 'extenso',
+  },
+  {
+    english: 'to keep an eye on',
+    norwegian: 'å holde øye med',
+    spanish: 'vigilar',
+  },
+  {
+    english: 'to lighten the mood',
+    norwegian: 'å lette på stemningen',
+    spanish: 'aligerar el ambiente',
+  },
+  {
+    english: 'to receive',
+    norwegian: 'å motta',
+    spanish: 'recibir',
+  },
+  {
+    english: 'I grew up',
+    norwegian: 'jeg vokste opp',
+    spanish: 'crecí',
+  },
+  {
+    english: 'entertaining',
+    norwegian: 'underholdende',
+    spanish: 'entretenido',
+  },
+  {
+    english: 'freedom',
+    norwegian: 'freedom',
+    spanish: 'libertad',
+  },
+  {
+    english: 'to hire/employ',
+    norwegian: 'å ansette',
+    spanish: 'contratar/emplear',
+  },
+  {
+    english: 'temporary positions',
+    norwegian: 'midlertidige stillinger',
+    spanish: 'puestos temporales',
+  },
+  {
+    english: 'to change pasture/job',
+    norwegian: 'å skifte beite',
+    spanish: 'cambiar de trabajo',
+  },
+  {
+    english: 'characterizes',
+    norwegian: 'kjennetegner',
+    spanish: 'caracteriza',
+  },
+  {
+    english: 'it is required',
+    norwegian: 'stilles det',
+    spanish: 'se requiere',
+  },
+  {
+    english: 'permanent job',
+    norwegian: 'fast jobb',
+    spanish: 'trabajo fijo',
+  },
+  {
+    english: 'upbringing',
+    norwegian: 'oppdragelse',
+    spanish: 'educación/crianza',
+  },
+  {
+    english: 'child rearing',
+    norwegian: 'barneoppdragelse',
+    spanish: 'crianza de los hijos',
+  },
+  {
+    english: 'to be raised',
+    norwegian: 'oppdras',
+    spanish: 'ser criado',
+  },
+  {
+    english: 'as a rich country',
+    norwegian: 'som et rikt land',
+    spanish: 'como un país rico',
+  },
+  {
+    english: 'immigrants',
+    norwegian: 'innvandrere',
+    spanish: 'inmigrantes',
+  },
+  {
+    english: 'a threat to',
+    norwegian: 'en trussel mot',
+    spanish: 'una amenaza para',
+  },
+  {
+    english: 'refugees',
+    norwegian: 'flyktniger',
+    spanish: 'refugiados',
+  },
+  {
+    english: 'a resource',
+    norwegian: 'en ressurs',
+    spanish: 'un recurso',
+  },
+  {
+    english: 'good health necessary',
+    norwegian: 'en god helse nødvendig',
+    spanish: 'buena salud necesaria',
+  },
+  {
+    english: 'to be happy',
+    norwegian: 'for å være lykkelig',
+    spanish: 'para ser feliz',
+  },
+  {
+    english: 'strengths and weaknesses',
+    norwegian: 'styrkene og svakhetene',
+    spanish: 'fortalezas y debilidades',
+  },
+  {
+    english: 'the healthcare system',
+    norwegian: 'helsevesenet',
+    spanish: 'el sistema sanitario',
+  },
+  {
+    english: 'chills/shivers',
+    norwegian: 'frysninger',
+    spanish: 'escalofríos',
   },
 ];
