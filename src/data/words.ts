@@ -16613,8 +16613,8 @@ export const words: Question[] = [
     spanish: 'un momento difícil',
   },
   {
-    english: 'Access card in Easter week',
-    norwegian: 'Adgangskort i påskeuken',
+    english: 'access card in Easter week',
+    norwegian: 'adgangskort i påskeuken',
     spanish: 'tarjeta de acceso en la semana de Pascua',
   },
   {
@@ -16844,7 +16844,7 @@ export const words: Question[] = [
   },
   {
     english: 'much more most',
-    norwegian: 'my mer mest',
+    norwegian: 'mye mer mest',
     spanish: 'mucho más el máximo',
   },
   {
@@ -17756,5 +17756,665 @@ export const words: Question[] = [
     english: 'insult',
     norwegian: 'fornærmelse',
     spanish: 'insulto',
+  },
+  {
+    english: 'chronic pain',
+    norwegian: 'kronisk smerte',
+    spanish: 'dolor crónico',
+  },
+  {
+    english: 'the pain patients',
+    norwegian: 'smertepasientene',
+    spanish: 'los pacientes con dolor',
+  },
+  {
+    english: 'the spark of life',
+    norwegian: 'livsgnisten',
+    spanish: 'la chispa vital',
+  },
+  {
+    english: 'anxiety',
+    norwegian: 'angst',
+    spanish: 'ansiedad',
+  },
+  {
+    english: 'to facilitate',
+    norwegian: 'å tilrettelegge',
+    spanish: 'facilitar',
+  },
+  {
+    english: 'to be troubled',
+    norwegian: 'å plages',
+    spanish: 'estar afligido',
+  },
+  {
+    english: 'to suffer',
+    norwegian: 'å lide',
+    spanish: 'sufrir',
+  },
+  {
+    english: 'to be in pain',
+    norwegian: 'å ha vondt',
+    spanish: 'tener dolor',
+  },
+  {
+    english: 'courage',
+    norwegian: 'mot',
+    spanish: 'coraje',
+  },
+  {
+    english: 'to worsen',
+    norwegian: 'å forverre',
+    spanish: 'empeorar',
+  },
+  {
+    english: 'nerve damage',
+    norwegian: 'nerveskade',
+    spanish: 'daño nervioso',
+  },
+  {
+    english: 'to illuminate',
+    norwegian: 'å belyse',
+    spanish: 'iluminar',
+  },
+  {
+    english: 'worry',
+    norwegian: 'bekymring',
+    spanish: 'preocupación',
+  },
+  {
+    english: 'self-esteem',
+    norwegian: 'selvfølelse',
+    spanish: 'autoestima',
+  },
+  {
+    english: 'to disappear',
+    norwegian: 'å forvinne',
+    spanish: 'desaparecer',
+  },
+  {
+    english: 'caused by',
+    norwegian: 'for årsaket',
+    spanish: 'causado por',
+  },
+  {
+    english: 'to survive',
+    norwegian: 'å overleve',
+    spanish: 'sobrevivir',
+  },
+  {
+    english: 'healing',
+    norwegian: 'tilheling',
+    spanish: 'curación',
+  },
+  {
+    english: 'to last',
+    norwegian: 'å vare',
+    spanish: 'durar',
+  },
+  {
+    english: 'patient',
+    norwegian: 'tålmodig',
+    spanish: 'paciente',
+  },
+  {
+    english: 'acute',
+    norwegian: 'akutt',
+    spanish: 'agudo',
+  },
+  {
+    english: 'to warn',
+    norwegian: 'å versle',
+    spanish: 'advertir',
+  },
+  {
+    english: 'to be needed',
+    norwegian: 'å behøves',
+    spanish: 'ser necesario',
+  },
+  {
+    english: 'to speak',
+    norwegian: 'å tale',
+    spanish: 'hablar',
+  },
+  {
+    english: 'earache',
+    norwegian: 'øreverk',
+    spanish: 'dolor de oído',
+  },
+  {
+    english: 'chest',
+    norwegian: 'bryst',
+    spanish: 'pecho',
+  },
+  {
+    english: 'joint pain',
+    norwegian: 'leddsmerke',
+    spanish: 'dolor articular',
+  },
+  {
+    english: 'bone fracture',
+    norwegian: 'benbrudd',
+    spanish: 'fractura ósea',
+  },
+  {
+    english: 'to heal',
+    norwegian: 'å leges',
+    spanish: 'sanar',
+  },
+  {
+    english: 'to threaten',
+    norwegian: 'å true',
+    spanish: 'amenazar',
+  },
+  {
+    english: 'to relieve',
+    norwegian: 'å lindre',
+    spanish: 'aliviar',
+  },
+  {
+    english: 'to achieve',
+    norwegian: 'å oppnå',
+    spanish: 'lograr',
+  },
+  {
+    english: 'gradual',
+    norwegian: 'gradvis',
+    spanish: 'gradual',
+  },
+  {
+    english: 'comfort',
+    norwegian: 'trøst',
+    spanish: 'consuelo',
+  },
+  {
+    english: 'encouragement',
+    norwegian: 'oppmuntring',
+    spanish: 'ánimo',
+  },
+  {
+    english: 'to give up',
+    norwegian: 'gi tapt',
+    spanish: 'rendirse',
+  },
+  {
+    english: 'to publish',
+    norwegian: 'gi ut',
+    spanish: 'publicar',
+  },
+  {
+    english: 'to give up on',
+    norwegian: 'gi på',
+    spanish: 'renunciar a',
+  },
+  {
+    english: 'to give up',
+    norwegian: 'gi opp',
+    spanish: 'desistir',
+  },
+  {
+    english: 'to give in',
+    norwegian: 'gi seg',
+    spanish: 'ceder',
+  },
+  {
+    english: 'to yield',
+    norwegian: 'gi etter',
+    spanish: 'ceder',
+  },
+  {
+    english: 'to not care',
+    norwegian: 'gi blaffen',
+    spanish: 'no importar',
+  },
+  {
+    english: 'to engage in',
+    norwegian: 'gi seg til',
+    spanish: 'dedicarse a',
+  },
+  {
+    english: 'to set off',
+    norwegian: 'gi seg i vei',
+    spanish: 'ponerse en marcha',
+  },
+  {
+    english: 'to answer',
+    norwegian: 'gi svar på',
+    spanish: 'responder a',
+  },
+  {
+    english: 'to feed',
+    norwegian: 'gi mata til',
+    spanish: 'alimentar',
+  },
+  {
+    english: 'to vaccinate',
+    norwegian: 'gi vaksine',
+    spanish: 'vacunar',
+  },
+  {
+    english: 'to promise',
+    norwegian: 'gi løfte om',
+    spanish: 'prometer',
+  },
+  {
+    english: 'to authorize',
+    norwegian: 'gi fullmakt til',
+    spanish: 'autorizar',
+  },
+  {
+    english: 'text binding',
+    norwegian: 'teksbinding',
+    spanish: 'cohesión textual',
+  },
+  {
+    english: 'in good condition',
+    norwegian: 'i god stand',
+    spanish: 'en buen estado',
+  },
+  {
+    english: 'in search of',
+    norwegian: 'på jakt etter',
+    spanish: 'en busca de',
+  },
+  {
+    english: 'to help out',
+    norwegian: 'hjelpe til',
+    spanish: 'ayudar',
+  },
+  {
+    english: 'to look forward to',
+    norwegian: 'glede seg til',
+    spanish: 'tener ganas de',
+  },
+  {
+    english: 'to talk about',
+    norwegian: 'snakke om',
+    spanish: 'hablar de',
+  },
+  {
+    english: 'to clean up after',
+    norwegian: 'rydde opp etter',
+    spanish: 'limpiar después de',
+  },
+  {
+    english: 'good at',
+    norwegian: 'flink til',
+    spanish: 'bueno en',
+  },
+  {
+    english: 'to greatly appreciate',
+    norwegian: 'sette stor pris på',
+    spanish: 'apreciar mucho',
+  },
+  {
+    english: 'I have just eaten',
+    norwegian: 'jeg har nettopp spist',
+    spanish: 'acabo de comer',
+  },
+  {
+    english: 'unmarried',
+    norwegian: 'ugift',
+    spanish: 'soltero',
+  },
+  {
+    english: 'divorced',
+    norwegian: 'skilt',
+    spanish: 'divorciado',
+  },
+  {
+    english: 'widower',
+    norwegian: 'enkemann',
+    spanish: 'viudo',
+  },
+  {
+    english: 'I am single',
+    norwegian: 'jeg er enslig',
+    spanish: 'estoy soltero',
+  },
+  {
+    english: 'I am engaged',
+    norwegian: 'jeg er forlovet',
+    spanish: 'estoy comprometido',
+  },
+  {
+    english: 'I am cohabiting',
+    norwegian: 'jeg er samboer',
+    spanish: 'vivo en pareja',
+  },
+  {
+    english: 'pain',
+    norwegian: 'smerte',
+    spanish: 'dolor',
+  },
+  {
+    english: 'have a toothache',
+    norwegian: 'har tannpine',
+    spanish: 'tener dolor de muelas',
+  },
+  {
+    english: 'dental cleaning',
+    norwegian: 'tannrens',
+    spanish: 'limpieza dental',
+  },
+  {
+    english: 'to chew',
+    norwegian: 'å tygge',
+    spanish: 'masticar',
+  },
+  {
+    english: 'the gums',
+    norwegian: 'tannkjøttet',
+    spanish: 'las encías',
+  },
+  {
+    english: 'loose',
+    norwegian: 'løs',
+    spanish: 'flojo',
+  },
+  {
+    english: 'hole/cavity',
+    norwegian: 'hull',
+    spanish: 'agujero/caries',
+  },
+  {
+    english: 'to bleed',
+    norwegian: 'å blø',
+    spanish: 'sangrar',
+  },
+  {
+    english: 'breath',
+    norwegian: 'ånde',
+    spanish: 'aliento',
+  },
+  {
+    english: 'filling',
+    norwegian: 'fylling',
+    spanish: 'empaste',
+  },
+  {
+    english: 'root canal',
+    norwegian: 'rotfylling',
+    spanish: 'tratamiento de conducto',
+  },
+  {
+    english: 'inflammation',
+    norwegian: 'betennelse',
+    spanish: 'inflamación',
+  },
+  {
+    english: 'to extract a tooth',
+    norwegian: 'å trekke ei tann',
+    spanish: 'extraer un diente',
+  },
+  {
+    english: 'plaque',
+    norwegian: 'plakk',
+    spanish: 'placa',
+  },
+  {
+    english: 'the tooth enamel',
+    norwegian: 'tannemaljen',
+    spanish: 'el esmalte dental',
+  },
+  {
+    english: 'a crown',
+    norwegian: 'en krone',
+    spanish: 'una corona',
+  },
+  {
+    english: 'anesthesia',
+    norwegian: 'bedøvelse',
+    spanish: 'anestesia',
+  },
+  {
+    english: 'to rinse',
+    norwegian: 'å skylle',
+    spanish: 'enjuagar',
+  },
+  {
+    english: 'first summons',
+    norwegian: 'første innkalling',
+    spanish: 'primera convocatoria',
+  },
+  {
+    english: 'to shout',
+    norwegian: 'å rope',
+    spanish: 'gritar',
+  },
+  {
+    english: 'to scream',
+    norwegian: 'å skrike',
+    spanish: 'chillar',
+  },
+  {
+    english: 'to howl',
+    norwegian: 'å hyle',
+    spanish: 'aullar',
+  },
+  {
+    english: 'to bawl',
+    norwegian: 'å skråle',
+    spanish: 'berrear',
+  },
+  {
+    english: 'to hail',
+    norwegian: 'å praie',
+    spanish: 'llamar a voces',
+  },
+  {
+    english: 'to scold',
+    norwegian: 'å kjefte',
+    spanish: 'regañar',
+  },
+  {
+    english: 'to yell',
+    norwegian: 'å gaule',
+    spanish: 'vociferar',
+  },
+  {
+    english: 'to bawl',
+    norwegian: 'å vræle',
+    spanish: 'bramar',
+  },
+  {
+    english: 'to whine',
+    norwegian: 'å gnilsle',
+    spanish: 'gimotear',
+  },
+  {
+    english: 'to screech',
+    norwegian: 'å hvine',
+    spanish: 'chillar',
+  },
+  {
+    english: 'to howl',
+    norwegian: 'å ule',
+    spanish: 'ulular',
+  },
+  {
+    english: 'about time',
+    norwegian: 'på tide',
+    spanish: 'ya es hora',
+  },
+  {
+    english: 'in time',
+    norwegian: 'i tide',
+    spanish: 'a tiempo',
+  },
+  {
+    english: 'at all times',
+    norwegian: 'i tide og utide',
+    spanish: 'a todas horas',
+  },
+  {
+    english: 'big and strong',
+    norwegian: 'stor og sterk',
+    spanish: 'grande y fuerte',
+  },
+  {
+    english: 'fresh air',
+    norwegian: 'firsk luft',
+    spanish: 'aire fresco',
+  },
+  {
+    english: 'enjoy life',
+    norwegian: 'nyte livet',
+    spanish: 'disfrutar la vida',
+  },
+  {
+    english: 'hope and believe',
+    norwegian: 'håpe og tro',
+    spanish: 'esperar y creer',
+  },
+  {
+    english: 'call home',
+    norwegian: 'ringe hjem',
+    spanish: 'llamar a casa',
+  },
+  {
+    english: 'live healthily',
+    norwegian: 'leve sunt',
+    spanish: 'vivir saludablemente',
+  },
+  {
+    english: 'take the bus',
+    norwegian: 'ta buss',
+    spanish: 'tomar el autobús',
+  },
+  {
+    english: 'make demands',
+    norwegian: 'stille krav',
+    spanish: 'exigir',
+  },
+  {
+    english: 'come here',
+    norwegian: 'kom hit',
+    spanish: 'ven aquí',
+  },
+  {
+    english: 'considering',
+    norwegian: 'med tanke på',
+    spanish: 'considerando',
+  },
+  {
+    english: 'even',
+    norwegian: 'til og med',
+    spanish: 'incluso',
+  },
+  {
+    english: 'despite',
+    norwegian: 'til tross for',
+    spanish: 'a pesar de',
+  },
+  {
+    english: 'in other words',
+    norwegian: 'med andre ord',
+    spanish: 'en otras palabras',
+  },
+  {
+    english: 'good luck',
+    norwegian: 'lykke til',
+    spanish: 'buena suerte',
+  },
+  {
+    english: 'crisscross',
+    norwegian: 'på kryss og tvers',
+    spanish: 'en todas direcciones',
+  },
+  {
+    english: 'ongoing',
+    norwegian: 'på gang',
+    spanish: 'en marcha',
+  },
+  {
+    english: 'come in',
+    norwegian: 'stig på',
+    spanish: 'adelante',
+  },
+  {
+    english: 'upside down',
+    norwegian: 'opp ned',
+    spanish: 'al revés',
+  },
+  {
+    english: 'when it comes to',
+    norwegian: 'når det gjelde',
+    spanish: 'en cuanto a',
+  },
+  {
+    english: 'immediately',
+    norwegian: 'med engang',
+    spanish: 'inmediatamente',
+  },
+  {
+    english: 'on an empty stomach',
+    norwegian: 'på tom mage',
+    spanish: 'con el estómago vacío',
+  },
+  {
+    english: 'on an empty stomach',
+    norwegian: 'på fastende mage',
+    spanish: 'en ayunas',
+  },
+  {
+    english: 'stay calm (lit: have ice in stomach)',
+    norwegian: 'ha is i magen',
+    spanish: 'mantener la calma',
+  },
+  {
+    english: 'lump in the throat (anxiety)',
+    norwegian: 'klump i magen',
+    spanish: 'nudo en el estómago',
+  },
+  {
+    english: 'guide',
+    norwegian: 'vieleder',
+    spanish: 'guía',
+  },
+  {
+    english: 'this morning',
+    norwegian: 'i morges',
+    spanish: 'esta mañana',
+  },
+  {
+    english: 'the day before yesterday',
+    norwegian: 'i forgårs',
+    spanish: 'anteayer',
+  },
+  {
+    english: 'the acceptance period',
+    norwegian: 'akseptperioden',
+    spanish: 'el período de aceptación',
+  },
+  {
+    english: 'equipped to grow',
+    norwegian: 'rustet til å vokse',
+    spanish: 'preparado para crecer',
+  },
+  {
+    english: 'global presence',
+    norwegian: 'global tilstedeværelse',
+    spanish: 'presencia global',
+  },
+  {
+    english: 'has unanimously positioned itself',
+    norwegian: 'har enstemmig stilt seg',
+    spanish: 'se ha posicionado unánimemente',
+  },
+  {
+    english: 'the recommendation',
+    norwegian: 'anbefalingen',
+    spanish: 'la recomendación',
+  },
+  {
+    english: 'growth ambitions',
+    norwegian: 'vekstambisjonene',
+    spanish: 'ambiciones de crecimiento',
+  },
+  {
+    english: 'necessary',
+    norwegian: 'nødvendige',
+    spanish: 'necesario',
   },
 ];
