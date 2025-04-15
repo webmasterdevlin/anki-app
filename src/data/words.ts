@@ -3,6 +3,1076 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    english: 'envious',
+    norwegian: 'missunnelig',
+    spanish: 'envidioso',
+  },
+  {
+    english: 'exclamation mark',
+    norwegian: 'utropstegn',
+    spanish: 'signo de exclamación',
+  },
+  {
+    english: 'exclamation',
+    norwegian: 'utrop',
+    spanish: 'exclamación',
+  },
+  {
+    english: 'betrayal',
+    norwegian: 'svik',
+    spanish: 'traición',
+  },
+  {
+    english: 'the last years',
+    norwegian: 'det siste årene',
+    spanish: 'los últimos años',
+  },
+  {
+    english: 'the claim',
+    norwegian: 'påstanden',
+    spanish: 'la afirmación',
+  },
+  {
+    english: 'layoff',
+    norwegian: 'permittering',
+    spanish: 'despido temporal',
+  },
+  {
+    english: 'termination',
+    norwegian: 'oppsigelse',
+    spanish: 'despido',
+  },
+  {
+    english: 'unemployment benefits',
+    norwegian: 'dagpenger',
+    spanish: 'subsidio por desempleo',
+  },
+  {
+    english: 'epidemic',
+    norwegian: 'epidemi',
+    spanish: 'epidemia',
+  },
+  {
+    english: 'pandemic',
+    norwegian: 'pandemi',
+    spanish: 'pandemia',
+  },
+  {
+    english: 'serious',
+    norwegian: 'alvorlig',
+    spanish: 'serio',
+  },
+  {
+    english: 'fear',
+    norwegian: 'frykt',
+    spanish: 'miedo',
+  },
+  {
+    english: 'curfew',
+    norwegian: 'port forbud',
+    spanish: 'toque de queda',
+  },
+  {
+    english: 'majority',
+    norwegian: 'flertal',
+    spanish: 'mayoría',
+  },
+  {
+    english: 'exception',
+    norwegian: 'unntak',
+    spanish: 'excepción',
+  },
+  {
+    english: 'are you about to?',
+    norwegian: 'er du i ferd?',
+    spanish: '¿estás a punto de?',
+  },
+  {
+    english: 'impression of you',
+    norwegian: 'inntrykk av deg',
+    spanish: 'impresión de ti',
+  },
+  {
+    english: 'encourages people to',
+    norwegian: 'oppfordrer folk til å',
+    spanish: 'anima a la gente a',
+  },
+  {
+    english: 'impolite',
+    norwegian: 'uhøflig',
+    spanish: 'descortés',
+  },
+  {
+    english: 'breakout',
+    norwegian: 'utbryting',
+    spanish: 'fuga',
+  },
+  {
+    english: 'prepare',
+    norwegian: 'tilberede',
+    spanish: 'preparar',
+  },
+  {
+    english: 'to realize',
+    norwegian: 'å innse',
+    spanish: 'darse cuenta',
+  },
+  {
+    english: 'a trap',
+    norwegian: 'en felle',
+    spanish: 'una trampa',
+  },
+  {
+    english: 'wrist',
+    norwegian: 'håndledd',
+    spanish: 'muñeca',
+  },
+  {
+    english: 'to get over the hump',
+    norwegian: 'å komme over kneika',
+    spanish: 'superar el obstáculo',
+  },
+  {
+    english: 'plagiarism',
+    norwegian: 'plagiat',
+    spanish: 'plagio',
+  },
+  {
+    english: "it doesn't matter",
+    norwegian: 'det gjør ikke noe',
+    spanish: 'no importa',
+  },
+  {
+    english: 'they vote',
+    norwegian: 'de stemmer',
+    spanish: 'ellos votan',
+  },
+  {
+    english: 'that is to say',
+    norwegian: 'det vil si',
+    spanish: 'es decir',
+  },
+  {
+    english: 'something or other',
+    norwegian: 'et eller annet',
+    spanish: 'algo u otro',
+  },
+  {
+    english: 'catch sight of',
+    norwegian: 'få øye på',
+    spanish: 'ver de reojo',
+  },
+  {
+    english: "find one's way",
+    norwegian: 'finne frem',
+    spanish: 'orientarse',
+  },
+  {
+    english: 'put up with',
+    norwegian: 'finne seg i',
+    spanish: 'aguantar',
+  },
+  {
+    english: 'take place',
+    norwegian: 'finne sted',
+    spanish: 'tener lugar',
+  },
+  {
+    english: 'for good',
+    norwegian: 'for godt',
+    spanish: 'para siempre',
+  },
+  {
+    english: 'easily done',
+    norwegian: 'fort gjort',
+    spanish: 'fácil de hacer',
+  },
+  {
+    english: 'fully possible',
+    norwegian: 'fult mullig',
+    spanish: 'completamente posible',
+  },
+  {
+    english: 'be possible',
+    norwegian: 'gå an',
+    spanish: 'ser posible',
+  },
+  {
+    english: 'break',
+    norwegian: 'gå i stykker',
+    spanish: 'romperse',
+  },
+  {
+    english: 'do something to perfection',
+    norwegian: 'gjøre noe til punkt og prikke',
+    spanish: 'hacer algo a la perfección',
+  },
+  {
+    english: "that's fine",
+    norwegian: 'den er grei',
+    spanish: 'está bien',
+  },
+  {
+    english: 'compare',
+    norwegian: 'sammenlign',
+    spanish: 'comparar',
+  },
+  {
+    english: 'satisfied',
+    norwegian: 'tilfreds',
+    spanish: 'satisfecho',
+  },
+  {
+    english: 'happy',
+    norwegian: 'lykkelig',
+    spanish: 'feliz',
+  },
+  {
+    english: 'is the case in Norway',
+    norwegian: 'er tilfelle in norge',
+    spanish: 'es el caso en Noruega',
+  },
+  {
+    english: 'independent',
+    norwegian: 'uavhangig',
+    spanish: 'independiente',
+  },
+  {
+    english: 'a fundamental right',
+    norwegian: 'en grunneleggende rettighet',
+    spanish: 'un derecho fundamental',
+  },
+  {
+    english: 'immigrants',
+    norwegian: 'innvandrere',
+    spanish: 'inmigrantes',
+  },
+  {
+    english: 'to be and to have',
+    norwegian: 'være og ha',
+    spanish: 'ser y tener',
+  },
+  {
+    english: 'become and get',
+    norwegian: 'bli og få',
+    spanish: 'convertirse y obtener',
+  },
+  {
+    english: 'they had twins in May',
+    norwegian: 'de fikk tvillinger i mai',
+    spanish: 'tuvieron gemelos en mayo',
+  },
+  {
+    english: 'to emphasize',
+    norwegian: 'å legge vekt på',
+    spanish: 'enfatizar',
+  },
+  {
+    english: 'to notice',
+    norwegian: 'å legge merke til',
+    spanish: 'notar',
+  },
+  {
+    english: 'to need',
+    norwegian: 'å ha behov for',
+    spanish: 'necesitar',
+  },
+  {
+    english: 'to be afraid of',
+    norwegian: 'å være redd for',
+    spanish: 'tener miedo de',
+  },
+  {
+    english: 'to care about',
+    norwegian: 'å bry seg om',
+    spanish: 'preocuparse por',
+  },
+  {
+    english: 'to be obliged to',
+    norwegian: 'å være nødt til',
+    spanish: 'estar obligado a',
+  },
+  {
+    english: 'to let someone through',
+    norwegian: 'å slippe til noen',
+    spanish: 'dejar pasar a alguien',
+  },
+  {
+    english: 'without doubt',
+    norwegian: 'uten tvil',
+    spanish: 'sin duda',
+  },
+  {
+    english: 'obtain',
+    norwegian: 'skaffe',
+    spanish: 'obtener',
+  },
+  {
+    english: 'to be sure of',
+    norwegian: 'å være sikker på',
+    spanish: 'estar seguro de',
+  },
+  {
+    english: 'to get hold of',
+    norwegian: 'å få tak i',
+    spanish: 'conseguir',
+  },
+  {
+    english: 'to tackle',
+    norwegian: 'å ta tak i',
+    spanish: 'abordar',
+  },
+  {
+    english: 'care',
+    norwegian: 'omsorg',
+    spanish: 'cuidado',
+  },
+  {
+    english: 'fear',
+    norwegian: 'frykte',
+    spanish: 'temer',
+  },
+  {
+    english: 'to lead to',
+    norwegian: 'å føre til',
+    spanish: 'llevar a',
+  },
+  {
+    english: 'to be allowed to',
+    norwegian: 'å få lov til',
+    spanish: 'tener permiso para',
+  },
+  {
+    english: 'to stand for',
+    norwegian: 'å stå for',
+    spanish: 'representar',
+  },
+  {
+    english: 'to take responsibility for',
+    norwegian: 'å ta ansvar for',
+    spanish: 'responsabilizarse de',
+  },
+  {
+    english: 'to close down',
+    norwegian: 'å legge ned',
+    spanish: 'cerrar',
+  },
+  {
+    english: 'to start',
+    norwegian: 'å sette i gang',
+    spanish: 'empezar',
+  },
+  {
+    english: 'to drop by',
+    norwegian: 'å svinge innom',
+    spanish: 'pasar por',
+  },
+  {
+    english: 'to benefit from',
+    norwegian: 'å ha nytte av',
+    spanish: 'beneficiarse de',
+  },
+  {
+    english: 'to be useful',
+    norwegian: 'å være til nytte',
+    spanish: 'ser útil',
+  },
+  {
+    english: 'to ensure',
+    norwegian: 'å sørge for',
+    spanish: 'asegurar',
+  },
+  {
+    english: 'to have confidence in',
+    norwegian: 'å ha tillit til',
+    spanish: 'confiar en',
+  },
+  {
+    english: 'to be in the process of',
+    norwegian: 'å være i ferd med noe',
+    spanish: 'estar en proceso de',
+  },
+  {
+    english: 'to be busy with',
+    norwegian: 'å holde på med noe',
+    spanish: 'estar ocupado con',
+  },
+  {
+    english: 'to keep oneself',
+    norwegian: 'å holde seg',
+    spanish: 'mantenerse',
+  },
+  {
+    english: 'to hold on to',
+    norwegian: 'å holde fast ved',
+    spanish: 'aferrarse a',
+  },
+  {
+    english: 'to stay the course',
+    norwegian: 'å holde stø kurs',
+    spanish: 'mantener el rumbo',
+  },
+  {
+    english: 'to have faith in',
+    norwegian: 'å ha tiltro til noe',
+    spanish: 'tener fe en',
+  },
+  {
+    english: 'to settle down',
+    norwegian: 'å slå seg til ro',
+    spanish: 'establecerse',
+  },
+  {
+    english: 'to contact',
+    norwegian: 'å ta kontakt med',
+    spanish: 'contactar a',
+  },
+  {
+    english: 'to break the law',
+    norwegian: 'å bryte loven',
+    spanish: 'romper la ley',
+  },
+  {
+    english: 'to settle',
+    norwegian: 'å slå seg ned',
+    spanish: 'asentarse',
+  },
+  {
+    english: 'to take lightly',
+    norwegian: 'å ta lett på',
+    spanish: 'tomar a la ligera',
+  },
+  {
+    english: 'to put up with',
+    norwegian: 'å finne seg i',
+    spanish: 'aguantar',
+  },
+  {
+    english: 'to come up with',
+    norwegian: 'å finne på',
+    spanish: 'inventar',
+  },
+  {
+    english: 'to take into account',
+    norwegian: 'å ta hensyn til',
+    spanish: 'tener en cuenta',
+  },
+  {
+    english: 'to have reason to',
+    norwegian: 'å ha grunn til',
+    spanish: 'tener motivo para',
+  },
+  {
+    english: 'to get used to',
+    norwegian: 'å venne seg til',
+    spanish: 'acostumbrarse a',
+  },
+  {
+    english: 'to call in for',
+    norwegian: 'å kalle inn til',
+    spanish: 'convocar',
+  },
+  {
+    english: 'to tighten',
+    norwegian: 'å stramme inn',
+    spanish: 'apretar',
+  },
+  {
+    english: 'to escalate',
+    norwegian: 'å trapp opp',
+    spanish: 'intensificar',
+  },
+  {
+    english: 'in case',
+    norwegian: 'i tilfelle',
+    spanish: 'en caso de',
+  },
+  {
+    english: 'despite',
+    norwegian: 'til tross for',
+    spanish: 'a pesar de',
+  },
+  {
+    english: 'just one',
+    norwegian: 'bare ett',
+    spanish: 'solo uno',
+  },
+  {
+    english: 'something or other',
+    norwegian: 'ett eller annet',
+    spanish: 'algo u otro',
+  },
+  {
+    english: 'one thing and another',
+    norwegian: 'ett og annet',
+    spanish: 'una cosa y otra',
+  },
+  {
+    english: 'a single',
+    norwegian: 'ett eneste',
+    spanish: 'un solo',
+  },
+  {
+    english: 'to talk about',
+    norwegian: 'å snakke om',
+    spanish: 'hablar de',
+  },
+  {
+    english: 'to know about',
+    norwegian: 'å vite om',
+    spanish: 'saber de',
+  },
+  {
+    english: 'to be about',
+    norwegian: 'å handle om',
+    spanish: 'tratar de',
+  },
+  {
+    english: 'to tell about',
+    norwegian: 'å fortelle om',
+    spanish: 'contar sobre',
+  },
+  {
+    english: 'to check on something',
+    norwegian: 'å se om noe',
+    spanish: 'comprobar algo',
+  },
+  {
+    english: 'to ask about',
+    norwegian: 'å spørre om',
+    spanish: 'preguntar por',
+  },
+  {
+    english: 'to wonder',
+    norwegian: 'å lure på',
+    spanish: 'preguntarse',
+  },
+  {
+    english: 'to be sure of',
+    norwegian: 'å være sikker på',
+    spanish: 'estar seguro de',
+  },
+  {
+    english: 'to think about',
+    norwegian: 'å tenke på',
+    spanish: 'pensar en',
+  },
+  {
+    english: 'to be angry with',
+    norwegian: 'å være sint på',
+    spanish: 'estar enfadado con',
+  },
+  {
+    english: 'to emphasize',
+    norwegian: 'å legge vekt på',
+    spanish: 'enfatizar',
+  },
+  {
+    english: 'to be annoyed with',
+    norwegian: 'å være ergelig på',
+    spanish: 'estar molesto con',
+  },
+  {
+    english: 'to listen to',
+    norwegian: 'å høre på',
+    spanish: 'escuchar a',
+  },
+  {
+    english: 'to be used to',
+    norwegian: 'å være vant til',
+    spanish: 'estar acostumbrado a',
+  },
+  {
+    english: 'to be obliged to',
+    norwegian: 'å være nødt til',
+    spanish: 'estar obligado a',
+  },
+  {
+    english: 'to have time for',
+    norwegian: 'å ha tid til',
+    spanish: 'tener tiempo para',
+  },
+  {
+    english: 'to have a chance to',
+    norwegian: 'å ha sjanse til',
+    spanish: 'tener oportunidad de',
+  },
+  {
+    english: 'to be good at',
+    norwegian: 'å være flink til',
+    spanish: 'ser bueno en',
+  },
+  {
+    english: 'to afford',
+    norwegian: 'å ha råd til',
+    spanish: 'permitirse',
+  },
+  {
+    english: 'always',
+    norwegian: 'bestandig',
+    spanish: 'siempre',
+  },
+  {
+    english: 'constantly',
+    norwegian: 'stadig',
+    spanish: 'constantemente',
+  },
+  {
+    english: 'especially',
+    norwegian: 'særlig',
+    spanish: 'especialmente',
+  },
+  {
+    english: 'specifically',
+    norwegian: 'spesielt',
+    spanish: 'específicamente',
+  },
+  {
+    english: 'about choice',
+    norwegian: 'om valg',
+    spanish: 'sobre elección',
+  },
+  {
+    english: 'about distribution',
+    norwegian: 'om fordeling',
+    spanish: 'sobre distribución',
+  },
+  {
+    english: 'about addressing',
+    norwegian: 'om adressere',
+    spanish: 'sobre direccionar',
+  },
+  {
+    english: 'about deciding',
+    norwegian: 'om bestemme',
+    spanish: 'sobre decidir',
+  },
+  {
+    english: 'about baptizing',
+    norwegian: 'om døpe',
+    spanish: 'sobre bautizar',
+  },
+  {
+    english: 'on board',
+    norwegian: 'om bord',
+    spanish: 'a bordo',
+  },
+  {
+    english: 'again',
+    norwegian: 'om igjen',
+    spanish: 'de nuevo',
+  },
+  {
+    english: 'for forgiveness',
+    norwegian: 'om forlatelse',
+    spanish: 'por perdón',
+  },
+  {
+    english: 'little by little',
+    norwegian: 'pø om pø',
+    spanish: 'poco a poco',
+  },
+  {
+    english: 'change',
+    norwegian: 'slå om',
+    spanish: 'cambiar',
+  },
+  {
+    english: 'here about',
+    norwegian: 'her om',
+    spanish: 'por aquí',
+  },
+  {
+    english: 'even though',
+    norwegian: 'selv om',
+    spanish: 'aunque',
+  },
+  {
+    english: 'without',
+    norwegian: 'uten om',
+    spanish: 'sin',
+  },
+  {
+    english: 'remind of',
+    norwegian: 'minne om',
+    spanish: 'recordar',
+  },
+  {
+    english: 'change',
+    norwegian: 'legge om',
+    spanish: 'cambiar',
+  },
+  {
+    english: 'rebook',
+    norwegian: 'booke om',
+    spanish: 'reservar de nuevo',
+  },
+  {
+    english: 'redo',
+    norwegian: 'gjøre om',
+    spanish: 'rehacer',
+  },
+  {
+    english: 'be about',
+    norwegian: 'handle om',
+    spanish: 'tratar de',
+  },
+  {
+    english: 'care about',
+    norwegian: 'bry seg om',
+    spanish: 'preocuparse por',
+  },
+  {
+    english: 'change clothes',
+    norwegian: 'kle seg om',
+    spanish: 'cambiarse de ropa',
+  },
+  {
+    english: 'take care of',
+    norwegian: 'ta hånd om',
+    spanish: 'ocuparse de',
+  },
+  {
+    english: 'be about',
+    norwegian: 'dreie seg om',
+    spanish: 'tratarse de',
+  },
+  {
+    english: 'as well as',
+    norwegian: 'samt',
+    spanish: 'así como',
+  },
+  {
+    english: 'politeness',
+    norwegian: 'høflighet',
+    spanish: 'cortesía',
+  },
+  {
+    english: 'gossip',
+    norwegian: 'sladre',
+    spanish: 'chismear',
+  },
+  {
+    english: 'burning hot',
+    norwegian: 'glovarm',
+    spanish: 'ardiente',
+  },
+  {
+    english: 'ice-cold',
+    norwegian: 'iskald',
+    spanish: 'helado',
+  },
+  {
+    english: 'pitch dark',
+    norwegian: 'bekmørkt',
+    spanish: 'oscuro como boca de lobo',
+  },
+  {
+    english: 'sky-high',
+    norwegian: 'skyhøy',
+    spanish: 'muy alto',
+  },
+  {
+    english: 'icy',
+    norwegian: 'isglatt',
+    spanish: 'helado',
+  },
+  {
+    english: 'slippery as soap',
+    norwegian: 'såpeglatt',
+    spanish: 'resbaladizo como jabón',
+  },
+  {
+    english: 'extremely expensive',
+    norwegian: 'svindyr',
+    spanish: 'carísimo',
+  },
+  {
+    english: 'dirt cheap',
+    norwegian: 'grisebillig',
+    spanish: 'muy barato',
+  },
+  {
+    english: 'deathly pale',
+    norwegian: 'lik blek',
+    spanish: 'pálido como un cadáver',
+  },
+  {
+    english: 'ancient',
+    norwegian: 'eldgammel',
+    spanish: 'antiquísimo',
+  },
+  {
+    english: 'feather-light',
+    norwegian: 'fjørlett',
+    spanish: 'ligero como una pluma',
+  },
+  {
+    english: 'very early',
+    norwegian: 'grytidlig',
+    spanish: 'muy temprano',
+  },
+  {
+    english: 'mirror-smooth',
+    norwegian: 'speilblank',
+    spanish: 'liso como un espejo',
+  },
+  {
+    english: 'lightning-fast',
+    norwegian: 'lynrask',
+    spanish: 'rápido como un rayo',
+  },
+  {
+    english: 'dead tired',
+    norwegian: 'stuptrøtt',
+    spanish: 'agotado',
+  },
+  {
+    english: 'lead-heavy',
+    norwegian: 'blytung',
+    spanish: 'pesado como el plomo',
+  },
+  {
+    english: 'bone dry',
+    norwegian: 'knusktørr',
+    spanish: 'seco como un hueso',
+  },
+  {
+    english: 'soaking wet',
+    norwegian: 'kliss våt',
+    spanish: 'empapado',
+  },
+  {
+    english: 'furious',
+    norwegian: 'illsint',
+    spanish: 'furioso',
+  },
+  {
+    english: 'extremely friendly',
+    norwegian: 'smørblid',
+    spanish: 'extremadamente amable',
+  },
+  {
+    english: 'razor-sharp',
+    norwegian: 'sylskarp',
+    spanish: 'afilado como una navaja',
+  },
+  {
+    english: 'the connection',
+    norwegian: 'tilknytningen',
+    spanish: 'la conexión',
+  },
+  {
+    english: 'quite clear',
+    norwegian: 'helt tydelig',
+    spanish: 'muy claro',
+  },
+  {
+    english: 'available',
+    norwegian: 'tilgjengelig',
+    spanish: 'disponible',
+  },
+  {
+    english: 'according to',
+    norwegian: 'ifølge',
+    spanish: 'según',
+  },
+  {
+    english: 'information',
+    norwegian: 'opplysninger',
+    spanish: 'información',
+  },
+  {
+    english: 'connection',
+    norwegian: 'forbindelse',
+    spanish: 'conexión',
+  },
+  {
+    english: 'held',
+    norwegian: 'avholdt',
+    spanish: 'celebrado',
+  },
+  {
+    english: 'memorial service',
+    norwegian: 'minnestund',
+    spanish: 'servicio conmemorativo',
+  },
+  {
+    english: 'be together',
+    norwegian: 'være sammen',
+    spanish: 'estar juntos',
+  },
+  {
+    english: 'gather together',
+    norwegian: 'samle sammen',
+    spanish: 'reunir',
+  },
+  {
+    english: 'merge',
+    norwegian: 'slå sammen',
+    spanish: 'fusionar',
+  },
+  {
+    english: 'hang together',
+    norwegian: 'henge sammen',
+    spanish: 'estar conectado',
+  },
+  {
+    english: 'pull oneself together',
+    norwegian: 'ta seg sammen',
+    spanish: 'recomponerse',
+  },
+  {
+    english: 'stick together',
+    norwegian: 'holde sammen',
+    spanish: 'mantenerse unidos',
+  },
+  {
+    english: 'calculate',
+    norwegian: 'regne sammen',
+    spanish: 'calcular',
+  },
+  {
+    english: 'sew together',
+    norwegian: 'sy sammen',
+    spanish: 'coser',
+  },
+  {
+    english: 'collapse',
+    norwegian: 'falle sammen',
+    spanish: 'colapsar',
+  },
+  {
+    english: 'break down',
+    norwegian: 'bryte sammen',
+    spanish: 'derrumbarse',
+  },
+  {
+    english: 'crowd together',
+    norwegian: 'stimle sammen',
+    spanish: 'agruparse',
+  },
+  {
+    english: 'drum up',
+    norwegian: 'tromme sammen',
+    spanish: 'convocar',
+  },
+  {
+    english: 'crumple up',
+    norwegian: 'krølle sammen',
+    spanish: 'arrugar',
+  },
+  {
+    english: 'conspire',
+    norwegian: 'rotte seg sammen',
+    spanish: 'conspirar',
+  },
+  {
+    english: 'go with',
+    norwegian: 'gå sammen med',
+    spanish: 'ir con',
+  },
+  {
+    english: 'bring together',
+    norwegian: 'føre sammen',
+    spanish: 'unir',
+  },
+  {
+    english: 'mix together',
+    norwegian: 'blande sammen',
+    spanish: 'mezclar',
+  },
+  {
+    english: 'add up',
+    norwegian: 'legge sammen',
+    spanish: 'sumar',
+  },
+  {
+    english: 'put together',
+    norwegian: 'sette sammen',
+    spanish: 'ensamblar',
+  },
+  {
+    english: 'fasten together',
+    norwegian: 'feste sammen',
+    spanish: 'sujetar junto',
+  },
+  {
+    english: 'match',
+    norwegian: 'passe sammen',
+    spanish: 'combinar',
+  },
+  {
+    english: 'connect',
+    norwegian: 'koble sammen',
+    spanish: 'conectar',
+  },
+  {
+    english: 'collide',
+    norwegian: 'støte sammen',
+    spanish: 'chocar',
+  },
+  {
+    english: 'compress',
+    norwegian: 'presse sammen',
+    spanish: 'comprimir',
+  },
+  {
+    english: 'melt together',
+    norwegian: 'smelte sammen',
+    spanish: 'fundirse',
+  },
+  {
+    english: 'talk together',
+    norwegian: 'snakke sammen',
+    spanish: 'hablar entre sí',
+  },
+  {
+    english: 'live together',
+    norwegian: 'bo sammen',
+    spanish: 'vivir juntos',
+  },
+  {
+    english: 'live together',
+    norwegian: 'leve sammen',
+    spanish: 'convivir',
+  },
+  {
+    english: 'suffer together',
+    norwegian: 'lide sammen',
+    spanish: 'sufrir juntos',
+  },
+  {
+    english: 'lie together',
+    norwegian: 'ligge sammen',
+    spanish: 'yacer juntos',
+  },
+  {
+    english: 'belong together',
+    norwegian: 'høre sammen',
+    spanish: 'pertenecer juntos',
+  },
+  {
+    english: 'roll together',
+    norwegian: 'rulle sammen',
+    spanish: 'enrollar junto',
+  },
+  {
+    english: 'glue together',
+    norwegian: 'lime sammen',
+    spanish: 'pegar junto',
+  },
+  {
+    english: 'draw together',
+    norwegian: 'trekke sammen',
+    spanish: 'juntar',
+  },
+  {
+    english: 'pull together',
+    norwegian: 'dra sammen',
+    spanish: 'tirar juntos',
+  },
+  {
     english: 'lack of commitment',
     norwegian: 'mangel på forpliktelse',
     spanish: 'falta de compromiso',
