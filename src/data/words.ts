@@ -3,6 +3,726 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    english: 'average',
+    norwegian: 'gjennomsnittlig',
+    spanish: 'promedio',
+  },
+  {
+    english: 'skin',
+    norwegian: 'hud',
+    spanish: 'piel',
+  },
+  {
+    english: 'prepares',
+    norwegian: 'forbereder',
+    spanish: 'prepara',
+  },
+  {
+    english: 'compared to',
+    norwegian: 'sammenlignet med',
+    spanish: 'comparado con',
+  },
+  {
+    english: 'preferably avoid eye contact',
+    norwegian: 'helst unngå blikkontakt',
+    spanish: 'preferiblemente evitar contacto visual',
+  },
+  {
+    english: 'claim',
+    norwegian: 'påstand',
+    spanish: 'afirmación',
+  },
+  {
+    english: 'facts',
+    norwegian: 'fakta',
+    spanish: 'hechos',
+  },
+  {
+    english: 'reminder',
+    norwegian: 'purring',
+    spanish: 'recordatorio',
+  },
+  {
+    english: 'take care of',
+    norwegian: 'ta vare på',
+    spanish: 'cuidar de',
+  },
+  {
+    english: 'payment request',
+    norwegian: 'betalingsoppfordring',
+    spanish: 'solicitud de pago',
+  },
+  {
+    english: 'legal collection',
+    norwegian: 'rettslig inndrivelse',
+    spanish: 'cobro legal',
+  },
+  {
+    english: 'to be beside oneself',
+    norwegian: 'å være ifra seg',
+    spanish: 'estar fuera de sí',
+  },
+  {
+    english: 'to benefit from',
+    norwegian: 'å være tjent med',
+    spanish: 'beneficiarse de',
+  },
+  {
+    english: 'to be present',
+    norwegian: 'å være til stede',
+    spanish: 'estar presente',
+  },
+  {
+    english: 'to be on',
+    norwegian: 'å være på',
+    spanish: 'estar encendido',
+  },
+  {
+    english: 'to exist',
+    norwegian: 'å være til',
+    spanish: 'existir',
+  },
+  {
+    english: 'to be for',
+    norwegian: 'å være for',
+    spanish: 'estar a favor',
+  },
+  {
+    english: 'to be against',
+    norwegian: 'å være mot',
+    spanish: 'estar en contra',
+  },
+  {
+    english: 'to participate',
+    norwegian: 'å være med',
+    spanish: 'participar',
+  },
+  {
+    english: 'to be subordinate to someone',
+    norwegian: 'å være under noen',
+    spanish: 'estar subordinado a alguien',
+  },
+  {
+    english: 'to be over',
+    norwegian: 'å være over',
+    spanish: 'estar encima',
+  },
+  {
+    english: 'do you have the opportunity to',
+    norwegian: 'har du anledning til å',
+    spanish: '¿tienes la oportunidad de',
+  },
+  {
+    english: 'do you have the possibility to',
+    norwegian: 'har du mulighet til å',
+    spanish: '¿tienes la posibilidad de',
+  },
+  {
+    english: 'chance to',
+    norwegian: 'sjanse til å',
+    spanish: 'oportunidad de',
+  },
+  {
+    english: 'a disservice',
+    norwegian: 'en bjørnetjeneste',
+    spanish: 'un flaco favor',
+  },
+  {
+    english: 'a heartfelt wish',
+    norwegian: 'et inderlig ønske',
+    spanish: 'un deseo sincero',
+  },
+  {
+    english: 'a plea request',
+    norwegian: 'en henvendelse bønn',
+    spanish: 'una solicitud de súplica',
+  },
+  {
+    english: 'as good as',
+    norwegian: 'like grei som',
+    spanish: 'tan bueno como',
+  },
+  {
+    english: 'same quality as',
+    norwegian: 'samme kvalitet som',
+    spanish: 'misma calidad que',
+  },
+  {
+    english: 'mission',
+    norwegian: 'oppdrag',
+    spanish: 'misión',
+  },
+  {
+    english: 'interjection',
+    norwegian: 'utropsord',
+    spanish: 'interjección',
+  },
+  {
+    english: 'slow',
+    norwegian: 'langsom',
+    spanish: 'lento',
+  },
+  {
+    english: 'deserve',
+    norwegian: 'fortjene',
+    spanish: 'merecer',
+  },
+  {
+    english: 'the preliminary tests',
+    norwegian: 'forprøvene',
+    spanish: 'las pruebas preliminares',
+  },
+  {
+    english: 'sometimes',
+    norwegian: 'av og til',
+    spanish: 'a veces',
+  },
+  {
+    english: 'among other things',
+    norwegian: 'blant annet',
+    spanish: 'entre otras cosas',
+  },
+  {
+    english: 'become something',
+    norwegian: 'bli noe av',
+    spanish: 'llegar a ser algo',
+  },
+  {
+    english: 'literally',
+    norwegian: 'bokstavelig talt',
+    spanish: 'literalmente',
+  },
+  {
+    english: 'bear the mark of',
+    norwegian: 'bære preg av',
+    spanish: 'llevar la marca de',
+  },
+  {
+    english: 'all day long',
+    norwegian: 'dagen lang',
+    spanish: 'todo el día',
+  },
+  {
+    english: 'the golden mean',
+    norwegian: 'den gylne middelvei',
+    spanish: 'el término medio',
+  },
+  {
+    english: 'then and there',
+    norwegian: 'der og da',
+    spanish: 'allí y entonces',
+  },
+  {
+    english: "it's not so dangerous",
+    norwegian: 'det er ikke så farlig',
+    spanish: 'no es tan grave',
+  },
+  {
+    english: 'to be about',
+    norwegian: 'dreie seg om',
+    spanish: 'tratarse de',
+  },
+  {
+    english: 'to engage in',
+    norwegian: 'drive med',
+    spanish: 'dedicarse a',
+  },
+  {
+    english: 'show up',
+    norwegian: 'dukke opp',
+    spanish: 'aparecer',
+  },
+  {
+    english: 'make a fool of oneself',
+    norwegian: 'dumme seg ut',
+    spanish: 'hacer el ridículo',
+  },
+  {
+    english: 'take place',
+    norwegian: 'finne sted',
+    spanish: 'tener lugar',
+  },
+  {
+    english: 'at full speed',
+    norwegian: 'for fullt',
+    spanish: 'a toda velocidad',
+  },
+  {
+    english: 'just to be safe',
+    norwegian: 'for sikkerhets skyld',
+    spanish: 'por si acaso',
+  },
+  {
+    english: 'currently',
+    norwegian: 'for tiden',
+    spanish: 'actualmente',
+  },
+  {
+    english: 'follow along',
+    norwegian: 'følge med',
+    spanish: 'seguir',
+  },
+  {
+    english: 'in the past',
+    norwegian: 'før i tiden',
+    spanish: 'en el pasado',
+  },
+  {
+    english: 'first and foremost',
+    norwegian: 'først og fremst',
+    spanish: 'ante todo',
+  },
+  {
+    english: 'catch',
+    norwegian: 'få med seg',
+    spanish: 'entender',
+  },
+  {
+    english: 'get hold of',
+    norwegian: 'få tak i',
+    spanish: 'conseguir',
+  },
+  {
+    english: 'catch sight of',
+    norwegian: 'få øye på',
+    spanish: 'avistar',
+  },
+  {
+    english: 'make fun of',
+    norwegian: 'gjøre narr av',
+    spanish: 'burlarse de',
+  },
+  {
+    english: 'twinkle in the eye',
+    norwegian: 'glimt i øyet',
+    spanish: 'brillo en los ojos',
+  },
+  {
+    english: 'plenty of time',
+    norwegian: 'god tid',
+    spanish: 'mucho tiempo',
+  },
+  {
+    english: 'intervene',
+    norwegian: 'gripe inn',
+    spanish: 'intervenir',
+  },
+  {
+    english: 'be possible',
+    norwegian: 'gå an',
+    spanish: 'ser posible',
+  },
+  {
+    english: 'miss out on',
+    norwegian: 'gå glipp av',
+    spanish: 'perderse',
+  },
+  {
+    english: 'come true',
+    norwegian: 'gå i oppfyllelse',
+    spanish: 'hacerse realidad',
+  },
+  {
+    english: 'go down the drain',
+    norwegian: 'gå i vasken',
+    spanish: 'irse al garete',
+  },
+  {
+    english: 'cross the line',
+    norwegian: 'gå over streken',
+    spanish: 'cruzar la línea',
+  },
+  {
+    english: 'get lost',
+    norwegian: 'gå seg vill',
+    spanish: 'perderse',
+  },
+  {
+    english: 'expire',
+    norwegian: 'gå ut på dato',
+    spanish: 'caducar',
+  },
+  {
+    english: 'want',
+    norwegian: 'ha lyst på',
+    spanish: 'desear',
+  },
+  {
+    english: 'have something on the tip of your tongue',
+    norwegian: 'ha noe på tunga',
+    spanish: 'tener algo en la punta de la lengua',
+  },
+  {
+    english: 'totally raw/cool',
+    norwegian: 'helt rå',
+    spanish: 'muy guay',
+  },
+  {
+    english: 'stand the test',
+    norwegian: 'holde mål',
+    spanish: 'resistir la prueba',
+  },
+  {
+    english: 'be busy with',
+    norwegian: 'holde på med',
+    spanish: 'estar ocupado con',
+  },
+  {
+    english: 'skip',
+    norwegian: 'hoppe over',
+    spanish: 'saltar',
+  },
+  {
+    english: 'belong',
+    norwegian: 'høre hjemme',
+    spanish: 'pertenecer',
+  },
+  {
+    english: 'lately',
+    norwegian: 'i det siste',
+    spanish: 'últimamente',
+  },
+  {
+    english: 'in progress',
+    norwegian: 'i gang',
+    spanish: 'en marcha',
+  },
+  {
+    english: 'according to',
+    norwegian: 'i henhold til',
+    spanish: 'de acuerdo con',
+  },
+  {
+    english: 'able',
+    norwegian: 'i stand',
+    spanish: 'capaz',
+  },
+  {
+    english: 'instead of',
+    norwegian: 'i stedet for',
+    spanish: 'en lugar de',
+  },
+  {
+    english: 'broken',
+    norwegian: 'i stykker',
+    spanish: 'roto',
+  },
+  {
+    english: 'in that case',
+    norwegian: 'i så fall',
+    spanish: 'en ese caso',
+  },
+  {
+    english: 'initially',
+    norwegian: 'i utgangspunktet',
+    spanish: 'inicialmente',
+  },
+  {
+    english: 'not easy',
+    norwegian: 'ikke bare bare',
+    spanish: 'no es fácil',
+  },
+  {
+    english: 'not so bad',
+    norwegian: 'ikke så verst',
+    spanish: 'no tan mal',
+  },
+  {
+    english: 'get dressed',
+    norwegian: 'kle på seg',
+    spanish: 'vestirse',
+  },
+  {
+    english: 'pretend',
+    norwegian: 'late som',
+    spanish: 'fingir',
+  },
+  {
+    english: 'tired of',
+    norwegian: 'lei av',
+    spanish: 'cansado de',
+  },
+  {
+    english: 'specifically',
+    norwegian: 'nærmere bestemt',
+    spanish: 'específicamente',
+  },
+  {
+    english: 'when it comes to',
+    norwegian: 'når det gjelder',
+    spanish: 'en cuanto a',
+  },
+  {
+    english: 'upside down',
+    norwegian: 'opp ned',
+    spanish: 'al revés',
+  },
+  {
+    english: 'on your own',
+    norwegian: 'på egen hånd',
+    spanish: 'por tu cuenta',
+  },
+  {
+    english: 'in a way',
+    norwegian: 'på en måte',
+    spanish: 'en cierto modo',
+  },
+  {
+    english: 'in advance',
+    norwegian: 'på forhånd',
+    spanish: 'de antemano',
+  },
+  {
+    english: 'because of',
+    norwegian: 'på grunn av',
+    spanish: 'a causa de',
+  },
+  {
+    english: 'on the edge',
+    norwegian: 'på kanten',
+    spanish: 'al borde',
+  },
+  {
+    english: 'in a row',
+    norwegian: 'på rad',
+    spanish: 'seguidos',
+  },
+  {
+    english: 'in the long run',
+    norwegian: 'på sikt',
+    spanish: 'a largo plazo',
+  },
+  {
+    english: 'at full speed',
+    norwegian: 'på spreng',
+    spanish: 'a toda velocidad',
+  },
+  {
+    english: 'on the way',
+    norwegian: 'på vei',
+    spanish: 'en camino',
+  },
+  {
+    english: 'straight ahead',
+    norwegian: 'rett frem',
+    spanish: 'todo recto',
+  },
+  {
+    english: 'straight to the point',
+    norwegian: 'rett på sak',
+    spanish: 'al grano',
+  },
+  {
+    english: 'ignore',
+    norwegian: 'se bort fra',
+    spanish: 'ignorar',
+  },
+  {
+    english: 'be optimistic about',
+    norwegian: 'se lyst på',
+    spanish: 'ser optimista sobre',
+  },
+  {
+    english: 'look like',
+    norwegian: 'se ut som',
+    spanish: 'parecer',
+  },
+  {
+    english: 'appreciate',
+    norwegian: 'sette pris på',
+    spanish: 'apreciar',
+  },
+  {
+    english: 'speak up',
+    norwegian: 'si ifra',
+    spanish: 'avisar',
+  },
+  {
+    english: 'go without saying',
+    norwegian: 'si seg selv',
+    spanish: 'ser obvio',
+  },
+  {
+    english: 'be stuck',
+    norwegian: 'sitte fast',
+    spanish: 'estar atascado',
+  },
+  {
+    english: 'get a ride',
+    norwegian: 'sitte på',
+    spanish: 'ir de pasajero',
+  },
+  {
+    english: 'stand out',
+    norwegian: 'skille seg ut',
+    spanish: 'destacarse',
+  },
+  {
+    english: 'pull oneself together',
+    norwegian: 'skjerpse seg',
+    spanish: 'espabilarse',
+  },
+  {
+    english: 'skid',
+    norwegian: 'skli ut',
+    spanish: 'patinar',
+  },
+  {
+    english: 'relax',
+    norwegian: 'slappe av',
+    spanish: 'relajarse',
+  },
+  {
+    english: 'get away',
+    norwegian: 'slippe unna',
+    spanish: 'escapar',
+  },
+  {
+    english: 'wear oneself out',
+    norwegian: 'slite seg ut',
+    spanish: 'agotarse',
+  },
+  {
+    english: 'catch on',
+    norwegian: 'slå an',
+    spanish: 'tener éxito',
+  },
+  {
+    english: 'look up',
+    norwegian: 'slå opp',
+    spanish: 'buscar',
+  },
+  {
+    english: 'arm oneself with patience',
+    norwegian: 'smøre seg med tålmodighet',
+    spanish: 'armarse de paciencia',
+  },
+  {
+    english: 'overkill',
+    norwegian: 'smør på flesk',
+    spanish: 'redundancia',
+  },
+  {
+    english: 'talk non-stop',
+    norwegian: 'snakke som en foss',
+    spanish: 'hablar sin parar',
+  },
+  {
+    english: 'speak ill of',
+    norwegian: 'snakke stygt om',
+    spanish: 'hablar mal de',
+  },
+  {
+    english: 'talk it out',
+    norwegian: 'snakke ut',
+    spanish: 'hablar claro',
+  },
+  {
+    english: 'like night and day',
+    norwegian: 'som natt og dag',
+    spanish: 'como la noche y el día',
+  },
+  {
+    english: 'as a rule',
+    norwegian: 'som regel',
+    spanish: 'por regla general',
+  },
+  {
+    english: 'play a role',
+    norwegian: 'spille en rolle',
+    spanish: 'desempeñar un papel',
+  },
+  {
+    english: 'drop by',
+    norwegian: 'stikke innom',
+    spanish: 'pasar por',
+  },
+  {
+    english: 'trust',
+    norwegian: 'stole på',
+    spanish: 'confiar en',
+  },
+  {
+    english: 'by and large',
+    norwegian: 'stort sett',
+    spanish: 'en general',
+  },
+  {
+    english: 'common sense',
+    norwegian: 'sunn fornuft',
+    spanish: 'sentido común',
+  },
+  {
+    english: 'take it easy',
+    norwegian: 'ta det med ro',
+    spanish: 'tomárselo con calma',
+  },
+  {
+    english: 'think twice',
+    norwegian: 'tenke seg om',
+    spanish: 'pensárselo dos veces',
+  },
+  {
+    english: 'to a certain extent',
+    norwegian: 'til en viss grad',
+    spanish: 'hasta cierto punto',
+  },
+  {
+    english: 'in total',
+    norwegian: 'til sammen',
+    spanish: 'en total',
+  },
+  {
+    english: 'present',
+    norwegian: 'til stede',
+    spanish: 'presente',
+  },
+  {
+    english: 'two birds with one stone',
+    norwegian: 'to fluer i en smekk',
+    spanish: 'matar dos pájaros de un tiro',
+  },
+  {
+    english: 'believe it or not',
+    norwegian: 'tro det eller ei',
+    spanish: 'créelo o no',
+  },
+  {
+    english: 'indicate',
+    norwegian: 'tyde på',
+    spanish: 'indicar',
+  },
+  {
+    english: 'without rhyme or reason',
+    norwegian: 'uten mål og mening',
+    spanish: 'sin ton ni son',
+  },
+  {
+    english: 'next to',
+    norwegian: 'ved siden av',
+    spanish: 'al lado de',
+  },
+  {
+    english: 'get used to',
+    norwegian: 'venne seg til',
+    spanish: 'acostumbrarse a',
+  },
+  {
+    english: 'we will see',
+    norwegian: 'vi får se',
+    spanish: 'ya veremos',
+  },
+  {
+    english: 'be on schedule',
+    norwegian: 'være i rute',
+    spanish: 'estar a tiempo',
+  },
+  {
+    english: 'be concerned with',
+    norwegian: 'være opptatt av',
+    spanish: 'estar preocupado por',
+  },
+  {
     english: 'envious',
     norwegian: 'missunnelig',
     spanish: 'envidioso',
@@ -163,7 +883,7 @@ export const words: Question[] = [
     spanish: 'ver de reojo',
   },
   {
-    english: "find one's way",
+    english: 'find ones way',
     norwegian: 'finne frem',
     spanish: 'orientarse',
   },
