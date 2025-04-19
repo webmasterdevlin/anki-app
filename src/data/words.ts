@@ -213,7 +213,7 @@ export const words: Question[] = [
     spanish: 'allí y entonces',
   },
   {
-    english: "it's not so dangerous",
+    english: 'it is not so dangerous',
     norwegian: 'det er ikke så farlig',
     spanish: 'no es tan grave',
   },
@@ -858,7 +858,7 @@ export const words: Question[] = [
     spanish: 'plagio',
   },
   {
-    english: "it doesn't matter",
+    english: 'it does not matter',
     norwegian: 'det gjør ikke noe',
     spanish: 'no importa',
   },
@@ -928,7 +928,7 @@ export const words: Question[] = [
     spanish: 'hacer algo a la perfección',
   },
   {
-    english: "that's fine",
+    english: 'that is fine',
     norwegian: 'den er grei',
     spanish: 'está bien',
   },
@@ -1606,6 +1606,1386 @@ export const words: Question[] = [
     english: 'connection',
     norwegian: 'forbindelse',
     spanish: 'conexión',
+  },
+  {
+    english: 'to be in line with',
+    norwegian: 'å være på linje med',
+    spanish: 'estar en línea con',
+  },
+  {
+    english: 'to be in accordance with',
+    norwegian: 'å være i tråd med',
+    spanish: 'estar de acuerdo con',
+  },
+  {
+    english: 'in accordance with',
+    norwegian: 'i samsvar med',
+    spanish: 'de conformidad con',
+  },
+  {
+    english: 'in connection with',
+    norwegian: 'i forbindelse med',
+    spanish: 'en relación con',
+  },
+  {
+    english: 'in keeping with',
+    norwegian: 'i pakt med',
+    spanish: 'de acuerdo con',
+  },
+  {
+    english: 'behind the scenes',
+    norwegian: 'bak kulissene',
+    spanish: 'detrás de escena',
+  },
+  {
+    english: 'venom and bile (bitterness)',
+    norwegian: 'edder og galle',
+    spanish: 'veneno y bilis (amargura)',
+  },
+  {
+    english: 'single-handedly',
+    norwegian: 'egenhendig',
+    spanish: 'personalmente',
+  },
+  {
+    english: 'no thank you otherwise I am full',
+    norwegian: 'nei ellers takk jeg er mett',
+    spanish: 'no gracias, de lo contrario estoy lleno',
+  },
+  {
+    english: 'then much is done',
+    norwegian: 'da er mye gjort',
+    spanish: 'entonces mucho está hecho',
+  },
+  {
+    english: 'then that sorrow was extinguished',
+    norwegian: 'da var den sorgen slukket',
+    spanish: 'entonces esa pena se extinguió',
+  },
+  {
+    english: 'then there are two of us',
+    norwegian: 'da er vi to',
+    spanish: 'entonces somos dos',
+  },
+  {
+    english: 'then the bell got another tune (things changed)',
+    norwegian: 'da fikk bjella en annen låt',
+    spanish: 'entonces la campana tuvo otra melodía (las cosas cambiaron)',
+  },
+  {
+    english: 'gobble up',
+    norwegian: 'gafle i seg',
+    spanish: 'engullir',
+  },
+  {
+    english: 'old days',
+    norwegian: 'gamle dager',
+    spanish: 'viejos tiempos',
+  },
+  {
+    english: 'old habits die hard',
+    norwegian: 'gammel vane er vond å vende',
+    spanish: 'las viejas costumbres son difíciles de cambiar',
+  },
+  {
+    english: 'give in',
+    norwegian: 'gi etter',
+    spanish: 'ceder',
+  },
+  {
+    english: 'make a sound',
+    norwegian: 'gi lyd fra seg',
+    spanish: 'hacer un sonido',
+  },
+  {
+    english: 'access',
+    norwegian: 'adgang',
+    spanish: 'acceso',
+  },
+  {
+    english: 'second half',
+    norwegian: 'andreomgang',
+    spanish: 'segunda mitad',
+  },
+  {
+    english: 'vintage/year',
+    norwegian: 'årgang',
+    spanish: 'añada/año',
+  },
+  {
+    english: 'balancing act',
+    norwegian: 'balansegang',
+    spanish: 'acto de equilibrio',
+  },
+  {
+    english: 'population decline',
+    norwegian: 'befolkningsnedgang',
+    spanish: 'disminución de la población',
+  },
+  {
+    english: 'procedure',
+    norwegian: 'saksgang',
+    spanish: 'procedimiento',
+  },
+  {
+    english: 'transition',
+    norwegian: 'overgang',
+    spanish: 'transición',
+  },
+  {
+    english: 'staircase/upturn',
+    norwegian: 'oppgang',
+    spanish: 'escalera/repunte',
+  },
+  {
+    english: 'idle',
+    norwegian: 'tomgang',
+    spanish: 'ralentí',
+  },
+  {
+    english: 'single file',
+    norwegian: 'gåsegang',
+    spanish: 'fila india',
+  },
+  {
+    english: 'gangway',
+    norwegian: 'landgang',
+    spanish: 'pasarela',
+  },
+  {
+    english: 'way of thinking',
+    norwegian: 'tankegang',
+    spanish: 'forma de pensar',
+  },
+  {
+    english: 'schooling',
+    norwegian: 'skolegang',
+    spanish: 'escolaridad',
+  },
+  {
+    english: 'round/intercourse',
+    norwegian: 'omgang',
+    spanish: 'ronda/relación',
+  },
+  {
+    english: 'so to speak',
+    norwegian: 'så å si',
+    spanish: 'por así decirlo',
+  },
+  {
+    english: 'is rather expensive',
+    norwegian: 'er temmelig dyr',
+    spanish: 'es bastante caro',
+  },
+  {
+    english: 'fabulous',
+    norwegian: 'fabelaktig',
+    spanish: 'fabuloso',
+  },
+  {
+    english: 'pass away/be omitted',
+    norwegian: 'falle bort',
+    spanish: 'fallecer/ser omitido',
+  },
+  {
+    english: 'yield to temptation',
+    norwegian: 'falle for fristelsen',
+    spanish: 'caer en la tentación',
+  },
+  {
+    english: 'grope for words',
+    norwegian: 'famle etter ordene',
+    spanish: 'buscar palabras a tientas',
+  },
+  {
+    english: 'grasp and comprehend',
+    norwegian: 'fatte og begripe',
+    spanish: 'captar y comprender',
+  },
+  {
+    english: 'be brief',
+    norwegian: 'fatte seg i kovthet',
+    spanish: 'ser breve',
+  },
+  {
+    english: 'sweep something under the rug',
+    norwegian: 'feie noe under teppet',
+    spanish: 'barrer algo debajo de la alfombra',
+  },
+  {
+    english: 'ready-made',
+    norwegian: 'fiks ferdig',
+    spanish: 'listo para usar',
+  },
+  {
+    english: 'it is possible',
+    norwegian: 'det går an',
+    spanish: 'es posible',
+  },
+  {
+    english: 'to hit on someone',
+    norwegian: 'å legge an på noen',
+    spanish: 'ligar con alguien',
+  },
+  {
+    english: 'have bad breath',
+    norwegian: 'har dårlig ånde',
+    spanish: 'tener mal aliento',
+  },
+  {
+    english: 'perform an intervention/surgery',
+    norwegian: 'foreta et inngrep',
+    spanish: 'realizar una intervención/cirugía',
+  },
+  {
+    english: 'black humor',
+    norwegian: 'svart humor',
+    spanish: 'humor negro',
+  },
+  {
+    english: 'to please everyone',
+    norwegian: 'å gjøre alle til lags',
+    spanish: 'complacer a todos',
+  },
+  {
+    english: 'please',
+    norwegian: 'behage',
+    spanish: 'complacer',
+  },
+  {
+    english: 'reassure',
+    norwegian: 'berolige',
+    spanish: 'tranquilizar',
+  },
+  {
+    english: 'fulfill',
+    norwegian: 'innfri',
+    spanish: 'cumplir',
+  },
+  {
+    english: 'beatify',
+    norwegian: 'lykksaliggjøre',
+    spanish: 'beatificar',
+  },
+  {
+    english: 'fulfill',
+    norwegian: 'oppfylle',
+    spanish: 'cumplir',
+  },
+  {
+    english: 'satisfy',
+    norwegian: 'tilfredsstille',
+    spanish: 'satisfacer',
+  },
+  {
+    english: 'a council/advice',
+    norwegian: 'et råd',
+    spanish: 'un consejo',
+  },
+  {
+    english: 'to consult',
+    norwegian: 'å rådslå',
+    spanish: 'consultar',
+  },
+  {
+    english: 'a chief municipal executive',
+    norwegian: 'en rådmann',
+    spanish: 'un director ejecutivo municipal',
+  },
+  {
+    english: 'a city council',
+    norwegian: 'et byråd',
+    spanish: 'un ayuntamiento',
+  },
+  {
+    english: 'a consultation',
+    norwegian: 'et samråd',
+    spanish: 'una consulta',
+  },
+  {
+    english: 'a student council',
+    norwegian: 'et elevråd',
+    spanish: 'un consejo estudiantil',
+  },
+  {
+    english: 'a conciliation board',
+    norwegian: 'et forliksåd',
+    spanish: 'una junta de conciliación',
+  },
+  {
+    english: 'a conflict council',
+    norwegian: 'et konfliktråd',
+    spanish: 'un consejo de conflictos',
+  },
+  {
+    english: 'beer belly',
+    norwegian: 'ølmage',
+    spanish: 'barriga cervecera',
+  },
+  {
+    english: 'teeth drying (smiling broadly)',
+    norwegian: 'tenna på tørk',
+    spanish: 'dientes secándose (sonriendo ampliamente)',
+  },
+  {
+    english: 'to ache',
+    norwegian: 'å verke',
+    spanish: 'doler',
+  },
+  {
+    english: 'to sting',
+    norwegian: 'å svi',
+    spanish: 'picar',
+  },
+  {
+    english: 'to suffer',
+    norwegian: 'å lide',
+    spanish: 'sufrir',
+  },
+  {
+    english: 'I have a cramp in my foot',
+    norwegian: 'jeg har krampe i foten',
+    spanish: 'tengo un calambre en el pie',
+  },
+  {
+    english: 'scab on the wound',
+    norwegian: 'skorpe på såret',
+    spanish: 'costra en la herida',
+  },
+  {
+    english: 'cataract',
+    norwegian: 'grå stær',
+    spanish: 'catarata',
+  },
+  {
+    english: 'eagle eye',
+    norwegian: 'falkeblikk',
+    spanish: 'vista de águila',
+  },
+  {
+    english: 'apple cheeks',
+    norwegian: 'eplekinn',
+    spanish: 'mejillas de manzana',
+  },
+  {
+    english: 'discussion is about',
+    norwegian: 'drøfting handler om',
+    spanish: 'la discusión trata sobre',
+  },
+  {
+    english: 'on discussion',
+    norwegian: 'på drøftende',
+    spanish: 'en discusión',
+  },
+  {
+    english: 'amortization',
+    norwegian: 'amortisering',
+    spanish: 'amortización',
+  },
+  {
+    english: 'annuity',
+    norwegian: 'annuitet',
+    spanish: 'anualidad',
+  },
+  {
+    english: 'annuity loan',
+    norwegian: 'annuitetslån',
+    spanish: 'préstamo de anualidad',
+  },
+  {
+    english: 'direct debit',
+    norwegian: 'avtalegiro',
+    spanish: 'domiciliación bancaria',
+  },
+  {
+    english: 'payment default record',
+    norwegian: 'betalingsanmerking',
+    spanish: 'registro de impago',
+  },
+  {
+    english: 'housing credit',
+    norwegian: 'boligkreditt',
+    spanish: 'crédito hipotecario',
+  },
+  {
+    english: 'debt collection cases',
+    norwegian: 'inkassosaker',
+    spanish: 'casos de cobro de deudas',
+  },
+  {
+    english: 'effective interest rate',
+    norwegian: 'effektiv rente',
+    spanish: 'tasa de interés efectiva',
+  },
+  {
+    english: 'fixed interest rate',
+    norwegian: 'fastrente',
+    spanish: 'tasa de interés fija',
+  },
+  {
+    english: 'fixed-rate loan',
+    norwegian: 'fastrentelån',
+    spanish: 'préstamo a tasa fija',
+  },
+  {
+    english: 'financing',
+    norwegian: 'finansiering',
+    spanish: 'financiación',
+  },
+  {
+    english: 'floating interest rate',
+    norwegian: 'flytende rente',
+    spanish: 'tasa de interés variable',
+  },
+  {
+    english: 'for consumer loan',
+    norwegian: 'for brukslån',
+    spanish: 'para préstamo de consumo',
+  },
+  {
+    english: 'debt',
+    norwegian: 'gjeld',
+    spanish: 'deuda',
+  },
+  {
+    english: 'promissory note',
+    norwegian: 'gjeldsbrev',
+    spanish: 'pagaré',
+  },
+  {
+    english: 'debt consolidation',
+    norwegian: 'gjeldskonsolidering',
+    spanish: 'consolidación de deudas',
+  },
+  {
+    english: 'principal amount',
+    norwegian: 'hovedstol',
+    spanish: 'capital principal',
+  },
+  {
+    english: 'redemption fee',
+    norwegian: 'innfrielsesgebyr',
+    spanish: 'comisión de cancelación',
+  },
+  {
+    english: 'credit limit',
+    norwegian: 'kreditt grense',
+    spanish: 'límite de crédito',
+  },
+  {
+    english: 'credit card',
+    norwegian: 'kredittkort',
+    spanish: 'tarjeta de crédito',
+  },
+  {
+    english: 'credit information',
+    norwegian: 'kredittopplysninger',
+    spanish: 'información crediticia',
+  },
+  {
+    english: 'creditworthiness',
+    norwegian: 'kredittverdighet',
+    spanish: 'solvencia crediticia',
+  },
+  {
+    english: 'credit check',
+    norwegian: 'kredittsjekk',
+    spanish: 'verificación de crédito',
+  },
+  {
+    english: 'loan term',
+    norwegian: 'løpetid',
+    spanish: 'plazo del préstamo',
+  },
+  {
+    english: 'lender',
+    norwegian: 'lånegiver',
+    spanish: 'prestamista',
+  },
+  {
+    english: 'loan calculator',
+    norwegian: 'lånekalkulator',
+    spanish: 'calculadora de préstamos',
+  },
+  {
+    english: 'loan interest rate',
+    norwegian: 'lånerente',
+    spanish: 'tasa de interés del préstamo',
+  },
+  {
+    english: 'borrower',
+    norwegian: 'låntaker',
+    spanish: 'prestatario',
+  },
+  {
+    english: 'co-applicant',
+    norwegian: 'medsøker',
+    spanish: 'co-solicitante',
+  },
+  {
+    english: 'default',
+    norwegian: 'mislighold',
+    spanish: 'incumplimiento',
+  },
+  {
+    english: 'nominal interest rate',
+    norwegian: 'nominell rente',
+    spanish: 'tasa de interés nominal',
+  },
+  {
+    english: 'refinancing',
+    norwegian: 'refinansiering',
+    spanish: 'refinanciación',
+  },
+  {
+    english: 'interest rate',
+    norwegian: 'rente',
+    spanish: 'tasa de interés',
+  },
+  {
+    english: 'serial loan',
+    norwegian: 'serielån',
+    spanish: 'préstamo en serie',
+  },
+  {
+    english: 'security/collateral',
+    norwegian: 'sikkerhet',
+    spanish: 'seguridad/garantía',
+  },
+  {
+    english: 'secured loan',
+    norwegian: 'sikret lån',
+    spanish: 'préstamo garantizado',
+  },
+  {
+    english: 'small loan',
+    norwegian: 'smålån',
+    spanish: 'préstamo pequeño',
+  },
+  {
+    english: 'installment amount',
+    norwegian: 'terminbeløp',
+    spanish: 'importe de la cuota',
+  },
+  {
+    english: 'installment fee',
+    norwegian: 'terminavgift',
+    spanish: 'comisión de cuota',
+  },
+  {
+    english: 'unsecured loan',
+    norwegian: 'usikret lån',
+    spanish: 'préstamo sin garantía',
+  },
+  {
+    english: 'annual fee',
+    norwegian: 'årsavgift',
+    spanish: 'cuota anual',
+  },
+  {
+    english: 'painting',
+    norwegian: 'maleri',
+    spanish: 'pintura',
+  },
+  {
+    english: 'proposal',
+    norwegian: 'frieri',
+    spanish: 'propuesta de matrimonio',
+  },
+  {
+    english: 'alcoholic',
+    norwegian: 'alkoholiker',
+    spanish: 'alcohólico',
+  },
+  {
+    english: 'logician',
+    norwegian: 'logiker',
+    spanish: 'lógico',
+  },
+  {
+    english: 'comedian',
+    norwegian: 'komiker',
+    spanish: 'comediante',
+  },
+  {
+    english: 'well-being',
+    norwegian: 'trivsel',
+    spanish: 'bienestar',
+  },
+  {
+    english: 'hearing',
+    norwegian: 'hørsel',
+    spanish: 'oído',
+  },
+  {
+    english: 'freedom',
+    norwegian: 'frihet',
+    spanish: 'libertad',
+  },
+  {
+    english: 'equality',
+    norwegian: 'likhet',
+    spanish: 'igualdad',
+  },
+  {
+    english: 'application',
+    norwegian: 'søknad',
+    spanish: 'solicitud',
+  },
+  {
+    english: 'cost',
+    norwegian: 'kostnad',
+    spanish: 'costo',
+  },
+  {
+    english: 'vehicle',
+    norwegian: 'kjøretøy',
+    spanish: 'vehículo',
+  },
+  {
+    english: 'knitting',
+    norwegian: 'striketøy',
+    spanish: 'tejido de punto',
+  },
+  {
+    english: 'jam',
+    norwegian: 'syltetøy',
+    spanish: 'mermelada',
+  },
+  {
+    english: 'building',
+    norwegian: 'bygning',
+    spanish: 'edificio',
+  },
+  {
+    english: 'arrangement',
+    norwegian: 'ordning',
+    spanish: 'arreglo',
+  },
+  {
+    english: 'construction',
+    norwegian: 'bygging',
+    spanish: 'construcción',
+  },
+  {
+    english: 'washing',
+    norwegian: 'vasking',
+    spanish: 'lavado',
+  },
+  {
+    english: 'education',
+    norwegian: 'utdannelse',
+    spanish: 'educación',
+  },
+  {
+    english: 'poverty',
+    norwegian: 'fattigdom',
+    spanish: 'pobreza',
+  },
+  {
+    english: 'wealth',
+    norwegian: 'rikdom',
+    spanish: 'riqueza',
+  },
+  {
+    english: 'science',
+    norwegian: 'vitenskap',
+    spanish: 'ciencia',
+  },
+  {
+    english: 'well-being',
+    norwegian: 'velfred',
+    spanish: 'bienestar',
+  },
+  {
+    english: 'equality',
+    norwegian: 'likestilling',
+    spanish: 'igualdad',
+  },
+  {
+    english: 'unclear',
+    norwegian: 'utydelig',
+    spanish: 'poco claro',
+  },
+  {
+    english: 'exposed/postponed',
+    norwegian: 'utsatt',
+    spanish: 'expuesto/pospuesto',
+  },
+  {
+    english: 'inexperienced',
+    norwegian: 'uerfaren',
+    spanish: 'inexperto',
+  },
+  {
+    english: 'to get the green light for something',
+    norwegian: 'å få grønt lys for noe',
+    spanish: 'obtener luz verde para algo',
+  },
+  {
+    english: 'to be annoyed',
+    norwegian: 'å ergre seg',
+    spanish: 'molestarse',
+  },
+  {
+    english: 'to get irritated',
+    norwegian: 'å irritere seg',
+    spanish: 'irritarse',
+  },
+  {
+    english: 'self-esteem',
+    norwegian: 'selvfølelse',
+    spanish: 'autoestima',
+  },
+  {
+    english: 'self-image',
+    norwegian: 'selvbilde',
+    spanish: 'autoimagen',
+  },
+  {
+    english: 'self-confidence',
+    norwegian: 'selvtillit',
+    spanish: 'autoconfianza',
+  },
+  {
+    english: 'fear',
+    norwegian: 'frykt',
+    spanish: 'miedo',
+  },
+  {
+    english: 'inside',
+    norwegian: 'innenfor',
+    spanish: 'dentro de',
+  },
+  {
+    english: 'below',
+    norwegian: 'nedenfor',
+    spanish: 'debajo de',
+  },
+  {
+    english: 'above',
+    norwegian: 'ovenfor',
+    spanish: 'encima de',
+  },
+  {
+    english: 'outside',
+    norwegian: 'utenfor',
+    spanish: 'fuera de',
+  },
+  {
+    english: 'beyond',
+    norwegian: 'bartenfor',
+    spanish: 'más allá de',
+  },
+  {
+    english: 'professions and demonyms',
+    norwegian: 'yrker og demonymer',
+    spanish: 'profesiones y gentilicios',
+  },
+  {
+    english: 'skilled',
+    norwegian: 'dyktig',
+    spanish: 'hábil',
+  },
+  {
+    english: 'since/as',
+    norwegian: 'ettersom',
+    spanish: 'ya que/como',
+  },
+  {
+    english: 'cause',
+    norwegian: 'årsak',
+    spanish: 'causa',
+  },
+  {
+    english: 'in exchange for',
+    norwegian: 'i bytte med',
+    spanish: 'a cambio de',
+  },
+  {
+    english: 'with the help of',
+    norwegian: 'med hjelp av',
+    spanish: 'con la ayuda de',
+  },
+  {
+    english: 'textiles',
+    norwegian: 'tekstiler',
+    spanish: 'textiles',
+  },
+  {
+    english: 'grinds',
+    norwegian: 'gnisser',
+    spanish: 'rechina',
+  },
+  {
+    english: 'behaves',
+    norwegian: 'oppfører',
+    spanish: 'se comporta',
+  },
+  {
+    english: 'to care for/tend',
+    norwegian: 'å stelle',
+    spanish: 'cuidar/atender',
+  },
+  {
+    english: 'take care of home',
+    norwegian: 'stelle hjemme',
+    spanish: 'cuidar la casa',
+  },
+  {
+    english: 'mind ones own business',
+    norwegian: 'stell med sitt',
+    spanish: 'ocuparse de sus asuntos',
+  },
+  {
+    english: 'to fit/suit/watch',
+    norwegian: 'å passe',
+    spanish: 'quedar bien/convenir/vigilar',
+  },
+  {
+    english: 'take care of oneself',
+    norwegian: 'passe på seg selv',
+    spanish: 'cuidarse',
+  },
+  {
+    english: 'pale',
+    norwegian: 'blek',
+    spanish: 'pálido',
+  },
+  {
+    english: 'ink',
+    norwegian: 'blekk',
+    spanish: 'tinta',
+  },
+  {
+    english: 'bleat',
+    norwegian: 'breke',
+    spanish: 'balar',
+  },
+  {
+    english: 'break',
+    norwegian: 'brekke',
+    spanish: 'romper',
+  },
+  {
+    english: 'ether/eats',
+    norwegian: 'eter',
+    spanish: 'éter/come',
+  },
+  {
+    english: 'after',
+    norwegian: 'etter',
+    spanish: 'después',
+  },
+  {
+    english: 'fatter',
+    norwegian: 'fetere',
+    spanish: 'más gordo',
+  },
+  {
+    english: 'cousins (male)',
+    norwegian: 'fettere',
+    spanish: 'primos',
+  },
+  {
+    english: 'doctor',
+    norwegian: 'lege',
+    spanish: 'médico',
+  },
+  {
+    english: 'lay',
+    norwegian: 'legge',
+    spanish: 'poner',
+  },
+  {
+    english: 'the doctor',
+    norwegian: 'legen',
+    spanish: 'el médico',
+  },
+  {
+    english: 'the calf (leg)',
+    norwegian: 'leggen',
+    spanish: 'la pantorrilla',
+  },
+  {
+    english: 'read',
+    norwegian: 'lese',
+    spanish: 'leer',
+  },
+  {
+    english: 'loads',
+    norwegian: 'lesser',
+    spanish: 'carga',
+  },
+  {
+    english: 'search',
+    norwegian: 'lete',
+    spanish: 'buscar',
+  },
+  {
+    english: 'lighten/ease',
+    norwegian: 'lette',
+    spanish: 'aliviar/facilitar',
+  },
+  {
+    english: 'turnip',
+    norwegian: 'nepe',
+    spanish: 'nabo',
+  },
+  {
+    english: 'hardly',
+    norwegian: 'neppe',
+    spanish: 'apenas',
+  },
+  {
+    english: 'pretty',
+    norwegian: 'pen',
+    spanish: 'bonito',
+  },
+  {
+    english: 'pen',
+    norwegian: 'penn',
+    spanish: 'bolígrafo',
+  },
+  {
+    english: 'clean',
+    norwegian: 'ren',
+    spanish: 'limpio',
+  },
+  {
+    english: 'run',
+    norwegian: 'renn',
+    spanish: 'correr',
+  },
+  {
+    english: 'seat',
+    norwegian: 'sete',
+    spanish: 'asiento',
+  },
+  {
+    english: 'set',
+    norwegian: 'sette',
+    spanish: 'poner',
+  },
+  {
+    english: 'fit',
+    norwegian: 'sprek',
+    spanish: 'en forma',
+  },
+  {
+    english: 'crack',
+    norwegian: 'sprekk',
+    spanish: 'grieta',
+  },
+  {
+    english: 'line',
+    norwegian: 'strek',
+    spanish: 'línea',
+  },
+  {
+    english: 'stretch',
+    norwegian: 'strekk',
+    spanish: 'estiramiento',
+  },
+  {
+    english: 'lines',
+    norwegian: 'streker',
+    spanish: 'líneas',
+  },
+  {
+    english: 'stretches',
+    norwegian: 'strekker',
+    spanish: 'estira',
+  },
+  {
+    english: 'betrayed',
+    norwegian: 'sveket',
+    spanish: 'traicionado',
+  },
+  {
+    english: 'weakened',
+    norwegian: 'svekket',
+    spanish: 'debilitado',
+  },
+  {
+    english: 'yield',
+    norwegian: 'vek',
+    spanish: 'ceder',
+  },
+  {
+    english: 'away',
+    norwegian: 'vekk',
+    spanish: 'lejos',
+  },
+  {
+    english: 'bake',
+    norwegian: 'bake',
+    spanish: 'hornear',
+  },
+  {
+    english: 'hill',
+    norwegian: 'bakke',
+    spanish: 'colina',
+  },
+  {
+    english: 'the behind',
+    norwegian: 'baken',
+    spanish: 'el trasero',
+  },
+  {
+    english: 'the ground',
+    norwegian: 'bakken',
+    spanish: 'el suelo',
+  },
+  {
+    english: 'track/course',
+    norwegian: 'bane',
+    spanish: 'pista/curso',
+  },
+  {
+    english: 'swear',
+    norwegian: 'banne',
+    spanish: 'jurar',
+  },
+  {
+    english: 'chin',
+    norwegian: 'hake',
+    spanish: 'barbilla',
+  },
+  {
+    english: 'chop',
+    norwegian: 'hakke',
+    spanish: 'picar',
+  },
+  {
+    english: 'the tail',
+    norwegian: 'halen',
+    spanish: 'la cola',
+  },
+  {
+    english: 'the hall',
+    norwegian: 'hallen',
+    spanish: 'el salón',
+  },
+  {
+    english: 'hate',
+    norwegian: 'hat',
+    spanish: 'odio',
+  },
+  {
+    english: 'hat',
+    norwegian: 'hatt',
+    spanish: 'sombrero',
+  },
+  {
+    english: 'cluster',
+    norwegian: 'klase',
+    spanish: 'racimo',
+  },
+  {
+    english: 'class',
+    norwegian: 'klasse',
+    spanish: 'clase',
+  },
+  {
+    english: 'sheet',
+    norwegian: 'laken',
+    spanish: 'sábana',
+  },
+  {
+    english: 'the varnish',
+    norwegian: 'lakken',
+    spanish: 'el barniz',
+  },
+  {
+    english: 'pretends',
+    norwegian: 'later',
+    spanish: 'finge',
+  },
+  {
+    english: 'laughter',
+    norwegian: 'latter',
+    spanish: 'risa',
+  },
+  {
+    english: 'one (pronoun)',
+    norwegian: 'man',
+    spanish: 'uno (pronombre)',
+  },
+  {
+    english: 'man',
+    norwegian: 'mann',
+    spanish: 'hombre',
+  },
+  {
+    english: 'nag',
+    norwegian: 'mase',
+    spanish: 'fastidiar',
+  },
+  {
+    english: 'mass/lot',
+    norwegian: 'masse',
+    spanish: 'masa/mucho',
+  },
+  {
+    english: 'food',
+    norwegian: 'mat',
+    spanish: 'comida',
+  },
+  {
+    english: 'matte/checkmate',
+    norwegian: 'matt',
+    spanish: 'mate',
+  },
+  {
+    english: 'naked',
+    norwegian: 'naken',
+    spanish: 'desnudo',
+  },
+  {
+    english: 'the neck',
+    norwegian: 'nakken',
+    spanish: 'el cuello',
+  },
+  {
+    english: 'the troubles',
+    norwegian: 'plagene',
+    spanish: 'los problemas',
+  },
+  {
+    english: 'the garments',
+    norwegian: 'plaggene',
+    spanish: 'las prendas',
+  },
+  {
+    english: 'burp',
+    norwegian: 'rape',
+    spanish: 'eructar',
+  },
+  {
+    english: 'snatch',
+    norwegian: 'rappe',
+    spanish: 'arrebatar',
+  },
+  {
+    english: 'Sami person',
+    norwegian: 'same',
+    spanish: 'persona sami',
+  },
+  {
+    english: 'same',
+    norwegian: 'samme',
+    spanish: 'mismo',
+  },
+  {
+    english: 'roof/ceiling',
+    norwegian: 'tak',
+    spanish: 'techo',
+  },
+  {
+    english: 'thanks',
+    norwegian: 'takk',
+    spanish: 'gracias',
+  },
+  {
+    english: 'lose/tape',
+    norwegian: 'tape',
+    spanish: 'perder/cinta adhesiva',
+  },
+  {
+    english: 'tap/drain',
+    norwegian: 'tappe',
+    spanish: 'drenar',
+  },
+  {
+    english: 'vase',
+    norwegian: 'vase',
+    spanish: 'jarrón',
+  },
+  {
+    english: 'wade',
+    norwegian: 'vasse',
+    spanish: 'vadear',
+  },
+  {
+    english: 'habit',
+    norwegian: 'vane',
+    spanish: 'hábito',
+  },
+  {
+    english: 'water',
+    norwegian: 'vanne',
+    spanish: 'regar',
+  },
+  {
+    english: 'gradually',
+    norwegian: 'etter hvert',
+    spanish: 'gradualmente',
+  },
+  {
+    english: 'otherwise',
+    norwegian: 'for øvrig',
+    spanish: 'por lo demás',
+  },
+  {
+    english: 'on board',
+    norwegian: 'om bord',
+    spanish: 'a bordo',
+  },
+  {
+    english: 'today',
+    norwegian: 'i dag',
+    spanish: 'hoy',
+  },
+  {
+    english: 'in total',
+    norwegian: 'til sammen',
+    spanish: 'en total',
+  },
+  {
+    english: 'away',
+    norwegian: 'av gårde',
+    spanish: 'lejos',
+  },
+  {
+    english: 'some',
+    norwegian: 'en del',
+    spanish: 'algunos',
+  },
+  {
+    english: 'barely',
+    norwegian: 'så vidt',
+    spanish: 'apenas',
+  },
+  {
+    english: 'last year',
+    norwegian: 'i fjor',
+    spanish: 'el año pasado',
+  },
+  {
+    english: 'at least',
+    norwegian: 'i hvert fall',
+    spanish: 'al menos',
+  },
+  {
+    english: 'privileged',
+    norwegian: 'privilegert',
+    spanish: 'privilegiado',
+  },
+  {
+    english: 'subscriber',
+    norwegian: 'abonnent',
+    spanish: 'suscriptor',
+  },
+  {
+    english: 'associate',
+    norwegian: 'assosiere',
+    spanish: 'asociar',
+  },
+  {
+    english: 'institution',
+    norwegian: 'institusjon',
+    spanish: 'institución',
+  },
+  {
+    english: 'away',
+    norwegian: 'av sted',
+    spanish: 'lejos',
+  },
+  {
+    english: 'e-mail',
+    norwegian: 'e-post',
+    spanish: 'correo electrónico',
+  },
+  {
+    english: 'reputation',
+    norwegian: 'rennome',
+    spanish: 'reputación',
+  },
+  {
+    english: 'likely',
+    norwegian: 'sannsynlig',
+    spanish: 'probable',
+  },
+  {
+    english: 'rarely',
+    norwegian: 'sjelden',
+    spanish: 'raramente',
+  },
+  {
+    english: 'interested',
+    norwegian: 'interessert',
+    spanish: 'interesado',
+  },
+  {
+    english: 'in progress',
+    norwegian: 'i gang',
+    spanish: 'en marcha',
+  },
+  {
+    english: 'approximately',
+    norwegian: 'om lag',
+    spanish: 'aproximadamente',
+  },
+  {
+    english: 'investment/focus',
+    norwegian: 'satsing',
+    spanish: 'inversión/enfoque',
+  },
+  {
+    english: 'present',
+    norwegian: 'til stede',
+    spanish: 'presente',
+  },
+  {
+    english: 'potential',
+    norwegian: 'potensial',
+    spanish: 'potencial',
+  },
+  {
+    english: 'instead',
+    norwegian: 'i stedet',
+    spanish: 'en lugar',
+  },
+  {
+    english: 'on ones own',
+    norwegian: 'på egen hånd',
+    spanish: 'por cuenta propia',
+  },
+  {
+    english: 'trial',
+    norwegian: 'rettssak',
+    spanish: 'juicio',
+  },
+  {
+    english: 'wealth tax',
+    norwegian: 'formuesskatt',
+    spanish: 'impuesto sobre el patrimonio',
+  },
+  {
+    english: 'mainly',
+    norwegian: 'hovedsakelig',
+    spanish: 'principalmente',
+  },
+  {
+    english: 'expression',
+    norwegian: 'uttrykk',
+    spanish: 'expresión',
+  },
+  {
+    english: 'addition',
+    norwegian: 'tillegg',
+    spanish: 'adición',
+  },
+  {
+    english: 'unfortunately',
+    norwegian: 'dessverre',
+    spanish: 'desafortunadamente',
+  },
+  {
+    english: 'expectations',
+    norwegian: 'forventninger',
+    spanish: 'expectativas',
   },
   {
     english: 'held',
