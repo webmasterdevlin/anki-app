@@ -6478,6 +6478,941 @@ export const words: Question[] = [
     spanish: 'locamente',
   },
   {
+    english: 'to compare',
+    norwegian: 'å sammenligne',
+    spanish: 'comparar',
+  },
+  {
+    english: 'compare with',
+    norwegian: 'sammenligne med',
+    spanish: 'comparar con',
+  },
+  {
+    english: 'in comparison',
+    norwegian: 'i sammenligning',
+    spanish: 'en comparación',
+  },
+  {
+    english: 'to cut',
+    norwegian: 'å kutte',
+    spanish: 'cortar',
+  },
+  {
+    english: 'to slice',
+    norwegian: 'å skjære',
+    spanish: 'rebanar',
+  },
+  {
+    english: 'to chop',
+    norwegian: 'å hakke',
+    spanish: 'picar',
+  },
+  {
+    english: 'are lonely',
+    norwegian: 'er ensomme',
+    spanish: 'están solos',
+  },
+  {
+    english: 'are afraid',
+    norwegian: 'er redde',
+    spanish: 'tienen miedo',
+  },
+  {
+    english: 'rash',
+    norwegian: 'utslett',
+    spanish: 'erupción',
+  },
+  {
+    english: 'itch',
+    norwegian: 'kløe',
+    spanish: 'picazón',
+  },
+  {
+    english: 'I grew up',
+    norwegian: 'jeg vokste opp',
+    spanish: 'crecí',
+  },
+  {
+    english: 'do not boast be humble',
+    norwegian: 'ikke skryt vær ydmyk',
+    spanish: 'no presumas sé humilde',
+  },
+  {
+    english: 'pronunciation',
+    norwegian: 'uttale',
+    spanish: 'pronunciación',
+  },
+  {
+    english: 'statement',
+    norwegian: 'uttalelse',
+    spanish: 'declaración',
+  },
+  {
+    english: 'an official statement',
+    norwegian: 'en offisiell ytring',
+    spanish: 'una declaración oficial',
+  },
+  {
+    english: 'necessary',
+    norwegian: 'nødvendig',
+    spanish: 'necesario',
+  },
+  {
+    english: 'disability benefit',
+    norwegian: 'uføretrygd',
+    spanish: 'pensión de invalidez',
+  },
+  {
+    english: 'advance on inheritance',
+    norwegian: 'forskudd på arv',
+    spanish: 'anticipo de herencia',
+  },
+  {
+    english: 'housing',
+    norwegian: 'bolig',
+    spanish: 'vivienda',
+  },
+  {
+    english: 'confusing',
+    norwegian: 'forvirrende',
+    spanish: 'confuso',
+  },
+  {
+    english: 'therefore',
+    norwegian: 'derfor',
+    spanish: 'por lo tanto',
+  },
+  {
+    english: 'thus',
+    norwegian: 'dermed',
+    spanish: 'así',
+  },
+  {
+    english: 'if',
+    norwegian: 'dersom',
+    spanish: 'si',
+  },
+  {
+    english: 'then',
+    norwegian: 'deretter',
+    spanish: 'luego',
+  },
+  {
+    english: 'however',
+    norwegian: 'derimot',
+    spanish: 'sin embargo',
+  },
+  {
+    english: 'order',
+    norwegian: 'rekkefølge',
+    spanish: 'orden',
+  },
+  {
+    english: 'opposite',
+    norwegian: 'motsatt',
+    spanish: 'opuesto',
+  },
+  {
+    english: 'in contrast',
+    norwegian: 'i motsetning',
+    spanish: 'en contraste',
+  },
+  {
+    english: 'corner of the eye',
+    norwegian: 'øyekrok',
+    spanish: 'rabillo del ojo',
+  },
+  {
+    english: 'eyelid',
+    norwegian: 'øyelokk',
+    spanish: 'párpado',
+  },
+  {
+    english: 'band/tie',
+    norwegian: 'bånd',
+    spanish: 'banda/lazo',
+  },
+  {
+    english: 'capture/prisoner',
+    norwegian: 'fange',
+    spanish: 'capturar/prisionero',
+  },
+  {
+    english: 'our/spring',
+    norwegian: 'vår',
+    spanish: 'nuestro/primavera',
+  },
+  {
+    english: 'definitely',
+    norwegian: 'helt sikkert',
+    spanish: 'definitivamente',
+  },
+  {
+    english: 'bodyguard',
+    norwegian: 'livvakt',
+    spanish: 'guardaespaldas',
+  },
+  {
+    english: 'joke',
+    norwegian: 'vits',
+    spanish: 'chiste',
+  },
+  {
+    english: 'concerned with',
+    norwegian: 'opptatt av',
+    spanish: 'preocupado por',
+  },
+  {
+    english: 'opinion/meaning',
+    norwegian: 'mening',
+    spanish: 'opinión/significado',
+  },
+  {
+    english: 'claim',
+    norwegian: 'påstand',
+    spanish: 'afirmación',
+  },
+  {
+    english: 'in the countryside',
+    norwegian: 'på landet',
+    spanish: 'en el campo',
+  },
+  {
+    english: 'should',
+    norwegian: 'bør',
+    spanish: 'debería',
+  },
+  {
+    english: 'search for',
+    norwegian: 'ettersøke',
+    spanish: 'buscar',
+  },
+  {
+    english: 'haunt',
+    norwegian: 'hjemsøke',
+    spanish: 'atormentar',
+  },
+  {
+    english: 'search through',
+    norwegian: 'gjennomsøke',
+    spanish: 'registrar',
+  },
+  {
+    english: 'to search',
+    norwegian: 'å lete',
+    spanish: 'buscar',
+  },
+  {
+    english: 'to seek/apply',
+    norwegian: 'å søke',
+    spanish: 'buscar/solicitar',
+  },
+  {
+    english: 'science',
+    norwegian: 'vitenskap',
+    spanish: 'ciencia',
+  },
+  {
+    english: 'quality/property',
+    norwegian: 'egenskap',
+    spanish: 'cualidad/propiedad',
+  },
+  {
+    english: 'threat',
+    norwegian: 'trussel',
+    spanish: 'amenaza',
+  },
+  {
+    english: 'longing',
+    norwegian: 'lengsel',
+    spanish: 'anhelo',
+  },
+  {
+    english: 'person from Northern Norway',
+    norwegian: 'nordlending',
+    spanish: 'persona del norte de Noruega',
+  },
+  {
+    english: 'principal',
+    norwegian: 'rektor',
+    spanish: 'director',
+  },
+  {
+    english: 'a parent',
+    norwegian: 'en forelder',
+    spanish: 'un padre/madre',
+  },
+  {
+    english: 'a guardian',
+    norwegian: 'en foresatt',
+    spanish: 'un tutor',
+  },
+  {
+    english: 'humor',
+    norwegian: 'humor',
+    spanish: 'humor',
+  },
+  {
+    english: 'mood',
+    norwegian: 'humør',
+    spanish: 'humor/estado de ánimo',
+  },
+  {
+    english: 'neither',
+    norwegian: 'verken',
+    spanish: 'ni',
+  },
+  {
+    english: 'whole',
+    norwegian: 'hel',
+    spanish: 'entero',
+  },
+  {
+    english: 'completely/hero',
+    norwegian: 'helt',
+    spanish: 'completamente/héroe',
+  },
+  {
+    english: 'whole (definite)',
+    norwegian: 'hele',
+    spanish: 'entero (definido)',
+  },
+  {
+    english: 'railing on the outside',
+    norwegian: 'rekkverk på utsiden',
+    spanish: 'barandilla en el exterior',
+  },
+  {
+    english: 'exterior',
+    norwegian: 'utvendig',
+    spanish: 'exterior',
+  },
+  {
+    english: 'outdoor space',
+    norwegian: 'uteplass',
+    spanish: 'espacio exterior',
+  },
+  {
+    english: 'emergency number in Norway',
+    norwegian: 'nødnummer i norge',
+    spanish: 'número de emergencia en Noruega',
+  },
+  {
+    english: 'the dove',
+    norwegian: 'dua',
+    spanish: 'la paloma',
+  },
+  {
+    english: 'to let go/avoid',
+    norwegian: 'å slippe',
+    spanish: 'soltar/evitar',
+  },
+  {
+    english: 'lets go/avoids',
+    norwegian: 'slipper',
+    spanish: 'suelta/evita',
+  },
+  {
+    english: 'let go/avoided',
+    norwegian: 'slapp',
+    spanish: 'soltó/evitó',
+  },
+  {
+    english: 'has let go/avoided',
+    norwegian: 'har sluppet',
+    spanish: 'ha soltado/evitado',
+  },
+  {
+    english: 'to save',
+    norwegian: 'å spare',
+    spanish: 'ahorrar',
+  },
+  {
+    english: 'to store',
+    norwegian: 'å lagre',
+    spanish: 'almacenar',
+  },
+  {
+    english: 'low flame (save energy)',
+    norwegian: 'spare bluss',
+    spanish: 'fuego bajo (ahorrar energía)',
+  },
+  {
+    english: 'chatterbox',
+    norwegian: 'skravlekopp',
+    spanish: 'charlatán',
+  },
+  {
+    english: 'nagger',
+    norwegian: 'maserkopp',
+    spanish: 'fastidioso',
+  },
+  {
+    english: 'messy person',
+    norwegian: 'rotekopp',
+    spanish: 'persona desordenada',
+  },
+  {
+    english: 'scatterbrain',
+    norwegian: 'susekopp',
+    spanish: 'distraído',
+  },
+  {
+    english: 'silly person',
+    norwegian: 'tulekopp',
+    spanish: 'persona tonta',
+  },
+  {
+    english: 'to enjoy oneself',
+    norwegian: 'å kose seg',
+    spanish: 'disfrutar',
+  },
+  {
+    english: 'a hug/coziness',
+    norwegian: 'en kos',
+    spanish: 'un abrazo/acogedor',
+  },
+  {
+    english: 'a cozy moment',
+    norwegian: 'en kosestund',
+    spanish: 'un momento acogedor',
+  },
+  {
+    english: 'is cozy with a fireplace',
+    norwegian: 'er koselig med peis',
+    spanish: 'es acogedor con chimenea',
+  },
+  {
+    english: 'a sister',
+    norwegian: 'ei søster',
+    spanish: 'una hermana',
+  },
+  {
+    english: 'sisters',
+    norwegian: 'søstre',
+    spanish: 'hermanas',
+  },
+  {
+    english: 'a beach',
+    norwegian: 'ei strand',
+    spanish: 'una playa',
+  },
+  {
+    english: 'beaches',
+    norwegian: 'strender',
+    spanish: 'playas',
+  },
+  {
+    english: 'the beach',
+    norwegian: 'stranda',
+    spanish: 'la playa',
+  },
+  {
+    english: 'the beaches',
+    norwegian: 'strendene',
+    spanish: 'las playas',
+  },
+  {
+    english: 'a tree',
+    norwegian: 'et tre',
+    spanish: 'un árbol',
+  },
+  {
+    english: 'the tree',
+    norwegian: 'treet',
+    spanish: 'el árbol',
+  },
+  {
+    english: 'trees',
+    norwegian: 'trær',
+    spanish: 'árboles',
+  },
+  {
+    english: 'the trees',
+    norwegian: 'trærne',
+    spanish: 'los árboles',
+  },
+  {
+    english: 'a toe',
+    norwegian: 'ei tå',
+    spanish: 'un dedo del pie',
+  },
+  {
+    english: 'the toe',
+    norwegian: 'tåa',
+    spanish: 'el dedo del pie',
+  },
+  {
+    english: 'toes',
+    norwegian: 'tær',
+    spanish: 'dedos del pie',
+  },
+  {
+    english: 'the toes',
+    norwegian: 'tærne',
+    spanish: 'los dedos del pie',
+  },
+  {
+    english: 'a celebration',
+    norwegian: 'en feiring',
+    spanish: 'una celebración',
+  },
+  {
+    english: 'celebrate',
+    norwegian: 'feire',
+    spanish: 'celebrar',
+  },
+  {
+    english: 'vacation',
+    norwegian: 'ferie',
+    spanish: 'vacaciones',
+  },
+  {
+    english: 'resignation letter',
+    norwegian: 'oppsigelsesbrev',
+    spanish: 'carta de renuncia',
+  },
+  {
+    english: 'first paragraph',
+    norwegian: 'første avsnitt',
+    spanish: 'primer párrafo',
+  },
+  {
+    english: 'hereby up',
+    norwegian: 'herved opp',
+    spanish: 'por la presente',
+  },
+  {
+    english: 'according to my employment contract',
+    norwegian: 'i henhold til arbeidskontrakten min',
+    spanish: 'según mi contrato de trabajo',
+  },
+  {
+    english: 'successor',
+    norwegian: 'etterfølger',
+    spanish: 'sucesor',
+  },
+  {
+    english: 'the residents',
+    norwegian: 'beboerne',
+    spanish: 'los residentes',
+  },
+  {
+    english: 'freight',
+    norwegian: 'frakt',
+    spanish: 'flete',
+  },
+  {
+    english: 'drivers license',
+    norwegian: 'førerkort',
+    spanish: 'licencia de conducir',
+  },
+  {
+    english: 'bride',
+    norwegian: 'brud',
+    spanish: 'novia',
+  },
+  {
+    english: 'break/fracture',
+    norwegian: 'brudd',
+    spanish: 'rotura/fractura',
+  },
+  {
+    english: 'yellow',
+    norwegian: 'gul',
+    spanish: 'amarillo',
+  },
+  {
+    english: 'gold',
+    norwegian: 'gull',
+    spanish: 'oro',
+  },
+  {
+    english: 'the caves',
+    norwegian: 'hulene',
+    spanish: 'las cuevas',
+  },
+  {
+    english: 'the holes',
+    norwegian: 'hullene',
+    spanish: 'los agujeros',
+  },
+  {
+    english: 'cube',
+    norwegian: 'kube',
+    spanish: 'cubo',
+  },
+  {
+    english: 'log',
+    norwegian: 'kubbe',
+    spanish: 'tronco',
+  },
+  {
+    english: 'cool',
+    norwegian: 'kul',
+    spanish: 'genial',
+  },
+  {
+    english: 'coal',
+    norwegian: 'kull',
+    spanish: 'carbón',
+  },
+  {
+    english: 'lye',
+    norwegian: 'lut',
+    spanish: 'lejía',
+  },
+  {
+    english: 'lute',
+    norwegian: 'lutt',
+    spanish: 'laúd',
+  },
+  {
+    english: 'build with bricks',
+    norwegian: 'mure',
+    spanish: 'construir con ladrillos',
+  },
+  {
+    english: 'murmur/grumble',
+    norwegian: 'murre',
+    spanish: 'murmurar/refunfuñar',
+  },
+  {
+    english: 'kitty',
+    norwegian: 'pus',
+    spanish: 'gatito',
+  },
+  {
+    english: 'polish',
+    norwegian: 'puss',
+    spanish: 'pulir',
+  },
+  {
+    english: 'pillow',
+    norwegian: 'pute',
+    spanish: 'almohada',
+  },
+  {
+    english: 'put',
+    norwegian: 'putte',
+    spanish: 'poner',
+  },
+  {
+    english: 'intoxication',
+    norwegian: 'rus',
+    spanish: 'intoxicación',
+  },
+  {
+    english: 'graduating high school student',
+    norwegian: 'russ',
+    spanish: 'estudiante de último año de secundaria',
+  },
+  {
+    english: 'route/pane',
+    norwegian: 'rute',
+    spanish: 'ruta/panel',
+  },
+  {
+    english: 'squander',
+    norwegian: 'rutte',
+    spanish: 'derrochar',
+  },
+  {
+    english: 'scowl',
+    norwegian: 'skule',
+    spanish: 'fruncir el ceño',
+  },
+  {
+    english: 'should/would',
+    norwegian: 'skulle',
+    spanish: 'debería/haría',
+  },
+  {
+    english: 'sip',
+    norwegian: 'supe',
+    spanish: 'sorber',
+  },
+  {
+    english: 'soup',
+    norwegian: 'suppe',
+    spanish: 'sopa',
+  },
+  {
+    english: 'sour',
+    norwegian: 'sur',
+    spanish: 'agrio',
+  },
+  {
+    english: 'buzz/nonsense',
+    norwegian: 'surr',
+    spanish: 'zumbido/tontería',
+  },
+  {
+    english: 'whisper/rush',
+    norwegian: 'sus',
+    spanish: 'susurro/prisa',
+  },
+  {
+    english: 'kiss',
+    norwegian: 'suss',
+    spanish: 'beso',
+  },
+  {
+    english: 'whining',
+    norwegian: 'sut',
+    spanish: 'quejido',
+  },
+  {
+    english: 'suck',
+    norwegian: 'sutt',
+    spanish: 'chupar',
+  },
+  {
+    english: 'cars',
+    norwegian: 'biler',
+    spanish: 'coches',
+  },
+  {
+    english: 'beetles',
+    norwegian: 'biller',
+    spanish: 'escarabajos',
+  },
+  {
+    english: 'got (dialect)',
+    norwegian: 'fik',
+    spanish: 'obtuvo (dialecto)',
+  },
+  {
+    english: 'got',
+    norwegian: 'fikk',
+    spanish: 'obtuvo',
+  },
+  {
+    english: 'file',
+    norwegian: 'file',
+    spanish: 'limar/archivo',
+  },
+  {
+    english: 'rag',
+    norwegian: 'fille',
+    spanish: 'trapo',
+  },
+  {
+    english: 'the file',
+    norwegian: 'filen',
+    spanish: 'el archivo',
+  },
+  {
+    english: 'the rag',
+    norwegian: 'fillen',
+    spanish: 'el trapo',
+  },
+  {
+    english: 'fine (plural/definite)',
+    norwegian: 'fine',
+    spanish: 'finos/fino (definido)',
+  },
+  {
+    english: 'find',
+    norwegian: 'finne',
+    spanish: 'encontrar',
+  },
+  {
+    english: 'gap',
+    norwegian: 'glipe',
+    spanish: 'brecha',
+  },
+  {
+    english: 'slip',
+    norwegian: 'glippe',
+    spanish: 'resbalar',
+  },
+  {
+    english: 'rush',
+    norwegian: 'ile',
+    spanish: 'apresurarse',
+  },
+  {
+    english: 'bad',
+    norwegian: 'ille',
+    spanish: 'mal',
+  },
+  {
+    english: 'relief',
+    norwegian: 'lise',
+    spanish: 'alivio',
+  },
+  {
+    english: 'shoelace',
+    norwegian: 'lisse',
+    spanish: 'cordón de zapato',
+  },
+  {
+    english: 'mine (plural)',
+    norwegian: 'mine',
+    spanish: 'míos',
+  },
+  {
+    english: 'memory/remind',
+    norwegian: 'minne',
+    spanish: 'memoria/recordar',
+  },
+  {
+    english: 'arrows',
+    norwegian: 'piler',
+    spanish: 'flechas',
+  },
+  {
+    english: 'pills',
+    norwegian: 'piller',
+    spanish: 'pastillas',
+  },
+  {
+    english: 'willow',
+    norwegian: 'pile',
+    spanish: 'sauce',
+  },
+  {
+    english: 'pill',
+    norwegian: 'pille',
+    spanish: 'pastilla',
+  },
+  {
+    english: 'rich/kingdom',
+    norwegian: 'rike',
+    spanish: 'rico/reino',
+  },
+  {
+    english: 'budge',
+    norwegian: 'rikke',
+    spanish: 'moverse',
+  },
+  {
+    english: 'his/her/its/their (plural/reflexive)',
+    norwegian: 'sine',
+    spanish: 'sus (plural/reflexivo)',
+  },
+  {
+    english: 'anger',
+    norwegian: 'sinne',
+    spanish: 'ira',
+  },
+  {
+    english: 'such',
+    norwegian: 'slike',
+    spanish: 'tales',
+  },
+  {
+    english: 'lick',
+    norwegian: 'slikke',
+    spanish: 'lamer',
+  },
+  {
+    english: 'slats',
+    norwegian: 'spiler',
+    spanish: 'listones',
+  },
+  {
+    english: 'plays',
+    norwegian: 'spiller',
+    spanish: 'juega',
+  },
+  {
+    english: 'eat',
+    norwegian: 'spise',
+    spanish: 'comer',
+  },
+  {
+    english: 'sharpen',
+    norwegian: 'spisse',
+    spanish: 'afilar',
+  },
+  {
+    english: 'tiger',
+    norwegian: 'tiger',
+    spanish: 'tigre',
+  },
+  {
+    english: 'beggar',
+    norwegian: 'tigger',
+    spanish: 'mendigo',
+  },
+  {
+    english: 'wine',
+    norwegian: 'vin',
+    spanish: 'vino',
+  },
+  {
+    english: 'win',
+    norwegian: 'vinn',
+    spanish: 'ganar',
+  },
+  {
+    english: 'the song',
+    norwegian: 'visen',
+    spanish: 'la canción',
+  },
+  {
+    english: 'withered',
+    norwegian: 'vissen',
+    spanish: 'marchito',
+  },
+  {
+    english: 'prevent',
+    norwegian: 'forhindre',
+    spanish: 'prevenir',
+  },
+  {
+    english: 'faint',
+    norwegian: 'besvime',
+    spanish: 'desmayarse',
+  },
+  {
+    english: 'accuse',
+    norwegian: 'anklage',
+    spanish: 'acusar',
+  },
+  {
+    english: 'half',
+    norwegian: 'halv',
+    spanish: 'medio',
+  },
+  {
+    english: 'half (neuter)',
+    norwegian: 'halvt',
+    spanish: 'medio (neutro)',
+  },
+  {
+    english: 'half (definite/plural)',
+    norwegian: 'halve',
+    spanish: 'medio (definido/plural)',
+  },
+  {
+    english: 'to chuckle',
+    norwegian: 'å humre',
+    spanish: 'reírse entre dientes',
+  },
+  {
+    english: 'to giggle',
+    norwegian: 'å knise',
+    spanish: 'reírse tontamente',
+  },
+  {
+    english: 'to snicker',
+    norwegian: 'å fnise',
+    spanish: 'reírse disimuladamente',
+  },
+  {
+    english: 'to laugh loudly',
+    norwegian: 'å skratte',
+    spanish: 'reír a carcajadas',
+  },
+  {
+    english: 'to whinny/neigh',
+    norwegian: 'å knegge',
+    spanish: 'relinchar',
+  },
+  {
     english: 'conservatively assumes',
     norwegian: 'konservativt antar',
     spanish: 'asumir conservadoramente',
