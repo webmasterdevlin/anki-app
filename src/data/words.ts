@@ -3,6 +3,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    english: 'so itchy',
+    norwegian: 'så kløende',
+    spanish: 'tan picante',
+  },
+  {
+    english: ' can you scratch me',
+    norwegian: 'kan du klø meg',
+    spanish: '¿puedes rascarme?',
+  },
+  {
     english: 'basic',
     norwegian: 'grunnleggende',
     spanish: 'básico',
