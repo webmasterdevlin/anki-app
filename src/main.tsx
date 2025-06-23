@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/order
 import { scan } from 'react-scan';
 import { RouterProvider, ErrorComponent, createRouter } from '@tanstack/react-router';
 import LogRocket from 'logrocket';

@@ -333,6 +333,226 @@ export const words: Question[] = [
     spanish: 'entonces lo recogeremos',
   },
   {
+    norwegian: 'å skryte av maten til',
+    english: 'to brag about the food to',
+    spanish: 'alardear de la comida a',
+  },
+  {
+    norwegian: 'litt saft',
+    english: 'a little juice',
+    spanish: 'un poco de jugo',
+  },
+  {
+    norwegian: 'det kan godt hende at jeg',
+    english: 'it may well be that I',
+    spanish: 'puede que yo',
+  },
+  {
+    norwegian: 'vi krangler',
+    english: 'we argue',
+    spanish: 'discutimos',
+  },
+  {
+    norwegian: 'hadde du skjønt det',
+    english: 'had you understood it',
+    spanish: '¿lo habrías entendido?',
+  },
+  {
+    norwegian: 'du stiller ikke nok opp',
+    english: 'you do not support enough',
+    spanish: 'no apoyas lo suficiente',
+  },
+  {
+    norwegian: 'jeg tastet inn ordet',
+    english: 'I typed in the word',
+    spanish: 'escribí la palabra',
+  },
+  {
+    norwegian: 'å bli så sinna for en skrivefeilen',
+    english: 'to get so angry over a typo',
+    spanish: 'enojarse tanto por un error tipográfico',
+  },
+  {
+    norwegian: 'fint å høre',
+    english: 'nice to hear',
+    spanish: 'bueno escuchar',
+  },
+  {
+    norwegian: 'noe klemming for galleriet',
+    english: 'some hugging for the gallery',
+    spanish: 'algo de abrazos para la galería',
+  },
+  {
+    norwegian: 'rått kjøtt',
+    english: 'raw meat',
+    spanish: 'carne cruda',
+  },
+  {
+    norwegian: 'rått egg-opplegg',
+    english: 'raw egg setup',
+    spanish: 'configuración de huevo crudo',
+  },
+  {
+    norwegian: 'men hverken du eller ungene',
+    english: 'but neither you nor the kids',
+    spanish: 'pero ni tú ni los niños',
+  },
+  {
+    norwegian: 'ikke noe vits i',
+    english: 'no point in',
+    spanish: 'no tiene sentido',
+  },
+  {
+    norwegian: 'et tomt hus er jo',
+    english: 'an empty house is',
+    spanish: 'una casa vacía es',
+  },
+  {
+    norwegian: 'utsatt for innbrudd',
+    english: 'vulnerable to burglary',
+    spanish: 'vulnerable a robos',
+  },
+  {
+    norwegian: 'tomme søppelbøtter',
+    english: 'empty trash bins',
+    spanish: 'cubos de basura vacíos',
+  },
+  {
+    norwegian: 'en innbruddsmagnet',
+    english: 'a burglary magnet',
+    spanish: 'un imán para robos',
+  },
+  {
+    norwegian: 'det ordner seg helt sikkert',
+    english: 'it will surely work out',
+    spanish: 'seguro que se resolverá',
+  },
+  {
+    norwegian: 'bortsett fra åssen',
+    english: 'except how',
+    spanish: 'excepto cómo',
+  },
+  {
+    norwegian: 'hver eneste dag',
+    english: 'every single day',
+    spanish: 'cada día',
+  },
+  {
+    norwegian: 'få låne min',
+    english: 'get to borrow my',
+    spanish: 'poder pedir prestada mi',
+  },
+  {
+    norwegian: 'rett og slett få slippe det',
+    english: 'simply get to avoid it',
+    spanish: 'simplemente evitarlo',
+  },
+  {
+    norwegian: 'navnet på en jævla ålreit mekaniker',
+    english: 'the name of a damn nice mechanic',
+    spanish: 'el nombre de un mecánico muy agradable',
+  },
+  {
+    norwegian: 'veldig kort stund',
+    english: 'very short time',
+    spanish: 'muy poco tiempo',
+  },
+  {
+    norwegian: 'slippe unna alt',
+    english: 'get away with everything',
+    spanish: 'salirse con la suya',
+  },
+  {
+    norwegian: 'kjedelig med å ha kjæreste',
+    english: 'boring to have a girlfriend',
+    spanish: 'aburrido tener novia',
+  },
+  {
+    norwegian: 'starteren',
+    english: 'the starter',
+    spanish: 'el aperitivo',
+  },
+  {
+    norwegian: 'fylle søppel',
+    english: 'fill the trash',
+    spanish: 'llenar la basura',
+  },
+  {
+    norwegian: 'en formue for å reparere',
+    english: 'a fortune to repair',
+    spanish: 'una fortuna para reparar',
+  },
+  {
+    norwegian: 'en drosje',
+    english: 'a taxi',
+    spanish: 'un taxi',
+  },
+  {
+    norwegian: 'er ledig bak der',
+    english: 'is available back there',
+    spanish: 'está disponible allí atrás',
+  },
+  {
+    norwegian: 'kan si hva det innebærer',
+    english: 'can say what it involves',
+    spanish: 'puedo decir lo que implica',
+  },
+  {
+    norwegian: 'det hovedsakelig å gå på møter',
+    english: 'it mainly involves going to meetings',
+    spanish: 'principalmente implica ir a reuniones',
+  },
+  {
+    norwegian: 'å være med på sånt',
+    english: 'to be part of such things',
+    spanish: 'ser parte de cosas así',
+  },
+  {
+    norwegian: 'å sitte',
+    english: 'to sit',
+    spanish: 'sentarse',
+  },
+  {
+    norwegian: 'kjempespennende verv',
+    english: 'super exciting position',
+    spanish: 'posición súper emocionante',
+  },
+  {
+    norwegian: 'presis også',
+    english: 'exactly as well',
+    spanish: 'exactamente también',
+  },
+  {
+    norwegian: 'jeg ble valgt som klassens',
+    english: 'I was elected as the class',
+    spanish: 'fui elegido como el de la clase',
+  },
+  {
+    norwegian: 'at noen stilte opp',
+    english: 'that someone showed up',
+    spanish: 'que alguien se presentara',
+  },
+  {
+    norwegian: 'er morsommere å bli henta i den',
+    english: 'is more fun to be picked up in it',
+    spanish: 'es más divertido ser recogido en ella',
+  },
+  {
+    norwegian: 'det referatet',
+    english: 'that report',
+    spanish: 'ese informe',
+  },
+  {
+    norwegian: 'sett deg inn i bilen',
+    english: 'get in the car',
+    spanish: 'sube al coche',
+  },
+  {
+    norwegian: 'du påfører folk bryderi',
+    english: 'you cause people trouble',
+    spanish: 'causas problemas a la gente',
+  },
+  {
     english: 'so itchy',
     norwegian: 'så kløende',
     spanish: 'tan picante',
