@@ -10,79 +10,33 @@
 
 import { createFileRoute } from '@tanstack/react-router'
 
-// Import Routes
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as SpanishRouteImport } from './routes/spanish'
+import { Route as EnglishRouteImport } from './routes/english'
+import { Route as IndexRouteImport } from './routes/index'
 
-import { Route as rootRoute } from './routes/__root'
-import { Route as SpanishImport } from './routes/spanish'
-import { Route as EnglishImport } from './routes/english'
-import { Route as IndexImport } from './routes/index'
+const NorskLazyRouteImport = createFileRoute('/norsk')()
 
-// Create Virtual Routes
-
-const NorskLazyImport = createFileRoute('/norsk')()
-
-// Create/Update Routes
-
-const NorskLazyRoute = NorskLazyImport.update({
+const NorskLazyRoute = NorskLazyRouteImport.update({
   id: '/norsk',
   path: '/norsk',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any).lazy(() => import('./routes/norsk.lazy').then((d) => d.Route))
-
-const SpanishRoute = SpanishImport.update({
+const SpanishRoute = SpanishRouteImport.update({
   id: '/spanish',
   path: '/spanish',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const EnglishRoute = EnglishImport.update({
+const EnglishRoute = EnglishRouteImport.update({
   id: '/english',
   path: '/english',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-const IndexRoute = IndexImport.update({
+const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRoute,
+  getParentRoute: () => rootRouteImport,
 } as any)
-
-// Populate the FileRoutesByPath interface
-
-declare module '@tanstack/react-router' {
-  interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexImport
-      parentRoute: typeof rootRoute
-    }
-    '/english': {
-      id: '/english'
-      path: '/english'
-      fullPath: '/english'
-      preLoaderRoute: typeof EnglishImport
-      parentRoute: typeof rootRoute
-    }
-    '/spanish': {
-      id: '/spanish'
-      path: '/spanish'
-      fullPath: '/spanish'
-      preLoaderRoute: typeof SpanishImport
-      parentRoute: typeof rootRoute
-    }
-    '/norsk': {
-      id: '/norsk'
-      path: '/norsk'
-      fullPath: '/norsk'
-      preLoaderRoute: typeof NorskLazyImport
-      parentRoute: typeof rootRoute
-    }
-  }
-}
-
-// Create and export the route tree
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -90,22 +44,19 @@ export interface FileRoutesByFullPath {
   '/spanish': typeof SpanishRoute
   '/norsk': typeof NorskLazyRoute
 }
-
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/english': typeof EnglishRoute
   '/spanish': typeof SpanishRoute
   '/norsk': typeof NorskLazyRoute
 }
-
 export interface FileRoutesById {
-  __root__: typeof rootRoute
+  __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/english': typeof EnglishRoute
   '/spanish': typeof SpanishRoute
   '/norsk': typeof NorskLazyRoute
 }
-
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths: '/' | '/english' | '/spanish' | '/norsk'
@@ -114,12 +65,44 @@ export interface FileRouteTypes {
   id: '__root__' | '/' | '/english' | '/spanish' | '/norsk'
   fileRoutesById: FileRoutesById
 }
-
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   EnglishRoute: typeof EnglishRoute
   SpanishRoute: typeof SpanishRoute
   NorskLazyRoute: typeof NorskLazyRoute
+}
+
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/norsk': {
+      id: '/norsk'
+      path: '/norsk'
+      fullPath: '/norsk'
+      preLoaderRoute: typeof NorskLazyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/spanish': {
+      id: '/spanish'
+      path: '/spanish'
+      fullPath: '/spanish'
+      preLoaderRoute: typeof SpanishRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/english': {
+      id: '/english'
+      path: '/english'
+      fullPath: '/english'
+      preLoaderRoute: typeof EnglishRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+  }
 }
 
 const rootRouteChildren: RootRouteChildren = {
@@ -128,35 +111,6 @@ const rootRouteChildren: RootRouteChildren = {
   SpanishRoute: SpanishRoute,
   NorskLazyRoute: NorskLazyRoute,
 }
-
-export const routeTree = rootRoute
+export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-/* ROUTE_MANIFEST_START
-{
-  "routes": {
-    "__root__": {
-      "filePath": "__root.tsx",
-      "children": [
-        "/",
-        "/english",
-        "/spanish",
-        "/norsk"
-      ]
-    },
-    "/": {
-      "filePath": "index.tsx"
-    },
-    "/english": {
-      "filePath": "english.tsx"
-    },
-    "/spanish": {
-      "filePath": "spanish.tsx"
-    },
-    "/norsk": {
-      "filePath": "norsk.lazy.tsx"
-    }
-  }
-}
-ROUTE_MANIFEST_END */

@@ -3,6 +3,336 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    english: 'toothbrush',
+    norwegian: 'tannbørste',
+    spanish: 'cepillo de dientes',
+  },
+  {
+    norwegian: 'dopapir',
+    english: 'toilet paper',
+    spanish: 'papel higiénico',
+  },
+  {
+    norwegian: 'grenser',
+    english: 'borders',
+    spanish: 'fronteras',
+  },
+  {
+    norwegian: 'jeg kan forlange',
+    english: 'I can demand',
+    spanish: 'puedo exigir',
+  },
+  {
+    norwegian: 'han får skiftet',
+    english: 'he gets changed',
+    spanish: 'él se cambia',
+  },
+  {
+    norwegian: 'blir sinte',
+    english: 'get angry',
+    spanish: 'enojarse',
+  },
+  {
+    norwegian: 'alenetid',
+    english: 'alone time',
+    spanish: 'tiempo a solas',
+  },
+  {
+    norwegian: 'en barnevakt',
+    english: 'a babysitter',
+    spanish: 'una niñera',
+  },
+  {
+    norwegian: 'innafor',
+    english: 'within limits',
+    spanish: 'dentro de los límites',
+  },
+  {
+    norwegian: 'være høflig',
+    english: 'to be polite',
+    spanish: 'ser educado',
+  },
+  {
+    norwegian: 'å tilby',
+    english: 'to offer',
+    spanish: 'ofrecer',
+  },
+  {
+    norwegian: 'kan du stikke innom',
+    english: 'can you drop by',
+    spanish: '¿puedes pasar por aquí?',
+  },
+  {
+    norwegian: 'blir dritsur',
+    english: 'get really angry',
+    spanish: 'enojarse mucho',
+  },
+  {
+    norwegian: 'har skjønt',
+    english: 'have understood',
+    spanish: 'haber entendido',
+  },
+  {
+    norwegian: 'ta på støvlene',
+    english: 'put on the boots',
+    spanish: 'ponerse las botas',
+  },
+  {
+    norwegian: 'få lov',
+    english: 'to be allowed to',
+    spanish: 'tener permiso para',
+  },
+  {
+    norwegian: 'er oppi bagen',
+    english: 'is in the bag',
+    spanish: 'está en la bolsa',
+  },
+  {
+    norwegian: 'erstatter',
+    english: 'replaces',
+    spanish: 'reemplaza',
+  },
+  {
+    norwegian: 'det drypper',
+    english: 'it drips',
+    spanish: 'gotea',
+  },
+  {
+    norwegian: 'litt klønete',
+    english: 'a bit clumsy',
+    spanish: 'un poco torpe',
+  },
+  {
+    norwegian: 'med datautstyret',
+    english: 'with the computer equipment',
+    spanish: 'con el equipo informático',
+  },
+  {
+    norwegian: 'herved erklærer',
+    english: 'hereby declares',
+    spanish: 'declara por la presente',
+  },
+  {
+    norwegian: 'ektemaker',
+    english: 'spouses',
+    spanish: 'cónyuges',
+  },
+  {
+    norwegian: 'et brudepar',
+    english: 'a bridal couple',
+    spanish: 'una pareja de novios',
+  },
+  {
+    norwegian: 'jeg skal lukke døren',
+    english: 'I will close the door',
+    spanish: 'cerraré la puerta',
+  },
+  {
+    norwegian: 'er på vedlikehold',
+    english: 'is under maintenance',
+    spanish: 'está en mantenimiento',
+  },
+  {
+    norwegian: 'en jerndør',
+    english: 'an iron door',
+    spanish: 'una puerta de hierro',
+  },
+  {
+    norwegian: 'en diger ryggsekk',
+    english: 'a huge backpack',
+    spanish: 'una mochila enorme',
+  },
+  {
+    norwegian: 'barnløshet',
+    english: 'childlessness',
+    spanish: 'sin hijos',
+  },
+  {
+    norwegian: 'barnløse helt',
+    english: 'childless hero',
+    spanish: 'héroe sin hijos',
+  },
+  {
+    norwegian: 'putter bomull i øra',
+    english: 'puts cotton in the ears',
+    spanish: 'pone algodón en los oídos',
+  },
+  {
+    norwegian: 'mislykket',
+    english: 'unsuccessful',
+    spanish: 'fallido',
+  },
+  {
+    norwegian: 'misforstår',
+    english: 'misunderstands',
+    spanish: 'malinterpreta',
+  },
+  {
+    norwegian: 'hastverk',
+    english: 'hurry',
+    spanish: 'prisa',
+  },
+  {
+    norwegian: 'veldig smigret',
+    english: 'very flattered',
+    spanish: 'muy halagado',
+  },
+  {
+    norwegian: 'urtemarinerte',
+    english: 'herb-marinated',
+    spanish: 'marinado con hierbas',
+  },
+  {
+    norwegian: 'kalvemedaljonger',
+    english: 'veal medallions',
+    spanish: 'medallones de ternera',
+  },
+  {
+    norwegian: 'hopper du i badekaret?',
+    english: 'are you jumping in the bathtub?',
+    spanish: '¿te estás metiendo en la bañera?',
+  },
+  {
+    norwegian: 'hadde aldri latt meg gå',
+    english: 'would never let me go',
+    spanish: 'nunca me dejaría ir',
+  },
+  {
+    norwegian: 'strykebrettet',
+    english: 'ironing board',
+    spanish: 'tabla de planchar',
+  },
+  {
+    norwegian: 'gamle ørn',
+    english: 'old eagle',
+    spanish: 'viejo águila',
+  },
+  {
+    norwegian: 'klarer du',
+    english: 'can you manage',
+    spanish: '¿puedes manejarlo?',
+  },
+  {
+    norwegian: 'å få de så krøllete',
+    english: 'to get them so wrinkled',
+    spanish: 'hacerlos tan arrugados',
+  },
+  {
+    norwegian: 'fra den alderen',
+    english: 'from that age',
+    spanish: 'desde esa edad',
+  },
+  {
+    norwegian: 'plikter',
+    english: 'duties',
+    spanish: 'deberes',
+  },
+  {
+    norwegian: 'røyk uten lid',
+    english: 'smoke without pleasure',
+    spanish: 'fumar sin placer',
+  },
+  {
+    norwegian: 'uttrykket',
+    english: 'the expression',
+    spanish: 'la expresión',
+  },
+  {
+    norwegian: 'smetter ut av vinduet',
+    english: 'slips out of the window',
+    spanish: 'se escapa por la ventana',
+  },
+  {
+    norwegian: 'jeg skal legge meg',
+    english: 'I will go to bed',
+    spanish: 'me voy a la cama',
+  },
+  {
+    norwegian: 'litt føre var',
+    english: 'a little precautionary',
+    spanish: 'un poco de precaución',
+  },
+  {
+    norwegian: 'skulle legge seg',
+    english: 'was supposed to go to bed',
+    spanish: 'se suponía que iba a la cama',
+  },
+  {
+    norwegian: 'snur ryggen til',
+    english: 'turns his back',
+    spanish: 'da la espalda',
+  },
+  {
+    norwegian: 'lyve om',
+    english: 'to lie about',
+    spanish: 'mentir sobre',
+  },
+  {
+    norwegian: 'tillitsbrudd',
+    english: 'breach of trust',
+    spanish: 'quebrantamiento de confianza',
+  },
+  {
+    norwegian: 'skikkelig',
+    english: 'really',
+    spanish: 'realmente',
+  },
+  {
+    norwegian: 'dømmekraft',
+    english: 'judgment',
+    spanish: 'juicio',
+  },
+  {
+    norwegian: 'dukker vel opp',
+    english: 'will show up',
+    spanish: 'aparecerá',
+  },
+  {
+    norwegian: 'sniker seg ut',
+    english: 'sneaks out',
+    spanish: 'se escapa',
+  },
+  {
+    norwegian: 'med mindreårige som',
+    english: 'with minors who',
+    spanish: 'con menores que',
+  },
+  {
+    norwegian: 'du er kjip',
+    english: 'you are mean',
+    spanish: 'eres malo',
+  },
+  {
+    norwegian: 'list deg forbi',
+    english: 'sneak past',
+    spanish: 'pasar sigilosamente',
+  },
+  {
+    norwegian: 'ikke lukk opp døren',
+    english: 'do not open the door',
+    spanish: 'no abras la puerta',
+  },
+  {
+    norwegian: 'jeg våkner så innmari lett',
+    english: 'I wake up so easily',
+    spanish: 'me despierto tan fácilmente',
+  },
+  {
+    norwegian: 'jeg drev',
+    english: 'I was driving',
+    spanish: 'estaba conduciendo',
+  },
+  {
+    norwegian: 'jeg fulgte etter',
+    english: 'I followed',
+    spanish: 'seguí',
+  },
+  {
+    norwegian: 'så henter vi det',
+    english: 'then we will get it',
+    spanish: 'entonces lo recogeremos',
+  },
+  {
     english: 'so itchy',
     norwegian: 'så kløende',
     spanish: 'tan picante',
@@ -47940,6 +48270,6 @@ export const words: Question[] = [
   {
     english: 'once a cheater always a cheater',
     norwegian: 'en gang utro alltid utr',
-    spanish: '',
+    spanish: 'una vez infiel, siempre infiel',
   },
 ];

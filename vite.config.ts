@@ -1,22 +1,20 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import eslint from 'vite-plugin-eslint';
 import vercel from 'vite-plugin-vercel';
-import { TanStackRouterVite } from '@tanstack/router-vite-plugin';
+import { tanstackRouter } from '@tanstack/router-plugin/vite';
 import million from 'million/compiler';
 import { VitePWA } from 'vite-plugin-pwa';
 import { internalIpV4 } from 'internal-ip';
 
-// @ts-expect-error process is a nodejs global
 const host = process.env.TAURI_DEV_HOST;
 
 const mobile = !!/android|ios/.exec(process.env.TAURI_ENV_PLATFORM);
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    tanstackRouter({ target: 'react', autoCodeSplitting: true }),
     react(),
     vercel(),
-    TanStackRouterVite(),
     // eslint(), # disable eslint for now. Getting errors with vite-plugin-eslint
     million.vite({ auto: true }),
     VitePWA({
