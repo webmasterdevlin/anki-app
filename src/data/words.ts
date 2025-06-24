@@ -8,9 +8,210 @@ export const words: Question[] = [
     spanish: 'cepillo de dientes',
   },
   {
+    norwegian: 'samlet til ett rike',
+    english: 'united into one kingdom',
+    spanish: 'unido en un solo reino',
+  },
+  {
+    norwegian: 'å knyte sløyfe',
+    english: 'to tie a bow',
+    spanish: 'atar un lazo',
+  },
+  {
+    norwegian: 'den smokingen',
+    english: 'the tuxedo',
+    spanish: 'el esmoquin',
+  },
+  {
+    norwegian: 'visst faen',
+    english: 'sure as hell',
+    spanish: 'seguro que sí',
+  },
+  {
+    norwegian: 'en skredder til å ordne',
+    english: 'a tailor to fix',
+    spanish: 'un sastre para arreglar',
+  },
+  {
+    norwegian: 'i alle fall',
+    english: 'at least',
+    spanish: 'al menos',
+  },
+  {
+    norwegian: 'åssen man skåler med',
+    english: 'how to toast with',
+    spanish: 'cómo brindar con',
+  },
+  {
+    norwegian: 'rimelig enkelt',
+    english: 'fairly simple',
+    spanish: 'bastante simple',
+  },
+  {
+    norwegian: 'ta det på rim',
+    english: 'take it in stride',
+    spanish: 'tomarlo con calma',
+  },
+  {
+    norwegian: 'han gærningen',
+    english: 'that crazy guy',
+    spanish: 'ese loco',
+  },
+  {
+    norwegian: 'jeglurte på',
+    english: 'I wondered',
+    spanish: 'me preguntaba',
+  },
+  {
+    norwegian: 'ord rett fra levra',
+    english: 'words straight from the heart',
+    spanish: 'palabras del corazón',
+  },
+  {
+    norwegian: 'å mase',
+    english: 'to nag',
+    spanish: 'molestar',
+  },
+  {
+    norwegian: 'alvorlig talt',
+    english: 'seriously',
+    spanish: 'en serio',
+  },
+  {
+    norwegian: 'skal bli skuffa',
+    english: 'will be disappointed',
+    spanish: 'estaré decepcionado',
+  },
+  {
+    norwegian: 'det kan gå hull på dem',
+    english: 'they can burst',
+    spanish: 'pueden estallar',
+  },
+  {
+    norwegian: 'hvor raus han er',
+    english: 'how generous he is',
+    spanish: 'qué generoso es',
+  },
+  {
+    norwegian: 'så ligger det litt an til',
+    english: 'then it is a bit like',
+    spanish: 'entonces es un poco como',
+  },
+
+  {
+    norwegian: 'her er brusen',
+    english: 'here is the soda',
+    spanish: 'aquí está el refresco',
+  },
+  {
+    norwegian: 'jeg ta bestillinger',
+    english: 'I take orders',
+    spanish: 'tomo pedidos',
+  },
+  {
+    norwegian: 'vi kosekveld',
+    english: 'we have a cozy evening',
+    spanish: 'tenemos una noche acogedora',
+  },
+  {
+    norwegian: 'hver gang vi sees',
+    english: 'every time we meet',
+    spanish: 'cada vez que nos vemos',
+  },
+  {
+    norwegian: 'et råd på din vei',
+    english: 'a piece of advice on your way',
+    spanish: 'un consejo en tu camino',
+  },
+  {
+    norwegian: 'for første taler',
+    english: 'for the first speaker',
+    spanish: 'para el primer orador',
+  },
+  {
+    norwegian: 'ord på rim',
+    english: 'words that rhyme',
+    spanish: 'palabras que riman',
+  },
+  {
+    norwegian: 'er du lengre på håret',
+    english: 'are you longer in the hair',
+    spanish: 'tienes el pelo más largo',
+  },
+  {
+    norwegian: 'snill og grei',
+    english: 'kind and nice',
+    spanish: 'amable y simpático',
+  },
+  {
+    norwegian: 'jævla rart',
+    english: 'damn weird',
+    spanish: 'malditamente raro',
+  },
+  {
+    norwegian: 'fars 70-årsdag',
+    english: 'dad’s 70th birthday',
+    spanish: 'el 70 cumpleaños de papá',
+  },
+  {
+    norwegian: 'gidder å gidder',
+    english: 'bother to bother',
+    spanish: 'molestarse en molestar',
+  },
+  {
+    norwegian: 'falske minner',
+    english: 'false memories',
+    spanish: 'falsos recuerdos',
+  },
+  {
+    norwegian: 'såpass',
+    english: 'so much',
+    spanish: 'tanto',
+  },
+  {
+    norwegian: 'litt med talen',
+    english: 'a little with the speech',
+    spanish: 'un poco con el discurso',
+  },
+  {
+    norwegian: 'er enda en hund',
+    english: 'is yet another dog',
+    spanish: 'es otro perro más',
+  },
+  {
+    norwegian: 'kyllinglår',
+    english: 'chicken thighs',
+    spanish: 'muslos de pollo',
+  },
+  {
+    norwegian: 'du fant ingen parkeringsplass',
+    english: 'you did not find a parking space',
+    spanish: 'no encontraste un lugar de estacionamiento',
+  },
+  {
+    norwegian: 'som ble noe av',
+    english: 'that turned out to be something',
+    spanish: 'que resultó ser algo',
+  },
+  {
     norwegian: 'dopapir',
     english: 'toilet paper',
     spanish: 'papel higiénico',
+  },
+  {
+    norwegian: 'apropos god mat',
+    english: 'speaking of good food',
+    spanish: 'hablando de buena comida',
+  },
+  {
+    norwegian: 'velkommen til bords',
+    english: 'welcome to the table',
+    spanish: 'bienvenido a la mesa',
+  },
+  {
+    norwegian: 'har smøret størkna i bånn',
+    english: 'the butter has hardened at the bottom',
+    spanish: 'la mantequilla se ha endurecido en el fondo',
   },
   {
     norwegian: 'grenser',
