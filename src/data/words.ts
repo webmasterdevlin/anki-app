@@ -8,6 +8,126 @@ export const words: Question[] = [
     spanish: 'cepillo de dientes',
   },
   {
+    norwegian: 'klager på meg',
+    english: 'complains about me',
+    spanish: 'se queja de mí',
+  },
+  {
+    norwegian: 'den kaninen',
+    english: 'the rabbit',
+    spanish: 'el conejo',
+  },
+  {
+    norwegian: 'få ligge litt i armkroken',
+    english: 'to get to lie a bit in the crook of the arm',
+    spanish: 'acostarse un poco en el hueco del brazo',
+  },
+  {
+    norwegian: 'en nattakos',
+    english: 'a night snack',
+    spanish: 'un bocadillo nocturno',
+  },
+  {
+    norwegian: 'så vidt jeg kan huske',
+    english: 'as far as I can remember',
+    spanish: 'hasta donde recuerdo',
+  },
+  {
+    norwegian: 'da vedder jeg 1000',
+    english: 'then I bet 1000',
+    spanish: 'entonces apuesto 1000',
+  },
+  {
+    norwegian: 'helt meningsløst',
+    english: 'completely pointless',
+    spanish: 'completamente inútil',
+  },
+  {
+    norwegian: 'bli kvitt',
+    english: 'get rid of',
+    spanish: 'deshacerse de',
+  },
+  {
+    norwegian: 'du vant veddemålet',
+    english: 'you won the bet',
+    spanish: 'ganaste la apuesta',
+  },
+  {
+    norwegian: 'det er ekte revepels',
+    english: 'it is real fox fur',
+    spanish: 'es piel de zorro real',
+  },
+  {
+    norwegian: 'ja søren',
+    english: 'yes, damn it',
+    spanish: 'sí, maldita sea',
+  },
+  {
+    norwegian: 'en tusenlapp til deg',
+    english: 'a thousand kroner for you',
+    spanish: 'mil coronas para ti',
+  },
+  {
+    norwegian: 'kjennes ekte ut',
+    english: 'feels real',
+    spanish: 'se siente real',
+  },
+  {
+    norwegian: 'ha ryggrad nok',
+    english: 'have enough backbone',
+    spanish: 'tener suficiente carácter',
+  },
+  {
+    norwegian: 'som åtteåringer',
+    english: 'like eight-year-olds',
+    spanish: 'como niños de ocho años',
+  },
+  {
+    norwegian: 'ikke så ensomme',
+    english: 'not so lonely',
+    spanish: 'no tan solitarios',
+  },
+  {
+    norwegian: 'det var bra det ordna seg',
+    english: 'it was good that it worked out',
+    spanish: 'fue bueno que se resolviera',
+  },
+  {
+    norwegian: 'hva morgendagen bringer',
+    english: 'what tomorrow brings',
+    spanish: 'lo que traerá mañana',
+  },
+  {
+    norwegian: 'forsøker du å få meg til å',
+    english: 'are you trying to make me',
+    spanish: '¿estás tratando de hacerme',
+  },
+  {
+    norwegian: 'en hvit løgn',
+    english: 'a white lie',
+    spanish: 'una mentira piadosa',
+  },
+  {
+    norwegian: 'vent lite grann',
+    english: 'wait a little bit',
+    spanish: 'espera un poco',
+  },
+  {
+    norwegian: 'må skvære opp',
+    english: 'must make up',
+    spanish: 'debe reconciliarse',
+  },
+  {
+    norwegian: 'aner ikke hvor hun er',
+    english: 'have no idea where she is',
+    spanish: 'no tengo idea de dónde está',
+  },
+  {
+    norwegian: 'er det som blir greia',
+    english: 'is what will be the thing',
+    spanish: 'es lo que será la cosa',
+  },
+  {
     norwegian: 'samlet til ett rike',
     english: 'united into one kingdom',
     spanish: 'unido en un solo reino',
