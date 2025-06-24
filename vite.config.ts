@@ -4,11 +4,9 @@ import vercel from 'vite-plugin-vercel';
 import { tanstackRouter } from '@tanstack/router-plugin/vite';
 import million from 'million/compiler';
 import { VitePWA } from 'vite-plugin-pwa';
-import { internalIpV4 } from 'internal-ip';
 
 const host = process.env.TAURI_DEV_HOST;
 
-const mobile = !!/android|ios/.exec(process.env.TAURI_ENV_PLATFORM);
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
