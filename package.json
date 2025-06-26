@@ -6,18 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "oxlint",
     "preview": "vite preview",
     "generate-assets": "pwa-assets-generator --preset minimal public/logo.png",
-    "generate-assets-2023": "pwa-assets-generator --preset minimal-2023 public/logo.png",
-    "checkTs": "tsc --noEmit",
-    "prepare": "husky",
-    "tauri": "tauri",
-    "init:android": "tauri android init",
-    "init:ios": "tauri ios init",
-    "dev:android": "RUST_BACKTRACE=1 tauri android dev",
-    "dev:ios": "RUST_BACKTRACE=1 tauri ios dev 'iPhone 16'",
-    "build:desktop": "tauri build --target aarch64-apple-darwin"
+    "generate-assets-2023": "pwa-assets-generator --preset minimal-2023 public/logo.png"
   },
   "dependencies": {
     "@react-spring/web": "^10.0.1",
