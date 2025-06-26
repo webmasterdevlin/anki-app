@@ -18,6 +18,221 @@ export const words: Question[] = [
     spanish: 'el conejo',
   },
   {
+    norwegian: 'skrekkaktig film',
+    english: 'scary movie',
+    spanish: 'película de terror',
+  },
+  {
+    norwegian: 'ikke overraske over at',
+    english: 'not surprised that',
+    spanish: 'no sorprendido de que',
+  },
+  {
+    norwegian: 'den fæle filmen',
+    english: 'that awful movie',
+    spanish: 'esa película horrible',
+  },
+  {
+    norwegian: 'du tør ikke det',
+    english: 'you dare not do that',
+    spanish: 'no te atreves a hacer eso',
+  },
+  {
+    norwegian: 'bare fått ett stykke',
+    english: 'only had one piece',
+    spanish: 'solo he tenido un pedazo',
+  },
+  {
+    norwegian: 'begynn å forsyne dere',
+    english: 'start serving yourselves',
+    spanish: 'empiecen a servirse',
+  },
+  {
+    norwegian: 'straks film nede i kjelleren',
+    english: 'soon a movie in the basement',
+    spanish: 'pronto una película en el sótano',
+  },
+  {
+    norwegian: 'gjerne visst litt mer',
+    english: 'would like to know a bit more',
+    spanish: 'me gustaría saber un poco más',
+  },
+  {
+    norwegian: 'en skrekkelig aften',
+    english: 'a terrible evening',
+    spanish: 'una noche terrible',
+  },
+  {
+    norwegian: 'altfor skummelt',
+    english: 'way too scary',
+    spanish: 'demasiado aterrador',
+  },
+  {
+    norwegian: 'kunstig søtningsmiddel',
+    english: 'artificial sweetener',
+    spanish: 'edulcorante artificial',
+  },
+  {
+    norwegian: 'roe litt ned',
+    english: 'calm down a bit',
+    spanish: 'cálmate un poco',
+  },
+  {
+    norwegian: 'veganer eller vegetarianer',
+    english: 'vegan or vegetarian',
+    spanish: 'vegano o vegetariano',
+  },
+  {
+    norwegian: 'forsvar!',
+    english: 'defense!',
+    spanish: '¡defensa!',
+  },
+  {
+    norwegian: 'drikkemessig',
+    english: 'in terms of drinking',
+    spanish: 'en términos de bebida',
+  },
+  {
+    norwegian: 'å pynte litt',
+    english: 'to decorate a bit',
+    spanish: 'decorar un poco',
+  },
+  {
+    norwegian: 'hun havna utenfor',
+    english: 'she ended up outside',
+    spanish: 'ella terminó afuera',
+  },
+  {
+    norwegian: 'den innsatsen',
+    english: 'that effort',
+    spanish: 'ese esfuerzo',
+  },
+  {
+    norwegian: 'vi skal grafse',
+    english: 'we are going to grab',
+    spanish: 'vamos a agarrar',
+  },
+  {
+    norwegian: 'med skinke og ost',
+    english: 'with ham and cheese',
+    spanish: 'con jamón y queso',
+  },
+  {
+    norwegian: 'nok verdt',
+    english: 'worth it',
+    spanish: 'vale la pena',
+  },
+  {
+    norwegian: 'en vellykket fest',
+    english: 'a successful party',
+    spanish: 'una fiesta exitosa',
+  },
+  {
+    norwegian: 'et sånt skjelett',
+    english: 'a skeleton like that',
+    spanish: 'un esqueleto así',
+  },
+  {
+    norwegian: 'hva som skal skje',
+    english: 'what is going to happen',
+    spanish: 'lo que va a pasar',
+  },
+  {
+    norwegian: 'har gått',
+    english: 'has gone',
+    spanish: 'ha ido',
+  },
+  {
+    norwegian: 'knast eller knep',
+    english: 'trick or treat',
+    spanish: 'truco o trato',
+  },
+  {
+    norwegian: 'hos ham i kveld',
+    english: 'at his place tonight',
+    spanish: 'en su casa esta noche',
+  },
+  {
+    norwegian: 'gjestelista',
+    english: 'the guest list',
+    spanish: 'la lista de invitados',
+  },
+  {
+    norwegian: 'en hemmelig fest',
+    english: 'a secret party',
+    spanish: 'una fiesta secreta',
+  },
+  {
+    norwegian: 'barneselskap',
+    english: 'children’s party',
+    spanish: 'fiesta infantil',
+  },
+  {
+    norwegian: 'helt kørka',
+    english: 'completely nuts',
+    spanish: 'completamente loco',
+  },
+  {
+    norwegian: 'fangekjeller',
+    english: 'dungeon',
+    spanish: 'calabozo',
+  },
+  {
+    norwegian: 'herved invitert',
+    english: 'hereby invited',
+    spanish: 'por la presente invitado',
+  },
+  {
+    norwegian: 'kroppene blir revet fra hverandre',
+    english: 'the bodies are torn apart',
+    spanish: 'los cuerpos son destrozados',
+  },
+  {
+    norwegian: 'har lyst til det',
+    english: 'want to do it',
+    spanish: 'quiero hacerlo',
+  },
+  {
+    norwegian: 'har veldig lyst',
+    english: 'really want to',
+    spanish: 'realmente quiero',
+  },
+  {
+    norwegian: 'hjemmekinoanlegg',
+    english: 'home theater system',
+    spanish: 'sistema de cine en casa',
+  },
+  {
+    norwegian: 'måtte puste ned i en pose',
+    english: 'had to breathe into a bag',
+    spanish: 'tuve que respirar en una bolsa',
+  },
+  {
+    norwegian: 'ordne opp i',
+    english: 'sort out',
+    spanish: 'arreglar',
+  },
+  {
+    norwegian: 'opplegget for',
+    english: 'the plan for',
+    spanish: 'el plan para',
+  },
+  {
+    norwegian: 'spøkelsestog',
+    english: 'ghost train',
+    spanish: 'tren fantasma',
+  },
+  {
+    norwegian: 'helle tatt',
+    english: 'not at all',
+    spanish: 'en absoluto',
+  },
+  {
+    norwegian: 'spøkelse',
+    english: 'ghost',
+    spanish: 'fantasma',
+  },
+  {
     norwegian: 'få ligge litt i armkroken',
     english: 'to get to lie a bit in the crook of the arm',
     spanish: 'acostarse un poco en el hueco del brazo',
