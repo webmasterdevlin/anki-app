@@ -18,6 +18,66 @@ export const words: Question[] = [
     spanish: 'aún no se ha escondido',
   },
   {
+    norwegian: 'den syltetøykrukka i gangen',
+    english: 'the jam jar in the hallway',
+    spanish: 'el tarro de mermelada en el pasillo',
+  },
+  {
+    norwegian: 'en drosje',
+    english: 'a taxi',
+    spanish: 'un taxi',
+  },
+  {
+    norwegian: 'det tar vel 5-6 til Stockholm',
+    english: 'it takes about 5-6 to Stockholm',
+    spanish: 'tarda unas 5-6 horas a Estocolmo',
+  },
+  {
+    norwegian: 'den hadde hengt her',
+    english: 'it had hung here',
+    spanish: 'había colgado aquí',
+  },
+  {
+    norwegian: 'det var klønete',
+    english: 'it was clumsy',
+    spanish: 'fue torpe',
+  },
+  {
+    norwegian: 'jeg satt den på hodet',
+    english: 'I put it on my head',
+    spanish: 'me la puse en la cabeza',
+  },
+  {
+    norwegian: 'kom deg av gårde',
+    english: 'get going',
+    spanish: 'ponte en marcha',
+  },
+  {
+    norwegian: 'fort dere',
+    english: 'hurry up',
+    spanish: 'apresúrense',
+  },
+  {
+    norwegian: 'tok jeg deg på fersken nå',
+    english: 'did I catch you now',
+    spanish: 'te pillé ahora',
+  },
+  {
+    norwegian: 'en ordentlig presang',
+    english: 'a proper gift',
+    spanish: 'un regalo adecuado',
+  },
+  {
+    norwegian: 'denne tiggekoppen',
+    english: 'this begging cup',
+    spanish: 'esta taza de mendicidad',
+  },
+  {
+    norwegian: 'sikkerhet mot kaoset ditt',
+    english: 'security against your chaos',
+    spanish: 'seguridad contra tu caos',
+  },
+  {
     norwegian: 'du byr ikke på',
     english: 'you do not offer',
     spanish: 'no ofreces',
