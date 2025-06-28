@@ -13,6 +13,121 @@ export const words: Question[] = [
     spanish: 'se queja de mí',
   },
   {
+    norwegian: 'rekke skidagen',
+    english: 'to attend the ski day',
+    spanish: 'asistir al día de esquí',
+  },
+  {
+    norwegian: 'jeg ble distrahert',
+    english: 'I got distracted',
+    spanish: 'me distraje',
+  },
+  {
+    norwegian: 'det er iallfall ikke greit at du',
+    english: 'it is definitely not okay that you',
+    spanish: 'definitivamente no está bien que tú',
+  },
+  {
+    norwegian: 'til å ta vare på',
+    english: 'to take care of',
+    spanish: 'cuidar de',
+  },
+  {
+    norwegian: 'jeg tok deg på fersken',
+    english: 'I caught you red-handed',
+    spanish: 'te pillé con las manos en la masa',
+  },
+  {
+    norwegian: 'så er jeg opphavet',
+    english: 'so I am the origin',
+    spanish: 'así que soy el origen',
+  },
+  {
+    norwegian: 'neimen, så skjønn!',
+    english: 'well, how lovely!',
+    spanish: '¡vaya, qué encantador!',
+  },
+  {
+    norwegian: 'hun hadde sovna',
+    english: 'she had fallen asleep',
+    spanish: 'ella se había quedado dormida',
+  },
+  {
+    norwegian: 'jeg inn noe annet først',
+    english: 'I will do something else first',
+    spanish: 'haré algo más primero',
+  },
+  {
+    norwegian: 'er innelåst',
+    english: 'is locked in',
+    spanish: 'está encerrado',
+  },
+  {
+    norwegian: 'jeg må bare forte meg tilbake',
+    english: 'I just have to hurry back',
+    spanish: 'solo tengo que apresurarme a volver',
+  },
+  {
+    norwegian: 'tavla her',
+    english: 'the board here',
+    spanish: 'la pizarra aquí',
+  },
+  {
+    norwegian: 'får du sørge for',
+    english: 'you will make sure',
+    spanish: 'te asegurarás de',
+  },
+  {
+    norwegian: 'bilsyk heter det',
+    english: 'it is called car sickness',
+    spanish: 'se llama mareo en coche',
+  },
+  {
+    norwegian: 'men det er jo planleggingsdag i dag',
+    english: 'but today is a planning day',
+    spanish: 'pero hoy es un día de planificación',
+  },
+  {
+    norwegian: 'reunion med barselgruppa',
+    english: 'meeting with the baby group',
+    spanish: 'reunión con el grupo de bebés',
+  },
+  {
+    norwegian: 'å forenkle livet ditt på',
+    english: 'to simplify your life on',
+    spanish: 'simplificar tu vida en',
+  },
+  {
+    norwegian: 'for så vidt ta ham med meg',
+    english: 'to take him with me',
+    spanish: 'llevarlo conmigo',
+  },
+  {
+    norwegian: 'du har vi surra litt',
+    english: 'we have messed up a bit',
+    spanish: 'hemos metido la pata un poco',
+  },
+  {
+    norwegian: 'for selve kanevalet er på lørdag',
+    english: 'for the actual carnival is on Saturday',
+    spanish: 'porque el carnaval real es el sábado',
+  },
+  {
+    norwegian: 'har satt deg selv i dette rotet',
+    english: 'have put yourself in this mess',
+    spanish: 'te has metido en este lío',
+  },
+  {
+    norwegian: 'er i parterapi',
+    english: 'is in couples therapy',
+    spanish: 'está en terapia de pareja',
+  },
+  {
+    norwegian: 'du har den samværsplanen',
+    english: 'you have the visitation plan',
+    spanish: 'tienes el plan de visitas',
+  },
+  {
     norwegian: 'ikke har gjemt seg na',
     english: 'has not hidden yet',
     spanish: 'aún no se ha escondido',
