@@ -13,6 +13,251 @@ export const words: Question[] = [
     spanish: 'se queja de mí',
   },
   {
+    norwegian: 'ikke har gjemt seg na',
+    english: 'has not hidden yet',
+    spanish: 'aún no se ha escondido',
+  },
+  {
+    norwegian: 'du byr ikke på',
+    english: 'you do not offer',
+    spanish: 'no ofreces',
+  },
+  {
+    norwegian: 'å trøste',
+    english: 'to comfort',
+    spanish: 'consolar',
+  },
+  {
+    norwegian: 'jeg av gårde',
+    english: 'I am off',
+    spanish: 'me voy',
+  },
+  {
+    norwegian: 'er litt sprøtt',
+    english: 'is a bit crazy',
+    spanish: 'es un poco loco',
+  },
+  {
+    norwegian: 'pekefingeren og stryke bortover',
+    english: 'index finger and stroke along',
+    spanish: 'dedo índice y acariciar hacia abajo',
+  },
+  {
+    norwegian: 'spådamer igjen',
+    english: 'fortune tellers again',
+    spanish: 'adivinas otra vez',
+  },
+  {
+    norwegian: 'overkjøre',
+    english: 'override',
+    spanish: 'anular',
+  },
+  {
+    norwegian: 'i det hele tatt',
+    english: 'at all',
+    spanish: 'en absoluto',
+  },
+  {
+    norwegian: 'kan overkjøre folk',
+    english: 'can override people',
+    spanish: 'puede anular a las personas',
+  },
+  {
+    norwegian: 'vel feig i beste mening',
+    english: 'well cowardly in the best sense',
+    spanish: 'bien cobarde en el mejor sentido',
+  },
+  {
+    norwegian: 'er innenfor forretningsområdet',
+    english: 'is within the business area',
+    spanish: 'está dentro del área de negocio',
+  },
+  {
+    norwegian: 'har vært ganske kvalm',
+    english: 'have been quite nauseous',
+    spanish: 'he estado bastante mareado',
+  },
+  {
+    norwegian: 'du ikke kunne få barn',
+    english: 'you could not have children',
+    spanish: 'no podías tener hijos',
+  },
+  {
+    norwegian: 'en times tid',
+    english: 'for about an hour',
+    spanish: 'durante aproximadamente una hora',
+  },
+  {
+    norwegian: 'får ham av gårde',
+    english: 'gets him off',
+    spanish: 'lo saca',
+  },
+  {
+    norwegian: 'den jævla lyden gir seg jo ikke',
+    english: 'that damn sound does not stop',
+    spanish: 'ese maldito sonido no para',
+  },
+  {
+    norwegian: 'i smurfepastiller',
+    english: 'in smurf pills',
+    spanish: 'en pastillas de pitufos',
+  },
+  {
+    norwegian: 'legger jeg kofferten i bagasjerommet',
+    english: 'I put the suitcase in the trunk',
+    spanish: 'pongo la maleta en el maletero',
+  },
+  {
+    norwegian: 'i smurfepastiller',
+    english: 'in smurf pills',
+    spanish: 'en pastillas de pitufos',
+  },
+  {
+    norwegian: 'så frisk pust',
+    english: 'such fresh breath',
+    spanish: 'tan fresco aliento',
+  },
+  {
+    norwegian: 'leker gjemsel',
+    english: 'playing hide and seek',
+    spanish: 'jugando al escondite',
+  },
+  {
+    norwegian: 'jeg må visst stikke nå',
+    english: 'I must leave now',
+    spanish: 'debo irme ahora',
+  },
+  {
+    norwegian: 'en terrasse',
+    english: 'a terrace',
+    spanish: 'una terraza',
+  },
+  {
+    norwegian: 'blant annet',
+    english: 'among other things',
+    spanish: 'entre otras cosas',
+  },
+  {
+    norwegian: 'vel regissør',
+    english: 'well director',
+    spanish: 'bueno director',
+  },
+  {
+    norwegian: 'to kebabtallerkener',
+    english: 'two kebab plates',
+    spanish: 'dos platos de kebab',
+  },
+  {
+    norwegian: 'en sånn tyrkisk muldvarp',
+    english: 'a Turkish mole',
+    spanish: 'un topo turco',
+  },
+  {
+    norwegian: 'en spådame',
+    english: 'a fortune teller',
+    spanish: 'una adivina',
+  },
+  {
+    norwegian: 'er jo på en måte et reklamebyrå',
+    english: 'is in a way an advertising agency',
+    spanish: 'es de alguna manera una agencia de publicidad',
+  },
+  {
+    norwegian: 'man trykker bare på den',
+    english: 'you just press it',
+    spanish: 'solo lo presionas',
+  },
+  {
+    norwegian: 'du ville møttes',
+    english: 'you wanted to meet',
+    spanish: 'querías encontrarte',
+  },
+  {
+    norwegian: 'å plukke opp tråden',
+    english: 'to pick up the thread',
+    spanish: 'retomar el hilo',
+  },
+  {
+    norwegian: 'er fritt frem',
+    english: 'is free to go',
+    spanish: 'es libre de ir',
+  },
+  {
+    norwegian: 'se om jeg finner ham på',
+    english: 'see if I can find him on',
+    spanish: 'ver si puedo encontrarlo en',
+  },
+  {
+    norwegian: 'så kan jeg finne det ut',
+    english: 'then I can find it out',
+    spanish: 'entonces puedo averiguarlo',
+  },
+  {
+    norwegian: 'jeg overvåker ikke',
+    english: 'I do not monitor',
+    spanish: 'no monitorizo',
+  },
+  {
+    norwegian: 'så ser jeg nøyaktig',
+    english: 'then I see exactly',
+    spanish: 'entonces veo exactamente',
+  },
+  {
+    norwegian: 'å anklage deg',
+    english: 'to accuse you',
+    spanish: 'acusar a ti',
+  },
+  {
+    norwegian: 'til å lytte',
+    english: 'to listen',
+    spanish: 'escuchar',
+  },
+  {
+    norwegian: 'bare hopp i det',
+    english: 'just jump into it',
+    spanish: 'simplemente salta a ello',
+  },
+  {
+    norwegian: 'sjekke kalenderen',
+    english: 'check the calendar',
+    spanish: 'revisar el calendario',
+  },
+  {
+    norwegian: 'avslå den',
+    english: 'reject it',
+    spanish: 'rechazarlo',
+  },
+  {
+    norwegian: 'å løyet for å få',
+    english: 'to have lied to get',
+    spanish: 'haber mentido para conseguir',
+  },
+  {
+    norwegian: 'hopper ut fra en bro',
+    english: 'jumps off a bridge',
+    spanish: 'salta de un puente',
+  },
+  {
+    norwegian: 'avlyse hele middagen',
+    english: 'cancel the whole dinner',
+    spanish: 'cancelar toda la cena',
+  },
+  {
+    norwegian: 'i så manisk godt humør',
+    english: 'in such a manic good mood',
+    spanish: 'en un estado de ánimo tan maníaco',
+  },
+  {
+    norwegian: 'saken er at',
+    english: 'the thing is that',
+    spanish: 'la cosa es que',
+  },
+  {
+    norwegian: 'kroppsspråket',
+    english: 'body language',
+    spanish: 'lenguaje corporal',
+  },
+  {
     norwegian: 'det er ekleste',
     english: 'it is the grossest',
     spanish: 'es lo más asqueroso',
