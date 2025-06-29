@@ -13,6 +13,36 @@ export const words: Question[] = [
     spanish: 'se queja de mí',
   },
   {
+    norwegian: 'burde man droppet ham',
+    english: 'should one have dropped him',
+    spanish: 'debería haberse deshecho de él',
+  },
+  {
+    norwegian: 'bare blitt på vorset',
+    english: 'should have just stayed at the pre-party',
+    spanish: 'debería haberme quedado en la fiesta previa',
+  },
+  {
+    norwegian: 'det lurer vår anmelder på',
+    english: 'our reviewer wonders',
+    spanish: 'nuestro crítico se pregunta',
+  },
+  {
+    norwegian: 'ikke minst hennes karisma',
+    english: 'not least her charisma',
+    spanish: 'no menos su carisma',
+  },
+  {
+    norwegian: 'men noe sitt fravær setter sin demper',
+    english: 'but her absence dampens the mood',
+    spanish: 'pero su ausencia empaña el ambiente',
+  },
+  {
+    norwegian: 'på musikken i en live-setting',
+    english: 'on the music in a live setting',
+    spanish: 'en la música en un entorno en vivo',
+  },
+  {
     norwegian: 'rekke skidagen',
     english: 'to attend the ski day',
     spanish: 'asistir al día de esquí',
