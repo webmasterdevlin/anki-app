@@ -3,14 +3,179 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'det er et vedlikeholdsmareritt',
+    english: 'it is a maintenance nightmare',
+    spanish: 'es una pesadilla de mantenimiento',
+  },
+  {
     english: 'toothbrush',
     norwegian: 'tannbørste',
     spanish: 'cepillo de dientes',
   },
   {
+    norwegian: 'jeg har lånt bort bilen',
+    english: 'I have lent out the car',
+    spanish: 'he prestado el coche',
+  },
+  {
     norwegian: 'klager på meg',
     english: 'complains about me',
     spanish: 'se queja de mí',
+  },
+  {
+    norwegian: 'da er vi rett rundt hjørnet',
+    english: 'then we are right around the corner',
+    spanish: 'entonces estamos justo a la vuelta de la esquina',
+  },
+  {
+    norwegian: 'med søppelpose i hånda',
+    english: 'with a garbage bag in hand',
+    spanish: 'con una bolsa de basura en la mano',
+  },
+  {
+    norwegian: 'er kysten klar',
+    english: 'is the coast clear',
+    spanish: '¿está despejada la costa?',
+  },
+  {
+    norwegian: 'for jeg må av gårde',
+    english: 'because I have to leave',
+    spanish: 'porque tengo que irme',
+  },
+  {
+    norwegian: 'jeg ble befruktet',
+    english: 'I got fertilized',
+    spanish: 'fui fertilizado',
+  },
+  {
+    norwegian: 'som er helt upåklagelig',
+    english: 'which is absolutely impeccable',
+    spanish: 'que es absolutamente impecable',
+  },
+  {
+    norwegian: 'så det har du i hvert fall en gladnyhet',
+    english: 'so at least you have some good news',
+    spanish: 'así que al menos tienes una buena noticia',
+  },
+  {
+    norwegian: 'for å bli smelt på tjukka',
+    english: 'to get knocked up',
+    spanish: 'para quedar embarazada',
+  },
+  {
+    norwegian: 'blie med opp og trøste',
+    english: 'to be up and comfort',
+    spanish: 'estar de pie y consolar',
+  },
+  {
+    norwegian: 'alt surret vi har holdt på med',
+    english: 'all the mess we have been dealing with',
+    spanish: 'todo el lío con el que hemos estado lidiando',
+  },
+  {
+    norwegian: 'var helt unødvendig',
+    english: 'was completely unnecessary',
+    spanish: 'fue completamente innecesario',
+  },
+  {
+    norwegian: 'dere flytter ikke til Oslo',
+    english: 'you are not moving to Oslo',
+    spanish: 'no te mudas a Oslo',
+  },
+  {
+    norwegian: 'å være kvalm',
+    english: 'to be nauseous',
+    spanish: 'estar mareado',
+  },
+  {
+    norwegian: 'den knyttet jeg sammen',
+    english: 'I tied it together',
+    spanish: 'lo até junto',
+  },
+  {
+    norwegian: 'mamma er sengeliggende',
+    english: 'mom is bedridden',
+    spanish: 'mamá está postrada en la cama',
+  },
+  {
+    norwegian: 'ligg unna meg og mitt liv',
+    english: 'stay away from me and my life',
+    spanish: 'mantente alejado de mí y de mi vida',
+  },
+  {
+    norwegian: 'til en sånn kvalitetssjekk',
+    english: 'for such a quality check',
+    spanish: 'para una revisión de calidad así',
+  },
+  {
+    norwegian: 'fluortabletter',
+    english: 'fluoride tablets',
+    spanish: 'tabletas de fluoruro',
+  },
+  {
+    norwegian: 'for å holde dem unna',
+    english: 'to keep them away',
+    spanish: 'para mantenerlos alejados',
+  },
+  {
+    norwegian: 'har krutt i børsa',
+    english: 'has gunpowder in the gun',
+    spanish: 'tiene pólvora en la pistola',
+  },
+  {
+    norwegian: 'i gang selve eggløsningen',
+    english: 'in the process of ovulation',
+    spanish: 'en el proceso de ovulación',
+  },
+  {
+    norwegian: 'få et skjema av meg',
+    english: 'get a form from me',
+    spanish: 'recibir un formulario de mí',
+  },
+  {
+    norwegian: 'jeg skal klare det',
+    english: 'I will manage it',
+    spanish: 'lo lograré',
+  },
+  {
+    norwegian: 'på lang sikt',
+    english: 'in the long run',
+    spanish: 'a largo plazo',
+  },
+  {
+    norwegian: 'for at det skal virke',
+    english: 'for it to work',
+    spanish: 'para que funcione',
+  },
+  {
+    norwegian: 'forresten ville jeg bare si beklager',
+    english: 'by the way, I just wanted to say sorry',
+    spanish: 'por cierto, solo quería decir lo siento',
+  },
+  {
+    norwegian: 'i skinka',
+    english: 'in the ham',
+    spanish: 'en el jamón',
+  },
+  {
+    norwegian: 'at man får et barn',
+    english: 'that one gets a child',
+    spanish: 'que uno tenga un hijo',
+  },
+  {
+    norwegian: 'sånn sprøyte',
+    english: 'such a syringe',
+    spanish: 'tal jeringa',
+  },
+  {
+    norwegian: 'ja såpass',
+    english: 'yes, so much',
+    spanish: 'sí, tanto',
+  },
+  {
+    norwegian: 'jeg forstyrrer',
+    english: 'I disturb',
+    spanish: 'yo interrumpo',
   },
   {
     norwegian: 'burde man droppet ham',
