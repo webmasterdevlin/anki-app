@@ -3,6 +3,221 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'det er ekleste',
+    english: 'it is the grossest',
+    spanish: 'es lo más asqueroso',
+  },
+  {
+    norwegian: 'du som var skada',
+    english: 'you who were hurt',
+    spanish: 'tú que estabas herido',
+  },
+  {
+    norwegian: 'et nyss',
+    english: 'a sneeze',
+    spanish: 'un estornudo',
+  },
+  {
+    norwegian: 'har stukket',
+    english: 'have stuck',
+    spanish: 'han metido',
+  },
+  {
+    norwegian: 'såpass',
+    english: 'so much',
+    spanish: 'tanto',
+  },
+  {
+    norwegian: 'har en avtale',
+    english: 'have an appointment',
+    spanish: 'tengo una cita',
+  },
+  {
+    norwegian: 'livsfarlig',
+    english: 'life-threatening',
+    spanish: 'peligroso para la vida',
+  },
+  {
+    norwegian: 'påvirkning på barna her',
+    english: 'influence on the children here',
+    spanish: 'influencia en los niños aquí',
+  },
+  {
+    norwegian: 'meglingsmøtet',
+    english: 'the mediation meeting',
+    spanish: 'la reunión de mediación',
+  },
+  {
+    norwegian: 'hun virket bare nedfor',
+    english: 'she just seemed down',
+    spanish: 'ella parecía simplemente deprimida',
+  },
+  {
+    norwegian: 'så gærent',
+    english: 'so bad',
+    spanish: 'tan mal',
+  },
+  {
+    norwegian: 'å sladre',
+    english: 'to gossip',
+    spanish: 'chismear',
+  },
+  {
+    norwegian: 'jeg er ikke eiesyk',
+    english: 'I am not possessive',
+    spanish: 'no soy posesivo',
+  },
+  {
+    norwegian: 'du var i nød',
+    english: 'you were in need',
+    spanish: 'estabas en necesidad',
+  },
+  {
+    norwegian: 'ikke skal nevne navn',
+    english: 'should not mention names',
+    spanish: 'no debería mencionar nombres',
+  },
+  {
+    norwegian: 'jeg har innledet',
+    english: 'I have initiated',
+    spanish: 'he iniciado',
+  },
+  {
+    norwegian: 'drøyeste',
+    english: 'the most outrageous',
+    spanish: 'el más escandaloso',
+  },
+  {
+    norwegian: 'i drosja',
+    english: 'in the taxi',
+    spanish: 'en el taxi',
+  },
+  {
+    norwegian: 'på vei til en styremiddag',
+    english: 'on the way to a board dinner',
+    spanish: 'de camino a una cena de la junta',
+  },
+  {
+    norwegian: 'nesten bitter',
+    english: 'almost bitter',
+    spanish: 'casi amargo',
+  },
+  {
+    norwegian: 'er litt upassende',
+    english: 'is a bit inappropriate',
+    spanish: 'es un poco inapropiado',
+  },
+  {
+    norwegian: 'til å påvirke meg',
+    english: 'to influence me',
+    spanish: 'para influenciarme',
+  },
+  {
+    norwegian: 'rekvisittlaget',
+    english: 'the props team',
+    spanish: 'el equipo de utilería',
+  },
+  {
+    norwegian: 'fin plakat',
+    english: 'nice poster',
+    spanish: 'bonito cartel',
+  },
+  {
+    norwegian: 'noe rarere',
+    english: 'something stranger',
+    spanish: 'algo más extraño',
+  },
+  {
+    norwegian: 'er så vidt 16 år',
+    english: 'is barely 16 years old',
+    spanish: 'apenas tiene 16 años',
+  },
+  {
+    norwegian: 'meglingsattesten',
+    english: 'mediation certificate',
+    spanish: 'certificado de mediación',
+  },
+  {
+    norwegian: 'hun virket bare nedfor',
+    english: 'she just seemed down',
+    spanish: 'ella parecía simplemente deprimida',
+  },
+  {
+    norwegian: 'samtalemeglling',
+    english: 'conversation mediation',
+    spanish: 'mediación de conversación',
+  },
+  {
+    norwegian: 'som også leier kontor her',
+    english: 'who also rents an office here',
+    spanish: 'que también alquila una oficina aquí',
+  },
+  {
+    norwegian: 'dårlig innflytelse',
+    english: 'bad influence',
+    spanish: 'mala influencia',
+  },
+  {
+    norwegian: 'en meglingssamtale',
+    english: 'a mediation conversation',
+    spanish: 'una conversación de mediación',
+  },
+  {
+    norwegian: 'ytterligere',
+    english: 'further',
+    spanish: 'más',
+  },
+  {
+    norwegian: 'en ganske stor felles interesse',
+    english: 'a fairly large common interest',
+    spanish: 'un interés común bastante grande',
+  },
+  {
+    norwegian: 'da var tida vår ute',
+    english: 'then our time was up',
+    spanish: 'entonces se acabó nuestro tiempo',
+  },
+  {
+    norwegian: 'på en redsel',
+    english: 'in a fear',
+    spanish: 'en un miedo',
+  },
+  {
+    norwegian: 'du tilrekkes av sånt',
+    english: 'you are affected by such things',
+    spanish: 'te afectan esas cosas',
+  },
+  {
+    norwegian: 'passa sammen',
+    english: 'fit together',
+    spanish: 'encajan juntos',
+  },
+  {
+    norwegian: 'vi var litt forskellige',
+    english: 'we were a bit different',
+    spanish: 'éramos un poco diferentes',
+  },
+  {
+    norwegian: 'føler du også',
+    english: 'do you also feel',
+    spanish: '¿también sientes?',
+  },
+  {
+    norwegian: 'å karre til seg lettlurte folk',
+    english: 'to gather gullible people',
+    spanish: 'reunir a personas crédulas',
+  },
+  {
+    norwegian: 'barnehageonkelen',
+    english: 'the kindergarten uncle',
+    spanish: 'el tío de la guardería',
+  },
+  {
+    norwegian: 'er en hunk',
+    english: 'is a hunk',
+    spanish: 'es un bombón',
+  },
+  {
     norwegian: 'det er et vedlikeholdsmareritt',
     english: 'it is a maintenance nightmare',
     spanish: 'es una pesadilla de mantenimiento',
