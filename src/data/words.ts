@@ -3,9 +3,234 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'du mumler så mye',
+    english: 'you mumble so much',
+    spanish: 'tú murmuras tanto',
+  },
+  {
+    norwegian: 'da smatter han',
+    english: 'then he smacks',
+    spanish: 'entonces él chasquea',
+  },
+  {
+    norwegian: 'jeg har møtt en fyr',
+    english: 'I have met a guy',
+    spanish: 'he conocido a un chico',
+  },
+  {
+    norwegian: 'stefaren min',
+    english: 'my stepfather',
+    spanish: 'mi padrastro',
+  },
+  {
+    norwegian: 'får kjennskap med',
+    english: 'gets acquainted with',
+    spanish: 'se familiariza con',
+  },
+  {
+    norwegian: 'plutselig dukke opp',
+    english: 'suddenly appear',
+    spanish: 'aparecer de repente',
+  },
+  {
+    norwegian: 'jeg har vunnet noe',
+    english: 'I have won something',
+    spanish: 'he ganado algo',
+  },
+  {
+    norwegian: 'medgjørlig mann',
+    english: 'a compliant',
+    spanish: 'un hombre complaciente',
+  },
+  {
+    norwegian: 'kutt ut',
+    english: 'cut it out',
+    spanish: 'corta eso',
+  },
+  {
+    norwegian: 'din lille grinerunker',
+    english: 'your little crybaby',
+    spanish: 'tu pequeño llorón',
+  },
+  {
+    norwegian: 'du får ha lykke til',
+    english: 'good luck to you',
+    spanish: 'buena suerte para ti',
+  },
+  {
+    norwegian: 'jeg surra det litt til',
+    english: 'I messed it up a bit more',
+    spanish: 'lo estropeé un poco más',
+  },
+  {
+    norwegian: 'da blir det ofte litt kok',
+    english: 'then it often gets a bit chaotic',
+    spanish: 'entonces a menudo se vuelve un poco caótico',
+  },
+  {
+    norwegian: 'å bekymre seg for',
+    english: 'to worry about',
+    spanish: 'preocuparse por',
+  },
+  {
+    norwegian: 'på basketen',
+    english: 'on the basketball court',
+    spanish: 'en la cancha de baloncesto',
+  },
+  {
+    norwegian: 'dul kalte det strategimøte',
+    english: 'Dul called it a strategy meeting',
+    spanish: 'Dul lo llamó una reunión de estrategia',
+  },
+  {
+    norwegian: 'altså han og jeg har pratet lite grann sammen',
+    english: 'so he and I have talked a little bit together',
+    spanish: 'así que él y yo hemos hablado un poco juntos',
+  },
+  {
+    norwegian: 'et av forslagene',
+    english: 'one of the suggestions',
+    spanish: 'una de las sugerencias',
+  },
+  {
+    norwegian: 'en måte indikerer at vi',
+    english: 'in a way indicates that we',
+    spanish: 'de alguna manera indica que nosotros',
+  },
+  {
+    norwegian: 'føling i fjæra',
+    english: 'feeling in the air',
+    spanish: 'sensación en el aire',
+  },
+  {
+    norwegian: 'skjære gjennom',
+    english: 'cut through',
+    spanish: 'cortar a través',
+  },
+  {
+    norwegian: 'i kveld kan jo utsettes',
+    english: 'tonight can be postponed',
+    spanish: 'esta noche puede posponerse',
+  },
+  {
+    norwegian: 'kjempeetterspørsel',
+    english: 'huge demand',
+    spanish: 'enorme demanda',
+  },
+  {
+    norwegian: 'det er notert',
+    english: 'it is noted',
+    spanish: 'está anotado',
+  },
+  {
+    norwegian: 'det jeg falt for',
+    english: 'what I fell for',
+    spanish: 'lo que me enamoró',
+  },
+  {
+    norwegian: 'må tygge på alle mulige alternativer',
+    english: 'have to chew on all possible alternatives',
+    spanish: 'tengo que masticar todas las posibles alternativas',
+  },
+  {
+    norwegian: 'så jeg kjenner følelsen av',
+    english: 'so I know the feeling of',
+    spanish: 'así que conozco la sensación de',
+  },
+  {
+    norwegian: 'i begynnelsen er det deilig',
+    english: 'in the beginning it is nice',
+    spanish: 'al principio es agradable',
+  },
+  {
+    norwegian: 'til å bli skuffa',
+    english: 'to be disappointed',
+    spanish: 'para decepcionarse',
+  },
+  {
+    norwegian: 'han beholde brillene som et minne om meg',
+    english: 'he kept the glasses as a memory of me',
+    spanish: 'él guardó las gafas como un recuerdo de mí',
+  },
+  {
+    norwegian: 'ta med dynene også',
+    english: 'take the duvets too',
+    spanish: 'lleva las colchas también',
+  },
+  {
+    norwegian: 'en dyne',
+    english: 'a duvet',
+    spanish: 'un edredón',
+  },
+  {
+    norwegian: 'har du gitt ham',
+    english: 'have you given him',
+    spanish: 'le has dado',
+  },
+  {
+    norwegian: 'til å flytte inn',
+    english: 'to move in',
+    spanish: 'para mudarse',
+  },
+  {
+    norwegian: 'en liten stund',
+    english: 'a little while',
+    spanish: 'un pequeño rato',
+  },
+  {
+    norwegian: 'hun har ribbet',
+    english: 'she has stripped',
+    spanish: 'ella ha despojado',
+  },
+  {
+    norwegian: 'for all selvtillit',
+    english: 'for all self-confidence',
+    spanish: 'para toda la autoconfianza',
+  },
+  {
+    norwegian: 'er så forskjellig',
+    english: 'is so different',
+    spanish: 'es tan diferente',
+  },
+  {
+    norwegian: 'er jo oppskriften på katastrofe',
+    english: 'is the recipe for disaster',
+    spanish: 'es la receta para el desastre',
+  },
+  {
+    norwegian: 'han kyntter seg til',
+    english: 'he commits himself to',
+    spanish: 'él se compromete a',
+  },
+  {
+    norwegian: 'en stefar som er',
+    english: 'a stepfather who is',
+    spanish: 'un padrastro que es',
+  },
+  {
+    norwegian: 'du bare åpne opp',
+    english: 'you just open up',
+    spanish: 'solo abre',
+  },
+  {
+    norwegian: 'legge seg ned',
+    english: 'lie down',
+    spanish: 'acostarse',
+  },
+  {
+    norwegian: 'med det fikser vi',
+    english: 'with that we fix it',
+    spanish: 'con eso lo arreglamos',
+  },
+  {
     norwegian: 'det er ekleste',
     english: 'it is the grossest',
     spanish: 'es lo más asqueroso',
+  },
+  {
+    norwegian: 'dem la du på badet i går',
+    english: 'you put them in the bathroom yesterday',
+    spanish: 'los pusiste en el baño ayer',
   },
   {
     norwegian: 'du som var skada',
