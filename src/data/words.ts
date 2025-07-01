@@ -3,6 +3,171 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'kanskje du vil kjøpe',
+    english: 'maybe you want to buy',
+    spanish: 'quizás quieras comprar',
+  },
+  {
+    norwegian: 'jeg blir bare så nysgjerrig',
+    english: 'I just get so curious',
+    spanish: 'simplemente me da tanta curiosidad',
+  },
+  {
+    norwegian: 'er til korpset',
+    english: 'is for the band',
+    spanish: 'es para la banda',
+  },
+  {
+    norwegian: 'leger uten grenser',
+    english: 'doctors without borders',
+    spanish: 'médicos sin fronteras',
+  },
+  {
+    norwegian: 'din egen sønns korps',
+    english: 'your own son’s band',
+    spanish: 'la banda de tu propio hijo',
+  },
+  {
+    norwegian: 'vi stabler litt dopapir',
+    english: 'we stack some toilet paper',
+    spanish: 'apilamos un poco de papel higiénico',
+  },
+  {
+    norwegian: 'slapp av da',
+    english: 'relax then',
+    spanish: 'relájate entonces',
+  },
+  {
+    norwegian: 'det er tommel opp',
+    english: 'it is thumbs up',
+    spanish: 'es un pulgar hacia arriba',
+  },
+  {
+    norwegian: 'det er smilefjes',
+    english: 'it is a smiley face',
+    spanish: 'es una carita sonriente',
+  },
+  {
+    norwegian: 'som overdramatisker',
+    english: 'as an over-dramatizer',
+    spanish: 'como un exagerador',
+  },
+  {
+    norwegian: 'vi holder oss til mammaene',
+    english: 'we stick to the moms',
+    spanish: 'nos quedamos con las mamás',
+  },
+  {
+    norwegian: 'vi kan jo vurdere',
+    english: 'we can consider',
+    spanish: 'podemos considerar',
+  },
+  {
+    norwegian: 'all har svart',
+    english: 'everyone has answered',
+    spanish: 'todos han respondido',
+  },
+  {
+    norwegian: 'å ikke tape ansikt',
+    english: 'to not lose face',
+    spanish: 'no perder la cara',
+  },
+  {
+    norwegian: 'har gjort det',
+    english: 'have done it',
+    spanish: 'lo he hecho',
+  },
+  {
+    norwegian: 'sørg for at du',
+    english: 'make sure that you',
+    spanish: 'asegúrate de que tú',
+  },
+  {
+    norwegian: 'jøssenavn',
+    english: 'goodness gracious',
+    spanish: 'vaya nombre',
+  },
+  {
+    norwegian: 'har blitt enige om at',
+    english: 'have agreed that',
+    spanish: 'han acordado que',
+  },
+  {
+    norwegian: 'jeg skal finner henne',
+    english: 'I will find her',
+    spanish: 'la encontraré',
+  },
+  {
+    norwegian: 'dra ned gardinen?',
+    english: 'pull down the curtain?',
+    spanish: '¿bajar la cortina?',
+  },
+  {
+    norwegian: 'vi hygger oss',
+    english: 'we are having fun',
+    spanish: 'nos estamos divirtiendo',
+  },
+  {
+    norwegian: 'da bare mingler vi',
+    english: 'then we just mingle',
+    spanish: 'entonces solo socializamos',
+  },
+  {
+    norwegian: 'den gøgga der',
+    english: 'that goof there',
+    spanish: 'ese tonto ahí',
+  },
+  {
+    norwegian: 'det er mye sterke krydder',
+    english: 'there are a lot of strong spices',
+    spanish: 'hay muchas especias fuertes',
+  },
+  {
+    norwegian: 'ned i kjelleren',
+    english: 'down in the basement',
+    spanish: 'abajo en el sótano',
+  },
+  {
+    norwegian: 'slår du på tv-en',
+    english: 'turn on the TV',
+    spanish: 'enciende la televisión',
+  },
+  {
+    norwegian: 'å sjonglere litt med mat og sånn',
+    english: 'to juggle a bit with food and such',
+    spanish: 'jugar un poco con la comida y eso',
+  },
+  {
+    norwegian: 'vi har jo lyst til å møte barnet ditt',
+    english: 'we want to meet your child',
+    spanish: 'queremos conocer a tu hijo',
+  },
+  {
+    norwegian: 'de sier ifra til de andre',
+    english: 'they inform the others',
+    spanish: 'informan a los demás',
+  },
+  {
+    norwegian: 'på sånne brutale nyheter',
+    english: 'on such brutal news',
+    spanish: 'sobre noticias tan brutales',
+  },
+  {
+    norwegian: 'å sette seg ned med ungene foran',
+    english: 'to sit down with the kids in front',
+    spanish: 'sentarse con los niños al frente',
+  },
+  {
+    norwegian: 'er det opptøyer?',
+    english: 'are there riots?',
+    spanish: '¿hay disturbios?',
+  },
+  {
+    norwegian: 'jævla fitterkjerring',
+    english: 'fucking old woman pussy',
+    spanish: 'maldita zorra',
+  },
+  {
     norwegian: 'du mumler så mye',
     english: 'you mumble so much',
     spanish: 'tú murmuras tanto',
