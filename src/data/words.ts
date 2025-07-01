@@ -3,6 +3,191 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'veldig bra skudd',
+    english: 'very good shot',
+    spanish: 'muy buen tiro',
+  },
+  {
+    norwegian: 'dere serverer i baren',
+    english: 'you serve in the bar',
+    spanish: 'ustedes sirven en el bar',
+  },
+  {
+    norwegian: 'jeg kan ikke tro det',
+    english: 'I can not believe it',
+    spanish: 'no puedo creerlo',
+  },
+  {
+    norwegian: 'fest døgnet rundt',
+    english: 'party around the clock',
+    spanish: 'fiesta las 24 horas',
+  },
+  {
+    norwegian: 'har så høye forventninger',
+    english: 'has such high expectations',
+    spanish: 'tiene expectativas tan altas',
+  },
+  {
+    norwegian: 'det var tider',
+    english: 'those were the days',
+    spanish: 'esos eran los días',
+  },
+  {
+    norwegian: 'stengt kjøkkenet',
+    english: 'closed kitchen',
+    spanish: 'cocina cerrada',
+  },
+  {
+    norwegian: 'har advart mot russetiden',
+    english: 'has warned against the graduation period',
+    spanish: 'ha advertido contra el período de graduación',
+  },
+  {
+    norwegian: 'hun er litt advart',
+    english: 'she is a bit warned',
+    spanish: 'ella está un poco advertida',
+  },
+  {
+    norwegian: 'oppussingen av huset',
+    english: 'the renovation of the house',
+    spanish: 'la renovación de la casa',
+  },
+  {
+    norwegian: 'er på full fart inn i puberteten',
+    english: 'is on the verge of puberty',
+    spanish: 'está a punto de entrar en la pubertad',
+  },
+  {
+    norwegian: 'hva slags kjønnsnøytral farge',
+    english: 'what kind of gender-neutral color',
+    spanish: 'qué tipo de color neutral de género',
+  },
+  {
+    norwegian: 'sjonglere med',
+    english: 'juggle with',
+    spanish: 'jugar con',
+  },
+  {
+    norwegian: 'en festbrems',
+    english: 'a party pooper',
+    spanish: 'un aguafiestas',
+  },
+  {
+    norwegian: 'er du snurt fordi',
+    english: 'are you sulking because',
+    spanish: '¿estás enfadado porque',
+  },
+  {
+    norwegian: 'få alle edru',
+    english: 'get everyone sober',
+    spanish: 'poner a todos sobrios',
+  },
+  {
+    norwegian: 'hasjrøykende ungdom',
+    english: 'hash-smoking youth',
+    spanish: 'jóvenes fumadores de hachís',
+  },
+  {
+    norwegian: 'fra musikklinja på videregående',
+    english: 'from the music line in high school',
+    spanish: 'de la línea de música en la escuela secundaria',
+  },
+  {
+    norwegian: 'møtt før',
+    english: 'met before',
+    spanish: 'conocido antes',
+  },
+  {
+    norwegian: 'liksom ligget litt i lufta',
+    english: 'has been in the air a bit',
+    spanish: 'ha estado en el aire un poco',
+  },
+  {
+    norwegian: 'ha dem på gress',
+    english: 'have them on the grass',
+    spanish: 'tenerlos en el césped',
+  },
+  {
+    norwegian: 'så sjenert',
+    english: 'so shy',
+    spanish: 'tan tímido',
+  },
+  {
+    norwegian: 'selvtillit',
+    english: 'self-confidence',
+    spanish: 'autoconfianza',
+  },
+  {
+    norwegian: 'det fortjener jeg',
+    english: 'i deserve it',
+    spanish: 'me lo merezco',
+  },
+  {
+    english: 'i prefer that',
+    norwegian: 'jeg foretrekker det',
+    spanish: 'prefiero eso',
+  },
+  {
+    norwegian: 'gir meg dårlig samvittighet',
+    english: 'gives me a bad conscience',
+    spanish: 'me da mala conciencia',
+  },
+  {
+    norwegian: 'det er ikke meningen å forstyrre',
+    english: 'it is not meant to disturb',
+    spanish: 'no está destinado a molestar',
+  },
+  {
+    norwegian: 'hun ble bare borte',
+    english: 'she just disappeared',
+    spanish: 'ella simplemente desapareció',
+  },
+  {
+    norwegian: 'hun er rett oppi der',
+    english: 'she is right up there',
+    spanish: 'ella está justo ahí arriba',
+  },
+  {
+    norwegian: 'sånn rett opp stien',
+    english: 'just up the path',
+    spanish: 'justo por el camino',
+  },
+  {
+    norwegian: 'først litt vann',
+    english: 'first a little water',
+    spanish: 'primero un poco de agua',
+  },
+  {
+    norwegian: 'men gap opp da',
+    english: 'but open wide then',
+    spanish: 'pero abre bien entonces',
+  },
+  {
+    norwegian: 'ut med tunga',
+    english: 'out with the tongue',
+    spanish: 'fuera con la lengua',
+  },
+  {
+    norwegian: 'i armkroken din',
+    english: 'in your arms',
+    spanish: 'en tus brazos',
+  },
+  {
+    norwegian: 'jeg våknet neste morgen',
+    english: 'I woke up the next morning',
+    spanish: 'me desperté a la mañana siguiente',
+  },
+  {
+    norwegian: 'er det bevist',
+    english: 'is it proven',
+    spanish: 'está comprobado',
+  },
+  {
+    norwegian: 'sånn tullestemme',
+    english: 'such a silly voice',
+    spanish: 'tal voz tonta',
+  },
+  {
     norwegian: 'kanskje du vil kjøpe',
     english: 'maybe you want to buy',
     spanish: 'quizás quieras comprar',
