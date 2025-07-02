@@ -3,6 +3,206 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'rediger en side',
+    english: 'edit a page',
+    spanish: 'editar una página',
+  },
+  {
+    norwegian: 'biltilsynet',
+    english: 'vehicle inspection',
+    spanish: 'inspección de vehículos',
+  },
+  {
+    norwegian: 'har strøket',
+    english: 'has struck out',
+    spanish: 'ha fracasado',
+  },
+  {
+    norwegian: 'å bli kjent med disse oldebarna mine',
+    english: 'to get to know these great-grandchildren of mine',
+    spanish: 'conocer a estos bisnietos míos',
+  },
+  {
+    norwegian: 'en liten bulk',
+    english: 'a small dent',
+    spanish: 'una pequeña abolladura',
+  },
+  {
+    norwegian: 'har riper nedover hele her',
+    english: 'has scratches all over here',
+    spanish: 'tiene rasguños por todo aquí',
+  },
+  {
+    norwegian: 'hente sånn innimellom',
+    english: 'pick up like that every now and then',
+    spanish: 'recoger así de vez en cuando',
+  },
+  {
+    norwegian: 'på motorveien',
+    english: 'on the motorway',
+    spanish: 'en la autopista',
+  },
+  {
+    norwegian: 'over sinsenkrysset',
+    english: 'over the Sinsen intersection',
+    spanish: 'sobre el cruce de Sinsen',
+  },
+  {
+    norwegian: 'du lar henne ikke',
+    english: 'you do not let her',
+    spanish: 'no la dejas',
+  },
+  {
+    norwegian: 'hvorfor utsetter du ungene for',
+    english: 'why do you expose the kids to',
+    spanish: '¿por qué expones a los niños a',
+  },
+  {
+    norwegian: 'bortsett fra et par middager',
+    english: 'except for a couple of dinners',
+    spanish: 'excepto por un par de cenas',
+  },
+  {
+    norwegian: 'unntak',
+    english: 'exception',
+    spanish: 'excepción',
+  },
+  {
+    norwegian: 'unntatt',
+    english: 'except',
+    spanish: 'excepto',
+  },
+  {
+    norwegian: 'jeg snoket litt i kalenderen',
+    english: 'I snooped a bit in the calendar',
+    spanish: 'husmeé un poco en el calendario',
+  },
+  {
+    norwegian: 'hvor ydmykende det er',
+    english: 'how humiliating it is',
+    spanish: 'qué humillante es',
+  },
+  {
+    norwegian: 'har satt ned foten',
+    english: 'have put my foot down',
+    spanish: 'he puesto el pie en el suelo',
+  },
+  {
+    norwegian: 'skulle jeg ikke tørke deg',
+    english: 'should I not wipe you',
+    spanish: '¿no debería limpiarte?',
+  },
+  {
+    norwegian: 'overkokt torsk',
+    english: 'overcooked cod',
+    spanish: 'bacalao sobrecocido',
+  },
+  {
+    norwegian: 'hjertet må nok bare ha stanset',
+    english: 'the heart must have stopped',
+    spanish: 'el corazón debe haberse detenido',
+  },
+  {
+    norwegian: 'å øvelseskjøre',
+    english: 'to practice driving',
+    spanish: 'practicar la conducción',
+  },
+  {
+    norwegian: 'se ut som det er noen',
+    english: 'looks like there are some',
+    spanish: 'parece que hay algunos',
+  },
+  {
+    norwegian: 'lite grann tidlig ute',
+    english: 'a little bit early',
+    spanish: 'un poco temprano',
+  },
+  {
+    norwegian: 'hun er rett rundt hjørnet',
+    english: 'she is just around the corner',
+    spanish: 'ella está justo a la vuelta de la esquina',
+  },
+  {
+    norwegian: 'en liten skramme',
+    english: 'a small scratch',
+    spanish: 'un pequeño rasguño',
+  },
+  {
+    norwegian: 'spiller ingen rolle',
+    english: 'does not matter',
+    spanish: 'no importa',
+  },
+  {
+    norwegian: 'stikk motsatt',
+    english: 'the exact opposite',
+    spanish: 'todo lo contrario',
+  },
+  {
+    norwegian: 'samvittighet',
+    english: 'conscience',
+    spanish: 'conciencia',
+  },
+  {
+    norwegian: 'vi finne ut av det',
+    english: 'we will figure it out',
+    spanish: 'lo resolveremos',
+  },
+  {
+    norwegian: 'å slurve med blinklyset',
+    english: 'to be careless with the turn signal',
+    spanish: 'ser descuidado con la señal de giro',
+  },
+  {
+    norwegian: 'er klønete',
+    english: 'is clumsy',
+    spanish: 'es torpe',
+  },
+  {
+    norwegian: 'er noen veiarbeidere',
+    english: 'are some road workers',
+    spanish: 'son algunos trabajadores de la carretera',
+  },
+  {
+    norwegian: 'vil ha arbeidsro',
+    english: 'want peace at work',
+    spanish: 'quieren tranquilidad en el trabajo',
+  },
+  {
+    norwegian: 'her må du skylde på',
+    english: 'here you have to blame',
+    spanish: 'aquí tienes que culpar',
+  },
+  {
+    norwegian: 'få sagt det',
+    english: 'to get it said',
+    spanish: 'decirlo',
+  },
+  {
+    norwegian: 'sertifikatet',
+    english: 'the driving license',
+    spanish: 'el permiso de conducir',
+  },
+  {
+    norwegian: 'bilnøkkelen',
+    english: 'the car key',
+    spanish: 'la llave del coche',
+  },
+  {
+    norwegian: 'overta det der',
+    english: 'take over that',
+    spanish: 'hacerse cargo de eso',
+  },
+  {
+    norwegian: 'det vemodig',
+    english: 'it is bittersweet',
+    spanish: 'es agridulce',
+  },
+  {
+    norwegian: 'alt har en ende',
+    english: 'everything has an end',
+    spanish: 'todo tiene un final',
+  },
+  {
     norwegian: 'for tiden',
     english: 'for the time being',
     spanish: 'por el momento',
