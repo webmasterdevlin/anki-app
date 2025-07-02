@@ -3,6 +3,231 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'for tiden',
+    english: 'for the time being',
+    spanish: 'por el momento',
+  },
+  {
+    norwegian: 'klager på meg',
+    english: 'the complains about me',
+    spanish: 'se queja de mí',
+  },
+  {
+    norwegian: 'jeg skal jobbe med tabellen, fanene og modalen på den ene siden',
+    english: 'i will work on the table, tabs, and modal of that single page',
+    spanish: 'trabajaré en la tabla, pestañas y modal de esa sola página',
+  },
+  {
+    norwegian: 'kanskje noen endringer i fremtiden',
+    english: 'maybe some changes in the future',
+    spanish: 'quizás algunos cambios en el futuro',
+  },
+  {
+    norwegian: 'jeg kan prøve noen design',
+    english: 'i can try some designs',
+    spanish: 'puedo probar algunos diseños',
+  },
+  {
+    norwegian: 'lagre filen',
+    english: 'save the file',
+    spanish: 'guardar el archivo',
+  },
+  {
+    norwegian: 'heter ikke langfredag',
+    english: 'is not called long Friday',
+    spanish: 'no se llama viernes largo',
+  },
+  {
+    norwegian: 'slengt dere i taubanen',
+    english: 'thrown you in the cable car',
+    spanish: 'lanzado en el teleférico',
+  },
+  {
+    norwegian: 'slenge dere gjennom',
+    english: 'throw you through',
+    spanish: 'lanzarte a través',
+  },
+  {
+    norwegian: 'noe hastverk',
+    english: 'some hurry',
+    spanish: 'algo de prisa',
+  },
+  {
+    norwegian: 'en strålende himmelsprett',
+    english: 'a brilliant sky jump',
+    spanish: 'un brillante salto al cielo',
+  },
+  {
+    norwegian: 'farfar aldri tørket deg i rumpa',
+    english: 'grandfather never wiped your butt',
+    spanish: 'el abuelo nunca te limpió el culo',
+  },
+  {
+    norwegian: 'er voremiddel',
+    english: 'is a lubricant',
+    spanish: 'es un lubricante',
+  },
+  {
+    norwegian: 'vet du åssen man bruker det',
+    english: 'do you know how to use it',
+    spanish: '¿sabes cómo usarlo?',
+  },
+  {
+    norwegian: 'jeg er nær parken',
+    english: 'i am near the park',
+    spanish: 'estoy cerca del parque',
+  },
+  {
+    norwegian: 'et nærere forhold til farfaren sin',
+    english: 'a closer relationship with his grandfather',
+    spanish: 'una relación más cercana con su abuelo',
+  },
+  {
+    norwegian: 'kan oppfattes som skryt',
+    english: 'can be perceived as bragging',
+    spanish: 'puede percibirse como alarde',
+  },
+  {
+    norwegian: 'har fjernet på all barna',
+    english: 'has removed all the children',
+    spanish: 'ha eliminado a todos los niños',
+  },
+  {
+    norwegian: 'hilse pent på farfar',
+    english: 'greet grandfather nicely',
+    spanish: 'saludar al abuelo amablemente',
+  },
+  {
+    norwegian: 'forresten',
+    english: 'by the way',
+    spanish: 'por cierto',
+  },
+  {
+    norwegian: 'på nabohytta',
+    english: 'at the neighbor’s cabin',
+    spanish: 'en la cabaña del vecino',
+  },
+  {
+    norwegian: 'har barn på samme alder',
+    english: 'has children of the same age',
+    spanish: 'tiene hijos de la misma edad',
+  },
+  {
+    norwegian: 'i like måte',
+    english: 'likewise',
+    spanish: 'igualmente',
+  },
+  {
+    norwegian: 'holdt jeg på å si',
+    english: 'I was about to say',
+    spanish: 'estaba a punto de decir',
+  },
+  {
+    norwegian: 'alltid sveler og kinasjakk',
+    english: 'always pancakes and Chinese checkers',
+    spanish: 'siempre panqueques y damas chinas',
+  },
+  {
+    norwegian: 'det er genetisk',
+    english: 'it is genetic',
+    spanish: 'es genético',
+  },
+  {
+    norwegian: 'å fyre opp grillen',
+    english: 'to fire up the grill',
+    spanish: 'encender la parrilla',
+  },
+  {
+    norwegian: 'at jeg tar meg av det',
+    english: 'that I take care of it',
+    spanish: 'que me encargo de eso',
+  },
+  {
+    norwegian: 'den grillen er litt tricksy',
+    english: 'that grill is a bit tricky',
+    spanish: 'esa parrilla es un poco complicada',
+  },
+  {
+    norwegian: 'lyst til å bli kjent med dem',
+    english: 'want to get to know them',
+    spanish: 'quiero conocerlos',
+  },
+  {
+    norwegian: 'at jeg maser',
+    english: 'that I nag',
+    spanish: 'que estoy molestando',
+  },
+  {
+    norwegian: 'mye morsommere enn å sitte her',
+    english: 'much more fun than sitting here',
+    spanish: 'mucho más divertido que estar sentado aquí',
+  },
+  {
+    norwegian: 'late familier fra Oslo',
+    english: 'lazy families from Oslo',
+    spanish: 'familias perezosas de Oslo',
+  },
+  {
+    norwegian: 'hør på meg nå',
+    english: 'listen to me now',
+    spanish: 'escúchame ahora',
+  },
+  {
+    norwegian: 'jeg må tørke dem i ræva',
+    english: 'I have to wipe them in the butt',
+    spanish: 'tengo que limpiarlos en el culo',
+  },
+  {
+    norwegian: 'det faktisk å bli litt leggetid nå',
+    english: 'it is actually bedtime now',
+    spanish: 'de hecho, es hora de dormir ahora',
+  },
+  {
+    norwegian: 'med hansker og greier',
+    english: 'with gloves and stuff',
+    spanish: 'con guantes y cosas',
+  },
+  {
+    norwegian: 'barn synes jo voksne er kjedelige',
+    english: 'children think adults are boring',
+    spanish: 'los niños piensan que los adultos son aburridos',
+  },
+  {
+    norwegian: 'vet du hva?',
+    english: 'do you know what?',
+    spanish: '¿sabes qué?',
+  },
+  {
+    norwegian: 'sitte altfor sent oppe',
+    english: 'stay up way too late',
+    spanish: 'quedarse despierto hasta muy tarde',
+  },
+  {
+    norwegian: 'å finne på noe med dere',
+    english: 'to do something with you',
+    spanish: 'hacer algo contigo',
+  },
+  {
+    norwegian: 'en ny titt på taubanen',
+    english: 'a new look at the cable car',
+    spanish: 'una nueva mirada al teleférico',
+  },
+  {
+    norwegian: 'til å gå helt fint',
+    english: 'to go just fine',
+    spanish: 'ir muy bien',
+  },
+  {
+    norwegian: 'i underbuksa',
+    english: 'in the underwear',
+    spanish: 'en la ropa interior',
+  },
+  {
+    norwegian: 'len deg litt frem',
+    english: 'lean a little forward',
+    spanish: 'inclínate un poco hacia adelante',
+  },
+  {
     norwegian: 'veldig bra skudd',
     english: 'very good shot',
     spanish: 'muy buen tiro',
