@@ -3,6 +3,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'er du tilgjengelig senere',
+    english: 'are you available later',
+    spanish: '¿estás disponible más tarde',
+  },
+  {
+    norwegian: 'jeg sender deg en detaljert e-post om det',
+    english: 'I will send you a detailed email about it',
+    spanish: 'te enviaré un correo electrónico detallado al respecto',
+  },
+  {
     norwegian: 'rediger en side',
     english: 'edit a page',
     spanish: 'editar una página',
