@@ -3,6 +3,226 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'etter hvert',
+    english: 'eventually',
+    spanish: 'eventualmente',
+  },
+  {
+    norwegian: 'smokker og flasker',
+    english: 'pacifiers and bottles',
+    spanish: 'chupetes y biberones',
+  },
+  {
+    norwegian: 'ullbodyen og klærne',
+    english: 'the wool bodysuit and the clothes',
+    spanish: 'el body de lana y la ropa',
+  },
+  {
+    norwegian: 'han forsvant',
+    english: 'he disappeared',
+    spanish: 'él desapareció',
+  },
+  {
+    norwegian: 'jeg skal ikke slippe ham',
+    english: 'I will not let him go',
+    spanish: 'no lo dejaré ir',
+  },
+  {
+    norwegian: 'en guvernante',
+    english: 'a governess',
+    spanish: 'una institutriz',
+  },
+  {
+    norwegian: 'jeg skulle spørre om',
+    english: 'I was going to ask about',
+    spanish: 'iba a preguntar sobre',
+  },
+  {
+    norwegian: 'hun som pleier å være så bekymret',
+    english: 'she who usually worries so much',
+    spanish: 'ella que suele preocuparse tanto',
+  },
+  {
+    norwegian: 'fullmakt',
+    english: 'power of attorney',
+    spanish: 'poder notarial',
+  },
+  {
+    norwegian: 'du finner det på nettet',
+    english: 'you find it online',
+    spanish: 'lo encuentras en línea',
+  },
+  {
+    norwegian: 'det er en sånn erklæring',
+    english: 'it is a kind of declaration',
+    spanish: 'es una especie de declaración',
+  },
+  {
+    norwegian: 'mødrene må signere på',
+    english: 'the mothers must sign on',
+    spanish: 'las madres deben firmar',
+  },
+  {
+    norwegian: 'myndig og bestemmer',
+    english: 'mature and decides',
+    spanish: 'maduro y decide',
+  },
+  {
+    norwegian: 'det får du vite',
+    english: 'you will find out',
+    spanish: 'lo descubrirás',
+  },
+  {
+    norwegian: 'en veldig belastning på kroppen',
+    english: 'a very strain on the body',
+    spanish: 'una gran carga para el cuerpo',
+  },
+  {
+    norwegian: 'jeg føler meg helt frisk',
+    english: 'I feel completely healthy',
+    spanish: 'me siento completamente sano',
+  },
+  {
+    norwegian: 'for min skyld',
+    english: 'for my sake',
+    spanish: 'por mi bien',
+  },
+  {
+    norwegian: 'det er en blyfrakk',
+    english: 'it is a lead coat',
+    spanish: 'es un abrigo de plomo',
+  },
+  {
+    norwegian: 'noen bieffefter',
+    english: 'some side effects',
+    spanish: 'algunos efectos secundarios',
+  },
+  {
+    norwegian: 'er altfor surrete til å kjøre',
+    english: 'is way too scatterbrained to drive',
+    spanish: 'es demasiado despistado para conducir',
+  },
+  {
+    norwegian: 'fortjener vår tillit',
+    english: 'deserves our trust',
+    spanish: 'merece nuestra confianza',
+  },
+  {
+    norwegian: 'en pappa som strekker seg så langt',
+    english: 'a dad who stretches so far',
+    spanish: 'un papá que se esfuerza tanto',
+  },
+  {
+    norwegian: 'jeg ante ikke hva jeg skulle gjøre',
+    english: 'I had no idea what to do',
+    spanish: 'no tenía idea de qué hacer',
+  },
+  {
+    norwegian: 'så jeg bare bablet i vei',
+    english: 'so I just babbled on',
+    spanish: 'así que solo seguí hablando',
+  },
+  {
+    norwegian: 'masse løver og tigere og bare',
+    english: 'lots of lions and tigers and just',
+    spanish: 'muchos leones y tigres y solo',
+  },
+  {
+    norwegian: 'det var ikke meningen',
+    english: 'it was not meant to',
+    spanish: 'no estaba destinado a',
+  },
+  {
+    norwegian: 'å utsette deg for',
+    english: 'to expose you to',
+    spanish: 'exponerte a ti',
+  },
+  {
+    norwegian: 'en reisegave',
+    english: 'a travel gift',
+    spanish: 'un regalo de viaje',
+  },
+  {
+    norwegian: 'støttestrømper',
+    english: 'compression stockings',
+    spanish: 'medias de compresión',
+  },
+  {
+    norwegian: 'blodpropp',
+    english: 'blood clot',
+    spanish: 'coágulo de sangre',
+  },
+  {
+    norwegian: 'noen planter som trenger å vannes',
+    english: 'some plants that need watering',
+    spanish: 'algunas plantas que necesitan riego',
+  },
+  {
+    norwegian: 'skal tilby masse ting',
+    english: 'will offer a lot of things',
+    spanish: 'ofrecerá muchas cosas',
+  },
+  {
+    norwegian: 'drosjen er her',
+    english: 'the taxi is here',
+    spanish: 'el taxi está aquí',
+  },
+  {
+    norwegian: 'med stempel fra byfogden',
+    english: 'with a stamp from the city court',
+    spanish: 'con un sello del juzgado de la ciudad',
+  },
+  {
+    norwegian: 'jeg ikke fått med meg akkurat',
+    english: 'I have not quite caught on to that',
+    spanish: 'no he entendido eso exactamente',
+  },
+  {
+    norwegian: 'de fysiske papirene',
+    english: 'the physical papers',
+    spanish: 'los documentos físicos',
+  },
+  {
+    norwegian: 'takket være',
+    english: 'thanks to',
+    spanish: 'gracias a',
+  },
+  {
+    norwegian: 'jeg tør ikke å dra',
+    english: 'I do not dare to go',
+    spanish: 'no me atrevo a ir',
+  },
+  {
+    norwegian: 'med ansvaret for',
+    english: 'with the responsibility for',
+    spanish: 'con la responsabilidad de',
+  },
+  {
+    norwegian: 'jeg har mistet',
+    english: 'I have lost',
+    spanish: 'he perdido',
+  },
+  {
+    norwegian: 'jeg har glemt',
+    english: 'I have forgotten',
+    spanish: 'he olvidado',
+  },
+  {
+    norwegian: 'du har brydd deg så mye',
+    english: 'you have cared so much',
+    spanish: 'te has preocupado tanto',
+  },
+  {
+    norwegian: 'jeg klarer ikke passe på noen andre',
+    english: 'I can not take care of anyone else',
+    spanish: 'no puedo cuidar de nadie más',
+  },
+  {
+    norwegian: 'har du passet på deg selv',
+    english: 'have you taken care of yourself',
+    spanish: 'has cuidado de ti mismo',
+  },
+  {
     norwegian: 'er du tilgjengelig senere',
     english: 'are you available later',
     spanish: '¿estás disponible más tarde',
