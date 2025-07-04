@@ -4,6 +4,76 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian:'mindre hodebry',
+    english: 'less headache',
+    spanish: 'menos dolor de cabeza',
+  },
+  {
+    norwegian:'å late som alt er fint',
+    english: 'to pretend everything is fine',
+    spanish: 'fingir que todo está bien',
+  },
+  {
+    norwegian:'alle leserne våre',
+    english: 'all our readers',
+    spanish: 'todos nuestros lectores',
+  },
+  {
+    norwegian:'kunstneren',
+    english: 'the artist',
+    spanish: 'el artista',
+  },
+  {
+    norwegian:'ledige stillinger',
+    english: 'vacant positions',
+    spanish: 'puestos vacantes',
+  },
+  {
+    norwegian:'er treige',
+    english: 'are slow',
+    spanish: 'son lentos',
+  },
+  {
+    norwegian:'uløste',
+    english: 'unsolved',
+    spanish: 'sin resolver',
+  },
+  {
+    norwegian:'kan være udefinert',
+    english: 'can be undefined',
+    spanish: 'puede ser indefinido',
+  },
+  {
+    norwegian:'å utdype',
+    english: 'to elaborate',
+    spanish: 'elaborar',
+  },
+  {
+    norwegian:'anvendbart',
+    english: 'applicable',
+    spanish: 'aplicable',
+  },
+  {
+    norwegian:'grunnleggende',
+    english: 'fundamental',
+    spanish: 'fundamental',
+  },
+  {
+    norwegian:'gjennomsnittlig',
+    english:'average',
+    spanish: 'promedio',
+  },
+  {
+    norwegian:'oppklart',
+    english: 'resolved',
+    spanish: 'resuelto',
+  },
+  {
+    norwegian:'sekvensielt',
+    english: 'sequentially',
+    spanish: 'secuencialmente',
+  },
+  {
     norwegian: 'vi fikk en første smakebit',
     english: 'we got a first taste',
     spanish: 'tuvimos un primer vistazo',
