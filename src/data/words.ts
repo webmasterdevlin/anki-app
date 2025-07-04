@@ -1,7 +1,93 @@
+import { normalize } from 'path';
 import type { Question } from '../models/types.ts';
 // must be english to norwegian to spanish
 
 export const words: Question[] = [
+  {
+    norwegian: 'vi fikk en første smakebit',
+    english: 'we got a first taste',
+    spanish: 'tuvimos un primer vistazo',
+  },
+  {
+    norwegian: 'visuelle markører',
+    english: 'visual markers',
+    spanish: 'marcadores visuales',
+  },
+  {
+    norwegian: 'vi får nemlig tilgang til',
+    english: 'we will get access to',
+    spanish: 'tendremos acceso a',
+  },
+  {
+    norwegian: 'innholdsfortegnelser',
+    english: 'tables of contents',
+    spanish: 'índices',
+  },
+  {
+    norwegian: 'jeg må innrømme at',
+    english: 'I must admit that',
+    spanish: 'debo admitir que',
+  },
+  {
+    norwegian: 'å kutte ned',
+    english: 'to cut down',
+    spanish: 'reducir',
+  },
+  {
+    norwegian: 'med tungvektere som',
+    english: 'with heavyweights like',
+    spanish: 'con pesos pesados como',
+  },
+  {
+    norwegian: 'fullføre',
+    english: 'complete',
+    spanish: 'completar',
+  },
+  {
+    norwegian: 'når brukeren klikker seg',
+    english: 'when the user clicks through',
+    spanish: 'cuando el usuario hace clic',
+  },
+  {
+    norwegian: 'heldigvis snublet jeg over en kort',
+    english: 'fortunately I stumbled upon a short',
+    spanish: 'afortunadamente me topé con un corto',
+  },
+  {
+    norwegian: 't nettleser API',
+    english: 'the browser API',
+    spanish: 'la API del navegador',
+  },
+  {
+    norwegian: 'lage sømløse overganger mellom sider',
+    english: 'create seamless transitions between pages',
+    spanish: 'crear transiciones sin costuras entre páginas',
+  },
+  {
+    norwegian: 'en titt og en skvett',
+    english: 'a look and a splash',
+    spanish: 'una mirada y un chapuzón',
+  },
+  {
+    norwegian: 'altomfattende klasser',
+    english: 'comprehensive classes',
+    spanish: 'clases integrales',
+  },
+  {
+    norwegian: 'har blitt for komplisert',
+    english: 'has become too complicated',
+    spanish: 'se ha vuelto demasiado complicado',
+  },
+  {
+    norwegian: 'må være et mareritt for en fersk utvikler',
+    english: 'must be a nightmare for a new developer',
+    spanish: 'debe ser una pesadilla para un desarrollador nuevo',
+  },
+  {
+    norwegian:'har blitt i overkant komplekst',
+    english: 'has become overly complex',
+    spanish: 'se ha vuelto demasiado complejo',
+  }
   {
     norwegian: 'etter hvert',
     english: 'eventually',
