@@ -4,6 +4,136 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'inntrykk',
+    english: 'impression',
+    spanish: 'impresión',
+  },
+  {
+    norwegian: 'inngår nesten uten unntak frontend',
+    english: 'almost always includes frontend',
+    spanish: 'casi siempre incluye frontend',
+  },
+  {
+    norwegian: 'spesifikke forelesninger',
+    english: 'specific lectures',
+    spanish: 'conferencias específicas',
+  },
+  {
+    norwegian: 'overordnet sett handler',
+    english: 'overall it is about',
+    spanish: 'en general se trata de',
+  },
+  {
+    norwegian: 'uttrykket',
+    english: 'the expression',
+    spanish: 'la expresión',
+  },
+  {
+    norwegian: 'kjernekompetansen',
+    english: 'core competence',
+    spanish: 'competencia central',
+  },
+  {
+    norwegian: 'er løst',
+    english: 'is solved',
+    spanish: 'está resuelto',
+  },
+  {
+    norwegian: 'dyrk',
+    english: 'cultivate',
+    spanish: 'cultivar',
+  },
+  {
+    norwegian: 'i andre lignende leveranser',
+    english: 'in other similar deliveries',
+    spanish: 'en otras entregas similares',
+  },
+  {
+    norwegian: 'fornuftig',
+    english: 'reasonable',
+    spanish: 'razonable',
+  },
+  {
+    norwegian: 'ytelsesforberedelser',
+    english: 'performance preparations',
+    spanish: 'preparativos de rendimiento',
+  },
+  {
+    norwegian: 'har vært tett knyttet',
+    english: 'has been closely linked',
+    spanish: 'ha estado estrechamente vinculado',
+  },
+  {
+    norwegian: 'et tosifra antall land',
+    english: 'a double-digit number of countries',
+    spanish: 'un número de países de dos dígitos',
+  },
+  {
+    norwegian: 'enda noen flere bilder',
+    english: 'a few more pictures',
+    spanish: 'unas cuantas fotos más',
+  },
+  {
+    norwegian: 'i datahentingsmønstre',
+    english: 'in data retrieval patterns',
+    spanish: 'en los patrones de recuperación de datos',
+  },
+  {
+    norwegian: 'en gradvis fylt datastrøm',
+    english: 'a gradually filled data stream',
+    spanish: 'un flujo de datos gradualmente lleno',
+  },
+  {
+    norwegian: 'en lekker gjennomgang',
+    english: 'a nice overview',
+    spanish: 'una bonita visión general',
+  },
+  {
+    norwegian: 'i forbindelse med',
+    english: 'in connection with',
+    spanish: 'en conexión con',
+  },
+  {
+    norwegian: 'godsaker',
+    english: 'goodies',
+    spanish: 'delicias',
+  },
+  {
+    norwegian: 'på en litt surere note',
+    english: 'on a slightly sour note',
+    spanish: 'en una nota ligeramente amarga',
+  },
+  {
+    norwegian: 'i eteren',
+    english: 'on the air',
+    spanish: 'en el aire',
+  },
+  {
+    norwegian: 'disse ryktene',
+    english: 'these rumors',
+    spanish: 'estos rumores',
+  },
+  {
+    norwegian: 'å trekke seg tilbake',
+    english: 'to withdraw',
+    spanish: 'retirarse',
+  },
+  {
+    norwegian: 'gjenoppstår',
+    english: 'resurrects',
+    spanish: 'resucita',
+  },
+  {
+    norwegian: 'ett år siden annonserte skaperen av remix',
+    english: 'one year ago the creator of remix announced',
+    spanish: 'hace un año el creador de remix anunció',
+  },
+  {
+    norwegian: 'uavhengig av',
+    english: 'independent of',
+    spanish: 'independiente de',
+  },
+  {
     norwegian: 'bevæpnet',
     english: 'armed',
     spanish: 'armado',
