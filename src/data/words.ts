@@ -4,72 +4,117 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
-    norwegian:'mindre hodebry',
+    norwegian: 'bevæpnet',
+    english: 'armed',
+    spanish: 'armado',
+  },
+  {
+    norwegian: 'å skjule komponenter',
+    english: 'to hide components',
+    spanish: 'ocultar componentes',
+  },
+  {
+    norwegian: 'datagullgruve',
+    english: 'data goldmine',
+    spanish: 'mina de datos',
+  },
+  {
+    norwegian: 'grensesnitt',
+    english: 'interface',
+    spanish: 'interfaz',
+  },
+  {
+    norwegian: 'tilgjengliggjør',
+    english: 'makes available',
+    spanish: 'pone a disposición',
+  },
+  {
+    norwegian: 'det fins mer brukervennlige grensesnitt enn tekst',
+    english: 'there are more user-friendly interfaces than text',
+    spanish: 'hay interfaces más amigables que el texto',
+  },
+  {
+    norwegian: 'benyttet seg av',
+    english: 'made use of',
+    spanish: 'hizo uso de',
+  },
+  {
+    norwegian: 'fremfor',
+    english: 'instead of',
+    spanish: 'en lugar de',
+  },
+  {
+    norwegian: 'heller enn',
+    english: 'rather than',
+    spanish: 'en lugar de',
+  },
+  {
+    norwegian: 'mindre hodebry',
     english: 'less headache',
     spanish: 'menos dolor de cabeza',
   },
   {
-    norwegian:'å late som alt er fint',
+    norwegian: 'å late som alt er fint',
     english: 'to pretend everything is fine',
     spanish: 'fingir que todo está bien',
   },
   {
-    norwegian:'alle leserne våre',
+    norwegian: 'alle leserne våre',
     english: 'all our readers',
     spanish: 'todos nuestros lectores',
   },
   {
-    norwegian:'kunstneren',
+    norwegian: 'kunstneren',
     english: 'the artist',
     spanish: 'el artista',
   },
   {
-    norwegian:'ledige stillinger',
+    norwegian: 'ledige stillinger',
     english: 'vacant positions',
     spanish: 'puestos vacantes',
   },
   {
-    norwegian:'er treige',
+    norwegian: 'er treige',
     english: 'are slow',
     spanish: 'son lentos',
   },
   {
-    norwegian:'uløste',
+    norwegian: 'uløste',
     english: 'unsolved',
     spanish: 'sin resolver',
   },
   {
-    norwegian:'kan være udefinert',
+    norwegian: 'kan være udefinert',
     english: 'can be undefined',
     spanish: 'puede ser indefinido',
   },
   {
-    norwegian:'å utdype',
+    norwegian: 'å utdype',
     english: 'to elaborate',
     spanish: 'elaborar',
   },
   {
-    norwegian:'anvendbart',
+    norwegian: 'anvendbart',
     english: 'applicable',
     spanish: 'aplicable',
   },
   {
-    norwegian:'grunnleggende',
+    norwegian: 'grunnleggende',
     english: 'fundamental',
     spanish: 'fundamental',
   },
   {
-    norwegian:'gjennomsnittlig',
-    english:'average',
+    norwegian: 'gjennomsnittlig',
+    english: 'average',
     spanish: 'promedio',
   },
   {
-    norwegian:'oppklart',
+    norwegian: 'oppklart',
     english: 'resolved',
     spanish: 'resuelto',
   },
   {
-    norwegian:'sekvensielt',
+    norwegian: 'sekvensielt',
     english: 'sequentially',
     spanish: 'secuencialmente',
   },
@@ -154,10 +199,10 @@ export const words: Question[] = [
     spanish: 'debe ser una pesadilla para un desarrollador nuevo',
   },
   {
-    norwegian:'har blitt i overkant komplekst',
+    norwegian: 'har blitt i overkant komplekst',
     english: 'has become overly complex',
     spanish: 'se ha vuelto demasiado complejo',
-  }
+  },
   {
     norwegian: 'etter hvert',
     english: 'eventually',
