@@ -3,6 +3,111 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'rekordgebyr',
+    english: 'record fee',
+    spanish: 'tarifa récord',
+  },
+  {
+    norwegian: 'er lovpålagt',
+    english: 'is legally required',
+    spanish: 'es legalmente requerido',
+  },
+  {
+    norwegian: 'varsla allerede i 2019',
+    english: 'warned already in 2019',
+    spanish: 'advertido ya en 2019',
+  },
+  {
+    norwegian: 'sårbarhetsvurderinger',
+    english: 'vulnerability assessments',
+    spanish: 'evaluaciones de vulnerabilidad',
+  },
+  {
+    norwegian: 'lovpålagt',
+    english: 'legally required',
+    spanish: 'legalmente requerido',
+  },
+  {
+    norwegian: 'klageinstans',
+    english: 'complaints body',
+    spanish: 'organismo de quejas',
+  },
+  {
+    norwegian: 'nødnumrene',
+    english: 'the emergency numbers',
+    spanish: 'los números de emergencia',
+  },
+  {
+    norwegian: 'oppkoblingstid',
+    english: 'connection time',
+    spanish: 'tiempo de conexión',
+  },
+  {
+    norwegian: 'har vurdert innspillene',
+    english: 'has considered the inputs',
+    spanish: 'ha considerado las aportaciones',
+  },
+  {
+    norwegian: 'ukas beste saker',
+    english: 'the best stories of the week',
+    spanish: 'las mejores historias de la semana',
+  },
+  {
+    norwegian: 'uoppnåelig',
+    english: 'unachievable',
+    spanish: 'inalcanzable',
+  },
+  {
+    norwegian: 'attpåtil få betalt',
+    english: 'on top of that get paid',
+    spanish: 'además recibir pago',
+  },
+  {
+    norwegian: 'kan omfattes av forbud mot spam',
+    english: 'can be covered by the spam ban',
+    spanish: 'puede estar cubierto por la prohibición de spam',
+  },
+  {
+    norwegian: 'forvaltningsdepartementet',
+    english: 'the Ministry of Administration',
+    spanish: 'el Ministerio de Administración',
+  },
+  {
+    norwegian: 'spamforbudet',
+    english: 'the spam ban',
+    spanish: 'la prohibición de spam',
+  },
+  {
+    norwegian: 'opplysningene',
+    english: 'the information',
+    spanish: 'la información',
+  },
+  {
+    norwegian: 'en kjent gren',
+    english: 'a known branch',
+    spanish: 'una rama conocida',
+  },
+  {
+    norwegian: 'å ha skannet',
+    english: 'to have scanned',
+    spanish: 'haber escaneado',
+  },
+  {
+    norwegian: 'grundig igjennom dette',
+    english: 'thoroughly through this',
+    spanish: 'a fondo a través de esto',
+  },
+  {
+    norwegian: 'umiddelbart',
+    english: 'immediately',
+    spanish: 'inmediatamente',
+  },
+  {
+    norwegian: 'utstedere',
+    english: 'issuers',
+    spanish: 'emisores',
+  },
+  {
     norwegian: 'manglende satsning på',
     english: 'lack of investment in',
     spanish: 'falta de inversión en',
