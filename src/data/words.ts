@@ -1,8 +1,297 @@
-import { normalize } from 'path';
 import type { Question } from '../models/types.ts';
 // must be english to norwegian to spanish
 
 export const words: Question[] = [
+  {
+    norwegian: 'manglende satsning på',
+    english: 'lack of investment in',
+    spanish: 'falta de inversión en',
+  },
+  {
+    norwegian: 'så vil du antagelig',
+    english: 'then you will probably',
+    spanish: 'entonces probablemente',
+  },
+  {
+    norwegian: 'får færre oppdateringer',
+    english: 'will get fewer updates',
+    spanish: 'recibirá menos actualizaciones',
+  },
+  {
+    english: 'it has an excellent editor',
+    norwegian: 'den har en utmerket redigerer',
+    spanish: 'tiene un excelente editor',
+  },
+  {
+    norwegian: 'edit the settings',
+    english: 'rediger innstillingene',
+    spanish: 'editar la configuración',
+  },
+  {
+    norwegian: 'har vært utbrent',
+    english: 'has been burned out',
+    spanish: 'ha estado quemado',
+  },
+  {
+    norwegian: 'alle undersøkelsene handler',
+    english: 'all the surveys are about',
+    spanish: 'todas las encuestas tratan sobre',
+  },
+  {
+    norwegian: 'som igjen fører til utbrenthet',
+    english: 'which in turn leads to burnout',
+    spanish: 'lo que a su vez conduce al agotamiento',
+  },
+  {
+    norwegian: 'skal gi mer åpenhet',
+    english: 'will provide more transparency',
+    spanish: 'proporcionará más transparencia',
+  },
+  {
+    norwegian: 'omtalt som utilstrekkelig av',
+    english: 'described as insufficient by',
+    spanish: 'descrito como insuficiente por',
+  },
+  {
+    norwegian: 'har betydning for',
+    english: 'has significance for',
+    spanish: 'tiene importancia para',
+  },
+  {
+    norwegian: 'myndigheter',
+    english: 'authorities',
+    spanish: 'autoridades',
+  },
+  {
+    norwegian: 'det er et stort problem',
+    english: 'it is a big problem',
+    spanish: 'es un gran problema',
+  },
+  {
+    norwegian: 'målgruppa',
+    english: 'target group',
+    spanish: 'grupo objetivo',
+  },
+  {
+    norwegian: 'åpnet ventil på fullt ved dam-anlegg',
+    english: 'opened vent at full at the dam facility',
+    spanish: 'abrió la válvula al máximo en la instalación de la presa',
+  },
+  {
+    norwegian: 'skylder på svakt passord',
+    english: 'blames weak password',
+    spanish: 'culpa a la contraseña débil',
+  },
+  {
+    norwegian: 'økningen i vannføring nådde',
+    english: 'the increase in water flow reached',
+    spanish: 'el aumento del caudal de agua alcanzó',
+  },
+  {
+    norwegian: 'en rolle knyttet til håndtering av',
+    english: 'a role related to handling of',
+    spanish: 'un papel relacionado con el manejo de',
+  },
+  {
+    norwegian: 'han mener samhandling',
+    english: 'he believes interaction',
+    spanish: 'él cree que la interacción',
+  },
+  {
+    norwegian: 'glede av det',
+    english: 'joy of it',
+    spanish: 'alegría de ello',
+  },
+  {
+    norwegian: 'lagt ned',
+    english: 'shut down',
+    spanish: 'cerrado',
+  },
+  {
+    norwegian: 'lav terskel for å bidra selv',
+    english: 'low threshold for contributing yourself',
+    spanish: 'baja barrera para contribuir tú mismo',
+  },
+  {
+    norwegian: 'noe helt annet',
+    english: 'something completely different',
+    spanish: 'algo completamente diferente',
+  },
+  {
+    norwegian: 'er hovedsakelig skrevet',
+    english: 'is mainly written',
+    spanish: 'está escrito principalmente',
+  },
+  {
+    norwegian: 'et skifte i synet på',
+    english: 'a shift in the view of',
+    spanish: 'un cambio en la visión de',
+  },
+  {
+    norwegian: 'å veksle mellom',
+    english: 'to switch between',
+    spanish: 'alternar entre',
+  },
+  {
+    norwegian: 'er nå på plass på ordentlig',
+    english: 'is now properly in place',
+    spanish: 'está ahora debidamente en su lugar',
+  },
+  {
+    norwegian: 'er strukturert innhold',
+    english: 'is structured content',
+    spanish: 'es contenido estructurado',
+  },
+  {
+    norwegian: 'har blitt pakket inn ved byggtid',
+    english: 'has been wrapped at build time',
+    spanish: 'ha sido empaquetado en el momento de la construcción',
+  },
+  {
+    norwegian: 'har hyppige endringer',
+    english: 'has frequent changes',
+    spanish: 'tiene cambios frecuentes',
+  },
+  {
+    norwegian: 'lekre saken på',
+    english: 'the nice thing about',
+    spanish: 'lo bonito de',
+  },
+  {
+    norwegian: 'denne måneden eller dette året',
+    english: 'this month or this year',
+    spanish: 'este mes o este año',
+  },
+  {
+    norwegian: 'dette vil være å multiplisere',
+    english: 'this will be to multiply',
+    spanish: 'esto será multiplicar',
+  },
+  {
+    norwegian: 'burde advart',
+    english: 'should have warned',
+    spanish: 'debería haber advertido',
+  },
+  {
+    norwegian: 'i tillegg til',
+    english: 'in addition to',
+    spanish: 'además de',
+  },
+  {
+    norwegian: 'undersøkelsen er gjort ved',
+    english: 'the survey is done by',
+    spanish: 'la encuesta se realiza por',
+  },
+  {
+    norwegian: 'sårbare',
+    english: 'vulnerable',
+    spanish: 'vulnerables',
+  },
+  {
+    norwegian: 'jeg har møtt endel som han her',
+    english: 'I have met some like him here',
+    spanish: 'he conocido a algunos como él aquí',
+  },
+  {
+    norwegian: 'i den grad',
+    english: 'to the extent that',
+    spanish: 'hasta el punto de que',
+  },
+  {
+    norwegian: 'til formålet',
+    english: 'for the purpose',
+    spanish: 'para el propósito',
+  },
+  {
+    norwegian: 'jeg er nysgjerrig',
+    english: 'i am curious',
+    spanish: 'tengo curiosidad',
+  },
+  {
+    norwegian: 'nok oppfordres til å',
+    english: 'probably encouraged to',
+    spanish: 'probablemente animado a',
+  },
+  {
+    norwegian: 'bli bedre utfall',
+    english: 'to achieve better outcomes',
+    spanish: 'lograr mejores resultados',
+  },
+  {
+    norwegian: 'selv uten',
+    english: 'even without',
+    spanish: 'incluso sin',
+  },
+  {
+    norwegian: 'var moden for det',
+    english: 'was ready for it',
+    spanish: 'estaba listo para ello',
+  },
+  {
+    norwegian: 'har vært utslagsgivende',
+    english: 'has been decisive',
+    spanish: 'ha sido decisivo',
+  },
+  {
+    norwegian: 'tilstrekkelig',
+    english: 'sufficient',
+    spanish: 'suficiente',
+  },
+  {
+    norwegian: 'oppgir å ha',
+    english: 'claims to have',
+    spanish: 'afirma tener',
+  },
+  {
+    norwegian: 'kan påvirke tilliten',
+    english: 'can affect trust',
+    spanish: 'puede afectar la confianza',
+  },
+  {
+    norwegian: 'granskingen avdekker flere svakheter',
+    english: 'the investigation reveals several weaknesses',
+    spanish: 'la investigación revela varias debilidades',
+  },
+  {
+    norwegian: 'kildehenvisninger',
+    english: 'source references',
+    spanish: 'referencias de fuentes',
+  },
+  {
+    norwegian: 'språkstandarden',
+    english: 'language standard',
+    spanish: 'estándar de idioma',
+  },
+  {
+    norwegian: 'har gått igjennom flere trinn',
+    english: 'has gone through several steps',
+    spanish: 'ha pasado por varios pasos',
+  },
+  {
+    norwegian: 'nye hjelpemetoder for iteratorer',
+    english: 'new helper methods for iterators',
+    spanish: 'nuevos métodos auxiliares para iteradores',
+  },
+  {
+    norwegian: 'en rekke metoder',
+    english: 'a number of methods',
+    spanish: 'una serie de métodos',
+  },
+  {
+    norwegian: 'med lignende syntaks',
+    english: 'with similar syntax',
+    spanish: 'con una sintaxis similar',
+  },
+  {
+    norwegian: 'kjøringen av en funksjon',
+    english: 'the execution of a function',
+    spanish: 'la ejecución de una función',
+  },
+  {
+    norwegian: 'regulære uttrykk',
+    english: 'regular expressions',
+    spanish: 'expresiones regulares',
+  },
   {
     norwegian: 'inntrykk',
     english: 'impression',
