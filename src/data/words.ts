@@ -3,6 +3,200 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Tina Bru (H) har lagt merke til at Frp vil ha kunnskapsministeren etter valget.',
+    english: 'Tina Bru (H) has noticed that the Progress Party wants the Minister of Knowledge after the election.',
+    spanish:
+      'Tina Bru (H) ha notado que el Partido del Progreso quiere al Ministro de Conocimiento después de las elecciones.',
+  },
+  {
+    norwegian: 'Dette gjør de norske stjernene i oppladningen til ny sesong.',
+    english: 'This is what the Norwegian stars are doing in the lead-up to the new season.',
+    spanish: 'Esto es lo que las estrellas noruegas están haciendo en la preparación para la nueva temporada.',
+  },
+  {
+    norwegian: 'Det kan ta tid å få lastebilen løs, sier politiet.',
+    english: 'It may take time to get the truck free, says the police.',
+    spanish: 'Puede llevar tiempo liberar el camión, dice la policía.',
+  },
+  {
+    norwegian: 'Norges mest kjente tag forsvant søndag kveld, men mandag har den gjenoppstått.',
+    english: 'Norway’s most famous tag disappeared on Sunday evening, but on Monday it has reappeared.',
+    spanish: 'La etiqueta más famosa de Noruega desapareció el domingo por la noche, pero el lunes ha resurgido.',
+  },
+  {
+    norwegian: 'Australske Erin Patterson (50) nektet for å ha drept tre familiemedlemmer med giftig sopp.',
+    english: 'Australian Erin Patterson (50) denied killing three family members with poisonous mushrooms.',
+    spanish: 'La australiana Erin Patterson (50) negó haber matado a tres miembros de su familia con setas venenosas.',
+  },
+  {
+    norwegian: 'Sjekk at renten din kuttes nok!',
+    english: 'Check that your interest rate is cut enough!',
+    spanish: '¡Verifica que tu tasa de interés se reduzca lo suficiente!',
+  },
+  {
+    norwegian: 'Jeg vil også kjenne på frihet – men rullestolen min gjør det umulig.',
+    english: 'I also want to feel freedom – but my wheelchair makes it impossible.',
+    spanish: 'También quiero sentir libertad, pero mi silla de ruedas lo hace imposible.',
+  },
+  {
+    norwegian: 'En 15 år gammel gutt er siktet etter hendelsen.',
+    english: 'A 15-year-old boy has been charged in connection with the incident.',
+    spanish: 'Un chico de 15 años ha sido acusado tras el incidente.',
+  },
+  {
+    norwegian: 'Det er på høy tid noen sier det rett ut: Værvarslingstjenestene Yr og Storm er blitt en forbannelse.',
+    english:
+      'It is high time someone says it outright: The weather forecasting services Yr and Storm have become a curse.',
+    spanish:
+      'Es hora de que alguien lo diga claramente: los servicios de pronóstico del tiempo Yr y Storm se han convertido en una maldición.',
+  },
+  {
+    norwegian:
+      'En betydelig forbedring, sier forsker. Treningsfysiologen avslører også det enkle grepet som sikrer fremgang.',
+    english:
+      'A significant improvement, says the researcher. The exercise physiologist also reveals the simple trick that ensures progress.',
+    spanish:
+      'Una mejora significativa, dice el investigador. El fisiólogo del ejercicio también revela el simple truco que asegura el progreso.',
+  },
+  {
+    norwegian: 'Det er bagasjetrøbbel på Oslo lufthavn.',
+    english: 'There is luggage trouble at Oslo Airport.',
+    spanish: 'Hay problemas de equipaje en el Aeropuerto de Oslo.',
+  },
+  {
+    norwegian: 'Dødstallet etter flommen i Texas stiger. Minst 82 er bekreftet omkommet, inkludert 28 barn.',
+    english: 'The death toll from the flood in Texas is rising. At least 82 are confirmed dead, including 28 children.',
+    spanish:
+      'El número de muertos por la inundación en Texas está aumentando. Al menos 82 están confirmados muertos, incluidos 28 niños.',
+  },
+  {
+    norwegian: 'Det vil ta lengre tid å sjekke inn, sier Avinor.',
+    english: 'It will take longer to check in, says Avinor.',
+    spanish: 'Tomará más tiempo hacer el check-in, dice Avinor.',
+  },
+  {
+    norwegian:
+      'Sønnen ble drept av en mann utkledd som pizzabud. Så begynte andre dommere å få tilsendt pizzaer i den døde sønnens navn.',
+    english:
+      'The son was killed by a man disguised as a pizza delivery man. Then other judges started receiving pizzas ordered in the dead son’s name.',
+    spanish:
+      'El hijo fue asesinado por un hombre disfrazado de repartidor de pizzas. Luego, otros jueces comenzaron a recibir pizzas ordenadas a nombre del hijo fallecido.',
+  },
+  {
+    norwegian:
+      'Kristoffer Reitan har lagt bak seg en strålende vår. Nå venter verdens største golfstjerner under «The Open» i Skottland.',
+    english:
+      'Kristoffer Reitan has had a brilliant spring. Now the world’s biggest golf stars await him at "The Open" in Scotland.',
+    spanish:
+      'Kristoffer Reitan ha tenido una primavera brillante. Ahora lo esperan las estrellas más grandes del golf en "The Open" en Escocia.',
+  },
+  {
+    norwegian:
+      'USAs president Donald Trump sier de første brevene om tollsatser vil bli sendt ut til flere land klokken 18 mandag norsk tid.',
+    english:
+      'US President Donald Trump says the first letters about tariff rates will be sent to several countries at 6 PM Monday Norwegian time.',
+    spanish:
+      'El presidente de EE.UU., Donald Trump, dice que las primeras cartas sobre tasas arancelarias se enviarán a varios países a las 6 PM del lunes, hora noruega.',
+  },
+  {
+    norwegian: 'Aktivister går nakne gjennom byen i protest mot okseløpene i Pamplona, Spania.',
+    english: 'Activists walk naked through the city in protest against the bull runs in Pamplona, Spain.',
+    spanish: 'Activistas caminan desnudos por la ciudad en protesta contra las corridas de toros en Pamplona, España.',
+  },
+  {
+    norwegian: 'Medfangene hyllet musikkmogulen da han kom tilbake til soning, ifølge advokaten.',
+    english: 'Fellow inmates hailed the music mogul when he returned to prison, according to his lawyer.',
+    spanish:
+      'Los compañeros de prisión vitorearon al magnate de la música cuando regresó a la cárcel, según su abogado.',
+  },
+  {
+    norwegian: 'Nå liker til og med unge kvinner Sylvi Listhaug, skriver VGs kommentator.',
+    english: 'Now even young women like Sylvi Listhaug, writes VG’s commentator.',
+    spanish: 'Ahora incluso las mujeres jóvenes gustan de Sylvi Listhaug, escribe el comentarista de VG.',
+  },
+  {
+    norwegian: 'En hetebølge kan være på vei til Norge.',
+    english: 'A heat wave may be on its way to Norway.',
+    spanish: 'Una ola de calor podría estar en camino a Noruega.',
+  },
+  {
+    norwegian:
+      'Verdier for 380 millioner kroner er beslaglagt etter politiaksjonen i Tyrkia. Norsk 33-åring utpekes som leder for kriminelt nettverk.',
+    english:
+      'Assets worth 380 million kroner have been seized after the police operation in Turkey. A Norwegian 33-year-old is identified as the leader of a criminal network.',
+    spanish:
+      'Se han incautado activos por valor de 380 millones de coronas tras la operación policial en Turquía. Un noruego de 33 años es identificado como el líder de una red criminal.',
+  },
+  {
+    norwegian: 'Å date en Demokrat er uaktuelt på denne partybåten.',
+    english: 'Dating a Democrat is out of the question on this party boat.',
+    spanish: 'Salir con un demócrata está fuera de cuestión en este barco de fiesta.',
+  },
+  {
+    norwegian: 'Bakerst i bussen skal tenåringsgutten ha fiklet med noe. Brått så tok det fyr.',
+    english:
+      'In the back of the bus, the teenage boy was reportedly fiddling with something. Suddenly, it caught fire.',
+    spanish:
+      'En la parte trasera del autobús, se dice que el adolescente estaba manipulando algo. De repente, se incendió.',
+  },
+  {
+    norwegian: 'Vi prøver å legge til rette for at tikampene skal være bra.',
+    english: 'We try to facilitate that the ten events will be good.',
+    spanish: 'Intentamos facilitar que las diez pruebas sean buenas.',
+  },
+  {
+    norwegian: 'Mens andre flyktet i panikk, handlet Bernt Sveen (65) raskt for å redde busspassasjerer.',
+    english: 'While others fled in panic, Bernt Sveen (65) acted quickly to save bus passengers.',
+    spanish:
+      'Mientras otros huían en pánico, Bernt Sveen (65) actuó rápidamente para salvar a los pasajeros del autobús.',
+  },
+  {
+    norwegian: 'Stjernespissen er bare detaljer unna overgang.',
+    english: 'The star striker is just details away from a transfer.',
+    spanish: 'El delantero estrella está a solo detalles de un traspaso.',
+  },
+  {
+    norwegian: 'Skuffende enkelt, egentlig.',
+    english: 'Disappointingly simple, really.',
+    spanish: 'Decepcionantemente simple, en realidad.',
+  },
+  {
+    norwegian: 'Gikk med dundrende overskudd.',
+    english: 'Made a roaring profit.',
+    spanish: 'Obtuvo un gran beneficio.',
+  },
+  {
+    norwegian: 'Anklages for manglende respekt etter skrekkskaden.',
+    english: 'Accused of lacking respect after the horrific injury.',
+    spanish: 'Acusado de falta de respeto tras la horrenda lesión.',
+  },
+  {
+    norwegian: 'MENINGER: Som gravid er det provoserende å lese om at vi bør komme oss tilbake på jobb.',
+    english: 'OPINION: As a pregnant woman, it is infuriating to read that we should hurry back to work.',
+    spanish: 'OPINIÓN: Como mujer embarazada, es irritante leer que deberíamos volver al trabajo rápidamente.',
+  },
+  {
+    norwegian:
+      'Over 20 jenter som var på sommerleir, er fremdeles ikke funnet etter Texas-flommen. Det kan komme mer regn lørdag.',
+    english:
+      'More than 20 girls who were at summer camp are still missing after the Texas flood. More rain may come on Saturday.',
+    spanish:
+      'Más de 20 chicas que estaban en el campamento de verano siguen desaparecidas tras la inundación en Texas. Podría llover más el sábado.',
+  },
+  {
+    norwegian: 'Det opplyser politiets operasjonsleder Atle Vesttorp til VG.',
+    english: 'This is stated by the police operations leader Atle Vesttorp to VG.',
+    spanish: 'Así lo afirma el jefe de operaciones policiales Atle Vesttorp a VG.',
+  },
+  {
+    norwegian:
+      'Influencer Monica Nyhus mistenkte at noe var galt. Så sjekket hun ektemannens mobil midt på natten - og ble sjokkert over hva hun så.',
+    english:
+      'Influencer Monica Nyhus suspected something was wrong. Then she checked her husband’s phone in the middle of the night - and was shocked by what she saw.',
+    spanish:
+      'La influencer Monica Nyhus sospechaba que algo iba mal. Entonces revisó el teléfono de su esposo en medio de la noche - y se sorprendió por lo que vio.',
+  },
+  {
     norwegian:
       'Fra han var 13 år begikk gutten nærmere 40 ran og overfall i Oslo sentrum. Til slutt fikk han besøksforbud.',
     english:
