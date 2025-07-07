@@ -3,6 +3,202 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian:
+      'Fredag skrøt Elon Musk av at Grok var forbedra. I helga har den vist at «bedre» ikke betyr at den er blitt mer «nøytral».',
+    english:
+      'On Friday, Elon Musk boasted that Grok had been improved. Over the weekend, it has shown that "better" does not mean it has become more "neutral".',
+    spanish:
+      'El viernes, Elon Musk presumió de que Grok había mejorado. Durante el fin de semana, ha demostrado que "mejor" no significa que se haya vuelto más "neutral".',
+  },
+  {
+    norwegian:
+      'EU setter Europas AI-ambisjoner i fare ved å innføre AI-forordningen nå, mener 50 europeiske toppledere. Nå ber de om at AI Act settes på pause i to år:',
+    english:
+      'The EU jeopardizes Europe’s AI ambitions by introducing the AI regulation now,says 50 European top executives. Now they are calling for the AI Act to be paused for two years:',
+    spanish:
+      'La UE pone en peligro las ambiciones de IA de Europa al introducir la regulación de IA ahora, dicen 50 altos ejecutivos europeos. Ahora piden que se pause la Ley de IA durante dos años:',
+  },
+  {
+    norwegian:
+      'Vi og våre europeiske kolleger er bekymret over at opplysninger om alle som bruker Deepseek sendes til Kina.',
+    english:
+      'We and our European colleagues are concerned that information about everyone using Deepseek is sent to China.',
+    spanish:
+      'Nosotros y nuestros colegas europeos estamos preocupados por que la información sobre todos los que usan Deepseek se envíe a China.',
+  },
+  {
+    norwegian: 'Nå kan DU gi beskjed om hva du mener om absolutt aldersgrense i sosiale medier',
+    english: 'Now YOU can let us know what you think about the absolute age limit on social media',
+    spanish: 'Ahora PUEDES hacernos saber qué piensas sobre el límite de edad absoluto en las redes sociales',
+  },
+  {
+    norwegian:
+      'NSM mener mangelen på sikkerhetsfolk er svært alvorlig. Likevel står Shivan Salihi uten jobb, etter 500 søknader.',
+    english:
+      'NSM believes the lack of security personnel is very serious. Nevertheless, Shivan Salihi is unemployed after 500 applications.',
+    spanish:
+      'NSM cree que la falta de personal de seguridad es muy grave. Sin embargo, Shivan Salihi está desempleado después de 500 solicitudes.',
+  },
+  {
+    norwegian: 'Hæ – er det ikke lov med SPAM heller, nå da!?',
+    english: 'Huh – is it not allowed to have SPAM either, now then!?',
+    spanish: '¿Eh? ¿Ahora tampoco se permite el SPAM?',
+  },
+  {
+    norwegian:
+      'Swift-teamet annonserer Android Workgroup, og planer om alt du trenger for å kode iOS- og Android-apper i samme språk.',
+    english:
+      'Swift team announces Android Workgroup, and plans for everything you need to code iOS and Android apps in the same language.',
+    spanish:
+      'El equipo de Swift anuncia el Grupo de Trabajo de Android y planes para todo lo que necesitas para codificar aplicaciones iOS y Android en el mismo idioma.',
+  },
+  {
+    norwegian: '10.000 offentlige ansatte går fra Microsoft og Office til open source og OnlyOffice.',
+    english: '10,000 public employees are leaving Microsoft and Office for open source and OnlyOffice.',
+    spanish: '10,000 empleados públicos están dejando Microsoft y Office por open source y OnlyOffice.',
+  },
+  {
+    norwegian:
+      'Da jeg studerte på NTNU brukte vi klassebaserte komponenter, og de har jeg knapt sett i praksis siden, forteller Erling (26).',
+    english:
+      'When I studied at NTNU, we used class-based components, and I have hardly seen them in practice since, says Erling (26).',
+    spanish:
+      'Cuando estudié en NTNU, usábamos componentes basados en clases, y apenas los he visto en la práctica desde entonces, dice Erling (26).',
+  },
+  {
+    norwegian: '(Stillingsannonse) Vil du bli medeier* i Boitano? Sjekk ut denne spennende muligheten!',
+    english: '(Job advertisement) Do you want to become a co-owner* of Boitano? Check out this exciting opportunity!',
+    spanish:
+      '(Anuncio de trabajo) ¿Quieres convertirte en copropietario* de Boitano? ¡Consulta esta emocionante oportunidad!',
+  },
+  {
+    norwegian: 'Både Meta og Anthropic har denne uka vunnet fram med å trene AI-en sin på kopibeskytta bøker.',
+    english: 'Both Meta and Anthropic have won this week with training their AI on copyrighted books.',
+    spanish:
+      'Tanto Meta como Anthropic han ganado esta semana al entrenar su IA con libros protegidos por derechos de autor.',
+  },
+  {
+    norwegian: 'Hvis vi blir så mye mer effektive av AI, kan vi ikke da få en ekstra fridag i uka?',
+    english: 'If we become so much more efficient with AI, can’t we then get an extra day off a week?',
+    spanish:
+      'Si nos volvemos mucho más eficientes con la IA, ¿no podríamos entonces tener un día libre extra a la semana?',
+  },
+  {
+    norwegian:
+      '(Stillingsannonse) Vil du være med å forme vår digitale fremtid? Møller Digital søker en senior plattformutvikler!',
+    english:
+      '(Job advertisement) Do you want to help shape our digital future? Møller Digital is looking for a senior platform developer!',
+    spanish:
+      '(Anuncio de trabajo) ¿Quieres ayudar a dar forma a nuestro futuro digital? ¡Møller Digital está buscando un desarrollador de plataformas senior!',
+  },
+  {
+    norwegian: 'Blåskjermen i Windows forsvinner! Men ikke fordi Windows aldri skal kræsje lenger, såklart.',
+    english: 'The blue screen in Windows is disappearing! But not because Windows will never crash again, of course.',
+    spanish:
+      '¡La pantalla azul en Windows está desapareciendo! Pero no porque Windows nunca se bloquee de nuevo, por supuesto.',
+  },
+  {
+    norwegian: 'Ventilen ble åpna til 100 prosent, forteller de om hackinga.',
+    english: 'The valve was opened to 100 percent, they tell about the hacking.',
+    spanish: 'La válvula se abrió al 100 por ciento, cuentan sobre el hackeo.',
+  },
+  {
+    norwegian:
+      'Hvor skal disse erfarne komme fra, om ingen vil ta inn nyutdannede og sørge for at de nettopp får den erfaringen alle ønsker seg at de har? ',
+    english:
+      'Where will these experienced people come from, if no one wants to hire recent graduates and ensure that they just get the experience that everyone wants them to have?',
+    spanish:
+      '¿De dónde vendrán estas personas con experiencia, si nadie quiere contratar a recién graduados y asegurarse de que obtengan la experiencia que todos desean que tengan?',
+  },
+  {
+    norwegian:
+      'Det er fortsatt like krevende og uoversiktlig å administrere det å ha et alvorlig sykt barn eller å miste en ektefelle.',
+    english: 'It is still just as demanding and confusing to manage having a seriously ill child or losing a spouse.',
+    spanish:
+      'Sigue siendo igual de exigente y confuso gestionar tener un hijo gravemente enfermo o perder a un cónyuge.',
+  },
+  {
+    norwegian: 'Norske virksomheter må forstå at AI ikke bare er et verktøy, det er også et våpen for kriminelle.',
+    english: 'Norwegian businesses must understand that AI is not just a tool, it is also a weapon for criminals.',
+    spanish:
+      'Las empresas noruegas deben entender que la IA no es solo una herramienta, también es un arma para los criminales.',
+  },
+  {
+    norwegian:
+      'Aller Media Nordic skal få en felles teknologisk struktur. Det er ikke utelukket at dette vil føre til en nedbemanning.',
+    english:
+      'Aller Media Nordic will get a common technological structure. It is not excluded that this will lead to downsizing.',
+    spanish:
+      'Aller Media Nordic tendrá una estructura tecnológica común. No se descarta que esto conduzca a una reducción de personal.',
+  },
+  {
+    norwegian: 'En tester er langt mer enn en som finner bugs, skriver Testleder Gerd Stalheim Wiggen i Miles.',
+    english: 'A tester is much more than someone who finds bugs, writes Test Leader Gerd Stalheim Wiggen at Miles.',
+    spanish:
+      'Un tester es mucho más que alguien que encuentra errores, escribe la Líder de Pruebas Gerd Stalheim Wiggen en Miles.',
+  },
+  {
+    norwegian: 'Det er ikke bare å sette opp en nettside, det er en hel prosess som må til for å lykkes.',
+    english: 'It is not just about setting up a website, it is a whole process that must be done to succeed.',
+    spanish: 'No se trata solo de configurar un sitio web, es todo un proceso que debe realizarse para tener éxito.',
+  },
+  {
+    norwegian:
+      'Apple anker EU-krav som skulle gjøre det lettere å tilpasse apper og utstyr fra tredjeparter til Apple-produkter.',
+    english:
+      'Apple appeals EU requirements that were supposed to make it easier to adapt apps and equipment from third parties to Apple products.',
+    spanish:
+      'Apple apela los requisitos de la UE que debían facilitar la adaptación de aplicaciones y equipos de terceros a productos de Apple.',
+  },
+  {
+    norwegian:
+      'Regjeringen er allerede i gang med forsøket på å lande en felles europeisk løsning for aldersgrenser og kontroll av disse i sosiale medier.',
+    english:
+      'The government is already working on trying to land a common European solution for age limits and control of these in social media.',
+    spanish:
+      'El gobierno ya está trabajando para intentar conseguir una solución europea común para los límites de edad y el control de estos en las redes sociales.',
+  },
+  {
+    norwegian:
+      'Byttet kan redusere byggetiden din, særlig for større prosjekter, sier Evan You. Nå kan du prøve Vite med Rolldown.',
+    english:
+      'The switch can reduce your construction time, especially for larger projects, says Evan You. Now you can try Vite with Rolldown.',
+    spanish:
+      'El cambio puede reducir tu tiempo de construcción, especialmente para proyectos más grandes, dice Evan You. Ahora puedes probar Vite con Rolldown.',
+  },
+  {
+    norwegian:
+      'Frykter at USA kan tvinge Microsoft til å stenge tilgangen til Microsoft-tjenester. Nå dropper både København og Aarhus Microsofts løsninger.',
+    english:
+      'Fears that the US may force Microsoft to shut down access to Microsoft services. Now both Copenhagen and Aarhus are dropping Microsoft’s solutions.',
+    spanish:
+      'Temen que Estados Unidos pueda obligar a Microsoft a cerrar el acceso a los servicios de Microsoft. Ahora Copenhague y Aarhus están abandonando las soluciones de Microsoft.',
+  },
+  {
+    norwegian:
+      'WordPress-skaperen Matt Mullenweg ville først ikke bidra mer til åpen kildekodeprosjektet WordPress, men nå har han ombestemt seg.',
+    english:
+      'The creator of WordPress, Matt Mullenweg, initially did not want to contribute further to the open source project WordPress, but now he has changed his mind.',
+    spanish:
+      'El creador de WordPress, Matt Mullenweg, inicialmente no quería contribuir más al proyecto de código abierto WordPress, pero ahora ha cambiado de opinión.',
+  },
+  {
+    norwegian:
+      'Drøyt halvparten av nordmenn har brukt AI. Nesten like mange er bekymra for hva teknologien vil føre til for arbeidsmarkedet og klimaet.',
+    english:
+      'Just over half of Norwegians have used AI. Almost as many are concerned about what the technology will lead to for the job market and the climate.',
+    spanish:
+      'Algo más de la mitad de los noruegos ha utilizado IA. Casi la misma cantidad está preocupada por lo que la tecnología conducirá al mercado laboral y al clima.',
+  },
+  {
+    norwegian:
+      'Det er helt umulig for AI-selskapene å måtte be om lov til å bruke beskytta materiale i trening, hevder tidligere Meta-topp Nick Clegg.',
+    english:
+      'It is completely impossible for AI companies to have to ask for permission to use protected material in training, claims former Meta executive Nick Clegg.',
+    spanish:
+      'Es completamente imposible que las empresas de IA tengan que pedir permiso para usar material protegido en el entrenamiento, afirma el exejecutivo de Meta Nick Clegg.',
+  },
+  {
     norwegian: 'Bare minutter unna turistfellene finnes bedre alternativer. Her er en oversikt.',
     english: 'Just minutes away from the tourist traps, there are better alternatives. Here is an overview.',
     spanish: 'A solo minutos de las trampas turísticas, hay mejores alternativas. Aquí tienes un resumen.',
