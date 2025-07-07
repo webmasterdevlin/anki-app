@@ -3,6 +3,208 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Bare minutter unna turistfellene finnes bedre alternativer. Her er en oversikt.',
+    english: 'Just minutes away from the tourist traps, there are better alternatives. Here is an overview.',
+    spanish: 'A solo minutos de las trampas turísticas, hay mejores alternativas. Aquí tienes un resumen.',
+  },
+  {
+    norwegian: 'Planer om sopptur til høsten? Nå kommer FHI med en advarsel.',
+    english: 'Planning a mushroom trip this fall? Now FHI comes with a warning.',
+    spanish: '¿Planeando un viaje de setas este otoño? Ahora FHI emite una advertencia.',
+  },
+  {
+    norwegian: 'Forrige sesong var et møkkete kaos. Nå er serien tilbake i stjerneform. Les anmeldelsen her.',
+    english: 'Last season was a dirty chaos. Now the series is back in star form. Read the review here.',
+    spanish:
+      'La temporada pasada fue un caos sucio. Ahora la serie está de vuelta en forma estelar. Lee la reseña aquí.',
+  },
+  {
+    norwegian:
+      'De blir tilbudt psykologhjelp og må stå i stormen når togene aldri kommer. Aftenposten fulgte en konduktør på jobb i morgenrushet.',
+    english:
+      'They are offered psychological help and must endure the storm when the trains never arrive. Aftenposten followed a conductor at work during the morning rush.',
+    spanish:
+      'Se les ofrece ayuda psicológica y deben soportar la tormenta cuando los trenes nunca llegan. Aftenposten siguió a un conductor en su trabajo durante la hora punta de la mañana.',
+  },
+  {
+    norwegian: 'Når voksne barn forventer foreldresponsing på fellesferien: Slik tar du praten. ',
+    english:
+      'When adult children expect parental support during the joint holiday: Here’s how to have the conversation.',
+    spanish:
+      'Cuando los hijos adultos esperan apoyo parental durante las vacaciones conjuntas: Así es como se tiene la conversación.',
+  },
+  {
+    norwegian: 'Aftenposten i Tel Aviv: De har en bønn til Donald Trump.',
+    english: 'Aftenposten in Tel Aviv: They have a prayer for Donald Trump.',
+    spanish: 'Aftenposten en Tel Aviv: Tienen una oración para Donald Trump.',
+  },
+  {
+    norwegian:
+      'Hundrevis løper rundt en gravlund hver uke. Hvordan ble et siste hvilested så livlig og blant Oslos mest løpte strekninger?',
+    english:
+      'Hundreds run around a cemetery every week. How did a final resting place become so lively and one of Oslo’s most run stretches?',
+    spanish:
+      'Cientos corren alrededor de un cementerio cada semana. ¿Cómo se convirtió un lugar de descanso final en uno de los tramos más concurridos de Oslo?',
+  },
+  {
+    norwegian: 'Du trenger ikke nødvendigvis flytte til Spydeberg for å slippe de høye boligprisene i Oslo.',
+    english: 'You don’t necessarily have to move to Spydeberg to escape the high housing prices in Oslo.',
+    spanish:
+      'No necesariamente tienes que mudarte a Spydeberg para escapar de los altos precios de la vivienda en Oslo.',
+  },
+  {
+    norwegian:
+      'Mye gjemmer seg i det kroppslige minnet. Blant annet den seksuelle historien om ditt liv, forklarer eksperten.',
+    english:
+      'Much is hidden in the bodily memory. Among other things, the sexual history of your life, explains the expert.',
+    spanish:
+      'Mucho se esconde en la memoria corporal. Entre otras cosas, la historia sexual de tu vida, explica el experto.',
+  },
+  {
+    norwegian: 'Da Martin Ødegaard fyrte løs i sosiale medier, ble Ada Hegerberg skuffet og opprørt.',
+    english: 'When Martin Ødegaard fired off on social media, Ada Hegerberg was disappointed and upset.',
+    spanish: 'Cuando Martin Ødegaard disparó en las redes sociales, Ada Hegerberg se sintió decepcionada y molesta.',
+  },
+  {
+    norwegian: 'En ti år gammel bok om voksne barn og deres umodne foreldre vekker oppsikt. Her er forfatterens råd.',
+    english:
+      'A ten-year-old book about adult children and their immature parents is causing a stir. Here are the author’s tips.',
+    spanish:
+      'Un libro de diez años sobre hijos adultos y sus padres inmaduros está causando revuelo. Aquí están los consejos del autor.',
+  },
+  {
+    norwegian:
+      'Jeg vet hva det vil si å vokse opp i en kultur der religion er sannhet og kontroll, skriver Hilde Sandvik.',
+    english: 'I know what it means to grow up in a culture where religion is truth and control, writes Hilde Sandvik.',
+    spanish: 'Sé lo que significa crecer en una cultura donde la religión es verdad y control, escribe Hilde Sandvik.',
+  },
+  {
+    norwegian: 'Nå er det klart for den store finalen i «Farmen kjendis». Her er alt du trenger å vite.',
+    english: 'Now it is time for the grand finale of "Farmen kjendis". Here is everything you need to know.',
+    spanish: 'Ahora es el momento de la gran final de "Farmen kjendis". Aquí tienes todo lo que necesitas saber.',
+  },
+  {
+    norwegian: 'Snorre Valen er gjest i podkasten Ekstra Lars.',
+    english: 'Snorre Valen is a guest on the podcast Ekstra Lars.',
+    spanish: 'Snorre Valen es invitado en el podcast Ekstra Lars.',
+  },
+  {
+    norwegian: 'Stortingspolitikeren mener rasisme ikke er et stort problem i Norge.',
+    english: 'The Member of Parliament believes that racism is not a big problem in Norway.',
+    spanish: 'El político del Parlamento cree que el racismo no es un gran problema en Noruega.',
+  },
+  {
+    norwegian: 'Skal du se «Jurassic World Rebirth»? Her er anmeldelsen.',
+    english: 'Are you going to see "Jurassic World Rebirth"? Here is the review.',
+    spanish: '¿Vas a ver "Jurassic World Rebirth"? Aquí está la reseña.',
+  },
+  {
+    norwegian: 'Oasis-brødrene sammen på scenen igjen for første gang på 15 år. Hva er din favorittlåt?',
+    english: 'Oasis brothers together on stage again for the first time in 15 years. What is your favorite song?',
+    spanish:
+      'Hermanos de Oasis juntos en el escenario nuevamente por primera vez en 15 años. ¿Cuál es tu canción favorita?',
+  },
+  {
+    norwegian: 'På 10 minutter spiste han 70,5 wienerpølser med brød. Hvor mange hadde du klart?',
+    english: 'In 10 minutes, he ate 70.5 hot dogs with bread. How many could you manage?',
+    spanish: 'En 10 minutos, se comió 70,5 salchichas con pan. ¿Cuántas podrías comer tú?',
+  },
+  {
+    norwegian:
+      'Ta kontakt med kjærestens ekser? – Jeg er ganske sikker på at det ikke er en god idé, svarer Frode Thuen.',
+    english: 'Contact your partner’s exes? - I’m pretty sure that’s not a good idea, answers Frode Thuen.',
+    spanish:
+      '¿Contactar con los ex de tu pareja? - Estoy bastante seguro de que no es una buena idea, responde Frode Thuen.',
+  },
+  {
+    norwegian: 'Kulturministeren har bestemt seg: Dropper rådyr løsning for Nationaltheatret.',
+    english: 'The Minister of Culture has made up her mind: Drops expensive solution for the National Theatre.',
+    spanish: 'La ministra de Cultura ha tomado una decisión: Descarta una solución costosa para el Teatro Nacional.',
+  },
+  {
+    norwegian: 'Ladetabbene du bør unngå å gjøre i sommer. Tips i kommentarfeltet.',
+    english: 'Charging mistakes you should avoid making this summer. Tips in the comment section.',
+    spanish: 'Errores de carga que debes evitar este verano. Consejos en la sección de comentarios.',
+  },
+  {
+    norwegian: 'Nå er det klart for den store finalen i «Farmen kjendis». Her er alt du trenger å vite.',
+    english: 'Now it is time for the grand finale of "Farmen kjendis". Here is everything you need to know.',
+    spanish: 'Ahora es el momento de la gran final de "Farmen kjendis". Aquí tienes todo lo que necesitas saber.',
+  },
+  {
+    norwegian: 'Beboere i kommunal blokk måtte klare seg uten heis.',
+    english: 'Residents in a municipal block had to manage without an elevator.',
+    spanish: 'Los residentes de un bloque municipal tuvieron que arreglárselas sin ascensor.',
+  },
+  {
+    norwegian:
+      'Høyre har lagt frem ny skolepolitikk. Disiplin i skolen er bra. Men barna må møtes med trygghet, ikke trusler, skriver kommentator Synnøve Vereide Trampe. Lenke i kommentarfelt.',
+    english:
+      'Høyre has presented new school policies. Discipline in school is good. But children must be met with security, not threats, writes commentator Synnøve Vereide Trampe. Link in the comment section.',
+    spanish:
+      'Høyre ha presentado nuevas políticas escolares. La disciplina en la escuela es buena. Pero los niños deben ser tratados con seguridad, no con amenazas, escribe la comentarista Synnøve Vereide Trampe. Enlace en la sección de comentarios.',
+  },
+  {
+    norwegian: 'Nyttig oversikt enten man skal være i - eller besøke - Oslo i sommer.',
+    english: 'Useful overview whether you are going to be in - or visit - Oslo this summer.',
+    spanish: 'Resumen útil ya sea que vayas a estar en - o visitar - Oslo este verano.',
+  },
+  {
+    norwegian: 'Vi anser dette for å være en tragisk ulykke, sier politiet.',
+    english: 'We consider this to be a tragic accident, says the police.',
+    spanish: 'Consideramos esto como un trágico accidente, dice la policía.',
+  },
+  {
+    norwegian: '«Det er ikke så farlig å være litt nervøs»',
+    english: '"It’s not so dangerous to be a little nervous"',
+    spanish: '"No es tan peligroso estar un poco nervioso"',
+  },
+  {
+    norwegian: 'Mens kundene venter på rentekuttet, får 11.000 DNB-ansatte langt bedre vilkår.',
+    english: 'While customers wait for the interest rate cut, 11,000 DNB employees get much better terms.',
+    spanish:
+      'Mientras los clientes esperan la reducción de tasas de interés, 11,000 empleados de DNB obtienen mejores condiciones.',
+  },
+  {
+    norwegian:
+      'Er prinsessebehandling romantisk eller gammeldags? Etiketteekspert mener det er på tide å skrote begrepet.',
+    english: 'Is princess treatment romantic or old-fashioned? Etiquette expert believes it is time to scrap the term.',
+    spanish:
+      '¿Es el trato de princesa romántico o anticuado? Un experto en etiqueta cree que es hora de eliminar el término.',
+  },
+  {
+    norwegian: 'De grå hårene kan gå hardt utover selvtilliten.',
+    english: 'Gray hair can hit hard on self-esteem.',
+    spanish: 'Las canas pueden afectar seriamente la autoestima.',
+  },
+  {
+    norwegian: 'Veldig dyrt, sier turistene om P-prisen. De må betale tusenvis for to dager.Lenke i kommentarfeltet.',
+    english:
+      'Very expensive, say the tourists about the parking price. They have to pay thousands for two days. Link in the comment section.',
+    spanish:
+      'Muy caro, dicen los turistas sobre el precio del aparcamiento. Tienen que pagar miles por dos días. Enlace en la sección de comentarios.',
+  },
+  {
+    norwegian: 'Noe av det større vi kan få i Norge, sier meteorolog. (Lenke i kommentarfeltet)',
+    english: 'Something of the larger we can get in Norway, says the meteorologist. (Link in the comment section)',
+    spanish:
+      'Algo de lo más grande que podemos tener en Noruega, dice el meteorólogo. (Enlace en la sección de comentarios)',
+  },
+  {
+    norwegian: 'Bare elleve dager tidligere fikk han «ja, til evig tid» fra sitt livs kjærlighet.',
+    english: 'Just eleven days earlier, he got "yes, for eternity" from the love of his life.',
+    spanish: 'Solo once días antes, recibió un "sí, por la eternidad" del amor de su vida.',
+  },
+  {
+    norwegian:
+      'Mer enn 1.500 flyvninger er kansellert torsdag og fredag, som rammer mer enn 300.000 passasjerer. (Lenke i kommentarfeltet)',
+    english:
+      'More than 1,500 flights are canceled Thursday and Friday, affecting more than 300,000 passengers. (Link in the comment section)',
+    spanish:
+      'Más de 1,500 vuelos están cancelados el jueves y viernes, afectando a más de 300,000 pasajeros. (Enlace en la sección de comentarios)',
+  },
+
+  {
     norwegian: 'Kan lede til alvorlig sykdom, ifølge ny norsk studie.',
     english: 'Can lead to serious illness, according to a new Norwegian study.',
     spanish: 'Puede llevar a enfermedades graves, según un nuevo estudio noruego.',
