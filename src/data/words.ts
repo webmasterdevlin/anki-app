@@ -4,6 +4,200 @@ import type { Question } from '../models/types.ts';
 export const words: Question[] = [
   {
     norwegian:
+      'Fra han var 13 år begikk gutten nærmere 40 ran og overfall i Oslo sentrum. Til slutt fikk han besøksforbud.',
+    english:
+      'From the age of 13, the boy committed nearly 40 robberies and assaults in downtown Oslo. In the end, he was given a restraining order.',
+    spanish:
+      'Desde los 13 años, el chico cometió cerca de 40 robos y agresiones en el centro de Oslo. Al final, se le impuso una orden de alejamiento.',
+  },
+  {
+    norwegian:
+      '«Sykling forbudt» står det tydelig på skiltene. Men er det egentlig det? Svaret fra Bymiljøetaten overrasker.',
+    english:
+      '"Cycling prohibited" is clearly stated on the signs. But is it really? The answer from the Urban Environment Agency surprises.',
+    spanish:
+      '"Ciclismo prohibido" está claramente indicado en los letreros. ¿Pero es realmente así? La respuesta de la Agencia de Medio Ambiente Urbano sorprende.',
+  },
+  {
+    norwegian: 'Tyvene fant akkurat det de var ute etter i Løren-blokka.',
+    english: 'Tthe thieves found exactly what they were looking for in the Løren block.',
+    spanish: 'Los ladrones encontraron exactamente lo que buscaban en el bloque de Løren.',
+  },
+  {
+    norwegian: 'De opplevde seg isolert. Nå har de tatt over lokalene fra legendarisk restaurant.',
+    english: 'They felt isolated. Now they have taken over the premises from a legendary restaurant.',
+    spanish: 'Se sentían aislados. Ahora han tomado las instalaciones de un restaurante legendario.',
+  },
+  {
+    norwegian: 'Lenke til åpen sak i kommentarfeltet.',
+    english: 'Link to open case in the comment section.',
+    spanish: 'Enlace a caso abierto en la sección de comentarios.',
+  },
+  {
+    norwegian: 'Mens bussjåføren skrek ut av vinduet, pekte fotgjengeren på den lysende, grønne mannen.',
+    english: 'While the bus driver was shouting out the window, the pedestrian pointed at the glowing green man.',
+    spanish: 'Mientras el conductor del autobús gritaba por la ventana, el peatón señalaba al hombre verde brillante.',
+  },
+  {
+    norwegian: 'En kvinne og en mann er tiltalt for grovt ran og grov vold mot to kvinner.',
+    english: 'A woman and a man have been charged with aggravated robbery and aggravated violence against two women.',
+    spanish: 'Una mujer y un hombre han sido acusados de robo agravado y violencia agravada contra dos mujeres.',
+  },
+  {
+    norwegian: 'Første dag av fellesferien byr på regn og temperaturer under 20 grader. Så snur det.',
+    english: 'The first day of the joint holiday offers rain and temperatures below 20 degrees. Then it turns around.',
+    spanish:
+      'El primer día de las vacaciones conjuntas trae lluvia y temperaturas por debajo de los 20 grados. Luego cambia.',
+  },
+  {
+    norwegian: 'Kommunen slår ned på sin egen etat.',
+    english: 'The municipality cracks down on its own agency.',
+    spanish: 'El municipio toma medidas contra su propia agencia.',
+  },
+  {
+    norwegian: 'Regnestykket deres gir ingen mening, mener FAU-leder Kristel Berre.',
+    english: 'Their calculations make no sense, says FAU leader Kristel Berre.',
+    spanish: 'Sus cálculos no tienen sentido, dice la presidenta de FAU, Kristel Berre.',
+  },
+  {
+    norwegian:
+      'Bymiljøetaten sa nei til endringer i krysset der en gutt (2) ble påkjørt og drept. Men nå snur byråd Marit Vea (V).',
+    english:
+      'The Agency for Urban Environment said no to changes at the intersection where a two-year-old boy was hit and killed. But now City Commissioner Marit Vea (Liberal Party) is reversing that decision.',
+    spanish:
+      'La Agencia de Medio Ambiente Urbano dijo que no a los cambios en la intersección donde un niño de dos años fue atropellado y asesinado. Pero ahora la comisionada de la ciudad Marit V',
+  },
+  {
+    norwegian: 'Vi sier tydelig nei til å svekke kravene til brannsikkerhet, skriver Britt Fossum.',
+    english: 'We clearly say no to weakening fire safety requirements, writes Britt Fossum.',
+    spanish: 'Decimos claramente no a debilitar los requisitos de seguridad contra incendios, escribe Britt Fossum.',
+  },
+  {
+    norwegian: 'Ruters endringer skaper hodebry for Aleksandra og familien. Saken er åpen for alle.',
+    english: 'Ruter’s changes create headaches for Aleksandra and her family. The case is open to everyone.',
+    spanish: 'Los cambios de Ruter crean dolores de cabeza para Aleksandra y su familia. El caso está abierto a todos.',
+  },
+  {
+    norwegian: 'Satt bak rattet da han varslet sykehuset. Det ble dyrt.',
+    english: 'Sat behind the wheel when he notified the hospital. It was expensive.',
+    spanish: 'Se sentó detrás del volante cuando notificó al hospital. Fue caro.',
+  },
+  {
+    norwegian:
+      'Taggen har blitt fjernet flere ganger siden 80-tallet. Den har derimot blitt vekket tilbake til liv hver eneste gang.',
+    english: 'The tag has been removed several times since the 1980s. However, it has been revived every single time.',
+    spanish:
+      'La etiqueta ha sido eliminada varias veces desde la década de 1980. Sin embargo, ha sido revivida cada vez.',
+  },
+  {
+    norwegian: 'Ordet «Sædfuck» har prydet undergangen på Bøler i nesten 40 år. Nå er den forsvunnet.',
+    english: 'The word "Sædfuck" has adorned the underpass at Bøler for almost 40 years. Now it is gone.',
+    spanish:
+      'La palabra "Sædfuck" ha adornado el paso subterráneo en Bøler durante casi 40 años. Ahora ha desaparecido.',
+  },
+  {
+    norwegian: 'Tar seg til rette i gata.',
+    english: 'Takes liberties in the street.',
+    spanish: 'Se toma libertades en la calle.',
+  },
+  {
+    norwegian: 'I årevis har flere av beboerne på Ulvøya ønsket seg et forbud mot fiskingen.',
+    english: 'For years, several residents of Ulvøya have wanted a ban on fishing.',
+    spanish: 'Durante años, varios residentes de Ulvøya han deseado una prohibición de la pesca.',
+  },
+  {
+    norwegian: 'Villaen er blitt en fare for naboene.',
+    english: 'The villa has become a danger to the neighbors.',
+    spanish: 'La villa se ha convertido en un peligro para los vecinos.',
+  },
+  {
+    norwegian: 'Eieren er en omstridt milliardær. Den forlatte luksusvillaen skjuler en dramatisk historie.',
+    english: 'The owner is a controversial billionaire. The abandoned luxury villa hides a dramatic story.',
+    spanish:
+      'El propietario es un multimillonario controvertido. La villa de lujo abandonada oculta una historia dramática.',
+  },
+  {
+    norwegian: 'Alle som ble dømt av politikeren, måtte frifinnes.',
+    english: 'Everyone who was convicted by the politician had to be acquitted.',
+    spanish: 'Todos los que fueron condenados por el político debían ser absueltos.',
+  },
+  {
+    norwegian:
+      'OSLODEBATTEN: Det er kjærkomment med noe som går raskere. Trikker, biler og anleggsarbeid gjør det vrient å ta seg fram i sentrum, skriver Bjørn Håkon Hovde.',
+    english:
+      'OSLO DEBATE: It is welcome with something that goes faster. Trams, cars and construction work make it difficult to get around in the city center, writes Bjørn Håkon Hovde.',
+    spanish:
+      'DEBATE DE OSLO: Es bienvenido algo que va más rápido. Los tranvías, los coches y las obras de construcción dificultan el desplazamiento por el centro de la ciudad, escribe Bjørn Håkon Hovde.',
+  },
+  {
+    norwegian: 'Eiendommene tilhører kunstner Bjarne Melgaard.',
+    english: 'The properties belong to artist Bjarne Melgaard.',
+    spanish: 'Las propiedades pertenecen al artista Bjarne Melgaard.',
+  },
+  {
+    norwegian: 'Flere ganger har venninnene vært nær å avsløre hen.',
+    english: 'Several times the friends have been close to revealing her.',
+    spanish: 'Varias veces las amigas han estado cerca de descubrirla.',
+  },
+  {
+    norwegian: 'Frekt tyveri endte i intens politijakt.',
+    english: 'Brazen theft ended in an intense police chase.',
+    spanish: 'El robo descarado terminó en una intensa persecución policial.',
+  },
+  {
+    norwegian: 'Det er ikke anbefalt, men du får ikke rettelse hvis du skriver det. Hva kaller du strøket for?',
+    english:
+      'It is not recommended, but you will not get a correction if you write it. What do you call the strikeout?',
+    spanish: 'No está recomendado, pero no recibirás una corrección si lo escribes. ¿Cómo llamas al tachado?',
+  },
+  {
+    norwegian: 'De eier fortsatt restauranten sammen, men nå er det full strid.',
+    english: 'They still own the restaurant together, but now there is full conflict.',
+    spanish: 'Todavía son dueños del restaurante juntos, pero ahora hay un conflicto total.',
+  },
+  {
+    norwegian:
+      'De eier fortsatt restauranten sammen, men stemningen er betent. Nå har partene politianmeldt hverandre.',
+    english:
+      'They still own the restaurant together, but the atmosphere is tense. Now the parties have reported each other to the police.',
+    spanish:
+      'Todavía son dueños del restaurante juntos, pero la atmósfera es tensa. Ahora las partes se han denunciado mutuamente a la policía.',
+  },
+  {
+    norwegian: 'Sofie og Inger går i Lappemannens fotspor. Flere ganger har de vært nær å avsløre personen bak.',
+    english:
+      'Sofie and Inger follow in the footsteps of the Lappeman. Several times they have been close to revealing the person behind it.',
+    spanish:
+      'Sofie e Inger siguen los pasos del Hombre Lapón. Varias veces han estado cerca de descubrir a la persona detrás de él.',
+  },
+  {
+    norwegian: 'En årelang strid ligger bak det kjente navnet. Men hva sier folket? Og hva er korrekt?',
+    english:
+      'A long-standing dispute lies behind the well-known name. But what does the public say? And what is correct?',
+    spanish: 'Una disputa de larga data está detrás del nombre conocido. ¿Pero qué dice la gente? ¿Y cuál es correcto?',
+  },
+  {
+    norwegian: 'En mann er kjørt til sykehus. Politiet etterlyser vitner.',
+    english: 'A man has been taken to the hospital. The police are asking for witnesses.',
+    spanish: 'Un hombre ha sido llevado al hospital. La policía pide testigos.',
+  },
+  {
+    norwegian: 'Mistenkte stakk fra stedet. Lenke til sak i kommentarfeltet.',
+    english: 'The suspect fled the scene. Link to case in the comment section.',
+    spanish: 'El sospechoso huyó del lugar. Enlace al caso en la sección de comentarios.',
+  },
+  {
+    norwegian: 'Mange har fått med seg at det har skjedd endringer i lokalet den siste tida, sier Løkka-baren.',
+    english: 'Many have noticed that there have been changes in the premises recently, says the Løkka bar.',
+    spanish: 'Muchos han notado que ha habido cambios en el local recientemente, dice el bar de Løkka.',
+  },
+  {
+    norwegian: 'Flere ble møtt av en overraskelse på T-banestasjonen denne helgen.',
+    english: 'Several were met with a surprise at the subway station this weekend.',
+    spanish: 'Varios se encontraron con una sorpresa en la estación de metro este fin de semana.',
+  },
+  {
+    norwegian:
       'Etter 22 år gir Anne Christiansen stafettpinnen videre til podkastvert og Jesusfellesskap-leder Cathrine Lofnes.',
     english:
       'After 22 years, Anne Christiansen passes the baton to podcast host and Jesusfellesskap leader Cathrine Lofnes.',
