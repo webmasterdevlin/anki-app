@@ -3,6 +3,201 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Kan lede til alvorlig sykdom, ifølge ny norsk studie.',
+    english: 'Can lead to serious illness, according to a new Norwegian study.',
+    spanish: 'Puede llevar a enfermedades graves, según un nuevo estudio noruego.',
+  },
+  {
+    norwegian: 'Norsk ekspert advarer etter sjokkfunn.',
+    english: 'Norwegian expert warns after shocking findings.',
+    spanish: 'Experto noruego advierte tras hallazgos impactantes.',
+  },
+  {
+    norwegian: 'Opplever du kløe, svie og pustevansker etter samleie, kan du være rammet.',
+    english: 'If you experience itching, burning, and breathing difficulties after intercourse, you may be affected.',
+    spanish:
+      'Si experimentas picazón, ardor y dificultades para respirar después de las relaciones sexuales, puedes estar afectado.',
+  },
+  {
+    norwegian: 'Kan være alvorlig og i verste fall dødelig.',
+    english: 'Can be serious and in the worst case fatal.',
+    spanish: 'Puede ser grave y en el peor de los casos mortal.',
+  },
+  {
+    norwegian: 'Nå kommer legen med en streng advarsel: - Svært farlig!',
+    english: 'Now the doctor comes with a strict warning: - Very dangerous!',
+    spanish: '¡Ahora el médico viene con una advertencia estricta: - Muy peligroso!',
+  },
+  {
+    norwegian: 'Ny melding etter dødsfallene til Diogo Jota (28​) og André Silva (25). ',
+    english: 'New message after the deaths of Diogo Jota (28) and André Silva (25).',
+    spanish: 'Nuevo mensaje tras las muertes de Diogo Jota (28) y André Silva (25).',
+  },
+  {
+    norwegian: 'Én av tre personer har ingen anelse om at de i det hele tatt har tilstanden, advarer lege.',
+    english: 'One in three people have no idea that they even have the condition, warns a doctor.',
+    spanish: 'Uno de cada tres personas no tiene idea de que siquiera tienen la condición, advierte un médico.',
+  },
+  {
+    norwegian: 'Da Nina (54) gikk tur på fjellet, fikk hun seg en stor overraskelse.',
+    english: 'When Nina (54) went for a walk in the mountains, she got a big surprise.',
+    spanish: 'Cuando Nina (54) salió a caminar por la montaña, se llevó una gran sorpresa.',
+  },
+  {
+    norwegian: 'Ryktene svirrer om yngstesønnen til USAs president.',
+    english: 'Rumors are swirling about the youngest son of the US president.',
+    spanish: 'Los rumores están circulando sobre el hijo menor del presidente de EE.UU.',
+  },
+  {
+    norwegian: 'NRK-profilen i sitt siste intervju: - Altfor glad i livet til at jeg klarer å forsone meg med døden.',
+    english: 'NRK profile in her last interview: - Too fond of life to come to terms with death.',
+    spanish: 'Perfil de NRK en su última entrevista: - Demasiado aficionada a la vida como para aceptar la muerte.',
+  },
+  {
+    norwegian: 'Dronningfrisør langer ut mot norske kvinner.',
+    english: 'Queen’s hairdresser lashes out against Norwegian',
+    spanish: 'El peluquero de la reina ataca a las mujeres noruegas.',
+  },
+  {
+    norwegian: 'Det har kommet flere spekulasjoner og rykter om hvorfor Ronaldo ikke kom i begravelse.',
+    english: 'There have been several speculations and rumors about why Ronaldo did not attend the funeral.',
+    spanish: 'Ha habido varias especulaciones y rumores sobre por qué Ronaldo no asistió al funeral.',
+  },
+  {
+    norwegian: 'Trump får kraftig kritikk etter at han brukte et antisemittisk uttrykk under en tale.',
+    english: 'Trump receives strong criticism after using an anti-Semitic expression during a speech.',
+    spanish: 'Trump recibe fuertes críticas tras usar una expresión antisemita durante un discurso.',
+  },
+  {
+    norwegian: 'De tidligere ektefellene har punget ut millioner kroner hver for leiligheter som ligger vegg i vegg.',
+    english: 'The former spouses have each shelled out millions of kroner for apartments that are next to each other.',
+    spanish:
+      'Los ex cónyuges han desembolsado millones de coronas cada uno por apartamentos que están uno al lado del otro.',
+  },
+  {
+    norwegian: 'Trude Drevland delte ny oppdatering etter det stygge fallet.',
+    english: 'Trude Drevland shared a new update after the ugly fall.',
+    spanish: 'Trude Drevland compartió una nueva actualización tras la fea caída.',
+  },
+  {
+    norwegian: 'Slår alarm om «tilskudd»',
+    english: 'Sounds the alarm about "subsidies"',
+    spanish: 'Alerta sobre "subsidios"',
+  },
+  {
+    norwegian: 'Utbrent buss: Tre er fraktet til sykehus med alvorlige skader.',
+    english: 'Burned bus: Three have been transported to the hospital with serious injuries.',
+    spanish: 'Autobús quemado: Tres han sido trasladados al hospital con heridas graves.',
+  },
+  {
+    norwegian: 'Astrid Smeplass (28​) får verden til å måpe: - Norge har sendt en «gudinne»',
+    english: 'Astrid Smeplass (28) makes the world gasp: - Norway has sent a "goddess"',
+    spanish: 'Astrid Smeplass (28) hace que el mundo se asombre: - Noruega ha enviado una "diosa"',
+  },
+  {
+    norwegian: 'AKKURAT NÅ: Nødetatene og redningshelikopter er på stedet.',
+    english: 'RIGHT NOW: Emergency services and rescue helicopter are on site.',
+    spanish: 'AHORA MISMO: Servicios de emergencia y helicóptero de rescate están en el lugar.',
+  },
+  {
+    norwegian: 'AKKURAT NÅ: Dødstallet stiger - bekrefter at flere er barn: - Hun er død',
+    english: 'RIGHT NOW: The death toll is rising - confirms that several are children: - She is dead',
+    spanish: 'AHORA MISMO: El número de muertos está aumentando - confirma que varios son niños: - Ella está muerta',
+  },
+  {
+    norwegian: 'Dette må du ikke finne på å gjøre på biltur, ifølge Trygg Trafikk.',
+    english: 'You must not do this on a car trip, according to Trygg Trafikk.',
+    spanish: 'No debes hacer esto en un viaje en coche, según Trygg Trafikk.',
+  },
+  {
+    norwegian: 'Martin Vestlis (23) tilbringer sommeren i 25 minus.',
+    english: 'Martin Vestli (23) spends the summer in -25 degrees.',
+    spanish: 'Martin Vestli (23) pasa el verano a -25 grados.',
+  },
+  {
+    norwegian: 'Dagbladets Spania-utsendte brant seg denne uka på en vanlig tabbe blant nordmenn.',
+    english: 'Dagbladet’s Spain correspondent burned himself this week on a common mistake among Norwegians.',
+    spanish: 'El corresponsal de Dagbladet en España se quemó esta semana con un error común entre los noruegos.',
+  },
+  {
+    norwegian: 'Kona bekrefter den triste nyheten.',
+    english: 'The wife confirms the sad news.',
+    spanish: 'La esposa confirma la triste noticia.',
+  },
+  {
+    norwegian: 'Norsk gåte forbløffer: Etterlyses etter 26 år.',
+    english: 'Norwegian riddle amazes: Wanted after 26 years.',
+    spanish: 'Enigma noruego asombra: Buscado después de 26 años.',
+  },
+  {
+    norwegian: 'Flere til sykehus etter brannalarm på Ryanair-fly.',
+    english: 'Several to the hospital after fire alarm on Ryanair flight.',
+    spanish: 'Varios al hospital tras alarma de incendio en vuelo de Ryanair.',
+  },
+  {
+    norwegian: 'Stjernene tok farvel etter den rystende tragedien.',
+    english: 'The stars said goodbye after the shocking tragedy.',
+    spanish: 'Las estrellas se despidieron tras la impactante tragedia.',
+  },
+  {
+    norwegian: 'Carita Strøm brukt utallige timer på å pusse opp familiens campingvogn. Så rammet marerittet.',
+    english: 'Carita Strøm spent countless hours renovating the family’s caravan. Then the nightmare struck.',
+    spanish: 'Carita Strøm pasó incontables horas renovando la caravana de la familia. Entonces llegó la pesadilla.',
+  },
+  {
+    norwegian: 'I dag blir dette lov for aller første gang på 102 år.',
+    english: 'Today this becomes legal for the very first time in 102 years.',
+    spanish: 'Hoy esto se convierte en legal por primera vez en 102 años.',
+  },
+  {
+    norwegian: 'Her får du denne ukas viktigste nyheter oppsummert av Dagbladet Pluss- og printredaktør Bjørn Carlsen.',
+    english:
+      'Here you get this week’s most important news summarized by Dagbladet Plus and print editor Bjørn Carlsen.',
+    spanish:
+      'Aquí tienes un resumen de las noticias más importantes de esta semana por el editor de Dagbladet Plus y print, Bjørn Carlsen.',
+  },
+  {
+    norwegian: 'Etter ni år som kjærester fikk nok være nok, tenkte OL-sølvvinner Mons Røisland (28​).',
+    english: 'After nine years as a couple, enough was enough, thought Olympic silver medalist Mons Røisland (28).',
+    spanish:
+      'Después de nueve años como pareja, fue suficiente, pensó el medallista de plata olímpico Mons Røisland (28).',
+  },
+  {
+    norwegian: 'Politiet bekrefter fredag at en norsk, kjent treningsprofil er død.',
+    english: 'The police confirm on Friday that a Norwegian, well-known training profile has died.',
+    spanish: 'La policía confirma el viernes que un perfil de entrenamiento noruego conocido ha fallecido.',
+  },
+  {
+    norwegian: 'Møtte ham bare noen timer før tragedien inntraff.',
+    english: 'Met him just a few hours before the tragedy occurred.',
+    spanish: 'Lo conoció solo unas horas antes de que ocurriera la tragedia.',
+  },
+  {
+    norwegian: 'Scott Engh (22) - for mange kjent som «Coach Engh» - har gått bort i en ulykke.',
+    english: 'Scott Engh (22) - known to many as "Coach Engh" - has passed away in an accident.',
+    spanish: 'Scott Engh (22) - conocido por muchos como "Coach Engh" - ha fallecido en un accidente.',
+  },
+  {
+    norwegian: 'Dette må du gjøre for å få dekket behandlingen.',
+    english: 'This is what you need to do to get the treatment covered.',
+    spanish: 'Esto es lo que debes hacer para que te cubran el tratamiento.',
+  },
+  {
+    norwegian: 'Kort tid etter dette var han død.',
+    english: 'Shortly after this, he was dead.',
+    spanish: 'Poco después de esto, estaba muerto.',
+  },
+  {
+    norwegian: 'Nordmenn i hetebølgen er klare i talen',
+    english: 'Norwegians in the heat wave are clear in their speech',
+    spanish: 'Los noruegos en la ola de calor son claros en su discurso',
+  },
+  {
+    norwegian: 'Modum-mannen nøt en kopp te i hagen. Plutselig smalt det.',
+    english: 'The man from Modum was enjoying a cup of tea in the garden. Suddenly, there was a bang.',
+    spanish: 'El hombre de Modum estaba disfrutando de una taza de té en el jardín. De repente, hubo un estruendo.',
+  },
+  {
     norwegian: 'Tina Bru (H) har lagt merke til at Frp vil ha kunnskapsministeren etter valget.',
     english: 'Tina Bru (H) has noticed that the Progress Party wants the Minister of Knowledge after the election.',
     spanish:
