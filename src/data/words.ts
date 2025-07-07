@@ -3,6 +3,204 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian:
+      'Etter 22 år gir Anne Christiansen stafettpinnen videre til podkastvert og Jesusfellesskap-leder Cathrine Lofnes.',
+    english:
+      'After 22 years, Anne Christiansen passes the baton to podcast host and Jesusfellesskap leader Cathrine Lofnes.',
+    spanish:
+      'Después de 22 años, Anne Christiansen pasa el testigo a la presentadora de pódcast y líder de Jesusfellesskap, Cathrine Lofnes.',
+  },
+  {
+    norwegian: 'Halvannet år uten svar – nå klager Samfundet til Sivilombudet',
+    english: 'One and a half years without an answer – now Samfundet complains to the Civil Ombudsman',
+    spanish: 'Un año y medio sin respuesta – ahora Samfundet se queja al Defensor Civil',
+  },
+  {
+    norwegian: 'Nils-Petter Enstad, tidligere abonnent, tar et oppgjør med Dagens betalingsmur',
+    english: 'Nils-Petter Enstad, former subscriber, takes a stand against Dagens paywall',
+    spanish: 'Nils-Petter Enstad, ex suscriptor, se enfrenta al muro de pago de Dagens',
+  },
+  {
+    norwegian:
+      'At en slik bevegelse fremmer splittelse i samfunn og kirke, bør ikke overraske noen, skriver Torstein Huseby.',
+    english:
+      'That such a movement promotes division in society and the church should not surprise anyone, writes Torstein Huseby.',
+    spanish:
+      'Que un movimiento así promueva la división en la sociedad y la iglesia no debería sorprender a nadie, escribe Torstein Huseby.',
+  },
+  {
+    norwegian: 'Hva ønsker Dagen egentlig å formidle i sin sak om Lundeneset videregående skole?',
+    english: 'What does Dagen actually want to convey in its case about Lundeneset Upper Secondary School?',
+    spanish: '¿Qué quiere transmitir Dagen realmente en su caso sobre la Escuela Secundaria Superior Lundeneset?',
+  },
+  {
+    norwegian:
+      'Linda Helén Haukland er oppteken av at lesarane skal få inspirasjon som både oppmuntrar og utfordrar i deira eigen kvardag.',
+    english:
+      'Linda Helén Haukland is concerned that readers should receive inspiration that both encourages and challenges in their own everyday life.',
+    spanish:
+      'Linda Helén Haukland se preocupa de que los lectores reciban inspiración que tanto anime como desafíe en su propia vida cotidiana.',
+  },
+  {
+    norwegian: 'Det store spørsmålet nå er hvordan USA vil reagere på angrepet.',
+    english: 'The big question now is how the USA will react to the attack.',
+    spanish: 'La gran pregunta ahora es cómo reaccionará Estados Unidos al ataque.',
+  },
+  {
+    norwegian: 'Mye står på spill når Misjonssambandet denne uken samles til generalforsamling.',
+    english: 'A lot is at stake when the Mission Alliance gathers for a general assembly this week.',
+    spanish: 'Mucho está en juego cuando la Alianza Misionera se reúne para una asamblea general esta semana.',
+  },
+  {
+    norwegian: 'Onsdag tok de farvel med mormoren. Lørdag sto de på scenen på Risøya.',
+    english: 'On Wednesday they said goodbye to their grandmother. On Saturday they were on stage at Risøya.',
+    spanish: 'El miércoles se despidieron de su abuela. El sábado estaban en el escenario en Risøya.',
+  },
+  {
+    norwegian:
+      'For kort tid siden var det få igjen i benkeradene i pinsekirken Saron, Hokksund. Nå er det ikke plass nok til alle som vil inn.',
+    english:
+      'Not long ago there were few left in the pews of the Pentecostal church Saron, Hokksund. Now there is not enough room for everyone who wants to come in.',
+    spanish:
+      'Hace poco tiempo había pocos en los bancos de la iglesia pentecostal Saron, Hokksund. Ahora no hay espacio suficiente para todos los que quieren entrar.',
+  },
+  {
+    norwegian: 'Politiet i Melbourne bekrefter at brannstiftelsen var antisemittisk motivert.',
+    english: 'The police in Melbourne confirm that the arson was anti-Semitically motivated.',
+    spanish: 'La policía de Melbourne confirma que el incendio provocado fue motivado por el antisemitismo.',
+  },
+  {
+    norwegian: 'Å lytte til Guds stemme er en sentral praksis på IMI-kirkens sommerfestival.',
+    english: 'Listening to God’s voice is a central practice at IMI Church’s summer festival.',
+    spanish: 'Escuchar la voz de Dios es una práctica central en el festival de verano de la iglesia IMI.',
+  },
+  {
+    norwegian: 'De kristne filmskaperne nekter for at de har laget en «kristen» film.',
+    english: 'The Christian filmmakers deny that they have made a "Christian" film.',
+    spanish: 'Los cineastas cristianos niegan haber hecho una película "cristiana".',
+  },
+  {
+    norwegian: 'Ein tankekross for dei som rosar Donald Trump for innsatsen for trusfridom, skriv Johannes Morken.',
+    english: 'A blow to those who praise Donald Trump for his efforts for freedom of religion, writes Johannes Morken.',
+    spanish:
+      'Un golpe para aquellos que alaban a Donald Trump por sus esfuerzos por la libertad de religión, escribe Johannes Morken.',
+  },
+  {
+    norwegian: 'Fortel ope at ho meiner kristne verdiar legg det beste grunnlaget for eit velfungerande samfunn.',
+    english: 'Openly state that she believes Christian values lay the best foundation for a well-functioning society.',
+    spanish:
+      'Declara abiertamente que cree que los valores cristianos sientan la mejor base para una sociedad bien funcionante.',
+  },
+  {
+    norwegian: 'Lærer noe nytt som kan ha evighetsbetydning.',
+    english: 'Learn something new that can have eternal significance.',
+    spanish: 'Aprender algo nuevo que puede tener un significado eterno.',
+  },
+  {
+    norwegian:
+      'SV-lederen forteller om et nært forhold til Jesus. Hun drømmer om å bli prest den dagen hun gir seg i politikken.',
+    english:
+      'The SV leader tells of a close relationship with Jesus. She dreams of becoming a priest the day she leaves politics.',
+    spanish:
+      'La líder de SV habla de una relación cercana con Jesús. Sueña con convertirse en sacerdote el día que deje la política.',
+  },
+  {
+    norwegian:
+      'Det er slitsomt. Innspillingen av denne sesongen vil ta 86 dager, nesten 20 dager lenger enn noen av de andre sesongene, sier TV-serieskaper Dallas Jenkins.',
+    english:
+      'It is exhausting. The filming of this season will take 86 days, almost 20 days longer than any of the other seasons, says TV series creator Dallas Jenkins.',
+    spanish:
+      'Es agotador. La filmación de esta temporada tomará 86 días, casi 20 días más que cualquiera de las otras temporadas, dice el creador de la serie de televisión Dallas Jenkins.',
+  },
+  {
+    norwegian: 'Nå får han en delvis oppreisning fra organisasjonen han tidligere ledet.',
+    english: 'Now he is getting partial redress from the organization he previously led.',
+    spanish: 'Ahora está recibiendo una compensación parcial de la organización que dirigió anteriormente.',
+  },
+  {
+    norwegian: 'Flere parter presser på for at Hamas skal takke ja til våpenhvileforslaget.',
+    english: 'Several parties are pushing for Hamas to accept the ceasefire proposal.',
+    spanish: 'Varias partes están presionando para que Hamas acepte la propuesta de alto el fuego.',
+  },
+  {
+    norwegian: 'Gud har sendt oss viralt for å trekke flere unge mennesker til kirken.',
+    english: 'God has sent us viral to attract more young people to the church.',
+    spanish: 'Dios nos ha enviado viral para atraer a más jóvenes a la iglesia.',
+  },
+  {
+    norwegian: 'Mathias ble overrasket over svaret han fikk.',
+    english: 'Mathias was surprised by the answer he received.',
+    spanish: 'Mathias se sorprendió por la respuesta que recibió.',
+  },
+  {
+    norwegian: '«Det virker tidvis som om Høyre har splittet personlighet», skriver Asle Toje.',
+    english: '"It sometimes seems as if the Right has a split personality," writes Asle Toje.',
+    spanish: '"A veces parece que la Derecha tiene una personalidad dividida", escribe Asle Toje.',
+  },
+  {
+    norwegian: 'Stortingskandidaten utfordrer partiledelsen i spørsmål om pride.',
+    english: 'The parliamentary candidate challenges the party leadership on questions about pride.',
+    spanish: 'El candidato parlamentario desafía al liderazgo del partido en cuestiones sobre el orgullo.',
+  },
+  {
+    norwegian: 'Stiftelsen hans hjelper foreldreløse og gatebarn gjennom lokalt engasjement i Kenya.',
+    english: 'His foundation helps orphans and street children through local engagement in Kenya.',
+    spanish: 'Su fundación ayuda a huérfanos y niños de la calle a través del compromiso local en Kenia.',
+  },
+  {
+    norwegian:
+      'På  1970-tallet startet han og en lokal TV-stasjon arbeidet med å ta opp og kringkaste TV-programmer av gudstjenester.',
+    english:
+      'In the 1970s, he and a local TV station started working to record and broadcast TV programs of church services.',
+    spanish:
+      'En la década de 1970, él y una estación de televisión local comenzaron a trabajar para grabar y transmitir programas de televisión de servicios religiosos.',
+  },
+  {
+    norwegian: 'Kristne musikkartistar i USA er i «tastaturkrig» etter at skuldingane mot Michael Tait kom fram.',
+    english:
+      'Christian music artists in the USA are in a "keyboard war" after the accusations against Michael Tait came to light.',
+    spanish:
+      'Los artistas de música cristiana en EE.UU. están en una "guerra de teclado" tras las acusaciones contra Michael Tait.',
+  },
+  {
+    norwegian:
+      'Sekt­le­de­ren Ser­gej Torop, som hev­det han var Je­sus gjen­opp­stått, havner nå bak lås og slå i Russ­land.',
+    english: 'Sect leader Sergei Torop, who claimed to be the resurrected Jesus , is now behind bars in Russia.',
+    spanish:
+      'El líder sectario Sergei Torop, que afirmaba ser el Jesús resucitado, ahora está tras las rejas en Rusia.',
+  },
+  {
+    norwegian:
+      'Høyre-leder Erna Solberg snakker om tro, tvil, ekteskap og tilgivelse når hun møter Dagen foran sommerens valgkamp.',
+    english:
+      'Right leader Erna Solberg talks about faith, doubt, marriage and forgiveness when she meets Dagen ahead of the summer election campaign.',
+    spanish:
+      'La líder de la Derecha, Erna Solberg, habla sobre fe, duda, matrimonio y perdón cuando se encuentra con Dagen antes de la campaña electoral de verano.',
+  },
+  {
+    norwegian: 'Nei, jeg er ikke enig i vedtaket.',
+    english: 'No, I do not agree with the decision.',
+    spanish: 'No, no estoy de acuerdo con la decisión.',
+  },
+  {
+    norwegian: 'MINNEORD: «Lavmælt, lyttende og fredsskapende med en lun humor».',
+    english: 'OBITUARY: "Quiet, listening and peace-making with a warm humor."',
+    spanish: 'OBITUARIO: "Tranquilo, escuchador y pacificador con un humor cálido".',
+  },
+  {
+    norwegian: 'Et historisk høyt tall, sier ungdomspastor.',
+    english: 'A historically high number, says youth pastor.',
+    spanish: 'Un número históricamente alto, dice el pastor juvenil.',
+  },
+  {
+    norwegian:
+      'Vi vet at mange kristne lengter etter et trygt og verdibasert sted å møte andre for kjærlighet og relasjoner i troen.',
+    english:
+      'We know that many Christians long for a safe and value-based place to meet others for love and relationships in faith.',
+    spanish:
+      'Sabemos que muchos cristianos anhelan un lugar seguro y basado en valores para conocer a otros por amor y relaciones en la fe.',
+  },
+  {
     norwegian: 'rekordgebyr',
     english: 'record fee',
     spanish: 'tarifa récord',
