@@ -1,7 +1,151 @@
 import type { Question } from '../models/types.ts';
-// must be english to norwegian to spanish
 
 export const words: Question[] = [
+  {
+    norwegian: 'mønstre',
+    english: 'patterns',
+    spanish: 'patrones',
+  },
+  {
+    norwegian: 'livstegn fra',
+    english: 'life lines from',
+    spanish: 'líneas de vida de',
+  },
+  {
+    norwegian: 'å grave i docs',
+    english: 'digging in docs',
+    spanish: 'excavando en docs',
+  },
+  {
+    norwegian: 'optimaliseringsgevinst',
+    english: 'optimization gain',
+    spanish: 'ganancia de optimización',
+  },
+  {
+    norwegian: 'underliggende dataobjekt',
+    english: 'underlying data object',
+    spanish: 'objeto de datos subyacente',
+  },
+  {
+    norwegian: 'for gjenbruk',
+    english: 'for reuse',
+    spanish: 'para reutilizar',
+  },
+  {
+    norwegian: 'som alltid er likt',
+    english: 'always the same',
+    spanish: 'siempre el mismo',
+  },
+  {
+    norwegian: 'tilvalg',
+    english: 'optional',
+    spanish: 'opcional',
+  },
+  {
+    norwegian: 'få gjort dette vanlige mønsteret',
+    english: 'to do the usual pattern',
+    spanish: 'hacer el patrón habitual',
+  },
+  {
+    norwegian: 'for meg blir det litt for magisk',
+    english: 'for me it is a bit too magical',
+    spanish: 'para mí es un poco demasiado mágico',
+  },
+  {
+    norwegian: 'basert på fuzzen rundt det',
+    english: 'based on the fuzz around it',
+    spanish: 'basado en el borrón y raya alrededor de él',
+  },
+  {
+    norwegian: 'derfor gledelig å se',
+    english: 'so it is pleasant to see',
+    spanish: 'así que es agradable ver',
+  },
+  {
+    norwegian: 'litt mer hvilepuls',
+    english: 'a little more rest',
+    spanish: 'un poco más de descanso',
+  },
+  {
+    norwegian: 'mer lovende alternativ',
+    english: 'more praising alternatives',
+    spanish: 'más alternativas alabanzas',
+  },
+  {
+    norwegian: 'et stødig komponentbibliotek',
+    english: 'a stable component library',
+    spanish: 'una biblioteca de componentes estable',
+  },
+  {
+    norwegian: 'raser mot Cursor for uklar prising',
+    english: 'rushing against Cursor for unfair pricing',
+    spanish: 'corriendo contra Cursor por precios injustos',
+  },
+  {
+    norwegian: 'nå ber de om unnskyldning',
+    english: 'now they are asking for forgiveness',
+    spanish: 'ahora están pidiendo perdón',
+  },
+  {
+    norwegian: 'har gått ut og bedt',
+    english: 'has gone out and said',
+    spanish: 'ha salido y dicho',
+  },
+  {
+    norwegian: 'om unnskyldning for dårlig kommunikasjon',
+    english: 'about forgiveness for bad communication',
+    spanish: 'acerca de perdón por mala comunicación',
+  },
+  {
+    norwegian: 'i forbindelse med en prisendring',
+    english: 'in connection with a price change',
+    spanish: 'en conexión con un cambio de precio',
+  },
+  {
+    norwegian: 'har ført til',
+    english: 'has led to',
+    spanish: 'ha llevado a',
+  },
+  {
+    norwegian: 'har måttet betale ekstra',
+    english: 'has had to pay extra',
+    spanish: 'ha tenido que pagar extra',
+  },
+  {
+    norwegian: 'vi erkjenner at vi ikke håndterte',
+    english: 'we recognize that we did not handle',
+    spanish: 'reconocemos que no manejamos',
+  },
+  {
+    norwegian: 'beskyldt dem for såkalt',
+    english: 'excused them for so-called',
+    spanish: 'excusaron a los demás por lo que se llama',
+  },
+  {
+    norwegian: 'baserer seg imidlertid på',
+    english: 'is based on',
+    spanish: 'está basado en',
+  },
+  {
+    norwegian: 'nådde jeg bruksgrensen',
+    english: 'i reached the usage limit',
+    spanish: 'llegué al límite de uso',
+  },
+  {
+    norwegian: 'vil betale tilbake uventede kostnader',
+    english: 'will pay back unexpected costs',
+    spanish: 'pagará por costos inesperados',
+  },
+  {
+    norwegian: 'for å betale hele beløpet tilbake',
+    english: 'to pay the entire amount back',
+    spanish: 'para pagar el monto total de vuelta',
+  },
+  {
+    norwegian: 'hvorav to av dem er frontendere',
+    english: 'whereof two of them are frontenders',
+    spanish: 'donde dos de ellos son frontenders',
+  },
   {
     norwegian:
       'Fredag skrøt Elon Musk av at Grok var forbedra. I helga har den vist at «bedre» ikke betyr at den er blitt mer «nøytral».',
@@ -807,7 +951,7 @@ export const words: Question[] = [
   },
   {
     norwegian: 'Tyvene fant akkurat det de var ute etter i Løren-blokka.',
-    english: 'Tthe thieves found exactly what they were looking for in the Løren block.',
+    english: 'The thieves found exactly what they were looking for in the Løren block.',
     spanish: 'Los ladrones encontraron exactamente lo que buscaban en el bloque de Løren.',
   },
   {
@@ -1144,8 +1288,7 @@ export const words: Question[] = [
       'Los artistas de música cristiana en EE.UU. están en una "guerra de teclado" tras las acusaciones contra Michael Tait.',
   },
   {
-    norwegian:
-      'Sekt­le­de­ren Ser­gej Torop, som hev­det han var Je­sus gjen­opp­stått, havner nå bak lås og slå i Russ­land.',
+    norwegian: 'Sektlederen Sergej Torop, som hevdet han var Jesus gjenoppstått, havner nå bak lås og slå i Russland.',
     english: 'Sect leader Sergei Torop, who claimed to be the resurrected Jesus , is now behind bars in Russia.',
     spanish:
       'El líder sectario Sergei Torop, que afirmaba ser el Jesús resucitado, ahora está tras las rejas en Rusia.',
