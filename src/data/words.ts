@@ -2,6 +2,21 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'den matcher fargen',
+    english: 'it matches the color',
+    spanish: 'coincide con el color',
+  },
+  {
+    norwegian: 'rettelse',
+    english: 'correction',
+    spanish: 'corrección',
+  },
+  {
+    norwegian: 'kjent med',
+    english: 'familiar with',
+    spanish: 'familiarizado con',
+  },
+  {
     norwegian: 'mønstre',
     english: 'patterns',
     spanish: 'patrones',
