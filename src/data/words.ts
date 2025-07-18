@@ -3115,11 +3115,6 @@ export const words: Question[] = [
     spanish: 'corta eso',
   },
   {
-    norwegian: 'din lille grinerunker',
-    english: 'your little crybaby',
-    spanish: 'tu pequeño llorón',
-  },
-  {
     norwegian: 'du får ha lykke til',
     english: 'good luck to you',
     spanish: 'buena suerte para ti',
