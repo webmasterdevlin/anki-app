@@ -4764,7 +4764,6 @@ export const words: Question[] = [
     english: 'then it is a bit like',
     spanish: 'entonces es un poco como',
   },
-
   {
     norwegian: 'her er brusen',
     english: 'here is the soda',
