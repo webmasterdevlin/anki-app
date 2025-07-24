@@ -2,6 +2,806 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'gjenvinningsstasjon',
+    english: 'recycling station',
+    spanish: 'estación de reciclaje',
+  },
+  {
+    norwegian: 'klimaendringene',
+    english: 'climate change',
+    spanish: 'cambio climático',
+  },
+  {
+    norwegian: 'kloden',
+    english: 'the globe',
+    spanish: 'el globo',
+  },
+  {
+    norwegian: 'riktig utnyttelse',
+    english: 'proper utilization',
+    spanish: 'utilización adecuada',
+  },
+  {
+    norwegian: 'utslipp',
+    english: 'emissions',
+    spanish: 'emisiones',
+  },
+  {
+    norwegian: 'bånd',
+    english: 'tape',
+    spanish: 'cinta',
+  },
+  {
+    norwegian: 'utmark',
+    english: 'outland',
+    spanish: 'tierra de pastoreo',
+  },
+  {
+    norwegian: 'å tenne opp lid',
+    english: 'to light a fire',
+    spanish: 'encender un fuego',
+  },
+  {
+    norwegian: 'allemannsretten',
+    english: 'the right to roam',
+    spanish: 'el derecho de acceso',
+  },
+  {
+    norwegian: 'norsk statsborger',
+    english: 'Norwegian citizen',
+    spanish: 'ciudadano noruego',
+  },
+  {
+    norwegian: 'en statsråd',
+    english: 'a minister',
+    spanish: 'un ministro',
+  },
+  {
+    norwegian: 'nasjonalforsamling',
+    english: 'national assembly',
+    spanish: 'asamblea nacional',
+  },
+  {
+    norwegian: 'har begått',
+    english: 'has committed',
+    spanish: 'ha cometido',
+  },
+  {
+    norwegian: 'et grovt lovbrudd',
+    english: 'a serious offense',
+    spanish: 'una infracción grave',
+  },
+  {
+    norwegian: 'innbyggere',
+    english: 'citizens',
+    spanish: 'ciudadanos',
+  },
+  {
+    norwegian: 'et forsvar',
+    english: 'a defense',
+    spanish: 'una defensa',
+  },
+  {
+    norwegian: 'uskyldige',
+    english: 'innocent',
+    spanish: 'inocente',
+  },
+  {
+    norwegian: 'menneskerettighetene',
+    english: 'human rights',
+    spanish: 'derechos humanos',
+  },
+  {
+    norwegian: 'likeverd',
+    english: 'equality',
+    spanish: 'igualdad',
+  },
+  {
+    norwegian: 'svangerskapet',
+    english: 'pregnancy',
+    spanish: 'embarazo',
+  },
+  {
+    norwegian: 'jøder',
+    english: 'jewish',
+    spanish: 'judíos',
+  },
+  {
+    norwegian: 'tropper',
+    english: 'troops',
+    spanish: 'tropas',
+  },
+  {
+    norwegian: 'grunnlov',
+    english: 'constitution',
+    spanish: 'constitución',
+  },
+  {
+    norwegian: 'grådigheten',
+    english: 'greed',
+    spanish: 'codicia',
+  },
+  {
+    norwegian: 'svartedauden',
+    english: 'the Black Death',
+    spanish: 'la Peste Negra',
+  },
+  {
+    norwegian: 'dyktige handlesfolk',
+    english: 'skilled traders',
+    spanish: 'comerciantes hábiles',
+  },
+  {
+    norwegian: 'guder',
+    english: 'gods',
+    spanish: 'dioses',
+  },
+  {
+    norwegian: 'varte',
+    english: 'lasted',
+    spanish: 'duró',
+  },
+  {
+    norwegian: 'sametinget',
+    english: 'the Sami Parliament',
+    spanish: 'el Parlamento Sami',
+  },
+  {
+    norwegian: 'folkedrakt',
+    english: 'folk costume',
+    spanish: 'traje folclórico',
+  },
+  {
+    norwegian: 'opphevet',
+    english: 'abolished',
+    spanish: 'abolido',
+  },
+  {
+    norwegian: 'tilknytning til',
+    english: 'affiliation with',
+    spanish: 'afiliación con',
+  },
+  {
+    norwegian: 'livshendelser',
+    english: 'life events',
+    spanish: 'eventos de vida',
+  },
+  {
+    norwegian: 'levesett',
+    english: 'lifestyle',
+    spanish: 'estilo de vida',
+  },
+  {
+    norwegian: 'frata',
+    english: 'deprive',
+    spanish: 'privar',
+  },
+  {
+    norwegian: 'urimelige',
+    english: 'unreasonable',
+    spanish: 'irrazonable',
+  },
+  {
+    norwegian: 'inngrep',
+    english: 'intervention',
+    spanish: 'intervención',
+  },
+  {
+    norwegian: 'kjønnslemlestelse',
+    english: 'genital mutilation',
+    spanish: 'mutilación genital',
+  },
+  {
+    norwegian: 'inngås',
+    english: 'concluded',
+    spanish: 'concluido',
+  },
+  {
+    norwegian: 'en ektefelle',
+    english: 'a spouse',
+    spanish: 'un cónyuge',
+  },
+  {
+    norwegian: 'ekterskap',
+    english: 'marriage',
+    spanish: 'matrimonio',
+  },
+  {
+    norwegian: 'i nære relasjoner',
+    english: 'in close relationships',
+    spanish: 'en relaciones cercanas',
+  },
+  {
+    norwegian: 'tvangsekteskap',
+    english: 'forced marriage',
+    spanish: 'matrimonio forzado',
+  },
+  {
+    norwegian: 'å bli utsatt',
+    english: 'to be subjected',
+    spanish: 'ser sometido',
+  },
+  {
+    norwegian: 'en privatsak',
+    english: 'a private matter',
+    spanish: 'un asunto privado',
+  },
+  {
+    norwegian: 'i forgårs',
+    english: 'the day before yesterday',
+    spanish: 'anteayer',
+  },
+  {
+    norwegian: 'foregår',
+    english: 'takes place',
+    spanish: 'tiene lugar',
+  },
+  {
+    norwegian: 'tillater',
+    english: 'allows',
+    spanish: 'permite',
+  },
+  {
+    norwegian: 'vold',
+    english: 'violence',
+    spanish: 'violencia',
+  },
+  {
+    norwegian: 'egenkapital',
+    english: 'equity',
+    spanish: 'capital propio',
+  },
+  {
+    norwegian: 'forholde deg til regler',
+    english: 'abide by the rules',
+    spanish: 'cumplir con las reglas',
+  },
+  {
+    norwegian: 'pusse opp',
+    english: 'renovate',
+    spanish: 'renovar',
+  },
+  {
+    norwegian: 'kjennetegner',
+    english: 'characterizes',
+    spanish: 'caracteriza',
+  },
+  {
+    norwegian: 'kjøpesummen',
+    english: 'purchase price',
+    spanish: 'precio de compra',
+  },
+  {
+    norwegian: 'boliger',
+    english: 'housing',
+    spanish: 'viviendas',
+  },
+  {
+    norwegian: 'boligform',
+    english: 'housing form',
+    spanish: 'forma de vivienda',
+  },
+  {
+    norwegian: 'beregnes',
+    english: 'calculated',
+    spanish: 'calculado',
+  },
+  {
+    norwegian: 'avdrag og renter',
+    english: 'repayment and interest',
+    spanish: 'reembolso e intereses',
+  },
+  {
+    norwegian: 'oppfatter',
+    english: 'perceives',
+    spanish: 'percibe',
+  },
+  {
+    norwegian: 'tydelige',
+    english: 'clear',
+    spanish: 'claro',
+  },
+  {
+    norwegian: 'forsterket',
+    english: 'reinforced',
+    spanish: 'reforzado',
+  },
+  {
+    norwegian: 'seksuelt tilrukket',
+    english: 'sexually attracted',
+    spanish: 'sexualmente atraído',
+  },
+  {
+    norwegian: 'en utløsende',
+    english: 'a triggering',
+    spanish: 'un desencadenante',
+  },
+  {
+    norwegian: 'arvelig disponert',
+    english: 'genetically predisposed',
+    spanish: 'genéticamente predispuesto',
+  },
+  {
+    norwegian: 'henvise deg til psykolog',
+    english: 'refer you to a psychologist',
+    spanish: 'referirte a un psicólogo',
+  },
+  {
+    norwegian: 'å utføre',
+    english: 'to perform',
+    spanish: 'realizar',
+  },
+  {
+    norwegian: 'forhindre uønsket',
+    english: 'prevent unwanted',
+    spanish: 'prevenir lo no deseado',
+  },
+  {
+    norwegian: 'tannregulering',
+    english: 'braces',
+    spanish: 'frenillos',
+  },
+  {
+    norwegian: 'melketenner',
+    english: 'baby teeth',
+    spanish: 'dientes de leche',
+  },
+  {
+    norwegian: 'egenandeler',
+    english: 'deductibles',
+    spanish: 'deducibles',
+  },
+  {
+    norwegian: 'smertestillende',
+    english: 'painkillers',
+    spanish: 'analgésicos',
+  },
+  {
+    norwegian: 'tolker',
+    english: 'interpreters',
+    spanish: 'intérpretes',
+  },
+  {
+    norwegian: 'en hudlege',
+    english: 'a dermatologist',
+    spanish: 'un dermatólogo',
+  },
+  {
+    norwegian: 'svangerskapskontroll',
+    english: 'pregnancy check-up',
+    spanish: 'control de embarazo',
+  },
+  {
+    norwegian: 'taushetsplikt',
+    english: 'confidentiality',
+    spanish: 'confidencialidad',
+  },
+  {
+    norwegian: 'poliklinisk',
+    english: 'outpatient',
+    spanish: 'paciente ambulatorio',
+  },
+  {
+    norwegian: 'for å legges inn på sykehus',
+    english: 'to be admitted to the hospital',
+    spanish: 'para ser ingresado en el hospital',
+  },
+  {
+    norwegian: 'innlagt på sykehus',
+    english: 'hospitalized',
+    spanish: 'hospitalizado',
+  },
+  {
+    norwegian: 'et offentlig helsevesen',
+    english: 'a public healthcare system',
+    spanish: 'un sistema de salud pública',
+  },
+  {
+    norwegian: 'utbredt',
+    english: 'widespread',
+    spanish: 'generalizado',
+  },
+  {
+    norwegian: 'vesentlig',
+    english: 'substantial',
+    spanish: 'sustancial',
+  },
+  {
+    norwegian: 'levestandarden',
+    english: 'standard of living',
+    spanish: 'nivel de vida',
+  },
+  {
+    norwegian: 'avstemminger',
+    english: 'votes',
+    spanish: 'votos',
+  },
+  {
+    norwegian: 'får kjennskap til',
+    english: 'gets to know',
+    spanish: 'conoce',
+  },
+  {
+    norwegian: 'underskriftskampanjer',
+    english: 'petition campaigns',
+    spanish: 'campañas de firmas',
+  },
+  {
+    norwegian: 'innbyggerne',
+    english: 'the citizens',
+    spanish: 'los ciudadanos',
+  },
+  {
+    norwegian: 'avtalt',
+    english: 'agreed',
+    spanish: 'acordado',
+  },
+  {
+    norwegian: 'uskreven',
+    english: 'unwritten',
+    spanish: 'no escrito',
+  },
+  {
+    norwegian: 'tilhørighet',
+    english: 'belonging',
+    spanish: 'pertenencia',
+  },
+  {
+    norwegian: 'cheek',
+    english: 'cheek',
+    spanish: 'mejilla',
+  },
+  {
+    norwegian: 'sosiale arenaer',
+    english: 'social arenas',
+    spanish: 'areneras sociales',
+  },
+  {
+    norwegian: 'borettslag',
+    english: 'housing cooperative',
+    spanish: 'cooperativa de vivienda',
+  },
+  {
+    norwegian: 'kåret',
+    english: 'elected',
+    spanish: 'elegido',
+  },
+  {
+    norwegian: 'oppvekst',
+    english: 'upbringing',
+    spanish: 'crianza',
+  },
+  {
+    norwegian: 'kan henvende seg',
+    english: 'can contact',
+    spanish: 'puede contactar',
+  },
+  {
+    norwegian: 'taushetsplikt',
+    english: 'confidentiality',
+    spanish: 'confidencialidad',
+  },
+  {
+    norwegian: 'forvaltningsorgan',
+    english: 'administrative body',
+    spanish: 'órgano administrativo',
+  },
+  {
+    norwegian: 'å oppdra',
+    english: 'to raise',
+    spanish: 'criar',
+  },
+  {
+    norwegian: 'avgjørelser',
+    english: 'decisions',
+    spanish: 'decisiones',
+  },
+  {
+    norwegian: 'myndighetsalderen',
+    english: 'the age of majority',
+    spanish: 'la mayoría de edad',
+  },
+  {
+    norwegian: 'oppdragelsen',
+    english: 'the upbringing',
+    spanish: 'la crianza',
+  },
+  {
+    norwegian: 'uteareal',
+    english: 'outdoor area',
+    spanish: 'área al aire libre',
+  },
+  {
+    norwegian: 'personopplysninger',
+    english: 'personal data',
+    spanish: 'datos personales',
+  },
+  {
+    norwegian: 'personvern',
+    english: 'privacy',
+    spanish: 'privacidad',
+  },
+  {
+    norwegian: 'et kjennetegn',
+    english: 'a characteristic',
+    spanish: 'un rasgo',
+  },
+  {
+    norwegian: 'dømmekraft',
+    english: 'judgment',
+    spanish: 'juicio',
+  },
+  {
+    norwegian: 'opplysningene',
+    english: 'the information',
+    spanish: 'la información',
+  },
+  {
+    norwegian: 'lovpålagt',
+    english: 'legally required',
+    spanish: 'requerido por ley',
+  },
+  {
+    norwegian: 'å lyse ut ledige stillinger',
+    english: 'to announce vacant positions',
+    spanish: 'anunciar puestos vacantes',
+  },
+  {
+    norwegian: 'arbeidsledighet',
+    english: 'unemployment',
+    spanish: 'desempleo',
+  },
+  {
+    norwegian: 'jordbruk',
+    english: 'agriculture',
+    spanish: 'agricultura',
+  },
+  {
+    norwegian: 'næringer',
+    english: 'industries',
+    spanish: 'industrias',
+  },
+  {
+    norwegian: 'straffet',
+    english: 'punished',
+    spanish: 'castigado',
+  },
+  {
+    norwegian: 'svart arbeid',
+    english: 'undeclared work',
+    spanish: 'trabajo no declarado',
+  },
+  {
+    norwegian: 'bruttolønn',
+    english: 'gross salary',
+    spanish: 'salario bruto',
+  },
+  {
+    norwegian: 'en velferdsstat',
+    english: 'a welfare state',
+    spanish: 'un estado de bienestar',
+  },
+  {
+    norwegian: 'trygdeordninger',
+    english: 'social security schemes',
+    spanish: 'esquemas de seguridad social',
+  },
+  {
+    norwegian: 'sykehusopphold',
+    english: 'hospital stay',
+    spanish: 'estancia hospitalaria',
+  },
+  {
+    norwegian: 'velferdsgoder til befolkningen',
+    english: 'welfare benefits to the population',
+    spanish: 'beneficios de bienestar para la población',
+  },
+  {
+    norwegian: 'fylkeskommunen',
+    english: 'the county municipality',
+    spanish: 'el municipio del condado',
+  },
+  {
+    norwegian: 'har plikt',
+    english: 'has an obligation',
+    spanish: 'tiene una obligación',
+  },
+  {
+    norwegian: 'arbeidsmiljøloven',
+    english: 'Working Environment Act',
+    spanish: 'Ley de Medio Ambiente Laboral',
+  },
+  {
+    norwegian: 'en fagroening',
+    english: 'a trade union',
+    spanish: 'un sindicato',
+  },
+  {
+    norwegian: 'tilrettelagt',
+    english: 'adapted',
+    spanish: 'adaptado',
+  },
+  {
+    norwegian: 'verneombud',
+    english: 'safety representative',
+    spanish: 'representante de seguridad',
+  },
+  {
+    norwegian: 'blir ivaretatt',
+    english: 'is taken care of',
+    spanish: 'se cuida',
+  },
+  {
+    norwegian: 'arbeidsgiverne',
+    english: 'the employers',
+    spanish: 'los empleadores',
+  },
+  {
+    norwegian: 'fagforeningenes',
+    english: 'the unions’',
+    spanish: 'de los sindicatos',
+  },
+  {
+    norwegian: 'et fellas',
+    english: 'a common',
+    spanish: 'un común',
+  },
+  {
+    norwegian: 'angis',
+    english: 'is reported',
+    spanish: 'es denunciado',
+  },
+  {
+    norwegian: 'stipend',
+    english: 'scholarship',
+    spanish: 'beca',
+  },
+  {
+    norwegian: 'et fagbrev',
+    english: 'a vocational certificate',
+    spanish: 'un certificado de formación profesional',
+  },
+  {
+    norwegian: 'vedtar',
+    english: 'adopts',
+    spanish: 'aprueba',
+  },
+  {
+    norwegian: 'vedtatt',
+    english: 'adopted',
+    spanish: 'adoptado',
+  },
+  {
+    norwegian: 'motarbeide',
+    english: 'to oppose',
+    spanish: 'oponerse',
+  },
+  {
+    norwegian: 'handler om',
+    english: 'is about',
+    spanish: 'se trata de',
+  },
+  {
+    norwegian: 'personvern',
+    english: 'privacy',
+    spanish: 'privacidad',
+  },
+  {
+    norwegian: 'i forbinelse med',
+    english: 'in connection with',
+    spanish: 'en conexión con',
+  },
+  {
+    norwegian: 'egenandel',
+    english: 'deductible',
+    spanish: 'deducible',
+  },
+  {
+    norwegian: 'kontantstøtte',
+    english: 'cash benefit',
+    spanish: 'beneficio en efectivo',
+  },
+  {
+    norwegian: 'myndighetene',
+    english: 'the authorities',
+    spanish: 'las autoridades',
+  },
+  {
+    norwegian: 'annenhver uke',
+    english: 'every other week',
+    spanish: 'cada dos semanas',
+  },
+  {
+    norwegian: 'gjennomsnitt',
+    english: 'average',
+    spanish: 'promedio',
+  },
+  {
+    norwegian: 'en norsk husholdning',
+    english: 'a Norwegian household',
+    spanish: 'un hogar noruego',
+  },
+  {
+    norwegian: 'troverdigheten',
+    english: 'credibility',
+    spanish: 'credibilidad',
+  },
+  {
+    norwegian: 'plikter',
+    english: 'duties',
+    spanish: 'deberes',
+  },
+  {
+    norwegian: 'evne',
+    english: 'ability',
+    spanish: 'capacidad',
+  },
+  {
+    norwegian: 'lærdommen',
+    english: 'the lesson',
+    spanish: 'la lección',
+  },
+  {
+    norwegian: 'etterlater',
+    english: 'leaves behind',
+    spanish: 'deja atrás',
+  },
+  {
+    norwegian: 'en arve',
+    english: 'an inheritance',
+    spanish: 'una herencia',
+  },
+  {
+    norwegian: 'ukjente',
+    english: 'unknown',
+    spanish: 'desconocido',
+  },
+  {
+    norwegian: 'a threat',
+    english: 'a threat',
+    spanish: 'una amenaza',
+  },
+  {
+    norwegian: 'lidelse',
+    english: 'suffering',
+    spanish: 'sufrimiento',
+  },
+  {
+    norwegian: 'vitenskap',
+    english: 'science',
+    spanish: 'ciencia',
+  },
+  {
+    norwegian: 'oppnåelig',
+    english: 'achievable',
+    spanish: 'alcanzable',
+  },
+  {
+    norwegian: 'ønskelig',
+    english: 'desirable',
+    spanish: 'deseable',
+  },
+  {
+    norwegian: 'verdsetter',
+    english: 'appreciate',
+    spanish: 'apreciar',
+  },
+  {
+    norwegian: 'misunnelse',
+    english: 'envy',
+    spanish: 'envidia',
+  },
+  {
+    norwegian: 'uhelbredelig syke',
+    english: 'incurable diseases',
+    spanish: 'enfermedades incurables',
+  },
+  {
+    norwegian: 'uetisk',
+    english: 'unethical',
+    spanish: 'no ético',
+  },
+  {
     norwegian: 'den matcher fargen',
     english: 'it matches the color',
     spanish: 'coincide con el color',
