@@ -2827,6 +2827,346 @@ export const words: Question[] = [
     spanish: 'características',
   },
   {
+    norwegian: 'favorittferiemål',
+    english: 'favorite vacation destination',
+    spanish: 'destino de vacaciones favorito',
+  },
+  {
+    norwegian: 'innendørs',
+    english: 'indoor',
+    spanish: 'interior',
+  },
+  {
+    norwegian: 'viktig å bevare',
+    english: 'important to preserve',
+    spanish: 'importante preservar',
+  },
+  {
+    norwegian: 'for å redusere avfall i hverdagen',
+    english: 'to reduce waste in everyday life',
+    spanish: 'para reducir los residuos en la vida cotidiana',
+  },
+  {
+    norwegian: 'å beskytte',
+    english: 'to protect',
+    spanish: 'proteger',
+  },
+  {
+    norwegian: 'innvandring',
+    english: 'immigration',
+    spanish: 'inmigración',
+  },
+  {
+    norwegian: 'minneverdig',
+    english: 'memorable',
+    spanish: 'memorable',
+  },
+  {
+    norwegian: 'hjemmeundervisning',
+    english: 'homeschooling',
+    spanish: 'educación en casa',
+  },
+  {
+    norwegian: 'gode søvnvaner',
+    english: 'good sleep habits',
+    spanish: 'buenos hábitos de sueño',
+  },
+  {
+    norwegian: 'kampanjer',
+    english: 'campaigns',
+    spanish: 'campañas',
+  },
+  {
+    norwegian: 'økoturisme',
+    english: 'ecotourism',
+    spanish: 'ecoturismo',
+  },
+  {
+    norwegian: 'du forbinder',
+    english: 'you associate',
+    spanish: 'asocias',
+  },
+  {
+    norwegian: 'kosthold',
+    english: 'diet',
+    spanish: 'dieta',
+  },
+  {
+    norwegian: 'hva ville du gjort hvis',
+    english: 'what would you do if',
+    spanish: 'qué harías si',
+  },
+  {
+    norwegian: 'jeg mener',
+    english: 'I believe',
+    spanish: 'creo que',
+  },
+  {
+    norwegian: 'etter min mening',
+    english: 'in my opinion',
+    spanish: 'en mi opinión',
+  },
+  {
+    norwegian: 'for eksempel',
+    english: 'for example',
+    spanish: 'por ejemplo',
+  },
+  {
+    norwegian: 'kan du utdype',
+    english: 'can you elaborate',
+    spanish: 'puedes elaborar',
+  },
+  {
+    norwegian: 'ferdigheten',
+    english: 'the skill',
+    spanish: 'la habilidad',
+  },
+  {
+    norwegian: 'en ferdighet',
+    english: 'a skill',
+    spanish: 'una habilidad',
+  },
+  {
+    norwegian: 'forurensning',
+    english: 'pollution',
+    spanish: 'contaminación',
+  },
+  {
+    norwegian: 'fika/kaffepause',
+    english: 'coffee break',
+    spanish: 'pausa para el café',
+  },
+  {
+    norwegian: 'krangler',
+    english: 'arguments',
+    spanish: 'argumentos',
+  },
+  {
+    norwegian: 'beundrer',
+    english: 'admire',
+    spanish: 'admiro',
+  },
+  {
+    norwegian: 'foretrekke',
+    english: 'prefer',
+    spanish: 'prefiero',
+  },
+  {
+    norwegian: 'fremmedspråk',
+    english: 'foreign language',
+    spanish: 'idioma extranjero',
+  },
+  {
+    norwegian: 'begrunn',
+    english: 'justify',
+    spanish: 'justificar',
+  },
+  {
+    norwegian: 'overraskelsesfest',
+    english: 'surprise party',
+    spanish: 'fiesta sorpresa',
+  },
+  {
+    norwegian: 'forberedelser',
+    english: 'preparations',
+    spanish: 'preparativos',
+  },
+  {
+    norwegian: 'plastforbruket',
+    english: 'plastic consumption',
+    spanish: 'consumo de plástico',
+  },
+  {
+    norwegian: 'fritidsaktiviteter',
+    english: 'leisure activities',
+    spanish: 'actividades de ocio',
+  },
+  {
+    norwegian: 'kultur vernes mer',
+    english: 'culture is more protected',
+    spanish: 'la cultura está más protegida',
+  },
+  {
+    norwegian: 'forkortes',
+    english: 'is shortened',
+    spanish: 'se acorta',
+  },
+  {
+    norwegian: 'lykke',
+    english: 'happiness',
+    spanish: 'felicidad',
+  },
+  {
+    norwegian: 'å underbygge',
+    english: 'to substantiate',
+    spanish: 'subsanar',
+  },
+  {
+    norwegian: 'kunstscene',
+    english: 'art scene',
+    spanish: 'escena artística',
+  },
+  {
+    norwegian: 'godt rustet',
+    english: 'well-equipped',
+    spanish: 'bien equipado',
+  },
+  {
+    norwegian: 'deltar du',
+    english: 'do you participate',
+    spanish: 'participas',
+  },
+  {
+    norwegian: 'været humøret',
+    english: 'the weather affects the mood',
+    spanish: 'el clima afecta el estado de ánimo',
+  },
+  {
+    norwegian: 'en forespørsel',
+    english: 'a request',
+    spanish: 'una solicitud',
+  },
+  {
+    norwegian: 'kontra',
+    english: 'versus',
+    spanish: 'contra',
+  },
+  {
+    norwegian: 'ifølge',
+    english: 'according to',
+    spanish: 'según',
+  },
+  {
+    norwegian: 'for det første',
+    english: 'firstly',
+    spanish: 'en primer lugar',
+  },
+  {
+    norwegian: 'for det andre',
+    english: 'secondly',
+    spanish: 'en segundo lugar',
+  },
+  {
+    norwegian: 'først og fremst',
+    english: 'first and foremost',
+    spanish: 'primero y ante todo',
+  },
+  {
+    norwegian: 'på den ene siden',
+    english: 'on the one hand',
+    spanish: 'por un lado',
+  },
+  {
+    norwegian: 'på den andre siden',
+    english: 'on the other hand',
+    spanish: 'por otro lado',
+  },
+  {
+    norwegian: 'gitt at',
+    english: 'given that',
+    spanish: 'dado que',
+  },
+  {
+    norwegian: 'til sammenligning',
+    english: 'in comparison',
+    spanish: 'en comparación',
+  },
+  {
+    norwegian: 'så lenge som',
+    english: 'as long as',
+    spanish: 'mientras que',
+  },
+  {
+    norwegian: 'begge deler',
+    english: 'both',
+    spanish: 'ambos',
+  },
+  {
+    norwegian: 'enten det eller',
+    english: 'either this or that',
+    spanish: 'o esto o aquello',
+  },
+  {
+    norwegian: 'helt siden',
+    english: 'ever since',
+    spanish: 'desde entonces',
+  },
+  {
+    norwegian: 'over tid',
+    english: 'over time',
+    spanish: 'con el tiempo',
+  },
+  {
+    norwegian: 'på lang sikt',
+    english: 'in the long term',
+    spanish: 'a largo plazo',
+  },
+  {
+    norwegian: 'til tross for',
+    english: 'despite',
+    spanish: 'a pesar de',
+  },
+  {
+    norwegian: 'om mulig',
+    english: 'if possible',
+    spanish: 'si es posible',
+  },
+  {
+    norwegian: 'tross alt',
+    english: 'after all',
+    spanish: 'después de todo',
+  },
+  {
+    norwegian: 'i mellomtiden',
+    english: 'in the meantime',
+    spanish: 'mientras tanto',
+  },
+  {
+    norwegian: 'tvert imot',
+    english: 'on the contrary',
+    spanish: 'por el contrario',
+  },
+  {
+    norwegian: 'særlig',
+    english: 'especially',
+    spanish: 'especialmente',
+  },
+  {
+    norwegian: 'vanligvis',
+    english: 'usually',
+    spanish: 'normalmente',
+  },
+  {
+    norwegian: 'generelt',
+    english: 'generally',
+    spanish: 'generalmente',
+  },
+  {
+    norwegian: 'generelt',
+    english: 'generally',
+    spanish: 'generalmente',
+  },
+  {
+    norwegian: 'i løpet av',
+    english: 'during',
+    spanish: 'durante',
+  },
+  {
+    norwegian: 'i stedet for',
+    english: 'instead of',
+    spanish: 'en lugar de',
+  },
+  {
+    norwegian: 'i forhold til',
+    english: 'in relation to',
+    spanish: 'en relación con',
+  },
+  {
+    norwegian: 'nemlig',
+    english: 'namely',
+    spanish: 'es decir',
+  },
+  {
     norwegian: 'den matcher fargen',
     english: 'it matches the color',
     spanish: 'coincide con el color',
