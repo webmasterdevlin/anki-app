@@ -802,6 +802,786 @@ export const words: Question[] = [
     spanish: 'no ético',
   },
   {
+    norwegian: 'kan utfordre',
+    english: 'can challenge',
+    spanish: 'puede desafiar',
+  },
+  {
+    norwegian: 'våre oppfatninger',
+    english: 'our perceptions',
+    spanish: 'nuestras percepciones',
+  },
+  {
+    norwegian: 'avstraffelse',
+    english: 'punishment',
+    spanish: 'castigo',
+  },
+  {
+    norwegian: 'avstraffelse',
+    english: 'punishment',
+    spanish: 'castigo',
+  },
+  {
+    norwegian: 'dødsstraff',
+    english: 'death penalty',
+    spanish: 'pena de muerte',
+  },
+  {
+    norwegian: 'et begrep',
+    english: 'a concept',
+    spanish: 'un concepto',
+  },
+  {
+    norwegian: 'å videreføre',
+    english: 'to pass on',
+    spanish: 'transmitir',
+  },
+  {
+    norwegian: 'anser',
+    english: 'considers',
+    spanish: 'considera',
+  },
+  {
+    norwegian: 'tilfeldigheter',
+    english: 'coincidences',
+    spanish: 'coincidencias',
+  },
+  {
+    norwegian: 'oppnår',
+    english: 'achieves',
+    spanish: 'logra',
+  },
+  {
+    norwegian: 'rettferdighet',
+    english: 'justice',
+    spanish: 'justicia',
+  },
+  {
+    norwegian: 'begrepet',
+    english: 'the concept',
+    spanish: 'el concepto',
+  },
+  {
+    norwegian: 'blant eldre',
+    english: 'among the elderly',
+    spanish: 'entre los ancianos',
+  },
+  {
+    norwegian: 'å bekjempe ensomhet',
+    english: 'to combat loneliness',
+    spanish: 'combatir la soledad',
+  },
+  {
+    norwegian: 'velvære',
+    english: 'well-being',
+    spanish: 'bienestar',
+  },
+  {
+    norwegian: 'å fremme lykke',
+    english: 'to promote happiness',
+    spanish: 'promover la felicidad',
+  },
+  {
+    norwegian: 'rettet mot',
+    english: 'aimed at',
+    spanish: 'dirigido a',
+  },
+  {
+    norwegian: 'å navngi',
+    english: 'to name',
+    spanish: 'nombrar',
+  },
+  {
+    norwegian: 'evnen',
+    english: 'the ability',
+    spanish: 'la capacidad',
+  },
+  {
+    norwegian: 'innført',
+    english: 'introduced',
+    spanish: 'introducido',
+  },
+  {
+    norwegian: 'en fiktiv karakter',
+    english: 'a fictional character',
+    spanish: 'un personaje ficticio',
+  },
+  {
+    norwegian: 'en tidskapsel',
+    english: 'a time capsule',
+    spanish: 'una cápsula del tiempo',
+  },
+  {
+    norwegian: 'en oppfinner',
+    english: 'an inventor',
+    spanish: 'un inventor',
+  },
+  {
+    norwegian: 'skilsmisse',
+    english: 'divorce',
+    spanish: 'divorcio',
+  },
+  {
+    norwegian: 'kjønnsroller',
+    english: 'gender roles',
+    spanish: 'roles de género',
+  },
+  {
+    norwegian: 'et parforhold',
+    english: 'a relationship',
+    spanish: 'una relación',
+  },
+  {
+    norwegian: 'norskhet',
+    english: 'Norwegian identity',
+    spanish: 'identidad noruega',
+  },
+  {
+    norwegian: 'å markere',
+    english: 'to mark',
+    spanish: 'marcar',
+  },
+  {
+    norwegian: 'urfolks',
+    english: 'indigenous peoples',
+    spanish: 'pueblos indígenas',
+  },
+  {
+    norwegian: 'en kunstform',
+    english: 'an art form',
+    spanish: 'una forma de arte',
+  },
+  {
+    norwegian: 'ekteskap og samlivsformer',
+    english: 'marriage and cohabitation forms',
+    spanish: 'formas de matrimonio y convivencia',
+  },
+  {
+    norwegian: 'synet',
+    english: 'the view',
+    spanish: 'la vista',
+  },
+  {
+    norwegian: 'formidle kulturelle verdier',
+    english: 'to convey cultural values',
+    spanish: 'transmitir valores culturales',
+  },
+  {
+    norwegian: 'byplanlegging',
+    english: 'innsatsen',
+    spanish: 'planificación urbana',
+  },
+  {
+    norwegian: 'fremme',
+    english: 'promote',
+    spanish: 'promover',
+  },
+  {
+    norwegian: 'befolkningen',
+    english: 'the population',
+    spanish: 'la población',
+  },
+  {
+    norwegian: 'gagner alle',
+    english: 'benefits everyone',
+    spanish: 'beneficia a todos',
+  },
+  {
+    norwegian: 'bistand',
+    english: 'assistance',
+    spanish: 'asistencia',
+  },
+  {
+    norwegian: 'forbruker',
+    english: 'consumer',
+    spanish: 'consumidor',
+  },
+  {
+    norwegian: 'vekst',
+    english: 'growth',
+    spanish: 'crecimiento',
+  },
+  {
+    norwegian: 'befolkningens',
+    english: 'the population’s',
+    spanish: 'de la población',
+  },
+  {
+    norwegian: 'vitenskap og forskning',
+    english: 'science and research',
+    spanish: 'ciencia e investigación',
+  },
+  {
+    norwegian: 'bærekraftsmål',
+    english: 'sustainable development goals',
+    spanish: 'objetivos de desarrollo sostenible',
+  },
+  {
+    norwegian: 'oppmerksomhet',
+    english: 'attention',
+    spanish: 'atención',
+  },
+  {
+    norwegian: 'studieløp',
+    english: 'study path',
+    spanish: 'trayectoria de estudio',
+  },
+  {
+    norwegian: 'rådet du ville gitt',
+    english: 'the advice you would give',
+    spanish: 'el consejo que darías',
+  },
+  {
+    norwegian: 'anseelse',
+    english: 'reputation',
+    spanish: 'reputación',
+  },
+  {
+    norwegian: 'make ferdigheter',
+    english: 'make skills',
+    spanish: 'hacer habilidades',
+  },
+  {
+    norwegian: 'undervurdert',
+    english: 'underrated',
+    spanish: 'subestimado',
+  },
+  {
+    norwegian: 'utnytte',
+    english: 'utilize',
+    spanish: 'utilizar',
+  },
+  {
+    norwegian: 'fagforeninger',
+    english: 'trade unions',
+    spanish: 'sindicatos',
+  },
+  {
+    norwegian: 'arbeidsmengde',
+    english: 'workload',
+    spanish: 'carga de trabajo',
+  },
+  {
+    norwegian: 'studiefelt',
+    english: 'field of study',
+    spanish: 'campo de estudio',
+  },
+  {
+    norwegian: 'spontanitet',
+    english: 'spontaneity',
+    spanish: 'espontaneidad',
+  },
+  {
+    norwegian: 'å kunne tilgi andre',
+    english: 'to be able to forgive others',
+    spanish: 'poder perdonar a los demás',
+  },
+  {
+    norwegian: 'over ufallet av noe',
+    english: 'over the outcome of something',
+    spanish: 'sobre el resultado de algo',
+  },
+  {
+    norwegian: 'oppfatning',
+    english: 'perception',
+    spanish: 'percepción',
+  },
+  {
+    norwegian: 'idrettsutøvere',
+    english: 'athletes',
+    spanish: 'atletas',
+  },
+  {
+    norwegian: 'rareste',
+    english: 'strangest',
+    spanish: 'más extraño',
+  },
+  {
+    norwegian: 'å utforske',
+    english: 'to explore',
+    spanish: 'explorar',
+  },
+  {
+    norwegian: 'medfølelse',
+    english: 'compassion',
+    spanish: 'compasión',
+  },
+  {
+    norwegian: 'etterstrebe',
+    english: 'to strive for',
+    spanish: 'esforzarse por',
+  },
+  {
+    norwegian: 'er vitne',
+    english: 'witnesses',
+    spanish: 'testigos',
+  },
+  {
+    norwegian: 'en beslutning',
+    english: 'a decision',
+    spanish: 'una decisión',
+  },
+  {
+    norwegian: 'sprer usanne rykter',
+    english: 'spreads false rumors',
+    spanish: 'difunde rumores falsos',
+  },
+  {
+    norwegian: 'pinlig',
+    english: 'embarrassing',
+    spanish: 'embarazoso',
+  },
+  {
+    norwegian: 'nysgjerrighet',
+    english: 'curiosity',
+    spanish: 'curiosidad',
+  },
+  {
+    norwegian: 'utsagnet',
+    english: 'the statement',
+    spanish: 'la declaración',
+  },
+  {
+    norwegian: 'nytenkning',
+    english: 'innovation',
+    spanish: 'innovación',
+  },
+  {
+    norwegian: 'foreslått',
+    english: 'proposed',
+    spanish: 'propuesto',
+  },
+  {
+    norwegian: 'forsøpling',
+    english: 'littering',
+    spanish: 'basura',
+  },
+  {
+    norwegian: 'følsomme temaer',
+    english: 'sensitive topics',
+    spanish: 'temas sensibles',
+  },
+  {
+    norwegian: 'beundringsverdig',
+    english: 'admirable',
+    spanish: 'admirable',
+  },
+  {
+    norwegian: 'landegrenser',
+    english: 'national borders',
+    spanish: 'fronteras nacionales',
+  },
+  {
+    norwegian: 'fjernarbeid',
+    english: 'remote work',
+    spanish: 'trabajo remoto',
+  },
+  {
+    norwegian: 'ivareta',
+    english: 'to take care of',
+    spanish: 'cuidar',
+  },
+  {
+    norwegian: 'i krisetider',
+    english: 'in times of crisis',
+    spanish: 'en tiempos de crisis',
+  },
+  {
+    norwegian: 'til økt levealder',
+    english: 'to increased life expectancy',
+    spanish: 'a una mayor esperanza de vida',
+  },
+  {
+    norwegian: 'fremme',
+    english: 'promote',
+    spanish: 'promover',
+  },
+  {
+    norwegian: 'fredsbevarende',
+    english: 'peacekeeping',
+    spanish: 'mantenimiento de la paz',
+  },
+  {
+    norwegian: 'uventet forandring',
+    english: 'unexpected change',
+    spanish: 'cambio inesperado',
+  },
+  {
+    norwegian: 'evne',
+    english: 'ability',
+    spanish: 'capacidad',
+  },
+  {
+    norwegian: 'å opprettholde',
+    english: 'to maintain',
+    spanish: 'mantener',
+  },
+  {
+    norwegian: 'som lønte seg',
+    english: 'that paid off',
+    spanish: 'que valió la pena',
+  },
+  {
+    norwegian: 'uløst mysterium',
+    english: 'unsolved mystery',
+    spanish: 'misterio sin resolver',
+  },
+  {
+    norwegian: 'ulike tilnærminger',
+    english: 'different approaches',
+    spanish: 'enfoques diferentes',
+  },
+  {
+    norwegian: 'myndigheter',
+    english: 'authorities',
+    spanish: 'autoridades',
+  },
+  {
+    norwegian: 'tilliten',
+    english: 'the trust',
+    spanish: 'la confianza',
+  },
+  {
+    norwegian: 'deltakelse',
+    english: 'participation',
+    spanish: 'participación',
+  },
+  {
+    norwegian: 'medborgerskap',
+    english: 'citizenship',
+    spanish: 'ciudadanía',
+  },
+  {
+    norwegian: 'nåværende',
+    english: 'current',
+    spanish: 'actual',
+  },
+  {
+    norwegian: 'oppnådd',
+    english: 'achieved',
+    spanish: 'logrado',
+  },
+  {
+    norwegian: 'tilegne seg',
+    english: 'to acquire',
+    spanish: 'adquirir',
+  },
+  {
+    norwegian: 'bevissthet',
+    english: 'awareness',
+    spanish: 'conciencia',
+  },
+  {
+    norwegian: 'betror seg',
+    english: 'confides',
+    spanish: 'confía',
+  },
+  {
+    norwegian: 'rettferdig',
+    english: 'fair',
+    spanish: 'justo',
+  },
+  {
+    norwegian: 'miljøvern',
+    english: 'environmental protection',
+    spanish: 'protección ambiental',
+  },
+  {
+    norwegian: 'vekst utover',
+    english: 'growth beyond',
+    spanish: 'crecimiento más allá',
+  },
+  {
+    norwegian: 'tilstand',
+    english: 'condition',
+    spanish: 'condición',
+  },
+  {
+    norwegian: 'gledene',
+    english: 'the joys',
+    spanish: 'las alegrías',
+  },
+  {
+    norwegian: 'dyrevelferd',
+    english: 'animal welfare',
+    spanish: 'bienestar animal',
+  },
+  {
+    norwegian: 'bevisstheten',
+    english: 'awareness',
+    spanish: 'conciencia',
+  },
+  {
+    norwegian: 'bærekraftig forbruk',
+    english: 'sustainable consumption',
+    spanish: 'consumo sostenible',
+  },
+  {
+    norwegian: 'å forme',
+    english: 'to shape',
+    spanish: 'formar',
+  },
+  {
+    norwegian: 'hatefulle ytringer',
+    english: 'hate speech',
+    spanish: 'discurso de odio',
+  },
+  {
+    norwegian: 'ytringsfrihet',
+    english: 'freedom of expression',
+    spanish: 'libertad de expresión',
+  },
+  {
+    norwegian: 'enkeltborgere',
+    english: 'individual citizens',
+    spanish: 'ciudadanos individuales',
+  },
+  {
+    norwegian: 'heltidsarbeid',
+    english: 'full-time work',
+    spanish: 'trabajo a tiempo completo',
+  },
+  {
+    norwegian: 'deltidsarbeid',
+    english: 'part-time work',
+    spanish: 'trabajo a tiempo parcial',
+  },
+  {
+    norwegian: 'oppstå',
+    english: 'to arise',
+    spanish: 'surgir',
+  },
+  {
+    norwegian: 'borgerlønn',
+    english: 'universal basic income',
+    spanish: 'ingreso básico universal',
+  },
+  {
+    norwegian: 'å føle tilhørighet',
+    english: 'to feel a sense of belonging',
+    spanish: 'sentir un sentido de pertenencia',
+  },
+  {
+    norwegian: 'angrer',
+    english: 'regrets',
+    spanish: 'arrepentimientos',
+  },
+  {
+    norwegian: 'å anse',
+    english: 'to consider',
+    spanish: 'considerar',
+  },
+  {
+    norwegian: 'å lykkes',
+    english: 'to succeed',
+    spanish: 'tener éxito',
+  },
+  {
+    norwegian: 'eventyrlige',
+    english: 'adventurous',
+    spanish: 'aventurero',
+  },
+  {
+    norwegian: 'mentorordninger',
+    english: 'mentorship programs',
+    spanish: 'programas de mentoría',
+  },
+  {
+    norwegian: 'kjennetegner',
+    english: 'characterizes',
+    spanish: 'caracteriza',
+  },
+  {
+    norwegian: 'verdensborger',
+    english: 'global citizen',
+    spanish: 'ciudadano global',
+  },
+  {
+    norwegian: 'sammenkomster',
+    english: 'gatherings',
+    spanish: 'reuniones',
+  },
+  {
+    norwegian: 'urørt',
+    english: 'untouched',
+    spanish: 'intacto',
+  },
+  {
+    norwegian: 'et syn',
+    english: 'a view',
+    spanish: 'una vista',
+  },
+  {
+    norwegian: 'å utdype',
+    english: 'to elaborate',
+    spanish: 'elaborar',
+  },
+  {
+    norwegian: 'gjestfrihet',
+    english: 'hospitality',
+    spanish: 'hospitalidad',
+  },
+  {
+    norwegian: 'svakeste',
+    english: 'the weakest',
+    spanish: 'los más débiles',
+  },
+  {
+    norwegian: 'innad',
+    english: 'internally',
+    spanish: 'internamente',
+  },
+  {
+    norwegian: 'ordforråd',
+    english: 'vocabulary',
+    spanish: 'vocabulario',
+  },
+  {
+    norwegian: 'helsevesenet',
+    english: 'healthcare system',
+    spanish: 'sistema de salud',
+  },
+  {
+    norwegian: 'grøntområder',
+    english: 'green spaces',
+    spanish: 'espacios verdes',
+  },
+  {
+    norwegian: 'utdypende',
+    english: 'elaborative',
+    spanish: 'elaborativo',
+  },
+  {
+    norwegian: 'om betydningen',
+    english: 'about the significance',
+    spanish: 'sobre la importancia',
+  },
+  {
+    norwegian: 'skikker',
+    english: 'customs',
+    spanish: 'costumbres',
+  },
+  {
+    norwegian: 'lærdommen',
+    english: 'the lesson',
+    spanish: 'la lección',
+  },
+  {
+    norwegian: 'unntat',
+    english: 'except',
+    spanish: 'excepto',
+  },
+  {
+    norwegian: 'unntak',
+    english: 'exception',
+    spanish: 'excepción',
+  },
+  {
+    norwegian: 'en forespørsel',
+    english: 'a request',
+    spanish: 'una solicitud',
+  },
+  {
+    norwegian: 'innebærer',
+    english: 'involves',
+    spanish: 'implica',
+  },
+  {
+    norwegian: 'begrunn svaret ditt',
+    english: 'justify your answer',
+    spanish: 'justifica tu respuesta',
+  },
+  {
+    norwegian: 'høflig',
+    english: 'polite',
+    spanish: 'educado',
+  },
+  {
+    norwegian: 'motetrender',
+    english: 'fashion trends',
+    spanish: 'tendencias de moda',
+  },
+  {
+    norwegian: 'avlyse en avtale',
+    english: 'cancel an appointment',
+    spanish: 'cancelar una cita',
+  },
+  {
+    norwegian: 'transportmiddel',
+    english: 'means of transport',
+    spanish: 'medio de transporte',
+  },
+  {
+    norwegian: 'et ønske oppfylt',
+    english: 'a wish fulfilled',
+    spanish: 'un deseo cumplido',
+  },
+  {
+    norwegian: 'støy',
+    english: 'noise',
+    spanish: 'ruido',
+  },
+  {
+    norwegian: 'forebygges',
+    english: 'prevented',
+    spanish: 'prevenir',
+  },
+  {
+    norwegian: 'en vellykket fremtid',
+    english: 'a successful future',
+    spanish: 'un futuro exitoso',
+  },
+  {
+    norwegian: 'personvern på nettet',
+    english: 'online privacy',
+    spanish: 'privacidad en línea',
+  },
+  {
+    norwegian: 'innvirkning',
+    english: 'impact',
+    spanish: 'impacto',
+  },
+  {
+    norwegian: 'nåværende jobb',
+    english: 'current job',
+    spanish: 'trabajo actual',
+  },
+  {
+    norwegian: 'bransje',
+    english: 'industry',
+    spanish: 'industria',
+  },
+  {
+    norwegian: 'barndomsminne',
+    english: 'childhood memory',
+    spanish: 'recuerdo de la infancia',
+  },
+  {
+    norwegian: 'førskommende fredag',
+    english: 'upcoming Friday',
+    spanish: 'próximo viernes',
+  },
+  {
+    norwegian:'dåp',
+    english: 'baptism',
+    spanish: 'bautizo',
+  },
+  {
+    norwegian:'årstid',
+    english: 'season',
+    spanish: 'estación',
+  },
+  {
+    norwegian:'kostnadsfritt',
+    english: 'free of charge',
+    spanish: 'sin costo',
+  },
+  {
+    norwegian:'vits',
+    english: 'joke',
+    spanish: 'broma',
+  },
+  {
     norwegian: 'den matcher fargen',
     english: 'it matches the color',
     spanish: 'coincide con el color',
