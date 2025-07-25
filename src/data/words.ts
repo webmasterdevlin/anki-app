@@ -1562,24 +1562,1269 @@ export const words: Question[] = [
     spanish: 'próximo viernes',
   },
   {
-    norwegian:'dåp',
+    norwegian: 'dåp',
     english: 'baptism',
     spanish: 'bautizo',
   },
   {
-    norwegian:'årstid',
+    norwegian: 'årstid',
     english: 'season',
     spanish: 'estación',
   },
   {
-    norwegian:'kostnadsfritt',
+    norwegian: 'kostnadsfritt',
     english: 'free of charge',
     spanish: 'sin costo',
   },
   {
-    norwegian:'vits',
+    norwegian: 'vits',
     english: 'joke',
     spanish: 'broma',
+  },
+  {
+    norwegian: 'opptatt av',
+    english: 'concerned with',
+    spanish: 'preocupado por',
+  },
+  {
+    norwegian: 'mening',
+    english: 'opinion',
+    spanish: 'opinión',
+  },
+  {
+    norwegian: 'påstand',
+    english: 'statement',
+    spanish: 'afirmación',
+  },
+  {
+    norwegian: 'på landet',
+    english: 'in the countryside',
+    spanish: 'en el campo',
+  },
+  {
+    norwegian: 'bør',
+    english: 'should',
+    spanish: 'debería',
+  },
+  {
+    norwegian: 'nøye',
+    english: 'carefully',
+    spanish: 'cuidadosamente',
+  },
+  {
+    norwegian: 'å ta ting som de kommer',
+    english: 'to take things as they come',
+    spanish: 'tomar las cosas como vienen',
+  },
+  {
+    norwegian: 'fast',
+    english: 'fixed',
+    spanish: 'fijo',
+  },
+  {
+    norwegian: 'du man',
+    english: 'you should',
+    spanish: 'deberías',
+  },
+  {
+    norwegian: 'hva som er',
+    english: 'what is',
+    spanish: 'lo que es',
+  },
+  {
+    norwegian: 'voksen alder',
+    english: 'adulthood',
+    spanish: 'edad adulta',
+  },
+  {
+    norwegian: 'punktlig',
+    english: 'punctual',
+    spanish: 'puntual',
+  },
+  {
+    norwegian: 'høytider',
+    english: 'holidays',
+    spanish: 'días festivos',
+  },
+  {
+    norwegian: 'hva som gjør',
+    english: 'what makes',
+    spanish: 'lo que hace',
+  },
+  {
+    norwegian: 'å spille en rolle',
+    english: 'to play a role',
+    spanish: 'jugar un papel',
+  },
+  {
+    norwegian: 'kjede',
+    english: 'bore',
+    spanish: 'aburrir',
+  },
+  {
+    norwegian: 'yrkesopplæring',
+    english: 'vocational training',
+    spanish: 'formación profesional',
+  },
+  {
+    norwegian: 'å mestre',
+    english: 'to master',
+    spanish: 'dominar',
+  },
+  {
+    norwegian: 'fellesskapet',
+    english: 'the community',
+    spanish: 'la comunidad',
+  },
+  {
+    norwegian: 'lekser',
+    english: 'homework',
+    spanish: 'tarea',
+  },
+  {
+    norwegian: 'legge til rette for',
+    english: 'to facilitate',
+    spanish: 'facilitar',
+  },
+  {
+    norwegian: 'ansvar',
+    english: 'responsibility',
+    spanish: 'responsabilidad',
+  },
+  {
+    norwegian: 'flertall',
+    english: 'plural',
+    spanish: 'plural',
+  },
+  {
+    norwegian: 'underholdning',
+    english: 'entertainment',
+    spanish: 'entretenimiento',
+  },
+  {
+    norwegian: 'myndighetene',
+    english: 'the authorities',
+    spanish: 'las autoridades',
+  },
+  {
+    norwegian: 'foretrekker',
+    english: 'prefer',
+    spanish: 'preferir',
+  },
+  {
+    norwegian: 'forventer',
+    english: 'expect',
+    spanish: 'esperar',
+  },
+  {
+    norwegian: 'forvirrende',
+    english: 'confusing',
+    spanish: 'confuso',
+  },
+  {
+    norwegian: 'skifte klær',
+    english: 'change clothes',
+    spanish: 'cambiarse de ropa',
+  },
+  {
+    norwegian: 'jeg forventer',
+    english: 'I expect',
+    spanish: 'yo espero',
+  },
+  {
+    norwegian: 'ettertid',
+    english: 'afterwards',
+    spanish: 'después',
+  },
+  {
+    norwegian: 'fremskritt',
+    english: 'progress',
+    spanish: 'progreso',
+  },
+  {
+    norwegian: 'bærekraft',
+    english: 'sustainability',
+    spanish: 'sostenibilidad',
+  },
+  {
+    norwegian: 'står overfor',
+    english: 'face',
+    spanish: 'enfrentar',
+  },
+  {
+    norwegian: 'holdninger',
+    english: 'attitudes',
+    spanish: 'actitudes',
+  },
+  {
+    norwegian: 'kom overens med',
+    english: 'come to terms with',
+    spanish: 'llegar a un acuerdo con',
+  },
+  {
+    norwegian: 'velferdssystem',
+    english: 'welfare system',
+    spanish: 'sistema de bienestar',
+  },
+  {
+    norwegian: 'friluft',
+    english: 'outdoors',
+    spanish: 'aire libre',
+  },
+  {
+    norwegian: 'uventet',
+    english: 'unexpected',
+    spanish: 'inesperado',
+  },
+  {
+    norwegian: 'oppstå',
+    english: 'arise',
+    spanish: 'surgir',
+  },
+  {
+    norwegian: 'hvordan vurdere du',
+    english: 'how do you assess',
+    spanish: 'cómo evalúas',
+  },
+  {
+    norwegian: 'å tilpasse deg',
+    english: 'to adapt',
+    spanish: 'adaptarse',
+  },
+  {
+    norwegian: 'å bevare',
+    english: 'to preserve',
+    spanish: 'preservar',
+  },
+  {
+    norwegian: 'i en stadig',
+    english: 'in an ever',
+    spanish: 'en un mundo cada vez más',
+  },
+  {
+    norwegian: 'virkelig stolt',
+    english: 'really proud',
+    spanish: 'realmente orgulloso',
+  },
+  {
+    norwegian: 'tilnærming til',
+    english: 'approach to',
+    spanish: 'enfoque hacia',
+  },
+  {
+    norwegian: 'klimaendringer',
+    english: 'climate change',
+    spanish: 'cambio climático',
+  },
+  {
+    norwegian: 'uenigheter',
+    english: 'disagreements',
+    spanish: 'desacuerdos',
+  },
+  {
+    norwegian: 'en historisk hendelse',
+    english: 'a historical event',
+    spanish: 'un evento histórico',
+  },
+  {
+    norwegian: 'jeg la merke til',
+    english: 'I noticed',
+    spanish: 'me di cuenta de',
+  },
+  {
+    norwegian: 'oppnådde',
+    english: 'achieved',
+    spanish: 'logrado',
+  },
+  {
+    norwegian: 'fornybar energi',
+    english: 'renewable energy',
+    spanish: 'energía renovable',
+  },
+  {
+    norwegian: 'forholdet',
+    english: 'the relationship',
+    spanish: 'la relación',
+  },
+  {
+    norwegian: 'overbevise',
+    english: 'convince',
+    spanish: 'convencer',
+  },
+  {
+    norwegian: 'til livslang',
+    english: 'to lifelong',
+    spanish: 'a la educación continua',
+  },
+  {
+    norwegian: 'velvære',
+    english: 'well-being',
+    spanish: 'bienestar',
+  },
+  {
+    norwegian: 'å takle',
+    english: 'to cope with',
+    spanish: 'enfrentar',
+  },
+  {
+    norwegian: 'taklet',
+    english: 'coped with',
+    spanish: 'enfrentado',
+  },
+  {
+    norwegian: 'takler',
+    english: 'coping with',
+    spanish: 'enfrentando',
+  },
+  {
+    norwegian: 'etiske utfordringene',
+    english: 'ethical challenges',
+    spanish: 'desafíos éticos',
+  },
+  {
+    norwegian: 'matopplevelse',
+    english: 'food experience',
+    spanish: 'experiencia gastronómica',
+  },
+  {
+    norwegian: 'inntrykk',
+    english: 'impression',
+    spanish: 'impresión',
+  },
+  {
+    norwegian: 'knyttet',
+    english: 'linked',
+    spanish: 'vinculado',
+  },
+  {
+    norwegian: 'forstod',
+    english: 'understood',
+    spanish: 'entendido',
+  },
+  {
+    norwegian: 'de siste tiårene',
+    english: 'the last decades',
+    spanish: 'las últimas décadas',
+  },
+  {
+    norwegian: 'av noe uventet',
+    english: 'of something unexpected',
+    spanish: 'de algo inesperado',
+  },
+  {
+    norwegian: 'en sterk forbindelse',
+    english: 'a strong connection',
+    spanish: 'una conexión fuerte',
+  },
+  {
+    norwegian: 'levekostnader',
+    english: 'cost of living',
+    spanish: 'costo de vida',
+  },
+  {
+    norwegian: 'et standpunkt',
+    english: 'a stance',
+    spanish: 'una postura',
+  },
+  {
+    norwegian: 'av fornybar',
+    english: 'of renewable',
+    spanish: 'de energía renovable',
+  },
+  {
+    norwegian: 'mangfold',
+    english: 'diversity',
+    spanish: 'diversidad',
+  },
+  {
+    norwegian: 'eldreomsorg',
+    english: 'elderly care',
+    spanish: 'cuidado de ancianos',
+  },
+  {
+    norwegian: 'andres forventninger',
+    english: 'others’ expectations',
+    spanish: 'expectativas de los demás',
+  },
+  {
+    norwegian: 'å bevare urfolkskulturer',
+    english: 'to preserve indigenous cultures',
+    spanish: 'preservar culturas indígenas',
+  },
+  {
+    norwegian: 'forverre læringsprosessen',
+    english: 'to worsen the learning process',
+    spanish: 'empeorar el proceso de aprendizaje',
+  },
+  {
+    norwegian: 'erstattes med',
+    english: 'replaced with',
+    spanish: 'reemplazado por',
+  },
+  {
+    norwegian: 'undervisningsmetoder',
+    english: 'teaching methods',
+    spanish: 'métodos de enseñanza',
+  },
+  {
+    norwegian: 'utdanningsministre',
+    english: 'education ministers',
+    spanish: 'ministros de educación',
+  },
+  {
+    norwegian: 'egenskapene en leder',
+    english: 'the qualities of a leader',
+    spanish: 'las cualidades de un líder',
+  },
+  {
+    norwegian: 'en øvre aldersgrense',
+    english: 'an upper age limit',
+    spanish: 'un límite de edad superior',
+  },
+  {
+    norwegian: 'i visse yrker',
+    english: 'in certain professions',
+    spanish: 'en ciertas profesiones',
+  },
+  {
+    norwegian: 'å bli selvstendig',
+    english: 'to become independent',
+    spanish: 'volverse independiente',
+  },
+  {
+    norwegian: 'næringsdrivende fremfor ansatt',
+    english: 'entrepreneur rather than employee',
+    spanish: 'emprendedor en lugar de empleado',
+  },
+  {
+    norwegian: 'enten du liker det eller ikke',
+    english: 'whether you like it or not',
+    spanish: 'te guste o no',
+  },
+  {
+    norwegian: 'sosial ulikhet',
+    english: 'social inequality',
+    spanish: 'desigualdad social',
+  },
+  {
+    norwegian: 'fremme likestilling i',
+    english: 'promote equality in',
+    spanish: 'promover la igualdad en',
+  },
+  {
+    norwegian: 'som regjeringen',
+    english: 'as the government',
+    spanish: 'como el gobierno',
+  },
+  {
+    norwegian: 'helsevesenet',
+    english: 'healthcare system',
+    spanish: 'sistema de salud',
+  },
+  {
+    norwegian: 'forebygge psykiske',
+    english: 'prevent mental',
+    spanish: 'prevenir problemas de salud mental',
+  },
+  {
+    norwegian: 'i befolkningen',
+    english: 'in the population',
+    spanish: 'en la población',
+  },
+  {
+    norwegian: 'til å trene regelmessig',
+    english: 'to exercise regularly',
+    spanish: 'hacer ejercicio regularmente',
+  },
+  {
+    norwegian: 'ensomhet folks',
+    english: 'loneliness of people',
+    spanish: 'soledad de las personas',
+  },
+  {
+    norwegian: 'tiltakene',
+    english: 'the measures',
+    spanish: 'las medidas',
+  },
+  {
+    norwegian: 'for å bekjempe klimaendringer',
+    english: 'to combat climate change',
+    spanish: 'para combatir el cambio climático',
+  },
+  {
+    norwegian: 'for å nå klimamål',
+    english: 'to achieve climate goals',
+    spanish: 'para alcanzar los objetivos climáticos',
+  },
+  {
+    norwegian: 'bærekraftig',
+    english: 'sustainable',
+    spanish: 'sostenible',
+  },
+  {
+    norwegian: 'plastforurensning',
+    english: 'plastic pollution',
+    spanish: 'contaminación por plásticos',
+  },
+  {
+    norwegian: 'det innføres strengere',
+    english: 'stricter regulations are introduced',
+    spanish: 'se introducen regulaciones más estrictas',
+  },
+  {
+    norwegian: 'øke bevisstheten',
+    english: 'to raise awareness',
+    spanish: 'aumentar la conciencia',
+  },
+  {
+    norwegian: 'for å bli karbonnøytralt',
+    english: 'to become carbon neutral',
+    spanish: 'para volverse carbono neutral',
+  },
+  {
+    norwegian: 'flyktninger',
+    english: 'refugees',
+    spanish: 'refugiados',
+  },
+  {
+    norwegian: 'utenrikspolitikk',
+    english: 'foreign policy',
+    spanish: 'política exterior',
+  },
+  {
+    norwegian: 'økende polarisering i politikken',
+    english: 'increasing polarization in politics',
+    spanish: 'polarización creciente en la política',
+  },
+  {
+    norwegian: 'stemmerettsalderen senkes',
+    english: 'voting age is lowered',
+    spanish: 'la edad de voto se reduce',
+  },
+  {
+    norwegian: 'et flertallsparti-system',
+    english: 'a majority party system',
+    spanish: 'un sistema de partido mayoritario',
+  },
+  {
+    norwegian: 'skattesystemet',
+    english: 'the tax system',
+    spanish: 'el sistema fiscal',
+  },
+  {
+    norwegian: 'strengere',
+    english: 'stricter',
+    spanish: 'más estricto',
+  },
+  {
+    norwegian: 'av avhengighet',
+    english: 'of addiction',
+    spanish: 'de la adicción',
+  },
+  {
+    norwegian: 'innvirkning',
+    english: 'impact',
+    spanish: 'impacto',
+  },
+  {
+    norwegian: 'rettighetene',
+    english: 'the rights',
+    spanish: 'los derechos',
+  },
+  {
+    norwegian: 'vinning',
+    english: 'gain',
+    spanish: 'ganancia',
+  },
+  {
+    norwegian: 'rettferdighet',
+    english: 'justice',
+    spanish: 'justicia',
+  },
+  {
+    norwegian: 'parforhold',
+    english: 'partnerships',
+    spanish: 'relaciones de pareja',
+  },
+  {
+    norwegian: 'mellommenneskelige',
+    english: 'interpersonal',
+    spanish: 'interpersonales',
+  },
+  {
+    norwegian: 'på tvers',
+    english: 'across',
+    spanish: 'a través de',
+  },
+  {
+    norwegian: 'å opprettholde',
+    english: 'to maintain',
+    spanish: 'mantener',
+  },
+  {
+    norwegian: 'verdenssyn',
+    english: 'worldview',
+    spanish: 'cosmovisión',
+  },
+  {
+    norwegian: 'et forbrukersamfunn',
+    english: 'a consumer society',
+    spanish: 'una sociedad de consumo',
+  },
+  {
+    norwegian: 'oppfatning',
+    english: 'perception',
+    spanish: 'percepción',
+  },
+  {
+    norwegian: 'miljøvern',
+    english: 'environmental protection',
+    spanish: 'protección ambiental',
+  },
+  {
+    norwegian: 'bærekraftig',
+    english: 'sustainable',
+    spanish: 'sostenible',
+  },
+  {
+    norwegian: 'ungdommer',
+    english: 'youth',
+    spanish: 'juventud',
+  },
+  {
+    norwegian: 'likestilling or likhet',
+    english: 'equality or equity',
+    spanish: 'igualdad o equidad',
+  },
+  {
+    norwegian: 'fattigdom',
+    english: 'poverty',
+    spanish: 'pobreza',
+  },
+  {
+    norwegian: 'boligmarked',
+    english: 'housing market',
+    spanish: 'mercado de vivienda',
+  },
+  {
+    norwegian: 'entreprenørskap',
+    english: 'entrepreneurship',
+    spanish: 'emprendimiento',
+  },
+  {
+    norwegian: 'mediesituasjon',
+    english: 'media situation',
+    spanish: 'situación de los medios',
+  },
+  {
+    norwegian: 'fremme',
+    english: 'promote',
+    spanish: 'promover',
+  },
+  {
+    norwegian: 'kunstnere',
+    english: 'artists',
+    spanish: 'artistas',
+  },
+  {
+    norwegian: 'samfunnsansvar',
+    english: 'corporate social responsibility',
+    spanish: 'responsabilidad social corporativa',
+  },
+  {
+    norwegian: 'miljøbevissthet',
+    english: 'environmental awareness',
+    spanish: 'conciencia ambiental',
+  },
+  {
+    norwegian: 'rettferdighet',
+    english: 'fairness',
+    spanish: 'justicia',
+  },
+  {
+    norwegian: 'arbeidsmarkedspolitikk',
+    english: 'labor market policy',
+    spanish: 'política del mercado laboral',
+  },
+  {
+    norwegian: 'helsevesen',
+    english: 'healthcare system',
+    spanish: 'sistema de salud',
+  },
+  {
+    norwegian: 'samfunnsengasjement',
+    english: 'community engagement',
+    spanish: 'compromiso comunitario',
+  },
+  {
+    norwegian: 'forståelse',
+    english: 'understanding',
+    spanish: 'comprensión',
+  },
+  {
+    norwegian: 'kulturell utveksling',
+    english: 'cultural exchange',
+    spanish: 'intercambio cultural',
+  },
+  {
+    norwegian: 'velferdssystemet',
+    english: 'the welfare system',
+    spanish: 'el sistema de bienestar',
+  },
+  {
+    norwegian: 'hatprat',
+    english: 'hate speech',
+    spanish: 'discurso de odio',
+  },
+  {
+    norwegian: 'ytringsfrihet',
+    english: 'freedom of expression',
+    spanish: 'libertad de expresión',
+  },
+  {
+    norwegian: 'dugnadsånden',
+    english: 'the spirit of volunteerism',
+    spanish: 'el espíritu del voluntariado',
+  },
+  {
+    norwegian: 'teoretisk',
+    english: 'theoretical',
+    spanish: 'teórico',
+  },
+  {
+    norwegian: 'å bekjempe diskriminering',
+    english: 'to combat discrimination',
+    spanish: 'combatir la discriminación',
+  },
+  {
+    norwegian: 'å bekjempe klimaendringer',
+    english: 'to combat climate change',
+    spanish: 'combatir el cambio climático',
+  },
+  {
+    norwegian: 'elbilpolitikken',
+    english: 'electric car policy',
+    spanish: 'política de coches eléctricos',
+  },
+  {
+    norwegian: 'et fossilfritt',
+    english: 'a fossil-free',
+    spanish: 'un mundo libre de fósiles',
+  },
+  {
+    norwegian: 'å fly innenlands',
+    english: 'to fly domestically',
+    spanish: 'volar dentro del país',
+  },
+  {
+    norwegian: 'lidelser',
+    english: 'sufferings',
+    spanish: 'sufrimientos',
+  },
+  {
+    norwegian: 'kroppspress',
+    english: 'body pressure',
+    spanish: 'presión corporal',
+  },
+  {
+    norwegian: 'behandlingsformer',
+    english: 'treatment methods',
+    spanish: 'métodos de tratamiento',
+  },
+  {
+    norwegian: 'dødshjelp',
+    english: 'euthanasia',
+    spanish: 'eutanasia',
+  },
+  {
+    norwegian: 'beslutningsprosesser',
+    english: 'decision-making processes',
+    spanish: 'procesos de toma de decisiones',
+  },
+  {
+    norwegian: 'overvåkning',
+    english: 'surveillance',
+    spanish: 'vigilancia',
+  },
+  {
+    norwegian: 'personvern',
+    english: 'privacy',
+    spanish: 'privacidad',
+  },
+  {
+    norwegian: 'få tilgang til',
+    english: 'to access',
+    spanish: 'acceder a',
+  },
+  {
+    norwegian: 'smarttelefoner',
+    english: 'smartphones',
+    spanish: 'teléfonos inteligentes',
+  },
+  {
+    norwegian: 'skjermbruk',
+    english: 'screen time',
+    spanish: 'tiempo de pantalla',
+  },
+  {
+    norwegian: 'undervisningen',
+    english: 'the teaching',
+    spanish: 'la enseñanza',
+  },
+  {
+    norwegian: 'fjernundervisning',
+    english: 'remote teaching',
+    spanish: 'enseñanza a distancia',
+  },
+  {
+    norwegian: 'å bryte loven',
+    english: 'to break the law',
+    spanish: 'romper la ley',
+  },
+  {
+    norwegian: 'går utover ens egen trygghet',
+    english: 'goes beyond one’s own safety',
+    spanish: 'va más allá de la propia seguridad',
+  },
+  {
+    norwegian: 'rike mennesker ha plikt',
+    english: 'rich people have a duty',
+    spanish: 'las personas ricas tienen el deber',
+  },
+  {
+    norwegian: 'dødsstraff',
+    english: 'death penalty',
+    spanish: 'pena de muerte',
+  },
+  {
+    norwegian: 'dyr i forskning',
+    english: 'animals in research',
+    spanish: 'animales en la investigación',
+  },
+  {
+    norwegian: 'variere',
+    english: 'to vary',
+    spanish: 'variar',
+  },
+  {
+    norwegian: 'oppveksten',
+    english: 'upbringing',
+    spanish: 'crianza',
+  },
+  {
+    norwegian: 'å ha tydelige mål',
+    english: 'to have clear goals',
+    spanish: 'tener metas claras',
+  },
+  {
+    norwegian: 'motgang',
+    english: 'adversity/hardship',
+    spanish: 'adversidad',
+  },
+  {
+    norwegian: 'å utfordre seg selv',
+    english: 'to challenge oneself',
+    spanish: 'desafiarse a uno mismo',
+  },
+  {
+    norwegian: 'innføres',
+    english: 'introduced',
+    spanish: 'introducido',
+  },
+  {
+    norwegian: 'borgerlønn',
+    english: 'universal basic income',
+    spanish: 'ingreso básico universal',
+  },
+  {
+    norwegian: 'høflig',
+    english: 'polite',
+    spanish: 'educado',
+  },
+  {
+    norwegian: 'skjebne',
+    english: 'destiny',
+    spanish: 'destino',
+  },
+  {
+    norwegian: 'en tilfeldighet',
+    english: 'a coincidence',
+    spanish: 'una coincidencia',
+  },
+  {
+    norwegian: 'tilfeldigheter',
+    english: 'coincidences',
+    spanish: 'coincidencias',
+  },
+  {
+    norwegian: 'forandre',
+    english: 'to change',
+    spanish: 'cambiar',
+  },
+  {
+    norwegian: 'værnes',
+    english: 'to protect',
+    spanish: 'proteger',
+  },
+  {
+    norwegian: 'samfunnsendringer',
+    english: 'social changes',
+    spanish: 'cambios sociales',
+  },
+  {
+    norwegian: 'arbeidsmarked',
+    english: 'labor market',
+    spanish: 'mercado laboral',
+  },
+  {
+    norwegian: 'å beskytte privatlivet',
+    english: 'to protect privacy',
+    spanish: 'proteger la privacidad',
+  },
+  {
+    norwegian: 'avhengighet',
+    english: 'addiction',
+    spanish: 'adicción',
+  },
+  {
+    norwegian: 'håndtere',
+    english: 'to handle',
+    spanish: 'manejar',
+  },
+  {
+    norwegian: 'straff',
+    english: 'punishment',
+    spanish: 'castigo',
+  },
+  {
+    norwegian: 'lokalsamfunn',
+    english: 'local communities',
+    spanish: 'comunidades locales',
+  },
+  {
+    norwegian: 'et kunstverk',
+    english: 'a piece of art',
+    spanish: 'una obra de arte',
+  },
+  {
+    norwegian: 'tidsalderen',
+    english: 'the era',
+    spanish: 'la era',
+  },
+  {
+    norwegian: 'underbygge',
+    english: 'to substantiate',
+    spanish: 'subsanar',
+  },
+  {
+    norwegian: 'synspunkt',
+    english: 'point of view',
+    spanish: 'punto de vista',
+  },
+  {
+    norwegian: 'avgjørende',
+    english: 'decisive',
+    spanish: 'decisivo',
+  },
+  {
+    norwegian: 'forestill',
+    english: 'imagine',
+    spanish: 'imaginar',
+  },
+  {
+    norwegian: 'å fremme',
+    english: 'to promote',
+    spanish: 'promover',
+  },
+  {
+    norwegian: 'har utviklet',
+    english: 'has developed',
+    spanish: 'ha desarrollado',
+  },
+  {
+    norwegian: 'samfunnsstrukturen',
+    english: 'the social structure',
+    spanish: 'la estructura social',
+  },
+  {
+    norwegian: 'anta at du blir bedt',
+    english: 'assume that you are asked',
+    spanish: 'supón que te piden',
+  },
+  {
+    norwegian: 'tenk deg at',
+    english: 'imagine that',
+    spanish: 'imagina que',
+  },
+  {
+    norwegian: 'ambisiøst',
+    english: 'ambitious',
+    spanish: 'ambicioso',
+  },
+  {
+    norwegian: 'tilsynelatende',
+    english: 'apparently',
+    spanish: 'aparentemente',
+  },
+  {
+    norwegian: 'bærekraftig forbruk',
+    english: 'sustainable consumption',
+    spanish: 'consumo sostenible',
+  },
+  {
+    norwegian: 'er svært kostbar',
+    english: 'is very expensive',
+    spanish: 'es muy costoso',
+  },
+  {
+    norwegian: 'en negativ innvirkning',
+    english: 'a negative impact',
+    spanish: 'un impacto negativo',
+  },
+  {
+    norwegian: 'vil føre til',
+    english: 'will lead to',
+    spanish: 'llevará a',
+  },
+  {
+    norwegian: 'medføre',
+    english: 'to result in',
+    spanish: 'resultar en',
+  },
+  {
+    norwegian: 'i hvilken grad',
+    english: 'to what extent',
+    spanish: 'en qué medida',
+  },
+  {
+    norwegian: 'markedsføring',
+    english: 'marketing',
+    spanish: 'mercadotecnia',
+  },
+  {
+    norwegian: 'et velfungerende demokrati',
+    english: 'a well-functioning democracy',
+    spanish: 'una democracia bien funcionando',
+  },
+  {
+    norwegian: 'en sterk velferdsstat',
+    english: 'a strong welfare state',
+    spanish: 'un estado de bienestar fuerte',
+  },
+  {
+    norwegian: 'likestillingsarbeidet',
+    english: 'the equality work',
+    spanish: 'el trabajo de igualdad',
+  },
+  {
+    norwegian: 'en globalisert verden',
+    english: 'a globalized world',
+    spanish: 'un mundo globalizado',
+  },
+  {
+    norwegian: 'friluftsliv',
+    english: 'outdoor life',
+    spanish: 'vida al aire libre',
+  },
+  {
+    norwegian: 'integrert',
+    english: 'integrated',
+    spanish: 'integrado',
+  },
+  {
+    norwegian: 'velferdsstaten',
+    english: 'the welfare state',
+    spanish: 'el estado de bienestar',
+  },
+  {
+    norwegian: 'skattenivået',
+    english: 'the tax level',
+    spanish: 'el nivel de impuestos',
+  },
+  {
+    norwegian: 'barneoppdragelse',
+    english: 'parenting',
+    spanish: 'crianza de los hijos',
+  },
+  {
+    norwegian: 'miljøtiltak',
+    english: 'environmental measures',
+    spanish: 'medidas ambientales',
+  },
+  {
+    norwegian: 'ytterligere',
+    english: 'further',
+    spanish: 'más',
+  },
+  {
+    norwegian: 'fotavtrykk',
+    english: 'footprint',
+    spanish: 'huella',
+  },
+  {
+    norwegian: 'utenlandske',
+    english: 'foreign',
+    spanish: 'extranjero',
+  },
+  {
+    norwegian: 'foreldrepermisjonsordningene',
+    english: 'parental leave schemes',
+    spanish: 'esquemas de licencia parental',
+  },
+  {
+    norwegian: 'skiller',
+    english: 'distinguishes',
+    spanish: 'distingue',
+  },
+  {
+    norwegian: 'utlendinger',
+    english: 'foreigners',
+    spanish: 'extranjeros',
+  },
+  {
+    norwegian: 'langsiktige planer',
+    english: 'long-term plans',
+    spanish: 'planes a largo plazo',
+  },
+  {
+    norwegian: 'fredsmekling',
+    english: 'peace mediation',
+    spanish: 'mediación de paz',
+  },
+  {
+    norwegian: 'konfliktløsning',
+    english: 'conflict resolution',
+    spanish: 'resolución de conflictos',
+  },
+  {
+    norwegian: 'klimasamarbeid',
+    english: 'climate cooperation',
+    spanish: 'cooperación climática',
+  },
+  {
+    norwegian: 'flyktningkriser',
+    english: 'refugee crises',
+    spanish: 'crisis de refugiados',
+  },
+  {
+    norwegian: 'dagligtale',
+    english: 'everyday language',
+    spanish: 'lenguaje cotidiano',
+  },
+  {
+    norwegian: 'prege det norske',
+    english: 'shape the Norwegian',
+    spanish: 'dar forma a la sociedad noruega',
+  },
+  {
+    norwegian: 'hensyn',
+    english: 'consideration',
+    spanish: 'consideración',
+  },
+  {
+    norwegian: 'tilhørighet',
+    english: 'belonging',
+    spanish: 'pertenencia',
+  },
+  {
+    norwegian: 'byområder',
+    english: 'urban areas',
+    spanish: 'áreas urbanas',
+  },
+  {
+    norwegian: 'fraværsgrensen',
+    english: 'absence limit',
+    spanish: 'límite de ausencias',
+  },
+  {
+    norwegian: 'nabolaget',
+    english: 'the neighborhood',
+    spanish: 'el vecindario',
+  },
+  {
+    norwegian: 'fasiliteter',
+    english: 'facilities',
+    spanish: 'instalaciones',
+  },
+  {
+    norwegian: 'har du bodd',
+    english: 'have you lived',
+    spanish: 'has vivido',
+  },
+  {
+    norwegian: 'på nåværende adresse',
+    english: 'at your current address',
+    spanish: 'en tu dirección actual',
+  },
+  {
+    norwegian: 'matvaner',
+    english: 'eating habits',
+    spanish: 'hábitos alimenticios',
+  },
+  {
+    norwegian: 'helsevesenet',
+    english: 'healthcare system',
+    spanish: 'sistema de salud',
+  },
+  {
+    norwegian: 'kostholdsvaner',
+    english: 'dietary habits',
+    spanish: 'hábitos dietéticos',
+  },
+  {
+    norwegian: 'kulturforskjeller',
+    english: 'cultural differences',
+    spanish: 'diferencias culturales',
+  },
+  {
+    norwegian: 'sammenhenger',
+    english: 'connections',
+    spanish: 'conexiones',
+  },
+  {
+    norwegian: 'anledninger',
+    english: 'occasions',
+    spanish: 'ocasiones',
+  },
+  {
+    norwegian: 'foreninger',
+    english: 'associations',
+    spanish: 'asociaciones',
+  },
+  {
+    norwegian: 'samfunnsengasjement',
+    english: 'community engagement',
+    spanish: 'compromiso comunitario',
+  },
+  {
+    norwegian: 'kollektivtilbudet',
+    english: 'public transport services',
+    spanish: 'servicios de transporte público',
+  },
+  {
+    norwegian: 'miljøutfordringer',
+    english: 'environmental challenges',
+    spanish: 'desafíos ambientales',
+  },
+  {
+    norwegian: 'norskkunnskapene',
+    english: 'Norwegian language skills',
+    spanish: 'habilidades en el idioma noruego',
+  },
+  {
+    norwegian: 'på lang sikt',
+    english: 'in the long term',
+    spanish: 'a largo plazo',
+  },
+  {
+    norwegian: 'til fremover',
+    english: 'to the future',
+    spanish: 'hacia el futuro',
+  },
+  {
+    norwegian: 'funksjoner',
+    english: 'features',
+    spanish: 'características',
   },
   {
     norwegian: 'den matcher fargen',
