@@ -2,6 +2,111 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian:'underholdning',
+    english: 'entertainment',
+    spanish: 'entretenimiento',
+  },
+  {
+    norwegian:'folkeeventyr',
+    english: 'folk tales',
+    spanish: 'cuentos populares',
+  },
+  {
+    norwegian:'eventyr som læringsverktøy',
+    english: 'fairy tales as a learning tool',
+    spanish: 'los cuentos de hadas como herramienta de aprendizaje',
+  },
+  {
+    norwegian:'Diskuter rollen til sagn i historieformidling',
+    english: 'Discuss the role of legends in storytelling',
+    spanish: 'Discute el papel de las leyendas en la narración de historias',
+  },
+  {
+    norwegian:'favorittfolkeeventyr',
+    english: 'favorite folk tale',
+    spanish: 'cuento popular favorito',
+  },
+  {
+    norwegian:'om moderne tolkninger',
+    english: 'about modern interpretations',
+    spanish: 'sobre interpretaciones modernas',
+  },
+  {
+    norwegian:'en eventyrfigur',
+    english: 'a fairy tale character',
+    spanish: 'un personaje de cuento de hadas',
+  },
+  {
+    norwegian:'om folketro',
+    english: 'about folklore',
+    spanish: 'sobre el folclore',
+  },
+  {
+    norwegian:'virkelighet',
+    english: 'reality',
+    spanish: 'realidad',
+  },
+  {
+    norwegian:'en norsk dikter',
+    english: 'a Norwegian poet',
+    spanish: 'un poeta noruego',
+  },
+  {
+    norwegian:'bokmesser',
+    english: 'book fairs',
+    spanish: 'ferias del libro',
+  },
+  {
+    norwegian:'krimbøker',
+    english: 'crime novels',
+    spanish: 'novelas de crimen',
+  },
+  {
+    norwegian:'et forfatterintervju',
+    english: 'an author interview',
+    spanish: 'una entrevista con un autor',
+  },
+  {
+    norwegian:'leselister',
+    english: 'reading lists',
+    spanish: 'listas de lectura',
+  },
+  {
+    norwegian:'lesevaner',
+    english: 'reading habits',
+    spanish: 'hábitos de lectura',
+  },
+  {
+    norwegian:'en latterlig situasjon',
+    english: 'a ridiculous situation',
+    spanish: 'una situación ridícula',
+  },
+  {
+    norwegian:'vitser',
+    english: 'jokes',
+    spanish: 'chistes',
+  },
+  {
+    norwegian:'latterterapi',
+    english: 'laughter therapy',
+    spanish: 'terapia de la risa',
+  },
+  {
+    norwegian:'urbant landbruk',
+    english: 'urban farming',
+    spanish: 'agricultura urbana',
+  },
+  {
+    norwegian:'en hagefeil',
+    english: 'a gardening mistake',
+    spanish: 'un error de jardinería',
+  },
+  {
+    norwegian:"invasjonsarter",
+    english: 'invasive species',
+    spanish: 'especies invasoras',
+  },
+  {
     norwegian: 'innflytelse',
     english: 'influence',
     spanish: 'influencia',
