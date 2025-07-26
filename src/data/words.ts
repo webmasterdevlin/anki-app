@@ -2,6 +2,1531 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'innflytelse',
+    english: 'influence',
+    spanish: 'influencia',
+  },
+  {
+    norwegian: 'miljøvern',
+    english: 'environmental protection',
+    spanish: 'protección ambiental',
+  },
+  {
+    norwegian: 'begrunn',
+    english: 'reason',
+    spanish: 'razón',
+  },
+  {
+    norwegian: 'innvirkning',
+    english: 'impact',
+    spanish: 'impacto',
+  },
+  {
+    norwegian: 'hvordan holder du seg',
+    english: 'how do you stay',
+    spanish: 'cómo te mantienes',
+  },
+  {
+    norwegian: 'hendelse',
+    english: 'event',
+    spanish: 'evento',
+  },
+  {
+    norwegian: 'likestilling',
+    english: 'equality',
+    spanish: 'igualdad',
+  },
+  {
+    norwegian: 'skolevesen',
+    english: 'education system',
+    spanish: 'sistema educativo',
+  },
+  {
+    norwegian: 'overvunnet',
+    english: 'overcome',
+    spanish: 'superado',
+  },
+  {
+    norwegian: 'hvordan feirer du',
+    english: 'how do you celebrate',
+    spanish: 'cómo celebras',
+  },
+  {
+    norwegian: 'innvandringspolitikk',
+    english: 'immigration policy',
+    spanish: 'política de inmigración',
+  },
+  {
+    norwegian: 'forestelling',
+    english: 'presentation',
+    spanish: 'presentación',
+  },
+  {
+    norwegian: 'hvordan håndterer du',
+    english: 'how do you handle',
+    spanish: 'cómo manejas',
+  },
+  {
+    norwegian: 'friluftsliv',
+    english: 'outdoor life',
+    spanish: 'vida al aire libre',
+  },
+  {
+    norwegian: 'begivenhet',
+    english: 'event',
+    spanish: 'evento',
+  },
+  {
+    norwegian: 'betydning',
+    english: 'meaning',
+    spanish: 'significado',
+  },
+  {
+    norwegian: 'vennskapshistorie',
+    english: 'friendship story',
+    spanish: 'historia de amistad',
+  },
+  {
+    norwegian: 'normer',
+    english: 'norms',
+    spanish: 'normas',
+  },
+  {
+    norwegian: 'bærekraftig mote',
+    english: 'sustainable fashion',
+    spanish: 'moda sostenible',
+  },
+  {
+    norwegian: 'favorittidrettslag',
+    english: 'favorite sports team',
+    spanish: 'equipo deportivo favorito',
+  },
+  {
+    norwegian: 'hvordan planlegger du',
+    english: 'how do you plan',
+    spanish: 'cómo planeas',
+  },
+  {
+    norwegian: 'en mislykket opplevelse',
+    english: 'a failed experience',
+    spanish: 'una experiencia fallida',
+  },
+  {
+    norwegian: 'viktigheten',
+    english: 'the importance',
+    spanish: 'la importancia',
+  },
+  {
+    norwegian: 'ideelle hjem',
+    english: 'ideal home',
+    spanish: 'hogar ideal',
+  },
+  {
+    norwegian: 'dyreparker',
+    english: 'zoos',
+    spanish: 'zoológicos',
+  },
+  {
+    norwegian: 'hvordan håndterer du',
+    english: 'how do you handle',
+    spanish: 'cómo manejas',
+  },
+  {
+    norwegian: 'kunstner du beundrer',
+    english: 'artist you admire',
+    spanish: 'artista que admiras',
+  },
+  {
+    norwegian: 'forbruksvaner',
+    english: 'consumption habits',
+    spanish: 'hábitos de consumo',
+  },
+  {
+    norwegian: 'streamingtjenester',
+    english: 'streaming services',
+    spanish: 'servicios de streaming',
+  },
+  {
+    norwegian: 'støtter',
+    english: 'support',
+    spanish: 'apoyo',
+  },
+  {
+    norwegian: 'jobbintervjuopplevelse',
+    english: 'job interview experience',
+    spanish: 'experiencia de entrevista de trabajo',
+  },
+  {
+    norwegian: 'ulikheter',
+    english: 'inequalities',
+    spanish: 'desigualdades',
+  },
+  {
+    norwegian: 'en norsk oppfinner',
+    english: 'a Norwegian inventor',
+    spanish: 'un inventor noruego',
+  },
+  {
+    norwegian: 'søvn',
+    english: 'sleep',
+    spanish: 'sueño',
+  },
+  {
+    norwegian: 'utfordringer med avhengighet',
+    english: 'challenges with addiction',
+    spanish: 'desafíos con la adicción',
+  },
+  {
+    norwegian: 'en teknologisk fremskritt',
+    english: 'a technological advancement',
+    spanish: 'un avance tecnológico',
+  },
+  {
+    norwegian: 'om plastikkirurgi',
+    english: 'about plastic surgery',
+    spanish: 'sobre la cirugía plástica',
+  },
+  {
+    norwegian: 'forutse',
+    english: 'to anticipate',
+    spanish: 'anticipar',
+  },
+  {
+    norwegian: 'en norsk forfatter',
+    english: 'a Norwegian author',
+    spanish: 'un autor noruego',
+  },
+  {
+    norwegian: 'en reiseulykke',
+    english: 'a travel accident',
+    spanish: 'un accidente de viaje',
+  },
+  {
+    norwegian: 'utfordringer med ensomhet',
+    english: 'challenges with loneliness',
+    spanish: 'desafíos con la soledad',
+  },
+  {
+    norwegian: 'språkutveksling',
+    english: 'language exchange',
+    spanish: 'intercambio de idiomas',
+  },
+  {
+    norwegian: 'fordelene ved sykling',
+    english: 'the benefits of cycling',
+    spanish: 'los beneficios de andar en bicicleta',
+  },
+  {
+    norwegian: 'hvordan påvirker bøker tankene dine',
+    english: 'how do books influence your thoughts',
+    spanish: 'cómo influyen los libros en tus pensamientos',
+  },
+  {
+    norwegian: 'din mening om kjæledyr',
+    english: 'your opinion on pets',
+    spanish: 'tu opinión sobre las mascotas',
+  },
+  {
+    norwegian: 'en miljøhendelse',
+    english: 'an environmental event',
+    spanish: 'un evento ambiental',
+  },
+  {
+    norwegian: 'rollen til humor i livet',
+    english: 'the role of humor in life',
+    spanish: 'el papel del humor en la vida',
+  },
+  {
+    norwegian: 'hvordan håndterer du nederlag',
+    english: 'how do you handle defeat',
+    spanish: 'cómo manejas la derrota',
+  },
+  {
+    norwegian: 'om virtuell virkelighet',
+    english: 'about virtual reality',
+    spanish: 'sobre la realidad virtual',
+  },
+  {
+    norwegian: 'propaganda',
+    english: 'propaganda',
+    spanish: 'propaganda',
+  },
+  {
+    norwegian: 'superhelt',
+    english: 'superhero',
+    spanish: 'superhéroe',
+  },
+  {
+    norwegian: 'fattigdom',
+    english: 'poverty',
+    spanish: 'pobreza',
+  },
+  {
+    norwegian: 'romfart',
+    english: 'space travel',
+    spanish: 'viaje espacial',
+  },
+  {
+    norwegian: 'en kunstutstilling',
+    english: 'an art exhibition',
+    spanish: 'una exposición de arte',
+  },
+  {
+    norwegian: 'en sportsbegivenhet',
+    english: 'a sports event',
+    spanish: 'un evento deportivo',
+  },
+  {
+    norwegian: 'hendelse',
+    english: 'event',
+    spanish: 'evento',
+  },
+  {
+    norwegian: 'hvordan planlegger du studier',
+    english: 'how do you plan your studies',
+    spanish: 'cómo planificas tus estudios',
+  },
+  {
+    norwegian: 'et barndomsminne',
+    english: 'a childhood memory',
+    spanish: 'un recuerdo de la infancia',
+  },
+  {
+    norwegian: 'hvordan påvirker poesi følelser',
+    english: 'how does poetry influence emotions',
+    spanish: 'cómo influye la poesía en las emociones',
+  },
+  {
+    norwegian: 'diskuter fordelene ved lesing',
+    english: 'discuss the benefits of reading',
+    spanish: 'discute los beneficios de la lectura',
+  },
+  {
+    norwegian: 'vitenskap',
+    english: 'science',
+    spanish: 'ciencia',
+  },
+  {
+    norwegian: 'kyst',
+    english: 'coast',
+    spanish: 'costa',
+  },
+  {
+    norwegian: 'kryptovaluta',
+    english: 'cryptocurrency',
+    spanish: 'criptomoneda',
+  },
+  {
+    norwegian: 'en teaterforestilling',
+    english: 'a theater performance',
+    spanish: 'una actuación teatral',
+  },
+  {
+    norwegian: 'favorittspillkort',
+    english: 'favorite playing card',
+    spanish: 'carta de juego favorita',
+  },
+  {
+    norwegian: 'hvordan påvirker dans helsen',
+    english: 'how does dance influence health',
+    spanish: 'cómo influye la danza en la salud',
+  },
+  {
+    norwegian: 'en norsk ørken',
+    english: 'a Norwegian desert',
+    spanish: 'un desierto noruego',
+  },
+  {
+    norwegian: 'viktigheten av kreativitet',
+    english: 'the importance of creativity',
+    spanish: 'la importancia de la creatividad',
+  },
+  {
+    norwegian: 'hvordan håndterer du usikkerhet',
+    english: 'how do you handle uncertainty',
+    spanish: 'cómo manejas la incertidumbre',
+  },
+  {
+    norwegian: 'om kvantefysikk',
+    english: 'about quantum physics',
+    spanish: 'sobre la física cuántica',
+  },
+  {
+    norwegian: 'en høsttur',
+    english: 'an autumn trip',
+    spanish: 'un viaje de otoño',
+  },
+  {
+    norwegian: 'filosofi',
+    english: 'philosophy',
+    spanish: 'filosofía',
+  },
+  {
+    norwegian: 'en norsk innsjø',
+    english: 'a Norwegian lake',
+    spanish: 'un lago noruego',
+  },
+  {
+    norwegian: 'en vårblomstring',
+    english: 'a spring bloom',
+    spanish: 'una floración primaveral',
+  },
+  {
+    norwegian: 'favorittmaleri',
+    english: 'favorite painting',
+    spanish: 'pintura favorita',
+  },
+  {
+    norwegian: 'hvordan du forbereder deg',
+    english: 'how you prepare',
+    spanish: 'cómo te preparas',
+  },
+  {
+    norwegian: 'en inspirerende lærer',
+    english: 'an inspiring teacher',
+    spanish: 'un maestro inspirador',
+  },
+  {
+    norwegian: 'karrierevalgene dine',
+    english: 'your career choices',
+    spanish: 'tus elecciones de carrera',
+  },
+  {
+    norwegian: 'et vellykket gruppeprosjekt',
+    english: 'a successful group project',
+    spanish: 'un proyecto grupal exitoso',
+  },
+  {
+    norwegian: 'du har deltatt i',
+    english: 'you have participated in',
+    spanish: 'has participado en',
+  },
+  {
+    norwegian: 'yrkesfag versus akademiske studier',
+    english: 'vocational education versus academic studies',
+    spanish: 'educación vocacional versus estudios académicos',
+  },
+  {
+    norwegian:'en karriereendring du vurderer',
+    english: 'a career change you are considering',
+    spanish: 'un cambio de carrera que estás considerando',
+  },
+  {
+    norwegian:'om pensjonsalderen',
+    english: 'about retirement age',
+    spanish: 'sobre la edad de jubilación',
+  },
+  {
+    norwegian:'befolkningen',
+    english: 'the population',
+    spanish: 'la población',
+  },
+  {
+    norwegian: 'i næringslivet',
+    english: 'in business',
+    spanish: 'en los negocios', 
+  },
+  {
+    norwegian:'arbeidsrelatert stress',
+    english: 'work-related stress',
+    spanish: 'estrés relacionado con el trabajo',
+  },
+  {
+    norwegian:'likelønn',
+    english: 'equal pay',
+    spanish: 'igualdad salarial',
+  },
+  {
+    norwegian:'entreprenørskap',
+    english: 'entrepreneurship',
+    spanish: 'una idea de negocio',
+  },
+  {
+    norwegian:'en forretningsidé',
+    english: 'a business idea',
+    spanish: 'una idea de negocio',
+  },
+  {
+    norwegian:'en helseutfordring',
+    english: 'a health challenge',
+    spanish: 'un desafío de salud',
+  },
+  {
+    norwegian:'en sunn oppskrift',
+    english: 'a healthy recipe',
+    spanish: 'una receta saludable',
+  },
+  {
+    norwegian:'diskuter rollen til forebyggende helsearbeid',
+    english: 'discuss the role of preventive healthcare',
+    spanish: 'discute el papel de la atención médica preventiva',
+  },
+  {
+    norwegian:'en velvære-rutine',
+    english: 'a wellness routine',
+    spanish: 'una rutina de bienestar',
+  },
+  {
+    norwegian:'Hvordan påvirker kosthold humøret ditt?',
+    english: 'How does diet affect your mood?',
+    spanish: '¿Cómo afecta la dieta a tu estado de ánimo?',
+  },
+  {
+    norwegian:'overvekt i samfunnet',
+    english: 'obesity in society',
+    spanish: 'obesidad en la sociedad',
+  },
+  {
+    norwegian:'yoga versus styrketrening',
+    english: 'yoga versus strength training',
+    spanish: 'yoga versus entrenamiento de fuerza',
+  },
+  {
+    norwegian:'fortell om en medisinsk fremskritt du kjenner til',
+    english: 'tell about a medical advancement you know of',
+    spanish: 'habla sobre un avance médico que conozcas',
+  },
+  {
+    norwegian:'søvnproblemer',
+    english: 'sleep problems',
+    spanish: 'problemas de sueño',
+  },
+  {
+    norwegian:'om ernæring',
+    english: 'about nutrition',
+    spanish: 'sobre nutrición',
+  },
+  {
+    norwegian:'du verdsetter',
+    english: 'you value',
+    spanish: 'valoras',
+  },
+  {
+    norwegian:'langdistanseforhold',
+    english: 'long-distance relationship',
+    spanish: 'relación a distancia',
+  },
+  {
+    norwegian:'en søskenrivalisering',
+    english: 'a sibling rivalry',
+    spanish: 'una rivalidad entre hermanos',
+  },
+  {
+    norwegian:'diskuter rollen til besteforeldre i oppdragelsen',
+    english: 'discuss the role of grandparents in upbringing',
+    spanish: 'discute el papel de los abuelos en la crianza',
+  },
+  {
+    norwegian:'en familiegjenforening',
+    english: 'a family reunion',
+    spanish: 'una reunión familiar',
+  },
+  {
+    norwegian:'aleneforeldre',
+    english: 'single parents',
+    spanish: 'padres solteros',
+  },
+  {
+    norwegian:'en venns personlighet',
+    english: 'a friend’s personality',
+    spanish: 'la personalidad de un amigo',
+  },
+  {
+    norwegian:'en romantisk gest',
+    english: 'a romantic gesture',
+    spanish: 'un gesto romántico',
+  },
+  {
+    norwegian:'tillit i vennskap',
+    english: 'trust in friendship',
+    spanish: 'confianza en la amistad',
+  },
+  {
+    norwegian:'singellivet',
+    english: 'single life',
+    spanish: 'vida de soltero',
+  },
+  {
+    norwegian:'valgsystemet',
+    english: 'the electoral system',
+    spanish: 'el sistema electoral',
+  },
+  {
+    norwegian:'en samfunnsengasjert person',
+    english: 'a socially engaged person',
+    spanish: 'una persona comprometida socialmente',
+  },
+  {
+    norwegian:'hvordan påvirker lover dagliglivet?',
+    english: 'how do laws affect daily life?',
+    spanish: '¿cómo afectan las leyes la vida diaria?',
+  },
+  {
+    norwegian:'diskuter rollen til frivillige organisasjoner',
+    english: 'discuss the role of volunteer organizations',
+    spanish: 'discute el papel de las organizaciones voluntarias',
+  },
+  {
+    norwegian:'Beskriv ditt syn på velferdsstaten',
+    english: 'Describe your view on the welfare state',
+    spanish: 'Describe tu visión sobre el estado de bienestar',
+  },
+  {
+    norwegian:'en favorittskuespiller',
+    english: 'a favorite actor',
+    spanish: 'un actor favorito',
+  },
+  {
+    norwegian:'Hvordan påvirker filmer samfunnet',
+    english: 'How do movies influence society',
+    spanish: '¿Cómo influyen las películas en la sociedad?',
+  },
+  {
+    norwegian:'musikkstrømming',
+    english: 'music streaming',
+    spanish: 'transmisión de música',
+  },
+  {
+    norwegian:'nyheter og dokumentarer',
+    english: 'news and documentaries',
+    spanish: 'noticias y documentales',
+  },
+  {
+    norwegian:'favorittorkester',
+    english: 'favorite orchestra',
+    spanish: 'orquesta favorita',
+  },
+  {
+    norwegian:'en improvisasjonssesjon',
+    english: 'an improvisation session',
+    spanish: 'una sesión de improvisación',
+  },
+  {
+    norwegian:'inntil meg',
+    english: 'close to me',
+    spanish: 'cerca de mí',
+  },
+  {
+    norwegian:'et teaterstykke',
+    english: 'a play',
+    spanish: 'una obra de teatro',
+  },
+  {
+    norwegian:'en rollebesetning',
+    english: 'a cast',
+    spanish: 'un elenco',
+  },
+  {
+    norwegian:'Hvordan lærer du replikker',
+    english: 'How do you learn lines',
+    spanish: '¿Cómo aprendes las líneas?',
+  },
+  {
+    norwegian:'en litteraturgenre',
+    english: 'a literary genre',
+    spanish: 'un género literario',
+  },
+  {
+    norwegian:'en diktlesning',
+    english: 'a poetry reading',
+    spanish: 'una lectura de poesía',
+  },
+  {
+    norwegian:'forfattere',
+    english: 'authors',
+    spanish: 'autores',
+  },
+  {
+    norwegian:'oversettelser',
+    english: 'translations',
+    spanish: 'traducciones',
+  },
+  {
+    norwegian:'en kunsthåndverk',
+    english: 'a craft',
+    spanish: 'un oficio',
+  },
+  {
+    norwegian:'en maleteknikk',
+    english: 'a painting technique',
+    spanish: 'una técnica de pintura',
+  },
+  {
+    norwegian:'art funding',
+    english: 'art funding',
+    spanish: 'financiación artística',
+  },
+  {
+    norwegian:'en dansestil',
+    english: 'a dance style',
+    spanish: 'un estilo de danza',
+  },
+  {
+    norwegian:'en danseforestilling',
+    english: 'a dance performance',
+    spanish: 'una actuación de danza',
+  },
+  {
+    norwegian:'en dansleksjon',
+    english: 'a dance lesson',
+    spanish: 'una lección de danza',
+  },
+  {
+    norwegian:'dirigenter',
+    english: 'conductors',
+    spanish: 'directores de orquesta',
+  },
+  {
+    norwegian:'sceneskrekk',
+    english: 'stage fright',
+    spanish: 'miedo escénico',
+  },
+  {
+    norwegian:'et teaterstykke',
+    english: 'a play',
+    spanish: 'una obra de teatro',
+  },
+  {
+    norwegian:'en vitenskapelig oppdagelse',
+    english: 'a scientific discovery',
+    spanish: 'un descubrimiento científico',
+  },
+  {
+    norwegian:'romutforskning',
+    english: 'space exploration',
+    spanish: 'exploración espacial',
+  },
+  {
+    norwegian:'forskning i Norge',
+    english: 'research in Norway',
+    spanish: 'investigación en Noruega',
+  },
+  {
+    norwegian:'en vitenskapsmesse',
+    english: 'a science fair',
+    spanish: 'una feria de ciencias',
+  },
+  {
+    norwegian:'en sportshelt',
+    english: 'a sports hero',
+    spanish: 'un héroe deportivo',
+  },
+  {
+    norwegian:'en maratonopplevelse',
+    english: 'a marathon experience',
+    spanish: 'una experiencia de maratón',
+  },
+  {
+    norwegian:'kokker i samfunnet',
+    english: 'chefs in society',
+    spanish: 'chefs en la sociedad',
+  },
+  {
+    norwegian:'matavfall',
+    english: 'food waste',
+    spanish: 'desperdicio de alimentos',
+  },
+  {
+    norwegian:'en vellykket',
+    english: 'a successful',
+    spanish: 'un exitoso',
+  },
+  {
+    norwegian:'personvern',
+    english: 'privacy',
+    spanish: 'privacidad',
+  },
+  {
+    norwegian:'humøret ditt',
+    english: 'your mood',
+    spanish: 'tu estado de ánimo',
+  },
+  {
+    norwegian:'har arrangert',
+    english: 'has arranged',
+    spanish: 'ha organizado',
+  },
+  {
+    norwegian:'favorittklesplagg',
+    english: 'favorite clothing item',
+    spanish: 'prenda de vestir favorita',
+  },
+  {
+    norwegian:'kjøpsvaner',
+    english: 'buying habits',
+    spanish: 'hábitos de compra',
+  },
+  {
+    norwegian:'overkommelig',
+    english: 'affordable',
+    spanish: 'asequible',
+  },
+  {
+    norwegian:'en økonomisk beslutning',
+    english: 'a financial decision',
+    spanish: 'una decisión financiera',
+  },
+  {
+    norwegian:'en spareplan',
+    english: 'a savings plan',
+    spanish: 'un plan de ahorro',
+  },
+  {
+    norwegian:'investeringer',
+    english: 'investments',
+    spanish: 'inversiones',
+  },
+  {
+    norwegian:'diskuter fordelene ved å spare tidlig',
+    english: 'discuss the benefits of saving early',
+    spanish: 'discute los beneficios de ahorrar temprano',
+  },
+  {
+    norwegian:'en historisk bygning',
+    english: 'a historical building',
+    spanish: 'un edificio histórico',
+  },
+  {
+    norwegian:'bærekraftig bygging',
+    english: 'sustainable building',
+    spanish: 'construcción sostenible',
+  },
+  {
+    norwegian:'favorittbyggverk',
+    english: 'favorite structure',
+    spanish: 'estructura favorita',
+  },
+  {
+    norwegian:'etiske dilemmaer',
+    english: 'ethical dilemmas',
+    spanish: 'dilemas éticos',
+  },
+  {
+    norwegian:'beslutninger',
+    english: 'decisions',
+    spanish: 'decisiones',
+  },
+  {
+    norwegian:'kritisk tenkning',
+    english: 'critical thinking',
+    spanish: 'pensamiento crítico',
+  },
+  {
+    norwegian:'selvinnsikt',
+    english: 'self-awareness',
+    spanish: 'autoconciencia',
+  },
+  {
+    norwegian:'forhold til følelser',
+    english: 'relationship with emotions',
+    spanish: 'relación con las emociones',
+  },
+  {
+    norwegian:'en matteoppgave',
+    english: 'a math problem',
+    spanish: 'un problema de matemáticas',
+  },
+  {
+    norwegian:'i dagliglivet',
+    english: 'in daily life',
+    spanish: 'en la vida diaria',
+  },
+  {
+    norwegian:'regneark',
+    english: 'spreadsheet',
+    spanish: 'hoja de cálculo',
+  },
+  {
+    norwegian:'en dyrestudie',
+    english: 'an animal study',
+    spanish: 'un estudio de animales',
+  },
+  {
+    norwegian:'økosystemer',
+    english: 'ecosystems',
+    spanish: 'ecosistemas',
+  },
+  {
+    norwegian:'en kjemisk reaksjon',
+    english: 'a chemical reaction',
+    spanish: 'una reacción química',
+  },
+  {
+    norwegian:'en labøvelse',
+    english: 'a lab exercise',
+    spanish: 'un ejercicio de laboratorio',
+  },
+  {
+    norwegian:'molekyler',
+    english: 'molecules',
+    spanish: 'moléculas',
+  },
+  {
+    norwegian:'forurensning',
+    english: 'pollution',
+    spanish: 'contaminación',
+  },
+  {
+    norwegian:'en astronomiopplevelse',
+    english: 'an astronomy experience',
+    spanish: 'una experiencia de astronomía',
+  },
+  {
+    norwegian:'Hvordan påvirker fysikk ingeniørfag',
+    english: 'How does physics influence engineering',
+    spanish: '¿Cómo influye la física en la ingeniería?',
+  },
+  {
+    norwegian:'ørkener',
+    english: 'deserts',
+    spanish: 'desiertos',
+  },
+  {
+    norwegian:'fjellklatring',
+    english: 'mountain climbing',
+    spanish: 'escalada de montañas',
+  },
+  {
+    norwegian:'historiske fakta',
+    english: 'historical facts',
+    spanish: 'hechos históricos',
+  },
+  {
+    norwegian:'historieforfalskning',
+    english: 'historical revisionism',
+    spanish: 'revisionismo histórico',
+  },
+  {
+    norwegian:'en språklig utfordring',
+    english: 'a linguistic challenge',
+    spanish: 'un desafío lingüístico',
+  },
+  {
+    norwegian:'flerspråklighet',
+    english: 'multilingualism',
+    spanish: 'multilingüismo',
+  },
+  {
+    norwegian:'Beskriv en juridisk sak du kjenner til',
+    english: 'Describe a legal case you know of',
+    spanish: 'Describe un caso legal que conozcas',
+  },
+  {
+    norwegian:'rettssystemet',
+    english: 'the legal system',
+    spanish: 'el sistema legal',
+  },
+  {
+    norwegian:'en lovendring',
+    english: 'a law change',
+    spanish: 'un cambio de ley',
+  },
+  {
+    norwegian:'menneskerettigheter',
+    english: 'human rights',
+    spanish: 'derechos humanos',
+  },
+  {
+    norwegian:'courts',
+    english: 'domstoler',
+    spanish: 'tribunales',
+  },
+  {
+    norwegian:'en advokatrolle',
+    english: 'a lawyer role',
+    spanish: 'un papel de abogado',
+  },
+  {
+    norwegian:'om resirkulering',
+    english: 'about recycling',
+    spanish: 'sobre el reciclaje',
+  },
+  {
+    norwegian:'fornybar energi',
+    english: 'renewable energy',
+    spanish: 'energía renovable',
+  },
+  {
+    norwegian:'vindkraft',
+    english: 'wind power',
+    spanish: 'energía eólica',
+  },
+  {
+    norwegian:'en miljøfilm',
+    english: 'an environmental film',
+    spanish: 'una película ambiental',
+  },
+    {
+    norwegian:'bærekraft',
+    english: 'sustainability',
+    spanish: 'sostenibilidad',
+  },
+  {
+    norwegian:'økologisk landbruk',
+    english: 'organic farming',
+    spanish: 'agricultura orgánica',
+  },
+  {
+    norwegian:'bevegelse',
+    english: 'movement',
+    spanish: 'movimiento',
+  },
+  {
+    norwegian:'solidaritet',
+    english: 'solidarity',
+    spanish: 'solidaridad',
+  },
+  {
+    norwegian:'kulturell utveksling',
+    english: 'cultural exchange',
+    spanish: 'intercambio cultural',
+  },
+  {
+    norwegian:'krydder',
+    english: 'spices',
+    spanish: 'especias',
+  },
+  {
+    norwegian:'en matlagingstime',
+    english: 'a cooking class',
+    spanish: 'una clase de cocina',
+  },
+  {
+    norwegian:'hjemmelaget mat',
+    english: 'homemade food',
+    spanish: 'comida casera',
+  },
+  {
+    norwegian:'et transportmiddel',
+    english: 'a means of transportation',
+    spanish: 'un medio de transporte',
+  },
+  {
+    norwegian:'sykkelbyer',
+    english: 'bicycle cities',
+    spanish: 'ciudades para bicicletas',
+  },
+  {
+    norwegian:'en togopplevelse',
+    english: 'a train experience',
+    spanish: 'una experiencia en tren',
+  },
+  {
+    norwegian:'veisikkerhet',
+    english: 'road safety',
+    spanish: 'seguridad vial',
+  },
+  {
+    norwegian:'en kulturfeiring',
+    english: 'a cultural celebration',
+    spanish: 'una celebración cultural',
+  },
+  {
+    norwegian:'favorittarrangement',
+    english: 'favorite event',
+    spanish: 'evento favorito',
+  },
+  {
+    norwegian:'folkemengder',
+    english: 'crowds',
+    spanish: 'multitudes',
+  },
+  {
+    norwegian:'hverdagen',
+    english: 'everyday life',
+    spanish: 'vida cotidiana',
+  },
+  {
+    norwegian:'smarthus',
+    english: 'smart home',
+    spanish: 'hogar inteligente',
+  },
+  {
+    norwegian:'oppfinner',
+    english: 'inventor',
+    spanish: 'inventor',
+  },
+  {
+    norwegian:'databeskyttelse',
+    english: 'data protection',
+    spanish: 'protección de datos',
+  },
+  {
+    norwegian:'en fremtidsvisjon',
+    english: 'a vision for the future',
+    spanish: 'una visión para el futuro',
+  },
+  {
+    norwegian:'prisstigning',
+    english: 'price increase',
+    spanish: 'aumento de precios',
+  },
+  {
+    norwegian:'bakteppe',
+    english: 'backdrop',
+    spanish: 'telón de fondo',
+  },
+  {
+    norwegian:'fremmedgjøre',
+    english: 'alienate',
+    spanish: 'alienar',
+  },
+  {
+    norwegian:'som tillater deg',
+    english: 'that allows you',
+    spanish: 'que te permite',
+  },
+  {
+    norwegian:'å være tydelig',
+    english: 'to be clear',
+    spanish: 'ser claro',
+  },
+  {
+    norwegian:'gjesp',
+    english: 'yawn',
+    spanish: 'bostezo',
+  },
+  {
+    norwegian:'deprimerende',
+    english: 'depressing',
+    spanish: 'deprimente',
+  },
+  {
+    norwegian:'omgitt av',
+    english: 'surrounded by',
+    spanish: 'rodeado de',
+  },
+  {
+    norwegian:'svigermor',
+    english: 'mother-in-law',
+    spanish: 'suegra',
+  },
+  {
+    norwegian:'rufsete',
+    english: 'scruffy',
+    spanish: 'desaliñado',
+  },
+  {
+    norwegian:'kortsiktige',
+    english: 'short-term',
+    spanish: 'a corto plazo',
+  },
+  {
+    norwegian:'forsvarsaksjer',
+    english: 'defense stocks',
+    spanish: 'acciones de defensa',
+  },
+  {
+    norwegian:'forsvar',
+    english: 'defense',
+    spanish: 'defensa',
+  },
+  {
+    norwegian:'sannsynligvis',
+    english: 'probably',
+    spanish: 'probablemente',
+  },
+  {
+    norwegian:'sannsynligheter',
+    english: 'probabilities',
+    spanish: 'probabilidades',
+  },
+  {
+    norwegian:'båsene',
+    english: 'stalls',
+    spanish: 'puestos',
+  },
+  {
+    norwegian:'meningsmålingene',
+    english: 'the polls',
+    spanish: 'las encuestas',
+  },
+  {
+    norwegian:'forhånd',
+    english: 'advance',
+    spanish: 'por adelantado',
+  },
+  {
+    norwegian:'å dra nytte av',
+    english: 'to take advantage of',
+    spanish: 'aprovechar',
+  },
+  {
+    norwegian:'lærdommen',
+    english: 'the lesson',
+    spanish: 'la lección',
+  },
+  {
+    norwegian:'byråkratiet',
+    english: 'the bureaucracy',
+    spanish: 'la burocracia',
+  },
+  {
+    norwegian:'forandra',
+    english: 'changed',
+    spanish: 'cambiado',
+  },
+  {
+    norwegian:'bukketter',
+    english: 'bouquets',
+    spanish: 'ramos',
+  },
+  {
+    norwegian:'å forvalte & å klarte',
+    english: 'to manage & to handle',
+    spanish: 'gestionar y manejar',
+  },
+  {
+    norwegian:'hensyn & vurdere',
+    english: 'consideration & to consider',
+    spanish: 'consideración y considerar',
+  },
+  {
+    norwegian:'vi bygger en bygning',
+    english: 'we are building a building',
+    spanish: 'estamos construyendo un edificio',
+  },
+  {
+    norwegian:'vendingen',
+    english: 'the turn',
+    spanish: 'el giro',
+  },
+  {
+    norwegian:'kjapt avgjøre',
+    english: 'quick decision',
+    spanish: 'decisión rápida',
+  },
+  {
+    norwegian:'statlige',
+    english: 'state-owned',
+    spanish: 'de propiedad estatal',
+  },
+  {
+    norwegian:'investeringsfond',
+    english: 'investment fund',
+    spanish: 'fondo de inversión',
+  },
+  {
+    norwegian:'unoterte aksjer',
+    english: 'unlisted shares',
+    spanish: 'acciones no cotizadas',
+  },
+  {
+    norwegian:'hovedstyret',
+    english: 'the board of directors',
+    spanish: 'la junta directiva',
+  },
+  {
+    norwegian:'en uro',
+    english: 'a disturbance',
+    spanish: 'una perturbación',
+  },
+  {
+    norwegian:'helt opplagt',
+    english: 'completely obvious',
+    spanish: 'completamente obvio',
+  },
+  {
+    norwegian:'litt innledende',
+    english: 'a bit introductory',
+    spanish: 'un poco introductorio',
+  },
+  {
+    norwegian:'flåsete',
+    english: 'flippant',
+    spanish: 'frívolo',
+  },
+  {
+    norwegian:'la oss redigere',
+    english: 'let’s edit',
+    spanish: 'vamos a editar',
+  },
+  {
+    norwegian:'overhodet ikke',
+    english: 'not at all',
+    spanish: 'en absoluto',
+  },
+  {
+    norwegian:'litt framskutte',
+    english: 'a bit forward',
+    spanish: 'un poco adelantado',
+  },
+  {
+    norwegian:'Avgjørelse & Beslutning',
+    english: 'Decision & Resolution',
+    spanish: 'Decisión y Resolución',
+  },
+  {
+    norwegian:'risikoer',
+    english: 'risks',
+    spanish: 'riesgos',
+  },
+  {
+    norwegian:'jeg kan lytte',
+    english: 'I can listen',
+    spanish: 'puedo escuchar',
+  },
+  {
+    norwegian:'en kort øvelse',
+    english: 'a short exercise',
+    spanish: 'un ejercicio corto',
+  },
+  {
+    norwegian:'å nullstille',
+    english: 'to reset',
+    spanish: 'reiniciar',
+  },
+  {
+    norwegian:'å ansette',
+    english: 'to hire',
+    spanish: 'contratar',
+  },
+  {
+    norwegian:'uttalt',
+    english: 'pronounced',
+    spanish: 'pronunciado',
+  },
+  {
+    norwegian:'enkeltes evne',
+    english: 'individuals’ ability',
+    spanish: 'la capacidad de los individuos',
+  },
+  {
+    norwegian:'fiende',
+    english: 'enemy',
+    spanish: 'enemigo',
+  },
+  {
+    norwegian:'du forveksler',
+    english: 'you confuse',
+    spanish: 'confundes',
+  },
+  {
+    norwegian:'har forsøk',
+    english: 'has attempted',
+    spanish: 'ha intentado',
+  },
+  {
+    norwegian:'tvert imot',
+    english: 'on the contrary',
+    spanish: 'por el contrario',
+  },
+  {
+    norwegian:'blir forbigått',
+    english: 'is overlooked',
+    spanish: 'se pasa por alto',
+  },
+  {
+    norwegian:'å hindre',
+    english: 'to prevent',
+    spanish: 'prevenir',
+  },
+  {
+    norwegian:'inntekt og inntrykk',
+    english: 'income and impression',
+    spanish: 'ingresos e impresión',
+  },
+  {
+    norwegian:'lønnsom',
+    english: 'profitable',
+    spanish: 'rentable',
+  },
+  {
+    norwegian:'tidoblet',
+    english: 'multiplied by ten',
+    spanish: 'multiplicado por diez',
+  },
+  {
+    norwegian:'nervepirrende',
+    english: 'nerve-wracking',
+    spanish: 'estresante',
+  },
+  {
+    norwegian:'fagforeningen',
+    english: 'the trade union',
+    spanish: 'el sindicato',
+  },
+  {
+    norwegian:'klimautslipp',
+    english: 'climate emissions',
+    spanish: 'emisiones climáticas',
+  },
+  {
+    norwegian:'å stanse',
+    english: 'to stop',
+    spanish: 'detener',
+  },
+  {
+    norwegian:'utslipper',
+    english: 'emits',
+    spanish: 'emite',
+  },
+  {
+    norwegian:'et aksjonærforslag',
+    english: 'a shareholder proposal',
+    spanish: 'una propuesta de accionista',
+  },
+  {
+    norwegian:'trekke',
+    english: 'to withdraw',
+    spanish: 'retirar',
+  },
+  {
+    norwegian:'tåle',
+    english: 'to tolerate',
+    spanish: 'tolerar',
+  },
+  {
+    norwegian:'får en pasning',
+    english: 'receives a pass',
+    spanish: 'recibe un pase',
+  },
+  {
+    norwegian:'til retten',
+    english: 'to court',
+    spanish: 'a la corte',
+  },
+  {
+    norwegian:'i etterkant',
+    english: 'afterwards',
+    spanish: 'después',
+  },
+  {
+    norwegian:'utopisk',
+    english: 'utopian',
+    spanish: 'utópico',
+  },
+  {
+    norwegian:'avstemninger',
+    english: 'votes',
+    spanish: 'votos',
+  },
+  {
+    norwegian:'butikkjeder',
+    english: 'retail chains',
+    spanish: 'cadenas de tiendas',
+  },
+  {
+    norwegian:'ytterste',
+    english: 'extreme',
+    spanish: 'extremo',
+  },
+  {
+    norwegian:'fristet',
+    english: 'tempted',
+    spanish: 'tentado',
+  },
+  {
+    norwegian:'klart og tydelig',
+    english: 'clear and distinct',
+    spanish: 'claro y distinto',
+  },
+  {
+    norwegian:'læringspunkter',
+    english: 'learning points',
+    spanish: 'puntos de aprendizaje',
+  },
+  {
+    norwegian:'en litt annen',
+    english: 'a slightly different',
+    spanish: 'un poco diferente',
+  },
+  {
+    norwegian:'aksjer',
+    english: 'shares',
+    spanish: 'acciones',
+  },
+  {
+    norwegian:'søyler',
+    english: 'pillars',
+    spanish: 'columnas',
+  },
+  {
+    norwegian:'halvparten av tiden',
+    english: 'half the time',
+    spanish: 'la mitad del tiempo',
+  },
+  {
+    norwegian:'mål å nå',
+    english: 'goal to achieve',
+    spanish: 'objetivo a alcanzar',
+  },
+  {
+    norwegian:'å innhente',
+    english: 'to obtain',
+    spanish: 'obtener',
+  },
+  {
+    norwegian:'det nærmer seg',
+    english: 'it is approaching',
+    spanish: 'se acerca',
+  },
+  {
+    norwegian:'yngre',
+    english: 'younger',
+    spanish: 'más joven',
+  },
+  {
+    norwegian:'noe lignende',
+    english: 'something similar',
+    spanish: 'algo similar',
+  },
+  {
+    norwegian:'har knekt koden',
+    english: 'has cracked the code',
+    spanish: 'ha descifrado el código',
+  },
+  {
+    norwegian:'overskrifter',
+    english: 'headlines',
+    spanish: 'titulares',
+  },
+  {
+    norwegian:'forleden',
+    english: 'the other day',
+    spanish: 'el otro día',
+  },
+  {
+    norwegian:'ivrig',
+    english: 'eager',
+    spanish: 'entusiasta',
+  },
+  {
+    norwegian:'er hissig',
+    english: 'is aggressive',
+    spanish: 'es agresivo',
+  },
+  {
+    norwegian:'å utfordre',
+    english: 'to challenge',
+    spanish: 'desafiar',
+  },
+  {
+    norwegian:'å stupe',
+    english: 'to dive',
+    spanish: 'zambullirse',
+  },
+  {
+    norwegian:'målt',
+    english: 'measured',
+    spanish: 'medido',
+  },
+  {
+    norwegian:'risikvillige',
+    english: 'risk-taking',
+    spanish: 'dispuestos a asumir riesgos',
+  },
+  {
+    norwegian:'betraktninger',
+    english: 'considerations',
+    spanish: 'consideraciones',
+  },
+  {
+    norwegian:'innledningsvis',
+    english: 'initially',
+    spanish: 'inicialmente',
+  },
+  {
     norwegian: 'gjenvinningsstasjon',
     english: 'recycling station',
     spanish: 'estación de reciclaje',
