@@ -2,6 +2,66 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en norsk komponist',
+    english: 'a Norwegian composer',
+    spanish: 'un compositor noruego',
+  },
+  {
+    norwegian: 'Hvordan påvirker musikk minner?',
+    english: 'How does music influence memories?',
+    spanish: '¿Cómo influye la música en los recuerdos?',
+  },
+  {
+    norwegian: 'kor',
+    english: 'choir',
+    spanish: 'coro',
+  },
+  {
+    norwegian: 'favorittinstrumentalstykke',
+    english: 'favorite instrumental piece',
+    spanish: 'pieza instrumental favorita',
+  },
+  {
+    norwegian: 'en ballettforestilling',
+    english: 'a ballet performance',
+    spanish: 'una actuación de ballet',
+  },
+  {
+    norwegian: 'en dansetime',
+    english: 'a dance class',
+    spanish: 'una clase de danza',
+  },
+  {
+    norwegian: 'rytme i dans',
+    english: 'rhythm in dance',
+    spanish: 'ritmo en la danza',
+  },
+  {
+    norwegian: 'en tegnetime',
+    english: 'a drawing class',
+    spanish: 'una clase de dibujo',
+  },
+  {
+    norwegian: 'Hvordan påvirker kunst kreativitet?',
+    english: 'How does art influence creativity?',
+    spanish: '¿Cómo influye el arte en la creatividad?',
+  },
+  {
+    norwegian: 'Hva er din mening om gatekunst?',
+    english: 'What is your opinion on street art?',
+    spanish: '¿Cuál es tu opinión sobre el arte callejero?',
+  },
+  {
+    norwegian: 'kunstutdanning',
+    english: 'art education',
+    spanish: 'educación artística',
+  },
+  {
+    norwegian: 'favorittmaleri',
+    english: 'favorite painting',
+    spanish: 'pintura favorita',
+  },
+  {
     norwegian: 'en soppsanking',
     english: 'a mushroom picking',
     spanish: 'una recolección de setas',
