@@ -182,7 +182,7 @@ export const words: Question[] = [
     spanish: 'un mito local',
   },
   {
-    norwegian: ' ⁠Hvordan lærer du om norrøn mytologi?',
+    norwegian: 'Hvordan lærer du om norrøn mytologi?',
     english: 'How do you learn about Norse mythology?',
     spanish: '¿Cómo aprendes sobre la mitología nórdica?',
   },
