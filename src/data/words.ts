@@ -2,6 +2,126 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'reklamepauser',
+    english: 'commercial breaks',
+    spanish: 'pausas comerciales',
+  },
+  {
+    norwegian: 'en favorittprogramleder',
+    english: 'a favorite host',
+    spanish: 'un presentador favorito',
+  },
+  {
+    norwegian: 'en radiosending',
+    english: 'a radio broadcast',
+    spanish: 'una transmisión de radio',
+  },
+  {
+    norwegian: 'en radiolytteropplevelse',
+    english: 'a radio listener experience',
+    spanish: 'una experiencia de oyente de radio',
+  },
+  {
+    norwegian: 'lydmedier',
+    english: 'audio media',
+    spanish: 'medios de audio',
+  },
+  {
+    norwegian: 'en avisartikkel',
+    english: 'a newspaper article',
+    spanish: 'un artículo de periódico',
+  },
+  {
+    norwegian: 'en magasinutgave',
+    english: 'a magazine issue',
+    spanish: 'una edición de revista',
+  },
+  {
+    norwegian: 'Hvordan påvirker trykte medier lesing?',
+    english: 'How do printed media influence reading?',
+    spanish: '¿Cómo influyen los medios impresos en la lectura?',
+  },
+  {
+    norwegian: 'redaktører',
+    english: 'editors',
+    spanish: 'editores',
+  },
+  {
+    norwegian: 'digitale aviser',
+    english: 'digital newspapers',
+    spanish: 'periódicos digitales',
+  },
+  {
+    norwegian: 'nyhetsstrøm',
+    english: 'news feed',
+    spanish: 'fuente de noticias',
+  },
+  {
+    norwegian: 'TV-titting',
+    english: 'TV watching',
+    spanish: 'ver televisión',
+  },
+  {
+    norwegian: 'filterbobler på meninger',
+    english: 'filter bubbles on opinions',
+    spanish: 'burbujas de filtro sobre opiniones',
+  },
+  {
+    norwegian: 'å jobbe hjemmefra permanent',
+    english: 'to work from home permanently',
+    spanish: 'trabajar desde casa permanentemente',
+  },
+  {
+    norwegian: 'utdanningsmetoder',
+    english: 'educational methods',
+    spanish: 'métodos educativos',
+  },
+  {
+    norwegian: 'personvernlovgivning',
+    english: 'privacy legislation',
+    spanish: 'legislación de privacidad',
+  },
+  {
+    norwegian: 'abonnerer',
+    english: 'subscribing',
+    spanish: 'suscribirse',
+  },
+  {
+    norwegian: 'du nylig har kjøpt',
+    english: 'you recently bought',
+    spanish: 'recientemente compraste',
+  },
+  {
+    norwegian: 'nettnøytralitet',
+    english: 'net neutrality',
+    spanish: 'neutralidad de la red',
+  },
+  {
+    norwegian: 'valgkamp',
+    english: 'election campaign',
+    spanish: 'campaña electoral',
+  },
+  {
+    norwegian: 'nyhetsforbruk',
+    english: 'news consumption',
+    spanish: 'consumo de noticias',
+  },
+  {
+    norwegian: 'en lokal myte',
+    english: 'a local myth',
+    spanish: 'un mito local',
+  },
+  {
+    norwegian: ' ⁠Hvordan lærer du om norrøn mytologi?',
+    english: 'How do you learn about Norse mythology?',
+    spanish: '¿Cómo aprendes sobre la mitología nórdica?',
+  },
+  {
+    norwegian: 'kulturell bevaring',
+    english: 'cultural preservation',
+    spanish: 'preservación cultural',
+  },
+  {
     norwegian: 'en norsk komponist',
     english: 'a Norwegian composer',
     spanish: 'un compositor noruego',
