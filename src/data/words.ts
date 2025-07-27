@@ -2,6 +2,76 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en soppsanking',
+    english: 'a mushroom picking',
+    spanish: 'una recolección de setas',
+  },
+  {
+    norwegian: 'høst været høstingen',
+    english: 'autumn weather harvesting',
+    spanish: 'el clima de otoño cosechando',
+  },
+  {
+    norwegian: 'høstfarger',
+    english: 'autumn colors',
+    spanish: 'colores de otoño',
+  },
+  {
+    norwegian: 'høststormer',
+    english: 'autumn storms',
+    spanish: 'tormentas de otoño',
+  },
+  {
+    norwegian: 'en eplesanking',
+    english: 'an apple picking',
+    spanish: 'una recolección de manzanas',
+  },
+  {
+    norwegian: 'jeg sølte vannet mitt',
+    english: 'I spilled my water',
+    spanish: 'derramé mi agua',
+  },
+  {
+    norwegian: 'en vårblomstring',
+    english: 'a spring bloom',
+    spanish: 'una floración primaveral',
+  },
+  {
+    norwegian: 'en vårrydding',
+    english: 'a spring cleaning',
+    spanish: 'una limpieza de primavera',
+  },
+  {
+    norwegian: 'fugletrek',
+    english: 'bird migration',
+    spanish: 'migración de aves',
+  },
+  {
+    norwegian: 'favorittvårtegn',
+    english: 'favorite spring sign',
+    spanish: 'signo de primavera favorito',
+  },
+  {
+    norwegian: 'en vårspasertur',
+    english: 'a spring walk',
+    spanish: 'un paseo de primavera',
+  },
+  {
+    norwegian: 'vårflom',
+    english: 'spring flood',
+    spanish: 'inundación de primavera',
+  },
+  {
+    norwegian: 'sesongendringer',
+    english: 'season changes',
+    spanish: 'cambios de estación',
+  },
+  {
+    norwegian: 'høre opplest',
+    english: 'hear read aloud',
+    spanish: 'escuchar leído en voz alta',
+  },
+  {
     norwegian: 'en klatreopplevelse',
     english: 'a climbing experience',
     spanish: 'una experiencia de escalada',
