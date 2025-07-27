@@ -2,6 +2,71 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Hvordan forbereder du',
+    english: 'How do you prepare',
+    spanish: '¿Cómo te preparas',
+  },
+  {
+    norwegian: 'å ta et friår',
+    english: 'to take a gap year',
+    spanish: 'tomar un año sabático',
+  },
+  {
+    norwegian: 'i ett felt',
+    english: 'in one field',
+    spanish: 'en un campo',
+  },
+  {
+    norwegian: 'å ha bred kunnskap',
+    english: 'to have broad knowledge',
+    spanish: 'tener un amplio conocimiento',
+  },
+  {
+    norwegian: 'etterspurt',
+    english: 'in demand',
+    spanish: 'en demanda',
+  },
+  {
+    norwegian: 'lidenskapelig opptatt av',
+    english: 'passionate about',
+    spanish: 'apasionado por',
+  },
+  {
+    norwegian: 'fjernarbeid',
+    english: 'remote work',
+    spanish: 'trabajo remoto',
+  },
+  {
+    norwegian: 'Hva er dine forventninger til en framtidig jobb?',
+    english: 'What are your expectations for a future job?',
+    spanish: '¿Cuáles son tus expectativas para un trabajo futuro?',
+  },
+  {
+    norwegian: 'overveldet',
+    english: 'overwhelmed',
+    spanish: 'abrumado',
+  },
+  {
+    norwegian: 'nåværende',
+    english: 'current',
+    spanish: 'actual',
+  },
+  {
+    norwegian: 'å oppnå, oppnår, oppnår, oppnådd, har oppnådd',
+    english: 'to achieve, achieves, achieving, achieved, has achieved',
+    spanish: 'lograr, logra, logrando, logrado, ha logrado',
+  },
+  {
+    norwegian: 'Hva er dine tanker om livslang læring?',
+    english: 'What are your thoughts on lifelong learning?',
+    spanish: '¿Cuáles son tus pensamientos sobre el aprendizaje continuo?',
+  },
+  {
+    norwegian: 'praktisk erfaring',
+    english: 'practical experience',
+    spanish: 'experiencia práctica',
+  },
+  {
     norwegian: 'et teaterstykke',
     english: 'a play',
     spanish: 'una obra de teatro',
@@ -97,7 +162,7 @@ export const words: Question[] = [
     spanish: '¿cómo manejas el miedo escénico?',
   },
   {
-    norwegian: '⁠Hvordan påvirker film syn?',
+    norwegian: 'Hvordan påvirker film syn?',
     english: 'How does film influence vision?',
     spanish: '¿Cómo influye el cine en la visión?',
   },
