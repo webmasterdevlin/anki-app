@@ -2,6 +2,131 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'å sikre likhet og rettferdighet',
+    english: 'to ensure equality and justice',
+    spanish: 'asegurar la igualdad y la justicia',
+  },
+  {
+    norwegian: 'Har det noen særtrekk',
+    english: 'Does it have any characteristics',
+    spanish: '¿Tiene alguna característica',
+  },
+  {
+    norwegian: 'oppfatning',
+    english: 'perception',
+    spanish: 'percepción',
+  },
+  {
+    norwegian: 'Hvordan har innvandring beriket norsk kultur?',
+    english: 'How has immigration enriched Norwegian culture?',
+    spanish: '¿Cómo ha enriquecido la inmigración la cultura noruega?',
+  },
+  {
+    norwegian: 'å bevare dialektene',
+    english: 'to preserve the dialects',
+    spanish: 'preservar los dialectos',
+  },
+  {
+    norwegian: 'ivareta psykisk',
+    english: 'to take care of mental',
+    spanish: 'cuidar de la salud mental',
+  },
+  {
+    norwegian: 'skikk du synes er interessant',
+    english: 'custom you find interesting',
+    spanish: 'costumbre que encuentras interesante',
+  },
+  {
+    norwegian: 'Hva er betydningen av "friluftsliv" for nordmenn? Er det like viktig for deg?',
+    english: 'What is the significance of "friluftsliv" for Norwegians? Is it equally important to you?',
+    spanish: '¿Cuál es el significado de "friluftsliv" para los noruegos? ¿Es igualmente importante para ti?',
+  },
+  {
+    norwegian: 'satse mer på utdanning',
+    english: 'to invest more in education',
+    spanish: 'invertir más en educación',
+  },
+  {
+    norwegian: 'satse mer på fornybar energi',
+    english: 'to invest more in renewable energy',
+    spanish: 'invertir más en energía renovable',
+  },
+  {
+    norwegian: 'enkeltpersonens ansvar å hjelpe de som sliter',
+    english: "the individual's responsibility to help those in need",
+    spanish: 'la responsabilidad del individuo de ayudar a los necesitados',
+  },
+  {
+    norwegian: 'Hvordan kan man fremme bedre forståelse mellom ulike kulturer i Norge?',
+    english: 'How can we promote better understanding between different cultures in Norway?',
+    spanish: '¿Cómo podemos promover una mejor comprensión entre diferentes culturas en Noruega?',
+  },
+  {
+    norwegian: 'borgere og befolkninger',
+    english: 'citizens and populations',
+    spanish: 'ciudadanos y poblaciones',
+  },
+  {
+    norwegian: 'en aldrende befolkning',
+    english: 'an aging population',
+    spanish: 'una población envejecida',
+  },
+  {
+    norwegian: 'trusselen mot miljøet i dag',
+    english: 'the threat to the environment today',
+    spanish: 'la amenaza al medio ambiente hoy',
+  },
+  {
+    norwegian: 'overvåking (f.eks. kameraer, datainnsamling)',
+    english: 'surveillance (e.g., cameras, data collection)',
+    spanish: 'vigilancia (por ejemplo, cámaras, recopilación de datos)',
+  },
+  {
+    norwegian: 'Er ytringsfrihet absolutt, eller bør den begrenses i noen tilfeller? Gi eksempler.',
+    english: 'Is freedom of speech absolute, or should it be limited in some cases? Give examples.',
+    spanish: '¿Es la libertad de expresión absoluta o debería limitarse en algunos casos? Da ejemplos.',
+  },
+  {
+    norwegian: 'bekjempe ensomhet',
+    english: 'to combat loneliness',
+    spanish: 'combatir la soledad',
+  },
+  {
+    norwegian: 'å bevare små lokalsamfunn',
+    english: 'to preserve small communities',
+    spanish: 'preservar las pequeñas comunidades',
+  },
+  {
+    norwegian: 'gassnæringen',
+    english: 'the gas industry',
+    spanish: 'la industria del gas',
+  },
+  {
+    norwegian: 'velferdsmodellen',
+    english: 'the welfare model',
+    spanish: 'el modelo de bienestar',
+  },
+  {
+    norwegian: 'i bred forstand',
+    english: 'in a broad sense',
+    spanish: 'en un sentido amplio',
+  },
+  {
+    norwegian: 'innvandring og integrering i Norge',
+    english: 'immigration and integration in Norway',
+    spanish: 'inmigración e integración en Noruega',
+  },
+  {
+    norwegian: 'Hvordan kan vanlige borgere bidra til et mer bærekraftig samfunn?',
+    english: 'How can ordinary citizens contribute to a more sustainable society?',
+    spanish: '¿Cómo pueden los ciudadanos comunes contribuir a una sociedad más sostenible?',
+  },
+  {
+    norwegian: 'samfunnet står overfor i dag',
+    english: 'the challenges society faces today',
+    spanish: 'los desafíos que enfrenta la sociedad hoy',
+  },
+  {
     norwegian: 'Hvordan forbereder du',
     english: 'How do you prepare',
     spanish: '¿Cómo te preparas',
