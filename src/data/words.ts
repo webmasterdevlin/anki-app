@@ -2,6 +2,126 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'et teaterstykke',
+    english: 'a play',
+    spanish: 'una obra de teatro',
+  },
+  {
+    norwegian: 'en norsk sti',
+    english: 'a Norwegian path',
+    spanish: 'un sendero noruego',
+  },
+  {
+    norwegian: 'en klatrevegg',
+    english: 'a climbing wall',
+    spanish: 'una pared de escalada',
+  },
+  {
+    norwegian: 'hvordan påvirker høyde helse?',
+    english: 'how does altitude affect health?',
+    spanish: '¿cómo afecta la altitud a la salud?',
+  },
+  {
+    norwegian: 'nasjonale verneområder',
+    english: 'national reserves',
+    spanish: 'reservas nacionales',
+  },
+  {
+    norwegian: 'en hytteopplevelse',
+    english: 'a cabin experience',
+    spanish: 'una experiencia en cabaña',
+  },
+  {
+    norwegian: 'diskuter fjellvær',
+    english: 'discuss mountain weather',
+    spanish: 'discute el clima de montaña',
+  },
+  {
+    norwegian: 'en båttur',
+    english: 'a boat trip',
+    spanish: 'un viaje en barco',
+  },
+  {
+    norwegian: 'et fiskeeventyr',
+    english: 'a fishing adventure',
+    spanish: 'una aventura de pesca',
+  },
+  {
+    norwegian: 'Hvordan takler du sjøsyke?',
+    english: 'How do you handle seasickness?',
+    spanish: '¿Cómo manejas el mareo?',
+  },
+  {
+    norwegian: 'havforurensning',
+    english: 'ocean pollution',
+    spanish: 'contaminación oceánica',
+  },
+  {
+    norwegian: 'snørydding',
+    english: 'snow removal',
+    spanish: 'remoción de nieve',
+  },
+  {
+    norwegian: 'vintersolverv',
+    english: 'winter solstice',
+    spanish: 'solsticio de invierno',
+  },
+  {
+    norwegian: 'skredsikkerhet',
+    english: 'avalanche safety',
+    spanish: 'seguridad contra avalanchas',
+  },
+  {
+    norwegian: 'en høstvandring',
+    english: 'an autumn walk',
+    spanish: 'una caminata de otoño',
+  },
+  {
+    norwegian: 'hvordan påvirker teater tillit?',
+    english: 'how does theater influence trust?',
+    spanish: '¿cómo influye el teatro en la confianza?',
+  },
+  {
+    norwegian: 'teaterkritikk',
+    english: 'theater criticism',
+    spanish: 'crítica teatral',
+  },
+  {
+    norwegian: 'en øving',
+    english: 'a rehearsal',
+    spanish: 'un ensayo',
+  },
+  {
+    norwegian: 'hvordan takler du lampefeber?',
+    english: 'how do you handle stage fright?',
+    spanish: '¿cómo manejas el miedo escénico?',
+  },
+  {
+    norwegian: '⁠Hvordan påvirker film syn?',
+    english: 'How does film influence vision?',
+    spanish: '¿Cómo influye el cine en la visión?',
+  },
+  {
+    norwegian: 'Diskuter regissør.',
+    english: 'Discuss the director.',
+    spanish: 'Discute el director.',
+  },
+  {
+    norwegian: 'nyinnspillinger',
+    english: 'remakes',
+    spanish: 'remakes',
+  },
+  {
+    norwegian: 'seertall',
+    english: 'viewership',
+    spanish: 'audiencia',
+  },
+  {
+    norwegian: 'nyhetsflom',
+    english: 'news flood',
+    spanish: 'inundación de noticias',
+  },
+  {
     norwegian: 'Hvordan inspirerer bøker reiselyst?',
     english: 'How do books inspire travel?',
     spanish: '¿Cómo inspiran los libros a viajar?',
