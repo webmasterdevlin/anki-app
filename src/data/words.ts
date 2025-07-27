@@ -2,6 +2,76 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Hvordan inspirerer bøker reiselyst?',
+    english: 'How do books inspire travel?',
+    spanish: '¿Cómo inspiran los libros a viajar?',
+  },
+  {
+    norwegian: 'en bokanmeldelse',
+    english: 'a book review',
+    spanish: 'una reseña de libro',
+  },
+  {
+    norwegian: 'bokhyllen din',
+    english: 'your bookshelf',
+    spanish: 'tu estantería',
+  },
+  {
+    norwegian: 'satire',
+    english: 'satire',
+    spanish: 'sátira',
+  },
+  {
+    norwegian: 'en komiker du beundrer',
+    english: 'a comedian you admire',
+    spanish: 'un comediante que admiras',
+  },
+  {
+    norwegian: 'komediefestivaler',
+    english: 'comedy festivals',
+    spanish: 'festivales de comedia',
+  },
+  {
+    norwegian: 'en latterlig feil du har gjort',
+    english: 'a ridiculous mistake you have made',
+    spanish: 'un error ridículo que has cometido',
+  },
+  {
+    norwegian: 'eskriv hvordan du dyrker urter hjemme',
+    english: 'describe how you grow herbs at home',
+    spanish: 'describe cómo cultivas hierbas en casa',
+  },
+  {
+    norwegian: 'Hva med byhager?',
+    english: 'What about urban gardens?',
+    spanish: '¿Qué hay de los jardines urbanos?',
+  },
+  {
+    norwegian: 'blomsterdyrking',
+    english: 'flower cultivation',
+    spanish: 'cultivo de flores',
+  },
+  {
+    norwegian: 'Hvordan hjelper hagearbeid mot stress?',
+    english: 'How does gardening help with stress?',
+    spanish: '¿Cómo ayuda la jardinería con el estrés?',
+  },
+  {
+    norwegian: 'Diskuter bier og pollinering',
+    english: 'Discuss bees and pollination',
+    spanish: 'Discute las abejas y la polinización',
+  },
+  {
+    norwegian: 'genmodifiserte avlinger',
+    english: 'genetically modified crops',
+    spanish: 'cultivos genéticamente modificados',
+  },
+  {
+    norwegian: 'diskuter invasive arter',
+    english: 'discuss invasive species',
+    spanish: 'discute las especies invasoras',
+  },
+  {
     norwegian: 'reklamepauser',
     english: 'commercial breaks',
     spanish: 'pausas comerciales',
