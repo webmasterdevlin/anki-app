@@ -2,6 +2,96 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Jeg fikset og jeg fullførte og jeg bygget og jeg skapte og jeg laget',
+    english: 'I fixed and i completed and I built and I created and I made',
+    spanish: 'Yo arreglé y completé y construí y creé y hice',
+  },
+  {
+    norwegian: 'Jeg fullførte og jeg utviklet og jeg la til og jeg satte opp og jeg klarte å og jeg gjorde',
+    english: 'I finished and I developed and I put and I set up and I managed to and I did',
+    spanish: 'Yo terminé y desarrollé y puse y configuré y logré y hice',
+  },
+  {
+    norwegian: 'Beskriv ditt drømmereisemål. Hvorfor vil du dit?',
+    english: 'Describe your dream travel destination. Why do you want to go there?',
+    spanish: 'Describe tu destino de viaje soñado. ¿Por qué quieres ir allí?',
+  },
+  {
+    norwegian: 'statsminister',
+    english: 'prime minister',
+    spanish: 'primer ministro',
+  },
+  {
+    norwegian: 'én ny skikk eller tradisjon i samfunnet',
+    english: 'a new custom or tradition in society',
+    spanish: 'una nueva costumbre o tradición en la sociedad',
+  },
+  {
+    norwegian: 'Hvis du kunne være dyktig i noe du ikke er i dag, hva ville det vært?',
+    english: 'If you could be skilled at something you are not today, what would it be?',
+    spanish: 'Si pudieras ser hábil en algo que no eres hoy, ¿qué sería?',
+  },
+  {
+    norwegian: 'fikk ubegrenset med penger',
+    english: 'got unlimited money',
+    spanish: 'tuviera dinero ilimitado',
+  },
+  {
+    norwegian: 'de grensesnittene er de samme',
+    english: 'interfaces are the same',
+    spanish: 'esas interfaces son las mismas',
+  },
+  {
+    norwegian: 'langsom reising',
+    english: 'slow travel',
+    spanish: 'viaje lento',
+  },
+  {
+    norwegian: 'jeg la merke til',
+    english: 'I noticed',
+    spanish: 'me di cuenta',
+  },
+  {
+    norwegian: 'reise utvide ens horisont',
+    english: "travel broadens one's horizons",
+    spanish: 'viajar amplía los horizontes de uno',
+  },
+  {
+    norwegian: 'noen grunnleggende fraser',
+    english: 'some basic phrases',
+    spanish: 'algunas frases básicas',
+  },
+  {
+    norwegian: 'som gjorde sterkt inntrykk på deg',
+    english: 'that made a strong impression on you',
+    spanish: 'que te impresionó mucho',
+  },
+  {
+    norwegian: 'å takle kultursjokk',
+    english: 'to deal with culture shock',
+    spanish: 'enfrentar el choque cultural',
+  },
+  {
+    norwegian: 'mest minneverdige',
+    english: 'most memorable',
+    spanish: 'más memorable',
+  },
+  {
+    norwegian: 'Hvordan har lavprisfly endret måten vi reiser på?',
+    english: 'How have low-cost airlines changed the way we travel?',
+    spanish: '¿Cómo han cambiado las aerolíneas de bajo costo la forma en que viajamos?',
+  },
+  {
+    norwegian: 'om kryssning som reiseform',
+    english: 'about cruising as a form of travel',
+    spanish: 'sobre los cruceros como forma de viajar',
+  },
+  {
+    norwegian: 'skikker og tradisjoner',
+    english: 'customs and traditions',
+    spanish: 'costumbres y tradiciones',
+  },
+  {
     norwegian: 'for opptatt av utseende',
     english: 'obsessed with appearance',
     spanish: 'obsesionado con la apariencia',
