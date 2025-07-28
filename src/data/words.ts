@@ -2,6 +2,61 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'for opptatt av utseende',
+    english: 'obsessed with appearance',
+    spanish: 'obsesionado con la apariencia',
+  },
+  {
+    norwegian: 'forebyggende helsearbeid viktigere enn behandling',
+    english: 'preventive healthcare is more important than treatment',
+    spanish: 'la atención médica preventiva es más importante que el tratamiento',
+  },
+  {
+    norwegian: 'Hva gjør du personlig for å holde deg både fysisk og mentalt i form?',
+    english: 'What do you personally do to stay both physically and mentally fit?',
+    spanish: '¿Qué haces personalmente para mantenerte en forma tanto física como mentalmente?',
+  },
+  {
+    norwegian: 'av medisinsk cannabis',
+    english: 'of medical cannabis',
+    spanish: 'de cannabis medicinal',
+  },
+  {
+    norwegian: 'sliter med psykiske problemer',
+    english: 'struggles with mental health issues',
+    spanish: 'lucha con problemas de salud mental',
+  },
+  {
+    norwegian: 'betydningen av "friluftsliv"',
+    english: 'the significance of "outdoor life"',
+    spanish: 'el significado de "vida al aire libre"',
+  },
+  {
+    norwegian: 'offentlig helsevesen',
+    english: 'public healthcare',
+    spanish: 'atención médica pública',
+  },
+  {
+    norwegian: 'å fremme',
+    english: 'to promote',
+    spanish: 'promover',
+  },
+  {
+    norwegian: 'på sikt',
+    english: 'in the long term',
+    spanish: 'a largo plazo',
+  },
+  {
+    norwegian: 'samfunnets ansvar å sikre at folk lever sunt',
+    english: "society's responsibility to ensure that people live healthily",
+    spanish: 'la responsabilidad de la sociedad de garantizar que las personas vivan de manera saludable',
+  },
+  {
+    norwegian: 'matvarer',
+    english: 'food products',
+    spanish: 'productos alimenticios',
+  },
+  {
     norwegian: 'bruken av bunad',
     english: 'the use of traditional costume',
     spanish: 'el uso del traje tradicional',
