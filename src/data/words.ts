@@ -2,6 +2,56 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'bruken av bunad',
+    english: 'the use of traditional costume',
+    spanish: 'el uso del traje tradicional',
+  },
+  {
+    norwegian: 'Kan teknologi erstatte menneskelig kontakt fullstendig?',
+    english: 'Can technology completely replace human contact?',
+    spanish: '¿Puede la tecnología reemplazar completamente el contacto humano?',
+  },
+  {
+    norwegian: 'medier dekker kultur',
+    english: 'media covers culture',
+    spanish: 'los medios cubren la cultura',
+  },
+  {
+    norwegian: 'idrett',
+    english: 'sports',
+    spanish: 'deportes',
+  },
+  {
+    norwegian: 'teknologiske oppfinnelsen de siste 20 årene',
+    english: 'technological invention in the last 20 years',
+    spanish: 'invención tecnológica en los últimos 20 años',
+  },
+  {
+    norwegian: 'farene ved',
+    english: 'the dangers of',
+    spanish: 'los peligros de',
+  },
+  {
+    norwegian: 'bosette seg på',
+    english: 'to settle in',
+    spanish: 'establecerse en',
+  },
+  {
+    norwegian: 'erstatte menneskelig kontakt fullstendig',
+    english: 'to completely replace human contact',
+    spanish: 'reemplazar completamente el contacto humano',
+  },
+  {
+    norwegian: 'Hvordan kan man fremme et sunnere livsstil i befolkningen?',
+    english: 'How can we promote a healthier lifestyle in the population?',
+    spanish: '¿Cómo podemos promover un estilo de vida más saludable en la población?',
+  },
+  {
+    norwegian: 'Hvordan påvirker kostholdet vårt helse og velvære på sikt?',
+    english: 'How does our diet affect our health and well-being in the long term?',
+    spanish: '¿Cómo afecta nuestra dieta a nuestra salud y bienestar a largo plazo?',
+  },
+  {
     norwegian: 'å sikre likhet og rettferdighet',
     english: 'to ensure equality and justice',
     spanish: 'asegurar la igualdad y la justicia',
