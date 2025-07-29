@@ -2,6 +2,36 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en øde øy',
+    english: 'a deserted island',
+    spanish: 'una isla desierta',
+  },
+  {
+    norwegian: 'det ikke fantes penger',
+    english: 'if there were no money',
+    spanish: 'si no hubiera dinero',
+  },
+  {
+    norwegian: 'snakke alle verdens språk flytende',
+    english: 'speak all the languages of the world fluently',
+    spanish: 'hablar todos los idiomas del mundo con fluidez',
+  },
+  {
+    norwegian: 'oppdaget en ny planet',
+    english: 'discovered a new planet',
+    spanish: 'descubierto un nuevo planeta',
+  },
+  {
+    norwegian: 'uttrykk og ordtak i et språk',
+    english: 'expressions and sayings in a language',
+    spanish: 'expresiones y refranes en un idioma',
+  },
+  {
+    norwegian: 'å huske nytt ordforråd',
+    english: 'to remember new vocabulary',
+    spanish: 'recordar nuevo vocabulario',
+  },
+  {
     norwegian: 'Jeg fikset og jeg fullførte og jeg bygget og jeg skapte og jeg laget',
     english: 'I fixed and i completed and I built and I created and I made',
     spanish: 'Yo arreglé y completé y construí y creé y hice',
