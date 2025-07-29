@@ -2,6 +2,116 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'kjønnsnøytralt språk',
+    english: 'gender-neutral language',
+    spanish: 'lenguaje neutral en cuanto al género',
+  },
+  {
+    norwegian: 'Kan krig noensinne være berettiget',
+    english: 'Can war ever be justified',
+    spanish: '¿Puede la guerra ser alguna vez justificada',
+  },
+  {
+    norwegian: 'å leve i øyeblikket eller å planlegge for fremtiden',
+    english: 'to live in the moment or to plan for the future',
+    spanish: 'vivir en el momento o planificar para el futuro',
+  },
+  {
+    norwegian: 'vi fremme mer toleranse og mindre hat i verden',
+    english: 'we promote more tolerance and less hate in the world',
+    spanish: 'promovemos más tolerancia y menos odio en el mundo',
+  },
+  {
+    norwegian: 'Er det rikdom, kjærlighet, innflytelse, lykke eller noe annet',
+    english: 'Is it wealth, love, influence, happiness or something else',
+    spanish: '¿Es riqueza, amor, influencia, felicidad o algo más',
+  },
+  {
+    norwegian: 'for fremtidige generasjoner å bevare',
+    english: 'for future generations to preserve',
+    spanish: 'para que las generaciones futuras lo conserven',
+  },
+  {
+    norwegian: 'en medfødt tendens til godhet eller ondskap',
+    english: 'an innate tendency towards goodness or evil',
+    spanish: 'una tendencia innata hacia la bondad o el mal',
+  },
+  {
+    norwegian: 'suksess og vellykket',
+    english: 'success and successful',
+    spanish: 'éxito y exitoso',
+  },
+  {
+    norwegian: 'det absolutt sannhet',
+    english: 'the absolute truth',
+    spanish: 'la verdad absoluta',
+  },
+  {
+    norwegian: 'grammatikk, uttale, ordforråd eller å forstå ulike dialekter',
+    english: 'grammar, pronunciation, vocabulary or understanding different dialects',
+    spanish: 'gramática, pronunciación, vocabulario o comprensión de diferentes dialectos',
+  },
+  {
+    norwegian: 'utviklingsland',
+    english: 'developing countries',
+    spanish: 'países en desarrollo',
+  },
+  {
+    norwegian: 'overvinne frykten for å snakke på et fremmedspråk',
+    english: 'overcome the fear of speaking in a foreign language',
+    spanish: 'superar el miedo a hablar en un idioma extranjero',
+  },
+  {
+    norwegian: 'å være flerspråklig',
+    english: 'to be multilingual',
+    spanish: 'ser multilingüe',
+  },
+  {
+    norwegian: 'oversettelsesverktøy',
+    english: 'translation tools',
+    spanish: 'herramientas de traducción',
+  },
+  {
+    norwegian: 'i ulike situasjoner',
+    english: 'in different situations',
+    spanish: 'en diferentes situaciones',
+  },
+  {
+    norwegian: 'kommuniserer: ordene, tonen eller kroppsspråket',
+    english: 'communicates: the words, the tone or body language',
+    spanish: 'comunica: las palabras, el tono o el lenguaje corporal',
+  },
+  {
+    norwegian: 'å oversette i hodet',
+    english: 'to translate in your head',
+    spanish: 'traducir en tu cabeza',
+  },
+  {
+    norwegian: 'stegene for å bekjempe klimakrisen',
+    english: 'the steps to combat the climate crisis',
+    spanish: 'los pasos para combatir la crisis climática',
+  },
+  {
+    norwegian: 'språkferdighetene dine på norsk',
+    english: 'your language skills in Norwegian',
+    spanish: 'tus habilidades lingüísticas en noruego',
+  },
+  {
+    norwegian: 'språklig inkludering',
+    english: 'linguistic inclusion',
+    spanish: 'inclusión lingüística',
+  },
+  {
+    norwegian: 'norskopplæringen fremover',
+    english: 'the future of Norwegian language learning',
+    spanish: 'el futuro del aprendizaje del idioma noruego',
+  },
+  {
+    norwegian: 'den største trusselen mot verdensfreden',
+    english: 'the biggest threat to world peace',
+    spanish: 'la mayor amenaza para la paz mundial',
+  },
+  {
     norwegian: 'en øde øy',
     english: 'a deserted island',
     spanish: 'una isla desierta',
