@@ -147,9 +147,9 @@ export const words: Question[] = [
     spanish: 'recordar nuevo vocabulario',
   },
   {
-    norwegian: 'Jeg fikset og jeg fullførte og jeg bygget og jeg skapte og jeg laget',
-    english: 'I fixed and i completed and I built and I created and I made',
-    spanish: 'Yo arreglé y completé y construí y creé y hice',
+    norwegian: 'Jeg fikset og jeg fullførte og jeg bygget og jeg skapte og jeg opprettet og jeg laget',
+    english: 'I fixed and i completed and I built and I created and I established and I made',
+    spanish: 'Yo arreglé y terminé y construí y creé y establecí y hice',
   },
   {
     norwegian: 'Jeg fullførte og jeg utviklet og jeg la til og jeg satte opp og jeg klarte å og jeg gjorde',
