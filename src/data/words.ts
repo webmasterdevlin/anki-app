@@ -152,9 +152,9 @@ export const words: Question[] = [
     spanish: 'Yo arreglé y terminé y construí y creé y establecí y hice',
   },
   {
-    norwegian: 'Jeg fullførte og jeg utviklet og jeg la til og jeg satte opp og jeg klarte å og jeg gjorde',
-    english: 'I finished and I developed and I put and I set up and I managed to and I did',
-    spanish: 'Yo terminé y desarrollé y puse y configuré y logré y hice',
+    norwegian: 'Jeg satte og jeg fullførte og jeg utviklet og jeg satte opp og jeg la til og jeg klarte og jeg gjorde',
+    english: 'I put and I finished and I developed and I set up and I added and I managed to and I did',
+    spanish: 'Yo puse y terminé y desarrollé y configuré y añadí y logré y hice',
   },
   {
     norwegian: 'Beskriv ditt drømmereisemål. Hvorfor vil du dit?',
