@@ -2,6 +2,11 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'inntil',
+    english: 'until',
+    spanish: 'hasta',
+  },
+  {
     norwegian: 'kjønnsnøytralt språk',
     english: 'gender-neutral language',
     spanish: 'lenguaje neutral en cuanto al género',
