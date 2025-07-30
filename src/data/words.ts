@@ -377,9 +377,14 @@ export const words: Question[] = [
     spanish: 'costumbre que encuentras interesante',
   },
   {
-    norwegian: 'Hva er betydningen av "friluftsliv" for nordmenn? Er det like viktig for deg?',
-    english: 'What is the significance of "friluftsliv" for Norwegians? Is it equally important to you?',
-    spanish: '¿Cuál es el significado de "friluftsliv" para los noruegos? ¿Es igualmente importante para ti?',
+    norwegian: 'Hva er betydningen av "friluftsliv" for nordmenn?',
+    english: 'What is the significance of "outdoor activities" for Norwegians?',
+    spanish: '¿Cuál es el significado de "actividades al aire libre" para los noruegos?',
+  },
+  {
+    norwegian: 'Er det like viktig for deg?',
+    english: 'Is it equally important to you?',
+    spanish: '¿Es igualmente importante para ti?',
   },
   {
     norwegian: 'satse mer på utdanning',
