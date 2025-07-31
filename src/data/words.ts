@@ -2,6 +2,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'oppdateringene er i innstillingene',
+    english: 'the updates are in the settings',
+    spanish: 'las actualizaciones están en la configuración',
+  },
+  {
+    norwegian: 'en lederstilling',
+    english: 'a leadership position',
+    spanish: 'un puesto de liderazgo',
+  },
+  {
     norwegian: 'inntil',
     english: 'until',
     spanish: 'hasta',
