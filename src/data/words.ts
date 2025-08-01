@@ -2,6 +2,281 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'Hvilke fag bør legges til/fjernes fra skolen?',
+    english: 'Which subjects should be added/removed from school?',
+    spanish: '¿Qué materias deberían añadirse o eliminarse de la escuela?',
+  },
+  {
+    norwegian: 'største styrke',
+    english: 'biggest strength',
+    spanish: 'mayor fortaleza',
+  },
+  {
+    norwegian: 'Hvordan definerer du "lykke," og hva gjør deg lykkelig?  ',
+    english: 'How do you define "happiness," and what makes you happy?',
+    spanish: '¿Cómo defines "felicidad" y qué te hace feliz?',
+  },
+  {
+    norwegian: 'motgang',
+    english: 'adversity',
+    spanish: 'adversidad',
+  },
+  {
+    norwegian: 'for å holde motivasjonen oppe',
+    english: 'to keep the motivation up',
+    spanish: 'para mantener la motivación alta',
+  },
+  {
+    norwegian: 'forbedre helsevesenet',
+    english: 'to improve healthcare',
+    spanish: 'mejorar la atención médica',
+  },
+  {
+    norwegian: 'farene ved avhengighet',
+    english: 'the dangers of addiction',
+    spanish: 'los peligros de la adicción',
+  },
+  {
+    norwegian: 'å bli "glemt"',
+    english: 'to be "forgotten"',
+    spanish: 'ser "olvidado"',
+  },
+  {
+    norwegian: 'Kan roboter noensinne erstatte menneskelig omsorg?',
+    english: 'Can robots ever replace human care?',
+    spanish: '¿Pueden los robots alguna vez reemplazar el cuidado humano?',
+  },
+  {
+    norwegian: 'selvutviklende AI',
+    english: 'self-developing AI',
+    spanish: 'IA autodesarrollable',
+  },
+  {
+    norwegian: 'er yrkesfag like viktig',
+    english: 'are vocational subjects equally important',
+    spanish: '¿son las asignaturas vocacionales igualmente importantes',
+  },
+  {
+    norwegian: 'nyutdannede',
+    english: 'new graduates',
+    spanish: 'nuevos graduados',
+  },
+  {
+    norwegian: 'Bør lærere erstattes av digitale verktøy?',
+    english: 'Should teachers be replaced by digital tools?',
+    spanish: '¿Deberían los maestros ser reemplazados por herramientas digitales?',
+  },
+  {
+    norwegian: 'vi bryte',
+    english: 'we break',
+    spanish: 'rompemos',
+  },
+  {
+    norwegian: 'å redusere avfall på',
+    english: 'to reduce waste on',
+    spanish: 'reducir el desperdicio en',
+  },
+  {
+    norwegian: 'matsvinn',
+    english: 'food waste',
+    spanish: 'desperdicio de alimentos',
+  },
+  {
+    norwegian: 'Bør genmodifisert mat være mer utbredt?',
+    english: 'Should genetically modified food be more widespread?',
+    spanish: '¿Debería la comida genéticamente modificada ser más común?',
+  },
+  {
+    norwegian: 'nyankomne',
+    english: 'newcomers',
+    spanish: 'recién llegados',
+  },
+  {
+    norwegian: 'den morsomste misforståelsen',
+    english: 'the funniest misunderstanding',
+    spanish: 'el malentendido más divertido',
+  },
+  {
+    norwegian: 'usynlig',
+    english: 'invisible',
+    spanish: 'invisible',
+  },
+  {
+    norwegian: 'oppfinne noe',
+    english: 'invent something',
+    spanish: 'inventar algo',
+  },
+  {
+    norwegian: 'sansene dine',
+    english: 'your senses',
+    spanish: 'tus sentidos',
+  },
+  {
+    norwegian: 'mer ensomme',
+    english: 'more lonely',
+    spanish: 'más solitarios',
+  },
+  {
+    norwegian: 'innvandring berike',
+    english: 'immigration enrich',
+    spanish: 'la inmigración enriquece',
+  },
+  {
+    norwegian: 'et standpunkt',
+    english: 'a standpoint',
+    spanish: 'un punto de vista',
+  },
+  {
+    norwegian: 'sivil ulydighet',
+    english: 'civil disobedience',
+    spanish: 'desobediencia civil',
+  },
+  {
+    norwegian: 'den største urettferdigheten',
+    english: 'the biggest injustice',
+    spanish: 'la mayor injusticia',
+  },
+  {
+    norwegian: 'å stemme ved valg',
+    english: 'to vote in elections',
+    spanish: 'votar en elecciones',
+  },
+  {
+    norwegian: 'romturisme',
+    english: 'space tourism',
+    spanish: 'turismo espacial',
+  },
+  {
+    norwegian: 'noensinne',
+    english: 'ever',
+    spanish: 'alguna vez',
+  },
+  {
+    norwegian: 'skremmer deg mest',
+    english: 'scares you the most',
+    spanish: 'te asusta más',
+  },
+  {
+    norwegian: 'å endre vaner',
+    english: 'to change habits',
+    spanish: 'cambiar hábitos',
+  },
+  {
+    norwegian: 'den største årsaken til at folk lyver',
+    english: 'the biggest reason people lie',
+    spanish: 'la mayor razón por la que la gente miente',
+  },
+  {
+    norwegian: 'oppdragelse',
+    english: 'upbringing',
+    spanish: 'educación',
+  },
+  {
+    norwegian: 'flokkmentalitet',
+    english: 'herd mentality',
+    spanish: 'mentalidad de rebaño',
+  },
+  {
+    norwegian: 'å takle avvisning',
+    english: 'to handle rejection',
+    spanish: 'manejar el rechazo',
+  },
+  {
+    norwegian: 'å bryte loven',
+    english: 'to break the law',
+    spanish: 'romper la ley',
+  },
+  {
+    norwegian: 'dyrevelferd',
+    english: 'animal welfare',
+    spanish: 'bienestar animal',
+  },
+  {
+    norwegian: 'avgjørelsen',
+    english: 'the decision',
+    spanish: 'la decisión',
+  },
+  {
+    norwegian: 'ytringsfrihet',
+    english: 'freedom of speech',
+    spanish: 'libertad de expresión',
+  },
+  {
+    norwegian: 'noensinne',
+    english: 'ever',
+    spanish: 'alguna vez',
+  },
+  {
+    norwegian: 'Hva er den sunneste vanen din?',
+    english: 'What is your healthiest habit?',
+    spanish: '¿Cuál es tu hábito más saludable?',
+  },
+  {
+    norwegian: 'den største myten om sunnhet',
+    english: 'the biggest myth about health',
+    spanish: 'el mayor mito sobre la salud',
+  },
+  {
+    norwegian: 'fedmeepidemien',
+    english: 'the obesity epidemic',
+    spanish: 'la epidemia de obesidad',
+  },
+  {
+    norwegian: 'forstyrrende',
+    english: 'disturbing',
+    spanish: 'perturbador',
+  },
+  {
+    norwegian: 'den mest overvurderte boken',
+    english: 'the most overrated book',
+    spanish: 'el libro más sobrevalorado',
+  },
+  {
+    norwegian: 'vurdert',
+    english: 'rated',
+    spanish: 'calificado',
+  },
+  {
+    norwegian: 'å vurdere',
+    english: 'to rate',
+    spanish: 'calificar',
+  },
+  {
+    norwegian: 'å vurdere',
+    english: 'to consider',
+    spanish: 'considerar',
+  },
+  {
+    norwegian: 'å bevare',
+    english: 'to preserve',
+    spanish: 'preservar',
+  },
+  {
+    norwegian: 'frykt',
+    english: 'fear',
+    spanish: 'miedo',
+  },
+  {
+    norwegian: 'å ha oppnådd innen',
+    english: 'to have achieved in',
+    spanish: 'haber logrado en',
+  },
+  {
+    norwegian: 'egenskapen',
+    english: 'the quality',
+    spanish: 'la cualidad',
+  },
+  {
+    norwegian: 'påstanden',
+    english: 'the claim',
+    spanish: 'la afirmación',
+  },
+  {
+    norwegian: 'matretten',
+    english: 'the dish',
+    spanish: 'el plato',
+  },
+  {
     norwegian: 'oppdateringene er i innstillingene',
     english: 'the updates are in the settings',
     spanish: 'las actualizaciones están en la configuración',
