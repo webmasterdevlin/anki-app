@@ -3432,7 +3432,7 @@ export const words: Question[] = [
     spanish: 'desconocido',
   },
   {
-    norwegian: 'a threat',
+    norwegian: 'en trussel',
     english: 'a threat',
     spanish: 'una amenaza',
   },
