@@ -3643,8 +3643,13 @@ export const words: Question[] = [
   },
   {
     norwegian: 'byplanlegging',
-    english: 'innsatsen',
+    english: 'urban planning',
     spanish: 'planificación urbana',
+  },
+  {
+    norwegian: 'innsatsen',
+    english: 'the effort',
+    spanish: 'el esfuerzo',
   },
   {
     norwegian: 'fremme',
