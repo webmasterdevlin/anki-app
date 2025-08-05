@@ -2,6 +2,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'så lenge jeg lever',
+    english: 'as long as I am alive',
+    spanish: 'mientras viva',
+  },
+  {
+    norwegian: 'faner',
+    english: 'tabs',
+    spanish: 'pestañas',
+  },
+  {
     norwegian: 'Hvilke fag bør legges til/fjernes fra skolen?',
     english: 'Which subjects should be added/removed from school?',
     spanish: '¿Qué materias deberían añadirse o eliminarse de la escuela?',
