@@ -42,6 +42,16 @@ export const words: Question[] = [
     spanish: 'revisar',
   },
   {
+    norwegian:'nøyaktighet',
+    english: 'accuracy',
+    spanish: 'precisión',
+  },
+  {
+    norwegian:'opptaket',
+    english: 'the recording',
+    spanish: 'la grabación',
+  },
+  {
     norwegian: 'så lenge jeg lever',
     english: 'as long as I am alive',
     spanish: 'mientras viva',
