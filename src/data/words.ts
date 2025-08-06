@@ -2,6 +2,41 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'den aktive filtypen',
+    english: 'the active file type',
+    spanish: 'el tipo de archivo activo',
+  },
+  {
+    norwegian: 'du deaktivere forslag',
+    english: 'you disable suggestions',
+    spanish: 'desactivas las sugerencias',
+  },
+  {
+    norwegian: 'å beregne resultatet',
+    english: 'to calculate the result',
+    spanish: 'calcular el resultado',
+  },
+  {
+    norwegian: 'i chatmeldingen',
+    english: 'in the chat message',
+    spanish: 'en el mensaje de chat',
+  },
+  {
+    norwegian: 'ved å bruke knappen',
+    english: 'by using the button',
+    spanish: 'usando el botón',
+  },
+  {
+    norwegian: 'testtilfeller',
+    english: 'test cases',
+    spanish: 'casos de prueba',
+  },
+  {
+    norwegian: 'nedtrekksmenyen',
+    english: 'the dropdown menu',
+    spanish: 'el menú desplegable',
+  },
+  {
     norwegian: 'så lenge jeg lever',
     english: 'as long as I am alive',
     spanish: 'mientras viva',
