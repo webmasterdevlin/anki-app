@@ -2,6 +2,46 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'løft',
+    english: 'lift/boost',
+    spanish: 'levantar',
+  },
+  {
+    norwegian: 'gå gjennom oppsett',
+    english: 'go through the setup',
+    spanish: 'revisar la configuración',
+  },
+  {
+    norwegian: 'sanntidsforslag',
+    english: 'real-time suggestions',
+    spanish: 'sugerencias en tiempo real',
+  },
+  {
+    norwegian: 'færre repeterende oppgaver',
+    english: 'fewer repetitive tasks',
+    spanish: 'menos tareas repetitivas',
+  },
+  {
+    norwegian: 'utvidelser, utvidelsene',
+    english: 'extensions, the extensions',
+    spanish: 'extensiones, las extensiones',
+  },
+  {
+    norwegian: 'et allsidig',
+    english: 'a versatile',
+    spanish: 'un versátil',
+  },
+  {
+    norwegian: 'for å komme i gang',
+    english: 'to get started',
+    spanish: 'para empezar',
+  },
+  {
+    norwegian: 'gå gjennom',
+    english: 'go through',
+    spanish: 'revisar',
+  },
+  {
     norwegian: 'så lenge jeg lever',
     english: 'as long as I am alive',
     spanish: 'mientras viva',
