@@ -2,6 +2,106 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'oppfølgingsspørsmål',
+    english: 'follow-up questions',
+    spanish: 'preguntas de seguimiento',
+  },
+  {
+    norwegian: 'å holde musepekeren over',
+    english: 'to hover over',
+    spanish: 'pasar el cursor sobre',
+  },
+  {
+    norwegian: 'iterer ved å be om forbedringer',
+    english: 'iterates by asking for improvements',
+    spanish: 'itera pidiendo mejoras',
+  },
+  {
+    norwegian: 'nåværende valg',
+    english: 'current elections',
+    spanish: 'elecciones actuales',
+  },
+  {
+    norwegian: "den @-tegnet som også kjent som 'deltakere'",
+    english: "The @ sign which also known as 'participants'",
+    spanish: "El signo @ que también se conoce como 'participantes'",
+  },
+  {
+    norwegian: 'uten å forlate editoren',
+    english: 'without leaving the editor',
+    spanish: 'sin salir del editor',
+  },
+  {
+    norwegian: 'samhandle',
+    english: 'interact',
+    spanish: 'interactuar',
+  },
+  {
+    norwegian: 'kontekstavhengig assistanse',
+    english: 'context-dependent assistance',
+    spanish: 'asistencia dependiente del contexto',
+  },
+  {
+    norwegian: 'for å godta eller avvise enkeltvise',
+    english: 'to accept or reject individual',
+    spanish: 'para aceptar o rechazar individualmente',
+  },
+  {
+    norwegian: 'innebygde verktøy',
+    english: 'built-in tools',
+    spanish: 'herramientas integradas',
+  },
+  {
+    norwegian: 'ideell',
+    english: 'ideal',
+    spanish: 'ideal',
+  },
+  {
+    norwegian: 'enkeltstående spørsmål',
+    english: 'standalone questions',
+    spanish: 'preguntas independientes',
+  },
+  {
+    norwegian: 'bekreft kjøringer',
+    english: 'confirm runs',
+    spanish: 'confirmar ejecuciones',
+  },
+  {
+    norwegian: 'brukes for endringer innenfor',
+    english: 'used for changes within',
+    spanish: 'utilizado para cambios dentro de',
+  },
+  {
+    norwegian: 'et definert område',
+    english: 'a defined area',
+    spanish: 'un área definida',
+  },
+  {
+    norwegian: 'ventende',
+    english: 'pending',
+    spanish: 'pendiente',
+  },
+  {
+    norwegian: 'visningen',
+    english: 'the view',
+    spanish: 'la vista',
+  },
+  {
+    norwegian: 'men bruker mer kvote',
+    english: 'but uses more quota',
+    spanish: 'pero usa más cuota',
+  },
+  {
+    norwegian: 'brukes til spørsmål og idémyldring',
+    english: 'used for questions and brainstorming',
+    spanish: 'utilizado para preguntas y lluvia de ideas',
+  },
+  {
+    norwegian: 'arbeidsflyter',
+    english: 'workflow',
+    spanish: 'flujo de trabajo',
+  },
+  {
     norwegian: 'så lenge jeg lever',
     english: 'as long as I am alive',
     spanish: 'mientras viva',
