@@ -2,6 +2,41 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'forutsier både',
+    english: 'predicts both',
+    spanish: 'predice tanto',
+  },
+  {
+    norwegian: 'holde musepekeren over',
+    english: 'hover the mouse pointer over',
+    spanish: 'pasar el puntero del ratón por encima',
+  },
+  {
+    norwegian: 'indikerer om det finnes et redigeringsforslag',
+    english: 'indicates whether there is an editing suggestion',
+    spanish: 'indica si hay una sugerencia de edición',
+  },
+  {
+    norwegian: 'endringer umiddelbart i editoren',
+    english: 'changes immediately in the editor',
+    spanish: 'cambios inmediatamente en el editor',
+  },
+  {
+    norwegian: 'Tildel via GitHub',
+    english: 'Assign via GitHub',
+    spanish: 'Asignar a través de GitHub',
+  },
+  {
+    norwegian: 'å tagge',
+    english: 'to tag',
+    spanish: 'etiquetar',
+  },
+  {
+    norwegian: 'ved å tildele en',
+    english: 'by assigning a',
+    spanish: 'asignando un',
+  },
+  {
     norwegian: 'angående',
     english: 'regarding',
     spanish: 'en relación a',
