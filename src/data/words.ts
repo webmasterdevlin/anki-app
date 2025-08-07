@@ -2,6 +2,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'treg maskin',
+    english: 'slow machine',
+    spanish: 'máquina lenta',
+  },
+  {
+    norwegian: 'skjermen blir svart',
+    english: 'screen blacks out',
+    spanish: 'la pantalla se apaga',
+  },
+  {
     norwegian: 'den aktive filtypen',
     english: 'the active file type',
     spanish: 'el tipo de archivo activo',
