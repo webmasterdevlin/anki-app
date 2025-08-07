@@ -2,6 +2,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'angående',
+    english: 'regarding',
+    spanish: 'en relación a',
+  },
+  {
+    norwegian: 'den nåværende jobben',
+    english: 'the current job',
+    spanish: 'el trabajo actual',
+  },
+  {
     norwegian: 'treg maskin',
     english: 'slow machine',
     spanish: 'máquina lenta',
