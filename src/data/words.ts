@@ -2,6 +2,66 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'nøkkelordforslag',
+    english: 'keyword suggestions',
+    spanish: 'sugerencias de palabras clave',
+  },
+  {
+    norwegian: 'innebygd',
+    english: 'built-in',
+    spanish: 'integrado',
+  },
+  {
+    norwegian: 'søketermer',
+    english: 'search terms',
+    spanish: 'términos de búsqueda',
+  },
+  {
+    norwegian: 'egendefinert',
+    english: 'custom',
+    spanish: 'personalizado',
+  },
+  {
+    norwegian: 'Vurderinger',
+    english: 'Ratings',
+    spanish: 'Calificaciones',
+  },
+  {
+    norwegian: 'lagre prompts',
+    english: 'save prompts',
+    spanish: 'guardar mensajes',
+  },
+  {
+    norwegian: 'oppsummering',
+    english: 'summary',
+    spanish: 'resumen',
+  },
+  {
+    norwegian: 'Verktøystøtte',
+    english: 'Tool support',
+    spanish: 'Soporte de herramientas',
+  },
+  {
+    norwegian: 'i forhåndsvisning',
+    english: 'in preview',
+    spanish: 'en vista previa',
+  },
+  {
+    norwegian: 'Gjenbrukbare',
+    english: 'Reusable',
+    spanish: 'Reutilizables',
+  },
+  {
+    norwegian: 'Utvid',
+    english: 'Extend',
+    spanish: 'Extender',
+  },
+  {
+    norwegian: 'innstillinger styrer',
+    english: 'settings control',
+    spanish: 'configuración controla',
+  },
+  {
     norwegian: 'forutsier både',
     english: 'predicts both',
     spanish: 'predice tanto',
