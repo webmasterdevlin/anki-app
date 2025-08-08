@@ -2,6 +2,16 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'allerede er på plass',
+    english: 'already in place',
+    spanish: 'ya está en su lugar',
+  },
+  {
+    norwegian: 'som forespurt',
+    english: 'as requested',
+    spanish: 'como se solicitó',
+  },
+  {
     norwegian: 'nøkkelordforslag',
     english: 'keyword suggestions',
     spanish: 'sugerencias de palabras clave',
