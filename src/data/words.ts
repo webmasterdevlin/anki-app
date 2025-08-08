@@ -72,7 +72,7 @@ export const words: Question[] = [
     spanish: 'Extender',
   },
   {
-    norwegian: 'innstillinger styrer',
+    norwegian: 'innstillinger styrer',
     english: 'settings control',
     spanish: 'configuración controla',
   },
