@@ -2,6 +2,26 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'et gardin',
+    english: 'a curtain',
+    spanish: 'una cortina',
+  },
+  {
+    norwegian: 'en vurdering',
+    english: 'an assessment',
+    spanish: 'una evaluación',
+  },
+  {
+    norwegian: 'et forebyggende tiltak',
+    english: 'a preventive measure',
+    spanish: 'una medida preventiva',
+  },
+  {
+    norwegian: 'et skjema',
+    english: 'a form',
+    spanish: 'un formulario',
+  },
+  {
     norwegian: 'idémyldring',
     english: 'brainstorming',
     spanish: 'lluvia de ideas',
