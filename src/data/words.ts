@@ -2,6 +2,61 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'stavemåten',
+    english: 'the spelling',
+    spanish: 'la ortografía',
+  },
+  {
+    norwegian: 'en standard',
+    english: 'a default',
+    spanish: 'un estándar',
+  },
+  {
+    norwegian: 'lagrede meldinger',
+    english: 'saved prompts',
+    spanish: 'mensajes guardados',
+  },
+  {
+    norwegian: 'denne mappen',
+    english: 'this folder',
+    spanish: 'esta carpeta',
+  },
+  {
+    english: 'a requirement',
+    norwegian: 'et krav',
+    spanish: 'un requisito',
+  },
+  {
+    norwegian: 'vi kan begynne med',
+    english: 'we can start with',
+    spanish: 'podemos comenzar con',
+  },
+  {
+    norwegian: 'tenk deg at',
+    english: 'imagine that',
+    spanish: 'imagina que',
+  },
+  {
+    norwegian: 'problemet er at',
+    english: 'the problem is that',
+    spanish: 'el problema es que',
+  },
+  {
+    norwegian: 'du lagrer alltid filene',
+    english: 'you always save the files',
+    spanish: 'siempre guardas los archivos',
+  },
+  {
+    norwegian: 'skal jeg lagre denne filen?',
+    english: 'should I save this file?',
+    spanish: '¿debería guardar este archivo?',
+  },
+  {
+    norwegian: 'for å unngå å kopiere og lime inn',
+    english: 'to avoid copying and pasting',
+    spanish: 'para evitar copiar y pegar',
+  },
+  {
     norwegian: 'et gardin',
     english: 'a curtain',
     spanish: 'una cortina',
