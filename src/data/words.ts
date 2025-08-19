@@ -2,6 +2,86 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'følg følelsene dine',
+    english: 'follow your feelings',
+    spanish: 'sigue tus sentimientos',
+  },
+  {
+    norwegian: 'å uttrykke hensikt',
+    english: 'to express intent',
+    spanish: 'expresar intención',
+  },
+  {
+    norwegian: 'utført',
+    english: 'completed',
+    spanish: 'completado',
+  },
+  {
+    norwegian: 'oppfølgingsspørsmål',
+    english: 'follow-up questions',
+    spanish: 'preguntas de seguimiento',
+  },
+  {
+    norwegian: 'tilpasningsmuligheter',
+    english: 'customization options',
+    spanish: 'opciones de personalización',
+  },
+  {
+    norwegian: 'utforming',
+    english: 'design',
+    spanish: 'diseño',
+  },
+  {
+    norwegian: 'overlegg i editoren',
+    english: 'discussion in the editor',
+    spanish: 'discusión en el editor',
+  },
+  {
+    norwegian: 'redigert',
+    english: 'edited',
+    spanish: 'editado',
+  },
+  {
+    norwegian: 'ventende',
+    english: 'pending',
+    spanish: 'pendiente',
+  },
+  {
+    norwegian: 'flyten',
+    english: 'the flow',
+    spanish: 'el flujo',
+  },
+  {
+    norwegian: 'avgrenset',
+    english: 'limited',
+    spanish: 'limitado',
+  },
+  {
+    norwegian: 'nåværende kontekst',
+    english: 'current context',
+    spanish: 'contexto actual',
+  },
+  {
+    norwegian: 'for endringer innenfor',
+    english: 'for changes within',
+    spanish: 'para cambios dentro de',
+  },
+  {
+    norwegian: 'nødvendig',
+    english: 'necessary',
+    spanish: 'necesario',
+  },
+  {
+    norwegian: 'berik med',
+    english: 'enrich with',
+    spanish: 'enriquecer con',
+  },
+  {
+    norwegian: 'å samhandle med',
+    english: 'to interact with',
+    spanish: 'interactuar con',
+  },
+  {
     norwegian: 'late som',
     english: 'pretend that',
     spanish: 'finge que',
