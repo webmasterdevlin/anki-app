@@ -7,6 +7,11 @@ export const words: Question[] = [
     spanish: 'se realiza',
   },
   {
+    norwegian: 'la oss se definisjonene av de tre',
+    english: "let's see the definitions of the three",
+    spanish: 'veamos las definiciones de los tres',
+  },
+  {
     norwegian: 'en ting til å si',
     english: 'one more thing to say',
     spanish: 'una cosa más que decir',
