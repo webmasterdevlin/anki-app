@@ -2,6 +2,31 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'utføres',
+    english: 'is performed',
+    spanish: 'se realiza',
+  },
+  {
+    norwegian: 'en ting til å si',
+    english: 'one more thing to say',
+    spanish: 'una cosa más que decir',
+  },
+  {
+    norwegian: 'inndatafelt',
+    english: 'the input field',
+    spanish: 'el campo de entrada',
+  },
+  {
+    english: 'make sure to',
+    norwegian: 'vær sikker på å',
+    spanish: 'asegúrate de',
+  },
+  {
+    norwegian: 'det tidspunktet',
+    english: 'that point of time',
+    spanish: 'ese momento',
+  },
+  {
     norwegian: 'omtrent',
     english: 'approximately',
     spanish: 'aproximadamente',
