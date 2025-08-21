@@ -8575,7 +8575,7 @@ export const words: Question[] = [
     spanish: 'afortunadamente me topé con un corto',
   },
   {
-    norwegian: 't nettleser API',
+    norwegian: 'nettleser-API-en',
     english: 'the browser API',
     spanish: 'la API del navegador',
   },
