@@ -22620,8 +22620,8 @@ export const words: Question[] = [
     spanish: 'voy a sentarme en mi silla.',
   },
   {
-    english: 'sparke ballen',
-    norwegian: 'kick the ball',
+    english: 'kick the ball',
+    norwegian: 'sparke ballen',
     spanish: 'patear la pelota',
   },
   {
