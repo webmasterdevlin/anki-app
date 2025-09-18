@@ -2,6 +2,311 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en ufrivillig',
+    english: 'an involuntary',
+    spanish: 'un involuntario',
+  },
+  {
+    norwegian: 'slank',
+    english: 'slim',
+    spanish: 'delgado',
+  },
+  {
+    norwegian: 'å fornærme',
+    english: 'to offend',
+    spanish: 'ofender',
+  },
+  {
+    norwegian: 'å turte',
+    english: 'to dare',
+    spanish: 'atreverse',
+  },
+  {
+    norwegian: 'å trakke',
+    english: 'to tread',
+    spanish: 'pisar',
+  },
+  {
+    norwegian: 'være litt drøye',
+    english: 'be a bit exaggerated',
+    spanish: 'ser un poco exagerado',
+  },
+  {
+    norwegian: 'og sånne ting',
+    english: 'and such things',
+    spanish: 'y cosas así',
+  },
+  {
+    norwegian: 'sjela',
+    english: 'the soul',
+    spanish: 'el alma',
+  },
+  {
+    norwegian: 'befriende',
+    english: 'liberating',
+    spanish: 'liberador',
+  },
+  {
+    norwegian: 'nøye',
+    english: 'careful',
+    spanish: 'cuidadoso',
+  },
+  {
+    norwegian: 'lapper',
+    english: 'patches',
+    spanish: 'parches',
+  },
+  {
+    norwegian: 'alvorlig',
+    english: 'serious',
+    spanish: 'serio',
+  },
+  {
+    norwegian: 'er lys til sinns',
+    english: 'is light-hearted',
+    spanish: 'es ligero de corazón',
+  },
+  {
+    norwegian: 'fornuft',
+    english: 'reason',
+    spanish: 'razón',
+  },
+  {
+    norwegian: 'tærne',
+    english: 'the toes',
+    spanish: 'los dedos de los pies',
+  },
+  {
+    norwegian: 'motorsager',
+    english: 'chainsaws',
+    spanish: 'motosierras',
+  },
+  {
+    norwegian: 'tømmerstokk',
+    english: 'log',
+    spanish: 'tronco',
+  },
+  {
+    norwegian: 'står kliss naken',
+    english: 'is standing stark naked',
+    spanish: 'está completamente desnudo',
+  },
+  {
+    norwegian: 'brudd',
+    english: 'break',
+    spanish: 'ruptura',
+  },
+  {
+    norwegian: 'forventninger',
+    english: 'expectations',
+    spanish: 'expectativas',
+  },
+  {
+    norwegian: 'å tute',
+    english: 'to honk',
+    spanish: 'tocar la bocina',
+  },
+  {
+    norwegian: 'ble sunnet',
+    english: 'was baptized',
+    spanish: 'fue bautizado',
+  },
+  {
+    norwegian: 'en stang',
+    english: 'a rod',
+    spanish: 'una vara',
+  },
+  {
+    norwegian: 'innemellom',
+    english: 'in between',
+    spanish: 'entre',
+  },
+  {
+    norwegian: 'hun er høl',
+    english: 'she is hallow',
+    spanish: 'ella es hueca',
+  },
+  {
+    norwegian: 'å fridde',
+    english: 'proposed',
+    spanish: 'propuso matrimonio',
+  },
+  {
+    norwegian: 'å ofre',
+    english: 'to sacrifice',
+    spanish: 'sacrificar',
+  },
+  {
+    norwegian: 'oppvekst',
+    english: 'upbringing',
+    spanish: 'crianza',
+  },
+  {
+    norwegian: 'høflig',
+    english: 'polite',
+    spanish: 'educado',
+  },
+  {
+    norwegian: 'jeg vokste opp',
+    english: 'I grew up',
+    spanish: 'yo crecí',
+  },
+  {
+    norwegian: 'jeg våknet opp',
+    english: 'I woke up',
+    spanish: 'me desperté',
+  },
+  {
+    norwegian: 'fyrverkeri',
+    english: 'fireworks',
+    spanish: 'fuegos artificiales',
+  },
+  {
+    norwegian: 'glemsk',
+    english: 'forgetful',
+    spanish: 'olvidadizo',
+  },
+  {
+    norwegian: 'å bugner',
+    english: 'to abound',
+    spanish: 'abundar',
+  },
+  {
+    norwegian: 'forsvaret',
+    english: 'the defense',
+    spanish: 'la defensa',
+  },
+  {
+    norwegian: 'heller',
+    english: 'rather',
+    spanish: 'más bien',
+  },
+  {
+    norwegian: 'enten',
+    english: 'either',
+    spanish: 'o',
+  },
+  {
+    norwegian: 'vedtatt',
+    english: 'adopted',
+    spanish: 'adoptado',
+  },
+  {
+    norwegian: 'pløyd',
+    english: 'plowed',
+    spanish: 'arado',
+  },
+  {
+    norwegian: 'ansiktsuttrykkene',
+    english: 'the facial expressions',
+    spanish: 'las expresiones faciales',
+  },
+  {
+    norwegian: 'opprinnelig',
+    english: 'originally',
+    spanish: 'originalmente',
+  },
+  {
+    norwegian: 'å tråkke',
+    english: 'to step',
+    spanish: 'pisar',
+  },
+  {
+    norwegian: 'utstyr',
+    english: 'equipment',
+    spanish: 'equipo',
+  },
+  {
+    norwegian: 'en trang',
+    english: 'a craving',
+    spanish: 'un antojo',
+  },
+  {
+    norwegian: 'oppfatter',
+    english: 'perceives',
+    spanish: 'percibe',
+  },
+  {
+    norwegian: 'stødig',
+    english: 'steady',
+    spanish: 'estable',
+  },
+  {
+    norwegian: 'snudd',
+    english: 'turned',
+    spanish: 'girado',
+  },
+  {
+    norwegian: 'sneversynt',
+    english: 'narrow-minded',
+    spanish: 'de mente cerrada',
+  },
+  {
+    norwegian: 'utrent',
+    english: 'untrained',
+    spanish: 'sin entrenar',
+  },
+  {
+    norwegian: 'utsatt',
+    english: 'exposed',
+    spanish: 'expuesto',
+  },
+  {
+    norwegian: 'påpekte',
+    english: 'pointed out',
+    spanish: 'señaló',
+  },
+  {
+    norwegian: 'duppa litt',
+    english: 'nodded off a bit',
+    spanish: 'se quedó dormido un poco',
+  },
+  {
+    norwegian: 'bidro',
+    english: 'contributed',
+    spanish: 'contribuyó',
+  },
+  {
+    norwegian: 'ytterste',
+    english: 'outermost',
+    spanish: 'más externo',
+  },
+  {
+    norwegian: 'selvhat',
+    english: 'self-hatred',
+    spanish: 'auto-odio',
+  },
+  {
+    norwegian: 'gjemmer',
+    english: 'hides',
+    spanish: 'esconde',
+  },
+  {
+    norwegian: 'å rakke ned',
+    english: 'to put down',
+    spanish: 'menospreciar',
+  },
+  {
+    norwegian: 'plikt',
+    english: 'duty',
+    spanish: 'deber',
+  },
+  {
+    norwegian: 'å tøyle',
+    english: 'to rein in',
+    spanish: 'frenar',
+  },
+  {
+    norwegian: 'lysten',
+    english: 'the desire',
+    spanish: 'el deseo',
+  },
+  {
+    norwegian: 'tilfeldighetene',
+    english: 'the coincidences',
+    spanish: 'las coincidencias',
+  },
+  {
     norwegian: 'utføres',
     english: 'is performed',
     spanish: 'se realiza',
