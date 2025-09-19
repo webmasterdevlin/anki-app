@@ -2,6 +2,241 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'stillhet',
+    english: 'silence',
+    spanish: 'silencio',
+  },
+  {
+    norwegian: 'et klengenavn',
+    english: 'a nickname',
+    spanish: 'un apodo',
+  },
+  {
+    norwegian: 'andpusten ut',
+    english: 'out of breath',
+    spanish: 'sin aliento',
+  },
+  {
+    norwegian: 'da du kom opp trappa',
+    english: 'when you came up the stairs',
+    spanish: 'cuando subiste las escaleras',
+  },
+  {
+    norwegian: 'en hvalross',
+    english: 'a walrus',
+    spanish: 'una morsa',
+  },
+  {
+    norwegian: 'et selvmordsforebyggende',
+    english: 'a suicide prevention',
+    spanish: 'una prevención del suicidio',
+  },
+  {
+    norwegian: 'tilfeldig',
+    english: 'random',
+    spanish: 'aleatorio',
+  },
+  {
+    norwegian: 'røffere',
+    english: 'rougher',
+    spanish: 'más áspero',
+  },
+  {
+    norwegian: 'vi fyrer',
+    english: 'we fire',
+    spanish: 'disparamos',
+  },
+  {
+    norwegian: 'pleier du?',
+    english: 'do you usually?',
+    spanish: '¿sueles?',
+  },
+  {
+    norwegian: 'sjukt',
+    english: 'sick',
+    spanish: 'enfermo',
+  },
+  {
+    norwegian: 'i smug',
+    english: 'in alley',
+    spanish: 'en callejón',
+  },
+  {
+    norwegian: 'jeg stoler på deg',
+    english: 'I trust you',
+    spanish: 'confío en ti',
+  },
+  {
+    norwegian: 'jeg stolt av deg',
+    english: 'I am proud of you',
+    spanish: 'estoy orgulloso de ti',
+  },
+  {
+    norwegian: 'jeg stolte på deg',
+    english: 'I trusted you',
+    spanish: 'confié en ti',
+  },
+  {
+    norwegian: 'å opptre i',
+    english: 'to perform in',
+    spanish: 'actuar en',
+  },
+  {
+    norwegian: 'blir kjempeberømt',
+    english: 'becomes super famous',
+    spanish: 'se vuelve super famoso',
+  },
+  {
+    norwegian: 'jeg angrer mest på',
+    english: 'I regret the most',
+    spanish: 'me arrepiento más de',
+  },
+  {
+    norwegian: 'han turte ikke',
+    english: 'he did not dare',
+    spanish: 'él no se atrevió',
+  },
+  {
+    norwegian: 'jeg er teit',
+    english: 'I am silly',
+    spanish: 'soy tonto',
+  },
+  {
+    norwegian: 'på innspillingen av',
+    english: 'during the recording of',
+    spanish: 'durante la grabación de',
+  },
+  {
+    norwegian: 'er tonedøv',
+    english: 'is tone-deaf',
+    spanish: 'es desafinado',
+  },
+  {
+    norwegian: 'et dikt til deg',
+    english: 'a poem for you',
+    spanish: 'un poema para ti',
+  },
+  {
+    norwegian: 'en liten forrett',
+    english: 'a small appetizer',
+    spanish: 'un pequeño aperitivo',
+  },
+  {
+    norwegian: 'forsøkte å',
+    english: 'tried to',
+    spanish: 'intentó',
+  },
+  {
+    norwegian: 'to ordentlige forhold',
+    english: 'two proper relationships',
+    spanish: 'dos relaciones adecuadas',
+  },
+  {
+    norwegian: 'sjarmert',
+    english: 'charmed',
+    spanish: 'encantado',
+  },
+  {
+    norwegian: 'han børstet av seg',
+    english: 'he brushed off',
+    spanish: 'él se sacudió',
+  },
+  {
+    norwegian: 'plattinger',
+    english: 'decks',
+    spanish: 'cubiertas',
+  },
+  {
+    norwegian: 'sjeler',
+    english: 'souls',
+    spanish: 'almas',
+  },
+  {
+    norwegian: 'har du sluppet ut den indre gærningen din ennå?',
+    english: 'have you let out your inner beast yet?',
+    spanish: '¿ya has dejado salir a tu bestia interior?',
+  },
+  {
+    norwegian: 'en gang vekket',
+    english: 'once awakened',
+    spanish: 'una vez despertado',
+  },
+  {
+    norwegian: 'kjappet seg',
+    english: 'hurried',
+    spanish: 'se apresuró',
+  },
+  {
+    norwegian: 'med dyretrykk',
+    english: 'with animal prints',
+    spanish: 'con estampados de animales',
+  },
+  {
+    norwegian: 'å kile litt',
+    english: 'to tickle a bit',
+    spanish: 'hacer cosquillas un poco',
+  },
+  {
+    norwegian: 'å få oppmerksomhet',
+    english: 'to get attention',
+    spanish: 'llamar la atención',
+  },
+  {
+    norwegian: 'forferdelig',
+    english: 'terrible',
+    spanish: 'terrible',
+  },
+  {
+    norwegian: 'såret',
+    english: 'hurt',
+    spanish: 'herido',
+  },
+  {
+    norwegian: 'uforståelig',
+    english: 'incomprehensible',
+    spanish: 'incomprensible',
+  },
+  {
+    norwegian: 'deprimert',
+    english: 'depressed',
+    spanish: 'deprimido',
+  },
+  {
+    norwegian: 'selvmord',
+    english: 'suicide',
+    spanish: 'suicidio',
+  },
+  {
+    norwegian: 'kunne dratt',
+    english: 'could have gone',
+    spanish: 'podría haber ido',
+  },
+  {
+    norwegian: 'er det innenfra',
+    english: 'is it from within',
+    spanish: '¿es desde adentro?',
+  },
+  {
+    norwegian: 'modige spørsmål',
+    english: 'brave questions',
+    spanish: 'preguntas valientes',
+  },
+  {
+    norwegian: 'hun lo mye',
+    english: 'she laughed a lot',
+    spanish: 'ella se rió mucho',
+  },
+  {
+    norwegian: 'den rakkeren',
+    english: 'that rascal',
+    spanish: 'ese pícaro',
+  },
+  {
+    norwegian: 'å skjule',
+    english: 'to hide',
+    spanish: 'esconder',
+  },
+  {
     norwegian: 'en ufrivillig',
     english: 'an involuntary',
     spanish: 'un involuntario',
