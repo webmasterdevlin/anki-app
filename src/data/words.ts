@@ -2,6 +2,186 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'fordommene sine',
+    english: 'their prejudices',
+    spanish: 'sus prejuicios',
+  },
+  {
+    norwegian: 'tilbrakt tid',
+    english: 'spent time',
+    spanish: 'tiempo pasado',
+  },
+  {
+    norwegian: 'avkreftet',
+    english: 'confirmed',
+    spanish: 'confirmado',
+  },
+  {
+    norwegian: 'de vil rane oss',
+    english: 'they will rob us',
+    spanish: 'nos robarán',
+  },
+  {
+    norwegian: 'usunt',
+    english: 'unhealthy',
+    spanish: 'no saludable',
+  },
+  {
+    norwegian: 'en stund',
+    english: 'a while',
+    spanish: 'un rato',
+  },
+  {
+    norwegian: 'nervøsitet',
+    english: 'nervousness',
+    spanish: 'nerviosismo',
+  },
+  {
+    norwegian: 'litt på tvers av',
+    english: 'a little crosswise',
+    spanish: 'un poco de lado',
+  },
+  {
+    norwegian: 'åpenhet',
+    english: 'openness',
+    spanish: 'apertura',
+  },
+  {
+    norwegian: 'verken',
+    english: 'neither',
+    spanish: 'ninguno',
+  },
+  {
+    norwegian: 'livredd',
+    english: 'terrified',
+    spanish: 'aterrorizado',
+  },
+  {
+    norwegian: 'har forandret seg',
+    english: 'has changed',
+    spanish: 'ha cambiado',
+  },
+  {
+    norwegian: 'skjult',
+    english: 'hidden',
+    spanish: 'oculto',
+  },
+  {
+    norwegian: 'skulle lyge',
+    english: 'would lie',
+    spanish: 'mentiría',
+  },
+  {
+    norwegian: 'blir inngiftet',
+    english: 'is getting married',
+    spanish: 'se está casando',
+  },
+  {
+    norwegian: 'er uaktuelt',
+    english: 'is out of the question',
+    spanish: 'está fuera de cuestión',
+  },
+  {
+    norwegian: 'bryr seg om',
+    english: 'cares about',
+    spanish: 'se preocupa por',
+  },
+  {
+    norwegian: 'fremføre en lite innlegg',
+    english: 'to present a small speech',
+    spanish: 'presentar un pequeño discurso',
+  },
+  {
+    norwegian: 'oppfattet hverandre',
+    english: 'perceived each other',
+    spanish: 'se percibieron mutuamente',
+  },
+  {
+    norwegian: 'en sprekk',
+    english: 'a crack',
+    spanish: 'una grieta',
+  },
+  {
+    norwegian: 'satser på',
+    english: 'is betting on',
+    spanish: 'está apostando por',
+  },
+  {
+    norwegian: 'tilfredsstillende',
+    english: 'satisfying',
+    spanish: 'satisfactorio',
+  },
+  {
+    norwegian: 'en rotgrønnsak',
+    english: 'a root vegetable',
+    spanish: 'una verdura de raíz',
+  },
+  {
+    norwegian: 'vi skreller og hakker den opp',
+    english: 'we peel and chop it up',
+    spanish: 'pelamos y picamos',
+  },
+  {
+    norwegian: 'midtskill',
+    english: 'center part',
+    spanish: 'partido en el centro',
+  },
+  {
+    norwegian: 'er soss',
+    english: 'is a social democrat',
+    spanish: 'es un socialdemócrata',
+  },
+  {
+    norwegian: 'personlighetsmessig',
+    english: 'personality-wise',
+    spanish: 'en términos de personalidad',
+  },
+  {
+    norwegian: 'er likt sammen',
+    english: 'is liked together',
+    spanish: 'es gustado juntos',
+  },
+  {
+    norwegian: 'oppvekst',
+    english: 'upbringing',
+    spanish: 'crianza',
+  },
+  {
+    norwegian: 'utnytte',
+    english: 'exploit',
+    spanish: 'explotar',
+  },
+  {
+    norwegian: 'rotete',
+    english: 'messy',
+    spanish: 'desordenado',
+  },
+  {
+    norwegian: 'nusselig',
+    english: 'cute',
+    spanish: 'lindo',
+  },
+  {
+    norwegian: 'forrige gang',
+    english: 'last time',
+    spanish: 'la última vez',
+  },
+  {
+    norwegian: 'de bodde trangt',
+    english: 'they lived cramped',
+    spanish: 'vivían apretados',
+  },
+  {
+    norwegian: 'innbrudd',
+    english: 'burglary',
+    spanish: 'robo',
+  },
+  {
+    norwegian: 'opplegget',
+    english: 'the setup',
+    spanish: 'la configuración',
+  },
+  {
     norwegian: 'stillhet',
     english: 'silence',
     spanish: 'silencio',
