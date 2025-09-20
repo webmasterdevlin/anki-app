@@ -2,6 +2,141 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'har dannet',
+    english: 'has formed',
+    spanish: 'ha formado',
+  },
+  {
+    norwegian: 'betingelse for at',
+    english: 'condition for',
+    spanish: 'condición para',
+  },
+  {
+    norwegian: 'egenskap ved',
+    english: 'characteristic of',
+    spanish: 'característica de',
+  },
+  {
+    norwegian: 'pålitelig kilde',
+    english: 'reliable source',
+    spanish: 'fuente confiable',
+  },
+  {
+    norwegian: 'utsatt for',
+    english: 'exposed to',
+    spanish: 'expuesto a',
+  },
+  {
+    norwegian: 'vurdering',
+    english: 'assessment',
+    spanish: 'evaluación',
+  },
+  {
+    norwegian: 'antagelig',
+    english: 'probably',
+    spanish: 'probablemente',
+  },
+  {
+    norwegian: 'sannsynligvis',
+    english: 'likely',
+    spanish: 'probablemente',
+  },
+  {
+    norwegian: 'forutsetning for',
+    english: 'prerequisite for',
+    spanish: 'prerrequisito para',
+  },
+  {
+    norwegian: 'fremgang i',
+    english: 'progress in',
+    spanish: 'progreso en',
+  },
+  {
+    norwegian: 'fremskritt',
+    english: 'advancement',
+    spanish: 'avance',
+  },
+  {
+    norwegian: 'gjennomføre',
+    english: 'carry out',
+    spanish: 'llevar a cabo',
+  },
+  {
+    norwegian: 'innflytelse på',
+    english: 'influence on',
+    spanish: 'influencia en',
+  },
+  {
+    norwegian: 'evnen til å',
+    english: 'the ability to',
+    spanish: 'la capacidad de',
+  },
+  {
+    norwegian: 'midlertidig',
+    english: 'temporary',
+    spanish: 'temporal',
+  },
+  {
+    norwegian: 'et målrettet',
+    english: 'a targeted',
+    spanish: 'un dirigido',
+  },
+  {
+    norwegian: 'omfattende studier',
+    english: 'comprehensive studies',
+    spanish: 'estudios exhaustivos',
+  },
+  {
+    norwegian: 'noe som dekker',
+    english: 'something that covers',
+    spanish: 'algo que cubre',
+  },
+  {
+    norwegian: 'oppnå',
+    english: 'achieve',
+    spanish: 'lograr',
+  },
+  {
+    norwegian: 'ressurs',
+    english: 'resource',
+    spanish: 'recurso',
+  },
+  {
+    norwegian: 'sannsynligvis',
+    english: 'probably',
+    spanish: 'probablemente',
+  },
+  {
+    norwegian: 'selvstendig',
+    english: 'independent',
+    spanish: 'independiente',
+  },
+  {
+    norwegian: 'tillit til',
+    english: 'trust in',
+    spanish: 'confianza en',
+  },
+  {
+    norwegian: 'tilpasse seg',
+    english: 'adapt to',
+    spanish: 'adaptarse a',
+  },
+  {
+    norwegian: 'tilstrekkelig med',
+    english: 'sufficient with',
+    spanish: 'suficiente con',
+  },
+  {
+    norwegian: 'tydelig skille mellom',
+    english: 'clear distinction between',
+    spanish: 'distinción clara entre',
+  },
+  {
+    norwegian: 'årsak til',
+    english: 'cause of',
+    spanish: 'causa de',
+  },
+  {
     norwegian: 'fordommene sine',
     english: 'their prejudices',
     spanish: 'sus prejuicios',
