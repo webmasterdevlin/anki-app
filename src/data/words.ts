@@ -17,6 +17,146 @@ export const words: Question[] = [
     spanish: 'característica de',
   },
   {
+    norwegian: 'anerkjent som',
+    english: 'recognized as',
+    spanish: 'reconocido como',
+  },
+  {
+    norwegian: 'fylle ut',
+    english: 'fill out',
+    spanish: 'llenar',
+  },
+  {
+    norwegian: 'siden i morges',
+    english: 'since this morning',
+    spanish: 'desde esta mañana',
+  },
+  {
+    norwegian: 'han har på seg en lilla dress',
+    english: 'he is wearing a purple suit',
+    spanish: 'él lleva un traje morado',
+  },
+  {
+    norwegian: 'å pusse opp',
+    english: 'to renovate',
+    spanish: 'renovar',
+  },
+  {
+    norwegian: 'å ta vare på',
+    english: 'to take care of',
+    spanish: 'cuidar de',
+  },
+  {
+    norwegian: 'minne meg på',
+    english: 'remind me',
+    spanish: 'recuérdame',
+  },
+  {
+    norwegian: 'å bestemme seg for',
+    english: 'to decide',
+    spanish: 'decidirse por',
+  },
+  {
+    norwegian: 'undersøke',
+    english: 'investigate',
+    spanish: 'investigar',
+  },
+  {
+    norwegian: 'en avgjørelse',
+    english: 'a decision',
+    spanish: 'una decisión',
+  },
+  {
+    norwegian: 'avlyse',
+    english: 'cancel',
+    spanish: 'cancelar',
+  },
+  {
+    norwegian: 'å tilpasse seg',
+    english: 'to adapt to',
+    spanish: 'adaptarse a',
+  },
+  {
+    norwegian: 'å uttrykke',
+    english: 'to express',
+    spanish: 'expresar',
+  },
+  {
+    norwegian: 'å forlate',
+    english: 'to leave',
+    spanish: 'dejar',
+  },
+  {
+    norwegian: 'utvide ordforrådet',
+    english: 'expand the vocabulary',
+    spanish: 'ampliar el vocabulario',
+  },
+  {
+    norwegian: 'det ser kjent ut',
+    english: 'it looks familiar',
+    spanish: 'se ve familiar',
+  },
+  {
+    norwegian: 'å fornye passet mitt',
+    english: 'to renew my passport',
+    spanish: 'renovar mi pasaporte',
+  },
+  {
+    norwegian: 'å bevara tradisjoner',
+    english: 'to preserve traditions',
+    spanish: 'preservar tradiciones',
+  },
+  {
+    norwegian: 'å begrense bruken av',
+    english: 'to limit the use of',
+    spanish: 'limitar el uso de',
+  },
+  {
+    norwegian: 'å anerkjenne',
+    english: 'to acknowledge',
+    spanish: 'reconocer',
+  },
+  {
+    norwegian: 'innsats',
+    english: 'effort',
+    spanish: 'esfuerzo',
+  },
+  {
+    norwegian: 'vi bør sammenligne',
+    english: 'we should compare',
+    spanish: 'deberíamos comparar',
+  },
+  {
+    norwegian: 'å tilrettelegge for',
+    english: 'to facilitate',
+    spanish: 'facilitar',
+  },
+  {
+    norwegian: 'til å holde et foredrag',
+    english: 'to give a lecture',
+    spanish: 'dar una conferencia',
+  },
+  {
+    norwegian: 'å sette av tid til',
+    english: 'to set aside time for',
+    spanish: 'reservar tiempo para',
+  },
+  {
+    norwegian: 'å overvinne mange utfordringer',
+    english: 'to overcome many challenges',
+    spanish: 'superar muchos desafíos',
+  },
+  {
+    norwegian: 'vi må tilpasse oss',
+    english: 'we must adapt',
+    spanish: 'debemos adaptarnos',
+  },
+  {
+    norwegian: 'viktig å opprettholde',
+    english: 'important to maintain',
+    spanish: 'importante mantener',
+  },
+  {
     norwegian: 'pålitelig kilde',
     english: 'reliable source',
     spanish: 'fuente confiable',
