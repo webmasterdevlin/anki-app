@@ -12,6 +12,106 @@ export const words: Question[] = [
     spanish: 'condición para',
   },
   {
+    norwegian: 'uforutsigbart',
+    english: 'unpredictable',
+    spanish: 'impredecible',
+  },
+  {
+    norwegian: 'har lagt seg',
+    english: 'has settled',
+    spanish: 'se ha asentado',
+  },
+  {
+    norwegian: 'fristende',
+    english: 'tempting',
+    spanish: 'tentador',
+  },
+  {
+    norwegian: 'å uttrykke seg',
+    english: 'to express oneself',
+    spanish: 'expresarse',
+  },
+  {
+    norwegian: 'andre forpliktelser',
+    english: 'other commitments',
+    spanish: 'otros compromisos',
+  },
+  {
+    norwegian: 'føles uvant',
+    english: 'feels unfamiliar',
+    spanish: 'se siente extraño',
+  },
+  {
+    norwegian: 'samarbeidsevner',
+    english: 'collaboration skills',
+    spanish: 'habilidades de colaboración',
+  },
+  {
+    norwegian: 'skolen brukes til',
+    english: 'the school is used for',
+    spanish: 'la escuela se utiliza para',
+  },
+  {
+    norwegian: 'jeg flyttet hit for 6 år siden',
+    english: 'I moved here 6 years ago',
+    spanish: 'me mudé aquí hace 6 años',
+  },
+  {
+    norwegian: 'virkeligheten',
+    english: 'reality',
+    spanish: 'realidad',
+  },
+  {
+    norwegian: 'har likt å lære',
+    english: 'has liked to learn',
+    spanish: 'ha gustado aprender',
+  },
+  {
+    norwegian: 'mister selvtiliten helt',
+    english: 'completely loses confidence',
+    spanish: 'pierde completamente la confianza',
+  },
+  {
+    norwegian: 'innså',
+    english: 'realized',
+    spanish: 'se dio cuenta',
+  },
+  {
+    norwegian: 'omtanke',
+    english: 'consideration',
+    spanish: 'consideración',
+  },
+  {
+    norwegian: 'er pålitelige',
+    english: 'are reliable',
+    spanish: 'son confiables',
+  },
+  {
+    norwegian: 'har like muligheter',
+    english: 'have equal opportunities',
+    spanish: 'tienen las mismas oportunidades',
+  },
+  {
+    norwegian: 'når det gjelder språk',
+    english: 'when it comes to language',
+    spanish: 'cuando se trata de lenguaje',
+  },
+  {
+    norwegian: 'i tråd med',
+    english: 'in line with',
+    spanish: 'en línea con',
+  },
+  {
+    norwegian: 'nysgjerrighet',
+    english: 'curiosity',
+    spanish: 'curiosidad',
+  },
+  {
+    norwegian: 'tålmodighet og utholdenhet',
+    english: 'patience and perseverance',
+    spanish: 'paciencia y perseverancia',
+  },
+  {
     norwegian: 'egenskap ved',
     english: 'characteristic of',
     spanish: 'característica de',
