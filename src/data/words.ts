@@ -17,6 +17,71 @@ export const words: Question[] = [
     spanish: 'impredecible',
   },
   {
+    norwegian: 'noe spontant',
+    english: 'something spontaneous',
+    spanish: 'algo espontáneo',
+  },
+  {
+    norwegian: 'utflukter',
+    english: 'excursions',
+    spanish: 'excursiones',
+  },
+  {
+    norwegian: 'vil ha spenning',
+    english: 'want excitement',
+    spanish: 'quieren emoción',
+  },
+  {
+    norwegian: 'når jeg pendler',
+    english: 'when I commute',
+    spanish: 'cuando viajo',
+  },
+  {
+    norwegian: 'å hvile så mye som mulig',
+    english: 'to rest as much as possible',
+    spanish: 'descansar tanto como sea posible',
+  },
+  {
+    norwegian: 'jeg alltid ser fram til',
+    english: 'I always look forward to',
+    spanish: 'siempre espero con ansias',
+  },
+  {
+    norwegian: 'jeg trives godt',
+    english: 'I thrive well',
+    spanish: 'me va bien',
+  },
+  {
+    norwegian: 'jevnt',
+    english: 'evenly',
+    spanish: 'uniformemente',
+  },
+  {
+    norwegian: 'å resirkulere',
+    english: 'to recycle',
+    spanish: 'reciclar',
+  },
+  {
+    norwegian: 'nye oppskrifter',
+    english: 'new recipes',
+    spanish: 'nuevas recetas',
+  },
+  {
+    norwegian: 'hva gjør du helst når',
+    english: 'what do you rather do when',
+    spanish: '¿qué prefieres hacer cuando',
+  },
+  {
+    norwegian: 'en spesiell anledning',
+    english: 'a special occasion',
+    spanish: 'una ocasión especial',
+  },
+  {
+    norwegian: 'en ny oppskrift',
+    english: 'a new recipe',
+    spanish: 'una nueva receta',
+  },
+  {
     norwegian: 'har lagt seg',
     english: 'has settled',
     spanish: 'se ha asentado',
@@ -82,7 +147,7 @@ export const words: Question[] = [
     spanish: 'consideración',
   },
   {
-    norwegian: 'er pålitelige',
+    norwegian: 'er pålitelige', ///////////////§
     english: 'are reliable',
     spanish: 'son confiables',
   },
