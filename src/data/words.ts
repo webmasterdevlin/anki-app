@@ -12,6 +12,121 @@ export const words: Question[] = [
     spanish: 'condición para',
   },
   {
+    norwegian: 'dette er et alvorlig ansvar',
+    english: 'this is a serious responsibility',
+    spanish: 'esta es una responsabilidad seria',
+  },
+  {
+    norwegian: 'virkedager',
+    english: 'weekdays',
+    spanish: 'días laborables',
+  },
+  {
+    norwegian: 'jeg ble opprinnelig tilfeldig valgt',
+    english: 'i was orignally randomly selected',
+    spanish: 'fui seleccionado al azar originalmente',
+  },
+  {
+    norwegian: 'innspill',
+    english: 'input',
+    spanish: 'entrada',
+  },
+  {
+    norwegian: 'ytterligere utvidet garanti',
+    english: 'additional extended warranty',
+    spanish: 'garantía extendida adicional',
+  },
+  {
+    norwegian: 'en rask avklaring',
+    english: 'a quick clarification',
+    spanish: 'una aclaración rápida',
+  },
+  {
+    norwegian: 'utkastet',
+    english: 'the draft',
+    spanish: 'el borrador',
+  },
+  {
+    norwegian: 'markedsføring',
+    english: 'marketing',
+    spanish: 'mercadotecnia',
+  },
+  {
+    norwegian: 'er stram',
+    english: 'is tight',
+    spanish: 'está apretado',
+  },
+  {
+    norwegian: 'innspillene',
+    english: 'the inputs',
+    spanish: 'las entradas',
+  },
+  {
+    norwegian: 'medført',
+    english: 'entailed',
+    spanish: 'implicado',
+  },
+  {
+    norwegian: 'vedlagt',
+    english: 'attached',
+    spanish: 'adjunto',
+  },
+  {
+    norwegian: 'har ytterligere spørsmål',
+    english: 'have further questions',
+    spanish: 'tiene más preguntas',
+  },
+  {
+    norwegian: 'ikke nøl med å',
+    english: "don't hesitate to",
+    spanish: 'no dudes en',
+  },
+  {
+    norwegian: 'er tilfredsstillende',
+    english: 'is satisfactory',
+    spanish: 'es satisfactorio',
+  },
+  {
+    norwegian: 'vennligst',
+    english: 'please',
+    spanish: 'por favor',
+  },
+  {
+    norwegian: 'bekreftelse',
+    english: 'confirmation',
+    spanish: 'confirmación',
+  },
+  {
+    norwegian: 'henvendelsen din',
+    english: 'your inquiry',
+    spanish: 'su consulta',
+  },
+  {
+    norwegian: 'oppstår',
+    english: 'arises',
+    spanish: 'surge',
+  },
+  {
+    norwegian: 'jeg jobber tett med',
+    english: 'I work closely with',
+    spanish: 'trabajo de cerca con',
+  },
+  {
+    norwegian: 'stillingen som',
+    english: 'the position as',
+    spanish: 'el puesto como',
+  },
+  {
+    norwegian: 'serviceinnstilt',
+    english: 'service-oriented',
+    spanish: 'orientado al servicio',
+  },
+  {
+    norwegian: 'some gjerne stiller opp',
+    english: 'some who are willing to help',
+    spanish: 'algunos que están dispuestos a ayudar',
+  },
+  {
     norwegian: 'uforutsigbart',
     english: 'unpredictable',
     spanish: 'impredecible',
