@@ -147,7 +147,7 @@ export const words: Question[] = [
     spanish: 'consideración',
   },
   {
-    norwegian: 'er pålitelige', ///////////////§
+    norwegian: 'er pålitelige',
     english: 'are reliable',
     spanish: 'son confiables',
   },
