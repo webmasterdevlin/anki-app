@@ -22,8 +22,158 @@ export const words: Question[] = [
     spanish: 'días laborables',
   },
   {
+    norwegian: 'jeg visste at de viste den for to dager siden',
+    english: 'I knew that they showed it two days ago',
+    spanish: 'sabía que la mostraron hace dos días',
+  },
+  {
+    norwegian: 'presist ordforråd',
+    english: 'precise vocabulary',
+    spanish: 'vocabulario preciso',
+  },
+  {
+    norwegian: 'for å venne meg til',
+    english: 'to get used to',
+    spanish: 'para acostumbrarme a',
+  },
+  {
+    norwegian: 'med nærhet til',
+    english: 'with proximity to',
+    spanish: 'con proximidad a',
+  },
+  {
+    norwegian: 'du velger bosted etter',
+    english: 'you choose residence based on',
+    spanish: 'eliges residencia según',
+  },
+  {
+    norwegian: 'beliggenhet i forhold til',
+    english: 'location in relation to',
+    spanish: 'ubicación en relación con',
+  },
+  {
+    norwegian: 'dessuten',
+    english: 'moreover',
+    spanish: 'además',
+  },
+  {
+    norwegian: 'du har blitt kjent med',
+    english: 'you have become acquainted with',
+    spanish: 'te has familiarizado con',
+  },
+  {
+    norwegian: 'å tillate seg',
+    english: 'to allow oneself',
+    spanish: 'permitirse',
+  },
+  {
+    norwegian: 'en kreativ diskusjon',
+    english: 'a creative discussion',
+    spanish: 'una discusión creativa',
+  },
+  {
+    norwegian: 'oppfordre til trening',
+    english: 'encourage exercise',
+    spanish: 'fomentar el ejercicio',
+  },
+  {
+    norwegian: 'fører til lavere sykefravær',
+    english: 'leads to lower absenteeism',
+    spanish: 'conduce a una menor ausencia',
+  },
+  {
+    norwegian: 'spontane kommunikasjoner',
+    english: 'spontaneous communications',
+    spanish: 'comunicaciones espontáneas',
+  },
+  {
+    norwegian: 'mindre utslipp av klimagasser',
+    english: 'less emission of greenhouse gases',
+    spanish: 'menos emisión de gases de efecto invernadero',
+  },
+  {
+    norwegian: 'formål med',
+    english: 'purpose of',
+    spanish: 'propósito de',
+  },
+  {
+    norwegian: 'for trivselen',
+    english: 'for the well-being',
+    spanish: 'para el bienestar',
+  },
+  {
+    norwegian: 'en forutsetning for',
+    english: 'a prerequisite for',
+    spanish: 'un requisito previo para',
+  },
+  {
+    norwegian: 'fleksible eller hybride modeller',
+    english: 'flexible or hybrid models',
+    spanish: 'modelos flexibles o híbridos',
+  },
+  {
+    norwegian: 'tilnærming',
+    english: 'approach',
+    spanish: 'enfoque',
+  },
+  {
+    norwegian: 'fagterminologi',
+    english: 'technical terminology',
+    spanish: 'terminología técnica',
+  },
+  {
+    norwegian: 'uten tvil',
+    english: 'without a doubt',
+    spanish: 'sin duda',
+  },
+  {
+    norwegian: 'var litt uvant',
+    english: 'was a bit unusual',
+    spanish: 'fue un poco inusual',
+  },
+  {
+    norwegian: 'kulturforskjellen mellom',
+    english: 'the cultural difference between',
+    spanish: 'la diferencia cultural entre',
+  },
+  {
+    norwegian: 'stor seier for meg',
+    english: 'big victory for me',
+    spanish: 'gran victoria para mí',
+  },
+  {
+    norwegian: 'i en by eller på landet',
+    english: 'in a city or in the countryside',
+    spanish: 'en una ciudad o en el campo',
+  },
+  {
+    norwegian: 'har klare fordeler og ulemper',
+    english: 'has clear advantages and disadvantages',
+    spanish: 'tiene claras ventajas y desventajas',
+  },
+  {
+    norwegian: 'det er vanskelig hvis du ikke har bil',
+    english: 'it is hard if you do not have a car',
+    spanish: 'es difícil si no tienes coche',
+  },
+  {
+    norwegian: 'stillhet',
+    english: 'silence',
+    spanish: 'silencio',
+  },
+  {
+    norwegian: 'myndighetene',
+    english: 'the authorities',
+    spanish: 'las autoridades',
+  },
+  {
+    norwegian: 'gunstigere lån',
+    english: 'more favorable loans',
+    spanish: 'préstamos más favorables',
+  },
+  {
     norwegian: 'jeg ble opprinnelig tilfeldig valgt',
-    english: 'i was orignally randomly selected',
+    english: 'i was originally randomly selected',
     spanish: 'fui seleccionado al azar originalmente',
   },
   {
