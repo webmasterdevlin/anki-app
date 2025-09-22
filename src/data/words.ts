@@ -7,6 +7,191 @@ export const words: Question[] = [
     spanish: 'ha formado',
   },
   {
+    norwegian: 'anledning til',
+    english: 'opportunity to',
+    spanish: 'oportunidad de',
+  },
+  {
+    norwegian: 'oppmuntrer til',
+    english: 'encourages',
+    spanish: 'anima a',
+  },
+  {
+    norwegian: 'å bidra til',
+    english: 'to contribute to',
+    spanish: 'contribuir a',
+  },
+  {
+    norwegian: 'byrommet',
+    english: 'the urban space',
+    spanish: 'el espacio urbano',
+  },
+  {
+    norwegian: 'for å koble av',
+    english: 'to unwind',
+    spanish: 'para desconectar',
+  },
+  {
+    norwegian: 'innrede leiligheten',
+    english: 'furnish the apartment',
+    spanish: 'amueblar el apartamento',
+  },
+  {
+    norwegian: 'en kopp urtete',
+    english: 'a cup of herbal tea',
+    spanish: 'una taza de té de hierbas',
+  },
+  {
+    norwegian: 'belysning',
+    english: 'lighting',
+    spanish: 'iluminación',
+  },
+  {
+    norwegian: 'uthvilt',
+    english: 'rested',
+    spanish: 'descansado',
+  },
+  {
+    norwegian: 'å styrke',
+    english: 'to strengthen',
+    spanish: 'fortalecer',
+  },
+  {
+    norwegian: 'arbeidsmengden',
+    english: 'the workload',
+    spanish: 'la carga de trabajo',
+  },
+  {
+    norwegian: 'det betydde mye for meg',
+    english: 'it meant a lot to me',
+    spanish: 'significó mucho para mí',
+  },
+  {
+    norwegian: 'på fremgangen',
+    english: 'on the progress',
+    spanish: 'sobre el progreso',
+  },
+  {
+    norwegian: 'subtile signaler',
+    english: 'subtle signals',
+    spanish: 'señales sutiles',
+  },
+  {
+    norwegian: 'en fremmed',
+    english: 'a stranger',
+    spanish: 'un extraño',
+  },
+  {
+    norwegian: 'hun rakte den til meg',
+    english: 'she handed it to me',
+    spanish: 'ella me la entregó',
+  },
+  {
+    norwegian: 'bygger tillit',
+    english: 'builds trust',
+    spanish: 'construye confianza',
+  },
+  {
+    norwegian: 'anerkjennelse',
+    english: 'recognition',
+    spanish: 'reconocimiento',
+  },
+  {
+    norwegian: 'opprettholde',
+    english: 'maintain',
+    spanish: 'mantener',
+  },
+  {
+    norwegian: 'vi trenger flere bygninger',
+    english: 'we need more buildings',
+    spanish: 'necesitamos más edificios',
+  },
+  {
+    norwegian: 'varierende lysforhold',
+    english: 'varying light conditions',
+    spanish: 'condiciones de luz variables',
+  },
+  {
+    norwegian: 'etterbehandling',
+    english: 'finishing',
+    spanish: 'acabado',
+  },
+  {
+    norwegian: 'vil oppleve',
+    english: 'will experience',
+    spanish: 'experimentará',
+  },
+  {
+    norwegian: 'inntrykkene',
+    english: 'the impressions',
+    spanish: 'las impresiones',
+  },
+  {
+    norwegian: 'å motvirke',
+    english: 'to counteract',
+    spanish: 'contrarrestar',
+  },
+  {
+    norwegian: 'er grå',
+    english: 'is gray',
+    spanish: 'es gris',
+  },
+  {
+    norwegian: 'for øyeblikket',
+    english: 'at the moment',
+    spanish: 'en este momento',
+  },
+  {
+    norwegian: 'en melodisk klang',
+    english: 'a melodic sound',
+    spanish: 'un sonido melódico',
+  },
+  {
+    norwegian: 'innført',
+    english: 'introduced',
+    spanish: 'introducido',
+  },
+  {
+    norwegian: 'da jeg var liten',
+    english: 'when I was a kid',
+    spanish: 'cuando era niño',
+  },
+  {
+    norwegian: 'å se publikum forlate salen',
+    english: 'to see the audience leave the room',
+    spanish: 'ver a la audiencia salir de la sala',
+  },
+  {
+    norwegian: 'som førte deg hit',
+    english: 'that brought you here',
+    spanish: 'que te trajo aquí',
+  },
+  {
+    norwegian: 'kan du lukke esken?',
+    english: 'can you close the box?',
+    spanish: '¿puedes cerrar la caja?',
+  },
+  {
+    norwegian: 'på løpsdagen',
+    english: 'on race day',
+    spanish: 'el día de la carrera',
+  },
+  {
+    norwegian: 'milepæl',
+    english: 'milestone',
+    spanish: 'hito',
+  },
+  {
+    norwegian: 'gevinsten',
+    english: 'the profit',
+    spanish: 'la ganancia',
+  },
+  {
+    norwegian: 'overskygger',
+    english: 'overshadows',
+    spanish: 'ensombrece',
+  },
+  {
     norwegian: 'betingelse for at',
     english: 'condition for',
     spanish: 'condición para',
