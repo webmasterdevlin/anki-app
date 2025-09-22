@@ -7,6 +7,276 @@ export const words: Question[] = [
     spanish: 'ha formado',
   },
   {
+    norwegian: 'forebygge lovbrudd',
+    english: 'prevent crime',
+    spanish: 'prevenir el delito',
+  },
+  {
+    norwegian: 'arvede verdier',
+    english: 'inherited values',
+    spanish: 'valores heredados',
+  },
+  {
+    norwegian: 'innført i',
+    english: 'introduced in',
+    spanish: 'introducido en',
+  },
+  {
+    norwegian: 'innvandrere',
+    english: 'immigrants',
+    spanish: 'inmigrantes',
+  },
+  {
+    norwegian: 'jeg føler meg skyldig',
+    english: 'i feel guilty',
+    spanish: 'me siento culpable',
+  },
+  {
+    norwegian: 'samvittigheten min er klar',
+    english: 'my conscience is clear',
+    spanish: 'mi conciencia está clara',
+  },
+  {
+    norwegian: 'utlendinger',
+    english: 'foreigners',
+    spanish: 'extranjeros',
+  },
+  {
+    norwegian: 'utland',
+    english: 'abroad',
+    spanish: 'en el extranjero',
+  },
+  {
+    norwegian: 'overfylte',
+    english: 'overcrowded',
+    spanish: 'superpoblado',
+  },
+  {
+    norwegian: 'nøytralt politi',
+    english: 'neutral police',
+    spanish: 'policía neutral',
+  },
+  {
+    norwegian: 'statsbudsjettet vårt',
+    english: 'our state budget',
+    spanish: 'nuestro presupuesto estatal',
+  },
+  {
+    norwegian: 'å beskatte',
+    english: 'to tax',
+    spanish: 'imponer impuestos',
+  },
+  {
+    norwegian: 'nemda',
+    english: 'the board',
+    spanish: 'la junta',
+  },
+  {
+    norwegian: 'kreftceller',
+    english: 'cancer cells',
+    spanish: 'células cancerosas',
+  },
+  {
+    norwegian: 'behandlingstilbud',
+    english: 'treatment options',
+    spanish: 'opciones de tratamiento',
+  },
+  {
+    norwegian: 'innføre det',
+    english: 'introduce it',
+    spanish: 'introducirlo',
+  },
+  {
+    norwegian: 'kan utestenge enkelte',
+    english: 'can exclude some',
+    spanish: 'puede excluir a algunos',
+  },
+  {
+    norwegian: 'å finne omveier',
+    english: 'to find detours',
+    spanish: 'encontrar desvíos',
+  },
+  {
+    norwegian: 'psykiatri',
+    english: 'psychiatry',
+    spanish: 'psiquiatría',
+  },
+  {
+    norwegian: 'for lenge siden',
+    english: 'long time ago',
+    spanish: 'hace mucho tiempo',
+  },
+  {
+    norwegian: 'ormen er veldig lang',
+    english: 'the worm is very long',
+    spanish: 'el gusano es muy largo',
+  },
+  {
+    norwegian: 'er myndig',
+    english: 'is of legal age',
+    spanish: 'es mayor de edad',
+  },
+  {
+    norwegian: 'for sørgende',
+    english: 'for the bereaved',
+    spanish: 'para los dolientes',
+  },
+  {
+    norwegian: 'når det er nødvendig',
+    english: 'when it is necessary',
+    spanish: 'cuando es necesario',
+  },
+  {
+    norwegian: 'jeg vet ikke om han kommer',
+    english: 'I don’t know whether or if he is coming',
+    spanish: 'no sé si él viene',
+  },
+  {
+    norwegian: 'en yrkesaktiv pasient',
+    english: 'a working patient',
+    spanish: 'un paciente trabajador',
+  },
+  {
+    norwegian: 'sykepenger',
+    english: 'sick pay',
+    spanish: 'pago por enfermedad',
+  },
+  {
+    norwegian: 'de frykter at',
+    english: 'they fear that',
+    spanish: 'temen que',
+  },
+  {
+    norwegian: 'forbedringer',
+    english: 'improvements',
+    spanish: 'mejoras',
+  },
+  {
+    norwegian: 'helseforetak',
+    english: 'health trust',
+    spanish: 'fideicomiso de salud',
+  },
+  {
+    norwegian: 'en fremragende bakgrunn',
+    english: 'an excellent background',
+    spanish: 'un excelente fondo',
+  },
+  {
+    norwegian: 'levealderen',
+    english: 'the life expectancy',
+    spanish: 'la esperanza de vida',
+  },
+  {
+    norwegian: 'egenandelsordninga',
+    english: 'the co-payment scheme',
+    spanish: 'el esquema de copago',
+  },
+  {
+    norwegian: 'et tidsavgrensa prosjekt',
+    english: 'a time-limited project',
+    spanish: 'un proyecto de tiempo limitado',
+  },
+  {
+    norwegian: 'eldreomsorgen',
+    english: 'the elderly care',
+    spanish: 'el cuidado de ancianos',
+  },
+  {
+    norwegian: 'blir verre',
+    english: 'is getting worse',
+    spanish: 'está empeorando',
+  },
+  {
+    norwegian: 'sykefraværet',
+    english: 'the absenteeism',
+    spanish: 'el ausentismo',
+  },
+  {
+    norwegian: 'landbruk',
+    english: 'farming',
+    spanish: 'agricultura',
+  },
+  {
+    norwegian: 'universell utforming',
+    english: 'universal design',
+    spanish: 'diseño universal',
+  },
+  {
+    norwegian: 'eiendomsskatt',
+    english: 'property tax',
+    spanish: 'impuesto a la propiedad',
+  },
+  {
+    norwegian: 'avskaffe',
+    english: 'abolish',
+    spanish: 'abolir',
+  },
+  {
+    norwegian: 'fritidsboliger',
+    english: 'holiday homes',
+    spanish: 'casas de vacaciones',
+  },
+  {
+    norwegian: 'utlånsforskriften',
+    english: 'the lending regulations',
+    spanish: 'las regulaciones de préstamo',
+  },
+  {
+    norwegian: 'inntekter vil reduseres',
+    english: 'revenues will decrease',
+    spanish: 'los ingresos disminuirán',
+  },
+  {
+    norwegian: 'forkjølelse',
+    english: 'cold',
+    spanish: 'resfriado',
+  },
+  {
+    norwegian: 'utslipp',
+    english: 'emission',
+    spanish: 'emisión',
+  },
+  {
+    norwegian: 'Stortinget vedtok',
+    english: 'the Parliament passed',
+    spanish: 'el Parlamento aprobó',
+  },
+  {
+    norwegian: 'ubevæpnet politi',
+    english: 'unarmed police',
+    spanish: 'policía desarmada',
+  },
+  {
+    norwegian: 'spyttprøver',
+    english: 'saliva tests',
+    spanish: 'pruebas de saliva',
+  },
+  {
+    norwegian: 'ransake',
+    english: 'search',
+    spanish: 'registrar',
+  },
+  {
+    norwegian: 'ruspåvirket',
+    english: 'intoxicated',
+    spanish: 'intoxicado',
+  },
+  {
+    norwegian: 'tilhengerne mener',
+    english: 'the supporters believe',
+    spanish: 'los partidarios creen',
+  },
+  {
+    norwegian: 'slik at',
+    english: 'so that',
+    spanish: 'de modo que',
+  },
+  {
+    norwegian: 'gjennomføre',
+    english: 'carry out',
+    spanish: 'llevar a cabo',
+  },
+  {
     norwegian: 'anledning til',
     english: 'opportunity to',
     spanish: 'oportunidad de',
