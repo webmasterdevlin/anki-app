@@ -482,6 +482,16 @@ export const words: Question[] = [
     spanish: 'recuérdame',
   },
   {
+    norwegian: 'å puste',
+    english: 'to breathe',
+    spanish: 'respirar',
+  },
+  {
+    norwegian: 'å pusse',
+    english: 'to brush',
+    spanish: 'cepillar',
+  },
+  {
     norwegian: 'å bestemme seg for',
     english: 'to decide',
     spanish: 'decidirse por',
