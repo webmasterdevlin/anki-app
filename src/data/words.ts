@@ -62,6 +62,236 @@ export const words: Question[] = [
     spanish: 'nuestro presupuesto estatal',
   },
   {
+    norwegian: 'språkapper',
+    english: 'language apps',
+    spanish: 'aplicaciones de idiomas',
+  },
+  {
+    norwegian: 'flerspråklighet',
+    english: 'multilingualism',
+    spanish: 'multilingüismo',
+  },
+  {
+    norwegian: 'ulike sjangrer',
+    english: 'different genres',
+    spanish: 'diferentes géneros',
+  },
+  {
+    norwegian: 'dessuten',
+    english: 'moreover',
+    spanish: 'además',
+  },
+  {
+    norwegian: 'ellers takk',
+    english: 'thanks but no thanks',
+    spanish: 'gracias pero no gracias',
+  },
+  {
+    norwegian: 'utmatelse',
+    english: 'exhaustion',
+    spanish: 'agotamiento',
+  },
+  {
+    norwegian: 'belønningen',
+    english: 'the reward',
+    spanish: 'la recompensa',
+  },
+  {
+    norwegian: 'et avsnitt',
+    english: 'a paragraph',
+    spanish: 'un párrafo',
+  },
+  {
+    norwegian: 'en reell krise',
+    english: 'a real crisis',
+    spanish: 'una crisis real',
+  },
+  {
+    norwegian: 'først og fremst',
+    english: 'first and foremost',
+    spanish: 'primero y ante todo',
+  },
+  {
+    norwegian: 'i tillegg',
+    english: 'in addition',
+    spanish: 'además',
+  },
+  {
+    norwegian: 'til slutt',
+    english: 'finally',
+    spanish: 'por último',
+  },
+  {
+    norwegian: 'stillinger',
+    english: 'positions',
+    spanish: 'posiciones',
+  },
+  {
+    norwegian: 'opplesere',
+    english: 'readers',
+    spanish: 'lectores',
+  },
+  {
+    norwegian: 'å verifisere',
+    english: 'to verify',
+    spanish: 'verificar',
+  },
+  {
+    norwegian: 'dobbeltsjekke',
+    english: 'to double-check',
+    spanish: 'verificar dos veces',
+  },
+  {
+    norwegian: 'kildene er pålitelige',
+    english: 'the sources are reliable',
+    spanish: 'las fuentes son confiables',
+  },
+  {
+    norwegian: 'til syvende og sist',
+    english: 'ultimately',
+    spanish: 'en última instancia',
+  },
+  {
+    norwegian: 'selve rekkefølgen',
+    english: 'the order itself',
+    spanish: 'el orden en sí',
+  },
+  {
+    norwegian: 'veier tyngst',
+    english: 'weighs heavily',
+    spanish: 'pesa mucho',
+  },
+  {
+    norwegian: 'forventninger til',
+    english: 'expectations for',
+    spanish: 'expectativas para',
+  },
+  {
+    norwegian: 'råvarer',
+    english: 'raw materials',
+    spanish: 'materias primas',
+  },
+  {
+    norwegian: 'handlevarer',
+    english: 'shopping items',
+    spanish: 'artículos de compra',
+  },
+  {
+    norwegian: 'piggdekk',
+    english: 'studded tires',
+    spanish: 'neumáticos con clavos',
+  },
+  {
+    norwegian: 'belgfrukter',
+    english: 'legumes',
+    spanish: 'legumbres',
+  },
+  {
+    norwegian: 'på farten',
+    english: 'on the go',
+    spanish: 'en movimiento',
+  },
+  {
+    norwegian: 'bokhandel',
+    english: 'bookstore',
+    spanish: 'librería',
+  },
+  {
+    norwegian: 'en vane',
+    english: 'a habit',
+    spanish: 'un hábito',
+  },
+  {
+    norwegian: 'uthvilt',
+    english: 'rested',
+    spanish: 'descansado',
+  },
+  {
+    norwegian: 'jobbskift',
+    english: 'job shift',
+    spanish: 'cambio de trabajo',
+  },
+  {
+    norwegian: 'ekstra vakter',
+    english: 'extra shifts',
+    spanish: 'turnos extra',
+  },
+  {
+    norwegian: 'et hjørne',
+    english: 'a corner',
+    spanish: 'una esquina',
+  },
+  {
+    norwegian: 'lenestoler',
+    english: 'armchairs',
+    spanish: 'sillones',
+  },
+  {
+    norwegian: 'å bli forstyrret',
+    english: 'to be disturbed',
+    spanish: 'ser molestado',
+  },
+  {
+    norwegian: 'en intim atmosfære',
+    english: 'an intimate atmosphere',
+    spanish: 'una atmósfera íntima',
+  },
+  {
+    norwegian: 'lesestoff',
+    english: 'reading material',
+    spanish: 'material de lectura',
+  },
+  {
+    norwegian: 'femårsmål',
+    english: 'five-year goals',
+    spanish: 'objetivos a cinco años',
+  },
+  {
+    norwegian: 'uforutsette hendelser',
+    english: 'unforeseen events',
+    spanish: 'eventos imprevistos',
+  },
+  {
+    norwegian: 'må utsettes',
+    english: 'must be postponed',
+    spanish: 'debe ser pospuesto',
+  },
+  {
+    norwegian: 'beundre',
+    english: 'admire',
+    spanish: 'admirar',
+  },
+  {
+    norwegian: 'for innhøstingen',
+    english: 'for the harvest',
+    spanish: 'para la cosecha',
+  },
+  {
+    norwegian: 'utveksling',
+    english: 'exchange',
+    spanish: 'intercambio',
+  },
+  {
+    norwegian: 'å nytte',
+    english: 'to benefit',
+    spanish: 'beneficiar',
+  },
+  {
+    norwegian: 'transportmiddel',
+    english: 'means of transport',
+    spanish: 'medio de transporte',
+  },
+  {
+    norwegian: 'tidsskjemaet tillater',
+    english: 'the schedule allows',
+    spanish: 'el horario permite',
+  },
+  {
+    english: 'can you rescue yourself',
+    norwegian: 'kan du redde deg selv',
+    spanish: '¿puedes salvarte a ti mismo?',
+  },
+  {
     norwegian: 'å beskatte',
     english: 'to tax',
     spanish: 'imponer impuestos',
