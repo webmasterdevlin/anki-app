@@ -277,6 +277,16 @@ export const words: Question[] = [
     spanish: 'beneficiar',
   },
   {
+    norwegian: 'å dyrke',
+    english: 'to cultivate',
+    spanish: 'cultivar',
+  },
+  {
+    norwegian: 'å utnytte',
+    english: 'to exploit',
+    spanish: 'explotar',
+  },
+  {
     norwegian: 'transportmiddel',
     english: 'means of transport',
     spanish: 'medio de transporte',
