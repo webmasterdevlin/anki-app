@@ -7,6 +7,111 @@ export const words: Question[] = [
     spanish: 'ha formado',
   },
   {
+    norwegian: 'hverken',
+    english: 'neither',
+    spanish: 'ninguno',
+  },
+  {
+    norwegian: 'en god arbeidsgiver',
+    english: 'a good employer',
+    spanish: 'un buen empleador',
+  },
+  {
+    norwegian: 'værforhold',
+    english: 'weather conditions',
+    spanish: 'condiciones climáticas',
+  },
+  {
+    norwegian: 'et magisk skue',
+    english: 'a magical sight',
+    spanish: 'una vista mágica',
+  },
+  {
+    norwegian: 'når den er framme',
+    english: 'when it arrives',
+    spanish: 'cuando llega',
+  },
+  {
+    norwegian: 'blir lett deprimert',
+    english: 'gets easily depressed',
+    spanish: 'se deprime fácilmente',
+  },
+  {
+    norwegian: 'døgnrytmen',
+    english: 'the circadian rhythm',
+    spanish: 'el ritmo circadiano',
+  },
+  {
+    norwegian: 'båndene løsnes',
+    english: 'the bonds are loosened',
+    spanish: 'los lazos se aflojan',
+  },
+  {
+    norwegian: 'være villig til',
+    english: 'be willing to',
+    spanish: 'estar dispuesto a',
+  },
+  {
+    norwegian: 'å samhandle',
+    english: 'to interact',
+    spanish: 'interactuar',
+  },
+  {
+    norwegian: 'allsidig utvikling',
+    english: 'versatile development',
+    spanish: 'desarrollo versátil',
+  },
+  {
+    norwegian: 'svekkede bånd',
+    english: 'weakened bonds',
+    spanish: 'lazos debilitados',
+  },
+  {
+    norwegian: 'ønskelig',
+    english: 'desirable',
+    spanish: 'deseable',
+  },
+  {
+    norwegian: 'en sunn oppvekst',
+    english: 'a healthy upbringing',
+    spanish: 'una crianza saludable',
+  },
+  {
+    norwegian: 'veiledet',
+    english: 'guided',
+    spanish: 'guiado',
+  },
+  {
+    norwegian: 'stiller opp',
+    english: 'shows up',
+    spanish: 'se presenta',
+  },
+  {
+    norwegian: 'en merkedag',
+    english: 'a special day',
+    spanish: 'un día especial',
+  },
+  {
+    norwegian: 'barneoppdragelse',
+    english: 'child upbringing',
+    spanish: 'crianza de los hijos',
+  },
+  {
+    norwegian: 'norskopplæring',
+    english: 'Norwegian language training',
+    spanish: 'formación en lengua noruega',
+  },
+  {
+    norwegian: 'kjenner til',
+    english: 'is familiar with',
+    spanish: 'está familiarizado con',
+  },
+  {
+    norwegian: 'dødshelp',
+    english: 'euthanasia',
+    spanish: 'eutanasia',
+  },
+  {
     norwegian: 'forebygge lovbrudd',
     english: 'prevent crime',
     spanish: 'prevenir el delito',
