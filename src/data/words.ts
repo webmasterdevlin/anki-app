@@ -17,6 +17,141 @@ export const words: Question[] = [
     spanish: 'valores heredados',
   },
   {
+    norwegian: 'falafeltallerken',
+    english: 'falafel plate',
+    spanish: 'plato de falafel',
+  },
+  {
+    norwegian: 'tilbehør',
+    english: 'accessories',
+    spanish: 'accesorios',
+  },
+  {
+    norwegian: 'en barnevennlig rett',
+    english: 'a child-friendly dish',
+    spanish: 'un plato apto para niños',
+  },
+  {
+    norwegian: 'å notere',
+    english: 'to note',
+    spanish: 'notar',
+  },
+  {
+    norwegian: 'plastbestikk',
+    english: 'plastic cutlery',
+    spanish: 'cubiertos de plástico',
+  },
+  {
+    norwegian: 'engangsbestikk fjernes fra bestillingen',
+    english: 'disposable cutlery is removed from the order',
+    spanish: 'los cubiertos desechables se eliminan del pedido',
+  },
+  {
+    norwegian: 'bekreft',
+    english: 'confirm',
+    spanish: 'confirmar',
+  },
+  {
+    norwegian: 'gjennomføres',
+    english: 'is carried out',
+    spanish: 'se lleva a cabo',
+  },
+  {
+    norwegian: 'budet henter maten',
+    english: 'the courier picks up the food',
+    spanish: 'el mensajero recoge la comida',
+  },
+  {
+    norwegian: 'nysing og kløende øyne',
+    english: 'sneezing and itchy eyes',
+    spanish: 'estornudos y ojos que pican',
+  },
+  {
+    norwegian: 'reseptfrie',
+    english: 'over-the-counter',
+    spanish: 'de venta libre',
+  },
+  {
+    norwegian: 'døsighet',
+    english: 'drowsiness',
+    spanish: 'somnolencia',
+  },
+  {
+    norwegian: 'bivirkninger',
+    english: 'side effects',
+    spanish: 'efectos secundarios',
+  },
+  {
+    norwegian: 'virkestoffet',
+    english: 'the active ingredient',
+    spanish: 'el ingrediente activo',
+  },
+  {
+    norwegian: 'hvor raskt merkes effekten',
+    english: 'how quickly the effect is noticed',
+    spanish: 'qué tan rápido se nota el efecto',
+  },
+  {
+    norwegian: 'øyedråper lindrer umiddelbart',
+    english: 'eye drops relieve immediately',
+    spanish: 'las gotas para los ojos alivian inmediatamente',
+  },
+  {
+    norwegian: 'før linsene settes inn igjen',
+    english: 'before the lenses are reinserted',
+    spanish: 'antes de volver a insertar las lentes',
+  },
+  {
+    norwegian: 'tretthet',
+    english: 'fatigue',
+    spanish: 'fatiga',
+  },
+  {
+    norwegian: 'mottas gjerne',
+    english: 'is gladly received',
+    spanish: 'se recibe con gusto',
+  },
+  {
+    norwegian: 'til oppgitt epost',
+    english: 'to the specified email',
+    spanish: 'al correo electrónico especificado',
+  },
+  {
+    norwegian: 'firehjulstrekker',
+    english: 'four-wheel drive',
+    spanish: 'tracción en las cuatro ruedas',
+  },
+  {
+    norwegian: 'romslig bagasjerom',
+    english: 'spacious trunk',
+    spanish: 'maletero espacioso',
+  },
+  {
+    norwegian: 'tilleggsgebyr',
+    english: 'additional fee',
+    spanish: 'cargo adicional',
+  },
+  {
+    norwegian: 'piggdekkavgift påløper i',
+    english: 'studded tire fee applies in',
+    spanish: 'la tarifa de neumáticos con clavos se aplica en',
+  },
+  {
+    norwegian: 'ekstrautstyr',
+    english: 'extra equipment',
+    spanish: 'equipo extra',
+  },
+  {
+    norwegian: 'for henting',
+    english: 'for pickup',
+    spanish: 'para recoger',
+  },
+  {
+    norwegian: 'er ledig',
+    english: 'is available',
+    spanish: 'está disponible',
+  },
+  {
     norwegian: 'innført i',
     english: 'introduced in',
     spanish: 'introducido en',
