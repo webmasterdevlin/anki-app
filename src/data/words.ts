@@ -12,6 +12,156 @@ export const words: Question[] = [
     spanish: 'prevenir el delito',
   },
   {
+    norwegian: 'økningen i',
+    english: 'the increase in',
+    spanish: 'el aumento en',
+  },
+  {
+    norwegian: 'varmtvannsberederen',
+    english: 'the water heater',
+    spanish: 'el calentador de agua',
+  },
+  {
+    norwegian: 'støvfilter',
+    english: 'dust filter',
+    spanish: 'filtro de polvo',
+  },
+  {
+    norwegian: 'tørketrommelen',
+    english: 'the dryer',
+    spanish: 'la secadora',
+  },
+  {
+    norwegian: 'sløsing',
+    english: 'waste',
+    spanish: 'desperdicio',
+  },
+  {
+    norwegian: 'vifteovnen',
+    english: 'the fan heater',
+    spanish: 'el calefactor',
+  },
+  {
+    norwegian: 'fortløpende',
+    english: 'continuously',
+    spanish: 'continuamente',
+  },
+  {
+    norwegian: 'reduksjon feires',
+    english: 'reduction is celebrated',
+    spanish: 'la reducción se celebra',
+  },
+  {
+    norwegian: 'avtalen bekreftes',
+    english: 'the agreement is confirmed',
+    spanish: 'el acuerdo es confirmado',
+  },
+  {
+    norwegian: 'måleren tas i morgen',
+    english: 'the meter is taken tomorrow',
+    spanish: 'el medidor se toma mañana',
+  },
+  {
+    norwegian: 'slippe gebyr',
+    english: 'avoid fee',
+    spanish: 'evitar la tarifa',
+  },
+  {
+    norwegian: 'ved behandlingens slutt',
+    english: 'at the end of the treatment',
+    spanish: 'al final del tratamiento',
+  },
+  {
+    norwegian: 'bedøvelsen',
+    english: 'the anesthesia',
+    spanish: 'la anestesia',
+  },
+  {
+    norwegian: 'blodtrykksmedisin',
+    english: 'blood pressure medication',
+    spanish: 'medicación para la presión arterial',
+  },
+  {
+    norwegian: 'et nytt røntgenbilde',
+    english: 'a new X-ray',
+    spanish: 'una nueva radiografía',
+  },
+  {
+    norwegian: 'fjorårets',
+    english: 'last year’s',
+    spanish: 'del año pasado',
+  },
+  {
+    norwegian: 'oppfølgingstid',
+    english: 'follow-up time',
+    spanish: 'tiempo de seguimiento',
+  },
+  {
+    norwegian: 'en skarp smerte',
+    english: 'a sharp pain',
+    spanish: 'un dolor agudo',
+  },
+  {
+    norwegian: 'en akuttundersøkelse',
+    english: 'an acute examination',
+    spanish: 'un examen agudo',
+  },
+  {
+    norwegian: 'boring',
+    english: 'drilling',
+    spanish: 'perforación',
+  },
+  {
+    norwegian: 'localbedøvelse',
+    english: 'local anesthesia',
+    spanish: 'anestesia local',
+  },
+  {
+    norwegian: 'klargjøres',
+    english: 'is prepared',
+    spanish: 'se prepara',
+  },
+  {
+    norwegian: 'en jeksel',
+    english: 'a molar',
+    spanish: 'un molar',
+  },
+  {
+    norwegian: 'en bluetooth-høyttaler',
+    english: 'a bluetooth speaker',
+    spanish: 'un altavoz bluetooth',
+  },
+  {
+    norwegian: 'en forhåndsbetalt returetikett',
+    english: 'a prepaid return label',
+    spanish: 'una etiqueta de devolución prepagada',
+  },
+  {
+    norwegian: 'hvis varen er i orden',
+    english: 'if the item is in order',
+    spanish: 'si el artículo está en orden',
+  },
+  {
+    norwegian: 'en vare',
+    english: 'an item',
+    spanish: 'un artículo',
+  },
+  {
+    norwegian: 'refusjon',
+    english: 'refund',
+    spanish: 'reembolso',
+  },
+  {
+    norwegian: 'sporingslenke',
+    english: 'tracking link',
+    spanish: 'enlace de seguimiento',
+  },
+  {
+    norwegian: 'erstatnings enheten',
+    english: 'the replacement unit',
+    spanish: 'la unidad de reemplazo',
+  },
+  {
     norwegian: 'arvede verdier',
     english: 'inherited values',
     spanish: 'valores heredados',
