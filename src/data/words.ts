@@ -12,6 +12,171 @@ export const words: Question[] = [
     spanish: 'ninguno',
   },
   {
+    norwegian: 'pensel',
+    english: 'brush',
+    spanish: 'pincel',
+  },
+  {
+    norwegian: 'bryter',
+    english: 'breaks',
+    spanish: 'rompe',
+  },
+  {
+    norwegian: 'frigjørende',
+    english: 'liberating',
+    spanish: 'liberador',
+  },
+  {
+    norwegian: 'å prege',
+    english: 'to characterize',
+    spanish: 'caracterizar',
+  },
+  {
+    norwegian: 'selvopptatt',
+    english: 'self-absorbed',
+    spanish: 'autocomplaciente',
+  },
+  {
+    norwegian: 'i endring',
+    english: 'in change',
+    spanish: 'en cambio',
+  },
+  {
+    norwegian: 'klesvask',
+    english: 'laundry',
+    spanish: 'lavandería',
+  },
+  {
+    norwegian: 'vedovn',
+    english: 'wood stove',
+    spanish: 'estufa de leña',
+  },
+  {
+    norwegian: 'er nærmest usynlig',
+    english: 'is almost invisible',
+    spanish: 'es casi invisible',
+  },
+  {
+    norwegian: 'et meningsfylt liv',
+    english: 'a meaningful life',
+    spanish: 'una vida significativa',
+  },
+  {
+    norwegian: 'tverrfaglig samarbeid',
+    english: 'interdisciplinary collaboration',
+    spanish: 'colaboración interdisciplinaria',
+  },
+  {
+    norwegian: 'kundeadferd',
+    english: 'customer behavior',
+    spanish: 'comportamiento del cliente',
+  },
+  {
+    norwegian: 'stiv nakke',
+    english: 'stiff neck',
+    spanish: 'cuello rígido',
+  },
+  {
+    norwegian: 'en gryte',
+    english: 'a pot',
+    spanish: 'una olla',
+  },
+  {
+    norwegian: 'samfunnsdebatter',
+    english: 'social debates',
+    spanish: 'debates sociales',
+  },
+  {
+    norwegian: 'vitenskap',
+    english: 'science',
+    spanish: 'ciencia',
+  },
+  {
+    norwegian: 'kunnskap og visdom',
+    english: 'knowledge and wisdom',
+    spanish: 'conocimiento y sabiduría',
+  },
+  {
+    norwegian: 'råvarer',
+    english: 'raw materials',
+    spanish: 'materias primas',
+  },
+  {
+    norwegian: 'fortell meg jeg er nysgjerrig',
+    english: 'tell me I am curious',
+    spanish: 'dime que tengo curiosidad',
+  },
+  {
+    norwegian: 'en forsker',
+    english: 'a scientist',
+    spanish: 'un científico',
+  },
+  {
+    norwegian: 'ikke tapt tid',
+    english: 'not lost time',
+    spanish: 'no se perdió tiempo',
+  },
+  {
+    norwegian: 'avgjørende åpenhet',
+    english: 'crucial openness',
+    spanish: 'apertura crucial',
+  },
+  {
+    norwegian: 'for å skyve grenser',
+    english: 'to push boundaries',
+    spanish: 'para empujar los límites',
+  },
+  {
+    norwegian: 'ivaretatt',
+    english: 'taken care of',
+    spanish: 'cuidado',
+  },
+  {
+    norwegian: 'klimautslipp',
+    english: 'climate emissions',
+    spanish: 'emisiones de carbono',
+  },
+  {
+    norwegian: 'innlemmer helse',
+    english: 'incorporates health',
+    spanish: 'incorpora la salud',
+  },
+  {
+    norwegian: 'hvor kan jeg legge denne ballen?',
+    english: 'where can i put this ball?',
+    spanish: '¿dónde puedo poner esta pelota?',
+  },
+  {
+    norwegian: 'i å veilede',
+    english: 'in guiding',
+    spanish: 'en guiar',
+  },
+  {
+    norwegian: 'jeg knapt kjenner deg igjen',
+    english: 'i can hardly recognize you',
+    spanish: 'apenas puedo reconocerte',
+  },
+  {
+    norwegian: 'hermetikk',
+    english: 'canned food',
+    spanish: 'comida enlatada',
+  },
+  {
+    norwegian: 'pensumet',
+    english: 'the curriculum',
+    spanish: 'el plan de estudios',
+  },
+  {
+    norwegian: 'jeg studerte til ingeniør på et universitet for 9 år siden',
+    english: 'i studied as engineer in a university 9 years ago',
+    spanish: 'estudié como ingeniero en una universidad hace 9 años',
+  },
+  {
+    norwegian: 'selvforsynt',
+    english: 'self-sufficient',
+    spanish: 'autosuficiente',
+  },
+  {
     norwegian: 'en god arbeidsgiver',
     english: 'a good employer',
     spanish: 'un buen empleador',
