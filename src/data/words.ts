@@ -2,6 +2,311 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'oppskrifter',
+    english: 'recipes',
+    spanish: 'recetas',
+  },
+  {
+    norwegian: 'uvant',
+    english: 'unaccustomed',
+    spanish: 'no acostumbrado',
+  },
+  {
+    norwegian: 'verdsetter fritiden',
+    english: 'appreciates free time',
+    spanish: 'aprecia el tiempo libre',
+  },
+  {
+    norwegian: 'uttrykker seg',
+    english: 'expresses himself',
+    spanish: 'se expresa',
+  },
+  {
+    norwegian: 'begrunne valgene sine',
+    english: 'justify his choices',
+    spanish: 'justificar sus elecciones',
+  },
+  {
+    norwegian: 'gunstigere lån',
+    english: 'more favorable loans',
+    spanish: 'préstamos más favorables',
+  },
+  {
+    norwegian: 'beliggenhet',
+    english: 'location',
+    spanish: 'ubicación',
+  },
+  {
+    norwegian: 'er tilgjengelig',
+    english: 'is available',
+    spanish: 'está disponible',
+  },
+  {
+    norwegian: 'sykefravær',
+    english: 'sick leave',
+    spanish: 'licencia por enfermedad',
+  },
+  {
+    norwegian: 'hvordan håndtere',
+    english: 'how to handle',
+    spanish: 'cómo manejar',
+  },
+  {
+    norwegian: 'ordforråd',
+    english: 'vocabulary',
+    spanish: 'vocabulario',
+  },
+  {
+    norwegian: 'lidenskap',
+    english: 'passion',
+    spanish: 'pasión',
+  },
+  {
+    norwegian: 'læringsprosess',
+    english: 'learning process',
+    spanish: 'proceso de aprendizaje',
+  },
+  {
+    norwegian: 'store fremskritt',
+    english: 'great progress',
+    spanish: 'grandes avances',
+  },
+  {
+    norwegian: 'å se barn oppleve mestring',
+    english: 'to see children experience mastery',
+    spanish: 'ver a los niños experimentar la maestría',
+  },
+  {
+    norwegian: 'glede gjennom læring',
+    english: 'joy through learning',
+    spanish: 'alegría a través del aprendizaje',
+  },
+  {
+    norwegian: 'undervisningsstil',
+    english: 'teaching style',
+    spanish: 'estilo de enseñanza',
+  },
+  {
+    norwegian: 'en elevsentrert tilnærming',
+    english: 'a student-centered approach',
+    spanish: 'un enfoque centrado en el estudiante',
+  },
+  {
+    norwegian: 'barna tør å prøve og feile',
+    english: 'the children dare to try and fail',
+    spanish: 'los niños se atreven a intentar y fallar',
+  },
+  {
+    norwegian: 'A kid and then those children',
+    english: 'et barn og så de barna',
+    spanish: 'un niño y luego esos niños',
+  },
+  {
+    norwegian: 'har atferdsutfordringer',
+    english: 'has behavioral challenges',
+    spanish: 'tiene desafíos de comportamiento',
+  },
+  {
+    norwegian: 'å veilede',
+    english: 'to guide',
+    spanish: 'guiar',
+  },
+  {
+    norwegian: 'tilrettelegge',
+    english: 'to facilitate',
+    spanish: 'facilitar',
+  },
+  {
+    norwegian: 'ulike metoder',
+    english: 'different methods',
+    spanish: 'métodos diferentes',
+  },
+  {
+    norwegian: 'jeg tett med foreldre',
+    english: 'I closely with parents',
+    spanish: 'yo estrechamente con los padres',
+  },
+  {
+    norwegian: 'spesialpedagoger',
+    english: 'special educators',
+    spanish: 'educadores especiales',
+  },
+  {
+    norwegian: 'ulike behov',
+    english: 'different needs',
+    spanish: 'necesidades diferentes',
+  },
+  {
+    norwegian: 'hadde vansker med',
+    english: 'had difficulties with',
+    spanish: 'tuvo dificultades con',
+  },
+  {
+    norwegian: 'bidrar aktivt',
+    english: 'contributes actively',
+    spanish: 'contribuye activamente',
+  },
+  {
+    norwegian: 'jeg holder jevnlig kontakt',
+    english: 'I keep in regular contact',
+    spanish: 'mantengo contacto regular',
+  },
+  {
+    norwegian: 'når problemer oppstår',
+    english: 'when problems arise',
+    spanish: 'cuando surgen problemas',
+  },
+  {
+    norwegian: 'til barnets trivsel',
+    english: "to the child's well-being",
+    spanish: 'al bienestar del niño',
+  },
+  {
+    norwegian: 'å opprettholde et trygt',
+    english: 'to maintain a safe',
+    spanish: 'mantener un seguro',
+  },
+  {
+    norwegian: 'jeg setter tydelige regler og grenser',
+    english: 'I set clear rules and boundaries',
+    spanish: 'estoy estableciendo reglas y límites claros',
+  },
+  {
+    norwegian: 'en inkluderende atmosfære',
+    english: 'an inclusive atmosphere',
+    spanish: 'una atmósfera inclusiva',
+  },
+  {
+    norwegian: 'hvordan barna samhandler og griper inn',
+    english: 'how the children interact and intervene',
+    spanish: 'cómo los niños interactúan e intervienen',
+  },
+  {
+    norwegian: 'oppstår konflikter',
+    english: 'conflicts arise',
+    spanish: 'surgen conflictos',
+  },
+  {
+    norwegian: 'å megle',
+    english: 'to mediate',
+    spanish: 'mediar',
+  },
+  {
+    norwegian: 'å minimere',
+    english: 'to minimize',
+    spanish: 'minimizar',
+  },
+  {
+    norwegian: 'å maksimere',
+    english: 'to maximize',
+    spanish: 'maximizar',
+  },
+  {
+    norwegian: 'kolleger eller ledelsen',
+    english: 'colleagues or management',
+    spanish: 'colegas o dirección',
+  },
+  {
+    norwegian: 'fremmer samarbeid',
+    english: 'promotes cooperation',
+    spanish: 'promueve la cooperación',
+  },
+  {
+    norwegian: 'jeg oppmuntrer til',
+    english: 'I encourage',
+    spanish: 'yo animo',
+  },
+  {
+    norwegian: 'vennlighet og empati',
+    english: 'kindness and empathy',
+    spanish: 'amabilidad y empatía',
+  },
+  {
+    norwegian: 'gjennom både lek og samtaler',
+    english: 'through both play and conversations',
+    spanish: 'a través de juegos y conversaciones',
+  },
+  {
+    norwegian: 'av undervisningen',
+    english: 'of the teaching',
+    spanish: 'de la enseñanza',
+  },
+  {
+    norwegian: 'styrke sine ferdigheter',
+    english: 'strengthen their skills',
+    spanish: 'fortalecer sus habilidades',
+  },
+  {
+    norwegian: 'gir tydelig veiledning',
+    english: 'provides clear guidance',
+    spanish: 'brinda orientación clara',
+  },
+  {
+    norwegian: 'støtter sitt team',
+    english: 'supports its team',
+    spanish: 'apoya a su equipo',
+  },
+  {
+    norwegian: 'pedagog',
+    english: 'educator',
+    spanish: 'educador',
+  },
+  {
+    norwegian: 'regelmessig',
+    english: 'regularly',
+    spanish: 'regularmente',
+  },
+  {
+    norwegian: 'ved å utveksle ideer og erfaringer',
+    english: 'by exchanging ideas and experiences',
+    spanish: 'intercambiando ideas y experiencias',
+  },
+  {
+    norwegian: 'jeg lytter til begge parter',
+    english: 'I listen to both parties',
+    spanish: 'escucho a ambas partes',
+  },
+  {
+    norwegian: 'jeg veileder dem',
+    english: 'I guide them',
+    spanish: 'los guío',
+  },
+  {
+    norwegian: 'er rettferdig',
+    english: 'is fair',
+    spanish: 'es justo',
+  },
+  {
+    norwegian: 'jeg veksler mellom',
+    english: 'I alternate between',
+    spanish: 'alterno entre',
+  },
+  {
+    norwegian: 'barnas dagsform',
+    english: "the children's daily form",
+    spanish: 'la forma diaria de los niños',
+  },
+  {
+    norwegian: 'jeg prøver å finne ut',
+    english: 'I try to find out',
+    spanish: 'trato de averiguar',
+  },
+  {
+    norwegian: 'tilpasser aktivitetene deretter',
+    english: 'adapts the activities accordingly',
+    spanish: 'adapta las actividades en consecuencia',
+  },
+  {
+    norwegian: 'jeg gir mye ros',
+    english: 'I give a lot of praise',
+    spanish: 'doy mucha alabanza',
+  },
+  {
+    norwegian: 'oppmuntring når de gjør små fremskritt',
+    english: 'encouragement when they make small progress',
+    spanish: 'aliento cuando hacen pequeños progresos',
+  },
+  {
     norwegian: 'har dannet',
     english: 'has formed',
     spanish: 'ha formado',
