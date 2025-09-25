@@ -842,6 +842,11 @@ export const words: Question[] = [
     spanish: 'se lleva a cabo',
   },
   {
+    norwegian: 'skjeer, gafler, teskjeer, kniver, spisepinner',
+    english: 'spoon, fork, teaspoon, knife, chopsticks',
+    spanish: 'cuchara, tenedor, cucharadita, cuchillo, palillos',
+  },
+  {
     norwegian: 'budet henter maten',
     english: 'the courier picks up the food',
     spanish: 'el mensajero recoge la comida',
