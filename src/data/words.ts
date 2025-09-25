@@ -2,6 +2,61 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'det er nytteløst',
+    english: 'it is useless',
+    spanish: 'es inútil',
+  },
+  {
+    norwegian: 'å skyte',
+    english: 'to shoot',
+    spanish: 'disparar',
+  },
+  {
+    norwegian: 'årevis',
+    english: 'for years',
+    spanish: 'durante años',
+  },
+  {
+    norwegian: 'fruktbar',
+    english: 'fertile',
+    spanish: 'fértil',
+  },
+  {
+    norwegian: 'en gang forsvarte',
+    english: 'once defended',
+    spanish: 'una vez defendido',
+  },
+  {
+    norwegian: 'en snor',
+    english: 'a cord',
+    spanish: 'un cordón',
+  },
+  {
+    norwegian: 'samtykke',
+    english: 'consent',
+    spanish: 'consentimiento',
+  },
+  {
+    norwegian: 'altså',
+    english: 'therefore',
+    spanish: 'por lo tanto',
+  },
+  {
+    norwegian: 'blad',
+    english: 'leaf',
+    spanish: 'hoja',
+  },
+  {
+    norwegian: 'i motsetning til',
+    english: 'unlike',
+    spanish: 'a diferencia de',
+  },
+  {
+    norwegian: 'det er en ære å vokte over deg',
+    english: 'it is an honor to guard you',
+    spanish: 'es un honor protegerte',
+  },
+  {
     norwegian: 'foreskrev',
     english: 'prescribed',
     spanish: 'prescrito',
