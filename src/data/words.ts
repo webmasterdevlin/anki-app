@@ -2,6 +2,66 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'foreskrev',
+    english: 'prescribed',
+    spanish: 'prescrito',
+  },
+  {
+    norwegian: 'skynd deg',
+    english: 'hurry up',
+    spanish: 'date prisa',
+  },
+  {
+    norwegian: 'slåss menn',
+    english: 'fighting men',
+    spanish: 'hombres luchadores',
+  },
+  {
+    norwegian: 'hevnen min',
+    english: 'my revenge',
+    spanish: 'mi venganza',
+  },
+  {
+    norwegian: 'voktere',
+    english: 'guardians',
+    spanish: 'guardianes',
+  },
+  {
+    norwegian: 'degraderte',
+    english: 'degraded',
+    spanish: 'degradado',
+  },
+  {
+    norwegian: 'vanæret',
+    english: 'dishonored',
+    spanish: 'deshonrado',
+  },
+  {
+    norwegian: 'muren',
+    english: 'the wall',
+    spanish: 'la pared',
+  },
+  {
+    norwegian: 'hæren',
+    english: 'the army',
+    spanish: 'el ejército',
+  },
+  {
+    norwegian: 'er straffen døden',
+    english: 'is the punishment death',
+    spanish: 'es la pena de muerte',
+  },
+  {
+    norwegian: 'feiging',
+    english: 'coward',
+    spanish: 'cobarde',
+  },
+  {
+    norwegian: 'vemmelig',
+    english: 'disgusting',
+    spanish: 'asqueroso',
+  },
+  {
     norwegian: 'oppskrifter',
     english: 'recipes',
     spanish: 'recetas',
