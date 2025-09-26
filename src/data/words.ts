@@ -17,6 +17,11 @@ export const words: Question[] = [
     spanish: 'aquí está mi teléfono móvil sin usar',
   },
   {
+    norwegian: 'sine liv',
+    english: 'their lives',
+    spanish: 'sus vidas',
+  },
+  {
     norwegian: 'deres liv',
     english: 'their lives',
     spanish: 'sus vidas',
