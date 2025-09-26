@@ -317,9 +317,9 @@ export const words: Question[] = [
     spanish: 'métodos diferentes',
   },
   {
-    norwegian: 'jeg tett med foreldre',
-    english: 'I closely with parents',
-    spanish: 'yo estrechamente con los padres',
+    norwegian: 'jeg bor tett med foreldre',
+    english: 'I live closely with parents',
+    spanish: 'vivo cerca de los padres',
   },
   {
     norwegian: 'spesialpedagoger',
