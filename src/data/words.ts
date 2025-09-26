@@ -4,7 +4,17 @@ export const words: Question[] = [
   {
     norwegian: 'det er ikke verdt det',
     english: 'that is not worth it',
-    spanish: 'no vale la pena'
+    spanish: 'no vale la pena',
+  },
+  {
+    norwegian: 'det er nytteløst å komme hit',
+    english: 'coming here is useless',
+    spanish: 'venir aquí es inútil',
+  },
+  {
+    norwegian: 'her er min ubrukte mobiltelefon',
+    english: 'here is my unused mobile phone',
+    spanish: 'aquí está mi teléfono móvil sin usar',
   },
   {
     norwegian: 'deres liv',
