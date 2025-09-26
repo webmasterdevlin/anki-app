@@ -292,8 +292,8 @@ export const words: Question[] = [
     spanish: 'los niños se atreven a intentar y fallar',
   },
   {
-    norwegian: 'A kid and then those children',
-    english: 'et barn og så de barna',
+    norwegian: 'et barn og så de barna',
+    english: 'a kid and then those children',
     spanish: 'un niño y luego esos niños',
   },
   {
