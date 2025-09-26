@@ -7,6 +7,16 @@ export const words: Question[] = [
     spanish: 'sus vidas',
   },
   {
+    norwegian: 'nyttig',
+    english: 'useful',
+    spanish: 'útil',
+  },
+  {
+    norwegian: 'verdtifulle',
+    english: 'valuable',
+    spanish: 'valioso',
+  },
+  {
     norwegian: 'min foreldrepensjon',
     english: 'my parents pension',
     spanish: 'mi pensión de padres',
