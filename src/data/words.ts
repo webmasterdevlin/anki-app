@@ -2,6 +2,26 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'likesinnede sjeler',
+    english: 'like-minded souls',
+    spanish: 'almas afines',
+  },
+  {
+    norwegian: 'er glimrende kandidat',
+    english: 'is an excellent candidate',
+    spanish: 'es un excelente candidato',
+  },
+  {
+    norwegian: 'hender',
+    english: 'hands',
+    spanish: 'manos',
+  },
+  {
+    norwegian: 'uheldig',
+    english: 'unlucky',
+    spanish: 'desafortunado',
+  },
+  {
     norwegian: 'det er nytteløst',
     english: 'it is useless',
     spanish: 'es inútil',
