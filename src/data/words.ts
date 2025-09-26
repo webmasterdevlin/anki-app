@@ -2,6 +2,21 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'deres liv',
+    english: 'their lives',
+    spanish: 'sus vidas',
+  },
+  {
+    norwegian: 'min foreldrepensjon',
+    english: 'my parents pension',
+    spanish: 'mi pensión de padres',
+  },
+  {
+    norwegian: 'noens liv',
+    english: 'someones life',
+    spanish: 'la vida de alguien',
+  },
+  {
     norwegian: 'likesinnede sjeler',
     english: 'like-minded souls',
     spanish: 'almas afines',
