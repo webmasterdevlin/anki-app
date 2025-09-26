@@ -7,6 +7,21 @@ export const words: Question[] = [
     spanish: 'almas afines',
   },
   {
+    norwegian: 'innbyggere',
+    english: 'inhabitants',
+    spanish: 'habitantes',
+  },
+  {
+    norwegian: 'borgere',
+    english: 'citizens',
+    spanish: 'ciudadanos',
+  },
+  {
+    norwegian: 'befolkninger',
+    english: 'populations',
+    spanish: 'poblaciones',
+  },
+  {
     norwegian: 'er glimrende kandidat',
     english: 'is an excellent candidate',
     spanish: 'es un excelente candidato',
