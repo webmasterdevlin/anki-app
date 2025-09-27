@@ -2,6 +2,11 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'vi bør nyte mens vi spiser mat',
+    english: 'we should enjoy while we are eating foods',
+    spanish: 'deberíamos disfrutar mientras comemos alimentos',
+  },
+  {
     norwegian: 'det er ikke verdt det',
     english: 'that is not worth it',
     spanish: 'no vale la pena',
