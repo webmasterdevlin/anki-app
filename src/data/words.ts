@@ -2,6 +2,141 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en bølle',
+    english: 'a bully',
+    spanish: 'un matón',
+  },
+  {
+    norwegian: 'vidunderlig',
+    english: 'wonderful',
+    spanish: 'maravilloso',
+  },
+  {
+    norwegian: 'en stadig',
+    english: 'a constant',
+    spanish: 'un constante',
+  },
+  {
+    norwegian: 'er i gode hender',
+    english: 'is in good hands',
+    spanish: 'está en buenas manos',
+  },
+  {
+    norwegian: 'krigsherre',
+    english: 'warlord',
+    spanish: 'señor de la guerra',
+  },
+  {
+    norwegian: 'en erstatter',
+    english: 'a replacement',
+    spanish: 'un reemplazo',
+  },
+  {
+    norwegian: 'sonde',
+    english: 'probe',
+    spanish: 'sonda',
+  },
+  {
+    norwegian: 'sannsynlig at du',
+    english: 'likely that you',
+    spanish: 'probablemente que tú',
+  },
+  {
+    norwegian: 'pårørende',
+    english: 'next of kin',
+    spanish: 'próximo de kin',
+  },
+  {
+    norwegian: 'heltemodig ut',
+    english: 'heroically out',
+    spanish: 'heroicamente fuera',
+  },
+  {
+    norwegian: 'rekyl',
+    english: 'recoil',
+    spanish: 'retroceso',
+  },
+  {
+    norwegian: 'lureskudd',
+    english: 'dummy shot',
+    spanish: 'disparo de mentira',
+  },
+  {
+    norwegian: 'anser meg',
+    english: 'consider me',
+    spanish: 'considérame',
+  },
+  {
+    norwegian: 'fanget',
+    english: 'caught',
+    spanish: 'atrapado',
+  },
+  {
+    norwegian: 'obersten',
+    english: 'the colonel',
+    spanish: 'el coronel',
+  },
+  {
+    norwegian: 'et panser',
+    english: 'an armor',
+    spanish: 'una armadura',
+  },
+  {
+    norwegian: 'oppmerksomhet',
+    english: 'attention',
+    spanish: 'atención',
+  },
+  {
+    norwegian: 'sverger',
+    english: 'swears',
+    spanish: 'jura',
+  },
+  {
+    norwegian: 'ære',
+    english: 'honor',
+    spanish: 'honor',
+  },
+  {
+    norwegian: 'fæl',
+    english: 'awful',
+    spanish: 'horrible',
+  },
+  {
+    norwegian: 'myk utsatt',
+    english: 'soft exposed',
+    spanish: 'suave expuesto',
+  },
+  {
+    norwegian: 'utfører',
+    english: 'performs',
+    spanish: 'realiza',
+  },
+  {
+    norwegian: 'skrot',
+    english: 'junk',
+    spanish: 'chatarra',
+  },
+  {
+    norwegian: 'svøp',
+    english: 'swaddle',
+    spanish: 'envolver',
+  },
+  {
+    norwegian: 'tilhørighet',
+    english: 'belonging',
+    spanish: 'pertenencia',
+  },
+  {
+    norwegian: 'hovent',
+    english: 'swollen',
+    spanish: 'hinchado',
+  },
+  {
+    norwegian: 'fælt',
+    english: 'terrible',
+    spanish: 'terrible',
+  },
+  {
     norwegian: 'vi bør nyte mens vi spiser mat',
     english: 'we should enjoy while we are eating foods',
     spanish: 'deberíamos disfrutar mientras comemos alimentos',
