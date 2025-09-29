@@ -2,6 +2,186 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'tårene triller',
+    english: 'the tears are rolling',
+    spanish: 'las lágrimas están rodando',
+  },
+  {
+    norwegian: 'å gjemme seg',
+    english: 'to hide oneself',
+    spanish: 'esconderse',
+  },
+  {
+    norwegian: 'bøffer',
+    english: 'steaks',
+    spanish: 'bistecs',
+  },
+  {
+    norwegian: 'bebodd',
+    english: 'inhabited',
+    spanish: 'habitado',
+  },
+  {
+    norwegian: 'frosne',
+    english: 'frozen',
+    spanish: 'congelado',
+  },
+  {
+    norwegian: 'å avgjøre noens skjebne',
+    english: "to decide someone's fate",
+    spanish: 'decidir el destino de alguien',
+  },
+  {
+    norwegian: 'unyttige',
+    english: 'useless',
+    spanish: 'inútil',
+  },
+  {
+    norwegian: 'på jobbingen',
+    english: 'at work',
+    spanish: 'en el trabajo',
+  },
+  {
+    norwegian: 'en innbydelse',
+    english: 'an invitation',
+    spanish: 'una invitación',
+  },
+  {
+    norwegian: 'er fortapt',
+    english: 'is lost',
+    spanish: 'está perdido',
+  },
+  {
+    norwegian: 'rømning',
+    english: 'escape',
+    spanish: 'escape',
+  },
+  {
+    norwegian: 'på rømling',
+    english: 'on the run',
+    spanish: 'en fuga',
+  },
+  {
+    norwegian: 'feighet',
+    english: 'cowardice',
+    spanish: 'cobardía',
+  },
+  {
+    norwegian: 'i utenbys',
+    english: 'out of town',
+    spanish: 'fuera de la ciudad',
+  },
+  {
+    norwegian: 'katten maler',
+    english: 'the cat purrs',
+    spanish: 'el gato ronronea',
+  },
+  {
+    norwegian: 'å stikke av',
+    english: 'to run away',
+    spanish: 'huir',
+  },
+  {
+    norwegian: 'et trofé',
+    english: 'a trophy',
+    spanish: 'un trofeo',
+  },
+  {
+    norwegian: 'å skaffe',
+    english: 'to obtain',
+    spanish: 'obtener',
+  },
+  {
+    norwegian: 'jeg formoder',
+    english: 'i suppose',
+    spanish: 'supongo',
+  },
+  {
+    norwegian: 'har pågrepet',
+    english: 'have arrested',
+    spanish: 'han arrestado',
+  },
+  {
+    norwegian: 'rømlingen',
+    english: 'the fugitive',
+    spanish: 'el fugitivo',
+  },
+  {
+    norwegian: 'beroligende',
+    english: 'calming',
+    spanish: 'calmante',
+  },
+  {
+    norwegian: 'bryr',
+    english: 'cares',
+    spanish: 'se preocupa',
+  },
+  {
+    norwegian: 'støy',
+    english: 'noise',
+    spanish: 'ruido',
+  },
+  {
+    norwegian: 'forvirring',
+    english: 'confusion',
+    spanish: 'confusión',
+  },
+  {
+    norwegian: 'den rister på hodet',
+    english: 'it shakes its head',
+    spanish: 'sacude la cabeza',
+  },
+  {
+    norwegian: 'lemmene mine',
+    english: 'my limbs',
+    spanish: 'mis extremidades',
+  },
+  {
+    norwegian: 'en svært ukledelig måte',
+    english: 'a very unbecoming way',
+    spanish: 'una manera muy poco favorecedora',
+  },
+  {
+    norwegian: 'oppfører seg',
+    english: 'behaves',
+    spanish: 'se comporta',
+  },
+  {
+    norwegian: 'overopphetet',
+    english: 'overheated',
+    spanish: 'sobrecalentado',
+  },
+  {
+    norwegian: 'til nag',
+    english: 'to spite',
+    spanish: 'para pesar',
+  },
+  {
+    norwegian: 'evighet',
+    english: 'eternity',
+    spanish: 'eternidad',
+  },
+  {
+    norwegian: 'ærlig talt',
+    english: 'honestly',
+    spanish: 'honestamente',
+  },
+  {
+    norwegian: 'tilfeldige tall',
+    english: 'random numbers',
+    spanish: 'números aleatorios',
+  },
+  {
+    norwegian: 'bokstaver',
+    english: 'letters',
+    spanish: 'letras',
+  },
+  {
+    norwegian: 'nye tabber jeg gjør',
+    english: 'new mistakes i make',
+    spanish: 'nuevos errores que cometo',
+  },
+  {
     norwegian: 'en bølle',
     english: 'a bully',
     spanish: 'un matón',
