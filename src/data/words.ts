@@ -2,6 +2,281 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en bølle',
+    english: 'a bully',
+    spanish: 'un matón',
+  },
+  {
+    norwegian: 'vidunderlig',
+    english: 'wonderful',
+    spanish: 'maravilloso',
+  },
+  {
+    norwegian: 'ordfører',
+    english: 'mayor',
+    spanish: 'alcalde',
+  },
+  {
+    norwegian: 'utslettet',
+    english: 'wiped out',
+    spanish: 'borrado',
+  },
+  {
+    norwegian: 'en smule',
+    english: 'a bit',
+    spanish: 'un poco',
+  },
+  {
+    norwegian: 'å skaffe',
+    english: 'to obtain',
+    spanish: 'obtener',
+  },
+  {
+    norwegian: 'å frakte',
+    english: 'to transport',
+    spanish: 'transportar',
+  },
+  {
+    norwegian: 'rusmidler',
+    english: 'drugs',
+    spanish: 'drogas',
+  },
+  {
+    norwegian: 'virkeligheten',
+    english: 'the reality',
+    spanish: 'la realidad',
+  },
+  {
+    norwegian: 'tvil om',
+    english: 'doubt about',
+    spanish: 'duda sobre',
+  },
+  {
+    norwegian: 'å havne',
+    english: 'to end up',
+    spanish: 'terminar',
+  },
+  {
+    norwegian: 'ta ham imot',
+    english: 'welcome him',
+    spanish: 'darlo la bienvenida',
+  },
+  {
+    norwegian: 'sårende',
+    english: 'hurtful',
+    spanish: 'hermoso',
+  },
+  {
+    norwegian: 'du glemmer',
+    english: 'you forget',
+    spanish: 'olvidas',
+  },
+  {
+    norwegian: 'innsats',
+    english: 'effort',
+    spanish: 'esfuerzo',
+  },
+  {
+    norwegian: 'bunkene',
+    english: 'the piles',
+    spanish: 'las pilas',
+  },
+  {
+    norwegian: 'ikke farlige',
+    english: 'not dangerous',
+    spanish: 'no peligroso',
+  },
+  {
+    norwegian: 'mistillit',
+    english: 'mistrust',
+    spanish: 'desconfianza',
+  },
+  {
+    norwegian: 'skyting',
+    english: 'shooting',
+    spanish: 'tiroteo',
+  },
+  {
+    norwegian: 'å slite',
+    english: 'to struggle',
+    spanish: 'luchar',
+  },
+  {
+    norwegian: 'tør',
+    english: 'dare',
+    spanish: 'atreverse',
+  },
+  {
+    norwegian: 'å oppfylle',
+    english: 'to fulfill',
+    spanish: 'cumplir',
+  },
+  {
+    norwegian: 'banket ham opp',
+    english: 'beat him up',
+    spanish: 'lo golpeó',
+  },
+  {
+    norwegian: 'begår hærverk',
+    english: 'commits vandalism',
+    spanish: 'comete vandalismo',
+  },
+  {
+    norwegian: 'hustru',
+    english: 'wife',
+    spanish: 'esposa',
+  },
+  {
+    norwegian: 'inntrykk',
+    english: 'impression',
+    spanish: 'impresión',
+  },
+  {
+    norwegian: 'å lene seg',
+    english: 'to lean',
+    spanish: 'inclinarse',
+  },
+  {
+    norwegian: 'omsetning',
+    english: 'turnover',
+    spanish: 'facturación',
+  },
+  {
+    norwegian: 'å forutsette',
+    english: 'to assume',
+    spanish: 'suponer',
+  },
+  {
+    norwegian: 'undervisning',
+    english: 'teaching',
+    spanish: 'enseñanza',
+  },
+  {
+    norwegian: 'utveksling',
+    english: 'exchange',
+    spanish: 'intercambio',
+  },
+  {
+    norwegian: 'sylskarpe',
+    english: 'razor-sharp',
+    spanish: 'afilado como una navaja',
+  },
+  {
+    norwegian: 'nedstenging i',
+    english: 'lockdown in',
+    spanish: 'cierre en',
+  },
+  {
+    norwegian: 'utestenge',
+    english: 'exclude',
+    spanish: 'excluir',
+  },
+  {
+    norwegian: 'ikke angre',
+    english: 'not regret',
+    spanish: 'no arrepentirse',
+  },
+  {
+    norwegian: 'fullstendig',
+    english: 'complete',
+    spanish: 'completo',
+  },
+  {
+    norwegian: 'fortære',
+    english: 'devour',
+    spanish: 'devorar',
+  },
+  {
+    norwegian: 'mye lunere',
+    english: 'much warmer',
+    spanish: 'mucho más cálido',
+  },
+  {
+    norwegian: 'sammenbrudd',
+    english: 'breakdown',
+    spanish: 'colapso',
+  },
+  {
+    norwegian: 'usynlig',
+    english: 'invisible',
+    spanish: 'invisible',
+  },
+  {
+    norwegian: 'innser',
+    english: 'realizes',
+    spanish: 'se da cuenta',
+  },
+  {
+    norwegian: 'fabelaktig',
+    english: 'fabulous',
+    spanish: 'fabuloso',
+  },
+  {
+    norwegian: 'vik',
+    english: 'bay',
+    spanish: 'bahía',
+  },
+  {
+    norwegian: 'svever',
+    english: 'hovers',
+    spanish: 'flota',
+  },
+  {
+    norwegian: 'en stadig',
+    english: 'a constant',
+    spanish: 'un constante',
+  },
+  {
+    norwegian: 'temmelig',
+    english: 'quite',
+    spanish: 'bastante',
+  },
+  {
+    norwegian: 'begavet',
+    english: 'gifted',
+    spanish: 'dotado',
+  },
+  {
+    norwegian: 'pung-undervisning',
+    english: 'pouch teaching',
+    spanish: 'enseñanza de bolsa',
+  },
+  {
+    norwegian: 'lød',
+    english: 'sounded',
+    spanish: 'sonó',
+  },
+  {
+    norwegian: 'nød',
+    english: 'emergency',
+    spanish: 'emergencia',
+  },
+  {
+    norwegian: 'talt',
+    english: 'spoken',
+    spanish: 'hablado',
+  },
+  {
+    norwegian: 'vesen',
+    english: 'being',
+    spanish: 'ser',
+  },
+  {
+    norwegian: 'dessuten, derimot, derfor, mens, selv om, i motsetning',
+    english: 'moreover, however, therefore, while, although, on the other hand',
+    spanish: 'además, sin embargo, por lo tanto, mientras que, aunque, en cambio.',
+  },
+  {
+    norwegian: 'næmmen',
+    english: 'well',
+    spanish: 'bueno',
+  },
+  {
+    norwegian: 'et fnugg',
+    english: 'a speck',
+    spanish: 'una mota',
+  },
+  {
     norwegian: 'tårene triller',
     english: 'the tears are rolling',
     spanish: 'las lágrimas están rodando',
