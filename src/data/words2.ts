@@ -2,6 +2,336 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'å rive seg i håret',
+    english: "to tear one's hair out",
+    spanish: 'arrancarse el pelo',
+  },
+  {
+    norwegian: 'fastboende',
+    english: 'permanent resident',
+    spanish: 'residente permanente',
+  },
+  {
+    norwegian: 'jeg er tater',
+    english: 'i am a gypsy',
+    spanish: 'soy un gitano',
+  },
+  {
+    norwegian: 'å omstreife',
+    english: 'to roam',
+    spanish: 'vagar',
+  },
+  {
+    norwegian: 'å tvinge',
+    english: 'to force',
+    spanish: 'forzar',
+  },
+  {
+    norwegian: 'forbanna taterliv',
+    english: 'damn gypsy life',
+    spanish: 'maldita vida gitana',
+  },
+  {
+    norwegian: 'jeg orker ikke mer',
+    english: "i can't take it anymore",
+    spanish: 'no puedo más',
+  },
+  {
+    norwegian: 'jeg gidder ikke',
+    english: "i don't bother",
+    spanish: 'no me molesto',
+  },
+  {
+    norwegian: 'tilhører',
+    english: 'belongs to',
+    spanish: 'pertenece a',
+  },
+  {
+    norwegian: 'på hjørnet',
+    english: 'on the corner',
+    spanish: 'en la esquina',
+  },
+  {
+    norwegian: 'rasehygiene',
+    english: 'racial hygiene',
+    spanish: 'higiene racial',
+  },
+  {
+    norwegian: 'pleiehjem',
+    english: 'nursing home',
+    spanish: 'hogar de ancianos',
+  },
+  {
+    norwegian: 'i forbindelse',
+    english: 'in connection',
+    spanish: 'en conexión',
+  },
+  {
+    norwegian: 'det preger henne',
+    english: 'it affects her',
+    spanish: 'la afecta',
+  },
+  {
+    norwegian: 'har fortjent',
+    english: 'has deserved',
+    spanish: 'ha merecido',
+  },
+  {
+    norwegian: 'en god alderdom',
+    english: 'a good old age',
+    spanish: 'una buena vejez',
+  },
+  {
+    norwegian: 'betviler',
+    english: 'doubts',
+    spanish: 'duda',
+  },
+  {
+    norwegian: 'hun blir plaget av det',
+    english: 'she is bothered by it',
+    spanish: 'ella se siente molesta por ello',
+  },
+  {
+    norwegian: 'innebar grove overgrep',
+    english: 'involved gross abuses',
+    spanish: 'involucró abusos graves',
+  },
+  {
+    norwegian: 'de overgrepene',
+    english: 'the abuses',
+    spanish: 'los abusos',
+  },
+  {
+    norwegian: 'som ble begått',
+    english: 'that were committed',
+    spanish: 'que fueron cometidos',
+  },
+  {
+    norwegian: 'en gartner',
+    english: 'a gardener',
+    spanish: 'un jardinero',
+  },
+  {
+    norwegian: 'luke ut ugresset',
+    english: 'weed out the weeds',
+    spanish: 'eliminar las malas hierbas',
+  },
+  {
+    norwegian: 'jeg beslagla barnet',
+    english: 'i seized the child',
+    spanish: 'yo confiscé al niño',
+  },
+  {
+    norwegian: 'skal framstå som',
+    english: 'is to appear as',
+    spanish: 'debe aparecer como',
+  },
+  {
+    norwegian: 'ble tatt fra foreldrene',
+    english: 'was taken from the parents',
+    spanish: 'fue tomado de los padres',
+  },
+  {
+    norwegian: 'ble du overgitt til',
+    english: 'were you handed over to',
+    spanish: 'fuiste entregado a',
+  },
+  {
+    norwegian: 'ha vært forferdeligt',
+    english: 'have been terrible',
+    spanish: 'han sido terribles',
+  },
+  {
+    norwegian: 'jeg havnet på barnehjem',
+    english: 'i ended up in an orphanage',
+    spanish: 'terminé en un orfanato',
+  },
+  {
+    norwegian: 'som knytter seg til sånne ting',
+    english: 'that relate to such things',
+    spanish: 'que se relacionan con tales cosas',
+  },
+  {
+    norwegian: 'fødselsattesten',
+    english: 'the birth certificate',
+    spanish: 'el certificado de nacimiento',
+  },
+  {
+    norwegian: 'jeg er døpt',
+    english: 'i am baptized',
+    spanish: 'estoy bautizado',
+  },
+  {
+    norwegian: 'spedbarn',
+    english: 'infant',
+    spanish: 'bebé',
+  },
+  {
+    norwegian: 'en unormal påkjenning',
+    english: 'an abnormal strain',
+    spanish: 'una tensión anormal',
+  },
+  {
+    norwegian: 'tilhørigheten til noe',
+    english: 'the belonging to something',
+    spanish: 'la pertenencia a algo',
+  },
+  {
+    norwegian: 'hele oppveksten min',
+    english: 'my whole upbringing',
+    spanish: 'mi toda crianza',
+  },
+  {
+    norwegian: 'uskyldig dame sitter',
+    english: 'innocent lady sits',
+    spanish: 'dama inocente se sienta',
+  },
+  {
+    norwegian: 'gått og lidd',
+    english: 'gone and suffered',
+    spanish: 'ido y sufrido',
+  },
+  {
+    norwegian: 'av reisende slekt',
+    english: 'of traveling kin',
+    spanish: 'de parentes viajeros',
+  },
+  {
+    norwegian: 'ble fratatt',
+    english: 'was taken away',
+    spanish: 'fue quitado',
+  },
+  {
+    norwegian: 'uten vedtak fra kompetent',
+    english: 'without decision from competent',
+    spanish: 'sin decisión de competente',
+  },
+  {
+    norwegian: 'det foreligger to avvikende dødsdatoer',
+    english: 'there are two different dates of death',
+    spanish: 'hay dos fechas de muerte diferentes',
+  },
+  {
+    norwegian: 'tvangssteriliserte folk',
+    english: 'forcibly sterilized people',
+    spanish: 'personas esterilizadas a la fuerza',
+  },
+  {
+    norwegian: 'inderlig',
+    english: 'deeply',
+    spanish: 'profundamente',
+  },
+  {
+    norwegian: 'burde fått svar på',
+    english: 'should have gotten answers to',
+    spanish: 'debería haber obtenido respuestas a',
+  },
+  {
+    norwegian: 'åpner arkivenene',
+    english: 'opens the archives',
+    spanish: 'abre los archivos',
+  },
+  {
+    norwegian: 'antropologisk',
+    english: 'anthropological',
+    spanish: 'antropológico',
+  },
+  {
+    norwegian: 'rettsmedisinsk',
+    english: 'forensic',
+    spanish: 'forense',
+  },
+  {
+    norwegian: 'kirkevergen',
+    english: 'the churchwarden',
+    spanish: 'el mayordomo de la iglesia',
+  },
+  {
+    norwegian: 'en lensmann',
+    english: 'a sheriff',
+    spanish: 'un sheriff',
+  },
+  {
+    norwegian: 'en gravarbeider',
+    english: 'a gravedigger',
+    spanish: 'un enterrador',
+  },
+  {
+    norwegian: 'kan dels skyldes',
+    english: 'may partly be due to',
+    spanish: 'puede deberse en parte a',
+  },
+  {
+    norwegian: 'en dårlig utgravning',
+    english: 'a bad excavation',
+    spanish: 'una mala excavación',
+  },
+  {
+    norwegian: 'oppløsning',
+    english: 'resolution',
+    spanish: 'resolución',
+  },
+  {
+    norwegian: 'er usannsynlig',
+    english: 'is unlikely',
+    spanish: 'es poco probable',
+  },
+  {
+    norwegian: 'et spedbarn',
+    english: 'an infant',
+    spanish: 'un bebé',
+  },
+  {
+    norwegian: 'vesentlig informasjon',
+    english: 'essential information',
+    spanish: 'información esencial',
+  },
+  {
+    norwegian: 'ble ikke oppfattet som',
+    english: 'was not perceived as',
+    spanish: 'no fue percibido como',
+  },
+  {
+    norwegian: 'er helt forferdelig',
+    english: 'is absolutely terrible',
+    spanish: 'es absolutamente terrible',
+  },
+  {
+    norwegian: 'fer det tynger meg veldig',
+    english: 'because it weighs heavily on me',
+    spanish: 'porque pesa mucho sobre mí',
+  },
+  {
+    norwegian: 'bry med hm',
+    english: 'bother with hm',
+    spanish: 'molestar con hm',
+  },
+  {
+    norwegian: 'omsorgen',
+    english: 'the care',
+    spanish: 'el cuidado',
+  },
+  {
+    norwegian: 'uskylde dame',
+    english: 'innocent lady',
+    spanish: 'dama inocente',
+  },
+  {
+    norwegian: 'slått på trappen og grått',
+    english: 'cried on the stairs',
+    spanish: 'lloró en las escaleras',
+  },
+  {
+    norwegian: 'jeg merker de',
+    english: 'i notice them',
+    spanish: 'los noto',
+  },
+  {
+    norwegian: 'det er klart',
+    english: 'it is clear',
+    spanish: 'está claro',
+  },
+  {
     norwegian: 'er styrt av satan',
     english: 'is controlled by satan',
     spanish: 'está controlado por satanás',
