@@ -2,6 +2,486 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'er styrt av satan',
+    english: 'is controlled by satan',
+    spanish: 'está controlado por satanás',
+  },
+  {
+    norwegian: 'i dommedagen',
+    english: 'on judgment day',
+    spanish: 'en el día del juicio',
+  },
+  {
+    norwegian: 'utallige ganger',
+    english: 'countless times',
+    spanish: 'innumerables veces',
+  },
+  {
+    norwegian: 'bryter ut i latter',
+    english: 'bursts out laughing',
+    spanish: 'estalla en risa',
+  },
+  {
+    norwegian: 'tatt sprøyte mot',
+    english: 'got a shot against',
+    spanish: 'recibió una inyección contra',
+  },
+  {
+    norwegian: 'å tåle',
+    english: 'to endure',
+    spanish: 'soportar',
+  },
+  {
+    norwegian: 'et trossamfunn',
+    english: 'a religious community',
+    spanish: 'una comunidad religiosa',
+  },
+  {
+    norwegian: 'velsignelse',
+    english: 'blessing',
+    spanish: 'bendición',
+  },
+  {
+    norwegian: 'skamfølelsen',
+    english: 'the feeling of shame',
+    spanish: 'el sentimiento de vergüenza',
+  },
+  {
+    norwegian: 'en forretningsmodell basert på frykt',
+    english: 'a business model based on fear',
+    spanish: 'un modelo de negocio basado en el miedo',
+  },
+  {
+    norwegian: 'å leve i sølibat',
+    english: 'to live in celibacy',
+    spanish: 'vivir en celibato',
+  },
+  {
+    norwegian: 'provoserende',
+    english: 'provocative',
+    spanish: 'provocador',
+  },
+  {
+    norwegian: 'latterlig',
+    english: 'ridiculous',
+    spanish: 'ridículo',
+  },
+  {
+    norwegian: 'å påpeke',
+    english: 'to point out',
+    spanish: 'señalar',
+  },
+  {
+    norwegian: 'synd',
+    english: 'sin',
+    spanish: 'pecado',
+  },
+  {
+    norwegian: 'folkevalgte',
+    english: 'elected representatives',
+    spanish: 'representantes electos',
+  },
+  {
+    norwegian: 'gjeldendeinnser',
+    english: 'current realizes',
+    spanish: 'realiza actualmente',
+  },
+  {
+    norwegian: 'utbrent',
+    english: 'burned out',
+    spanish: 'quemado',
+  },
+  {
+    norwegian: 'en forventning',
+    english: 'an expectation',
+    spanish: 'una expectativa',
+  },
+  {
+    norwegian: 'all skylden',
+    english: 'all the blame',
+    spanish: 'toda la culpa',
+  },
+  {
+    norwegian: 'veldig deprimert',
+    english: 'very depressed',
+    spanish: 'muy deprimido',
+  },
+  {
+    norwegian: 'opplegget',
+    english: 'the setup',
+    spanish: 'la configuración',
+  },
+  {
+    norwegian: 'forsvant',
+    english: 'disappeared',
+    spanish: 'desapareció',
+  },
+  {
+    norwegian: 'lykkefølelsen',
+    english: 'the feeling of happiness',
+    spanish: 'la sensación de felicidad',
+  },
+  {
+    norwegian: 'innrøme at skammen',
+    english: 'admit that the shame',
+    spanish: 'admitir que la vergüenza',
+  },
+  {
+    norwegian: 'å utøve',
+    english: 'to exercise',
+    spanish: 'ejercitar',
+  },
+  {
+    norwegian: 'å beundre',
+    english: 'to admire',
+    spanish: 'admirar',
+  },
+  {
+    norwegian: 'bli utsatt for',
+    english: 'be exposed to',
+    spanish: 'estar expuesto a',
+  },
+  {
+    norwegian: 'blir brutt ned',
+    english: 'is broken down',
+    spanish: 'se descompone',
+  },
+  {
+    norwegian: 'fellestrekk',
+    english: 'common features',
+    spanish: 'características comunes',
+  },
+  {
+    norwegian: 'i lukkede miljøer',
+    english: 'in closed environments',
+    spanish: 'en entornos cerrados',
+  },
+  {
+    norwegian: 'forkynne',
+    english: 'to preach',
+    spanish: 'predicar',
+  },
+  {
+    norwegian: 'en god hensikt',
+    english: 'a good intention',
+    spanish: 'una buena intención',
+  },
+  {
+    norwegian: 'i skrittet',
+    english: 'in the crotch',
+    spanish: 'en la entrepierna',
+  },
+  {
+    norwegian: 'en nål gjennom',
+    english: 'a needle through',
+    spanish: 'una aguja a través de',
+  },
+  {
+    norwegian: 'kinnet mitt',
+    english: 'my cheek',
+    spanish: 'mi mejilla',
+  },
+  {
+    norwegian: 'belønningen',
+    english: 'the reward',
+    spanish: 'la recompensa',
+  },
+  {
+    norwegian: 'har stilt spørsmål',
+    english: 'has asked questions',
+    spanish: 'ha hecho preguntas',
+  },
+  {
+    norwegian: 'er evig liv',
+    english: 'is eternal life',
+    spanish: 'es vida eterna',
+  },
+  {
+    norwegian: 'å tolke',
+    english: 'to interpret',
+    spanish: 'interpretar',
+  },
+  {
+    norwegian: 'med slagordet',
+    english: 'with the slogan',
+    spanish: 'con el lema',
+  },
+  {
+    norwegian: 'vil medvirke til',
+    english: 'will contribute to',
+    spanish: 'contribuirá a',
+  },
+  {
+    norwegian: 'ut i fristelse',
+    english: 'out into temptation',
+    spanish: 'fuera de la tentación',
+  },
+  {
+    norwegian: 'uanmeldt',
+    english: 'unannounced',
+    spanish: 'no anunciado',
+  },
+  {
+    norwegian: 'bydelen',
+    english: 'the district',
+    spanish: 'el distrito',
+  },
+  {
+    norwegian: 'avisoppslagene',
+    english: 'the newspaper articles',
+    spanish: 'los artículos de periódico',
+  },
+  {
+    norwegian: 'gamle menighet',
+    english: 'old congregation',
+    spanish: 'vieja congregación',
+  },
+  {
+    norwegian: 'opptak',
+    english: 'recording',
+    spanish: 'grabación',
+  },
+  {
+    norwegian: 'på møtene',
+    english: 'at the meetings',
+    spanish: 'en las reuniones',
+  },
+  {
+    norwegian: 'at enden er nær',
+    english: 'that the end is near',
+    spanish: 'que el fin está cerca',
+  },
+  {
+    norwegian: 'til fornuft',
+    english: 'to reason',
+    spanish: 'razonar',
+  },
+  {
+    norwegian: 'frodig',
+    english: 'lush',
+    spanish: 'exuberante',
+  },
+  {
+    norwegian: 'pengejaget',
+    english: 'the money chase',
+    spanish: 'la caza del dinero',
+  },
+  {
+    norwegian: 'gjerrig og lat',
+    english: 'stingy and lazy',
+    spanish: 'tacaño y perezoso',
+  },
+  {
+    norwegian: 'om tilfeller',
+    english: 'about cases',
+    spanish: 'sobre casos',
+  },
+  {
+    norwegian: 'er fandenskap',
+    english: 'is devilry',
+    spanish: 'es diablura',
+  },
+  {
+    norwegian: 'han står jo oppført i',
+    english: 'he is listed in',
+    spanish: 'él está listado en',
+  },
+  {
+    norwegian: 'skeivt',
+    english: 'crooked',
+    spanish: 'torcido',
+  },
+  {
+    norwegian: 'dermed av det onde',
+    english: 'thus of the evil',
+    spanish: 'así del mal',
+  },
+  {
+    norwegian: 'du er utafor',
+    english: 'you are out',
+    spanish: 'estás fuera',
+  },
+  {
+    norwegian: 'påminnet om at',
+    english: 'reminded that',
+    spanish: 'recordado que',
+  },
+  {
+    norwegian: 'de er bokstavtro',
+    english: 'they are literal',
+    spanish: 'son literales',
+  },
+  {
+    norwegian: 'å tilbe flagget',
+    english: 'to worship the flag',
+    spanish: 'adorar la bandera',
+  },
+  {
+    norwegian: 'gitt uttrykk',
+    english: 'expressed',
+    spanish: 'expresado',
+  },
+  {
+    norwegian: 'en formue',
+    english: 'a fortune',
+    spanish: 'una fortuna',
+  },
+  {
+    norwegian: 'som foreløpig',
+    english: 'which for now',
+    spanish: 'que por ahora',
+  },
+  {
+    norwegian: 'lederne',
+    english: 'the leaders',
+    spanish: 'los líderes',
+  },
+  {
+    norwegian: 'inderlig på',
+    english: 'deeply on',
+    spanish: 'profundamente en',
+  },
+  {
+    norwegian: 'brun stad',
+    english: 'brown city',
+    spanish: 'ciudad marrón',
+  },
+  {
+    norwegian: 'til problemstillingen',
+    english: 'to the problem',
+    spanish: 'al problema',
+  },
+  {
+    norwegian: 'varige skader',
+    english: 'permanent damages',
+    spanish: 'daños permanentes',
+  },
+  {
+    norwegian: 'en annen tilnærming',
+    english: 'another approach',
+    spanish: 'otro enfoque',
+  },
+  {
+    norwegian: 'oppførsel',
+    english: 'behavior',
+    spanish: 'comportamiento',
+  },
+  {
+    norwegian: 'å forsvare',
+    english: 'to defend',
+    spanish: 'defender',
+  },
+  {
+    norwegian: 'menighetene',
+    english: 'the congregations',
+    spanish: 'las congregaciones',
+  },
+  {
+    norwegian: 'bønnebevegelse',
+    english: 'prayer movement',
+    spanish: 'movimiento de oración',
+  },
+  {
+    norwegian: 'et stort oppgjør med',
+    english: 'a great settlement with',
+    spanish: 'un gran acuerdo con',
+  },
+  {
+    norwegian: 'skeiv',
+    english: 'queer',
+    spanish: 'raro',
+  },
+  {
+    norwegian: 'det har ført til',
+    english: 'it has led to',
+    spanish: 'ha llevado a',
+  },
+  {
+    norwegian: 'hjelpekilden',
+    english: 'the help source',
+    spanish: 'la fuente de ayuda',
+  },
+  {
+    norwegian: 'å påstå',
+    english: 'to claim',
+    spanish: 'afirmar',
+  },
+  {
+    norwegian: 'tenker man desto mer',
+    english: 'the more one thinks',
+    spanish: 'cuanto más se piensa',
+  },
+  {
+    norwegian: 'av troen',
+    english: 'of the faith',
+    spanish: 'de la fe',
+  },
+  {
+    norwegian: 'selvmordsforsøk',
+    english: 'suicide attempt',
+    spanish: 'intento de suicidio',
+  },
+  {
+    norwegian: 'et torturkammer',
+    english: 'a torture chamber',
+    spanish: 'una cámara de tortura',
+  },
+  {
+    norwegian: 'uttalelsene',
+    english: 'the statements',
+    spanish: 'las declaraciones',
+  },
+  {
+    norwegian: 'mest provoserende',
+    english: 'most provocative',
+    spanish: 'más provocador',
+  },
+  {
+    norwegian: 'overensstemmelse med',
+    english: 'in accordance with',
+    spanish: 'de acuerdo con',
+  },
+  {
+    norwegian: 'menigheten',
+    english: 'the congregation',
+    spanish: 'la congregación',
+  },
+  {
+    norwegian: 'en sekt',
+    english: 'a sect',
+    spanish: 'una secta',
+  },
+  {
+    norwegian: 'oppdragelsen',
+    english: 'the upbringing',
+    spanish: 'la crianza',
+  },
+  {
+    norwegian: 'råder',
+    english: 'advises',
+    spanish: 'aconseja',
+  },
+  {
+    norwegian: 'utbyggingen',
+    english: 'the expansion',
+    spanish: 'la expansión',
+  },
+  {
+    norwegian: 'hverken',
+    english: 'neither',
+    spanish: 'ninguno',
+  },
+  {
+    norwegian: 'forstanderen',
+    english: 'the principal',
+    spanish: 'el director',
+  },
+  {
+    norwegian: 'mottar',
+    english: 'receives',
+    spanish: 'recibe',
+  },
+  {
     norwegian: 'en bølle',
     english: 'a bully',
     spanish: 'un matón',
