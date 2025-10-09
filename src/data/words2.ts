@@ -2,6 +2,546 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'jeg legger meg ned',
+    english: 'i lie down',
+    spanish: 'me acuesto',
+  },
+  {
+    norwegian: 'uendelige muligheter',
+    english: 'endless possibilities',
+    spanish: 'posibilidades infinitas',
+  },
+  {
+    norwegian: 'fra første stund',
+    english: 'from the first moment',
+    spanish: 'desde el primer momento',
+  },
+  {
+    norwegian: 'en valnøtt',
+    english: 'a walnut',
+    spanish: 'una nuez',
+  },
+  {
+    norwegian: 'oppveksten',
+    english: 'the upbringing',
+    spanish: 'la crianza',
+  },
+  {
+    norwegian: 'et samfunn',
+    english: 'a society',
+    spanish: 'una sociedad',
+  },
+  {
+    norwegian: 'unnfangelse',
+    english: 'conception',
+    spanish: 'concepción',
+  },
+  {
+    norwegian: 'så hellig som',
+    english: 'as holy as',
+    spanish: 'tan sagrado como',
+  },
+  {
+    norwegian: 'fosterreduksjon',
+    english: 'fetal reduction',
+    spanish: 'reducción fetal',
+  },
+  {
+    norwegian: 'skal trumfe alt',
+    english: 'shall trump everything',
+    spanish: 'deberá prevalecer sobre todo',
+  },
+  {
+    norwegian: 'å ta bort',
+    english: 'to remove',
+    spanish: 'quitar',
+  },
+  {
+    norwegian: 'er knyttet et mørkemannsstempel',
+    english: 'is associated with a dark mant stamp',
+    spanish: 'está asociado con un sello de hombre oscuro',
+  },
+  {
+    norwegian: 'å stå fram',
+    english: 'to come forward',
+    spanish: 'adelantarse',
+  },
+  {
+    norwegian: 'jeg blir vimsete',
+    english: 'i get dizzy',
+    spanish: 'me mareo',
+  },
+  {
+    norwegian: 'enten i forkant av at',
+    english: 'either in advance of',
+    spanish: 'ya sea antes de',
+  },
+  {
+    norwegian: 'sosionomsamtale',
+    english: 'social worker conversation',
+    spanish: 'conversación con el trabajador social',
+  },
+  {
+    norwegian: 'i etterkant av',
+    english: 'afterwards',
+    spanish: 'después',
+  },
+  {
+    norwegian: 'konkrete situasjoner',
+    english: 'concrete situations',
+    spanish: 'situaciones concretas',
+  },
+  {
+    norwegian: 'svangerskapet',
+    english: 'the pregnancy',
+    spanish: 'el embarazo',
+  },
+  {
+    norwegian: 'en renselsen',
+    english: 'a cleansing',
+    spanish: 'una limpieza',
+  },
+  {
+    norwegian: 'nødstilfeller',
+    english: 'emergencies',
+    spanish: 'emergencias',
+  },
+  {
+    norwegian: 'er vekslende',
+    english: 'is variable',
+    spanish: 'es variable',
+  },
+  {
+    norwegian: 'kan forgrene seg',
+    english: 'can branch out',
+    spanish: 'puede ramificarse',
+  },
+  {
+    norwegian: 'virkeligheter',
+    english: 'realities',
+    spanish: 'realidades',
+  },
+  {
+    norwegian: 'ikke tie stille',
+    english: 'not to be silent',
+    spanish: 'no quedarse en silencio',
+  },
+  {
+    norwegian: 'å rasende',
+    english: 'to rage',
+    spanish: 'enfurecerse',
+  },
+  {
+    norwegian: 'innebærer',
+    english: 'involves',
+    spanish: 'involucra',
+  },
+  {
+    norwegian: 'bedøvelse',
+    english: 'anesthesia',
+    spanish: 'anestesia',
+  },
+  {
+    norwegian: 'dette sprer seg',
+    english: 'this spreads',
+    spanish: 'esto se extiende',
+  },
+  {
+    norwegian: 'ikke noen graviditet',
+    english: 'not a pregnancy',
+    spanish: 'no es un embarazo',
+  },
+  {
+    norwegian: 'unntakstillfellene',
+    english: 'the exceptional cases',
+    spanish: 'los casos excepcionales',
+  },
+  {
+    norwegian: 'har vært tydelig',
+    english: 'has been clear',
+    spanish: 'ha sido claro',
+  },
+  {
+    norwegian: 'jeg gruer meg',
+    english: 'i dread',
+    spanish: 'temo',
+  },
+  {
+    norwegian: 'fellesrom',
+    english: 'common room',
+    spanish: 'sala común',
+  },
+  {
+    norwegian: 'i ukevis',
+    english: 'for weeks',
+    spanish: 'durante semanas',
+  },
+  {
+    norwegian: 'fosteret har gitt slipp',
+    english: 'the fetus has let go',
+    spanish: 'el feto ha dejado ir',
+  },
+  {
+    norwegian: 'sørgedager',
+    english: 'days of mourning',
+    spanish: 'días de luto',
+  },
+  {
+    norwegian: 'fraværende',
+    english: 'absent',
+    spanish: 'ausente',
+  },
+  {
+    norwegian: 'skøver',
+    english: 'pushes',
+    spanish: 'empuja',
+  },
+  {
+    norwegian: 'hvordan utfører mann en abort',
+    english: 'how does one perform an abortion',
+    spanish: 'cómo se realiza un aborto',
+  },
+  {
+    norwegian: 'på tidlig syttitall',
+    english: 'in the early seventies',
+    spanish: 'a principios de los setenta',
+  },
+  {
+    norwegian: 'gasskamre',
+    english: 'gas chambers',
+    spanish: 'cámaras de gas',
+  },
+  {
+    norwegian: 'det er vanvidd',
+    english: 'it is madness',
+    spanish: 'es una locura',
+  },
+  {
+    norwegian: 'i fritt fall',
+    english: 'in free fall',
+    spanish: 'en caída libre',
+  },
+  {
+    norwegian: 'en urett vi begår',
+    english: 'an injustice we commit',
+    spanish: 'una injusticia que cometemos',
+  },
+  {
+    norwegian: 'en svær slimkladd',
+    english: 'a huge slime blob',
+    spanish: 'un enorme blob de baba',
+  },
+  {
+    norwegian: 'ut løpesedler',
+    english: 'out flyers',
+    spanish: 'fuera volantes',
+  },
+  {
+    norwegian: 'påstås',
+    english: 'is claimed',
+    spanish: 'se afirma',
+  },
+  {
+    norwegian: 'spådommer',
+    english: 'predictions',
+    spanish: 'predicciones',
+  },
+  {
+    norwegian: 'hva truer deg mest',
+    english: 'what threatens you the most',
+    spanish: 'qué te amenaza más',
+  },
+  {
+    norwegian: 'årvåken',
+    english: 'vigilant',
+    spanish: 'vigilante',
+  },
+  {
+    norwegian: 'innenforfornuftens grenser',
+    english: 'within the bounds of reason',
+    spanish: 'dentro de los límites de la razón',
+  },
+  {
+    norwegian: 'betydelig',
+    english: 'considerable',
+    spanish: 'considerable',
+  },
+  {
+    norwegian: 'dette dreier seg om',
+    english: 'this is about',
+    spanish: 'de esto se trata',
+  },
+  {
+    norwegian: 'videreføres',
+    english: 'is continued',
+    spanish: 'se continúa',
+  },
+  {
+    norwegian: 'omfattende',
+    english: 'comprehensive',
+    spanish: 'integral',
+  },
+  {
+    norwegian: 'kartlegging',
+    english: 'mapping',
+    spanish: 'mapeo',
+  },
+  {
+    norwegian: 'sårbare grupper',
+    english: 'vulnerable groups',
+    spanish: 'grupos vulnerables',
+  },
+  {
+    norwegian: 'på lang sikt',
+    english: 'in the long term',
+    spanish: 'a largo plazo',
+  },
+  {
+    norwegian: 'det står på spill for',
+    english: 'it is at stake for',
+    spanish: 'está en juego para',
+  },
+  {
+    norwegian: 'å beskytte oss mot',
+    english: 'to protect us against',
+    spanish: 'protegernos contra',
+  },
+  {
+    norwegian: 'utstyr til å',
+    english: 'equipment to',
+    spanish: 'equipo para',
+  },
+  {
+    norwegian: 'i ytterste konsekvens',
+    english: 'in the ultimate consequence',
+    spanish: 'en la última instancia',
+  },
+  {
+    norwegian: 'omhyllet av et slør',
+    english: 'shrouded in a veil',
+    spanish: 'envuelto en un velo',
+  },
+  {
+    norwegian: 'å avlytte på',
+    english: 'to eavesdrop on',
+    spanish: 'escuchar a escondidas',
+  },
+  {
+    norwegian: 'på fersken',
+    english: 'red-handed',
+    spanish: 'con las manos en la masa',
+  },
+  {
+    norwegian: 'tiltak',
+    english: 'measures',
+    spanish: 'medidas',
+  },
+  {
+    norwegian: 'vurdere',
+    english: 'to assess',
+    spanish: 'evaluar',
+  },
+  {
+    norwegian: 'vurderinger',
+    english: 'assessments',
+    spanish: 'evaluaciones',
+  },
+  {
+    norwegian: 'å utnytte slike sårbarheter til',
+    english: 'to exploit such vulnerabilities to',
+    spanish: 'explotar tales vulnerabilidades para',
+  },
+  {
+    norwegian: 'er sprøtt',
+    english: 'is crazy',
+    spanish: 'está loco',
+  },
+  {
+    norwegian: 'stig på',
+    english: 'get in',
+    spanish: 'sube',
+  },
+  {
+    norwegian: 'smalt gate',
+    english: 'narrow street',
+    spanish: 'calle estrecha',
+  },
+  {
+    norwegian: 'å kunne ydmyke',
+    english: 'to be able to humiliate',
+    spanish: 'poder humillar',
+  },
+  {
+    norwegian: 'ha pågått',
+    english: 'have been going on',
+    spanish: 'han estado sucediendo',
+  },
+  {
+    norwegian: 'jeg har verken noe',
+    english: 'i have neither any',
+    spanish: 'no tengo ninguno',
+  },
+  {
+    norwegian: 'alvorlige tilfellene',
+    english: 'the serious cases',
+    spanish: 'los casos graves',
+  },
+  {
+    norwegian: 'fremmede etterretningstjenester',
+    english: 'foreign intelligence services',
+    spanish: 'servicios de inteligencia extranjeros',
+  },
+  {
+    norwegian: 'pågår fortsatt',
+    english: 'is still ongoing',
+    spanish: 'sigue en curso',
+  },
+  {
+    norwegian: 'foregå',
+    english: 'to take place',
+    spanish: 'tener lugar',
+  },
+  {
+    norwegian: 'satsing',
+    english: 'initiative',
+    spanish: 'iniciativa',
+  },
+  {
+    norwegian: 'kledd deg ut',
+    english: 'dressed up',
+    spanish: 'disfrazado',
+  },
+  {
+    norwegian: 'en fremmed stat',
+    english: 'a foreign state',
+    spanish: 'un estado extranjero',
+  },
+  {
+    norwegian: 'en ondsinnet aktør',
+    english: 'a malicious actor',
+    spanish: 'un actor malicioso',
+  },
+  {
+    norwegian: 'i bakkanten av',
+    english: 'in the aftermath of',
+    spanish: 'en la secuela de',
+  },
+  {
+    norwegian: 'den metoden de selv benytter',
+    english: 'the method they themselves use',
+    spanish: 'el método que ellos mismos usan',
+  },
+  {
+    norwegian: 'å ha konferert med',
+    english: 'to have consulted with',
+    spanish: 'haber consultado con',
+  },
+  {
+    norwegian: 'er atypisk',
+    english: 'is atypical',
+    spanish: 'es atípico',
+  },
+  {
+    norwegian: 'vedkommende får forbli anonym',
+    english: 'the person may remain anonymous',
+    spanish: 'la persona puede permanecer en el anonimato',
+  },
+  {
+    norwegian: 'oppsøkt',
+    english: 'sought out',
+    spanish: 'buscado',
+  },
+  {
+    norwegian: 'helt satt ut',
+    english: 'completely stunned',
+    spanish: 'completamente aturdido',
+  },
+  {
+    norwegian: 'veldig pussig',
+    english: 'very funny',
+    spanish: 'muy divertido',
+  },
+  {
+    norwegian: 'å bortforklare det engang',
+    english: 'to explain it away once',
+    spanish: 'explicarlo una vez',
+  },
+  {
+    norwegian: 'for motparten',
+    english: 'for the opposing party',
+    spanish: 'para la parte opuesta',
+  },
+  {
+    norwegian: 'en ryggmargsrefleks som slår inn',
+    english: 'a spinal reflex that kicks in',
+    spanish: 'un reflejo espinal que entra en acción',
+  },
+  {
+    norwegian: 'å verve',
+    english: 'to recruit',
+    spanish: 'reclutar',
+  },
+  {
+    norwegian: 'å utgjøre en trussel',
+    english: 'to pose a threat',
+    spanish: 'suponer una amenaza',
+  },
+  {
+    norwegian: 'tuklete',
+    english: 'messy',
+    spanish: 'desordenado',
+  },
+  {
+    norwegian: 'å beskytte oss mot',
+    english: 'to protect us against',
+    spanish: 'protegernos contra',
+  },
+  {
+    norwegian: 'som spaner',
+    english: 'who spy',
+    spanish: 'quien espía',
+  },
+  {
+    norwegian: 'gjerde på utsiden',
+    english: 'fence on the outside',
+    spanish: 'valla en el exterior',
+  },
+  {
+    norwegian: 'forfatteren',
+    english: 'the author',
+    spanish: 'el autor',
+  },
+  {
+    norwegian: 'denne kulverten',
+    english: 'this culvert',
+    spanish: 'este conducto',
+  },
+  {
+    norwegian: 'en blindvei',
+    english: 'a dead end',
+    spanish: 'un callejón sin salida',
+  },
+  {
+    norwegian: 'lykkess med',
+    english: 'success with',
+    spanish: 'éxito con',
+  },
+  {
+    norwegian: 'i såkalte',
+    english: 'in so-called',
+    spanish: 'en los llamados',
+  },
+  {
+    norwegian: 'stuper',
+    english: 'dives',
+    spanish: 'se sumerge',
+  },
+  {
+    norwegian: 'etterretning',
+    english: 'intelligence',
+    spanish: 'inteligencia',
+  },
+  {
     norwegian: 'å rive seg i håret',
     english: "to tear one's hair out",
     spanish: 'arrancarse el pelo',
