@@ -2,6 +2,31 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'en trylledrikk',
+    english: 'a magic potion',
+    spanish: 'una poción mágica',
+  },
+  {
+    norwegian: 'forskere har pekt på',
+    english: 'researchers have pointed out',
+    spanish: 'los investigadores han señalado',
+  },
+  {
+    norwegian: 'å knytte vennskapsbånd',
+    english: 'to form bonds of friendship',
+    spanish: 'formar lazos de amistad',
+  },
+  {
+    norwegian: 'kronikken nokså trivielle',
+    english: 'the article quite trivial',
+    spanish: 'el artículo bastante trivial',
+  },
+  {
+    norwegian: 'trafikkulykker',
+    english: 'traffic accidents',
+    spanish: 'accidentes de tráfico',
+  },
+  {
     norwegian: 'jeg legger meg ned',
     english: 'i lie down',
     spanish: 'me acuesto',
