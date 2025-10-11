@@ -2,6 +2,316 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'virkelighet',
+    english: 'reality',
+    spanish: 'realidad',
+  },
+  {
+    norwegian: 'vi lider av',
+    english: 'we suffer from',
+    spanish: 'sufrimos de',
+  },
+  {
+    norwegian: 'maktesløshet',
+    english: 'powerlessness',
+    spanish: 'impotencia',
+  },
+  {
+    norwegian: 'foredrag',
+    english: 'lecture',
+    spanish: 'conferencia',
+  },
+  {
+    norwegian: 'han vekker raseri',
+    english: 'he arouses rage',
+    spanish: 'él despierta la rabia',
+  },
+  {
+    norwegian: 'foregår',
+    english: 'is happening',
+    spanish: 'está sucediendo',
+  },
+  {
+    norwegian: 'årtusener',
+    english: 'millennia',
+    spanish: 'mileniios',
+  },
+  {
+    norwegian: 'et kursopplegg',
+    english: 'a course setup',
+    spanish: 'una configuración del curso',
+  },
+  {
+    norwegian: 'pågang',
+    english: 'demand',
+    spanish: 'demanda',
+  },
+  {
+    norwegian: 'de blir trykket ned',
+    english: 'they are pressed down',
+    spanish: 'están siendo reprimidos',
+  },
+  {
+    norwegian: 'å tape terreng',
+    english: 'to lose ground',
+    spanish: 'perder terreno',
+  },
+  {
+    norwegian: 'er helt ukjent',
+    english: 'is completely unknown',
+    spanish: 'es completamente desconocido',
+  },
+  {
+    norwegian: 'selvmord',
+    english: 'suicide',
+    spanish: 'suicidio',
+  },
+  {
+    norwegian: 'utslag',
+    english: 'outbreak',
+    spanish: 'brote',
+  },
+  {
+    norwegian: 'fullstendig isolert',
+    english: 'completely isolated',
+    spanish: 'completamente aislado',
+  },
+  {
+    norwegian: 'pizzabudet',
+    english: 'the pizza delivery',
+    spanish: 'el servicio de entrega de pizza',
+  },
+  {
+    norwegian: 'mye inni de universene',
+    english: 'much inside those universes',
+    spanish: 'mucho dentro de esos universos',
+  },
+  {
+    norwegian: 'å skyve bort',
+    english: 'to push away',
+    spanish: 'empujar lejos',
+  },
+  {
+    norwegian: 'har skjøvet vekk',
+    english: 'has pushed away',
+    spanish: 'ha empujado lejos',
+  },
+  {
+    norwegian: 'utpå kvelden',
+    english: 'in the evening',
+    spanish: 'por la tarde',
+  },
+  {
+    norwegian: 'har havnet',
+    english: 'has ended up',
+    spanish: 'ha terminado',
+  },
+  {
+    norwegian: 'en kjip livssituasjon',
+    english: 'a lousy life situation',
+    spanish: 'una situación de vida miserable',
+  },
+  {
+    norwegian: 'hele døgnet',
+    english: 'all day',
+    spanish: 'todo el día',
+  },
+  {
+    norwegian: 'mesteparten av',
+    english: 'most of',
+    spanish: 'la mayor parte de',
+  },
+  {
+    norwegian: 'sinnemestringskurs',
+    english: 'anger management course',
+    spanish: 'curso de manejo de la ira',
+  },
+  {
+    norwegian: 'et rulleblad',
+    english: 'a criminal record',
+    spanish: 'un historial delictivo',
+  },
+  {
+    norwegian: 'utløser',
+    english: 'triggers',
+    spanish: 'desencadena',
+  },
+  {
+    norwegian: 'sannsynligvis',
+    english: 'probably',
+    spanish: 'probablemente',
+  },
+  {
+    norwegian: 'mer uskyldig',
+    english: 'more innocent',
+    spanish: 'más inocente',
+  },
+  {
+    norwegian: 'å bli hissig',
+    english: 'to get angry',
+    spanish: 'enojarse',
+  },
+  {
+    norwegian: 'fått hjerteinfarkt',
+    english: 'had a heart attack',
+    spanish: 'tuvo un infarto',
+  },
+  {
+    norwegian: 'fryktelig',
+    english: 'terrible',
+    spanish: 'terrible',
+  },
+  {
+    norwegian: 'et par timer',
+    english: 'a couple of hours',
+    spanish: 'un par de horas',
+  },
+  {
+    norwegian: 'å etablere et positivt forhold',
+    english: 'to establish a positive relationship',
+    spanish: 'establecer una relación positiva',
+  },
+  {
+    norwegian: 'ukjente',
+    english: 'unknown',
+    spanish: 'desconocido',
+  },
+  {
+    norwegian: 'nærmest usynlig',
+    english: 'almost invisible',
+    spanish: 'casi invisible',
+  },
+  {
+    norwegian: 'hjelpeapparatet',
+    english: 'the support system',
+    spanish: 'el sistema de apoyo',
+  },
+  {
+    norwegian: 'brennbart avfall',
+    english: 'flammable waste',
+    spanish: 'residuos inflamables',
+  },
+  {
+    norwegian: 'tente du på',
+    english: 'did you light',
+    spanish: '¿encendiste?',
+  },
+  {
+    norwegian: 'lærerværelse',
+    english: 'teachers room',
+    spanish: 'sala de profesores',
+  },
+  {
+    norwegian: 'de skyldte på',
+    english: 'they blamed',
+    spanish: 'culparon a',
+  },
+  {
+    norwegian: 'ta hevn',
+    english: 'take revenge',
+    spanish: 'tomar venganza',
+  },
+  {
+    norwegian: 'har undertrykt kraften sin',
+    english: 'has suppressed his power',
+    spanish: 'ha suprimido su poder',
+  },
+  {
+    norwegian: 'innebar',
+    english: 'involved',
+    spanish: 'involucró',
+  },
+  {
+    norwegian: 'sannsynlig',
+    english: 'likely',
+    spanish: 'probable',
+  },
+  {
+    norwegian: 'det blir brutt',
+    english: 'it is broken',
+    spanish: 'está roto',
+  },
+  {
+    norwegian: 'fallskjermhoppet',
+    english: 'the parachute jump',
+    spanish: 'el salto en paracaídas',
+  },
+  {
+    norwegian: 'et kynisk samfunn',
+    english: 'a cynical society',
+    spanish: 'una sociedad cínica',
+  },
+  {
+    norwegian: 'fra gjerdet',
+    english: 'from the fence',
+    spanish: 'de la cerca',
+  },
+  {
+    norwegian: 'blir sikkert kleint',
+    english: 'will probably be awkward',
+    spanish: 'probablemente será incómodo',
+  },
+  {
+    norwegian: 'har innsett verdien av',
+    english: 'has realized the value of',
+    spanish: 'ha reconocido el valor de',
+  },
+  {
+    norwegian: 'nået sitt mål',
+    english: 'reached its goal',
+    spanish: 'alcanzó su objetivo',
+  },
+  {
+    norwegian: 'er jeg til stede?',
+    english: 'am i present?',
+    spanish: '¿estoy presente?',
+  },
+  {
+    norwegian: 'på damefronten',
+    english: 'on the female front',
+    spanish: 'en el frente femenino',
+  },
+  {
+    norwegian: 'omvendt',
+    english: 'inverted',
+    spanish: 'invertido',
+  },
+  {
+    norwegian: 'har lignede problemer',
+    english: 'has similar problems',
+    spanish: 'tiene problemas similares',
+  },
+  {
+    norwegian: 'at mange menn sliter',
+    english: 'that many men struggle',
+    spanish: 'que muchos hombres luchan',
+  },
+  {
+    norwegian: 'et vende punkt',
+    english: 'a turning point',
+    spanish: 'un punto de inflexión',
+  },
+  {
+    norwegian: 'en sinnssyk forvandling',
+    english: 'a crazy transformation',
+    spanish: 'una transformación loca',
+  },
+  {
+    norwegian: 'har ikke fullført',
+    english: 'has not completed',
+    spanish: 'no ha completado',
+  },
+  {
+    norwegian: 'fallskjerm',
+    english: 'parachute',
+    spanish: 'paracaídas',
+  },
+  {
+    norwegian: 'over kanten',
+    english: 'over the edge',
+    spanish: 'sobre el borde',
+  },
+  {
     norwegian: 'en trylledrikk',
     english: 'a magic potion',
     spanish: 'una poción mágica',
