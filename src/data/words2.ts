@@ -2,6 +2,336 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'slem',
+    english: 'naughty',
+    spanish: 'travieso',
+  },
+  {
+    norwegian: 'ummiddelbart',
+    english: 'immediately',
+    spanish: 'inmediatamente',
+  },
+  {
+    norwegian: 'friste litt mer',
+    english: 'tempt a little more',
+    spanish: 'tentar un poco más',
+  },
+  {
+    norwegian: 'å ombestemme seg',
+    english: 'to change one´s mind',
+    spanish: 'cambiar de opinión',
+  },
+  {
+    norwegian: 'skremte meg litt',
+    english: 'scared me a little',
+    spanish: 'me asustó un poco',
+  },
+  {
+    norwegian: 'fotpudder på pungen',
+    english: 'foot powder on the scrotum',
+    spanish: 'polvo para pies en el escroto',
+  },
+  {
+    norwegian: 'skal jeg tråkke på',
+    english: 'shall i step on',
+    spanish: 'debo pisar',
+  },
+  {
+    norwegian: 'til tross for at',
+    english: 'despite the fact that',
+    spanish: 'a pesar de que',
+  },
+  {
+    norwegian: 'å snu seg',
+    english: 'to turn around',
+    spanish: 'dar la vuelta',
+  },
+  {
+    norwegian: 'gnagsår',
+    english: 'blisters',
+    spanish: 'ampollas',
+  },
+  {
+    norwegian: 'slukke tørsten',
+    english: 'quench the thirst',
+    spanish: 'saciar la sed',
+  },
+  {
+    norwegian: 'hodepine',
+    english: 'headache',
+    spanish: 'dolor de cabeza',
+  },
+  {
+    norwegian: 'jeg sutrer',
+    english: 'i whine',
+    spanish: 'me quejo',
+  },
+  {
+    norwegian: 'førsteinntrykket',
+    english: 'first impression',
+    spanish: 'primera impresión',
+  },
+  {
+    norwegian: 'han takler det',
+    english: 'he handles it',
+    spanish: 'él lo maneja',
+  },
+  {
+    norwegian: 'å drukne',
+    english: 'to drown',
+    spanish: 'ahogarse',
+  },
+  {
+    norwegian: 'være glatt',
+    english: 'to be slippery',
+    spanish: 'ser resbaladizo',
+  },
+  {
+    norwegian: 'det kjentes sånn ut',
+    english: 'it felt like that',
+    spanish: 'se sintió así',
+  },
+  {
+    norwegian: 'foran og sørget for',
+    english: 'in front and made sure',
+    spanish: 'delante y se aseguró de',
+  },
+  {
+    norwegian: 'til fristelser',
+    english: 'to temptations',
+    spanish: 'a las tentaciones',
+  },
+  {
+    norwegian: 'å komme fram',
+    english: 'to come forward',
+    spanish: 'avanzar',
+  },
+  {
+    norwegian: 'ikke tilstedeværende',
+    english: 'not present',
+    spanish: 'no presente',
+  },
+  {
+    norwegian: 'meldte tidligere',
+    english: 'reported earlier',
+    spanish: 'informó anteriormente',
+  },
+  {
+    norwegian: 'leiren',
+    english: 'the camp',
+    spanish: 'el campamento',
+  },
+  {
+    norwegian: 'disse dråpene i vannet',
+    english: 'these drops in the water',
+    spanish: 'estas gotas en el agua',
+  },
+  {
+    norwegian: 'en slurk med vann',
+    english: 'a sip of water',
+    spanish: 'un sorbo de agua',
+  },
+  {
+    norwegian: 'er endelig fremme',
+    english: 'is finally here',
+    spanish: 'ya está aquí',
+  },
+  {
+    norwegian: 'ikke åpn opp',
+    english: 'do not open',
+    spanish: 'no abrir',
+  },
+  {
+    norwegian: 'kan tilberedes på',
+    english: 'can be prepared in',
+    spanish: 'se puede preparar en',
+  },
+  {
+    norwegian: 'utdelt hver sin dobøtte',
+    english: 'each given a bucket',
+    spanish: 'cada uno recibió un cubo',
+  },
+  {
+    norwegian: 'i teltet',
+    english: 'in the tent',
+    spanish: 'en la tienda',
+  },
+  {
+    norwegian: 'jeg rekker flyet',
+    english: 'i catch the plane',
+    spanish: 'tomo el avión',
+  },
+  {
+    norwegian: 'en kjempeskurk',
+    english: 'a big villain',
+    spanish: 'un gran villano',
+  },
+  {
+    norwegian: 'gnisninger',
+    english: 'friction',
+    spanish: 'fricción',
+  },
+  {
+    norwegian: 'er bare sjokker',
+    english: 'is just shocks',
+    spanish: 'son solo choques',
+  },
+  {
+    norwegian: 'jeg vil jo helst',
+    english: 'i would prefer',
+    spanish: 'yo preferiría',
+  },
+  {
+    norwegian: 'summen av',
+    english: 'the sum of',
+    spanish: 'la suma de',
+  },
+  {
+    norwegian: 'dere var ugreie',
+    english: 'you were uncomfortable',
+    spanish: 'ustedes estaban incómodos',
+  },
+  {
+    norwegian: 'forutsetninger enn andre',
+    english: 'prerequisites than others',
+    spanish: 'prerrequisitos que otros',
+  },
+  {
+    norwegian: 'i forskjellige former',
+    english: 'in different forms',
+    spanish: 'en diferentes formas',
+  },
+  {
+    norwegian: 'nøye om',
+    english: 'carefully about',
+    spanish: 'cuidadosamente sobre',
+  },
+  {
+    norwegian: 'jeg stoler på deg',
+    english: 'i trust you',
+    spanish: 'confío en ti',
+  },
+  {
+    norwegian: 'i egen lomme',
+    english: 'in own pocket',
+    spanish: 'en propio bolsillo',
+  },
+  {
+    norwegian: 'en pute',
+    english: 'a pillow',
+    spanish: 'una almohada',
+  },
+  {
+    norwegian: 'å motstå fristelser',
+    english: 'to resist temptations',
+    spanish: 'resistir las tentaciones',
+  },
+  {
+    norwegian: 'dagens etappe er over',
+    english: 'today´s stage is over',
+    spanish: 'la etapa de hoy ha terminado',
+  },
+  {
+    norwegian: 'gnagsår i bagasjen',
+    english: 'chafing in the luggage',
+    spanish: 'rozaduras en el equipaje',
+  },
+  {
+    norwegian: 'er utadvendt',
+    english: 'is outgoing',
+    spanish: 'es extrovertido',
+  },
+  {
+    norwegian: 'tre store omganger',
+    english: 'three big rounds',
+    spanish: 'tres grandes rondas',
+  },
+  {
+    norwegian: 'motbakkene kommer raskt',
+    english: 'the uphill climbs come quickly',
+    spanish: 'las subidas vienen rápido',
+  },
+  {
+    norwegian: 'er humøret på topp',
+    english: 'the mood is at its best',
+    spanish: 'el ánimo está en su mejor momento',
+  },
+  {
+    norwegian: 'en snarvei',
+    english: 'a shortcut',
+    spanish: 'un atajo',
+  },
+  {
+    norwegian: 'mot vinden',
+    english: 'against the wind',
+    spanish: 'contra el viento',
+  },
+  {
+    norwegian: 'en fordel',
+    english: 'an advantage',
+    spanish: 'una ventaja',
+  },
+  {
+    norwegian: 'ikke å dy meg',
+    english: 'not to hide myself',
+    spanish: 'no esconderme',
+  },
+  {
+    norwegian: 'den framhever rumpa litt',
+    english: 'it accentuates the butt a little',
+    spanish: 'acentúa un poco el trasero',
+  },
+  {
+    norwegian: 'en streng oppvekst',
+    english: 'a strict upbringing',
+    spanish: 'una crianza estricta',
+  },
+  {
+    norwegian: 'er bortskjemt',
+    english: 'is spoiled',
+    spanish: 'está consentido',
+  },
+  {
+    norwegian: 'jeg har ikke egna sko',
+    english: 'i do not have suitable shoes',
+    spanish: 'no tengo zapatos adecuados',
+  },
+  {
+    norwegian: 'jeg vandrer med åpne sår',
+    english: 'i wander with open wounds',
+    spanish: 'vago con heridas abiertas',
+  },
+  {
+    norwegian: 'det er revet opp',
+    english: 'it is torn up',
+    spanish: 'está desgarrado',
+  },
+  {
+    norwegian: 'sytinga',
+    english: 'the whining',
+    spanish: 'el llanto',
+  },
+  {
+    norwegian: 'inn i seg sjøl',
+    english: 'into oneself',
+    spanish: 'dentro de uno mismo',
+  },
+  {
+    norwegian: 'forutsigbarhet',
+    english: 'predictability',
+    spanish: 'previsibilidad',
+  },
+  {
+    norwegian: 'helt innerst inne',
+    english: 'deep down',
+    spanish: 'en el fondo',
+  },
+  {
+    norwegian: 'er veldig rensende',
+    english: 'is very cleansing',
+    spanish: 'es muy purificante',
+  },
+  {
     norwegian: 'virkelighet',
     english: 'reality',
     spanish: 'realidad',
