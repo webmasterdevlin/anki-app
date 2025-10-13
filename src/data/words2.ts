@@ -7,6 +7,181 @@ export const words: Question[] = [
     spanish: 'travieso',
   },
   {
+    norwegian: 'det går på bekostning av',
+    english: 'it comes at the expense of',
+    spanish: 'viene a expensas de',
+  },
+  {
+    norwegian: 'er forstoppet',
+    english: 'is constipated',
+    spanish: 'está estreñido',
+  },
+  {
+    norwegian: 'høydeskrekken',
+    english: 'the fear of heights',
+    spanish: 'el miedo a las alturas',
+  },
+  {
+    norwegian: 'bratte stigninger og klatringer',
+    english: 'steep ascents and climbs',
+    spanish: 'ascensos y escaladas empinadas',
+  },
+  {
+    norwegian: 'terrenget er uforutsigbart',
+    english: 'the terrain is unpredictable',
+    spanish: 'el terreno es impredecible',
+  },
+  {
+    norwegian: 'jeg strammer her',
+    english: 'i tighten here',
+    spanish: 'me aprieto aquí',
+  },
+  {
+    norwegian: 'langt unna granskauen',
+    english: 'far from the spruce forest',
+    spanish: 'lejos del bosque de abetos',
+  },
+  {
+    norwegian: 'på tynne liggeunderlag',
+    english: 'on thin sleeping pads',
+    spanish: 'sobre almohadillas de dormir delgadas',
+  },
+  {
+    norwegian: 'en hard treplatting',
+    english: 'a hard wooden platform',
+    spanish: 'una plataforma de madera dura',
+  },
+  {
+    norwegian: 'har ikke drukket nok',
+    english: 'has not drunk enough',
+    spanish: 'no ha bebido lo suficiente',
+  },
+  {
+    norwegian: 'kan tilberedes på et bål',
+    english: 'can be prepared on a campfire',
+    spanish: 'se puede preparar en una fogata',
+  },
+  {
+    norwegian: 'en slurk med vann',
+    english: 'a sip of water',
+    spanish: 'un sorbo de agua',
+  },
+  {
+    norwegian: 'på spleiselaget',
+    english: 'on the joint venture',
+    spanish: 'en la empresa conjunta',
+  },
+  {
+    norwegian: 'er rensende',
+    english: 'is cleansing',
+    spanish: 'es purificante',
+  },
+  {
+    norwegian: 'å kjenne forsiktig på',
+    english: 'to feel gently',
+    spanish: 'sentir suavemente',
+  },
+  {
+    norwegian: 'i tett jungel',
+    english: 'in dense jungle',
+    spanish: 'en jungla densa',
+  },
+  {
+    norwegian: 'en forfriskende dusj',
+    english: 'a refreshing shower',
+    spanish: 'una ducha refrescante',
+  },
+  {
+    norwegian: 'vender',
+    english: 'turns',
+    spanish: 'gira',
+  },
+  {
+    norwegian: 'vi helt nedslitt',
+    english: 'we completely exhausted',
+    spanish: 'nosotros completamente exhaustos',
+  },
+  {
+    norwegian: 'smertestillende',
+    english: 'painkillers',
+    spanish: 'analgésicos',
+  },
+  {
+    norwegian: 'brekker du deg',
+    english: 'do you break',
+    spanish: 'te rompes',
+  },
+  {
+    norwegian: 'er svake for fristelser',
+    english: 'are weak for temptations',
+    spanish: 'son débiles ante las tentaciones',
+  },
+  {
+    norwegian: 'er min største svakhet',
+    english: 'is my biggest weakness',
+    spanish: 'es mi mayor debilidad',
+  },
+  {
+    norwegian: 'er på felgen',
+    english: 'is on the rim',
+    spanish: 'está en el borde',
+  },
+  {
+    norwegian: 'må tilkalles lege',
+    english: 'doctor must be called',
+    spanish: 'se debe llamar a un médico',
+  },
+  {
+    norwegian: 'å få hviledag i morgen',
+    english: 'to have a rest day tomorrow',
+    spanish: 'tener un día de descanso mañana',
+  },
+  {
+    norwegian: 'skikkelig synd på henne',
+    english: 'really sorry for her',
+    spanish: 'realmente lo siento por ella',
+  },
+  {
+    norwegian: 'er lik null',
+    english: 'is equal to zero',
+    spanish: 'es igual a cero',
+  },
+  {
+    norwegian: 'prinsip',
+    english: 'principle',
+    spanish: 'principio',
+  },
+  {
+    norwegian: 'blåse ut',
+    english: 'blow out',
+    spanish: 'soplar',
+  },
+  {
+    norwegian: 'er uthvilt',
+    english: 'is rested',
+    spanish: 'está descansado',
+  },
+  {
+    norwegian: 'svitsjer jeg tilbake',
+    english: 'i switch back',
+    spanish: 'vuelvo a cambiar',
+  },
+  {
+    norwegian: 'jeg har båret sekken',
+    english: 'i have carried the bag',
+    spanish: 'he llevado la bolsa',
+  },
+  {
+    norwegian: 'å få gjennomført',
+    english: 'to get carried out',
+    spanish: 'llevar a cabo',
+  },
+  {
+    norwegian: 'har minst lyst',
+    english: 'has the least desire',
+    spanish: 'tiene menos ganas',
+  },
+  {
     norwegian: 'ummiddelbart',
     english: 'immediately',
     spanish: 'inmediatamente',
