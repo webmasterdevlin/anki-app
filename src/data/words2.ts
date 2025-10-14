@@ -17,6 +17,116 @@ export const words: Question[] = [
     spanish: 'alejar las cosas',
   },
   {
+    norwegian: 'å reagere kraftig på',
+    english: 'to react strongly to',
+    spanish: 'reaccionar fuertemente a',
+  },
+  {
+    norwegian: 'å grine',
+    english: 'to cry',
+    spanish: 'llorar',
+  },
+  {
+    norwegian: 'å rettferdiggjøre',
+    english: 'to justify',
+    spanish: 'justificar',
+  },
+  {
+    norwegian: 'søtsug',
+    english: 'sweet tooth',
+    spanish: 'antojo de dulce',
+  },
+  {
+    norwegian: 'uten å blunke',
+    english: 'without blinking',
+    spanish: 'sin parpadear',
+  },
+  {
+    norwegian: 'tilfredsstille',
+    english: 'to satisfy',
+    spanish: 'satisfacer',
+  },
+  {
+    norwegian: 'urkvinnen uten hjelp',
+    english: 'the woman without help',
+    spanish: 'la mujer sin ayuda',
+  },
+  {
+    norwegian: 'bakket opp med forskning',
+    english: 'backed by research',
+    spanish: 'respaldado por la investigación',
+  },
+  {
+    norwegian: 'et mentalt nederlag',
+    english: 'a mental defeat',
+    spanish: 'una derrota mental',
+  },
+  {
+    norwegian: 'dynamikken har surna litt',
+    english: 'the dynamics have soured a bit',
+    spanish: 'la dinámica se ha agriado un poco',
+  },
+  {
+    norwegian: 'er ganske provosert',
+    english: 'is quite provoked',
+    spanish: 'está bastante provocado',
+  },
+  {
+    norwegian: 'himler med øya',
+    english: 'rolls his eyes',
+    spanish: 'pone los ojos en blanco',
+  },
+  {
+    norwegian: 'vi må unne oss noe godt',
+    english: 'we must treat ourselves to something good',
+    spanish: 'debemos darnos un gusto',
+  },
+  {
+    norwegian: 'jeg føyer meg',
+    english: 'I comply',
+    spanish: 'me conformo',
+  },
+  {
+    norwegian: 'for turen nærmer seg slutten',
+    english: 'as the trip comes to an end',
+    spanish: 'a medida que el viaje llega a su fin',
+  },
+  {
+    norwegian: 'jeg har svidd av',
+    english: 'i have burned off',
+    spanish: 'he quemado',
+  },
+  {
+    norwegian: 'dere kan oppgradere fra',
+    english: 'you can upgrade from',
+    spanish: 'pueden actualizar desde',
+  },
+  {
+    norwegian: 'liggeunderlag',
+    english: 'sleeping pad',
+    spanish: 'colchón',
+  },
+  {
+    norwegian: 'håpa på det beste',
+    english: 'hoping for the best',
+    spanish: 'esperando lo mejor',
+  },
+  {
+    norwegian: 'litt kynisk',
+    english: 'a bit cynical',
+    spanish: 'un poco cínico',
+  },
+  {
+    norwegian: 'ankommer leiren',
+    english: 'arrives at the camp',
+    spanish: 'llega al campamento',
+  },
+  {
+    norwegian: 'har kneskålen ute av ledd',
+    english: 'has dislocated the kneecap',
+    spanish: 'tiene la rótula dislocada',
+  },
+  {
     norwegian: 'jeg røk på en diett',
     english: 'i went on a diet',
     spanish: 'me puse a dieta',
