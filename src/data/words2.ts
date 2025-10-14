@@ -12,6 +12,146 @@ export const words: Question[] = [
     spanish: 'viene a expensas de',
   },
   {
+    norwegian: 'å skyve ting unna',
+    english: 'to push things away',
+    spanish: 'alejar las cosas',
+  },
+  {
+    norwegian: 'jeg røk på en diett',
+    english: 'i went on a diet',
+    spanish: 'me puse a dieta',
+  },
+  {
+    norwegian: 'så rørt',
+    english: 'so touched',
+    spanish: 'tan conmovido',
+  },
+  {
+    norwegian: 'på tærne dine',
+    english: 'on your toes',
+    spanish: 'en tus dedos de los pies',
+  },
+  {
+    norwegian: 'uker eller måneder',
+    english: 'weeks or months',
+    spanish: 'semanas o meses',
+  },
+  {
+    norwegian: 'er smertefullt',
+    english: 'is painful',
+    spanish: 'es doloroso',
+  },
+  {
+    norwegian: 'opprinnelig fra',
+    english: 'originally from',
+    spanish: 'originalmente de',
+  },
+  {
+    norwegian: 'var et skolelys',
+    english: 'was a model student',
+    spanish: 'era un estudiante modelo',
+  },
+  {
+    norwegian: 'på å fremme det',
+    english: 'to promote it',
+    spanish: 'promoverlo',
+  },
+  {
+    norwegian: 'den deigete konsistensen',
+    english: 'the doughy consistency',
+    spanish: 'la consistencia pastosa',
+  },
+  {
+    norwegian: 'i dyp sorg',
+    english: 'in deep sorrow',
+    spanish: 'en profundo dolor',
+  },
+  {
+    norwegian: 'et vendepunkt',
+    english: 'a turning point',
+    spanish: 'un punto de inflexión',
+  },
+  {
+    norwegian: 'det harde liggeunderlaget',
+    english: 'the hard sleeping pad',
+    spanish: 'el duro colchón',
+  },
+  {
+    norwegian: 'er fysisk brekk',
+    english: 'is physically broken',
+    spanish: 'está físicamente roto',
+  },
+  {
+    norwegian: 'har tydeligvis snorket',
+    english: 'has obviously snored',
+    spanish: 'obviamente ha roncado',
+  },
+  {
+    norwegian: 'ikke løfter beinet noe særlig',
+    english: 'does not lift the leg much',
+    spanish: 'no levanta mucho la pierna',
+  },
+  {
+    norwegian: 'så vender man hodet mot matta',
+    english: 'then you turn your head towards the mat',
+    spanish: 'entonces giras la cabeza hacia la estera',
+  },
+  {
+    norwegian: 'alle slitne og spiste hver for seg',
+    english: 'all tired and ate separately',
+    spanish: 'todos cansados y comieron por separado',
+  },
+  {
+    norwegian: 'en landsby langt inne i jungelen',
+    english: 'a village deep in the jungle',
+    spanish: 'una aldea en lo profundo de la jungla',
+  },
+  {
+    norwegian: 'en klassereise',
+    english: 'a class journey',
+    spanish: 'un viaje de clase',
+  },
+  {
+    norwegian: 'er ikke en kakse',
+    english: 'is not a snob',
+    spanish: 'no es un esnob',
+  },
+  {
+    norwegian: 'kan sutre høyt',
+    english: 'can whine loudly',
+    spanish: 'puede quejarse en voz alta',
+  },
+  {
+    norwegian: 'svakeste leddet i gruppa',
+    english: 'the weakest link in the group',
+    spanish: 'el eslabón más débil del grupo',
+  },
+  {
+    norwegian: 'å henvende seg til',
+    english: 'to address',
+    spanish: 'dirigirse a',
+  },
+  {
+    norwegian: 'det blir litt provoserende',
+    english: 'it becomes a bit provoking',
+    spanish: 'se vuelve un poco provocador',
+  },
+  {
+    norwegian: 'frispiller på Stortinget',
+    english: 'free player in the Storting',
+    spanish: 'jugador libre en el Storting',
+  },
+  {
+    norwegian: 'har to stykker som',
+    english: 'has two pieces that',
+    spanish: 'tiene dos piezas que',
+  },
+  {
+    norwegian: 'på tide å sette opp leir',
+    english: 'time to set up camp',
+    spanish: 'hora de montar el campamento',
+  },
+  {
     norwegian: 'er forstoppet',
     english: 'is constipated',
     spanish: 'está estreñido',
