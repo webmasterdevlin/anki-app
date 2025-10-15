@@ -672,6 +672,31 @@ export const words: Question[] = [
     spanish: 'tres grandes rondas',
   },
   {
+    norwegian: 'regjeringen vil avvikle gratis ferger',
+    english: 'the government will phase out free ferries',
+    spanish: 'el gobierno eliminará los transbordadores gratuitos',
+  },
+  {
+    norwegian: 'det oppfattes',
+    english: 'it is perceived',
+    spanish: 'se percibe',
+  },
+  {
+    norwegian: 'skjerp deg litt',
+    english: 'shape up a bit',
+    spanish: 'ponte en forma un poco',
+  },
+  {
+    norwegian: 'er nordlending',
+    english: 'is a northerner',
+    spanish: 'es un noruego',
+  },
+  {
+    norwegian: 'det gjelder å være forberedt',
+    english: 'it is important to be prepared',
+    spanish: 'es importante estar preparado',
+  },
+  {
     norwegian: 'motbakkene kommer raskt',
     english: 'the uphill climbs come quickly',
     spanish: 'las subidas vienen rápido',
