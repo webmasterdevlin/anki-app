@@ -502,6 +502,31 @@ export const words: Question[] = [
     spanish: 'él lo maneja',
   },
   {
+    norwegian: 'i verste fall',
+    english: 'in the worst case',
+    spanish: 'en el peor de los casos',
+  },
+  {
+    norwegian: 'krype og åle seg',
+    english: 'crawl and wriggle',
+    spanish: 'gatear y retorcerse',
+  },
+  {
+    norwegian: 'er roten til alt ondt',
+    english: 'is the root of all evil',
+    spanish: 'es la raíz de todo mal',
+  },
+  {
+    norwegian: 'forhåpentligvis',
+    english: 'hopefully',
+    spanish: 'esperanzadamente',
+  },
+  {
+    norwegian: 'på felgen',
+    english: 'on the rim',
+    spanish: 'en el borde',
+  },
+  {
     norwegian: 'å drukne',
     english: 'to drown',
     spanish: 'ahogarse',
@@ -545,6 +570,11 @@ export const words: Question[] = [
     norwegian: 'leiren',
     english: 'the camp',
     spanish: 'el campamento',
+  },
+  {
+    norwegian: 'er øverste',
+    english: 'is top',
+    spanish: 'es superior',
   },
   {
     norwegian: 'disse dråpene i vannet',
