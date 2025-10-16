@@ -507,6 +507,207 @@ export const words: Question[] = [
     spanish: 'en el peor de los casos',
   },
   {
+    norwegian: 'ta en preken',
+    english: 'give a sermon',
+    spanish: 'dar un sermón',
+  },
+  {
+    norwegian: 'står i badekåper',
+    english: 'stands in bathrobes',
+    spanish: 'está en batas de baño',
+  },
+  {
+    norwegian: 'vantittig dumt',
+    english: 'insanely stupid',
+    spanish: 'increíblemente estúpido',
+  },
+  {
+    norwegian: 'blir forandra',
+    english: 'is changed',
+    spanish: 'se cambia',
+  },
+  {
+    norwegian: 'en stemmerunde',
+    english: 'a round of voting',
+    spanish: 'una ronda de votación',
+  },
+  {
+    norwegian: 'føtter som er hovne',
+    english: 'feet that are swollen',
+    spanish: 'pies que están hinchados',
+  },
+
+  {
+    norwegian: 'være såpass ærlig',
+    english: 'to be so honest',
+    spanish: 'ser tan honesto',
+  },
+  {
+    norwegian: 'med god samvittighet',
+    english: 'with a clear conscience',
+    spanish: 'con buena conciencia',
+  },
+  {
+    norwegian: 'å dytte noe jord i øra',
+    english: 'to push some soil in the ear',
+    spanish: 'empujar un poco de tierra en la oreja',
+  },
+  {
+    norwegian: 'ikke sløst 7000 kroner',
+    english: 'not wasted 7000 kroner',
+    spanish: 'no desperdiciado 7000 coronas',
+  },
+  {
+    norwegian: 'liggeunderlag',
+    english: 'sleeping pad',
+    spanish: 'colchón',
+  },
+  {
+    norwegian: 'at piknikkurven',
+    english: 'that the picnic basket',
+    spanish: 'que la cesta de picnic',
+  },
+  {
+    norwegian: 'overmorgen',
+    english: 'the day after tomorrow',
+    spanish: 'pasado mañana',
+  },
+  {
+    norwegian: 'er hovne',
+    english: 'are swollen',
+    spanish: 'están hinchados',
+  },
+  {
+    norwegian: 'å kapitulere nå',
+    english: 'to surrender now',
+    spanish: 'rendirse ahora',
+  },
+  {
+    norwegian: 'matskål',
+    english: 'food bowl',
+    spanish: 'cuenco de comida',
+  },
+  {
+    norwegian: 'fortsetter å mase',
+    english: 'continues to nag',
+    spanish: 'sigue regañando',
+  },
+  {
+    norwegian: 'tung kar',
+    english: 'heavy guy',
+    spanish: 'tipo pesado',
+  },
+  {
+    norwegian: 'en stokk',
+    english: 'a stick',
+    spanish: 'un palo',
+  },
+  {
+    norwegian: 'å sluke hele kosekurven',
+    english: 'to swallow the whole cozy basket',
+    spanish: 'tragar toda la cesta de comodidad',
+  },
+  {
+    norwegian: 'turminner',
+    english: 'tour memories',
+    spanish: 'recuerdos del tour',
+  },
+  {
+    norwegian: 'er det mye trivsel',
+    english: 'there is a lot of coziness',
+    spanish: 'hay mucha comodidad',
+  },
+  {
+    norwegian: 'vi mista maska',
+    english: 'we lost the mask',
+    spanish: 'perdimos la máscara',
+  },
+  {
+    norwegian: 'gjengen trives',
+    english: 'the gang thrives',
+    spanish: 'la pandilla prospera',
+  },
+  {
+    norwegian: 'alenemødre',
+    english: 'single mothers',
+    spanish: 'madres solteras',
+  },
+  {
+    norwegian: 'jeg melder tidlig',
+    english: 'i report early',
+    spanish: 'informe temprano',
+  },
+  {
+    norwegian: 'gåing',
+    english: 'walking',
+    spanish: 'caminando',
+  },
+  {
+    norwegian: 'krypa og åle seg',
+    english: 'crawl and wriggle',
+    spanish: 'gatear y retorcerse',
+  },
+  {
+    norwegian: 'omtrent seks timer',
+    english: 'about six hours',
+    spanish: 'unas seis horas',
+  },
+  {
+    norwegian: 'tilsvarende nedover',
+    english: 'correspondingly downwards',
+    spanish: 'correspondientemente hacia abajo',
+  },
+  {
+    norwegian: 'i krabbegir',
+    english: 'in crab gear',
+    spanish: 'en modo cangrejo',
+  },
+  {
+    norwegian: 'jeg angrer så sjukt mye',
+    english: 'i regret so much',
+    spanish: 'me arrepiento tanto',
+  },
+  {
+    norwegian: 'oppfyllelse av drømmer',
+    english: 'fulfillment of dreams',
+    spanish: 'cumplimiento de sueños',
+  },
+  {
+    norwegian: 'i avføringen',
+    english: 'in the stool',
+    spanish: 'en las heces',
+  },
+  {
+    norwegian: 'fremad marsj',
+    english: 'forward march',
+    spanish: 'marcha hacia adelante',
+  },
+  {
+    norwegian: 'merkelig',
+    english: 'strange',
+    spanish: 'extraño',
+  },
+  {
+    norwegian: 'hevelser',
+    english: 'swellings',
+    spanish: 'hinchazones',
+  },
+  {
+    norwegian: 'alenemødre',
+    english: 'single mothers',
+    spanish: 'madres solteras',
+  },
+  {
+    norwegian: 'opp med stokken',
+    english: 'up with the stick',
+    spanish: 'arriba con el palo',
+  },
+  {
+    norwegian: 'selverklærte livsnyterne',
+    english: 'self-proclaimed hedonists',
+    spanish: 'hedonistas autoproclamados',
+  },
+  {
     norwegian: 'krype og åle seg',
     english: 'crawl and wriggle',
     spanish: 'gatear y retorcerse',
