@@ -613,6 +613,11 @@ export const words: Question[] = [
     spanish: 'recuerdos del tour',
   },
   {
+    norwegian: 'er vanvittig',
+    english: 'is insane',
+    spanish: 'es una locura',
+  },
+  {
     norwegian: 'er det mye trivsel',
     english: 'there is a lot of coziness',
     spanish: 'hay mucha comodidad',
@@ -706,6 +711,71 @@ export const words: Question[] = [
     norwegian: 'selverklærte livsnyterne',
     english: 'self-proclaimed hedonists',
     spanish: 'hedonistas autoproclamados',
+  },
+  {
+    norwegian: 'kyllingvinger',
+    english: 'chicken wings',
+    spanish: 'alitas de pollo',
+  },
+  {
+    norwegian: 'vi nyte det sammen',
+    english: 'we enjoy it together',
+    spanish: 'lo disfrutamos juntos',
+  },
+  {
+    norwegian: 'det er ferskt',
+    english: 'it is fresh',
+    spanish: 'está fresco',
+  },
+  {
+    norwegian: 'å skylle det ned',
+    english: 'to wash it down',
+    spanish: 'enjuagarlo',
+  },
+  {
+    norwegian: 'de kjeksposene',
+    english: 'the biscuit bags',
+    spanish: 'las bolsas de galletas',
+  },
+  {
+    norwegian: 'lev i nuet',
+    english: 'live in the moment',
+    spanish: 'vivir en el momento',
+  },
+  {
+    norwegian: 'et gissel',
+    english: 'a hostage',
+    spanish: 'un rehén',
+  },
+  {
+    norwegian: 'begge leirene',
+    english: 'both camps',
+    spanish: 'ambos campamentos',
+  },
+  {
+    norwegian: 'jeg unnet meg',
+    english: 'i treated myself',
+    spanish: 'me di un gusto',
+  },
+  {
+    norwegian: 'det søteste fjeset',
+    english: 'the sweetest face',
+    spanish: 'la cara más dulce',
+  },
+  {
+    norwegian: 'blir forandra',
+    english: 'is changed',
+    spanish: 'es cambiado',
+  },
+  {
+    norwegian: 'den tynne matta der',
+    english: 'the thin mat there',
+    spanish: 'la alfombra delgada allí',
+  },
+  {
+    norwegian: 'suveren komfort',
+    english: 'sovereign comfort',
+    spanish: 'comodidad soberana',
   },
   {
     norwegian: 'krype og åle seg',
