@@ -1523,6 +1523,31 @@ export const words: Question[] = [
     spanish: 'emergencias',
   },
   {
+    norwegian: 'har hovne bein',
+    english: 'has swollen legs',
+    spanish: 'tiene las piernas hinchadas',
+  },
+  {
+    norwegian: 'vann i avføringen',
+    english: 'water in the stool',
+    spanish: 'agua en las heces',
+  },
+  {
+    norwegian: 'kjøttsår på føttene',
+    english: 'meat sores on the feet',
+    spanish: 'llagas de carne en los pies',
+  },
+  {
+    norwegian: 'i lende',
+    english: 'in the loins',
+    spanish: 'en los lomos',
+  },
+  {
+    norwegian: 'liggeunderlag',
+    english: 'sleeping pad',
+    spanish: 'colchón',
+  },
+  {
     norwegian: 'er vekslende',
     english: 'is variable',
     spanish: 'es variable',
