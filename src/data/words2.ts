@@ -2,6 +2,66 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'såpass',
+    english: 'that much',
+    spanish: 'tanto',
+  },
+  {
+    norwegian: 'betydning',
+    english: 'meaning',
+    spanish: 'significado',
+  },
+  {
+    norwegian: 'fristelse',
+    english: 'temptation',
+    spanish: 'tentación',
+  },
+  {
+    norwegian: 'rammet',
+    english: 'affected',
+    spanish: 'afectado',
+  },
+  {
+    norwegian: 'vinke',
+    english: 'wave',
+    spanish: 'ola',
+  },
+  {
+    norwegian: 'feige ut',
+    english: 'chicken out',
+    spanish: 'acobardarse',
+  },
+  {
+    norwegian: 'vedtatt',
+    english: 'adopted',
+    spanish: 'adoptado',
+  },
+  {
+    norwegian: 'oppdrag',
+    english: 'mission',
+    spanish: 'misión',
+  },
+  {
+    norwegian: 'vedtak',
+    english: 'decision',
+    spanish: 'decisión',
+  },
+  {
+    norwegian: 'blir nektet pass',
+    english: 'is denied a passport',
+    spanish: 'se le niega un pasaporte',
+  },
+  {
+    norwegian: 'oppfylte',
+    english: 'fulfilled',
+    spanish: 'cumplido',
+  },
+  {
+    norwegian: 'tiltalt',
+    english: 'accused',
+    spanish: 'acusado',
+  },
+  {
     norwegian: 'slem',
     english: 'naughty',
     spanish: 'travieso',
