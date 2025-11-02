@@ -2,6 +2,191 @@ import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
   {
+    norwegian: 'klamt',
+    english: 'clammy',
+    spanish: 'pegajoso',
+  },
+  {
+    norwegian: 'havbrisen derimot',
+    english: 'the sea breeze, however',
+    spanish: 'la brisa marina, sin embargo',
+  },
+  {
+    norwegian: 'avkjølende vann',
+    english: 'cooling water',
+    spanish: 'agua refrescante',
+  },
+  {
+    norwegian: 'nydelige omgivelser',
+    english: 'lovely surroundings',
+    spanish: 'hermosos alrededores',
+  },
+  {
+    norwegian: 'opplegg',
+    english: 'setup',
+    spanish: 'configuración',
+  },
+  {
+    norwegian: 'klype deg',
+    english: 'pinch you',
+    spanish: 'pellizcarte',
+  },
+  {
+    norwegian: 'til sjøs',
+    english: 'at sea',
+    spanish: 'en el mar',
+  },
+  {
+    norwegian: 'har svidd',
+    english: 'has burned',
+    spanish: 'ha quemado',
+  },
+  {
+    norwegian: 'å riste av seg',
+    english: 'to shake off',
+    spanish: 'sacudirse',
+  },
+  {
+    norwegian: 'bare nikker',
+    english: 'just nods',
+    spanish: 'solo asiente',
+  },
+  {
+    norwegian: 'avsmak på fråtsinga',
+    english: 'aversion to gluttony',
+    spanish: 'aversión a la gula',
+  },
+  {
+    norwegian: 'samvittighet',
+    english: 'conscience',
+    spanish: 'conciencia',
+  },
+  {
+    norwegian: 'i kjelleren',
+    english: 'in the basement',
+    spanish: 'en el sótano',
+  },
+  {
+    norwegian: 'provosert',
+    english: 'provoked',
+    spanish: 'provocado',
+  },
+  {
+    norwegian: 'avstå',
+    english: 'abstain',
+    spanish: 'abstenerse',
+  },
+  {
+    norwegian: 'en opptelling',
+    english: 'a count',
+    spanish: 'un conteo',
+  },
+  {
+    norwegian: 'gruppeavgjørelse',
+    english: 'group decision',
+    spanish: 'decisión de grupo',
+  },
+  {
+    norwegian: 'etappe gjennom tett jungel',
+    english: 'stage through dense jungle',
+    spanish: 'etapa a través de la jungla densa',
+  },
+  {
+    norwegian: 'en straff',
+    english: 'a punishment',
+    spanish: 'un castigo',
+  },
+  {
+    norwegian: 'noe utedass',
+    english: 'some outdoor toilet',
+    spanish: 'algún baño al aire libre',
+  },
+  {
+    norwegian: 'beløpet',
+    english: 'the amount',
+    spanish: 'la cantidad',
+  },
+  {
+    norwegian: 'årslønna mi',
+    english: 'my annual salary',
+    spanish: 'mi salario anual',
+  },
+  {
+    norwegian: 'i hoderegning',
+    english: 'in mental arithmetic',
+    spanish: 'en aritmética mental',
+  },
+  {
+    norwegian: 'er trukket',
+    english: 'is drawn',
+    spanish: 'está dibujado',
+  },
+  {
+    norwegian: 'er overførbare til',
+    english: 'are transferable to',
+    spanish: 'son transferibles a',
+  },
+  {
+    norwegian: 'selvinnsikt',
+    english: 'self-insight',
+    spanish: 'autoinsight',
+  },
+  {
+    norwegian: 'en ren truse',
+    english: 'a clean panty',
+    spanish: 'una braga limpia',
+  },
+  {
+    norwegian: 'nå kryr det av',
+    english: 'now it is teeming with',
+    spanish: 'ahora está lleno de',
+  },
+  {
+    norwegian: 'bålmestere',
+    english: 'fire masters',
+    spanish: 'maestros del fuego',
+  },
+  {
+    norwegian: 'frihetsfølelse',
+    english: 'sense of freedom',
+    spanish: 'sensación de libertad',
+  },
+  {
+    norwegian: 'kan forsyne seg',
+    english: 'can help themselves',
+    spanish: 'pueden servirse',
+  },
+  {
+    norwegian: 'min opprinnelige magefølelse',
+    english: 'my original gut feeling',
+    spanish: 'mi sensación original',
+  },
+  {
+    norwegian: 'rettferdiggjøring',
+    english: 'justification',
+    spanish: 'justificación',
+  },
+  {
+    norwegian: 'overføring vellykket',
+    english: 'transfer successful',
+    spanish: 'transferencia exitosa',
+  },
+  {
+    norwegian: 'forhåpentligvis',
+    english: 'hopefully',
+    spanish: 'esperanzadamente',
+  },
+  {
+    norwegian: 'på forskudd',
+    english: 'in advance',
+    spanish: 'de antemano',
+  },
+  {
+    norwegian: 'å vende tilbake',
+    english: 'to return',
+    spanish: 'volver',
+  },
+  {
     norwegian: 'såpass',
     english: 'that much',
     spanish: 'tanto',
