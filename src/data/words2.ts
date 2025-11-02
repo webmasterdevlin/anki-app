@@ -7,6 +7,186 @@ export const words: Question[] = [
     spanish: 'pegajoso',
   },
   {
+    norwegian: 'du trosser din frykt',
+    english: 'you defy your fear',
+    spanish: 'tú desafías tu miedo',
+  },
+  {
+    norwegian: 'lytter til',
+    english: 'listens to',
+    spanish: 'escucha a',
+  },
+  {
+    norwegian: 'tyngre enn jeg trodde',
+    english: 'heavier than i thought',
+    spanish: 'más pesado de lo que pensaba',
+  },
+  {
+    norwegian: 'søkkbløtt',
+    english: 'soaking wet',
+    spanish: 'empapado',
+  },
+  {
+    norwegian: 'har snudd',
+    english: 'has turned',
+    spanish: 'ha girado',
+  },
+  {
+    norwegian: 'overnattingsmulighet',
+    english: 'overnight accommodation',
+    spanish: 'alojamiento nocturno',
+  },
+  {
+    norwegian: 'på anlegget',
+    english: 'at the facility',
+    spanish: 'en la instalación',
+  },
+  {
+    norwegian: 'møkklei',
+    english: 'fed up',
+    spanish: 'harto',
+  },
+  {
+    norwegian: 'høyeste budet vinner',
+    english: 'the highest bid wins',
+    spanish: 'la oferta más alta gana',
+  },
+  {
+    norwegian: 'at budkrigen',
+    english: 'that the bidding war',
+    spanish: 'que la guerra de ofertas',
+  },
+  {
+    norwegian: 'litt grådige',
+    english: 'a little greedy',
+    spanish: 'un poco codicioso',
+  },
+  {
+    norwegian: 'en åndelig',
+    english: 'a spiritual',
+    spanish: 'un espiritual',
+  },
+  {
+    norwegian: 'jeg følte at hun',
+    english: 'i felt that she',
+    spanish: 'sentí que ella',
+  },
+  {
+    norwegian: 'hun hoverte litt',
+    english: 'she hovered a bit',
+    spanish: 'ella flotó un poco',
+  },
+  {
+    norwegian: 'ikke har dratt',
+    english: 'has not pulled',
+    spanish: 'no ha tirado',
+  },
+  {
+    norwegian: 'hun har blitt hundset',
+    english: 'she has been dogged',
+    spanish: 'ella ha sido acosada',
+  },
+  {
+    norwegian: 'å være belærende',
+    english: 'to be instructive',
+    spanish: 'ser instructivo',
+  },
+  {
+    norwegian: 'det er ingen vits',
+    english: 'there is no point',
+    spanish: 'no hay sentido',
+  },
+  {
+    norwegian: 'ivaretatt',
+    english: 'taken care of',
+    spanish: 'cuidado',
+  },
+  {
+    norwegian: 'den anerkjenner jeg',
+    english: 'i acknowledge that',
+    spanish: 'reconozco eso',
+  },
+  {
+    norwegian: 'har brølt til meg',
+    english: 'has roared at me',
+    spanish: 'me ha rugido',
+  },
+  {
+    norwegian: 'den mestringa',
+    english: 'that mastery',
+    spanish: 'ese dominio',
+  },
+  {
+    norwegian: 'en hengkøye',
+    english: 'a hammock',
+    spanish: 'una hamaca',
+  },
+  {
+    norwegian: 'et velsmakende måltid',
+    english: 'a tasty meal',
+    spanish: 'una comida sabrosa',
+  },
+  {
+    norwegian: 'litt grådige',
+    english: 'a little greedy',
+    spanish: 'un poco codicioso',
+  },
+  {
+    norwegian: 'en åndelig',
+    english: 'a spiritual',
+    spanish: 'un espiritual',
+  },
+  {
+    norwegian: 'nådeløse og nådefulle natur',
+    english: 'merciless and merciful nature',
+    spanish: 'naturaleza despiadada y misericordiosa',
+  },
+  {
+    norwegian: 'rettferdiggjøring',
+    english: 'justification',
+    spanish: 'justificación',
+  },
+  {
+    norwegian: 'litt hyklersk',
+    english: 'a bit hypocritical',
+    spanish: 'un poco hipócrita',
+  },
+  {
+    norwegian: 'grådigheta',
+    english: 'the greed',
+    spanish: 'la codicia',
+  },
+  {
+    norwegian: 'motstanden',
+    english: 'the resistance',
+    spanish: 'la resistencia',
+  },
+  {
+    norwegian: 'uthvilt',
+    english: 'rested',
+    spanish: 'descansado',
+  },
+  {
+    norwegian: 'hendelser',
+    english: 'events',
+    spanish: 'eventos',
+  },
+  {
+    norwegian: 'antakeligvis',
+    english: 'probably',
+    spanish: 'probablemente',
+  },
+  {
+    norwegian: 'medmenneskelighet',
+    english: 'humanity',
+    spanish: 'humanidad',
+  },
+  {
+    norwegian: 'å blidgjøre',
+    english: 'to appease',
+    spanish: 'apaciguar',
+  },
+  {
     norwegian: 'havbrisen derimot',
     english: 'the sea breeze, however',
     spanish: 'la brisa marina, sin embargo',
