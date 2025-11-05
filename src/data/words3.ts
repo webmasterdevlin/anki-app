@@ -506,4 +506,124 @@ export const words: Question[] = [
     english: 'have protective suit',
     spanish: 'tener traje protector',
   },
+  {
+    norwegian: 'er grævle vondt',
+    english: 'is really painful',
+    spanish: 'es realmente doloroso',
+  },
+  {
+    norwegian: 'hoste og sår hals',
+    english: 'coughing and sore throat',
+    spanish: 'tos y dolor de garganta',
+  },
+  {
+    norwegian: 'i tilfelle du skulle trenge',
+    english: 'in case you might need',
+    spanish: 'en caso de que puedas necesitar',
+  },
+  {
+    norwegian: 'hanggliders',
+    english: 'hang gliders',
+    spanish: 'ala delta',
+  },
+  {
+    norwegian: 'en slede',
+    english: 'a sled',
+    spanish: 'un trineo',
+  },
+  {
+    norwegian: 'akte fra toppen av bakken',
+    english: 'sled from the top of the hill',
+    spanish: 'trineo desde la cima de la colina',
+  },
+  {
+    norwegian: 'hvordan jeg bearbeider ting',
+    english: 'how i process things',
+    spanish: 'cómo proceso las cosas',
+  },
+  {
+    norwegian: 'å gå glipp av',
+    english: 'to miss out on',
+    spanish: 'perderse',
+  },
+  {
+    norwegian: 'avslutning',
+    english: 'graduation',
+    spanish: 'graduación',
+  },
+  {
+    norwegian: 'rakk du fødselen',
+    english: 'did you make it to the birth',
+    spanish: '¿llegaste al nacimiento?',
+  },
+  {
+    norwegian: 'veldig godt klokker',
+    english: 'very good watches',
+    spanish: 'relojes muy buenos',
+  },
+  {
+    norwegian: 'å arve en klokke',
+    english: 'to inherit a watch',
+    spanish: 'heredar un reloj',
+  },
+  {
+    norwegian: 'fra gudmoren min',
+    english: 'from my godmother',
+    spanish: 'de mi madrina',
+  },
+  {
+    norwegian: 'du har krutt i støvelen',
+    english: 'you have gunpowder in your boot',
+    spanish: 'tienes pólvora en tu bota',
+  },
+  {
+    norwegian: 'noen hyss',
+    english: 'some tricks',
+    spanish: 'algunos trucos',
+  },
+  {
+    norwegian: 'rampestreker',
+    english: 'pranks',
+    spanish: 'travesuras',
+  },
+  {
+    norwegian: 'sånnefart bombs',
+    english: 'such speed bombs',
+    spanish: 'tales bombas de velocidad',
+  },
+  {
+    norwegian: 'garderoben',
+    english: 'the wardrobe',
+    spanish: 'el armario',
+  },
+  {
+    norwegian: 'hos rektor',
+    english: 'at the principal',
+    spanish: 'en el director',
+  },
+  {
+    norwegian: 'å brydde meg',
+    english: 'to care',
+    spanish: 'importar',
+  },
+  {
+    norwegian: 'men klarer det ikke alltid',
+    english: 'but do not always manage',
+    spanish: 'pero no siempre lo logro',
+  },
+  {
+    norwegian: 'en flekk',
+    english: 'a spot',
+    spanish: 'una mancha',
+  },
+  {
+    norwegian: 'samlinga',
+    english: 'the collection',
+    spanish: 'la colección',
+  },
+  {
+    norwegian: 'kjekt å ha',
+    english: 'nice to have',
+    spanish: 'agradable de tener',
+  },
 ];
