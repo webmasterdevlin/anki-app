@@ -321,4 +321,39 @@ export const words: Question[] = [
     english: 'flying car',
     spanish: 'coche volador',
   },
+  {
+    norwegian: 'folk gjenkjenner meg',
+    english: 'people recognize me',
+    spanish: 'la gente me reconoce',
+  },
+  {
+    norwegian: 'ballen går grævle fort',
+    english: 'the ball is rolling really fast',
+    spanish: 'la pelota está rodando muy rápido',
+  },
+  {
+    norwegian: 'berg-og-dal-baner',
+    english: 'roller coasters',
+    spanish: 'montañas rusas',
+  },
+  {
+    norwegian: 'ketsjup og sennep',
+    english: 'ketchup and mustard',
+    spanish: 'ketchup y mostaza',
+  },
+  {
+    norwegian: 'en ordentlig stas',
+    english: 'a proper occasion',
+    spanish: 'una ocasión adecuada',
+  },
+  {
+    norwegian: 'du kan spille på lag',
+    english: 'you can team up',
+    spanish: 'puedes formar equipo',
+  },
+  {
+    norwegian: 'ulike funksjonsvariasjoner',
+    english: 'different functional variations',
+    spanish: 'diferentes variaciones funcionales',
+  },
 ];
