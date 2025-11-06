@@ -626,4 +626,24 @@ export const words: Question[] = [
     english: 'nice to have',
     spanish: 'agradable de tener',
   },
+  {
+    norwegian: 'mye taletid',
+    english: 'a lot of speaking time',
+    spanish: 'mucho tiempo de habla',
+  },
+  {
+    norwegian: 'er veldig raus',
+    english: 'is very generous',
+    spanish: 'es muy generoso',
+  },
+  {
+    norwegian: 'slektninger',
+    english: 'relatives',
+    spanish: 'parientes',
+  },
+  {
+    norwegian: 'lytter til kroppen',
+    english: 'listens to the body',
+    spanish: 'escucha al cuerpo',
+  },
 ];
