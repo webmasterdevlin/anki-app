@@ -646,4 +646,214 @@ export const words: Question[] = [
     english: 'listens to the body',
     spanish: 'escucha al cuerpo',
   },
+  {
+    norwegian: 'oppsøkte en lege',
+    english: 'visited a doctor',
+    spanish: 'visitó a un médico',
+  },
+  {
+    norwegian: 'på tross av smertene',
+    english: 'despite the pain',
+    spanish: 'a pesar del dolor',
+  },
+  {
+    norwegian: 'manglende energi',
+    english: 'lack of energy',
+    spanish: 'falta de energía',
+  },
+  {
+    norwegian: 'på møteinnkallelsen',
+    english: 'on the meeting invitation',
+    spanish: 'en la invitación a la reunión',
+  },
+  {
+    norwegian: 'på oppdrag fra',
+    english: 'on a mission from',
+    spanish: 'en una misión de',
+  },
+  {
+    norwegian: 'i forbindelse med hans bortgang',
+    english: 'in connection with his passing',
+    spanish: 'en relación con su fallecimiento',
+  },
+  {
+    norwegian: 'veldig nysgjerrig',
+    english: 'very curious',
+    spanish: 'muy curioso',
+  },
+  {
+    norwegian: 'hva dreier dette seg om',
+    english: 'what is this about',
+    spanish: 'de qué se trata esto',
+  },
+  {
+    norwegian: 'en litt ømfintlig sak',
+    english: 'a bit of a sensitive issue',
+    spanish: 'un tema un poco delicado',
+  },
+  {
+    norwegian: 'etter avdødes ønske',
+    english: "according to the deceased's wishes",
+    spanish: 'según los deseos del fallecido',
+  },
+  {
+    norwegian: 'en grundig gjennomgang',
+    english: 'a thorough review',
+    spanish: 'una revisión exhaustiva',
+  },
+  {
+    norwegian: 'i henhold til den avdødes vilje',
+    english: "in accordance with the deceased's wishes",
+    spanish: 'de acuerdo con los deseos del fallecido',
+  },
+  {
+    norwegian: 'i enerom',
+    english: 'in a private room',
+    spanish: 'en una habitación privada',
+  },
+  {
+    norwegian: 'alle sakspapirer du har',
+    english: 'all case papers you have',
+    spanish: 'todos los documentos del caso que tienes',
+  },
+  {
+    norwegian: 'en lausunge',
+    english: 'a rascal',
+    spanish: 'un pícaro',
+  },
+  {
+    norwegian: 'stilt seg bak',
+    english: 'stood behind',
+    spanish: 'se puso detrás de',
+  },
+  {
+    norwegian: 'kjenner verken ham eller familien',
+    english: 'know neither him nor the family',
+    spanish: 'no conozco ni a él ni a la familia',
+  },
+  {
+    norwegian: 'han har øyensynlig lagt nye planer',
+    english: 'he has apparently made new plans',
+    spanish: 'aparentemente ha hecho nuevos planes',
+  },
+  {
+    norwegian: 'bare å henge med',
+    english: 'just hang on',
+    spanish: 'solo aguanta',
+  },
+  {
+    norwegian: 'en form for svindel',
+    english: 'a form of fraud',
+    spanish: 'una forma de fraude',
+  },
+  {
+    norwegian: 'omdisponeringer i testamentet',
+    english: 'reallocations in the will',
+    spanish: 'reasignaciones en el testamento',
+  },
+  {
+    norwegian: 'utdrikningslaget',
+    english: 'the bachelor party',
+    spanish: 'la despedida de soltero',
+  },
+  {
+    norwegian: 'hun er kliss lik farmor',
+    english: 'she is just like grandmother',
+    spanish: 'ella es igual que la abuela',
+  },
+  {
+    norwegian: 'utseendemessig',
+    english: 'appearance-wise',
+    spanish: 'en cuanto a apariencia',
+  },
+  {
+    norwegian: 'hengefjeset',
+    english: 'the hanging face',
+    spanish: 'la cara colgante',
+  },
+  {
+    norwegian: 'erklært utilregnelig',
+    english: 'declared unaccountable',
+    spanish: 'declarado irresponsable',
+  },
+  {
+    norwegian: 'ugyldiggjøre testamentet',
+    english: 'invalidate the will',
+    spanish: 'anular el testamento',
+  },
+  {
+    norwegian: 'å få ugyldiggjort et testament',
+    english: 'to have a will invalidated',
+    spanish: 'hacer que un testamento sea anulado',
+  },
+  {
+    norwegian: 'livsarven sin',
+    english: 'his life inheritance',
+    spanish: 'su herencia de vida',
+  },
+  {
+    norwegian: 'en fremme ungen',
+    english: 'a premature baby',
+    spanish: 'un bebé prematuro',
+  },
+  {
+    norwegian: 'en diskret måte',
+    english: 'a discreet way',
+    spanish: 'una manera discreta',
+  },
+  {
+    norwegian: 'et ettermæle',
+    english: 'a legacy',
+    spanish: 'un legado',
+  },
+  {
+    norwegian: 'skal bli husket for',
+    english: 'will be remembered for',
+    spanish: 'será recordado por',
+  },
+  {
+    norwegian: 'gå enda en runde',
+    english: 'go another round',
+    spanish: 'ir otra ronda',
+  },
+  {
+    norwegian: 'drittkasting',
+    english: 'mudslinging',
+    spanish: 'lanzamiento de barro',
+  },
+  {
+    norwegian: 'trynet mitt på forsiden',
+    english: 'my face on the front page',
+    spanish: 'mi cara en la portada',
+  },
+  {
+    norwegian: 'omdømmet sitt',
+    english: 'its reputation',
+    spanish: 'su reputación',
+  },
+  {
+    norwegian: 'innkalt til styremøte',
+    english: 'called to board meeting',
+    spanish: 'llamado a la reunión de la junta',
+  },
+  {
+    norwegian: 'jeg ordner det',
+    english: 'i will arrange it',
+    spanish: 'lo arreglaré',
+  },
+  {
+    norwegian: 'full forståelse',
+    english: 'full understanding',
+    spanish: 'comprensión total',
+  },
+  {
+    norwegian: 'ikke for evig',
+    english: 'not forever',
+    spanish: 'no para siempre',
+  },
+  {
+    norwegian: 'en utålmodig sjel',
+    english: 'an impatient soul',
+    spanish: 'un alma impaciente',
+  },
 ];
