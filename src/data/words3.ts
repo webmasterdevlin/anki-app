@@ -856,4 +856,104 @@ export const words: Question[] = [
     english: 'an impatient soul',
     spanish: 'un alma impaciente',
   },
+  {
+    norwegian: 'i nattbordskuffen',
+    english: 'in the nightstand drawer',
+    spanish: 'en el cajón de la mesita de noche',
+  },
+  {
+    norwegian: 'er glidemiddel',
+    english: 'is lubricant',
+    spanish: 'es lubricante',
+  },
+  {
+    norwegian: 'det er modig',
+    english: 'it is brave',
+    spanish: 'es valiente',
+  },
+  {
+    norwegian: 'rykter om deg',
+    english: 'rumors about you',
+    spanish: 'rumores sobre ti',
+  },
+  {
+    norwegian: 'budskapet ditt',
+    english: 'your message',
+    spanish: 'tu mensaje',
+  },
+  {
+    norwegian: 'stått',
+    english: 'stood',
+    spanish: 'de pie',
+  },
+  {
+    norwegian: 'en annen virkelighet',
+    english: 'another reality',
+    spanish: 'otra realidad',
+  },
+  {
+    norwegian: 'er blitt mobba',
+    english: 'has been bullied',
+    spanish: 'ha sido acosado',
+  },
+  {
+    norwegian: 'i syvende himmel',
+    english: 'in seventh heaven',
+    spanish: 'en el séptimo cielo',
+  },
+  {
+    norwegian: 'utseendet ditt',
+    english: 'your appearance',
+    spanish: 'tu apariencia',
+  },
+  {
+    norwegian: 'er forderdelig vondt',
+    english: 'is terribly painful',
+    spanish: 'es terriblemente doloroso',
+  },
+  {
+    norwegian: 'var visstnok',
+    english: 'was apparently',
+    spanish: 'era aparentemente',
+  },
+  {
+    norwegian: 'en sånn sønn selv',
+    english: 'a son like that himself',
+    spanish: 'un hijo así mismo',
+  },
+  {
+    norwegian: 'å trigga meg',
+    english: 'to trigger me',
+    spanish: 'para desencadenarme',
+  },
+  {
+    norwegian: 'gang på gang',
+    english: 'time and time again',
+    spanish: 'una y otra vez',
+  },
+  {
+    norwegian: 'overflatisk',
+    english: 'superficial',
+    spanish: 'superficial',
+  },
+  {
+    norwegian: 'utfordrer meg',
+    english: 'challenges me',
+    spanish: 'me desafía',
+  },
+  {
+    norwegian: 'blir litt drøyt',
+    english: 'gets a bit extreme',
+    spanish: 'se vuelve un poco extremo',
+  },
+  {
+    norwegian: 'mødre er gode på å',
+    english: 'mothers are good at',
+    spanish: 'las madres son buenas en',
+  },
+  {
+    norwegian: 'et frekke motsvar',
+    english: 'a cheeky response',
+    spanish: 'una respuesta descarada',
+  },
 ];
