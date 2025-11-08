@@ -956,4 +956,209 @@ export const words: Question[] = [
     english: 'a cheeky response',
     spanish: 'una respuesta descarada',
   },
+  {
+    norwegian: 'nesnalobber',
+    english: 'nasal lobes',
+    spanish: 'lóbulos nasales',
+  },
+  {
+    norwegian: 'pangstart',
+    english: 'bang start',
+    spanish: 'inicio explosivo',
+  },
+  {
+    norwegian: 'en sketsj fra',
+    english: 'a sketch from',
+    spanish: 'un boceto de',
+  },
+  {
+    norwegian: 'vi lo mye den dagen',
+    english: 'we laughed a lot that day',
+    spanish: 'nos reímos mucho ese día',
+  },
+  {
+    norwegian: 'litt sint',
+    english: 'a little angry',
+    spanish: 'un poco enojado',
+  },
+  {
+    norwegian: 'å grunnlegge din egen munskole',
+    english: 'to found your own language school',
+    spanish: 'fundar tu propia escuela de idiomas',
+  },
+  {
+    norwegian: 'munk hos meg',
+    english: 'monk with me',
+    spanish: 'monje conmigo',
+  },
+  {
+    norwegian: 'sinnemestringskurset ditt',
+    english: 'your anger management course',
+    spanish: 'tu curso de manejo de la ira',
+  },
+  {
+    norwegian: 'kan jo vurdere det',
+    english: 'can consider it',
+    spanish: 'puede considerarlo',
+  },
+  {
+    norwegian: 'var fingrene for klamme',
+    english: 'the fingers were too clammy',
+    spanish: 'los dedos estaban demasiado pegajosos',
+  },
+  {
+    norwegian: 'de bare glei ut av meg',
+    english: 'they just slipped out of me',
+    spanish: 'simplemente se me escaparon',
+  },
+  {
+    norwegian: 'kjempestas',
+    english: 'great fun',
+    spanish: 'gran diversión',
+  },
+  {
+    norwegian: 'stegene ennå',
+    english: 'the steps yet',
+    spanish: 'los pasos aún',
+  },
+  {
+    norwegian: 'vals',
+    english: 'waltz',
+    spanish: 'vals',
+  },
+  {
+    norwegian: 'rabagast',
+    english: 'rascal',
+    spanish: 'pícaro',
+  },
+  {
+    norwegian: 'tjukke briller',
+    english: 'thick glasses',
+    spanish: 'gafas gruesas',
+  },
+  {
+    norwegian: 'jevnt og trutt',
+    english: 'steady and persistent',
+    spanish: 'constante y persistente',
+  },
+  {
+    norwegian: 'påpakning',
+    english: 'reprimand',
+    spanish: 'reprimenda',
+  },
+  {
+    norwegian: 'en masekråke',
+    english: 'a nagging crow',
+    spanish: 'un cuervo molesto',
+  },
+  {
+    norwegian: 'tungrock',
+    english: 'heavy rock',
+    spanish: 'rock pesado',
+  },
+  {
+    norwegian: 'blitt anmeldt',
+    english: 'been reported',
+    spanish: 'ha sido reportado',
+  },
+  {
+    norwegian: 'ikke vitsen god',
+    english: 'not worth it',
+    spanish: 'no vale la pena',
+  },
+  {
+    norwegian: 'altså det var seigt',
+    english: 'so it was tough',
+    spanish: 'así que fue difícil',
+  },
+  {
+    norwegian: 'mer hensynsfull',
+    english: 'more considerate',
+    spanish: 'más considerado',
+  },
+  {
+    norwegian: 'mehenkje',
+    english: 'meanwhile',
+    spanish: 'mientras tanto',
+  },
+  {
+    norwegian: 'sa fatteren',
+    english: 'said the father',
+    spanish: 'dijo el padre',
+  },
+  {
+    norwegian: 'en rotekopp',
+    english: 'a messy person',
+    spanish: 'una persona desordenada',
+  },
+  {
+    norwegian: 'ute av min liga',
+    english: 'out of my league',
+    spanish: 'fuera de mi liga',
+  },
+  {
+    norwegian: 'plystringa',
+    english: 'the whistling',
+    spanish: 'el silbido',
+  },
+  {
+    norwegian: 'fremsto trygg',
+    english: 'appeared confident',
+    spanish: 'parecía confiado',
+  },
+  {
+    norwegian: 'hater når det skjer',
+    english: 'hate when it happens',
+    spanish: 'odio cuando sucede',
+  },
+  {
+    norwegian: 'kraft og futt',
+    english: 'power and pep',
+    spanish: 'poder y energía',
+  },
+  {
+    norwegian: 'å være frekk',
+    english: 'to be cheeky',
+    spanish: 'ser descarado',
+  },
+  {
+    norwegian: 'du er gjerrig',
+    english: 'you are stingy',
+    spanish: 'eres tacaño',
+  },
+  {
+    norwegian: 'sinte sanger',
+    english: 'angry songs',
+    spanish: 'canciones enojadas',
+  },
+  {
+    norwegian: 'er røffe saker',
+    english: 'are rough things',
+    spanish: 'son cosas difíciles',
+  },
+  {
+    norwegian: 'streng',
+    english: 'strict',
+    spanish: 'estricto',
+  },
+  {
+    norwegian: 'mykere tone',
+    english: 'softer tone',
+    spanish: 'tono más suave',
+  },
+  {
+    norwegian: 'kan lene seg inntil',
+    english: 'can lean against',
+    spanish: 'puede apoyarse contra',
+  },
+  {
+    norwegian: 'trøste',
+    english: 'comfort',
+    spanish: 'consolar',
+  },
+  {
+    norwegian: 'helt strålende',
+    english: 'absolutely brilliant',
+    spanish: 'absolutamente brillante',
+  },
 ];
