@@ -1161,4 +1161,114 @@ export const words: Question[] = [
     english: 'absolutely brilliant',
     spanish: 'absolutamente brillante',
   },
+  {
+    norwegian: 'det er de pliktoppfyllende',
+    english: 'it is the dutiful',
+    spanish: 'son los cumplidores',
+  },
+  {
+    norwegian: 'skifta',
+    english: 'changed',
+    spanish: 'cambiado',
+  },
+  {
+    norwegian: 'hvilket årskull',
+    english: 'which year group',
+    spanish: 'qué grupo de año',
+  },
+  {
+    norwegian: 'forige pass',
+    english: 'previous passport',
+    spanish: 'pasaporte anterior',
+  },
+  {
+    norwegian: 'bak skranken',
+    english: 'behind the counter',
+    spanish: 'detrás del mostrador',
+  },
+  {
+    norwegian: 'tygde tyggis',
+    english: 'chewed gum',
+    spanish: 'chicle masticado',
+  },
+  {
+    norwegian: 'har du krympa',
+    english: 'have you shrunk',
+    spanish: '¿te has encogido?',
+  },
+  {
+    norwegian: 'overdrevent',
+    english: 'exaggerated',
+    spanish: 'exagerado',
+  },
+  {
+    norwegian: 'skolegården',
+    english: 'the schoolyard',
+    spanish: 'el patio de la escuela',
+  },
+  {
+    norwegian: 'ungdommens kulturmønstring',
+    english: "the youth's cultural showcase",
+    spanish: 'la exhibición cultural de la juventud',
+  },
+  {
+    norwegian: 'det er provoserende',
+    english: 'it is provocative',
+    spanish: 'es provocativo',
+  },
+  {
+    norwegian: 'fisken karpe',
+    english: 'the fish carp',
+    spanish: 'la carpa de pescado',
+  },
+  {
+    norwegian: 'det innser jeg nå',
+    english: 'i realize that now',
+    spanish: 'me doy cuenta de eso ahora',
+  },
+  {
+    norwegian: 'rundt mye bråk',
+    english: 'around a lot of noise',
+    spanish: 'alrededor de mucho ruido',
+  },
+  {
+    norwegian: 'er veldig lite sossete',
+    english: 'is very posh',
+    spanish: 'es muy elegante',
+  },
+  {
+    norwegian: 'skulle bli optiker',
+    english: 'was going to be an optician',
+    spanish: 'iba a ser óptico',
+  },
+  {
+    norwegian: 'de hadde skaffet meg',
+    english: 'they had gotten me',
+    spanish: 'me habían conseguido',
+  },
+  {
+    norwegian: 'syntes jeg var tøff',
+    english: 'thought i was tough',
+    spanish: 'pensó que era duro',
+  },
+  {
+    norwegian: 'jeg var skikkelig på trynet',
+    english: 'i was really on my face',
+    spanish: 'estaba realmente en mi cara',
+  },
+  {
+    norwegian: 'inderes barn',
+    english: 'inner children',
+    spanish: 'niños interiores',
+  },
+  {
+    norwegian: 'er leger og farmasøyter',
+    english: 'are doctors and pharmacists',
+    spanish: 'son médicos y farmacéuticos',
+  },
+  {
+    norwegian: 'i forhold til meg',
+    english: 'in relation to me',
+    spanish: 'en relación conmigo',
+  },
 ];
