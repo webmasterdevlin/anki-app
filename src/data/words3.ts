@@ -1271,4 +1271,304 @@ export const words: Question[] = [
     english: 'in relation to me',
     spanish: 'en relación conmigo',
   },
+  {
+    norwegian: 'å pynte seg',
+    english: 'to dress up',
+    spanish: 'vestirse elegante',
+  },
+  {
+    norwegian: 'litt jålete',
+    english: 'a bit pretentious',
+    spanish: 'un poco pretencioso',
+  },
+  {
+    norwegian: 'stæsje deg litt opp',
+    english: 'dress you up a bit',
+    spanish: 'vestirte un poco',
+  },
+  {
+    norwegian: 'fine øredobber',
+    english: 'nice earrings',
+    spanish: 'bonitos pendientes',
+  },
+  {
+    norwegian: 'gliterende genser',
+    english: 'sparkling sweater',
+    spanish: 'suéter brillante',
+  },
+  {
+    norwegian: 'omgivelsene',
+    english: 'the surroundings',
+    spanish: 'los alrededores',
+  },
+  {
+    norwegian: 'en fin egenskap',
+    english: 'a nice trait',
+    spanish: 'un rasgo agradable',
+  },
+  {
+    norwegian: 'å gidde å fikse seg litt',
+    english: 'to bother to fix yourself up a bit',
+    spanish: 'molestarse en arreglarse un poco',
+  },
+  {
+    norwegian: 'pikeskjørte',
+    english: 'pleated skirt',
+    spanish: 'falda plisada',
+  },
+  {
+    norwegian: 'rundt blokka',
+    english: 'around the block',
+    spanish: 'alrededor de la cuadra',
+  },
+  {
+    norwegian: 'vestkantuniformen',
+    english: 'the west side uniform',
+    spanish: 'el uniforme del lado oeste',
+  },
+  {
+    norwegian: 'jeg vrengte meg',
+    english: 'i wrenched myself',
+    spanish: 'me retorcí',
+  },
+  {
+    norwegian: 'i skittentøyskurven',
+    english: 'in the laundry basket',
+    spanish: 'en la cesta de la ropa sucia',
+  },
+  {
+    norwegian: 'bakpå skjorta',
+    english: 'on the back of the shirt',
+    spanish: 'en la parte trasera de la camisa',
+  },
+  {
+    norwegian: 'sydd den på',
+    english: 'sewn it on',
+    spanish: 'cosido en',
+  },
+  {
+    norwegian: 'så vanskeligheter med',
+    english: 'had difficulties with',
+    spanish: 'tuvo dificultades con',
+  },
+  {
+    norwegian: 'annerledeshet',
+    english: 'otherness',
+    spanish: 'otredad',
+  },
+  {
+    norwegian: 'et gjennombrudd',
+    english: 'a breakthrough',
+    spanish: 'un avance',
+  },
+  {
+    norwegian: 'hyttete måten',
+    english: 'cabin-like manner',
+    spanish: 'manera de cabaña',
+  },
+  {
+    norwegian: 'det løsna mye for meg',
+    english: 'it loosened up a lot for me',
+    spanish: 'se aflojó mucho para mí',
+  },
+  {
+    norwegian: 'vi skulle skrive låter',
+    english: 'we were going to write songs',
+    spanish: 'íbamos a escribir canciones',
+  },
+  {
+    norwegian: 'jeg er utlending',
+    english: 'i am a foreigner',
+    spanish: 'soy un extranjero',
+  },
+  {
+    norwegian: 'jeg vil lære deg',
+    english: 'i want to teach you',
+    spanish: 'quiero enseñarte',
+  },
+  {
+    norwegian: 'å påvirke fellesskapet',
+    english: 'to influence the community',
+    spanish: 'influir en la comunidad',
+  },
+  {
+    norwegian: 'i fastelavnsboller',
+    english: 'in fastelavn buns',
+    spanish: 'en bollos de fastelavn',
+  },
+  {
+    norwegian: 'hvordan taklet du rasismen',
+    english: 'how did you handle the racism',
+    spanish: '¿cómo manejaste el racismo?',
+  },
+  {
+    norwegian: 'en apelyd',
+    english: 'a monkey sound',
+    spanish: 'un sonido de mono',
+  },
+  {
+    norwegian: 'å børste det av seg',
+    english: 'to brush it off',
+    spanish: 'despejarlo',
+  },
+  {
+    norwegian: 'som er litt rørende',
+    english: 'which is a bit touching',
+    spanish: 'lo cual es un poco conmovedor',
+  },
+  {
+    norwegian: 'drakk du vann fra krana',
+    english: 'did you drink water from the tap',
+    spanish: '¿bebiste agua del grifo?',
+  },
+  {
+    norwegian: 'det tør jeg ikke',
+    english: "i don't dare",
+    spanish: 'no me atrevo',
+  },
+  {
+    norwegian: 'bra låtvalg',
+    english: 'good song choice',
+    spanish: 'buena elección de canción',
+  },
+  {
+    norwegian: 'jeg er storfornøyd',
+    english: 'i am very satisfied',
+    spanish: 'estoy muy satisfecho',
+  },
+  {
+    norwegian: 'i en annen verdensdel',
+    english: 'in another continent',
+    spanish: 'en otro continente',
+  },
+  {
+    norwegian: 'et kult refreng',
+    english: 'a cool chorus',
+    spanish: 'un coro genial',
+  },
+  {
+    norwegian: 'veldig digg posisjon',
+    english: 'very nice position',
+    spanish: 'posición muy agradable',
+  },
+  {
+    norwegian: 'sett av tid til',
+    english: 'set aside time for',
+    spanish: 'reservar tiempo para',
+  },
+  {
+    norwegian: 'nevø og niese',
+    english: 'nephew and niece',
+    spanish: 'sobrino y sobrina',
+  },
+  {
+    norwegian: 'en stor begivenhet',
+    english: 'a big event',
+    spanish: 'un gran evento',
+  },
+  {
+    norwegian: 'å brette klær',
+    english: 'to fold clothes',
+    spanish: 'doblar la ropa',
+  },
+  {
+    norwegian: 'rett i dass',
+    english: 'straight to the toilet',
+    spanish: 'directo al inodoro',
+  },
+  {
+    norwegian: 'jeg tar fram et plagg',
+    english: 'i take out a garment',
+    spanish: 'saco una prenda',
+  },
+  {
+    norwegian: 'er en rotekopp',
+    english: 'is a messy person',
+    spanish: 'es una persona desordenada',
+  },
+  {
+    norwegian: 'er blitt fortalt',
+    english: 'has been told',
+    spanish: 'ha sido dicho',
+  },
+  {
+    norwegian: 'har ført til at jeg sitter her nå',
+    english: 'has led to me sitting here now',
+    spanish: 'ha llevado a que me siente aquí ahora',
+  },
+  {
+    norwegian: 'noen avgjørelser',
+    english: 'some decisions',
+    spanish: 'algunas decisiones',
+  },
+  {
+    norwegian: 'noe sammenhengende',
+    english: 'something coherent',
+    spanish: 'algo coherente',
+  },
+  {
+    norwegian: 'kjærlighetsfronten',
+    english: 'the love front',
+    spanish: 'el frente del amor',
+  },
+  {
+    norwegian: 'gir ut låter',
+    english: 'releases songs',
+    spanish: 'lanza canciones',
+  },
+  {
+    norwegian: 'ikke er så sunt',
+    english: 'is not so healthy',
+    spanish: 'no es tan saludable',
+  },
+  {
+    norwegian: 'å bli forstått',
+    english: 'to be understood',
+    spanish: 'ser entendido',
+  },
+  {
+    norwegian: 'at noen godtar deg',
+    english: 'that someone accepts you',
+    spanish: 'que alguien te acepte',
+  },
+  {
+    norwegian: 'en slags trygghet',
+    english: 'a kind of security',
+    spanish: 'una especie de seguridad',
+  },
+  {
+    norwegian: 'kan få trøst',
+    english: 'can get comfort',
+    spanish: 'puede obtener consuelo',
+  },
+  {
+    norwegian: 'venter på at skjebnen skal føre den rette til meg',
+    english: 'waiting for fate to bring the right one to me',
+    spanish: 'esperando que el destino me traiga al indicado',
+  },
+  {
+    norwegian: 'så kommer de foran karrieren',
+    english: 'then they come before the career',
+    spanish: 'luego vienen antes de la carrera',
+  },
+  {
+    norwegian: 'innebærer å trille rundt på en koffert',
+    english: 'involves rolling around a suitcase',
+    spanish: 'implica rodar una maleta',
+  },
+  {
+    norwegian: 'den sangen handler om',
+    english: 'that song is about',
+    spanish: 'esa canción trata de',
+  },
+  {
+    norwegian: 'er strømlinjeforma',
+    english: 'is streamlined',
+    spanish: 'está optimizado',
+  },
+  {
+    norwegian: 'nye sedler',
+    english: 'new bills',
+    spanish: 'billetes nuevos',
+  },
 ];
