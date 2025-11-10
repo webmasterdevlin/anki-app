@@ -1667,4 +1667,34 @@ export const words: Question[] = [
     english: 'partially',
     spanish: 'parcialmente',
   },
+  {
+    norwegian: 'frykten du har',
+    english: 'the fear you have',
+    spanish: 'el miedo que tienes',
+  },
+  {
+    norwegian: 'dess ufarligere blir det',
+    english: 'the less dangerous it becomes',
+    spanish: 'cuanto menos peligroso se vuelve',
+  },
+  {
+    norwegian: 'har du en nys',
+    english: 'do you have a sneeze',
+    spanish: '¿tienes un estornudo?',
+  },
+  {
+    norwegian: 'kjole og skjørt',
+    english: 'dress and skirt',
+    spanish: 'vestido y falda',
+  },
+  {
+    norwegian: 'hevede øynebryn',
+    english: 'raised eyebrows',
+    spanish: 'cejas levantadas',
+  },
+  {
+    norwegian: 'lakserosa',
+    english: 'salmon pink',
+    spanish: 'rosa salmón',
+  },
 ];
