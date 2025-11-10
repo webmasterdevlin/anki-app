@@ -1,3 +1,4 @@
+import { normalize } from 'path';
 import type { Question } from '../models/types.ts';
 
 export const words: Question[] = [
@@ -1570,5 +1571,100 @@ export const words: Question[] = [
     norwegian: 'nye sedler',
     english: 'new bills',
     spanish: 'billetes nuevos',
+  },
+  {
+    norwegian: 'oppmerksomhet rundt deg',
+    english: 'attention around you',
+    spanish: 'atención a tu alrededor',
+  },
+  {
+    norwegian: 'folk og røvere',
+    english: 'people and robbers',
+    spanish: 'gente y ladrones',
+  },
+  {
+    norwegian: 'de stjal blant annet',
+    english: 'they stole among other things',
+    spanish: 'robaron entre otras cosas',
+  },
+  {
+    norwegian: 'skinke og bakervarer',
+    english: 'ham and baked goods',
+    spanish: 'jamón y productos horneados',
+  },
+  {
+    norwegian: 'å havne bak murene',
+    english: 'to end up behind bars',
+    spanish: 'terminar entre rejas',
+  },
+  {
+    norwegian: 'så røk førerkortet',
+    english: 'then the driving license broke',
+    spanish: 'entonces se rompió la licencia de conducir',
+  },
+  {
+    norwegian: 'som en prest etterpå',
+    english: 'like a priest afterwards',
+    spanish: 'como un sacerdote después',
+  },
+  {
+    norwegian: 'forandring fryder',
+    english: 'change is delightful',
+    spanish: 'el cambio es encantador',
+  },
+  {
+    norwegian: 'stort ratt',
+    english: 'big steering wheel',
+    spanish: 'volante grande',
+  },
+  {
+    norwegian: 'jeg arvet et maleri',
+    english: 'i inherited a painting',
+    spanish: 'heredé una pintura',
+  },
+  {
+    norwegian: 'overfører aksjene',
+    english: 'transfers the shares',
+    spanish: 'transfiere las acciones',
+  },
+  {
+    norwegian: 'gjøre offentlig',
+    english: 'make public',
+    spanish: 'hacer público',
+  },
+  {
+    norwegian: 'er ubehagelig',
+    english: 'is unpleasant',
+    spanish: 'es desagradable',
+  },
+  {
+    norwegian: 'jeg har grua meg til',
+    english: 'i have dreaded',
+    spanish: 'he temido',
+  },
+  {
+    norwegian: 'har vært i mediene',
+    english: 'has been in the media',
+    spanish: 'ha estado en los medios',
+  },
+  {
+    norwegian: 'å lykkes i modellbransjen',
+    english: 'to succeed in the modeling industry',
+    spanish: 'tener éxito en la industria del modelaje',
+  },
+  {
+    norwegian: 'kan late som man er en annen person',
+    english: 'can pretend to be another person',
+    spanish: 'puede pretender ser otra persona',
+  },
+  {
+    norwegian: 'eksponeringsterapi',
+    english: 'exposure therapy',
+    spanish: 'terapia de exposición',
+  },
+  {
+    norwegian: 'delvis',
+    english: 'partially',
+    spanish: 'parcialmente',
   },
 ];
