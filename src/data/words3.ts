@@ -1697,4 +1697,204 @@ export const words: Question[] = [
     english: 'salmon pink',
     spanish: 'rosa salmón',
   },
+  {
+    norwegian: 'du hadde turt',
+    english: 'you had dared',
+    spanish: 'te habías atrevido',
+  },
+  {
+    norwegian: 'ikke så langt unna',
+    english: 'not so far away',
+    spanish: 'no tan lejos',
+  },
+  {
+    norwegian: 'ofra veldig mye',
+    english: 'sacrificed a lot',
+    spanish: 'sacrificado mucho',
+  },
+  {
+    norwegian: 'nesten annenhver helg',
+    english: 'almost every other weekend',
+    spanish: 'casi todos los fines de semana',
+  },
+  {
+    norwegian: 'oppfylt',
+    english: 'fulfilled',
+    spanish: 'cumplido',
+  },
+  {
+    norwegian: 'få fullført',
+    english: 'get completed',
+    spanish: 'completar',
+  },
+  {
+    norwegian: 'bodde jeg på rektors kontor',
+    english: 'i lived in the principal’s office',
+    spanish: 'vivía en la oficina del director',
+  },
+  {
+    norwegian: 'på lakseoppdrett',
+    english: 'in salmon farming',
+    spanish: 'en la cría de salmón',
+  },
+  {
+    norwegian: 'sjøskapninger',
+    english: 'sea creatures',
+    spanish: 'criaturas marinas',
+  },
+  {
+    norwegian: 'i merdene på fjorden',
+    english: 'in the pens on the fjord',
+    spanish: 'en los corrales del fiordo',
+  },
+  {
+    norwegian: 'er omtrent likt',
+    english: 'is about the same',
+    spanish: 'es más o menos lo mismo',
+  },
+  {
+    norwegian: 'den lakselusen kan jo spre seg',
+    english: 'the salmon louse can spread',
+    spanish: 'el piojo de mar puede extenderse',
+  },
+  {
+    norwegian: 'det kan få sår',
+    english: 'it can get sores',
+    spanish: 'puede tener llagas',
+  },
+  {
+    norwegian: 'blir svakere',
+    english: 'becomes weaker',
+    spanish: 'se vuelve más débil',
+  },
+  {
+    norwegian: 'på lakseoppdrett',
+    english: 'in salmon farming',
+    spanish: 'en la cría de salmón',
+  },
+  {
+    norwegian: 'i stor skala',
+    english: 'on a large scale',
+    spanish: 'a gran escala',
+  },
+  {
+    norwegian: 'grubler på ting',
+    english: 'pondering things',
+    spanish: 'reflexionando sobre las cosas',
+  },
+  {
+    norwegian: 'grubling fører til',
+    english: 'pondering leads to',
+    spanish: 'la reflexión conduce a',
+  },
+  {
+    norwegian: 'noe særlig godt',
+    english: 'something particularly good',
+    spanish: 'algo particularmente bueno',
+  },
+  {
+    norwegian: 'ikke er reelt',
+    english: 'is not real',
+    spanish: 'no es real',
+  },
+  {
+    norwegian: 'fremstår for andre',
+    english: 'appears to others',
+    spanish: 'aparece a los demás',
+  },
+  {
+    norwegian: 'som har vært verre',
+    english: 'that has been worse',
+    spanish: 'que ha sido peor',
+  },
+  {
+    norwegian: 'har du noen teknikker',
+    english: 'do you have any techniques',
+    spanish: '¿tienes alguna técnica?',
+  },
+  {
+    norwegian: 'å gjøre det verre',
+    english: 'to make it worse',
+    spanish: 'empeorarlo',
+  },
+  {
+    norwegian: 'å gruble for mye',
+    english: 'to ponder too much',
+    spanish: 'reflexionar demasiado',
+  },
+  {
+    norwegian: 'har du trent markløft',
+    english: 'have you trained deadlift',
+    spanish: '¿has entrenado peso muerto?',
+  },
+  {
+    norwegian: 'en treningsøkt',
+    english: 'a workout session',
+    spanish: 'una sesión de entrenamiento',
+  },
+  {
+    norwegian: 'på et utested',
+    english: 'at a nightclub',
+    spanish: 'en un club nocturno',
+  },
+  {
+    norwegian: 'har forberedt meg',
+    english: 'have prepared myself',
+    spanish: 'me he preparado',
+  },
+  {
+    norwegian: 'en hyllest',
+    english: 'a tribute',
+    spanish: 'un tributo',
+  },
+  {
+    norwegian: 'jeg ble rørt',
+    english: 'i was touched',
+    spanish: 'me conmovió',
+  },
+  {
+    norwegian: 'et par hakk under',
+    english: 'a couple of notches below',
+    spanish: 'un par de niveles por debajo',
+  },
+  {
+    norwegian: 'på kassegitar',
+    english: 'on acoustic guitar',
+    spanish: 'en guitarra acústica',
+  },
+  {
+    norwegian: 'oppfinnelser',
+    english: 'inventions',
+    spanish: 'inventos',
+  },
+  {
+    norwegian: 'er veldig høylytt',
+    english: 'is very loud',
+    spanish: 'es muy ruidoso',
+  },
+  {
+    norwegian: 'kan man rømme fra seg',
+    english: 'can one escape from oneself',
+    spanish: '¿puede uno escapar de sí mismo?',
+  },
+  {
+    norwegian: 'hold deg positiv nå',
+    english: 'stay positive now',
+    spanish: 'mantente positivo ahora',
+  },
+  {
+    norwegian: 'jeg rykter om deg',
+    english: 'i rumor about you',
+    spanish: 'yo rumor sobre ti',
+  },
+  {
+    norwegian: 'en dansegalla',
+    english: 'a dance gala',
+    spanish: 'una gala de baile',
+  },
+  {
+    norwegian: 'beste poseringa',
+    english: 'best pose',
+    spanish: 'mejor pose',
+  },
 ];
