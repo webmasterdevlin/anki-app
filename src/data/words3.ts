@@ -1897,4 +1897,124 @@ export const words: Question[] = [
     english: 'best pose',
     spanish: 'mejor pose',
   },
+  {
+    norwegian: 'en som er sjenert',
+    english: 'one who is shy',
+    spanish: 'uno que es tímido',
+  },
+  {
+    norwegian: 'streng på at',
+    english: 'strict that',
+    spanish: 'estricto que',
+  },
+  {
+    norwegian: 'jeg måtte vise leg sist',
+    english: 'i had to show id last',
+    spanish: 'tuve que mostrar identificación por última vez',
+  },
+  {
+    norwegian: 'hvordan dukka du opp her',
+    english: 'how did you show up here',
+    spanish: '¿cómo apareciste aquí?',
+  },
+  {
+    norwegian: 'et sketsjprogram',
+    english: 'a sketch show',
+    spanish: 'un programa de bocetos',
+  },
+  {
+    norwegian: 'du naila det',
+    english: 'you nailed it',
+    spanish: 'lo clavaste',
+  },
+  {
+    norwegian: 'jeg er konfliktsky',
+    english: 'i am conflict-averse',
+    spanish: 'soy reacio al conflicto',
+  },
+  {
+    norwegian: 'jeg har schmækt',
+    english: 'i have charm',
+    spanish: 'tengo encanto',
+  },
+  {
+    norwegian: 'på meg løstennene',
+    english: 'on me the dentures',
+    spanish: 'en mí las dentaduras postizas',
+  },
+  {
+    norwegian: 'har du sneket sammen',
+    english: 'have you sneaked together',
+    spanish: '¿te has colado juntos?',
+  },
+  {
+    norwegian: 'en fyr helt til Syden',
+    english: 'a guy all the way to the South',
+    spanish: 'un tipo hasta el sur',
+  },
+  {
+    norwegian: 'det er bare jug',
+    english: 'it is just lies',
+    spanish: 'son solo mentiras',
+  },
+  {
+    norwegian: 'ble ikke oss',
+    english: 'did not become us',
+    spanish: 'no nos convertimos en nosotros',
+  },
+  {
+    norwegian: 'har stalket sjefen min',
+    english: 'have stalked my boss',
+    spanish: 'he acosado a mi jefe',
+  },
+  {
+    norwegian: 'da gjemte jeg meg',
+    english: 'then i hid',
+    spanish: 'entonces me escondí',
+  },
+  {
+    norwegian: 'endte opp med å bli',
+    english: 'ended up becoming',
+    spanish: 'terminó convirtiéndose',
+  },
+  {
+    norwegian: 'så gæren at jeg fulgte etter',
+    english: 'so crazy that i followed',
+    spanish: 'tan loco que seguí',
+  },
+  {
+    norwegian: 'en etterforsker',
+    english: 'an investigator',
+    spanish: 'un investigador',
+  },
+  {
+    norwegian: 'outsmarter alle skurkene',
+    english: 'outsmarts all the villains',
+    spanish: 'supera a todos los villanos',
+  },
+  {
+    norwegian: 'du hadde leppa inne',
+    english: 'you had the lip in',
+    spanish: 'tenías el labio adentro',
+  },
+  {
+    norwegian: 'jeg har det på plass',
+    english: 'i have it in place',
+    spanish: 'lo tengo en su lugar',
+  },
+  {
+    norwegian: 'jeg er nøye på',
+    english: 'i am careful about',
+    spanish: 'soy cuidadoso con',
+  },
+  {
+    norwegian: 'påfører barna mina',
+    english: 'inflict on my children',
+    spanish: 'infligir a mis hijos',
+  },
+  {
+    norwegian: 'presis er for sent',
+    english: 'precisely is too late',
+    spanish: 'precisamente es demasiado tarde',
+  },
 ];
