@@ -2017,4 +2017,254 @@ export const words: Question[] = [
     english: 'precisely is too late',
     spanish: 'precisamente es demasiado tarde',
   },
+  {
+    norwegian: 'for tidlig til ting',
+    english: 'too early for things',
+    spanish: 'demasiado temprano para las cosas',
+  },
+  {
+    norwegian: 'so ro lillemann',
+    english: 'so calm little man',
+    spanish: 'así que calma pequeño hombre',
+  },
+  {
+    norwegian: 'jeg løstenner',
+    english: 'i dentures',
+    spanish: 'yo dentaduras postizas',
+  },
+  {
+    norwegian: 'vært innblandet i',
+    english: 'been involved in',
+    spanish: 'estado involucrado en',
+  },
+  {
+    norwegian: 'en barnevernspedagog',
+    english: 'a child welfare educator',
+    spanish: 'un educador de bienestar infantil',
+  },
+  {
+    norwegian: 'barnevernet',
+    english: 'child welfare services',
+    spanish: 'servicios de bienestar infantil',
+  },
+  {
+    norwegian: 'i avisene',
+    english: 'in the newspapers',
+    spanish: 'en los periódicos',
+  },
+  {
+    norwegian: 'å kjefte litt',
+    english: 'to scold a little',
+    spanish: 'regañar un poco',
+  },
+  {
+    norwegian: 'årets sitat',
+    english: 'quote of the year',
+    spanish: 'cita del año',
+  },
+  {
+    norwegian: 'skække barn',
+    english: 'naughty child',
+    spanish: 'niño travieso',
+  },
+  {
+    norwegian: 'i en grøft og er fulle',
+    english: 'in a ditch and are drunk',
+    spanish: 'en una zanja y están borrachos',
+  },
+  {
+    norwegian: 'i en grøftekant',
+    english: 'in a ditch',
+    spanish: 'en una zanja',
+  },
+  {
+    norwegian: 'yndlingssangen din',
+    english: 'your favorite song',
+    spanish: 'tu canción favorita',
+  },
+  {
+    norwegian: 'ummidelbart',
+    english: 'immediately',
+    spanish: 'inmediatamente',
+  },
+  {
+    norwegian: 'midlertidig',
+    english: 'temporarily',
+    spanish: 'temporalmente',
+  },
+  {
+    norwegian: 'tar imot deg',
+    english: 'welcomes you',
+    spanish: 'te da la bienvenida',
+  },
+  {
+    norwegian: 'første blikk',
+    english: 'first glance',
+    spanish: 'primer vistazo',
+  },
+  {
+    norwegian: 'blekk',
+    english: 'ink',
+    spanish: 'tinta',
+  },
+  {
+    norwegian: 'jeg stormet bort',
+    english: 'i stormed away',
+    spanish: 'me alejé furioso',
+  },
+  {
+    norwegian: 'sjekketriks',
+    english: 'pickup tricks',
+    spanish: 'trucos de recogida',
+  },
+  {
+    norwegian: 'å tyne',
+    english: 'to exploit',
+    spanish: 'explotar',
+  },
+  {
+    norwegian: 'i den rekkefølgen',
+    english: 'in that order',
+    spanish: 'en ese orden',
+  },
+  {
+    norwegian: 'jeg lagde den kvelden',
+    english: 'i made that evening',
+    spanish: 'hice esa noche',
+  },
+  {
+    norwegian: 'de kyssa ikke',
+    english: "they didn't kiss",
+    spanish: 'no se besaron',
+  },
+  {
+    norwegian: 'lakmustesten',
+    english: 'the litmus test',
+    spanish: 'la prueba de fuego',
+  },
+  {
+    norwegian: 'blir fort utålmodig',
+    english: 'gets impatient quickly',
+    spanish: 'se impacienta rápidamente',
+  },
+  {
+    norwegian: 'at skjebnen',
+    english: 'that fate',
+    spanish: 'que el destino',
+  },
+  {
+    norwegian: 'er gjenkjennelig i hvert fall',
+    english: 'is recognizable at least',
+    spanish: 'es reconocible al menos',
+  },
+  {
+    norwegian: 'er utålmodige typer',
+    english: 'are impatient types',
+    spanish: 'son tipos impacientes',
+  },
+  {
+    norwegian: 'stått på scenen',
+    english: 'stood on stage',
+    spanish: 'estado en el escenario',
+  },
+  {
+    norwegian: 'har innsikt',
+    english: 'has insight',
+    spanish: 'tiene visión',
+  },
+  {
+    norwegian: 'til smugler',
+    english: 'to smuggle',
+    spanish: 'para contrabandear',
+  },
+  {
+    norwegian: 'såpass, ja',
+    english: 'that much, yes',
+    spanish: 'tanto, sí',
+  },
+  {
+    norwegian: 'vurderte du å kjøpe opp',
+    english: 'did you consider buying up',
+    spanish: '¿consideraste comprar?',
+  },
+  {
+    norwegian: 'han roper til meg',
+    english: 'he shouts to me',
+    spanish: 'él me grita',
+  },
+  {
+    norwegian: 'forgudet',
+    english: 'idolized',
+    spanish: 'idolatrado',
+  },
+  {
+    norwegian: 'hun låste døra',
+    english: 'she locked the door',
+    spanish: 'ella cerró la puerta con llave',
+  },
+  {
+    norwegian: 'sperret meg inne på do',
+    english: 'locked me in the bathroom',
+    spanish: 'me encerró en el baño',
+  },
+  {
+    norwegian: 'en havnaksjon',
+    english: 'a harbor action',
+    spanish: 'una acción portuaria',
+  },
+  {
+    norwegian: 'gjengvold',
+    english: 'retaliatory violence',
+    spanish: 'violencia retaliatoria',
+  },
+  {
+    norwegian: 'en rettferdig hevn',
+    english: 'a just revenge',
+    spanish: 'una venganza justa',
+  },
+  {
+    norwegian: 'er vitne til livet ditt',
+    english: 'is witness to your life',
+    spanish: 'es testigo de tu vida',
+  },
+  {
+    norwegian: 'hele veien',
+    english: 'all the way',
+    spanish: 'todo el camino',
+  },
+  {
+    norwegian: 'forhåpentligvis om lenge',
+    english: 'hopefully soon',
+    spanish: 'con suerte pronto',
+  },
+  {
+    norwegian: 'å kline med på jobb',
+    english: 'to make out at work',
+    spanish: 'hacer el amor en el trabajo',
+  },
+  {
+    norwegian: 'veldig raus',
+    english: 'very generous',
+    spanish: 'muy generoso',
+  },
+  {
+    norwegian: 'søsken',
+    english: 'siblings',
+    spanish: 'hermanos',
+  },
+  {
+    norwegian: 'på en skala fra en til ti',
+    english: 'on a scale from one to ten',
+    spanish: 'en una escala del uno al diez',
+  },
+  {
+    norwegian: 'lydteknikerne',
+    english: 'the sound technicians',
+    spanish: 'los técnicos de sonido',
+  },
+  {
+    norwegian: 'fotografene',
+    english: 'the photographers',
+    spanish: 'los fotógrafos',
+  },
 ];
