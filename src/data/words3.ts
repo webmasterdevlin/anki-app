@@ -2267,4 +2267,294 @@ export const words: Question[] = [
     english: 'the photographers',
     spanish: 'los fotógrafos',
   },
+  {
+    norwegian: 'mestringsfølelse',
+    english: 'sense of mastery',
+    spanish: 'sensación de dominio',
+  },
+  {
+    norwegian: 'rullestoler',
+    english: 'wheelchairs',
+    spanish: 'sillas de ruedas',
+  },
+  {
+    norwegian: 'å opprettholde',
+    english: 'to maintain',
+    spanish: 'mantener',
+  },
+  {
+    norwegian: 'en progredierende sykdom',
+    english: 'a progressive disease',
+    spanish: 'una enfermedad progresiva',
+  },
+  {
+    norwegian: 'nedover',
+    english: 'downward',
+    spanish: 'hacia abajo',
+  },
+  {
+    norwegian: 'overst',
+    english: 'at the top',
+    spanish: 'en la parte superior',
+  },
+  {
+    norwegian: 'nederst',
+    english: 'at the bottom',
+    spanish: 'en la parte inferior',
+  },
+  {
+    norwegian: 'en syk klang',
+    english: 'a sick sound',
+    spanish: 'un sonido enfermo',
+  },
+  {
+    norwegian: 'å besvime',
+    english: 'to faint',
+    spanish: 'desmayarse',
+  },
+  {
+    norwegian: 'er ganske kraftfullt',
+    english: 'is quite powerful',
+    spanish: 'es bastante poderoso',
+  },
+  {
+    norwegian: 'myndigheter',
+    english: 'authorities',
+    spanish: 'autoridades',
+  },
+  {
+    norwegian: 'vært ordentlig forbanna',
+    english: 'been really pissed off',
+    spanish: 'estado realmente enojado',
+  },
+  {
+    norwegian: 'skal slippe å havne i rullestol',
+    english: 'will avoid ending up in a wheelchair',
+    spanish: 'evitará terminar en una silla de ruedas',
+  },
+  {
+    norwegian: 'er litt nummen',
+    english: 'is a bit numb',
+    spanish: 'está un poco entumecido',
+  },
+  {
+    norwegian: 'sliter med å skure',
+    english: 'struggles to scrub',
+    spanish: 'lucha por fregar',
+  },
+  {
+    norwegian: 'på en kork',
+    english: 'on a cork',
+    spanish: 'en un corcho',
+  },
+  {
+    norwegian: 'bak knærne kommer melkesyren',
+    english: 'behind the knees comes the lactic acid',
+    spanish: 'detrás de las rodillas viene el ácido láctico',
+  },
+  {
+    norwegian: 'du nødt til å appellere til',
+    english: 'you need to appeal to',
+    spanish: 'necesitas apelar a',
+  },
+  {
+    norwegian: 'på groruddalsvis',
+    english: 'in Groruddalen style',
+    spanish: 'al estilo de Groruddalen',
+  },
+  {
+    norwegian: 'et tilfeldig utvalg',
+    english: 'a random selection',
+    spanish: 'una selección aleatoria',
+  },
+  {
+    norwegian: 'som stiller opp',
+    english: 'who shows up',
+    spanish: 'que aparece',
+  },
+  {
+    norwegian: 'er følelsen jeg får',
+    english: 'is the feeling i get',
+    spanish: 'es la sensación que tengo',
+  },
+  {
+    norwegian: 'innførte beslutningsforumet',
+    english: 'introduced the decision-making forum',
+    spanish: 'introdujo el foro de toma de decisiones',
+  },
+  {
+    norwegian: 'kynikerne',
+    english: 'the cynics',
+    spanish: 'los cínicos',
+  },
+  {
+    norwegian: 'har tatt fullstendig overhånd',
+    english: 'has completely gotten out of hand',
+    spanish: 'se ha salido completamente de control',
+  },
+  {
+    norwegian: 'anstendigheten',
+    english: 'decency',
+    spanish: 'decencia',
+  },
+  {
+    norwegian: 'at sånne harde verdier',
+    english: 'that such hard values',
+    spanish: 'que tales valores duros',
+  },
+  {
+    norwegian: 'dolker syke folk i ryggen',
+    english: 'stab sick people in the back',
+    spanish: 'apuñalar a los enfermos por la espalda',
+  },
+  {
+    norwegian: 'hva er prosedyren for',
+    english: 'what is the procedure for',
+    spanish: 'cuál es el procedimiento para',
+  },
+  {
+    norwegian: 'mange aktører inne',
+    english: 'many actors involved',
+    spanish: 'muchos actores involucrados',
+  },
+  {
+    norwegian: 'siste leddet',
+    english: 'the last link',
+    spanish: 'el último eslabón',
+  },
+  {
+    norwegian: 'jeg takker egentlig',
+    english: 'i actually thank',
+    spanish: 'realmente agradezco',
+  },
+  {
+    norwegian: 'er så sårbare',
+    english: 'are so vulnerable',
+    spanish: 'son tan vulnerables',
+  },
+  {
+    norwegian: 'vi antar at det fins',
+    english: 'we assume that it exists',
+    spanish: 'suponemos que existe',
+  },
+  {
+    norwegian: 'som hittil har fått',
+    english: 'which so far has received',
+    spanish: 'que hasta ahora ha recibido',
+  },
+  {
+    norwegian: 'en tiltro',
+    english: 'a confidence',
+    spanish: 'una confianza',
+  },
+  {
+    norwegian: 'skrudd igjen',
+    english: 'screwed again',
+    spanish: 'atornillado de nuevo',
+  },
+  {
+    norwegian: 'kranene',
+    english: 'the taps',
+    spanish: 'los grifos',
+  },
+  {
+    norwegian: 'altså kunne ha virket',
+    english: 'thus could have worked',
+    spanish: 'así podría haber funcionado',
+  },
+  {
+    norwegian: 'at vedkommende',
+    english: 'that the person',
+    spanish: 'que la persona',
+  },
+  {
+    norwegian: 'blir vesentlig dårligere',
+    english: 'becomes significantly worse',
+    spanish: 'se vuelve significativamente peor',
+  },
+  {
+    norwegian: 'begrensningene',
+    english: 'the limitations',
+    spanish: 'las limitaciones',
+  },
+  {
+    norwegian: 'dette tilfellet ja',
+    english: 'this case yes',
+    spanish: 'este caso sí',
+  },
+  {
+    norwegian: 'en bit av dette',
+    english: 'a bit of this',
+    spanish: 'un poco de esto',
+  },
+  {
+    norwegian: 'utfra at prisen',
+    english: 'based on the price',
+    spanish: 'basado en el precio',
+  },
+  {
+    norwegian: 'en utfordring å håndtere',
+    english: 'a challenge to handle',
+    spanish: 'un desafío para manejar',
+  },
+  {
+    norwegian: 'fornuftig å gjøre',
+    english: 'sensible to do',
+    spanish: 'sensato hacer',
+  },
+  {
+    norwegian: 'et hjelpemiddel',
+    english: 'an aid',
+    spanish: 'una ayuda',
+  },
+  {
+    norwegian: 'sirkelbevegelser',
+    english: 'circular movements',
+    spanish: 'movimientos circulares',
+  },
+  {
+    norwegian: 'det går sikkert fortere',
+    english: 'it probably goes faster',
+    spanish: 'probablemente va más rápido',
+  },
+  {
+    norwegian: 'litt pøbelstreker',
+    english: 'a little mischief',
+    spanish: 'un poco de travesuras',
+  },
+  {
+    norwegian: 'lovfestingen av',
+    english: 'the legalization of',
+    spanish: 'la legalización de',
+  },
+  {
+    norwegian: 'et skritt i riktig retning',
+    english: 'a step in the right direction',
+    spanish: 'un paso en la dirección correcta',
+  },
+  {
+    norwegian: 'er utgått på dato',
+    english: 'is expired',
+    spanish: 'está caducado',
+  },
+  {
+    norwegian: 'nødt til å tenke nytt',
+    english: 'need to think anew',
+    spanish: 'necesito pensar de nuevo',
+  },
+  {
+    norwegian: 'blir ikke berørt',
+    english: 'is not affected',
+    spanish: 'no se ve afectado',
+  },
+  {
+    norwegian: 'enkeltindivider',
+    english: 'individuals',
+    spanish: 'individuos',
+  },
+  {
+    norwegian: 'ganske svært',
+    english: 'quite large',
+    spanish: 'bastante grande',
+  },
 ];
