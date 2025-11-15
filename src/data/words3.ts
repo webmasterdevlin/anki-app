@@ -2557,4 +2557,194 @@ export const words: Question[] = [
     english: 'quite large',
     spanish: 'bastante grande',
   },
+  {
+    norwegian: 'det er mitt telt',
+    english: 'it is my tent',
+    spanish: 'es mi tienda',
+  },
+  {
+    norwegian: 'min pute',
+    english: 'my pillow',
+    spanish: 'mi almohada',
+  },
+  {
+    norwegian: 'i fare',
+    english: 'in danger',
+    spanish: 'en peligro',
+  },
+  {
+    norwegian: 'vi mistet oppholdstillatelsen',
+    english: 'we lost the residence permit',
+    spanish: 'perdimos el permiso de residencia',
+  },
+  {
+    norwegian: 'alt avhenger av om',
+    english: 'everything depends on whether',
+    spanish: 'todo depende de si',
+  },
+  {
+    norwegian: 'jeg erklærer herved',
+    english: 'i hereby declare',
+    spanish: 'por la presente declaro',
+  },
+  {
+    norwegian: 'en haug med papirer',
+    english: 'a bunch of papers',
+    spanish: 'un montón de papeles',
+  },
+  {
+    norwegian: 'vært helt forferdelig',
+    english: 'been absolutely terrible',
+    spanish: 'ha sido absolutamente terrible',
+  }
+  {
+    norwegian: 'kan legges opp litt annerledes',
+    english: 'can be arranged a little differently',
+    spanish: 'se puede arreglar un poco diferente',
+  }
+  {
+    norwegian: 'har et uttalt mål',
+    english: 'has a stated goal',
+    spanish: 'tiene un objetivo declarado',
+  },
+  {
+    norwegian: 'å begrense antall innvandrere',
+    english: 'to limit the number of immigrants',
+    spanish: 'limitar el número de inmigrantes',
+  },
+  {
+    norwegian: 'noen uskyldige ofre her og der',
+    english: 'some innocent victims here and there',
+    spanish: 'algunas víctimas inocentes aquí y allá',
+  },
+  {
+    norwegian: 'ingen avkjøring',
+    english: 'no exit',
+    spanish: 'sin salida',
+  }
+  {
+    norwegian: 'sluppet unna',
+    english: 'gotten away',
+    spanish: 'salido',
+  },
+  {
+    norwegian: 'det er enden på visa',
+    english: 'that is the end of the story',
+    spanish: 'ese es el final de la historia',
+  },
+  {
+    norwegian: 'regelverk',
+    english: 'regulations',
+    spanish: 'regulaciones',
+  },
+  {
+    norwegian: 'helt hjerterått',
+    english: 'completely heartless',
+    spanish: 'completamente despiadado',
+  },
+  {
+    norwegian:'fornuftige argumenter',
+    english: 'sensible arguments',
+    spanish: 'argumentos sensatos',
+  },
+  {
+    norwegian: 'tingrettssaken',
+    english: 'the district court case',
+    spanish: 'el caso del tribunal de distrito',
+  },
+  {
+    norwegian: 'kronerulling',
+    english: 'fundraising',
+    spanish: 'recaudación de fondos',
+  },
+  {
+    norwegian: 'lengstværende',
+    english: 'longest-lasting',
+    spanish: 'más duradero',
+  },
+  {
+    norwegian: 'asylbarna',
+    english: 'the asylum children',
+    spanish: 'los niños de asilo',
+  },
+  {
+    norwegian: 'tilknytning til Norge',
+    english: 'connection to Norway',
+    spanish: 'conexión a Noruega',
+  },
+  {
+    norwegian: 'vi må krige for å puste',
+    english: 'we have to fight to breathe',
+    spanish: 'tenemos que luchar para respirar',
+  },
+  {
+    norwegian: 'til å knekkes',
+    english: 'to be broken',
+    spanish: 'para ser roto',
+  },
+  {
+    norwegian: 'madrassen',
+    english: 'the mattress',
+    spanish: 'el colchón',
+  },
+  {
+    norwegian: 'penger til livsopphold',
+    english: 'money for living expenses',
+    spanish: 'dinero para gastos de vida',
+  },
+  {
+    norwegian: 'på flukt',
+    english: 'on the run',
+    spanish: 'huyendo',
+  },
+  {
+    norwegian: 'visumet',
+    english: 'the visa',
+    spanish: 'la visa',
+  },
+  {
+    norwegian: 'hele tatt',
+    english: 'entirely',
+    spanish: 'enteramente',
+  },
+  {
+    norwegian: 'hun søkt visum',
+    english: 'she applied for a visa',
+    spanish: 'ella solicitó una visa',
+  },
+  {
+    norwegian: 'først avslag',
+    english: 'first rejection',
+    spanish: 'primera negación',
+  },
+  {
+    norwegian: 'ikke minst',
+    english: 'not least',
+    spanish: 'no menos',
+  },
+  {
+    norwegian: 'han fikk innvilget familiegjenforening',
+    english: 'he was granted family reunification',
+    spanish: 'le concedieron la reunificación familiar',
+  },
+  {
+    norwegian: 'merknader',
+    english: 'remarks',
+    spanish: 'observaciones',
+  },
+  {
+    norwegian: 'helt forderdelig',
+    english: 'absolutely terrible',
+    spanish: 'absolutamente terrible',
+  },
+  {
+    norwegian:'dere aner ikke hvor mange ganger',
+    english: 'you have no idea how many times',
+    spanish: 'no tienen idea de cuántas veces',
+  },
+  {
+    norwegian: 'gjennombrudd',
+    english: 'breakthrough',
+    spanish: 'avance',
+  }
 ];
