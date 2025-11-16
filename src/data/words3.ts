@@ -2596,12 +2596,12 @@ export const words: Question[] = [
     norwegian: 'vært helt forferdelig',
     english: 'been absolutely terrible',
     spanish: 'ha sido absolutamente terrible',
-  }
+  },
   {
     norwegian: 'kan legges opp litt annerledes',
     english: 'can be arranged a little differently',
     spanish: 'se puede arreglar un poco diferente',
-  }
+  },
   {
     norwegian: 'har et uttalt mål',
     english: 'has a stated goal',
@@ -2621,7 +2621,7 @@ export const words: Question[] = [
     norwegian: 'ingen avkjøring',
     english: 'no exit',
     spanish: 'sin salida',
-  }
+  },
   {
     norwegian: 'sluppet unna',
     english: 'gotten away',
@@ -2643,7 +2643,7 @@ export const words: Question[] = [
     spanish: 'completamente despiadado',
   },
   {
-    norwegian:'fornuftige argumenter',
+    norwegian: 'fornuftige argumenter',
     english: 'sensible arguments',
     spanish: 'argumentos sensatos',
   },
@@ -2738,7 +2738,7 @@ export const words: Question[] = [
     spanish: 'absolutamente terrible',
   },
   {
-    norwegian:'dere aner ikke hvor mange ganger',
+    norwegian: 'dere aner ikke hvor mange ganger',
     english: 'you have no idea how many times',
     spanish: 'no tienen idea de cuántas veces',
   },
@@ -2893,7 +2893,7 @@ export const words: Question[] = [
     spanish: 'estudiantes de derecho',
   },
   {
-    norwegian:'i begynnelsen av',
+    norwegian: 'i begynnelsen av',
     english: 'in the beginning of',
     spanish: 'al principio de',
   },
@@ -3111,5 +3111,5 @@ export const words: Question[] = [
     norwegian: 'har tatt skrittet',
     english: 'has taken the step',
     spanish: 'ha dado el paso',
-  }
+  },
 ];
