@@ -2746,5 +2746,130 @@ export const words: Question[] = [
     norwegian: 'gjennombrudd',
     english: 'breakthrough',
     spanish: 'avance',
+  },
+  {
+    norwegian: 'oppdaget',
+    english: 'discovered',
+    spanish: 'descubierto',
+  },
+  {
+    norwegian: 'den fjerneste anelse om',
+    english: 'the slightest hint of',
+    spanish: 'la más mínima pista de',
+  },
+  {
+    norwegian: 'opphav',
+    english: 'origin',
+    spanish: 'origen',
+  },
+  {
+    norwegian: 'å få oversikt over slekten',
+    english: 'to get an overview of the family',
+    spanish: 'obtener una visión general de la familia',
+  },
+  {
+    norwegian: 'i slekt og forfedre',
+    english: 'in kin and ancestors',
+    spanish: 'en parientes y antepasados',
+  },
+  {
+    norwegian: 'forestilt seg',
+    english: 'imagined',
+    spanish: 'imaginado',
+  },
+  {
+    norwegian: 'hva med mennene',
+    english: 'what about the men',
+    spanish: '¿qué pasa con los hombres?',
+  },
+  {
+    norwegian: 'som ble lovet anonymitet',
+    english: 'who were promised anonymity',
+    spanish: 'que fueron prometidos anonimato',
+  },
+  {
+    norwegian: 'ukjente barn',
+    english: 'unknown children',
+    spanish: 'niños desconocidos',
+  },
+  {
+    norwegian: 'ro i sjelen',
+    english: 'peace of mind',
+    spanish: 'paz mental',
+  },
+  {
+    norwegian: 'oppdaget sannheten',
+    english: 'discovered the truth',
+    spanish: 'descubrió la verdad',
+  },
+  {
+    norwegian: 'om sitt opphav',
+    english: 'about their origin',
+    spanish: 'sobre su origen',
+  },
+  {
+    norwegian: 'østlandsområdet',
+    english: 'the eastern region',
+    spanish: 'la región oriental',
+  },
+  {
+    norwegian: 'tilfeldigvis',
+    english: 'by chance',
+    spanish: 'por casualidad',
+  },
+  {
+    norwegian: 'søskenflokken vokser stadig',
+    english: 'the sibling group is constantly growing',
+    spanish: 'el grupo de hermanos está creciendo constantemente',
+  },
+  {
+    norwegian: 'å spikre inn noen datoer',
+    english: 'to nail down some dates',
+    spanish: 'fijar algunas fechas',
+  },
+  {
+    norwegian: 'søsknene ble unnfanget',
+    english: 'the siblings were conceived',
+    spanish: 'los hermanos fueron concebidos',
+  },
+  {
+    norwegian: 'oppfordret til å ta',
+    english: 'encouraged to take',
+    spanish: 'animado a tomar',
+  },
+  {
+    norwegian: 'hemmeligholdet preger helsevesenet',
+    english: 'secrecy characterizes the healthcare system',
+    spanish: 'el secreto caracteriza el sistema de salud',
+  },
+  {
+    norwegian: 'vil rette søkelyset mot',
+    english: 'will focus the spotlight on',
+    spanish: 'enfocará el foco en',
+  },
+  {
+    norwegian: 'på tross av',
+    english: 'despite',
+    spanish: 'a pesar de',
+  },
+  {
+    norwegian: 'til tross for',
+    english: 'despite',
+    spanish: 'a pesar de',
+  },
+  {
+    norwegian: 'å stå i det',
+    english: 'to stand in it',
+    spanish: 'estar en ello',
+  },
+  {
+    norwegian: 'tusenvis av barn',
+    english: 'thousands of children',
+    spanish: 'miles de niños',
+  },
+  {
+    norwegian: 'er unnfanget',
+    english: 'are conceived',
+    spanish: 'son concebidos',
   }
 ];
