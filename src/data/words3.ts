@@ -3112,4 +3112,124 @@ export const words: Question[] = [
     english: 'has taken the step',
     spanish: 'ha dado el paso',
   },
+  {
+    norwegian: 'ti år dien erfarte Norge',
+    english: 'ten years the country experienced Norway',
+    spanish: 'diez años el país experimentó Noruega',
+  },
+  {
+    norwegian: 'forbilde for unge',
+    english: 'role model for young people',
+    spanish: 'modelo a seguir para los jóvenes',
+  },
+  {
+    norwegian: 'i nettets mørke avkroker',
+    english: 'in the dark corners of the net',
+    spanish: 'en los rincones oscuros de la red',
+  },
+  {
+    norwegian: 'forskere på',
+    english: 'researchers at',
+    spanish: 'investigadores en',
+  },
+  {
+    norwegian: 'mørkhudede',
+    english: 'dark-skinned',
+    spanish: 'de piel oscura',
+  },
+  {
+    norwegian: 'har forandret holdninger',
+    english: 'has changed attitudes',
+    spanish: 'ha cambiado actitudes',
+  },
+  {
+    norwegian: 'latterlig oppførsel',
+    english: 'ridiculous behavior',
+    spanish: 'comportamiento ridículo',
+  },
+  {
+    norwegian: 'i brevveksling',
+    english: 'in correspondence',
+    spanish: 'en correspondencia',
+  },
+  {
+    norwegian: 'sin forklaring',
+    english: 'his explanation',
+    spanish: 'su explicación',
+  },
+  {
+    norwegian: 'rettferdiggjøre terrorangrepet',
+    english: 'justify the terrorist attack',
+    spanish: 'justificar el ataque terrorista',
+  },
+  {
+    norwegian: 'anledninger',
+    english: 'occasions',
+    spanish: 'ocasiones',
+  },
+  {
+    norwegian: 'en skarp hendelse utelukkes',
+    english: 'a sharp incident is excluded',
+    spanish: 'se excluye un incidente grave',
+  },
+  {
+    norwegian: 'krenking av islam',
+    english: 'offense against Islam',
+    spanish: 'ofensa contra el Islam',
+  },
+  {
+    norwegian: 'har ført til voldelige',
+    english: 'has led to violent',
+    spanish: 'ha llevado a violentos',
+  },
+  {
+    norwegian: 'etablerer vi oss',
+    english: 'we establish ourselves',
+    spanish: 'nos establecemos',
+  },
+  {
+    norwegian: 'massive styrker',
+    english: 'massive forces',
+    spanish: 'fuerzas masivas',
+  },
+  {
+    norwegian: 'vi er bevæpnet',
+    english: 'we are armed',
+    spanish: 'estamos armados',
+  },
+  {
+    norwegian: 'hvis vi får et oppdrag',
+    english: 'if we get a mission',
+    spanish: 'si recibimos una misión',
+  },
+  {
+    norwegian: 'åtte forebyggere',
+    english: 'eight preventers',
+    spanish: 'ocho preventores',
+  },
+  {
+    norwegian: 'provoserende',
+    english: 'provocative',
+    spanish: 'provocativo',
+  },
+  {
+    norwegian: 'forpliktet til å beskytte',
+    english: 'obliged to protect',
+    spanish: 'obligado a proteger',
+  },
+  {
+    norwegian: 'vår fordømte plikt',
+    english: 'our damned duty',
+    spanish: 'nuestro maldito deber',
+  },
+  {
+    norwegian: 'lov å ytre seg',
+    english: 'allowed to express oneself',
+    spanish: 'permitido expresarse',
+  },
+  {
+    norwegian: 'til samfunnet forøvrig',
+    english: 'to society in general',
+    spanish: 'a la sociedad en general',
+  },
 ];
