@@ -2871,5 +2871,245 @@ export const words: Question[] = [
     norwegian: 'er unnfanget',
     english: 'are conceived',
     spanish: 'son concebidos',
+  },
+  {
+    norwegian: 'er avkom av',
+    english: 'are offspring of',
+    spanish: 'son descendientes de',
+  },
+  {
+    norwegian: 'å snevre inn',
+    english: 'to narrow down',
+    spanish: 'reducir',
+  },
+  {
+    norwegian: 'i sjela før meg',
+    english: 'in the soul before me',
+    spanish: 'en el alma antes que yo',
+  },
+  {
+    norwegian: 'jusstudenter',
+    english: 'law students',
+    spanish: 'estudiantes de derecho',
+  },
+  {
+    norwegian:'i begynnelsen av',
+    english: 'in the beginning of',
+    spanish: 'al principio de',
+  },
+  {
+    norwegian: 'ønskede barne',
+    english: 'wanted children',
+    spanish: 'niños deseados',
+  },
+  {
+    norwegian: 'hemmelighold',
+    english: 'secrecy',
+    spanish: 'secreto',
+  },
+  {
+    norwegian: 'ikke vil stå frem',
+    english: 'do not want to come forward',
+    spanish: 'no quieren salir adelante',
+  },
+  {
+    norwegian: 'er kimen til',
+    english: 'is the seed of',
+    spanish: 'es la semilla de',
+  },
+  {
+    norwegian: 'er nedfelt i',
+    english: 'is enshrined in',
+    spanish: 'está consagrado en',
+  },
+  {
+    norwegian: 'opphavet sitt',
+    english: 'their origin',
+    spanish: 'su origen',
+  },
+  {
+    norwegian: 'alle disse opplysningene slettes',
+    english: 'all this information is deleted',
+    spanish: 'toda esta información se elimina',
+  },
+  {
+    norwegian: 'en ens far',
+    english: 'one’s father',
+    spanish: 'el padre de uno',
+  },
+  {
+    norwegian: 'med opphetet debatt',
+    english: 'with heated debate',
+    spanish: 'con debate acalorado',
+  },
+  {
+    norwegian: 'samfunnet vårt',
+    english: 'our society',
+    spanish: 'nuestra sociedad',
+  },
+  {
+    norwegian: 'man merket seg hvis',
+    english: 'one noticed if',
+    spanish: 'uno notó si',
+  },
+  {
+    norwegian: 'det var fristende',
+    english: 'it was tempting',
+    spanish: 'era tentador',
+  },
+  {
+    norwegian: 'så intenst opptatt av',
+    english: 'so intensely concerned with',
+    spanish: 'tan intensamente preocupado por',
+  },
+  {
+    norwegian: 'utredet',
+    english: 'investigated',
+    spanish: 'investigado',
+  },
+  {
+    norwegian: 'ikke tålte dagens lys',
+    english: "couldn't stand the light of day",
+    spanish: 'no podía soportar la luz del día',
+  },
+  {
+    norwegian: 'oppvekstbetingelser',
+    english: 'upbringing conditions',
+    spanish: 'condiciones de crianza',
+  },
+  {
+    norwegian: 'er nærmest til å si om barnet',
+    english: 'is almost to say about the child',
+    spanish: 'es casi para decir sobre el niño',
+  },
+  {
+    norwegian: 'er ingen oversikt over',
+    english: 'is no overview of',
+    spanish: 'no hay una visión general de',
+  },
+  {
+    norwegian: 'strøket',
+    english: 'the area',
+    spanish: 'el área',
+  },
+  {
+    norwegian: 'å være fratatt',
+    english: 'to be deprived of',
+    spanish: 'ser privado de',
+  },
+  {
+    norwegian: 'urolige barn',
+    english: 'restless children',
+    spanish: 'niños inquietos',
+  },
+  {
+    norwegian: 'tankene vandrer mye',
+    english: 'the thoughts wander a lot',
+    spanish: 'los pensamientos vagan mucho',
+  },
+  {
+    norwegian: 'grunnleggende rettighet',
+    english: 'fundamental right',
+    spanish: 'derecho fundamental',
+  },
+  {
+    norwegian: 'en forelesning',
+    english: 'a lecture',
+    spanish: 'una conferencia',
+  },
+  {
+    norwegian: 'vi satset alt',
+    english: 'we bet everything',
+    spanish: 'apostamos todo',
+  },
+  {
+    norwegian: 'bukspyttkjertel',
+    english: 'pancreas',
+    spanish: 'páncreas',
+  },
+  {
+    norwegian: 'en slektsforsker',
+    english: 'a genealogist',
+    spanish: 'un genealogista',
+  },
+  {
+    norwegian: 'henoldvis',
+    english: 'respectively',
+    spanish: 'respectivamente',
+  },
+  {
+    norwegian: 'sammen snevrer vi inn',
+    english: 'together we narrow down',
+    spanish: 'juntos reducimos',
+  },
+  {
+    norwegian: 'etter ti års leting',
+    english: 'after ten years of searching',
+    spanish: 'después de diez años de búsqueda',
+  },
+  {
+    norwegian: 'kjempenært',
+    english: 'very close',
+    spanish: 'muy cerca',
+  },
+  {
+    norwegian: 'stifte foreningen',
+    english: 'found the association',
+    spanish: 'fundar la asociación',
+  },
+  {
+    norwegian: 'kleine situasjoner',
+    english: 'awkward situations',
+    spanish: 'situaciones incómodas',
+  },
+  {
+    norwegian: 'i utgangspunktet',
+    english: 'in principle',
+    spanish: 'en principio',
+  },
+  {
+    norwegian: 'det var tydelig at det var tungt',
+    english: 'it was clear that it was heavy',
+    spanish: 'estaba claro que era pesado',
+  },
+  {
+    norwegian: 'har båret hele livet',
+    english: 'has carried all their life',
+    spanish: 'ha llevado toda su vida',
+  },
+  {
+    norwegian: 'en av foreningens frontfigurer',
+    english: 'one of the association’s front figures',
+    spanish: 'una de las figuras principales de la asociación',
+  },
+  {
+    norwegian: 'å forestille seg',
+    english: 'to imagine',
+    spanish: 'imaginar',
+  },
+  {
+    norwegian: 'har forandret seg',
+    english: 'has changed',
+    spanish: 'ha cambiado',
+  },
+  {
+    norwegian: 'ingen foreløpig statistikk',
+    english: 'no preliminary statistics',
+    spanish: 'sin estadísticas preliminares',
+  },
+  {
+    norwegian: 'litt nedtur',
+    english: 'a bit of a downer',
+    spanish: 'un poco deprimente',
+  },
+  {
+    norwegian: 'du skuffa du også',
+    english: 'you disappointed too',
+    spanish: 'tú también decepcionaste',
+  },
+  {
+    norwegian: 'har tatt skrittet',
+    english: 'has taken the step',
+    spanish: 'ha dado el paso',
   }
 ];
