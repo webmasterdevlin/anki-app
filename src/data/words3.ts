@@ -3232,4 +3232,254 @@ export const words: Question[] = [
     english: 'to society in general',
     spanish: 'a la sociedad en general',
   },
+  {
+    norwegian: 'vi anslår',
+    english: 'we estimate',
+    spanish: 'estimamos',
+  },
+  {
+    norwegian: 'i rangering av',
+    english: 'in ranking of',
+    spanish: 'en la clasificación de',
+  },
+  {
+    norwegian: 'hva kjennetegner',
+    english: 'what characterizes',
+    spanish: 'qué caracteriza',
+  },
+  {
+    norwegian: 'det er hovedsakelig',
+    english: 'it is mainly',
+    spanish: 'es principalmente',
+  },
+  {
+    norwegian: 'ofte resurssterke',
+    english: 'often resourceful',
+    spanish: 'a menudo ingenioso',
+  },
+  {
+    norwegian: 'et sjelelig kaos',
+    english: 'a spiritual chaos',
+    spanish: 'un caos espiritual',
+  },
+  {
+    norwegian: 'en oppskrift på',
+    english: 'a recipe for',
+    spanish: 'una receta para',
+  },
+  {
+    norwegian: 'gira og hausa opp',
+    english: 'excited and hyped up',
+    spanish: 'emocionado y animado',
+  },
+  {
+    norwegian: 'forskere innen',
+    english: 'researchers within',
+    spanish: 'investigadores dentro de',
+  },
+  {
+    norwegian: 'han vanket som yngre',
+    english: 'he frequented as a youth',
+    spanish: 'frecuentaba de joven',
+  },
+  {
+    norwegian: 'viss dragning',
+    english: 'certain attraction',
+    spanish: 'cierta atracción',
+  },
+  {
+    norwegian: 'forlatet han miljøet',
+    english: 'he left the environment',
+    spanish: 'dejó el ambiente',
+  },
+  {
+    norwegian: 'avstumpet til slutte',
+    english: 'numbed to the end',
+    spanish: 'entumecido hasta el final',
+  },
+  {
+    norwegian: 'drap',
+    english: 'murder',
+    spanish: 'asesinato',
+  },
+  {
+    norwegian: 'rabiate',
+    english: 'rabid',
+    spanish: 'rabioso',
+  },
+  {
+    norwegian: 'en søkbar',
+    english: 'a searchable',
+    spanish: 'un buscable',
+  },
+  {
+    norwegian: 'in ruinene av høyblokka',
+    english: 'in the ruins of the high-rise',
+    spanish: 'en las ruinas del rascacielos',
+  },
+  {
+    norwegian: 'det gjør inntrykk',
+    english: 'it makes an impression',
+    spanish: 'hace una impresión',
+  },
+  {
+    norwegian: 'det første som slår meg',
+    english: 'the first thing that strikes me',
+    spanish: 'lo primero que me llama la atención',
+  },
+  {
+    norwegian: 'er den redselen',
+    english: 'is the fear',
+    spanish: 'es el miedo',
+  },
+  {
+    norwegian: 'avverget angrep i',
+    english: 'averted attack in',
+    spanish: 'ataque evitado en',
+  },
+  {
+    norwegian: 'livvakter',
+    english: 'bodyguards',
+    spanish: 'guardaespaldas',
+  },
+  {
+    norwegian: 'er skvist fra alle kanter',
+    english: 'is squeezed from all sides',
+    spanish: 'está apretado por todos lados',
+  },
+  {
+    norwegian: 'sjikane og trusler',
+    english: 'harassment and threats',
+    spanish: 'acoso y amenazas',
+  },
+  {
+    norwegian: 'væpnede vakter',
+    english: 'armed guards',
+    spanish: 'guardias armados',
+  },
+  {
+    norwegian: 'er immun mot trusler',
+    english: 'is immune to threats',
+    spanish: 'es inmune a las amenazas',
+  },
+  {
+    norwegian: 'for frafall fra',
+    english: 'for dropout from',
+    spanish: 'para la deserción de',
+  },
+  {
+    norwegian: 'har posert trusler',
+    english: 'has posed threats',
+    spanish: 'ha planteado amenazas',
+  },
+  {
+    norwegian: 'det beror på',
+    english: 'it depends on',
+    spanish: 'depende de',
+  },
+  {
+    norwegian: 'ønske om endring',
+    english: 'desire for change',
+    spanish: 'deseo de cambio',
+  },
+  {
+    norwegian: 'bak murene blir man',
+    english: 'behind the walls one becomes',
+    spanish: 'detrás de las paredes uno se vuelve',
+  },
+  {
+    norwegian: 'tilhører en gjeng',
+    english: 'belongs to a gang',
+    spanish: 'pertenece a una pandilla',
+  },
+  {
+    norwegian: 'flokktilhørighet',
+    english: 'pack affiliation',
+    spanish: 'afiliación de manada',
+  },
+  {
+    norwegian: 'på fasthet i livet',
+    english: 'on solidity in life',
+    spanish: 'en solidez en la vida',
+  },
+  {
+    norwegian: 'å dras inn i',
+    english: 'to be drawn into',
+    spanish: 'ser atraído a',
+  },
+  {
+    norwegian: 'innsatte som',
+    english: 'inmates who',
+    spanish: 'reclusos que',
+  },
+  {
+    norwegian: 'i luftegården',
+    english: 'in the exercise yard',
+    spanish: 'en el patio de ejercicios',
+  },
+  {
+    norwegian: 'overtale dem til å',
+    english: 'persuade them to',
+    spanish: 'persuadirlos para',
+  },
+  {
+    norwegian: 'er mest sårbare',
+    english: 'are most vulnerable',
+    spanish: 'son los más vulnerables',
+  },
+  {
+    norwegian: 'alle advarer om',
+    english: 'everyone warns about',
+    spanish: 'todos advierten sobre',
+  },
+  {
+    norwegian: 'en flokk',
+    english: 'a pack',
+    spanish: 'una manada',
+  },
+  {
+    norwegian: 'av store mengder våpen',
+    english: 'of large quantities of weapons',
+    spanish: 'de grandes cantidades de armas',
+  },
+  {
+    norwegian: 'straffedømte mennene',
+    english: 'the convicted men',
+    spanish: 'los hombres condenados',
+  },
+  {
+    norwegian: 'det pumper opp adrenalinet',
+    english: 'it pumps up the adrenaline',
+    spanish: 'bombea la adrenalina',
+  },
+  {
+    norwegian: 'flere anledninger',
+    english: 'several occasions',
+    spanish: 'varias ocasiones',
+  },
+  {
+    norwegian: 'i begivenhetenes sentrum',
+    english: 'in the center of events',
+    spanish: 'en el centro de los eventos',
+  },
+  {
+    norwegian: 'på makkeren deres vegne',
+    english: 'on behalf of their partner',
+    spanish: 'en nombre de su pareja',
+  },
+  {
+    norwegian: 'de synlige tegnene',
+    english: 'the visible signs',
+    spanish: 'los signos visibles',
+  },
+  {
+    norwegian: 'å krenke og skjende',
+    english: 'to violate and desecrate',
+    spanish: 'violar y profanar',
+  },
+  {
+    norwegian: 'skjelver av raseri',
+    english: 'trembles with rage',
+    spanish: 'tiembla de rabia',
+  },
 ];
