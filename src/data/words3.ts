@@ -4102,4 +4102,119 @@ export const words: Question[] = [
     english: 'she barked and attacked',
     spanish: 'ella ladró y atacó',
   },
+  {
+    norwegian: 'ånden i loven',
+    english: 'the spirit of the law',
+    spanish: 'el espíritu de la ley',
+  },
+  {
+    norwegian: 'stemplet som',
+    english: 'stamped as',
+    spanish: 'etiquetado como',
+  },
+  {
+    norwegian: 'tre hovedbitene',
+    english: 'three main pieces',
+    spanish: 'tres piezas principales',
+  },
+  {
+    norwegian: 'på pensum',
+    english: 'on the curriculum',
+    spanish: 'en el plan de estudios',
+  },
+  {
+    norwegian: 'å terpe',
+    english: 'to drill',
+    spanish: 'perforar',
+  },
+  {
+    norwegian: 'en slegge',
+    english: 'a sledgehammer',
+    spanish: 'un mazo',
+  },
+  {
+    norwegian: 'trehåndtak',
+    english: 'wooden handle',
+    spanish: 'mango de madera',
+  },
+  {
+    norwegian: 'et fullverdig liv',
+    english: 'a full life',
+    spanish: 'una vida plena',
+  },
+  {
+    norwegian: 'et uthus på gården',
+    english: 'an outbuilding on the farm',
+    spanish: 'un anexo en la granja',
+  },
+  {
+    norwegian: 'en tolk',
+    english: 'an interpreter',
+    spanish: 'un intérprete',
+  },
+  {
+    norwegian: 'overføring av makt',
+    english: 'transfer of power',
+    spanish: 'transferencia de poder',
+  },
+  {
+    norwegian: 'ingen bekymringer',
+    english: 'no worries',
+    spanish: 'no hay preocupaciones',
+  },
+  {
+    norwegian: 'oppsøke mennesker',
+    english: 'seek out people',
+    spanish: 'buscar personas',
+  },
+  {
+    norwegian: 'usynlig besok',
+    english: 'invisible visit',
+    spanish: 'visita invisible',
+  },
+  {
+    norwegian: 'skal vi ta den vekk',
+    english: 'shall we take it away',
+    spanish: '¿lo quitamos?',
+  },
+  {
+    norwegian: 'vitenskapelig effect',
+    english: 'scientific effect',
+    spanish: 'efecto científico',
+  },
+  {
+    norwegian: 'flere kobberrør i plenen',
+    english: 'several copper pipes in the lawn',
+    spanish: 'varias tuberías de cobre en el césped',
+  },
+  {
+    norwegian: 'en husrens',
+    english: 'a house cleansing',
+    spanish: 'una limpieza de la casa',
+  },
+  {
+    norwegian: 'mange useriøse aktører',
+    english: 'many unserious actors',
+    spanish: 'muchos actores poco serios',
+  },
+  {
+    norwegian: 'om bløffmakeri og svindel',
+    english: 'about bluffing and fraud',
+    spanish: 'sobre engaños y fraudes',
+  },
+  {
+    norwegian: 'som trosser latterliggjøring',
+    english: 'who defies ridicule',
+    spanish: 'que desafía el ridículo',
+  },
+  {
+    norwegian: 'den kommende utstillingen',
+    english: 'the upcoming exhibition',
+    spanish: 'la próxima exposición',
+  },
+  {
+    norwegian: 'vekket hele tidens oppsikt',
+    english: 'attracted the attention of the whole time',
+    spanish: 'atrajo la atención de todo el tiempo',
+  },
 ];
