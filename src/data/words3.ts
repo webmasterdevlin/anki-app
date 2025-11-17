@@ -3802,4 +3802,304 @@ export const words: Question[] = [
     english: 'about the average',
     spanish: 'sobre el promedio',
   },
+  {
+    norwegian: 'trakasseringstelefoner',
+    english: 'harassment calls',
+    spanish: 'llamadas de acoso',
+  },
+  {
+    norwegian: 'innsatsen deres',
+    english: 'their effort',
+    spanish: 'su esfuerzo',
+  },
+  {
+    norwegian: 'voksne svikter',
+    english: 'adults fail',
+    spanish: 'los adultos fallan',
+  },
+  {
+    norwegian: 'hovslager',
+    english: 'farrier',
+    spanish: 'herrador',
+  },
+  {
+    norwegian: 'egenskaper',
+    english: 'qualities',
+    spanish: 'cualidades',
+  },
+  {
+    norwegian: 'når du innser',
+    english: 'when you realize',
+    spanish: 'cuando te das cuenta',
+  },
+  {
+    norwegian: 'alt gikk i grus',
+    english: 'everything fell apart',
+    spanish: 'todo se desmoronó',
+  },
+  {
+    norwegian: 'ikke ble trodd',
+    english: 'was not believed',
+    spanish: 'no fue creído',
+  },
+  {
+    norwegian: 'kan stole på',
+    english: 'can trust',
+    spanish: 'puede confiar en',
+  },
+  {
+    norwegian: 'i forhold til',
+    english: 'in relation to',
+    spanish: 'en relación con',
+  },
+  {
+    norwegian: 'som tar tak sånn ordentlig',
+    english: 'who takes hold properly',
+    spanish: 'que toma el control adecuadamente',
+  },
+  {
+    norwegian: 'ryster av sinne',
+    english: 'shakes with anger',
+    spanish: 'tiembla de ira',
+  },
+  {
+    norwegian: 'fellestrekkene',
+    english: 'the common features',
+    spanish: 'las características comunes',
+  },
+  {
+    norwegian: 'politikernes løfter gikk aldrig i oppfyllelse',
+    english: "the politicians' promises never came true",
+    spanish: 'las promesas de los políticos nunca se hicieron realidad',
+  },
+  {
+    norwegian: 'var beløpet',
+    english: 'the amount was',
+    spanish: 'la cantidad era',
+  },
+  {
+    norwegian: 'åpenhet rundt senskadene',
+    english: 'openness about the late effects',
+    spanish: 'apertura sobre los efectos tardíos',
+  },
+  {
+    norwegian: 'du ligner på ham',
+    english: 'you look like him',
+    spanish: 'te pareces a él',
+  },
+  {
+    norwegian: 'redsel hver eneste dag',
+    english: 'fear every single day',
+    spanish: 'miedo todos los días',
+  },
+  {
+    norwegian: 'sparket meg ut',
+    english: 'kicked me out',
+    spanish: 'me echó',
+  },
+  {
+    norwegian: 'ble helt paff',
+    english: 'was completely stunned',
+    spanish: 'estaba completamente atónito',
+  },
+  {
+    norwegian: 'jeg datt ned på gulvet',
+    english: 'i fell to the floor',
+    spanish: 'me caí al suelo',
+  },
+  {
+    norwegian: 'tvillingsøster',
+    english: 'twin sister',
+    spanish: 'hermana gemela',
+  },
+  {
+    norwegian: 'gjemte meg borti',
+    english: 'hid myself away',
+    spanish: 'me escondí',
+  },
+  {
+    norwegian: 'senvirkninger',
+    english: 'late effects',
+    spanish: 'efectos tardíos',
+  },
+  {
+    norwegian: 'brakt',
+    english: 'brought',
+    spanish: 'traído',
+  },
+  {
+    norwegian: 'i salen',
+    english: 'in the saddle',
+    spanish: 'en la silla',
+  },
+  {
+    norwegian: 'et utstoppet ekorn',
+    english: 'a stuffed squirrel',
+    spanish: 'una ardilla disecada',
+  },
+  {
+    norwegian: 'på loppemarked',
+    english: 'at the flea market',
+    spanish: 'en el mercadillo',
+  },
+  {
+    norwegian: 'i fellesskap rustet seig til',
+    english: 'collectively toughened resilient to',
+    spanish: 'colectivamente endurecido resistente a',
+  },
+  {
+    norwegian: 'det er ikke tilfelle',
+    english: 'that is not the case',
+    spanish: 'ese no es el caso',
+  },
+  {
+    norwegian: 'litt utsatt',
+    english: 'a bit exposed',
+    spanish: 'un poco expuesto',
+  },
+  {
+    norwegian: 'frekk mot meg',
+    english: 'rude to me',
+    spanish: 'grosero conmigo',
+  },
+  {
+    norwegian: 'månelyst fort',
+    english: 'moonlight fast',
+    spanish: 'luz de luna rápido',
+  },
+  {
+    norwegian: 'er innafor hva som helst',
+    english: 'is within anything',
+    spanish: 'está dentro de cualquier cosa',
+  },
+  {
+    norwegian: 'det uttrykkes en bekymring',
+    english: 'a concern is expressed',
+    spanish: 'se expresa una preocupación',
+  },
+  {
+    norwegian: 'at ingen av voldshendelsene',
+    english: 'that none of the violent incidents',
+    spanish: 'que ninguno de los incidentes violentos',
+  },
+  {
+    norwegian: 'det var tynt',
+    english: 'it was thin',
+    spanish: 'estaba delgado',
+  },
+  {
+    norwegian: 'er essensen i',
+    english: 'is the essence of',
+    spanish: 'es la esencia de',
+  },
+  {
+    norwegian: 'samsvar',
+    english: 'consistency',
+    spanish: 'consistencia',
+  },
+  {
+    norwegian: 'kan bekreftes',
+    english: 'can be confirmed',
+    spanish: 'puede ser confirmado',
+  },
+  {
+    norwegian: 'som oppførte seg dårlig tente',
+    english: 'who behaved badly lit',
+    spanish: 'que se comportó mal encendió',
+  },
+  {
+    norwegian: 'på sykkeldekkene deres',
+    english: 'on their bicycle tires',
+    spanish: 'en sus neumáticos de bicicleta',
+  },
+  {
+    norwegian: 'å uttale seg om',
+    english: 'to comment on',
+    spanish: 'comentar sobre',
+  },
+  {
+    norwegian: 'utadvendt og gledet seg til',
+    english: 'outgoing and looked forward to',
+    spanish: 'extrovertido y esperaba con ansias',
+  },
+  {
+    norwegian: 'skjelvende og usikker',
+    english: 'trembling and uncertain',
+    spanish: 'temblando e inseguro',
+  },
+  {
+    norwegian: 'klaget til fylkesmannen',
+    english: 'complained to the county governor',
+    spanish: 'se quejó al gobernador del condado',
+  },
+  {
+    norwegian: 'rimelig kan forventes',
+    english: 'reasonably can be expected',
+    spanish: 'razonablemente se puede esperar',
+  },
+  {
+    norwegian: 'bare fordufter i nattens mulm',
+    english: 'just vanishes into the night',
+    spanish: 'simplemente desaparece en la noche',
+  },
+  {
+    norwegian: 'er tydelig preget av',
+    english: 'is clearly affected by',
+    spanish: 'está claramente afectado por',
+  },
+  {
+    norwegian: 'i markkerpar',
+    english: 'in field pairs',
+    spanish: 'en pares de campo',
+  },
+  {
+    norwegian: 'det spriker veldig',
+    english: 'it varies greatly',
+    spanish: 'varía mucho',
+  },
+  {
+    norwegian: 'mange lener seg på',
+    english: 'many rely on',
+    spanish: 'muchos se apoyan en',
+  },
+  {
+    norwegian: 'ulik forskning',
+    english: 'different research',
+    spanish: 'investigación diferente',
+  },
+  {
+    norwegian: 'mobbeombudet',
+    english: 'the anti-bullying ombudsman',
+    spanish: 'el defensor del pueblo contra el acoso escolar',
+  },
+  {
+    norwegian: 'bekreftes av',
+    english: 'is confirmed by',
+    spanish: 'es confirmado por',
+  },
+  {
+    norwegian: 'svikt',
+    english: 'failure',
+    spanish: 'fallo',
+  },
+  {
+    norwegian: 'for å bli vernet',
+    english: 'to be protected',
+    spanish: 'para ser protegido',
+  },
+  {
+    norwegian: 'ble slått og dyttet',
+    english: 'was beaten and pushed',
+    spanish: 'fue golpeado y empujado',
+  },
+  {
+    norwegian: 'han oppreist fortsatt står',
+    english: 'he still stands upright',
+    spanish: 'él todavía se mantiene erguido',
+  },
+  {
+    norwegian: 'hun bjeffet og angrep',
+    english: 'she barked and attacked',
+    spanish: 'ella ladró y atacó',
+  },
 ];
