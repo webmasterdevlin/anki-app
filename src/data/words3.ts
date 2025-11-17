@@ -3482,4 +3482,324 @@ export const words: Question[] = [
     english: 'trembles with rage',
     spanish: 'tiembla de rabia',
   },
+  {
+    norwegian: 'ikke bøye seg',
+    english: 'not bow down',
+    spanish: 'no inclinarse',
+  },
+  {
+    norwegian: 'seksuelle overgripere kalles',
+    english: 'sexual offenders are called',
+    spanish: 'los agresores sexuales son llamados',
+  },
+  {
+    norwegian: 'rovdyr',
+    english: 'predators',
+    spanish: 'depredadores',
+  },
+  {
+    norwegian: 'bryter stillheten',
+    english: 'breaks the silence',
+    spanish: 'rompe el silencio',
+  },
+  {
+    norwegian: 'selve veddeløpsbanen',
+    english: 'the racetrack itself',
+    spanish: 'la pista de carreras en sí',
+  },
+  {
+    norwegian: 'å tas på ørene',
+    english: 'to be taken on the ears',
+    spanish: 'ser tomado en las orejas',
+  },
+  {
+    norwegian: 'hestevant',
+    english: 'horse-savvy',
+    spanish: 'con experiencia en caballos',
+  },
+  {
+    norwegian: 'som har tynget ham et helt liv',
+    english: 'that has weighed on him his whole life',
+    spanish: 'que lo ha pesado toda su vida',
+  },
+  {
+    norwegian: 'tilfeldigvis',
+    english: 'by chance',
+    spanish: 'por casualidad',
+  },
+  {
+    norwegian: 'tilgjengelig',
+    english: 'available',
+    spanish: 'disponible',
+  },
+  {
+    norwegian: 'har unngått',
+    english: 'has avoided',
+    spanish: 'ha evitado',
+  },
+  {
+    norwegian: 'et boligområde',
+    english: 'a residential area',
+    spanish: 'una zona residencial',
+  },
+  {
+    norwegian: 'jeg stusset litt over',
+    english: 'i was a bit puzzled about',
+    spanish: 'estaba un poco desconcertado por',
+  },
+  {
+    norwegian: 'mannlige ofre venter fortsatt på',
+    english: 'male victims are still waiting for',
+    spanish: 'las víctimas masculinas todavía están esperando',
+  },
+  {
+    norwegian: 'førde anmelder',
+    english: 'led the complainant',
+    spanish: 'llevó al denunciante',
+  },
+  {
+    norwegian: 'traumene og skammen',
+    english: 'the traumas and the shame',
+    spanish: 'los traumas y la vergüenza',
+  },
+  {
+    norwegian: 'man utga seg for',
+    english: 'one pretended to be',
+    spanish: 'uno pretendía ser',
+  },
+  {
+    norwegian: 'for det var der du traffet dem',
+    english: 'because that was where you met them',
+    spanish: 'porque ahí fue donde los conociste',
+  },
+  {
+    norwegian: 'uttrykket for',
+    english: 'the expression for',
+    spanish: 'la expresión de',
+  },
+  {
+    norwegian: 'å få litt pulls nå',
+    english: 'to get some pulls now',
+    spanish: 'para obtener algunos tirones ahora',
+  },
+  {
+    norwegian: 'jeg jar skjøvet det litt foran meg',
+    english: 'i have pushed it a bit in front of me',
+    spanish: 'lo he empujado un poco frente a mí',
+  },
+  {
+    norwegian: 'han forsker på',
+    english: 'he researches',
+    spanish: 'él investiga',
+  },
+  {
+    norwegian: 'oppdagelsene',
+    english: 'the discoveries',
+    spanish: 'los descubrimientos',
+  },
+  {
+    norwegian: 'veldig utbredt',
+    english: 'very widespread',
+    spanish: 'muy extendido',
+  },
+  {
+    norwegian: 'tiltrekker du sikkert deg',
+    english: 'you probably attract',
+    spanish: 'probablemente atraes',
+  },
+  {
+    norwegian: 'den brusboksen hans',
+    english: 'his soda can',
+    spanish: 'su lata de refresco',
+  },
+  {
+    norwegian: 'men det forunder meg ikke lenger',
+    english: "but it doesn't surprise me anymore",
+    spanish: 'pero ya no me sorprende',
+  },
+  {
+    norwegian: 'over rundkjøringen',
+    english: 'over the roundabout',
+    spanish: 'sobre la rotonda',
+  },
+  {
+    norwegian: 'han først misbrukt da han var',
+    english: 'he was first abused when he was',
+    spanish: 'fue abusado por primera vez cuando tenía',
+  },
+  {
+    norwegian: 'involverte gjerningsmannen flere voksne',
+    english: 'involved the perpetrator several adults',
+    spanish: 'involucró al perpetrador varios adultos',
+  },
+  {
+    norwegian: 'vi hadde med pledd og soveposer',
+    english: 'we had blankets and sleeping bags',
+    spanish: 'teníamos mantas y sacos de dormir',
+  },
+  {
+    norwegian: 'du skjelver nå',
+    english: 'you are trembling now',
+    spanish: 'estás temblando ahora',
+  },
+  {
+    norwegian: 'resusterke bærumsfolk',
+    english: 'resourceful people from Bærum',
+    spanish: 'personas ingeniosas de Bærum',
+  },
+  {
+    norwegian: 'mange tusenlapper',
+    english: 'many thousands of kroner',
+    spanish: 'muchos miles de coronas',
+  },
+  {
+    norwegian: 'ha pågått',
+    english: 'have been going on',
+    spanish: 'han estado ocurriendo',
+  },
+  {
+    norwegian: 'er veldig nært',
+    english: 'is very close',
+    spanish: 'está muy cerca',
+  },
+  {
+    norwegian: 'vært borti',
+    english: 'have come across',
+    spanish: 'me he encontrado con',
+  },
+  {
+    norwegian: 'utdrag fra anmeldelsen',
+    english: 'excerpts from the complaint',
+    spanish: 'extractos de la denuncia',
+  },
+  {
+    norwegian: 'det begåttgjentatte overgrep av seksuell karakter',
+    english: 'there committed repeated sexual offenses',
+    spanish: 'se cometieron repetidos delitos sexuales',
+  },
+  {
+    norwegian: 'flere overgripere',
+    english: 'several perpetrators',
+    spanish: 'varios perpetradores',
+  },
+  {
+    norwegian: 'han utflørte ting på meg',
+    english: 'he flirted things on me',
+    spanish: 'él coqueteó cosas conmigo',
+  },
+  {
+    norwegian: 'jeg innrømmer',
+    english: 'i admit',
+    spanish: 'yo admito',
+  },
+  {
+    norwegian: 'hvor nærme det har vært',
+    english: 'how close it has been',
+    spanish: 'lo cerca que ha sido',
+  },
+  {
+    norwegian: 'å kamuflere',
+    english: 'to camouflage',
+    spanish: 'camuflar',
+  },
+  {
+    norwegian: 'landegrenser',
+    english: 'national borders',
+    spanish: 'fronteras nacionales',
+  },
+  {
+    norwegian: 'utgir en trussel',
+    english: 'poses a threat',
+    spanish: 'representa una amenaza',
+  },
+  {
+    norwegian: 'stas',
+    english: 'fun',
+    spanish: 'diversión',
+  },
+  {
+    norwegian: 'det tikker med en gang inn',
+    english: 'it ticks in immediately',
+    spanish: 'marca inmediatamente',
+  },
+  {
+    norwegian: 'rett på sak',
+    english: 'straight to the point',
+    spanish: 'ir al grano',
+  },
+  {
+    norwegian: 'er det egen tilfredsstillelse',
+    english: 'is it self-satisfaction',
+    spanish: 'es auto-satisfacción',
+  },
+  {
+    norwegian: 'vågale',
+    english: 'daring',
+    spanish: 'atrevido',
+  },
+  {
+    norwegian: 'andre ofre',
+    english: 'other victims',
+    spanish: 'otras víctimas',
+  },
+  {
+    norwegian: 'emner',
+    english: 'topics',
+    spanish: 'temas',
+  },
+  {
+    norwegian: 'ble bøtelagt',
+    english: 'was fined',
+    spanish: 'fue multado',
+  },
+  {
+    norwegian: 'med slibrig telefonsjikane',
+    english: 'with lewd telephone harassment',
+    spanish: 'con acoso telefónico lascivo',
+  },
+  {
+    norwegian: 'i oppreisning til jenta',
+    english: 'in compensation to the girl',
+    spanish: 'en compensación a la niña',
+  },
+  {
+    norwegian: ' latterlig lav dom',
+    english: 'ridiculously low sentence',
+    spanish: 'sentencia ridículamente baja',
+  },
+  {
+    norwegian: 'har slått helt inn',
+    english: 'has completely caught on',
+    spanish: 'ha atrapado por completo',
+  },
+  {
+    norwegian: 'innkalt til avhør',
+    english: 'summoned for interrogation',
+    spanish: 'convocado para interrogatorio',
+  },
+  {
+    norwegian: 'verken mor eller far',
+    english: 'neither mother nor father',
+    spanish: 'ni madre ni padre',
+  },
+  {
+    norwegian: 'litt skyldfølelse',
+    english: 'a bit of guilt',
+    spanish: 'un poco de culpa',
+  },
+  {
+    norwegian: 'har jeg pugget anmeldelsen',
+    english: 'i have memorized the complaint',
+    spanish: 'he memorizado la denuncia',
+  },
+  {
+    norwegian: 'fritt oppspinn',
+    english: 'pure fiction',
+    spanish: 'pura ficción',
+  },
+  {
+    norwegian: 'om gjennomsnittet',
+    english: 'about the average',
+    spanish: 'sobre el promedio',
+  },
 ];
