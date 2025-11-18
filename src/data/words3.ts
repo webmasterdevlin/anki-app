@@ -4496,5 +4496,55 @@ export const words: Question[] = [
     norwegian: 'en stund etterpå',
     english: 'a while later',
     spanish: 'un rato después',
+  },
+  {
+    norwegian: 'du går kledd sånn nå',
+    english: 'you are dressed like that now',
+    spanish: 'estás vestido así ahora',
+  },
+  {
+    norwegian: 'de narkomanes lege',
+    english: 'the drug addicts’ doctor',
+    spanish: 'el médico de los drogadictos',
+  },
+  {
+    norwegian: 'er dette utstyret du vil velge',
+    english: 'is this the equipment you would choose',
+    spanish: '¿es este el equipo que elegirías?',
+  },
+  {
+    norwegian: 'møbelsnekring i noen år',
+    english: 'furniture carpentry for a few years',
+    spanish: 'carpintería de muebles por unos años',
+  },
+  {
+    norwegian: 'å lindre smerten',
+    english: 'to relieve the pain',
+    spanish: 'aliviar el dolor',
+  },
+  {
+    norwegian: 'vrake',
+    english: 'reject',
+    spanish: 'rechazar',
+  },
+  {
+    norwegian: 'å sammenligne de to bransjene',
+    english: 'to compare the two industries',
+    spanish: 'comparar las dos industrias',
+  },
+  {
+    norwegian: 'et ulovlig rusmiddel på gaten',
+    english: 'an illegal drug on the street',
+    spanish: 'una droga ilegal en la calle',
+  },
+  {
+    norwegian: 'skyggesidene ver norsk ruspolitikk',
+    english: 'the dark sides of Norwegian drug policy',
+    spanish: 'los lados oscuros de la política de drogas noruega',
+  },
+  {
+    norwegian: 'en liten brøkdel av dette',
+    english: 'a small fraction of this',
+    spanish: 'una pequeña fracción de esto',
   }
 ];
