@@ -4546,5 +4546,260 @@ export const words: Question[] = [
     norwegian: 'en liten brøkdel av dette',
     english: 'a small fraction of this',
     spanish: 'una pequeña fracción de esto',
+  },
+  {
+    norwegian: 'sovetablettene',
+    english: 'the sleeping pills',
+    spanish: 'las pastillas para dormir',
+  },
+  {
+    norwegian:'mye grums',
+    english: 'a lot of grime',
+    spanish: 'mucha suciedad',
+  },
+  {
+    norwegian:'milde stoffer',
+    english: 'mild substances',
+    spanish: 'sustancias suaves',
+  },
+  {
+    norwegian:'er straffbart',
+    english: 'is punishable',
+    spanish: 'es punible',
+  },
+  {
+    norwegian:'noen tilfeller',
+    english: 'some cases',
+    spanish: 'algunos casos',
+  },
+  {
+    norwegian:'som motgift ved forgiftning',
+    english: 'as an antidote in case of poisoning',
+    spanish: 'como antídoto en caso de envenenamiento',
+  },
+  {
+    norwegian:'i materiene',
+    english: 'in the materials',
+    spanish: 'en los materiales',
+  },
+  {
+    norwegian:'glipp av',
+    english: 'lapse of',
+    spanish: 'lapsus de',
+  },
+  {
+    norwegian:'rusmidler',
+    english: 'drugs',
+    spanish: 'drogas',
+  },
+  {
+    norwegian:'betingelse',
+    english: 'condition',
+    spanish: 'condición',
+  },
+  {
+    norwegian:'jeg kan forestille meg',
+    english: 'i can imagine',
+    spanish: 'puedo imaginar',
+  },
+  {
+    norwegian:'forestil deg',
+    english: 'imagine',
+    spanish: 'imagina',
+  },
+  {
+    norwegian:'veldig nært',
+    english: 'very close',
+    spanish: 'muy cerca',
+  },
+  {
+    norwegian:'i skjul',
+    english: 'in hiding',
+    spanish: 'escondido',
+  },
+  {
+    norwegian:'bivirkninger',
+    english: 'side effects',
+    spanish: 'efectos secundarios',
+  },
+  {
+    norwegian:'kan trappe ned',
+    english: 'can step down',
+    spanish: 'puede bajar',
+  },
+  {
+    norwegian:'å døyve smerten',
+    english: 'to dull the pain',
+    spanish: 'adormecer el dolor',
+  },
+  {
+    norwegian:'har streved med',
+    english: 'has struggled with',
+    spanish: 'ha luchado con',
+  },
+  {
+    norwegian:'bedringen',
+    english: 'the improvement',
+    spanish: 'la mejora',
+  },
+  {
+    norwegian:'et sandkorn',
+    english: 'a grain of sand',
+    spanish: 'un grano de arena',
+  },
+  {
+    norwegian:'å løsrives fra',
+    english: 'to detach from',
+    spanish: 'desprenderse de',
+  },
+  {
+    norwegian:'en byrde',
+    english: 'a burden',
+    spanish: 'una carga',
+  },
+  {
+    norwegian:'er lidelse og smerte',
+    english: 'is suffering and pain',
+    spanish: 'es sufrimiento y dolor',
+  },
+  {
+    norwegian:'som anerkjenner',
+    english: 'that recognizes',
+    spanish: 'que reconoce',
+  },
+  {
+    norwegian:'jeg nesten skylder owes',
+    english: 'i almost owe',
+    spanish: 'casi debo',
+  },
+  {
+    norwegian:'en forestilling om',
+    english: 'a notion of',
+    spanish: 'una noción de',
+  },
+  {
+    norwegian:'det dreier seg om',
+    english: 'it is about',
+    spanish: 'se trata de',
+  },
+  {
+    norwegian:'husly',
+    english: 'shelter',
+    spanish: 'refugio',
+  },
+  {
+    norwegian:'fordommer',
+    english: 'prejudices',
+    spanish: 'prejuicios',
+  },
+  {
+    norwegian:'som vekker meg',
+    english: 'that wakes me',
+    spanish: 'que me despierta',
+  },
+  {
+    norwegian:'å lage adferdsfundamentet',
+    english: 'to create the behavioral foundation',
+    spanish: 'crear la base de comportamiento',
+  },
+  {
+    norwegian:'omgivelsene',
+    english: 'the surroundings',
+    spanish: 'los alrededores',
+  },
+  {
+    norwegian:'dekningsgrad',
+    english: 'coverage ratio',
+    spanish: 'índice de cobertura',
+  },
+  {
+    norwegian:'straffbart og livsfarlig',
+    english: 'punishable and life-threatening',
+    spanish: 'punible y peligroso para la vida',
+  },
+  {
+    norwegian:'befolkningens helse',
+    english: 'the population’s health',
+    spanish: 'la salud de la población',
+  },
+  {
+    norwegian:'en avveiing',
+    english: 'a trade-off',
+    spanish: 'un compromiso',
+  },
+  {
+    norwegian:'å reklamere for bred',
+    english: 'to advertise for broad',
+    spanish: 'publicitar para amplio',
+  },
+  {
+    norwegian:'belastede',
+    english: 'burdened',
+    spanish: 'cargado',
+  },
+  {
+    norwegian: 'tungt belastede',
+    english: 'heavily burdened',
+    spanish: 'muy cargado',
+  },
+  {
+    norwegian:'rastløshet',
+    english: 'restlessness',
+    spanish: 'inquietud',
+  },
+  {
+    norwegian:'rusmiddler og avhengighet',
+    english: 'drugs and addiction',
+    spanish: 'drogas y adicción',
+  },
+  {
+    norwegian:'garvede',
+    english: 'seasoned',
+    spanish: 'experimentado',
+  },
+  {
+    norwegian:'har havnet utpå',
+    english: 'have ended up out',
+    spanish: 'han terminado afuera',
+  },
+  {
+    norwegian:'tvil om det',
+    english: 'doubt about it',
+    spanish: 'duda al respecto',
+  },
+  {
+    norwegian:'er det avlyttingsutstyr',
+    english: 'is it eavesdropping equipment',
+    spanish: '¿es equipo de espionaje?',
+  },
+  {
+    norwegian:'selvmordsforsøk',
+    english: 'suicide attempt',
+    spanish: 'intento de suicidio',
+  },
+  {
+    norwegian:'kramper',
+    english: 'cramps',
+    spanish: 'calambres',
+  },
+  {
+    norwegian:'å forvalte',
+    english: 'to manage',
+    spanish: 'administrar',
+  },
+  {
+    norwegian:'er for lite tilpasningsdyktig',
+    english: 'is too inflexible',
+    spanish: 'es demasiado inflexible', 
+  },
+  {
+    norwegian:'de legemidlene',
+    english: 'the medications',
+    spanish: 'los medicamentos',
+  },
+  {
+    norwegian:'vi nådd flere ',
+    english: 'we reached several',
+    spanish: 'alcanzamos varios',
   }
 ];
