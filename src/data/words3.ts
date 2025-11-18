@@ -4217,4 +4217,284 @@ export const words: Question[] = [
     english: 'attracted the attention of the whole time',
     spanish: 'atrajo la atención de todo el tiempo',
   },
+  {
+    norwegian: 'var besatt av tanken',
+    english: 'was obsessed with the idea',
+    spanish: 'estaba obsesionado con la idea',
+  },
+  {
+    norwegian: 'å oppdage',
+    english: 'to discover',
+    spanish: 'descubrir',
+  },
+  {
+    norwegian: 'menigheten',
+    english: 'the congregation',
+    spanish: 'la congregación',
+  },
+  {
+    norwegian: 'stakk',
+    english: 'stabbed',
+    spanish: 'apuñalado',
+  },
+  {
+    norwegian: 'veivalg',
+    english: 'choices',
+    spanish: 'elecciones',
+  },
+  {
+    norwegian: 'som livvakt',
+    english: 'as a bodyguard',
+    spanish: 'como guardaespaldas',
+  },
+  {
+    norwegian: 'utopiske visjoner',
+    english: 'utopian visions',
+    spanish: 'visiones utópicas',
+  },
+  {
+    norwegian: 'de er i utgangspunktet skeptiske til',
+    english: 'they are basically skeptical of',
+    spanish: 'son básicamente escépticos de',
+  },
+  {
+    norwegian: 'å stille opp',
+    english: 'to show up',
+    spanish: 'aparecer',
+  },
+  {
+    norwegian: 'blir tiltrukket av',
+    english: 'are attracted to',
+    spanish: 'se sienten atraídos por',
+  },
+  {
+    norwegian: 'i skauen',
+    english: 'in the woods',
+    spanish: 'en el bosque',
+  },
+  {
+    norwegian: 'godt ryktene',
+    english: 'good reputation',
+    spanish: 'buena reputación',
+  },
+  {
+    norwegian: 'som verserte',
+    english: 'that circulated',
+    spanish: 'que circulaba',
+  },
+  {
+    norwegian: 'å rykte',
+    english: 'to spread',
+    spanish: 'difundir',
+  },
+  {
+    norwegian: 'veldig sprikende',
+    english: 'very divergent',
+    spanish: 'muy divergente',
+  },
+  {
+    norwegian: 'mye sladder',
+    english: 'a lot of gossip',
+    spanish: 'mucho chisme',
+  },
+  {
+    norwegian: 'som trekkes',
+    english: 'that are drawn',
+    spanish: 'que se dibujan',
+  },
+  {
+    norwegian: 'i stillhet og ro',
+    english: 'in silence and peace',
+    spanish: 'en silencio y paz',
+  },
+  {
+    norwegian: 'fra bygda',
+    english: 'from the village',
+    spanish: 'del pueblo',
+  },
+  {
+    norwegian: 'fra fødselen',
+    english: 'from birth',
+    spanish: 'desde el nacimiento',
+  },
+  {
+    norwegian: 'rister på hodet',
+    english: 'shakes his head',
+    spanish: 'sacude la cabeza',
+  },
+  {
+    norwegian: 'kloden',
+    english: 'the globe',
+    spanish: 'el globo',
+  },
+  {
+    norwegian: 'kan henge med',
+    english: 'can keep up',
+    spanish: 'puede mantenerse al día',
+  },
+  {
+    norwegian: 'indre fred',
+    english: 'inner peace',
+    spanish: 'paz interior',
+  },
+  {
+    norwegian: 'er mer nyansert',
+    english: 'is more nuanced',
+    spanish: 'es más matizado',
+  },
+  {
+    norwegian: 'en streiting',
+    english: 'a straight person',
+    spanish: 'una persona heterosexual',
+  },
+  {
+    norwegian: 'som trekkes til',
+    english: 'who are drawn to',
+    spanish: 'que se sienten atraídos por',
+  },
+  {
+    norwegian: 'skadeskutt',
+    english: 'injured',
+    spanish: 'herido',
+  },
+  {
+    norwegian: 'stråhatt',
+    english: 'straw hat',
+    spanish: 'sombrero de paja',
+  },
+  {
+    norwegian: 'en fetter',
+    english: 'a cousin',
+    spanish: 'un primo',
+  },
+  {
+    norwegian: 'treffer på stadig',
+    english: 'meet more and more',
+    spanish: 'conocer cada vez más',
+  },
+  {
+    norwegian: 'forsøkt å bearbeide',
+    english: 'tried to process',
+    spanish: 'intentó procesar',
+  },
+  {
+    norwegian: 'et bare juks',
+    english: 'a pure fraud',
+    spanish: 'un fraude puro',
+  },
+  {
+    norwegian: 'litt innlysende',
+    english: 'a bit obvious',
+    spanish: 'un poco obvio',
+  },
+  {
+    norwegian: 'mange overbeviser seg selv',
+    english: 'many convince themselves',
+    spanish: 'muchos se convencen',
+  },
+  {
+    norwegian: 'som tenåring',
+    english: 'as a teenager',
+    spanish: 'como adolescente',
+  },
+  {
+    norwegian: 'opp listerte',
+    english: 'up listed',
+    spanish: 'arriba listado',
+  },
+  {
+    norwegian: 'hun veksler mye mellom',
+    english: 'she varies a lot between',
+    spanish: 'ella varía mucho entre',
+  },
+  {
+    norwegian: 'hun har bommet helt på',
+    english: 'she has completely missed',
+    spanish: 'ella ha fallado por completo en',
+  }
+  {
+    norwegian: 'veldig givende',
+    english: 'very rewarding',
+    spanish: 'muy gratificante',
+  },
+  {
+    norwegian: 'som regel ønsker',
+    english: 'usually wants',
+    spanish: 'generalmente quiere',
+  },
+  {
+    norwegian: 'har unike evner',
+    english: 'has unique abilities',
+    spanish: 'tiene habilidades únicas',
+  },
+  {
+    norwegian: 'å utnytte folk sitt behov',
+    english: 'to exploit people’s needs',
+    spanish: 'explotar las necesidades de las personas',
+  },
+  {
+    norwegian: 'så bombastiske uttalser',
+    english: 'such bombastic statements',
+    spanish: 'declaraciones tan bombásticas',
+  },
+  {
+    norwegian: 'skarpsyn',
+    english: 'sharp sight',
+    spanish: 'visión aguda',
+  },
+  {
+    norwegian: 'er vanskelig yrke',
+    english: 'is a difficult profession',
+    spanish: 'es una profesión difícil',
+  },
+  {
+    norwegian: 'utnytter folk',
+    english: 'exploits people',
+    spanish: 'explota a la gente',
+  },
+  {
+    norwegian: 'pesonlig sliter',
+    english: 'personally struggles',
+    spanish: 'personalmente lucha',
+  },
+  {
+    norwegian: 'en lesning på meg',
+    english: 'a reading on me',
+    spanish: 'una lectura sobre mí',
+  },
+  {
+    norwegian: 'en halvøy',
+    english: 'a peninsula',
+    spanish: 'una península',
+  },
+  {
+    norwegian: 'i stormen',
+    english: 'in the storm',
+    spanish: 'en la tormenta',
+  },
+  {
+    norwegian:'det er synd',
+    english: 'it is a pity',
+    spanish: 'es una pena',
+  },
+  {
+    norwegian: 'å bevise',
+    english: 'to prove',
+    spanish: 'probar',
+  },
+  {
+    norwegian: 'å overbevise',
+    english: 'to convince',
+    spanish: 'convencer',
+  },
+  {
+    norwegian: 'finner tilhørighet',
+    english: 'finds belonging',
+    spanish: 'encuentra pertenencia',
+  },
+  {
+    norwegian: 'en stund etterpå',
+    english: 'a while later',
+    spanish: 'un rato después',
+  }
 ];
