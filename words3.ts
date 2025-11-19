@@ -4995,5 +4995,85 @@ export const words: Question[] = [
     norwegian:'et innblikk i',
     english: 'an insight into',
     spanish: 'una visión de',
-  }
+  },
+  {
+    norwegian: 'til alle særforbund',
+    english: 'to all special federations',
+    spanish: 'a todas las federaciones especiales',
+  },
+  {
+    norwegian:'varsler',
+    english: 'whistleblower',
+    spanish: 'informante',
+  },
+  {
+    norwegian:'helt nedkjørte psykisk',
+    english: 'completely mentally exhausted',
+    spanish: 'completamente agotado mentalmente',
+  },
+   {
+    norwegian: 'skremmende of streng',
+    english: 'frighteningly strict',
+    spanish: 'aterradoramente estricto',
+   },
+   {
+    norwegian:'det smeller i hallen',
+    english: 'there is a bang in the hall',
+    spanish: 'hay un estruendo en el salón',
+   },
+   {
+    norwegian:'domsutvalg',
+    english: 'judicial committee',
+    spanish: 'comité judicial',
+   },
+   {
+    norwegian:'som krets',
+    english: 'as a district',
+    spanish: 'como distrito',
+   },
+   {
+    norwegian:'han knekker sammen',
+    english: 'he breaks down',
+    spanish: 'se derrumba',
+   },
+   {
+    norwegian:'oppløst i tårer',
+    english: 'dissolved in tears',
+    spanish: 'disuelto en lágrimas',
+   },
+   {
+    norwegian:'tar verken klubb',
+    english: 'takes neither club',
+    spanish: 'toma ni club',
+   },
+   {
+    norwegian:'for vold og trusler',
+    english: 'for violence and threats',
+    spanish: 'por violencia y amenazas',
+   },
+   {
+    norwegian:'han regelrett',
+    english: 'he downright',
+    spanish: 'él directamente',
+   },
+   {
+    norwegian:'hadde fått to forelegg',
+    english: 'had received two fines',
+    spanish: 'había recibido dos multas',
+   },
+   {
+    norwegian:'forbundsnivå',
+    english: 'federation level',
+    spanish: 'nivel de federación',
+  },
+   {
+    norwegian: 'avslo',
+    english: 'rejected',
+    spanish: 'rechazado',
+   },
+   {
+    norwegian: 'å ha klapset',
+    english: 'to have slapped',
+    spanish: 'haber abofeteado',
+   }
 ];
