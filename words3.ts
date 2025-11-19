@@ -1,5 +1,9 @@
-import { normalize } from 'path';
-import type { Question } from '../models/types.ts';
+type Question = {
+  norwegian: string;
+  english: string;
+  spanish: string;
+};
+
 
 export const words: Question[] = [
   {
@@ -4801,5 +4805,75 @@ export const words: Question[] = [
     norwegian:'vi nådd flere ',
     english: 'we reached several',
     spanish: 'alcanzamos varios',
+  },
+  {
+    norwegian: 'det smalt i hallen',
+    english: 'there was a bang in the hall',
+    spanish: 'hubo un estruendo en el pasillo',
+  },
+  {
+    norwegian: 'var ikke tynne nok',
+    english: 'were not thin enough',
+    spanish: 'no eran lo suficientemente delgados',
+  },
+  {
+    norwegian: 'mitt liv dreide seg om',
+    english: 'my life revolved around',
+    spanish: 'mi vida giraba en torno a',
+  },
+  {
+    norwegian:'uviktig',
+    english: 'unimportant',
+    spanish: 'sin importancia',
+  },
+  {
+    norwegian: 'trakkassering',
+    english: 'harassment',
+    spanish: 'acoso',
+  },
+  {
+    norwegian: 'utøvere over lengre tid',
+    english: 'perpetrators over a long period',
+    spanish: 'perpetradores durante un largo período',
+  },
+  {
+    norwegian: 'hva er det trenerne gjør',
+    english: 'what is it the coaches do',
+    spanish: '¿qué es lo que hacen los entrenadores?',
+  },
+  {
+    norwegian: 'jeg turte ikke å si fra',
+    english: "i didn't dare to report",
+    spanish: 'no me atreví a denunciar',
+  },
+  {
+    norwegian:'turnhallen',
+    english: 'the gymnasium',
+    spanish: 'el gimnasio',
+  },
+  {
+    norwegian: 'med utøvere',
+    english: 'with athletes',
+    spanish: 'con atletas',
+  },
+  {
+    norwegian: 'idrettsforbund',
+    english: 'sports federation',
+    spanish: 'federación deportiva',
+  },
+  {
+    norwegian: 'å stadig utfordre oss',
+    english: 'to constantly challenge us',
+    spanish: 'desafiarnos constantemente',
+  },
+  {
+    norwegian: 'er hvorvidt',
+    english: 'is whether',
+    spanish: 'es si',
+  },
+  {
+    norwegian: 'en fortid som gymnast',
+    english: 'a past as a gymnast',
+    spanish: 'un pasado como gimnasta',
   }
 ];
