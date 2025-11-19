@@ -4875,5 +4875,125 @@ export const words: Question[] = [
     norwegian: 'en fortid som gymnast',
     english: 'a past as a gymnast',
     spanish: 'un pasado como gimnasta',
+  },
+  {
+    norwegian: 'rytmisk gymnastikk',
+    english: 'rhythmic gymnastics',
+    spanish: 'gimnasia rítmica', 
+  },
+  {
+    norwegian:'de vonde opplevelsene',
+    english: 'the painful experiences',
+    spanish: 'las experiencias dolorosas',
+  },
+  {
+    norwegian: 'å få utøvere på toppnivå',
+    english: 'to get athletes to the top level',
+    spanish: 'llevar a los atletas al nivel superior',
+  },
+  {
+    norwegian:'et tilfelle',
+    english: 'a case',
+    spanish: 'un caso',
+  },
+  {
+    norwegian: 'hun laget løkke',
+    english: 'she made a loop',
+    spanish: 'ella hizo un lazo',
+  },
+  {
+    norwegian:'pedagogisk utdanning',
+    english: 'pedagogical education',
+    spanish: 'educación pedagógica',
+  },
+  {
+    norwegian: 'i psykiatrien',
+    english: 'in psychiatry',
+    spanish: 'en psiquiatría',
+  },
+  {
+    norwegian: 'til å være syltynn',
+    english: 'to be very thin',
+    spanish: 'para ser muy delgada',
+  },
+  {
+    norwegian: 'i tvil lenge',
+    english: 'in doubt for a long time',
+    spanish: 'en duda por mucho tiempo',
+  },
+  {
+    norwegian:'jeg stirret på henne',
+    english: 'i stared at her',
+    spanish: 'la miré',
+  },
+  {
+    norwegian:'omdømmet',
+    english: 'the reputation',
+    spanish: 'la reputación',
+  },
+  {
+    norwegian:'å lykkes med',
+    english: 'to succeed with',
+    spanish: 'tener éxito con',
+  },
+  {
+    norwegian: 'på landslaget',
+    english: 'on the national team',
+    spanish: 'en el equipo nacional',
+  },
+  {
+    norwegian: 'å reagere',
+    english: 'to react',
+    spanish: 'reaccionar',
+  },
+  {
+    norwegian:'er utestengt fra',
+    english: 'is banned from',
+    spanish: 'está prohibido de',
+  },
+  {
+    norwegian:'uro i hallen',
+    english: 'unrest in the hall',
+    spanish: 'disturbios en el salón',
+  },
+  {
+    norwegian:'at du henvendte deg',
+    english: 'that you approached',
+    spanish: 'que te acercaste',
+  },
+  {
+    norwegian:'dette samsvarer med',
+    english: 'this corresponds with',
+    spanish: 'esto corresponde con',
+  },
+  {
+    norwegian:'virkeligheten',
+    english: 'the reality',
+    spanish: 'la realidad',
+  },
+  {
+    norwegian:'er veileder',
+    english: 'is a mentor',
+    spanish: 'es un mentor',
+  },
+  {
+    norwegian:'jeg forlot klubben',
+    english: 'i left the club',
+    spanish: 'dejé el club',
+  },
+  {
+    norwegian:'turnhallens gulv',
+    english: 'the gymnasium floor',
+    spanish: 'el suelo del gimnasio',
+  },
+  {
+    norwegian:'at turnforbundet',
+    english: 'that the gymnastics federation',
+    spanish: 'que la federación de gimnasia',
+  },
+  {
+    norwegian:'et innblikk i',
+    english: 'an insight into',
+    spanish: 'una visión de',
   }
 ];
