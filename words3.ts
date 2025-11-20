@@ -5516,5 +5516,180 @@ export const words: Question[] = [
     norwegian: 'bakgrunn av empiri',
     english: 'based on empirical data',
     spanish: 'basado en datos empíricos',
+  },
+  {
+    norwegian: 'alt raknet',
+    english: 'everything fell apart',
+    spanish: 'todo se desmoronó',
+  },
+  {
+    norwegian:'fra spillernes felleskasse',
+    english: "from the players' common fund",
+    spanish: 'del fondo común de los jugadores',
+  },
+  {
+    norwegian:'er mottakelig for alle',
+    english: 'is susceptible to all',
+    spanish: 'es susceptible a todo',
+  },
+  {
+    norwegian: 'å skjule problemer',
+    english: 'to hide problems',
+    spanish: 'ocultar problemas',
+  },
+  {
+    norwegian: 'en skikkelig utblåsning',
+    english: 'a proper blowout',
+    spanish: 'una explosión adecuada',
+  },
+  {
+    norwegian:'det sluker deg',
+    english: 'it swallows you',
+    spanish: 'te traga',
+  },
+  {
+    norwegian: 'stolhet',
+    english: 'pride',
+    spanish: 'orgullo',
+  },
+  {
+    norwegian: 'du har forlatt hjembyen',
+    english: 'you have left your hometown',
+    spanish: 'has dejado tu ciudad natal',
+  },
+  {
+    norwegian: 'ingenting ondt i ham',
+    english: 'nothing evil in him',
+    spanish: 'nada malo en él',
+  },
+  {
+    norwegian: 'innrømmer',
+    english: 'admits',
+    spanish: 'admite',
+  },
+  {
+    norwegian: 'som tynger ham',
+    english: 'that burdens him',
+    spanish: 'que lo carga',
+  },
+  {
+    norwegian: 'det sliter ham ut',
+    english: 'it wears him out',
+    spanish: 'lo desgasta',
+  },
+  {
+    norwegian: 'det er bare et tastetrykk unna',
+    english: 'it is just a keystroke away',
+    spanish: 'está a solo un golpe de tecla de distancia',
+  },
+  {
+    norwegian: 'på toppidrettsutøvere',
+    english: 'on elite athletes',
+    spanish: 'en atletas de élite',
+  },
+  {
+    norwegian: 'å vedde på seg selv',
+    english: 'to bet on oneself',
+    spanish: 'apostar por uno mismo',
+  },
+  {
+    norwegian: 'travhesten',
+    english: 'the trotting horse',
+    spanish: 'el caballo de trote',
+  },
+  {
+    norwegian: 'det er belastende',
+    english: 'it is burdensome',
+    spanish: 'es gravoso',
+  },
+  {
+    norwegian: 'brennevin',
+    english: 'spirits',
+    spanish: 'espíritus',
+  },
+  {
+    norwegian: 'i elendighet',
+    english: 'in misery',
+    spanish: 'en la miseria',
+  },
+  {
+    norwegian:'fryktelig vanskelig',
+    english: 'terribly difficult',
+    spanish: 'terriblemente difícil',
+  },
+  {
+    norwegian:'forsker på',
+    english: 'researcher on',
+    spanish: 'investigador en',
+  },
+  {
+    norwegian:'har ingen skrupler',
+    english: 'has no scruples',
+    spanish: 'no tiene escrúpulos',
+  },
+  {
+    norwegian:'masse sjetonger',
+    english: 'lots of chips',
+    spanish: 'muchas fichas',
+  },
+  {
+    norwegian: 'med kortstokk',
+    english: 'with a deck of cards',
+    spanish: 'con una baraja de cartas',
+  },
+  {
+    norwegian:'er spenningen i det',
+    english: 'is the excitement in it',
+    spanish: 'es la emoción en ello',
+  },
+  {
+    norwegian:'alle problemer knyttet til det',
+    english: 'all problems related to it',
+    spanish: 'todos los problemas relacionados con ello',
+  },
+  {
+    norwegian: 'har et iboende problem',
+    english: 'has an inherent problem',
+    spanish: 'tiene un problema inherente',
+  },
+  {
+    norwegian: 'dermed blir forbud',
+    english: 'thus becomes prohibited',
+    spanish: 'por lo tanto se prohíbe',
+  },
+  {
+    norwegian: 'vi utrettet',
+    english: 'we accomplished',
+    spanish: 'logramos',
+  },
+  {
+    norwegian:'straffen',
+    english: 'the punishment',
+    spanish: 'el castigo',
+  },
+  {
+    norwegian: 'høyst ærverdige rett',
+    english: 'most honorable court',
+    spanish: 'tribunal más honorable',
+  },
+  {
+    norwegian: 'en del toppidrettsutøvere',
+    english: 'some elite athletes',
+    spanish: 'algunos atletas de élite',
+  },
+  {
+    norwegian: 'ydmyk',
+    english: 'humble',
+    spanish: 'humilde',
+  },
+  {
+    norwegian: 'hensikten',
+    english: 'the purpose',
+    spanish: 'el propósito',
+  },
+  {
+    norwegian: 'hensyn',
+    english: 'consideration',
+    spanish: 'consideración',
   }
 ];
