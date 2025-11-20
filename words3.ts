@@ -5431,5 +5431,90 @@ export const words: Question[] = [
     norwegian: 'blir ivaretatt',
     english: 'is taken care of',
     spanish: 'se cuida',
-   }
+   },
+   {
+    norwegian: 'å hive innpå 6 tabletter',
+    english: 'to gulp down 6 tablets',
+    spanish: 'tragar 6 tabletas',
+   },
+   {
+    norwegian: 'til frivillige lag og foreninger',
+    english: 'to voluntary teams and associations',
+    spanish: 'a equipos y asociaciones voluntarias',
+   },
+   {
+    norwegian: 'en bong koster ti kroner',
+    english: 'a ticket costs ten kroner',
+    spanish: 'un boleto cuesta diez coronas',
+   },
+   {
+    norwegian: 'i måneden uten å lide',
+    english: 'a month without suffering',
+    spanish: 'un mes sin sufrir',
+  },
+  {
+    norwegian: 'jeg vil sprenge hele bygningen',
+    english: 'i will blow up the whole building',
+    spanish: 'voy a volar todo el edificio',
+  },
+  {
+    norwegian: 'i fåreklær',
+    english: 'in sheep’s clothing',
+    spanish: 'con piel de oveja',
+  },
+  {
+    norwegian: 'til utenlandske nettkasinoer',
+    english: 'to foreign online casinos',
+    spanish: 'a casinos en línea extranjeros',
+  },
+  {
+    norwegian: 'vi tomrom som må fylles',
+    english: 'we are voids that must be filled',
+    spanish: 'somos vacíos que deben ser llenados',
+  },
+  {
+    norwegian: 'en transe',
+    english: 'a trance',
+    spanish: 'un trance',
+  },
+  {
+    norwegian: 'pårørende rundt om i landet',
+    english: 'relatives around the country',
+    spanish: 'parientes en todo el país',
+  },
+  {
+    norwegian: 'overfører penger',
+    english: 'transfers money',
+    spanish: 'transfiere dinero',
+  },
+  {
+    norwegian: 'mest utbredte',
+    english: 'most widespread',
+    spanish: 'más extendido',
+  },
+  {
+    norwegian: 'anket',
+    english: 'appealed',
+    spanish: 'apelado',
+  },
+  {
+    norwegian: 'kan tolke poker',
+    english: 'can interpret poker',
+    spanish: 'puede interpretar el póker',
+  },
+  {
+    norwegian: 'det er uglesett',
+    english: 'it is frowned upon',
+    spanish: 'está mal visto',
+  },
+  {
+    norwegian: 'færrest mulig',
+    english: 'as few as possible',
+    spanish: 'lo menos posible', 
+  },
+  {
+    norwegian: 'bakgrunn av empiri',
+    english: 'based on empirical data',
+    spanish: 'basado en datos empíricos',
+  }
 ];
