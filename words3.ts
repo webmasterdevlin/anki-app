@@ -5075,5 +5075,361 @@ export const words: Question[] = [
     norwegian: 'å ha klapset',
     english: 'to have slapped',
     spanish: 'haber abofeteado',
+   },
+   {
+    norwegian: 'akuttplassert en baby',
+    english: 'emergency placed a baby',
+    spanish: 'colocó de emergencia a un bebé',
+   },
+   {
+    norwegian: 'barnevernet',
+    english: 'the child welfare service',
+    spanish: 'el servicio de bienestar infantil',
+   },
+   {
+    norwegian: 'uopprettelig skadet',
+    english: 'irreparably damaged',
+    spanish: 'irremediablemente dañado',
+   },
+   {
+    norwegian:'et unikt innblikk',
+    english: 'a unique insight',
+    spanish: 'una visión única',
+   },
+   {
+    norwegian: 'for å avgjøre',
+    english: 'to decide',
+    spanish: 'decidir',
+   },
+   {
+    norwegian: 'får omsorgen det trenger',
+    english: 'gets the care it needs',
+    spanish: 'recibe el cuidado que necesita',
+   },
+   {
+    norwegian: 'har tiltagende angst',
+    english: 'has increasing anxiety',
+    spanish: 'tiene ansiedad creciente',
+   },
+   {
+    norwegian: 'det begrunnes med erfaringer',
+    english: 'it is justified with experiences',
+    spanish: 'se justifica con experiencias',
+   },
+   {
+    norwegian: 'en lang stund',
+    english: 'a long time',
+    spanish: 'un largo tiempo',
+   },
+   {
+    norwegian: 'kjennskap til',
+    english: 'knowledge of',
+    spanish: 'conocimiento de',
+   },
+   {
+    norwegian: 'til undersøkelsesavdelinge',
+    english: 'to the investigation department',
+    spanish: 'al departamento de investigación',
+   },
+   {
+    norwegian: 'hvorfor griper de ikke inn nå',
+    english: 'why don’t they intervene now',
+    spanish: '¿por qué no intervienen ahora?',
+   },
+   {
+    norwegian: 'vi har ikke hjemmel til',
+    english: 'we do not have the authority to',
+    spanish: 'no tenemos la autoridad para',
+   },
+   {
+    norwegian: 'å gripe inn',
+    english: 'to intervene',
+    spanish: 'intervenir',
+   },
+   {
+    norwegian:'sannheten',
+    english: 'the truth',
+    spanish: 'la verdad',
+   },
+   {
+    norwegian: 'det vil jeg helst ikke at noen skal vite',
+    english: 'i would preferably not want anyone to know',
+    spanish: 'preferiría que nadie lo supiera',
+   },
+   {
+    norwegian: 'etter de far ble dømt',
+    english: 'after the father was convicted',
+    spanish: 'después de que el padre fue condenado',
+   },
+   {
+    norwegian: 'han hadde samvær',
+    english: 'he had visitation',
+    spanish: 'tenía visitas',
+   },
+   {
+    norwegian: 'jeg forlot tilsynspersonen',
+    english: 'i left the supervisor',
+    spanish: 'dejé al supervisor',
+   },
+   {
+    norwegian: 'et grovt brudd på avtalen',
+    english: 'a gross breach of the agreement',
+    spanish: 'un incumplimiento grave del acuerdo',
+   },
+   {
+    norwegian: 'da forgriper han seg på',
+    english: 'then he assaults',
+    spanish: 'entonces él asalta',
+   },
+   {
+    norwegian: 'ytterligere belastning',
+    english: 'additional burden',
+    spanish: 'carga adicional',
+   },
+   {
+    norwegian: 'da svikter du jobben din',
+    english: 'then you fail your job',
+    spanish: 'entonces fallas en tu trabajo',
+   },
+   {
+    norwegian: 'er helheten i saken',
+    english: 'is the whole of the case',
+    spanish: 'es el conjunto del caso',
+   },
+   {
+    norwegian: 'har mistet tilliten til',
+    english: 'has lost trust in',
+    spanish: 'ha perdido la confianza en',
+   },
+   {
+    norwegian: 'har blitt bøtelagt',
+    english: 'has been fined',
+    spanish: 'ha sido multado',
+   },
+   {
+    norwegian: 'fått besøksforbud',
+    english: 'been given a restraining order',
+    spanish: 'se le ha dado una orden de restricción',
+   },
+   {
+    norwegian: 'har nektet å godta boten',
+    english: 'has refused to accept the fine',
+    spanish: 'se ha negado a aceptar la multa',
+   },
+   {
+    norwegian: 'det var brudd på',
+    english: 'there was a breach of',
+    spanish: 'hubo una violación de',
+   },
+   {
+    norwegian: 'besøksforbudet mitt',
+    english: 'my restraining order',
+    spanish: 'mi orden de restricción',
+   },
+   {
+    norwegian: 'da tilkalte de politiet',
+    english: 'then they called the police',
+    spanish: 'entonces llamaron a la policía',
+   },
+   {
+    norwegian: 'vi ble avhørt',
+    english: 'we were interrogated',
+    spanish: 'fuimos interrogados',
+   },
+   {
+    norwegian: 'det ble tatt legesjekk av oss',
+    english: 'we were given a medical check',
+    spanish: 'nos hicieron un chequeo médico',
+   },
+   {
+    norwegian: 'i timesvis',
+    english: 'for hours',
+    spanish: 'por horas',
+   },
+   {
+    norwegian: 'fylkesnemnda avgjør',
+    english: 'the county board decides',
+    spanish: 'la junta del condado decide',
+   },
+   {
+    norwegian: 'du rynker veldig på nesen',
+    english: 'you wrinkle your nose a lot',
+    spanish: 'arrugas mucho la nariz',
+   },
+   {
+    norwegian: 'at barnevernet brøt loven',
+    english: 'that the child welfare service broke the law',
+    spanish: 'que el servicio de bienestar infantil violó la ley',
+   },
+   {
+    norwegian: 'fylkesmannen pålagger dem',
+    english: 'the county governor imposes on them',
+    spanish: 'el gobernador del condado les impone',
+   },
+   {
+    norwegian: 'å gjennomgå saken på nytt',
+    english: 'to review the case again',
+    spanish: 'revisar el caso de nuevo',
+   },
+   {
+    norwegian: 'å redusere tvangsbruken',
+    english: 'to reduce the use of coercion',
+    spanish: 'reducir el uso de la coerción',
+   },
+   {
+    norwegian: 'vi må vedgå',
+    english: 'we must admit',
+    spanish: 'debemos admitir',
+   },
+   {
+    norwegian: 'det ligger i oppdraget',
+    english: 'it is in the mission',
+    spanish: 'está en la misión',
+   },
+   {
+    norwegian: 'et gjennomgående tema hos',
+    english: 'a recurring theme with',
+    spanish: 'un tema recurrente con',
+   },
+   {
+    norwegian: 'å bistå familier',
+    english: 'to assist families',
+    spanish: 'asistir a las familias',
+   },
+   {
+    norwegian: 'det innover deg',
+    english: 'it sinks in',
+    spanish: 'se hunde en ti',
+   },
+   {
+    norwegian: 'overta ansvaret',
+    english: 'take over the responsibility',
+    spanish: 'asumir la responsabilidad',
+   },
+   {
+    norwegian: 'jeg svelger et par ganger',
+    english: 'i swallow a couple of times',
+    spanish: 'trago un par de veces',
+   },
+   {
+    norwegian: 'man blir herdet',
+    english: 'one becomes hardened',
+    spanish: 'uno se endurece',
+   },
+   {
+    norwegian: 'å frata foreldre',
+    english: 'to deprive parents',
+    spanish: 'privar a los padres',
+   },
+   {
+    norwegian: 'i siste instans tar fylkesnemnda',
+    english: 'ultimately the county board takes',
+    spanish: 'en última instancia, la junta del condado toma',
+   },
+   {
+    norwegian: 'i forkant av',
+    english: 'in advance of',
+    spanish: 'antes de',
+   },
+   {
+    norwegian: 'midlertidig omsorgsovertakelse',
+    english: 'temporary care takeover',
+    spanish: 'toma de cuidado temporal',
+   },
+   {
+    norwegian: 'er forsvarlig',
+    english: 'is justifiable',
+    spanish: 'es justificable',
+   },
+   {
+    norwegian: 'det vil isåfall være frivillig',
+    english: 'it will then be voluntary',
+    spanish: 'entonces será voluntario',
+   },
+   {
+    norwegian: 'begrunnelsen for hva de mener',
+    english: 'the reasoning for what they think',
+    spanish: 'el razonamiento de lo que piensan',
+   },
+   {
+    norwegian: 'det har blitt en endring',
+    english: 'there has been a change',
+    spanish: 'ha habido un cambio',
+   },
+   {
+    norwegian: 'i nemnden',
+    english: 'in the committee',
+    spanish: 'en el comité',
+   },
+   {
+    norwegian: 'ble avdekket omsorgssvikt',
+    english: 'was uncovered neglect',
+    spanish: 'se descubrió negligencia',
+   },
+   {
+    norwegian: 'en beklagelse fra barnevernet',
+    english: 'an apology from the child welfare service',
+    spanish: 'una disculpa del servicio de bienestar infantil',
+   },
+   {
+    norwegian: 'jeg føler meg forfulgt',
+    english: 'i feel persecuted',
+    spanish: 'me siento perseguido',
+   },
+   {
+    norwegian: 'erstatningssøksmål',
+    english: 'compensation lawsuit',
+    spanish: 'demanda de compensación',
+   },
+   {
+    norwegian: 'vitnemål',
+    english: 'testimony',
+    spanish: 'testimonio',
+   },
+   {
+    norwegian: 'det kom for sent',
+    english: 'it arrived too late',
+    spanish: 'llegó demasiado tarde',
+   },
+   {
+    norwegian: 'i niende eller tiende',
+    english: 'in ninth or tenth',
+    english: 'en noveno o décimo',
+    spanish: 'en noveno o décimo',
+   },
+   {
+    norwegian: 'mye tilknytning',
+    english: 'a lot of connection',
+    spanish: 'mucha conexión',
+   },
+   {
+    norwegian: 'i trygge hender',
+    english: 'in safe hands',
+    spanish: 'en manos seguras',
+   },
+   {
+    norwegian: 'jer er litt skjelven',
+    english: 'i am a bit shaky',
+    spanish: 'estoy un poco tembloroso',
+   },
+   {
+    norwegian: 'men vi har fått vedtaket',
+    english: 'but we have received the decision',
+    spanish: 'pero hemos recibido la decisión',
+   },
+   {
+    norwegian: 'så fikk vi medhold i det',
+    english: 'then we were granted that',
+    spanish: 'entonces nos concedieron eso',
+   },
+   {
+    norwegian: 'omsorgen for barna',
+    english: 'the care of the children',
+    spanish: 'el cuidado de los niños',
+   },
+   {
+    norwegian: 'blir ivaretatt',
+    english: 'is taken care of',
+    spanish: 'se cuida',
    }
 ];
