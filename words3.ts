@@ -5603,9 +5603,9 @@ export const words: Question[] = [
     spanish: 'es gravoso',
   },
   {
-    norwegian: 'brennevin',
-    english: 'spirits',
-    spanish: 'espíritus',
+    norwegian: 'brennevin i brus',
+    english: 'spirits in soda',
+    spanish: 'espíritus en refresco',
   },
   {
     norwegian: 'i elendighet',
