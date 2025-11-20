@@ -5393,7 +5393,6 @@ export const words: Question[] = [
   {
     norwegian: "i niende eller tiende",
     english: "in ninth or tenth",
-    english: "en noveno o décimo",
     spanish: "en noveno o décimo",
   },
   {
