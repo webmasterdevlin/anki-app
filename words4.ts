@@ -1135,4 +1135,209 @@ export const words: Question[] = [
     english: "no embarrassing",
     spanish: "no embarazoso",
   },
+  {
+    norwegian: "å etablere meg",
+    english: "to establish myself",
+    spanish: "establecerme",
+  },
+  {
+    norwegian: "i strid",
+    english: "in conflict",
+    spanish: "en conflicto",
+  },
+  {
+    norwegian: "forsvart landet mitt",
+    english: "defended my country",
+    spanish: "defendí mi país",
+  },
+  {
+    norwegian: "hadde blitt truet",
+    english: "had been threatened",
+    spanish: "había sido amenazado",
+  },
+  {
+    norwegian: "å tulle med",
+    english: "to joke about",
+    spanish: "bromear sobre",
+  },
+  {
+    norwegian: "en historikk",
+    english: "a history",
+    spanish: "una historia",
+  },
+  {
+    norwegian: "som skiller dem fram oss",
+    english: "that distinguishes them from us",
+    spanish: "que los distingue de nosotros",
+  },
+  {
+    norwegian: "det er det som plager meg",
+    english: "that's what bothers me",
+    spanish: "eso es lo que me molesta",
+  },
+  {
+    norwegian: "har vervet seg til",
+    english: "have enlisted in",
+    spanish: "se han alistado en",
+  },
+  {
+    norwegian: "har slått seg sammen med",
+    english: "have teamed up with",
+    spanish: "se han unido a",
+  },
+  {
+    norwegian: "forstyrre deg",
+    english: "disturb you",
+    spanish: "perturbarte",
+  },
+  {
+    norwegian: "har vi seierssigar",
+    english: "we have victory cigars",
+    spanish: "tenemos puros de la victoria",
+  },
+  {
+    norwegian: "samme hensikt",
+    english: "same purpose",
+    spanish: "mismo propósito",
+  },
+  {
+    norwegian: "avskummet",
+    english: "the scum",
+    spanish: "la escoria",
+  },
+  {
+    norwegian: "å bidra",
+    english: "to contribute",
+    spanish: "contribuir",
+  },
+  {
+    norwegian: "å verve seg",
+    english: "to enlist",
+    spanish: "alistarse",
+  },
+  {
+    norwegian: "er ute i felten",
+    english: "are out in the field",
+    spanish: "están en el campo",
+  },
+  {
+    norwegian: "for fedrelandet",
+    english: "for the fatherland",
+    spanish: "por la patria",
+  },
+  {
+    norwegian: "forsvaret om",
+    english: "the defense about",
+    spanish: "la defensa sobre",
+  },
+  {
+    norwegian: "et steinkast fra",
+    english: "a stone's throw from",
+    spanish: "a un paso de",
+  },
+  {
+    norwegian: "vernepliktige",
+    english: "conscripts",
+    spanish: "conscriptos",
+  },
+  {
+    norwegian: "alle rettigheter",
+    english: "all rights",
+    spanish: "todos los derechos",
+  },
+  {
+    norwegian: "brøt ut",
+    english: "broke out",
+    spanish: "estalló",
+  },
+  {
+    norwegian: "har ikke veid meg",
+    english: "have not weighed myself",
+    spanish: "no me he pesado",
+  },
+  {
+    norwegian: "hva forventer du",
+    english: "what do you expect",
+    spanish: "¿qué esperas?",
+  },
+  {
+    norwegian: "jeg angret",
+    english: "I regretted",
+    spanish: "me arrepentí",
+  },
+  {
+    norwegian: "å ofre livet mitt",
+    english: "to sacrifice my life",
+    spanish: "sacrificar mi vida",
+  },
+  {
+    norwegian: "bra innsats som mulig",
+    english: "good effort as possible",
+    spanish: "buen esfuerzo como sea posible",
+  },
+  {
+    norwegian: "å ugjøre en forskjell",
+    english: "to make a difference",
+    spanish: "hacer una diferencia",
+  },
+  {
+    norwegian: "beste kår",
+    english: "best conditions",
+    spanish: "mejores condiciones",
+  },
+  {
+    norwegian: "tatt og gitt",
+    english: "taken and given",
+    spanish: "tomado y dado",
+  },
+  {
+    norwegian: "da klikket flere av oss",
+    english: "then several of us clicked",
+    spanish: "entonces varios de nosotros hicimos clic",
+  },
+  {
+    norwegian: "enfarne folk",
+    english: "experienced people",
+    spanish: "gente experimentada",
+  },
+  {
+    norwegian: "han er så preget",
+    english: "he is so affected",
+    spanish: "está tan afectado",
+  },
+  {
+    norwegian: "tydeligvis vurderer å reise tilabke",
+    english: "is obviously considering returning",
+    spanish: "obviamente está considerando regresar",
+  },
+  {
+    norwegian: "bieffekter",
+    english: "side effects",
+    spanish: "efectos secundarios",
+  },
+  {
+    norwegian: "forsvaret",
+    english: "the defense",
+    spanish: "la defensa",
+  },
+  {
+    norwegian: "emosjonell stresstilvenning",
+    english: "emotional stress adaptation",
+    spanish: "adaptación al estrés emocional",
+  },
+  {
+    norwegian: "enhver krigen",
+    english: "any war",
+    spanish: "cualquier guerra",
+  },
+  {
+    norwegian: "å utforske",
+    english: "to explore",
+    spanish: "explorar",
+  },
+  {
+    norwegian: "hadde stukket av",
+    english: "had run away",
+    spanish: "había huido",
+  },
 ];
