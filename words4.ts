@@ -1010,4 +1010,129 @@ export const words: Question[] = [
     english: "she is on disability benefits",
     spanish: "ella está en beneficios por discapacidad",
   },
+  {
+    norwegian: "tåle mye",
+    english: "endure a lot",
+    spanish: "soportar mucho",
+  },
+  {
+    norwegian: "gjennomforte",
+    english: "carried out",
+    spanish: "llevado a cabo",
+  },
+  {
+    norwegian: "vi ikke skjønnmaler ting",
+    english: "we do not sugarcoat things",
+    spanish: "no endulzamos las cosas",
+  },
+  {
+    norwegian: "for å kjempe",
+    english: "to fight",
+    spanish: "luchar",
+  },
+  {
+    norwegian: "verve seg",
+    english: "enlist",
+    spanish: "alistarse",
+  },
+  {
+    norwegian: "på skytebane",
+    english: "at the shooting range",
+    spanish: "en el campo de tiro",
+  },
+  {
+    norwegian: "har begått",
+    english: "have committed",
+    spanish: "han cometido",
+  },
+  {
+    norwegian: "på randen av",
+    english: "on the brink of",
+    spanish: "al borde de",
+  },
+  {
+    norwegian: "får tatt over",
+    english: "gets taken over",
+    spanish: "es tomado por",
+  },
+  {
+    norwegian: "på sivile",
+    english: "in civilian clothes",
+    spanish: "de civil",
+  },
+  {
+    norwegian: "et selvmordstokt",
+    english: "a suicide mission",
+    spanish: "una misión suicida",
+  },
+  {
+    norwegian: "set selvmordstokt",
+    english: "a suicide mission",
+    spanish: "una misión suicida",
+  },
+  {
+    norwegian: "heltene",
+    english: "the heroes",
+    spanish: "los héroes",
+  },
+  {
+    norwegian: "for å komme nærmere alvoret",
+    english: "to get closer to the seriousness",
+    spanish: "para acercarse a la seriedad",
+  },
+  {
+    norwegian: "å skyte litt",
+    english: "to shoot a little",
+    spanish: "disparar un poco",
+  },
+  {
+    norwegian: "internasjonale oppdrag",
+    english: "international missions",
+    spanish: "misiones internacionales",
+  },
+  {
+    norwegian: "forfatter",
+    english: "author",
+    spanish: "autor",
+  },
+  {
+    norwegian: "som kunne stått der",
+    english: "that could have stood there",
+    spanish: "que podría haber estado allí",
+  },
+  {
+    norwegian: "den avgjørelsen",
+    english: "that decision",
+    spanish: "esa decisión",
+  },
+  {
+    norwegian: "sammensatt",
+    english: "composite",
+    spanish: "compuesto",
+  },
+  {
+    norwegian: "none fellestrekk",
+    english: "no common features",
+    spanish: "no hay características comunes",
+  },
+  {
+    norwegian: "mannsideal",
+    english: "male ideal",
+    spanish: "ideal masculino",
+  },
+  {
+    norwegian: "litt utfordret",
+    english: "a bit challenged",
+    spanish: "un poco desafiado",
+  },
+  {
+    norwegian: "helt innafor",
+    english: "completely acceptable",
+    spanish: "completamente aceptable",
+  },
+  {
+    norwegian: "ingen flaut",
+    english: "no embarrassing",
+    spanish: "no embarazoso",
+  },
 ];
