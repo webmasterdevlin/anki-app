@@ -755,4 +755,259 @@ export const words: Question[] = [
     english: "otherwise exudes prosperity",
     spanish: "de lo contrario exuda prosperidad",
   },
+  {
+    norwegian: "å anse",
+    english: "to consider",
+    spanish: "considerar",
+  },
+  {
+    norwegian: "idrettslag",
+    english: "sports teams",
+    spanish: "equipos deportivos",
+  },
+  {
+    norwegian: "forbindes med mye skam",
+    english: "is associated with a lot of shame",
+    spanish: "se asocia con mucha vergüenza",
+  },
+  {
+    norwegian: "oppmerksomhet som mulig",
+    english: "attention as possible",
+    spanish: "atención lo más posible",
+  },
+  {
+    norwegian: "er ikke like artig",
+    english: "is not as fun",
+    spanish: "no es tan divertido",
+  },
+  {
+    norwegian: "nederlaget",
+    english: "the defeat",
+    spanish: "la derrota",
+  },
+  {
+    norwegian: "gjør inntrykket av at",
+    english: "gives the impression that",
+    spanish: "da la impresión de que",
+  },
+  {
+    norwegian: "har en ting til felles",
+    english: "have one thing in common",
+    spanish: "tienen una cosa en común",
+  },
+  {
+    norwegian: "skille mellom de",
+    english: "distinguish between the",
+    spanish: "distinguir entre los",
+  },
+  {
+    norwegian: "eiemarkedet",
+    english: "the ownership market",
+    spanish: "el mercado de la propiedad",
+  },
+  {
+    norwegian: "skattemessig fordeler",
+    english: "tax advantages",
+    spanish: "ventajas fiscales",
+  },
+  {
+    norwegian: "husleie",
+    english: "rent",
+    spanish: "alquiler",
+  },
+  {
+    norwegian: "offentlig",
+    english: "public",
+    spanish: "público",
+  },
+  {
+    norwegian: "i knipee med",
+    english: "in a pinch with",
+    spanish: "en un apuro con",
+  },
+  {
+    norwegian: "om omfanget",
+    english: "about the extent",
+    spanish: "sobre el alcance",
+  },
+  {
+    norwegian: "skulle forsket",
+    english: "should have researched",
+    spanish: "debería haber investigado",
+  },
+  {
+    norwegian: "en akuttfase",
+    english: "an acute phase",
+    spanish: "una fase aguda",
+  },
+  {
+    norwegian: "rømningsveier",
+    english: "escape routes",
+    spanish: "rutas de escape",
+  },
+  {
+    norwegian: "som driver tilsyn med",
+    english: "that supervises",
+    spanish: "que supervisa",
+  },
+  {
+    norwegian: "å hevde sine",
+    english: "to assert their",
+    spanish: "para afirmar sus",
+  },
+  {
+    norwegian: "ofte gjeldende",
+    english: "often applicable",
+    spanish: "a menudo aplicable",
+  },
+  {
+    norwegian: "ulovlige oppholdsrom",
+    english: "illegal living spaces",
+    spanish: "espacios de vida ilegales",
+  },
+  {
+    norwegian: "utnyttelse",
+    english: "exploitation",
+    spanish: "explotación",
+  },
+  {
+    norwegian: "kakerlakker",
+    english: "cockroaches",
+    spanish: "cucarachas",
+  },
+  {
+    norwegian: "skjegg",
+    english: "beard",
+    spanish: "barba",
+  },
+  {
+    norwegian: "to ledige leiligheter",
+    english: "two available apartments",
+    spanish: "dos apartamentos disponibles",
+  },
+  {
+    norwegian: "troverdig",
+    english: "credible",
+    spanish: "creíble",
+  },
+  {
+    norwegian: "å utgi oss",
+    english: "to pretend to be",
+    spanish: "hacerse pasar por",
+  },
+  {
+    norwegian: "trekker",
+    english: "withdraws",
+    spanish: "se retira",
+  },
+  {
+    norwegian: "er skjegget greit",
+    english: "is the beard okay",
+    spanish: "¿está bien la barba?",
+  },
+  {
+    norwegian: "kvadratmeter",
+    english: "square meters",
+    spanish: "metros cuadrados",
+  },
+  {
+    norwegian: "på en dyne",
+    english: "on a duvet",
+    spanish: "en un edredón",
+  },
+  {
+    norwegian: "det lå sneiper på gulvet",
+    english: "there were cigarette butts on the floor",
+    spanish: "había colillas de cigarrillos en el suelo",
+  },
+  {
+    norwegian: "pusset opp",
+    english: "renovated",
+    spanish: "renovado",
+  },
+  {
+    norwegian: "å skrape",
+    english: "to scrape",
+    spanish: "raspar",
+  },
+  {
+    norwegian: "fremmøtte",
+    english: "attendees",
+    spanish: "asistentes",
+  },
+  {
+    norwegian: "mugskadder",
+    english: "mold damage",
+    spanish: "daños por moho",
+  },
+  {
+    norwegian: "inne den staken holder",
+    english: "inside that stick holds",
+    spanish: "dentro de ese palo sostiene",
+  },
+  {
+    norwegian: "å brekke meg",
+    english: "to throw up",
+    spanish: "vomitar",
+  },
+  {
+    norwegian: "en brannfelle av dimensjoner",
+    english: "a fire trap of dimensions",
+    spanish: "una trampa de fuego de dimensiones",
+  },
+  {
+    norwegian: "han stuer dem bare inn",
+    english: "he just stuffs them in",
+    spanish: "simplemente los mete",
+  },
+  {
+    norwegian: "enten fukt",
+    english: "either moisture",
+    spanish: "ya sea humedad",
+  },
+  {
+    norwegian: "avføring",
+    english: "feces",
+    spanish: "heces",
+  },
+  {
+    norwegian: "virkigliheten",
+    english: "the reality",
+    spanish: "la realidad",
+  },
+  {
+    norwegian: "huseier har ikke besvart",
+    english: "the landlord has not responded",
+    spanish: "el propietario no ha respondido",
+  },
+  {
+    norwegian: "er medlemmer av boligstiftelsen",
+    english: "are members of the housing foundation",
+    spanish: "son miembros de la fundación de vivienda",
+  },
+  {
+    norwegian: "en rimelig pris",
+    english: "a reasonable price",
+    spanish: "un precio razonable",
+  },
+  {
+    norwegian: "en avkastning på",
+    english: "a return on",
+    spanish: "un retorno sobre",
+  },
+  {
+    norwegian: "stiftelsen",
+    english: "the foundation",
+    spanish: "la fundación",
+  },
+  {
+    norwegian: "er likhet",
+    english: "is equality",
+    spanish: "es igualdad",
+  },
+  {
+    norwegian: "hun er uføretrygdet",
+    english: "she is on disability benefits",
+    spanish: "ella está en beneficios por discapacidad",
+  },
 ];
