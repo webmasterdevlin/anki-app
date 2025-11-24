@@ -1340,4 +1340,294 @@ export const words: Question[] = [
     english: "had run away",
     spanish: "había huido",
   },
+  {
+    norwegian: "å rase sammen",
+    english: "to collapse",
+    spanish: "colapsar",
+  },
+  {
+    norwegian: "tifeldigvis meg",
+    english: "fortunately me",
+    spanish: "afortunadamente yo",
+  },
+  {
+    norwegian: "kropp og vekt og former",
+    english: "body and weight and shapes",
+    spanish: "cuerpo y peso y formas",
+  },
+  {
+    norwegian: "spiseforstyrrelser",
+    english: "eating disorders",
+    spanish: "trastornos alimentarios",
+  },
+  {
+    norwegian: "en personlighetsforstyrrelse",
+    english: "a personality disorder",
+    spanish: "un trastorno de la personalidad",
+  },
+  {
+    norwegian: "avreise",
+    english: "departure",
+    spanish: "salida",
+  },
+  {
+    norwegian: "uvanen",
+    english: "the habit",
+    spanish: "el hábito",
+  },
+  {
+    norwegian: "litt straff of beroligende",
+    english: "a little punishment and sedatives",
+    spanish: "un poco de castigo y sedantes",
+  },
+  {
+    norwegian: "psykiske lidelser som",
+    english: "mental disorders such as",
+    spanish: "trastornos mentales como",
+  },
+  {
+    norwegian: "er litt smuler her",
+    english: "is a little crumbs here",
+    spanish: "hay unas migajas aquí",
+  },
+  {
+    norwegian: "i barndommen",
+    english: "in childhood",
+    spanish: "en la infancia",
+  },
+  {
+    norwegian: "hun mye in stallen",
+    english: "she a lot in the stable",
+    spanish: "ella mucho en el establo",
+  },
+  {
+    norwegian: "i utgangspunktet",
+    english: "initially",
+    spanish: "inicialmente",
+  },
+  {
+    norwegian: "gruer meg",
+    english: "dread",
+    spanish: "temo",
+  },
+  {
+    norwegian: "hun tilhører",
+    english: "she belongs to",
+    spanish: "ella pertenece a",
+  },
+  {
+    norwegian: "det war svært",
+    english: "it was difficult",
+    spanish: "fue difícil",
+  },
+  {
+    norwegian: "en pleier på hver side",
+    english: "a nurse on each side",
+    spanish: "una enfermera a cada lado",
+  },
+  {
+    norwegian: "et politisk veivalg",
+    english: "a political choice",
+    spanish: "una elección política",
+  },
+  {
+    norwegian: "to tredeler av",
+    english: "two thirds of",
+    spanish: "dos tercios de",
+  },
+  {
+    norwegian: "er et verksted",
+    english: "is a workshop",
+    spanish: "es un taller",
+  },
+  {
+    norwegian: "var langtidsomsorg",
+    english: "was long-term care",
+    spanish: "era cuidado a largo plazo",
+  },
+  {
+    norwegian: "oppbevaring",
+    english: "storage",
+    spanish: "almacenamiento",
+  },
+  {
+    norwegian: "ligge reimet fast",
+    english: "lie strapped down",
+    spanish: "estar atado",
+  },
+  {
+    norwegian: "kostlisten min",
+    english: "my diet list",
+    spanish: "mi lista de dieta",
+  },
+  {
+    norwegian: "et stykke igjen",
+    english: "a way to go",
+    spanish: "un camino por recorrer",
+  },
+  {
+    norwegian: "jeg her fulgt",
+    english: "I have followed",
+    spanish: "he seguido",
+  },
+  {
+    norwegian: "gudskjelov i tide",
+    english: "thank God in time",
+    spanish: "gracias a Dios a tiempo",
+  },
+  {
+    norwegian: "en overhengende",
+    english: "an imminent",
+    spanish: "un inminente",
+  },
+  {
+    norwegian: "alt sviktet",
+    english: "everything failed",
+    spanish: "todo falló",
+  },
+  {
+    norwegian: "avslo å henvise henne videre",
+    english: "refused to refer her further",
+    spanish: "se negó a referirla más allá",
+  },
+  {
+    norwegian: "er tilfeldig",
+    english: "is random",
+    spanish: "es aleatorio",
+  },
+  {
+    norwegian: "stillingene og symptomene",
+    english: "the positions and symptoms",
+    spanish: "las posiciones y los síntomas",
+  },
+  {
+    norwegian: "det er uforståelig for meg at",
+    english: "it is incomprehensible to me that",
+    spanish: "es incomprensible para mí que",
+  },
+  {
+    norwegian: "det skremmer meg",
+    english: "it scares me",
+    spanish: "me asusta",
+  },
+  {
+    norwegian: "samlet i hviletid",
+    english: "collected in rest time",
+    spanish: "recogido en tiempo de descanso",
+  },
+  {
+    norwegian: "litt stusselig",
+    english: "a bit shabby",
+    spanish: "un poco desgastado",
+  },
+  {
+    norwegian: "er siste innleggelse",
+    english: "is the last admission",
+    spanish: "es la última admisión",
+  },
+  {
+    norwegian: "når vi trapper ned",
+    english: "when we step down",
+    spanish: "cuando bajamos",
+  },
+  {
+    norwegian: "det skorter ofte på",
+    english: "it often lacks",
+    spanish: "a menudo carece de",
+  },
+  {
+    norwegian: "det svikter veldig",
+    english: "it fails a lot",
+    spanish: "falla mucho",
+  },
+  {
+    norwegian: "det har funket",
+    english: "it has worked",
+    spanish: "ha funcionado",
+  },
+  {
+    norwegian: "til å sy sammen",
+    english: "to sew together",
+    spanish: "para coser juntos",
+  },
+  {
+    norwegian: "et opplegg for deg selv",
+    english: "a plan for yourself",
+    spanish: "un plan para ti mismo",
+  },
+  {
+    norwegian: "prøve å skreddersy",
+    english: "try to tailor",
+    spanish: "intentar adaptar",
+  },
+  {
+    norwegian: "som gir mestringsfølelse",
+    english: "that gives a sense of mastery",
+    spanish: "que da una sensación de dominio",
+  },
+  {
+    norwegian: "for å ivareta behov og interesser",
+    english: "to safeguard needs and interests",
+    spanish: "para salvaguardar necesidades e intereses",
+  },
+  {
+    norwegian: "alle kureres",
+    english: "all are cured",
+    spanish: "todos son curados",
+  },
+  {
+    norwegian: "psykiatrien",
+    english: "psychiatry",
+    spanish: "psiquiatría",
+  },
+  {
+    norwegian: "psykiske lidelser som",
+    english: "mental disorders such as",
+    spanish: "trastornos mentales como",
+  },
+  {
+    norwegian: "trøster og linder",
+    english: "comforts and soothes",
+    spanish: "conforta y calma",
+  },
+  {
+    norwegian: "et ensidig",
+    english: "a one-sided",
+    spanish: "unilateral",
+  },
+  {
+    norwegian: "innenfor psykisk",
+    english: "within mental",
+    spanish: "dentro de lo mental",
+  },
+  {
+    norwegian: "fagfeltet",
+    english: "the field",
+    spanish: "el campo",
+  },
+  {
+    norwegian: "du skal strekke deg",
+    english: "you shall stretch yourself",
+    spanish: "debes estirarte",
+  },
+  {
+    norwegian: "det stemmer",
+    english: "that is correct",
+    spanish: "eso es correcto",
+  },
+  {
+    norwegian: "det er rørende",
+    english: "it is touching",
+    spanish: "es conmovedor",
+  },
+  {
+    norwegian: "har vært smitta",
+    english: "have been infected",
+    spanish: "han sido infectados",
+  },
+  {
+    norwegian: "skrivekurset i Italia",
+    english: "the writing course in Italy",
+    spanish: "el curso de escritura en Italia",
+  },
 ];
