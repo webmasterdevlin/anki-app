@@ -1630,4 +1630,484 @@ export const words: Question[] = [
     english: "the writing course in Italy",
     spanish: "el curso de escritura en Italia",
   },
+  {
+    norwegian: "alvoret synker",
+    english: "the seriousness sinks",
+    spanish: "la seriedad se hunde",
+  },
+  {
+    norwegian: "innmari godt",
+    english: "really well",
+    spanish: "muy bien",
+  },
+  {
+    norwegian: "en nasjonal undersøkelse anslår at",
+    english: "a national survey estimates that",
+    spanish: "una encuesta nacional estima que",
+  },
+  {
+    norwegian: "det begås 3 voldtekter in Norge",
+    english: "there are 3 rapes committed in Norway",
+    spanish: "se cometen 3 violaciones en Noruega",
+  },
+  {
+    norwegian: "overgriperne blir straffet",
+    english: "the perpetrators are punished",
+    spanish: "los perpetradores son castigados",
+  },
+  {
+    norwegian: "gjerningsmenn fri",
+    english: "perpetrators free",
+    spanish: "perpetradores libres",
+  },
+  {
+    norwegian: "som er utsatt for overgrep",
+    english: "who are subjected to abuse",
+    spanish: "que son sometidos a abuso",
+  },
+  {
+    norwegian: "etter en hendelse forsøker",
+    english: "after an incident tries",
+    spanish: "después de un incidente intenta",
+  },
+  {
+    norwegian: "er både ivaretakelse",
+    english: "is both care",
+    spanish: "es tanto cuidado",
+  },
+  {
+    norwegian: "undersøkelsen er nok klar",
+    english: "the investigation is probably clear",
+    spanish: "la investigación probablemente esté clara",
+  },
+  {
+    norwegian: "ikke å mobilisere",
+    english: "not to mobilize",
+    spanish: "no movilizar",
+  },
+  {
+    norwegian: "overgrepsmottak",
+    english: "abuse reception",
+    spanish: "recepción de abuso",
+  },
+  {
+    norwegian: "en offentlig etat i",
+    english: "a public agency in",
+    spanish: "una agencia pública en",
+  },
+  {
+    norwegian: "ble ikke oppfordret",
+    english: "was not encouraged",
+    spanish: "no fue alentado",
+  },
+  {
+    norwegian: "å kontakte politiet",
+    english: "to contact the police",
+    spanish: "contactar a la policía",
+  },
+  {
+    norwegian: "hun ble innkalt til en felles samtale hos",
+    english: "she was summoned to a joint conversation at",
+    spanish: "fue convocada a una conversación conjunta en",
+  },
+  {
+    norwegian: "bedriftshelsetjenesten",
+    english: "the occupational health service",
+    spanish: "el servicio de salud ocupacional",
+  },
+  {
+    norwegian: "overgriperen",
+    english: "the perpetrator",
+    spanish: "el perpetrador",
+  },
+  {
+    norwegian: "snakker på vegne av",
+    english: "speaks on behalf of",
+    spanish: "habla en nombre de",
+  },
+  {
+    norwegian: "i lukkede",
+    english: "in closed",
+    spanish: "en cerrado",
+  },
+  {
+    norwegian: "er helt hinsides",
+    english: "is completely beyond",
+    spanish: "está completamente más allá",
+  },
+  {
+    norwegian: "han tatt inn til avhør",
+    english: "he taken in for questioning",
+    spanish: "él llevado a interrogatorio",
+  },
+  {
+    norwegian: "han har blånekte i",
+    english: "he has denied in",
+    spanish: "él ha negado en",
+  },
+  {
+    norwegian: "i avhør med politiet",
+    english: "in interrogation with the police",
+    spanish: "en interrogatorio con la policía",
+  },
+  {
+    norwegian: "var med samtykke",
+    english: "was with consent",
+    spanish: "fue con consentimiento",
+  },
+  {
+    norwegian: "en vikar om satt på krimvakta",
+    english: "a temp who was on crime watch",
+    spanish: "un temporal que estaba en vigilancia criminal",
+  },
+  {
+    norwegian: "er i dag henlagt",
+    english: "is dismissed today",
+    spanish: "se desestima hoy",
+  },
+  {
+    norwegian: "innstilling om henleggelse",
+    english: "recommendation for dismissal",
+    spanish: "recomendación de despido",
+  },
+  {
+    norwegian: "en uskyldig blir dømt",
+    english: "an innocent person is convicted",
+    spanish: "una persona inocente es condenada",
+  },
+  {
+    norwegian: "er veldig preget",
+    english: "is very affected",
+    spanish: "está muy afectado",
+  },
+  {
+    norwegian: "fornærmede",
+    english: "the offended party",
+    spanish: "la parte ofendida",
+  },
+  {
+    norwegian: "de avhørte ett vitne",
+    english: "they interviewed one witness",
+    spanish: "entrevistaron a un testigo",
+  },
+  {
+    norwegian: "fornærmede mistenkte",
+    english: "the offended party suspected",
+    spanish: "la parte ofendida sospechaba",
+  },
+  {
+    norwegian: "å ikke bli tatt på alvor",
+    english: "not to be taken seriously",
+    spanish: "no ser tomado en serio",
+  },
+  {
+    norwegian: "som uberettiget og tung",
+    english: "as unjustified and heavy",
+    spanish: "como injustificado y pesado",
+  },
+  {
+    norwegian: "med ytterligere uttalelser",
+    english: "with further statements",
+    spanish: "con más declaraciones",
+  },
+  {
+    norwegian: "som hår i suppa",
+    english: "like hair in the soup",
+    spanish: "como pelo en la sopa",
+  },
+  {
+    norwegian: "tråkket på",
+    english: "stepped on",
+    spanish: "pisado",
+  },
+  {
+    norwegian: "av nedverdigelse og redsel",
+    english: "of humiliation and fear",
+    spanish: "de humillación y miedo",
+  },
+  {
+    norwegian: "i forbindelse med en jobbfest",
+    english: "in connection with a work party",
+    spanish: "en relación con una fiesta de trabajo",
+  },
+  {
+    norwegian: "saken foreligger",
+    english: "the case exists",
+    spanish: "el caso existe",
+  },
+  {
+    norwegian: "så ødelegger det virkelighetsbildet",
+    english: "then it destroys the reality",
+    spanish: "entonces destruye la realidad",
+  },
+  {
+    norwegian: "etterforskningen",
+    english: "the investigation",
+    spanish: "la investigación",
+  },
+  {
+    norwegian: "med vitner",
+    english: "with witnesses",
+    spanish: "con testigos",
+  },
+  {
+    norwegian: "som kunne opplyse saken",
+    english: "that could clarify the case",
+    spanish: "que podría aclarar el caso",
+  },
+  {
+    norwegian: "valgte å ta ut en tiltale",
+    english: "chose to file a charge",
+    spanish: "eligió presentar un cargo",
+  },
+  {
+    norwegian: "henlagt",
+    english: "dismissed",
+    spanish: "desestimado",
+  },
+  {
+    norwegian: "får innhentet",
+    english: "gets collected",
+    spanish: "se recopila",
+  },
+  {
+    norwegian: "å få belyst",
+    english: "to get illuminated",
+    spanish: "para iluminar",
+  },
+  {
+    norwegian: "om i forkant",
+    english: "about in advance",
+    spanish: "sobre por adelantado",
+  },
+  {
+    norwegian: "å belyse saken",
+    english: "to illuminate the case",
+    spanish: "iluminar el caso",
+  },
+  {
+    norwegian: "bistandsadvokat",
+    english: "assistance lawyer",
+    spanish: "abogado de asistencia",
+  },
+  {
+    norwegian: "all lovbrudd må kunne",
+    english: "all crimes must be able to",
+    spanish: "todos los delitos deben poder",
+  },
+  {
+    norwegian: "bevises ut over rimelig tvil",
+    english: "be proven beyond a reasonable doubt",
+    spanish: "probarse más allá de toda duda razonable",
+  },
+  {
+    norwegian: "til å avhøre flere vitner",
+    english: "to question more witnesses",
+    spanish: "para interrogar a más testigos",
+  },
+  {
+    norwegian: "å oppfylle de",
+    english: "to fulfill the",
+    spanish: "cumplir con los",
+  },
+  {
+    norwegian: "etterforskningen",
+    english: "the investigation",
+    spanish: "la investigación",
+  },
+  {
+    norwegian: "kpm det ytterligere to anmeldelser",
+    english: "there were an additional two reports",
+    spanish: "hubo dos informes adicionales",
+  },
+  {
+    norwegian: "etterforsket sammen",
+    english: "investigated together",
+    spanish: "investigado juntos",
+  },
+  {
+    norwegian: "påtalemessig behandlet",
+    english: "prosecuted",
+    spanish: "procesado",
+  },
+  {
+    norwegian: "ble henlagt",
+    english: "was dismissed",
+    spanish: "fue desestimado",
+  },
+  {
+    norwegian: "politiet får kjennskap til",
+    english: "the police become aware of",
+    spanish: "la policía se da cuenta de",
+  },
+  {
+    norwegian: "et fåtall av",
+    english: "a few of",
+    spanish: "unos pocos de",
+  },
+  {
+    norwegian: "vi kanskje erkjenne",
+    english: "we may acknowledge",
+    spanish: "podemos reconocer",
+  },
+  {
+    norwegian: "noen lunde navla",
+    english: "somewhat navel-gazing",
+    spanish: "algo narcisista",
+  },
+  {
+    norwegian: "de tråkker over",
+    english: "they step over",
+    spanish: "pasan por encima de",
+  },
+  {
+    norwegian: "avvisning",
+    english: "rejection",
+    spanish: "rechazo",
+  },
+  {
+    norwegian: "det føler seg krenket og avvist",
+    english: "it feels violated and rejected",
+    spanish: "se siente violado y rechazado",
+  },
+  {
+    norwegian: "omfattende svikhistorie",
+    english: "extensive history of abuse",
+    spanish: "amplia historia de abuso",
+  },
+  {
+    norwegian: "alle i fylla kan begå en voldtekt",
+    english: "anyone drunk can commit a rape",
+    spanish: "cualquiera borracho puede cometer una violación",
+  },
+  {
+    norwegian: "det er ikke fylla som har skylda",
+    english: "it's not the booze that's to blame",
+    spanish: "no es el alcohol el culpable",
+  },
+  {
+    norwegian: "på nachspiel",
+    english: "at the afterparty",
+    spanish: "en la fiesta posterior",
+  },
+  {
+    norwegian: "årsaker",
+    english: "causes",
+    spanish: "causas",
+  },
+  {
+    norwegian: "betryggende",
+    english: "reassuring",
+    spanish: "reconfortante",
+  },
+  {
+    norwegian: "voldtekt",
+    english: "rape",
+    spanish: "violación",
+  },
+  {
+    norwegian: "er terskelen",
+    english: "the threshold is",
+    spanish: "el umbral es",
+  },
+  {
+    norwegian: "er et evig spørsmål om",
+    english: "is an eternal question about",
+    spanish: "es una pregunta eterna sobre",
+  },
+  {
+    norwegian: "dømt for det",
+    english: "convicted for it",
+    spanish: "condenado por ello",
+  },
+  {
+    norwegian: "sannheten er at",
+    english: "the truth is that",
+    spanish: "la verdad es que",
+  },
+  {
+    norwegian: "enkelte skole",
+    english: "certain schools",
+    spanish: "ciertas escuelas",
+  },
+  {
+    norwegian: "dette har i undervisningen",
+    english: "this has in the teaching",
+    spanish: "esto ha en la enseñanza",
+  },
+  {
+    norwegian: "utfordre egen",
+    english: "challenge own",
+    spanish: "desafiar propio",
+  },
+  {
+    norwegian: "del voldtekter hadde vært forhindret av",
+    english: "some rapes would have been prevented by",
+    spanish: "algunas violaciones habrían sido prevenidas por",
+  },
+  {
+    norwegian: "festrelaterte",
+    english: "party-related",
+    spanish: "relacionado con fiestas",
+  },
+  {
+    norwegian: "overgrepsoffer koster samfunnet",
+    english: "abuse victim costs society",
+    spanish: "la víctima de abuso cuesta a la sociedad",
+  },
+  {
+    norwegian: "har seksualundervisning",
+    english: "has sex education",
+    spanish: "tiene educación sexual",
+  },
+  {
+    norwegian: "samtykkeopplegget der",
+    english: "the consent arrangement there",
+    spanish: "el acuerdo de consentimiento allí",
+  },
+  {
+    norwegian: "burde lære mye mer",
+    english: "should learn much more",
+    spanish: "debería aprender mucho más",
+  },
+  {
+    norwegian: "de tør å snakke høyt",
+    english: "they dare to speak out loud",
+    spanish: "se atreven a hablar en voz alta",
+  },
+  {
+    norwegian: "fordreigning",
+    english: "distortion",
+    spanish: "distorsión",
+  },
+  {
+    norwegian: "en forvridning av forståelsen",
+    english: "a distortion of understanding",
+    spanish: "una distorsión de la comprensión",
+  },
+  {
+    norwegian: "den ansvarsfulle biten",
+    english: "the responsible part",
+    spanish: "la parte responsable",
+  },
+  {
+    norwegian: "i stand til å ta ansvar",
+    english: "able to take responsibility",
+    spanish: "capaz de asumir la responsabilidad",
+  },
+  {
+    norwegian: "har jeg sett forbi",
+    english: "I have overlooked",
+    spanish: "he pasado por alto",
+  },
+  {
+    norwegian: "å lete i seg selv etter en erkjennelse av",
+    english: "to search within oneself for an acknowledgment of",
+    spanish: "buscar dentro de uno mismo un reconocimiento de",
+  },
+  {
+    norwegian: "har begåtten voldtekt",
+    english: "has committed rape",
+    spanish: "ha cometido violación",
+  },
 ];
