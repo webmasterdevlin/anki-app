@@ -290,4 +290,294 @@ export const words: Question[] = [
     english: "some price estimate",
     spanish: "alguna estimación de precio",
   },
+  {
+    norwegian: "oppstalling",
+    english: "boarding",
+    spanish: "alojamiento",
+  },
+  {
+    norwegian: "forsikring dekker ikke",
+    english: "insurance does not cover",
+    spanish: "el seguro no cubre",
+  },
+  {
+    norwegian: "rasebetingede sykdommer",
+    english: "breed-related diseases",
+    spanish: "enfermedades relacionadas con la raza",
+  },
+  {
+    norwegian: "iblant fjerner jeg alt",
+    english: "sometimes I remove everything",
+    spanish: "a veces lo quito todo",
+  },
+  {
+    norwegian: "de gnagsår på",
+    english: "the sores on",
+    spanish: "las llagas en",
+  },
+  {
+    norwegian: "bløt gane",
+    english: "soft palate",
+    spanish: "paladar blando",
+  },
+  {
+    norwegian: "blir det dratt i strupehodet",
+    english: "it is pulled in the larynx",
+    spanish: "se tira en la laringe",
+  },
+  {
+    norwegian: "ryggvirvlene",
+    english: "the vertebrae",
+    spanish: "las vértebras",
+  },
+  {
+    norwegian: "skjelettet er skevt",
+    english: "the skeleton is crooked",
+    spanish: "el esqueleto está torcido",
+  },
+  {
+    norwegian: "det er trykket sammen",
+    english: "it is compressed",
+    spanish: "está comprimido",
+  },
+  {
+    norwegian: "fortennene henger fast i nesen",
+    english: "the front teeth are stuck in the nose",
+    spanish: "los dientes frontales están atrapados en la nariz",
+  },
+  {
+    norwegian: "skal du skjære bort neseborene",
+    english: "you will cut away the nostrils",
+    spanish: "vas a cortar las fosas nasales",
+  },
+  {
+    norwegian: "noen strupehoder",
+    english: "some larynxes",
+    spanish: "algunos laringes",
+  },
+  {
+    norwegian: "er helt sammenklappet",
+    english: "is completely collapsed",
+    spanish: "está completamente colapsado",
+  },
+  {
+    norwegian: "er vellykket",
+    english: "is successful",
+    spanish: "es exitoso",
+  },
+  {
+    norwegian: "det er drøyt å gå til retten",
+    english: "it's extreme to go to court",
+    spanish: "es extremo ir a la corte",
+  },
+  {
+    norwegian: "dyrebeskyttelsen har gått til sak mot",
+    english: "the animal protection has sued",
+    spanish: "la protección animal ha demandado",
+  },
+  {
+    norwegian: "å stanse all avl av rasene cavalier",
+    english: "to stop all breeding of the breeds cavalier",
+    spanish: "detener toda la cría de las razas cavalier",
+  },
+  {
+    norwegian: "for søksmål",
+    english: "for lawsuit",
+    spanish: "para demanda",
+  },
+  {
+    norwegian: "utstillingshund",
+    english: "show dog",
+    spanish: "perro de exhibición",
+  },
+  {
+    norwegian: "har vunnet gjeve priser",
+    english: "has won prestigious awards",
+    spanish: "ha ganado premios prestigiosos",
+  },
+  {
+    norwegian: "det er smerter",
+    english: "there is pain",
+    spanish: "hay dolor",
+  },
+  {
+    norwegian: "vi har knapt sovet",
+    english: "we have hardly slept",
+    spanish: "apenas hemos dormido",
+  },
+  {
+    norwegian: "å stille ut",
+    english: "to exhibit",
+    spanish: "exhibir",
+  },
+  {
+    norwegian: "kan avle videre på",
+    english: "can continue to breed for",
+    spanish: "puede seguir criando para",
+  },
+  {
+    norwegian: "den må trekkes",
+    english: "it must be extracted",
+    spanish: "debe ser extraído",
+  },
+  {
+    norwegian: "det ser råttent ut",
+    english: "it looks rotten",
+    spanish: "se ve podrido",
+  },
+  {
+    norwegian: "å ha vonde tenner",
+    english: "to have bad teeth",
+    spanish: "tener dientes malos",
+  },
+  {
+    norwegian: "han har haltet",
+    english: "he has been limping",
+    spanish: "ha estado cojeando",
+  },
+  {
+    norwegian: "kneproblemer",
+    english: "knee problems",
+    spanish: "problemas de rodilla",
+  },
+  {
+    norwegian: "avlsobjekt",
+    english: "breeding object",
+    spanish: "objeto de cría",
+  },
+  {
+    norwegian: "lukserende patella",
+    english: "luxating patella",
+    spanish: "rótula luxante",
+  },
+  {
+    norwegian: "har trukket alt unntatt tre",
+    english: "has extracted everything except three",
+    spanish: "ha extraído todo excepto tres",
+  },
+  {
+    norwegian: "beste genene",
+    english: "the best genes",
+    spanish: "los mejores genes",
+  },
+  {
+    norwegian: "oppdretteren vil avle på",
+    english: "the breeder wants to breed for",
+    spanish: "el criador quiere criar para",
+  },
+  {
+    norwegian: "mange kull på ett år",
+    english: "many litters in one year",
+    spanish: "muchas camadas en un año",
+  },
+  {
+    norwegian: "flere valper",
+    english: "several puppies",
+    spanish: "varios cachorros",
+  },
+  {
+    norwegian: "kan ha gitt en omsetning på",
+    english: "may have generated a turnover of",
+    spanish: "puede haber generado una facturación de",
+  },
+  {
+    norwegian: "oppdretteren var utestengt fra",
+    english: "the breeder was banned from",
+    spanish: "el criador fue expulsado de",
+  },
+  {
+    norwegian: "en av kjedene",
+    english: "one of the chains",
+    spanish: "una de las cadenas",
+  },
+  {
+    norwegian: "han legger skylden på veterinærene",
+    english: "he blames the veterinarians",
+    spanish: "él culpa a los veterinarios",
+  },
+  {
+    norwegian: "virker styrt av penger",
+    english: "seems driven by money",
+    spanish: "parece impulsado por el dinero",
+  },
+  {
+    norwegian: "hevder han har tatt ut",
+    english: "claims he has taken out",
+    spanish: "afirma que ha retirado",
+  },
+  {
+    norwegian: "stamtavleanslag",
+    english: "pedigree estimate",
+    spanish: "estimación del pedigrí",
+  },
+  {
+    norwegian: "såpass omfattende greier",
+    english: "such extensive stuff",
+    spanish: "cosas tan extensas",
+  },
+  {
+    norwegian: "tilsvarer det søsken",
+    english: "corresponds to siblings",
+    spanish: "corresponde a hermanos",
+  },
+  {
+    norwegian: "en innavlsgrad på hele",
+    english: "an inbreeding coefficient of as much as",
+    spanish: "un coeficiente de endogamia de hasta",
+  },
+  {
+    norwegian: "stamtavleberegningen",
+    english: "the pedigree calculation",
+    spanish: "el cálculo del pedigrí",
+  },
+  {
+    norwegian: "på greip",
+    english: "makes sense",
+    spanish: "tiene sentido",
+  },
+  {
+    norwegian: "kun regner fem generasjoner bakover",
+    english: "only counts five generations back",
+    spanish: "solo cuenta cinco generaciones hacia atrás",
+  },
+  {
+    norwegian: "veldig nær slekt",
+    english: "very close kin",
+    spanish: "parentesco muy cercano",
+  },
+  {
+    norwegian: "dyrebeskyttelsens hypotese er",
+    english: "the animal protection's hypothesis is",
+    spanish: "la hipótesis de la protección animal es",
+  },
+  {
+    norwegian: "hvordan beregner",
+    english: "how calculates",
+    spanish: "cómo calcula",
+  },
+  {
+    norwegian: "men paring av nære slektninger tillates ikke",
+    english: "but mating of close relatives is not allowed",
+    spanish: "pero el apareamiento de parientes cercanos no está permitido",
+  },
+  {
+    norwegian: "som er i nær slekt",
+    english: "who are closely related",
+    spanish: "que están estrechamente relacionados",
+  },
+  {
+    norwegian: "i hovedsak er det det",
+    english: "basically that is it",
+    spanish: "básicamente eso es todo",
+  },
+  {
+    norwegian: "utviser kritisk sans",
+    english: "exhibits critical sense",
+    spanish: "exhibe sentido crítico",
+  },
+  {
+    norwegian: "roligere mye fortere",
+    english: "calmer much faster",
+    spanish: "más tranquilo mucho más rápido",
+  },
 ];
