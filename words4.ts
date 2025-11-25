@@ -1306,7 +1306,7 @@ export const words: Question[] = [
     spanish: "está tan afectado",
   },
   {
-    norwegian: "tydeligvis vurderer å reise tilabke",
+    norwegian: "tydeligvis vurderer å reise tilbake",
     english: "is obviously considering returning",
     spanish: "obviamente está considerando regresar",
   },
