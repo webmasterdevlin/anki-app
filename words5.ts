@@ -580,4 +580,174 @@ export const words: Question[] = [
     english: "calmer much faster",
     spanish: "más tranquilo mucho más rápido",
   },
+  {
+    norwegian: "hvordan er nervene",
+    english: "how are the nerves",
+    spanish: "cómo están los nervios",
+  },
+  {
+    norwegian: "jeg gruer meg så",
+    english: "I'm so nervous",
+    spanish: "estoy tan nervioso",
+  },
+  {
+    norwegian: "gladnyhet",
+    english: "good news",
+    spanish: "buenas noticias",
+  },
+  {
+    norwegian: "unatur",
+    english: "unnatural",
+    spanish: "antinatural",
+  },
+  {
+    norwegian: "det er strid med naturen",
+    english: "it is against nature",
+    spanish: "está en contra de la naturaleza",
+  },
+  {
+    norwegian: "det ingen hjerteslag i",
+    english: "there is no heartbeat in",
+    spanish: "no hay latido del corazón en",
+  },
+  {
+    norwegian: "helt uvirkelig å si",
+    english: "completely unreal to say",
+    spanish: "completamente irreal decir",
+  },
+  {
+    norwegian: "liten tass",
+    english: "little guy",
+    spanish: "pequeño",
+  },
+  {
+    norwegian: "utad har jeg alltid hatt guttestil",
+    english: "outwardly I have always had a boyish style",
+    spanish: "externamente siempre he tenido un estilo juvenil",
+  },
+  {
+    norwegian: "en høystående sjef",
+    english: "a highly respected boss",
+    spanish: "un jefe muy respetado",
+  },
+  {
+    norwegian: "drittunge",
+    english: "brat",
+    spanish: "mocoso",
+  },
+  {
+    norwegian: "det som betydde mest",
+    english: "what mattered most",
+    spanish: "lo que más importaba",
+  },
+  {
+    norwegian: "lysere stemme",
+    english: "lighter voice",
+    spanish: "voz más clara",
+  },
+  {
+    norwegian: "du som forbilde",
+    english: "you as a role model",
+    spanish: "tú como modelo a seguir",
+  },
+  {
+    norwegian: "en trang topp",
+    english: "a narrow top",
+    spanish: "una cima estrecha",
+  },
+  {
+    norwegian: "folk hadde glodd",
+    english: "people had stared",
+    spanish: "la gente había mirado fijamente",
+  },
+  {
+    norwegian: "jeg skrumpet inn",
+    english: "I shriveled",
+    spanish: "me encogí",
+  },
+  {
+    norwegian: "forsvunnet mellom plankene",
+    english: "disappeared between the planks",
+    spanish: "desaparecido entre las tablas",
+  },
+  {
+    norwegian: "nå skjuler du det veldig",
+    english: "now you hide it very well",
+    spanish: "ahora lo escondes muy bien",
+  },
+  {
+    norwegian: "har ikke sett ham på årevis",
+    english: "haven't seen him in years",
+    spanish: "no lo he visto en años",
+  },
+  {
+    norwegian: "jeg sutret hos",
+    english: "I complained to",
+    spanish: "me quejé con",
+  },
+  {
+    norwegian: "å mislykkes med",
+    english: "to fail with",
+    spanish: "fracasar con",
+  },
+  {
+    norwegian: "du virker lettet",
+    english: "you seem relieved",
+    spanish: "pareces aliviado",
+  },
+  {
+    norwegian: "fra fagforeningen",
+    english: "from the union",
+    spanish: "del sindicato",
+  },
+  {
+    norwegian: "du møte fordommer",
+    english: "you face prejudices",
+    spanish: "te enfrentas a prejuicios",
+  },
+  {
+    norwegian: "det som framhever",
+    english: "that which highlights",
+    spanish: "lo que resalta",
+  },
+  {
+    norwegian: "er uavhengig av hverandre",
+    english: "are independent of each other",
+    spanish: "son independientes entre sí",
+  },
+  {
+    norwegian: "med stolthet",
+    english: "with pride",
+    spanish: "con orgullo",
+  },
+  {
+    norwegian: "er svinbra",
+    english: "is damn good",
+    spanish: "es muy bueno",
+  },
+  {
+    norwegian: "det var uaktuell",
+    english: "it was out of the question",
+    spanish: "estaba fuera de cuestión",
+  },
+  {
+    norwegian: "i tilsvarende situasjon som",
+    english: "in a similar situation as",
+    spanish: "en una situación similar a",
+  },
+  {
+    norwegian: "over ræva på",
+    english: "over the ass of",
+    spanish: "sobre el trasero de",
+  },
+  {
+    norwegian: "den du kan bare legge opp",
+    english: "that you can just give up",
+    spanish: "que puedes rendirte",
+  },
+  {
+    norwegian: "blir overlykkelige uansett",
+    english: "become overjoyed anyway",
+    spanish: "se vuelven muy felices de todos modos",
+  },
 ];
