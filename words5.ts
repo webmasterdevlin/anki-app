@@ -750,4 +750,189 @@ export const words: Question[] = [
     english: "become overjoyed anyway",
     spanish: "se vuelven muy felices de todos modos",
   },
+  {
+    norwegian: "på innsiden og utsiden",
+    english: "on the inside and outside",
+    spanish: "por dentro y por fuera",
+  },
+  {
+    norwegian: "stig på",
+    english: "step on",
+    spanish: "sube",
+  },
+  {
+    norwegian: "det tar av brystvortene",
+    english: "it takes off the nipples",
+    spanish: "se quita los pezones",
+  },
+  {
+    norwegian: "må kirurgen snitte opp igjen",
+    english: "must the surgeon cut open again",
+    spanish: "debe el cirujano cortar de nuevo",
+  },
+  {
+    norwegian: "venter på henvisning til",
+    english: "waiting for a referral to",
+    spanish: "esperando una derivación a",
+  },
+  {
+    norwegian: "innebærer åpne opp",
+    english: "involves opening up",
+    spanish: "implica abrirse",
+  },
+  {
+    norwegian: "noe ullent",
+    english: "something woolly",
+    spanish: "algo lanoso",
+  },
+  {
+    norwegian: "lesbisk",
+    english: "lesbian",
+    spanish: "lesbiana",
+  },
+  {
+    norwegian: "jeg begravde det",
+    english: "I buried it",
+    spanish: "lo enterré",
+  },
+  {
+    norwegian: "i topplokket",
+    english: "in the top of the head",
+    spanish: "en la parte superior de la cabeza",
+  },
+  {
+    norwegian: "var hjemmebane for",
+    english: "was home ground for",
+    spanish: "era terreno de juego para",
+  },
+  {
+    norwegian: "omfavnelse",
+    english: "embrace",
+    spanish: "abrazo",
+  },
+  {
+    norwegian: "er hovedvakten",
+    english: "is the main guard",
+    spanish: "es el guardia principal",
+  },
+  {
+    norwegian: "man fører alt av",
+    english: "one keeps track of all",
+    spanish: "uno lleva un registro de todo",
+  },
+  {
+    norwegian: "innenfra og utenfra",
+    english: "from the inside and outside",
+    spanish: "desde adentro y afuera",
+  },
+  {
+    norwegian: "eneste plasseringen",
+    english: "the only location",
+    spanish: "la única ubicación",
+  },
+  {
+    norwegian: "hvordan formen",
+    english: "how the shape",
+    spanish: "cómo es la forma",
+  },
+  {
+    norwegian: "litt brydd",
+    english: "a little embarrassed",
+    spanish: "un poco avergonzado",
+  },
+  {
+    norwegian: "undringen din godt",
+    english: "your wonder well",
+    spanish: "tu asombro bien",
+  },
+  {
+    norwegian: "å grave",
+    english: "to dig",
+    spanish: "cavar",
+  },
+  {
+    norwegian: "litt i pannen",
+    english: "a little on the forehead",
+    spanish: "un poco en la frente",
+  },
+  {
+    norwegian: "heisekran",
+    english: "crane",
+    spanish: "grúa",
+  },
+  {
+    norwegian: "i fjøset",
+    english: "in the barn",
+    spanish: "en el granero",
+  },
+  {
+    norwegian: "fysiske inngrep",
+    english: "physical interventions",
+    spanish: "intervenciones físicas",
+  },
+  {
+    norwegian: "forsvant fra",
+    english: "disappeared from",
+    spanish: "desapareció de",
+  },
+  {
+    norwegian: "å gjennomføre operasjonen",
+    english: "to carry out the operation",
+    spanish: "realizar la operación",
+  },
+  {
+    norwegian: "motpoler",
+    english: "opposites",
+    spanish: "opuestos",
+  },
+  {
+    norwegian: "blant de skeive",
+    english: "among the queer",
+    spanish: "entre los queer",
+  },
+  {
+    norwegian: "androgynt uttrykk",
+    english: "androgynous expression",
+    spanish: "expresión andrógina",
+  },
+  {
+    norwegian: "å være ekle",
+    english: "to be nasty",
+    spanish: "ser desagradable",
+  },
+  {
+    norwegian: "da erklærer jeg at",
+    english: "then I declare that",
+    spanish: "entonces declaro que",
+  },
+  {
+    norwegian: "noen indre kamper",
+    english: "some inner battles",
+    spanish: "algunas batallas internas",
+  },
+  {
+    norwegian: "hylgråt",
+    english: "sobbing",
+    spanish: "sollozos",
+  },
+  {
+    norwegian: "utrøstelig",
+    english: "inconsolable",
+    spanish: "inconsolable",
+  },
+  {
+    norwegian: "mye fordommer mot",
+    english: "a lot of prejudices against",
+    spanish: "muchos prejuicios contra",
+  },
+  {
+    norwegian: "jeg ammer henne",
+    english: "I breastfeed her",
+    spanish: "la amamanto",
+  },
+  {
+    norwegian: "det ytre er bare kamuflasje",
+    english: "the outer is just camouflage",
+    spanish: "el exterior es solo camuflaje",
+  },
 ];
