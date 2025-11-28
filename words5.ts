@@ -935,4 +935,194 @@ export const words: Question[] = [
     english: "the outer is just camouflage",
     spanish: "el exterior es solo camuflaje",
   },
+  {
+    norwegian: "oppta den",
+    english: "record it",
+    spanish: "grabarlo",
+  },
+  {
+    norwegian: "jeg blir ikke beruset av dette",
+    english: "I don't get intoxicated by this",
+    spanish: "no me embriago con esto",
+  },
+  {
+    norwegian: "undergrunnsmiljøer",
+    english: "underground environments",
+    spanish: "entornos subterráneos",
+  },
+  {
+    norwegian: "psykedeliske stoffer er en del",
+    english: "psychedelic substances are a part",
+    spanish: "las sustancias psicodélicas son una parte",
+  },
+  {
+    norwegian: "stjeler stadig mer livskvalitet",
+    english: "steals more and more quality of life",
+    spanish: "roba cada vez más calidad de vida",
+  },
+  {
+    norwegian: "et knips",
+    english: "a snap",
+    spanish: "un chasquido",
+  },
+  {
+    norwegian: "de hatt et forskningsprosjekt",
+    english: "they had a research project",
+    spanish: "tuvieron un proyecto de investigación",
+  },
+  {
+    norwegian: "matlyst",
+    english: "appetite",
+    spanish: "apetito",
+  },
+  {
+    norwegian: "helbrede",
+    english: "cure",
+    spanish: "curar",
+  },
+  {
+    norwegian: "i mediebransjen",
+    english: "in the media industry",
+    spanish: "en la industria de los medios",
+  },
+  {
+    norwegian: "utbrenthet og angst",
+    english: "burnout and anxiety",
+    spanish: "agotamiento y ansiedad",
+  },
+  {
+    norwegian: "det endte med",
+    english: "it ended with",
+    spanish: "terminó con",
+  },
+  {
+    norwegian: "psykedelika endrer",
+    english: "psychedelics change",
+    spanish: "los psicodélicos cambian",
+  },
+  {
+    norwegian: "oppfatter virkeligheten",
+    english: "perceive reality",
+    spanish: "percibir la realidad",
+  },
+  {
+    norwegian: "straffeloven",
+    english: "the penal code",
+    spanish: "el código penal",
+  },
+  {
+    norwegian: "forskningen stoppet opp",
+    english: "the research came to a halt",
+    spanish: "la investigación se detuvo",
+  },
+  {
+    norwegian: "hva forsker du på",
+    english: "what are you researching",
+    spanish: "¿en qué estás investigando?",
+  },
+  {
+    norwegian: "er godt begravd i psyken",
+    english: "is well buried in the psyche",
+    spanish: "está bien enterrado en la psique",
+  },
+  {
+    norwegian: "et apparat rundt",
+    english: "an apparatus around",
+    spanish: "un aparato alrededor",
+  },
+  {
+    norwegian: "belønningssystem",
+    english: "reward system",
+    spanish: "sistema de recompensas",
+  },
+  {
+    norwegian: "å bearbeide traumer på",
+    english: "to process traumas on",
+    spanish: "procesar traumas en",
+  },
+  {
+    norwegian: "er knyttet liten helserisiko",
+    english: "is associated with little health risk",
+    spanish: "está asociado con poco riesgo para la salud",
+  },
+  {
+    norwegian: "et vesentlig arbeid",
+    english: "a significant work",
+    spanish: "un trabajo significativo",
+  },
+  {
+    norwegian: "hindre forbindelser mellom hjerneområder som",
+    english: "prevent connections between brain areas such as",
+    spanish: "evitar conexiones entre áreas cerebrales como",
+  },
+  {
+    norwegian: "kan stoffene gjenopprette",
+    english: "can the substances restore",
+    spanish: "¿pueden las sustancias restaurar",
+  },
+  {
+    norwegian: "fleinsopp",
+    english: "magic mushrooms",
+    spanish: "hongos mágicos",
+  },
+  {
+    norwegian: "hadde de tatt noe annet",
+    english: "had they taken something else",
+    spanish: "¿habían tomado otra cosa?",
+  },
+  {
+    norwegian: "en grafisk framstilling av",
+    english: "a graphic representation of",
+    spanish: "una representación gráfica de",
+  },
+  {
+    norwegian: "på kryss og tvers",
+    english: "back and forth",
+    spanish: "de un lado a otro",
+  },
+  {
+    norwegian: "er tankemønstrene fastlåst i",
+    english: "are the thought patterns stuck in",
+    spanish: "¿están los patrones de pensamiento atrapados en",
+  },
+  {
+    norwegian: "å bryte ut av",
+    english: "to break out of",
+    spanish: "salir de",
+  },
+  {
+    norwegian: "har strebet etter noe i livet",
+    english: "have strived for something in life",
+    spanish: "he luchado por algo en la vida",
+  },
+  {
+    norwegian: "en støttespiller",
+    english: "a supporter",
+    spanish: "un partidario",
+  },
+  {
+    norwegian: "et smell etter et brudd",
+    english: "a bang after a breakup",
+    spanish: "un golpe después de una ruptura",
+  },
+  {
+    norwegian: "i became manisk",
+    english: "i became maniacal",
+    spanish: "me volví maniaco",
+  },
+  {
+    norwegian: "de dynget på",
+    english: "they piled on",
+    spanish: "se amontonaron",
+  },
+  {
+    norwegian: "lobotomering",
+    english: "lobotomy",
+    spanish: "lobotomía",
+  },
+  {
+    norwegian: "følgesvenn",
+    english: "companion",
+    spanish: "compañero",
+  },
 ];
