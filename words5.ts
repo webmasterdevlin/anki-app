@@ -1880,4 +1880,99 @@ export const words: Question[] = [
     english: "common dining area",
     spanish: "comedor común",
   },
+  {
+    norwegian: "fagforeninger",
+    english: "unions",
+    spanish: "sindicatos",
+  },
+  {
+    norwegian: "å avsløre kriminelle",
+    english: "to expose criminals",
+    spanish: "exponer a los criminales",
+  },
+  {
+    norwegian: "utpressing",
+    english: "extortion",
+    spanish: "extorsión",
+  },
+  {
+    norwegian: "ubehagelig",
+    english: "uncomfortable",
+    spanish: "incómodo",
+  },
+  {
+    norwegian: "han oppførte seg truende",
+    english: "he behaved threateningly",
+    spanish: "se comportó de manera amenazante",
+  },
+  {
+    norwegian: "i søkelyset før",
+    english: "in the spotlight before",
+    spanish: "en el centro de atención antes",
+  },
+  {
+    norwegian: "virksomhet",
+    english: "business",
+    spanish: "negocio",
+  },
+  {
+    norwegian: "henlegger saken",
+    english: "dismisses the case",
+    spanish: "desestima el caso",
+  },
+  {
+    norwegian: "oppfattelse av rettsstaten",
+    english: "perception of the rule of law",
+    spanish: "percepción del estado de derecho",
+  },
+  {
+    norwegian: "anmeldelsene er henlagt",
+    english: "the reports are dismissed",
+    spanish: "los informes son desestimados",
+  },
+  {
+    norwegian: "i stusselige kår",
+    english: "in miserable conditions",
+    spanish: "en condiciones miserables",
+  },
+  {
+    norwegian: "de verken kontrakt",
+    english: "they neither contract",
+    spanish: "ni contratan",
+  },
+  {
+    norwegian: "arbeidere",
+    english: "workers",
+    spanish: "trabajadores",
+  },
+  {
+    norwegian: "han truer",
+    english: "he threatens",
+    spanish: "él amenaza",
+  },
+  {
+    norwegian: "er nested risikofritt",
+    english: "is almost risk-free",
+    spanish: "es casi libre de riesgos",
+  },
+  {
+    norwegian: "håndheves",
+    english: "is enforced",
+    spanish: "se hace cumplir",
+  },
+  {
+    norwegian: "det feier under teppet",
+    english: "it sweeps under the rug",
+    spanish: "se barre bajo la alfombra",
+  },
+  {
+    norwegian: "det rumenske miljøet",
+    english: "the Romanian environment",
+    spanish: "el entorno rumano",
+  },
+  {
+    norwegian: "har tilknytning til",
+    english: "is connected to",
+    spanish: "está conectado a",
+  },
 ];
