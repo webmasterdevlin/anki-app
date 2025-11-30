@@ -1325,4 +1325,559 @@ export const words: Question[] = [
     english: "the soul",
     spanish: "el alma",
   },
+  {
+    norwegian: "har endelig tort",
+    english: "has finally dared",
+    spanish: "finalmente se ha atrevido",
+  },
+  {
+    norwegian: "bør opplyses om",
+    english: "should be informed about",
+    spanish: "debería ser informado sobre",
+  },
+  {
+    norwegian: "flukten",
+    english: "the escape",
+    spanish: "la fuga",
+  },
+  {
+    norwegian: "han kvalte meg",
+    english: "he strangled me",
+    spanish: "él me estranguló",
+  },
+  {
+    norwegian: "angsten stiger",
+    english: "the anxiety rises",
+    spanish: "la ansiedad aumenta",
+  },
+  {
+    norwegian: "dere innredet det",
+    english: "you furnished it",
+    spanish: "lo amueblaste",
+  },
+  {
+    norwegian: "åpenhet",
+    english: "openness",
+    spanish: "apertura",
+  },
+  {
+    norwegian: "er hemmelilg",
+    english: "is secret",
+    spanish: "es secreto",
+  },
+  {
+    norwegian: "sklir det ut litt",
+    english: "it slips out a bit",
+    spanish: "se desliza un poco",
+  },
+  {
+    norwegian: "jeg kuttet løken feil",
+    english: "i cut the onion wrong",
+    spanish: "corté la cebolla mal",
+  },
+  {
+    norwegian: "i feil rekkefølge",
+    english: "in the wrong order",
+    spanish: "en el orden incorrecto",
+  },
+  {
+    norwegian: "straffet med taushet",
+    english: "punished with silence",
+    spanish: "castigado con silencio",
+  },
+  {
+    norwegian: "ribbene knakk",
+    english: "the ribs broke",
+    spanish: "se rompieron las costillas",
+  },
+  {
+    norwegian: "hele tyngden",
+    english: "the whole weight",
+    spanish: "todo el peso",
+  },
+  {
+    norwegian: "bare slapp",
+    english: "just let go",
+    spanish: "simplemente dejarse llevar",
+  },
+  {
+    norwegian: "er utsatt for vold",
+    english: "are exposed to violence",
+    spanish: "están expuestos a la violencia",
+  },
+  {
+    norwegian: "på dagtid",
+    english: "during the day",
+    spanish: "durante el día",
+  },
+  {
+    norwegian: "har påført",
+    english: "has inflicted",
+    spanish: "ha infligido",
+  },
+  {
+    norwegian: "er tidligere dømt for partnerdrap",
+    english: "has previously been convicted of partner murder",
+    spanish: "ha sido condenado anteriormente por asesinato de pareja",
+  },
+  {
+    norwegian: "han sonet ferdig",
+    english: "he served his sentence",
+    spanish: "cumplió su condena",
+  },
+  {
+    norwegian: "han forsikret om",
+    english: "he assured",
+    spanish: "él aseguró",
+  },
+  {
+    norwegian: "lagt meg med klærne på",
+    english: "gone to bed with my clothes on",
+    spanish: "me fui a la cama con la ropa puesta",
+  },
+  {
+    norwegian: "å rømme om han kommer",
+    english: "to escape if he comes",
+    spanish: "escapar si él viene",
+  },
+  {
+    norwegian: "vil ikke rømme",
+    english: "will not run away",
+    spanish: "no huirá",
+  },
+  {
+    norwegian: "har besøksforbud",
+    english: "has a restraining order",
+    spanish: "tiene una orden de restricción",
+  },
+  {
+    norwegian: "har besøksforbud nå",
+    english: "has a restraining order now",
+    spanish: "tiene una orden de restricción ahora",
+  },
+  {
+    norwegian: "det er et midlertidig tiltak",
+    english: "it is a temporary measure",
+    spanish: "es una medida temporal",
+  },
+  {
+    norwegian: "det å stå fram",
+    english: "coming forward",
+    spanish: "salir adelante",
+  },
+  {
+    norwegian: "advare dem",
+    english: "warn them",
+    spanish: "advertirles",
+  },
+  {
+    norwegian: "politiet frarådet meg",
+    english: "the police advised me against",
+    spanish: "la policía me desaconsejó",
+  },
+  {
+    norwegian: "alle regningene",
+    english: "all the bills",
+    spanish: "todas las facturas",
+  },
+  {
+    norwegian: "er så uverdig",
+    english: "is so unworthy",
+    spanish: "es tan indigno",
+  },
+  {
+    norwegian: "har kartlagt",
+    english: "has mapped out",
+    spanish: "ha mapeado",
+  },
+  {
+    norwegian: "omvendt voldsalarm",
+    english: "reverse violence alarm",
+    spanish: "alarma de violencia inversa",
+  },
+  {
+    norwegian: "ilegge uten en rettskraftig dom",
+    english: "impose without a final judgment",
+    spanish: "imponer sin un juicio final",
+  },
+  {
+    norwegian: "med forebygging av vold",
+    english: "with the prevention of violence",
+    spanish: "con la prevención de la violencia",
+  },
+  {
+    norwegian: "i nære relasjoner",
+    english: "in close relationships",
+    spanish: "en relaciones cercanas",
+  },
+  {
+    norwegian: "er foreløpig",
+    english: "is preliminary",
+    spanish: "es preliminar",
+  },
+  {
+    norwegian: "av hensikten",
+    english: "of the purpose",
+    spanish: "del propósito",
+  },
+  {
+    norwegian: "kjenne seg ivaretatt her",
+    english: "feel taken care of here",
+    spanish: "sentirse cuidado aquí",
+  },
+  {
+    norwegian: "voldsutøver",
+    english: "perpetrator of violence",
+    spanish: "agresor",
+  },
+  {
+    norwegian: "å lykkes på sikt",
+    english: "to succeed in the long run",
+    spanish: "tener éxito a largo plazo",
+  },
+  {
+    norwegian: "av etterforskningen",
+    english: "of the investigation",
+    spanish: "de la investigación",
+  },
+  {
+    norwegian: "til etterforskerne",
+    english: "to the investigators",
+    spanish: "a los investigadores",
+  },
+  {
+    norwegian: "har taushetsplikt",
+    english: "have confidentiality",
+    spanish: "tener confidencialidad",
+  },
+  {
+    norwegian: "forebygging",
+    english: "prevention",
+    spanish: "prevención",
+  },
+  {
+    norwegian: "risikovurderinger",
+    english: "risk assessments",
+    spanish: "evaluaciones de riesgo",
+  },
+  {
+    norwegian: "sikkerhetstiltak",
+    english: "security measures",
+    spanish: "medidas de seguridad",
+  },
+  {
+    norwegian: "bryter ned",
+    english: "breaks down",
+    spanish: "descompone",
+  },
+  {
+    norwegian: "å holde partneren i sjakk",
+    english: "to keep the partner in check",
+    spanish: "mantener a la pareja bajo control",
+  },
+  {
+    norwegian: "en gradvis forskyvning",
+    english: "a gradual displacement",
+    spanish: "un desplazamiento gradual",
+  },
+  {
+    norwegian: "i håndleddet mitt",
+    english: "in my wrist",
+    spanish: "en mi muñeca",
+  },
+  {
+    norwegian: "utvides",
+    english: "is expanded",
+    spanish: "se amplía",
+  },
+  {
+    norwegian: "frytelig redsel",
+    english: "terrible fear",
+    spanish: "terrible miedo",
+  },
+  {
+    norwegian: "er at terskelen",
+    english: "is that the threshold",
+    spanish: "es que el umbral",
+  },
+  {
+    norwegian: "å bli utsatt for vold",
+    english: "to be subjected to violence",
+    spanish: "ser sometido a la violencia",
+  },
+  {
+    norwegian: "blåveis",
+    english: "bruises",
+    spanish: "moretones",
+  },
+  {
+    norwegian: "henlagt",
+    english: "dismissed",
+    spanish: "desestimado",
+  },
+  {
+    norwegian: "skiftet lås på ytterdørene",
+    english: "changed the locks on the front doors",
+    spanish: "cambió las cerraduras de las puertas principales",
+  },
+  {
+    norwegian: "tre brudd",
+    english: "three breaches",
+    spanish: "tres incumplimientos",
+  },
+  {
+    norwegian: "salmiakkflaske",
+    english: "ammonia bottle",
+    spanish: "botella de amoníaco",
+  },
+  {
+    norwegian: "spett",
+    english: "crowbar",
+    spanish: "palanca",
+  },
+  {
+    norwegian: " i beredskapsmodus",
+    english: "in emergency mode",
+    spanish: "en modo de emergencia",
+  },
+  {
+    norwegian: "jeg kan bebreide meg selv for at",
+    english: "i can blame myself for",
+    spanish: "puedo culparme a mí mismo por",
+  },
+  {
+    norwegian: "er utsatt for volden",
+    english: "is exposed to the violence",
+    spanish: "está expuesto a la violencia",
+  },
+  {
+    norwegian: "legge på flukt",
+    english: "put on the run",
+    spanish: "poner a correr",
+  },
+  {
+    norwegian: "er for lettvint",
+    english: "is too easygoing",
+    spanish: "es demasiado fácil",
+  },
+  {
+    norwegian: "er lamslått",
+    english: "is stunned",
+    spanish: "está atónito",
+  },
+  {
+    norwegian: "utøver noen vold mot en man er glad i",
+    english: "commits some violence against a loved one",
+    spanish: "comete violencia contra un ser querido",
+  },
+  {
+    norwegian: "tiltalt for",
+    english: "charged with",
+    spanish: "acusado de",
+  },
+  {
+    norwegian: "å ha slått samboeren",
+    english: "having beaten the cohabitant",
+    spanish: "haber golpeado al conviviente",
+  },
+  {
+    norwegian: "har sjekket opp",
+    english: "has checked up",
+    spanish: "ha verificado",
+  },
+  {
+    norwegian: "i garderobe",
+    english: "in the cloakroom",
+    spanish: "en el guardarropa",
+  },
+  {
+    norwegian: "får inderlig håpe det",
+    english: "let's sincerely hope so",
+    spanish: "esperemos sinceramente que sí",
+  },
+  {
+    norwegian: "har fått oppfølging",
+    english: "has received follow-up",
+    spanish: "ha recibido seguimiento",
+  },
+  {
+    norwegian: "forlengelse av besøksfobudene",
+    english: "extension of the restraining orders",
+    spanish: "extensión de las órdenes de restricción",
+  },
+  {
+    norwegian: "ikke er truende nok",
+    english: "is not threatening enough",
+    spanish: "no es lo suficientemente amenazante",
+  },
+  {
+    norwegian: "helt handlingslammet",
+    english: "completely paralyzed",
+    spanish: "completamente paralizado",
+  },
+  {
+    norwegian: "han kvalte meg",
+    english: "he strangled me",
+    spanish: "él me estranguló",
+  },
+  {
+    norwegian: "bidratt til",
+    english: "contributed to",
+    spanish: "contribuido a",
+  },
+  {
+    norwegian: "anmelde",
+    english: "report",
+    spanish: "denunciar",
+  },
+  {
+    norwegian: "ikke har tilbudet fra",
+    english: "does not have the offer from",
+    spanish: "no tiene la oferta de",
+  },
+  {
+    norwegian: "tørre å be om hjelp",
+    english: "dare to ask for help",
+    spanish: "atreverse a pedir ayuda",
+  },
+  {
+    norwegian: "forhåpentlig har jeg litt",
+    english: "hopefully I have a little",
+    spanish: "con suerte tengo un poco",
+  },
+  {
+    norwegian: "er felles skjebne",
+    english: "is a common fate",
+    spanish: "es un destino común",
+  },
+  {
+    norwegian: "ble etterforsket og henlagt",
+    english: "was investigated and dismissed",
+    spanish: "fue investigado y desestimado",
+  },
+  {
+    norwegian: "på bevisets stilling",
+    english: "on the state of the evidence",
+    spanish: "sobre el estado de la evidencia",
+  },
+  {
+    norwegian: "tykk",
+    english: "thick",
+    spanish: "grueso",
+  },
+  {
+    norwegian: "han oppfattet som truende",
+    english: "he perceived as threatening",
+    spanish: "él percibió como amenazante",
+  },
+  {
+    norwegian: "er ekkelt",
+    english: "is disgusting",
+    spanish: "es asqueroso",
+  },
+  {
+    norwegian: "fått nyss i noe",
+    english: "got wind of something",
+    spanish: "se enteró de algo",
+  },
+  {
+    norwegian: "hun er innforstått med det",
+    english: "she is aware of it",
+    spanish: "ella es consciente de ello",
+  },
+  {
+    norwegian: "hans anklagene som rettes mot mannen",
+    english: "his accusations directed at the man",
+    spanish: "sus acusaciones dirigidas al hombre",
+  },
+  {
+    norwegian: "er straffbart",
+    english: "is punishable",
+    spanish: "es punible",
+  },
+  {
+    norwegian: "er overskredet",
+    english: "is exceeded",
+    spanish: "se ha excedido",
+  },
+  {
+    norwegian: "opphevet",
+    english: "revoked",
+    spanish: "revocado",
+  },
+  {
+    norwegian: "litt troen på rettssystemet",
+    english: "a little faith in the justice system",
+    spanish: "un poco de fe en el sistema de justicia",
+  },
+  {
+    norwegian: "lykkens portal",
+    english: "the gateway to happiness",
+    spanish: "la puerta a la felicidad",
+  },
+  {
+    norwegian: "ressurssterke personer",
+    english: "resourceful people",
+    spanish: "personas con recursos",
+  },
+  {
+    norwegian: "utnyttet",
+    english: "exploited",
+    spanish: "explotado",
+  },
+  {
+    norwegian: "destruere bevis",
+    english: "destroy evidence",
+    spanish: "destruir evidencia",
+  },
+  {
+    norwegian: "i egne hender",
+    english: "into their own hands",
+    spanish: "en sus propias manos",
+  },
+  {
+    norwegian: "en enebolig",
+    english: "a detached house",
+    spanish: "una casa independiente",
+  },
+  {
+    norwegian: "å bekjempe",
+    english: "to combat",
+    spanish: "combatir",
+  },
+  {
+    norwegian: "grunnmuren",
+    english: "the foundation",
+    spanish: "los cimientos",
+  },
+  {
+    norwegian: "har bgynt å slå sprekker",
+    english: "has begun to crack",
+    spanish: "ha comenzado a agrietarse",
+  },
+  {
+    norwegian: "stakk av",
+    english: "ran away",
+    spanish: "se escapó",
+  },
+  {
+    norwegian: "synlig",
+    english: "visible",
+    spanish: "visible",
+  },
+  {
+    norwegian: "et luftslott",
+    english: "a castle in the air",
+    spanish: "un castillo en el aire",
+  },
+  {
+    norwegian: "forhold",
+    english: "relationship",
+    spanish: "relación",
+  },
+  {
+    norwegian: "felles spiserom",
+    english: "common dining area",
+    spanish: "comedor común",
+  },
 ];
