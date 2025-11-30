@@ -1125,4 +1125,204 @@ export const words: Question[] = [
     english: "companion",
     spanish: "compañero",
   },
+  {
+    norwegian: "arvorlige bivirkninger",
+    english: "serious side effects",
+    spanish: "efectos secundarios graves",
+  },
+  {
+    norwegian: "saom ayahuasca-seremonien",
+    english: "like the ayahuasca ceremony",
+    spanish: "como la ceremonia de ayahuasca",
+  },
+  {
+    norwegian: "vært bajas",
+    english: "been a joker",
+    spanish: "sido un bromista",
+  },
+  {
+    norwegian: "si kjapt",
+    english: "say quickly",
+    spanish: "decir rápidamente",
+  },
+  {
+    norwegian: "seansen",
+    english: "the session",
+    spanish: "la sesión",
+  },
+  {
+    norwegian: "i ånden",
+    english: "in the spirit",
+    spanish: "en el espíritu",
+  },
+  {
+    norwegian: "er forløsende",
+    english: "is liberating",
+    spanish: "es liberador",
+  },
+  {
+    norwegian: "ikke vil forandre på noe",
+    english: "does not want to change anything",
+    spanish: "no quiere cambiar nada",
+  },
+  {
+    norwegian: "spyr i bøtten",
+    english: "vomits in the bucket",
+    spanish: "vomita en el balde",
+  },
+  {
+    norwegian: "med den innsikten folk får",
+    english: "with the insight people gain",
+    spanish: "con la visión que la gente gana",
+  },
+  {
+    norwegian: "jeg tipper de har vært",
+    english: "I guess they have been",
+    spanish: "supongo que han sido",
+  },
+  {
+    norwegian: "en liten stund til",
+    english: "a little while longer",
+    spanish: "un rato más",
+  },
+  {
+    norwegian: "fører fort",
+    english: "drives fast",
+    spanish: "conduce rápido",
+  },
+  {
+    norwegian: "av renselsesprosessen",
+    english: "of the cleansing process",
+    spanish: "del proceso de limpieza",
+  },
+  {
+    norwegian: "sykt konfronterende",
+    english: "sickeningly confronting",
+    spanish: "enfermizamente confrontante",
+  },
+  {
+    norwegian: "på reseptbelagte medisiner",
+    english: "on prescription medications",
+    spanish: "con medicamentos recetados",
+  },
+  {
+    norwegian: "i helsevesenet",
+    english: "in the healthcare system",
+    spanish: "en el sistema de salud",
+  },
+  {
+    norwegian: "jeg ble dratt inn i",
+    english: "I was drawn into",
+    spanish: "fui atraído a",
+  },
+  {
+    norwegian: "bråkt",
+    english: "noise",
+    spanish: "ruido",
+  },
+  {
+    norwegian: "du må forberede deg litt",
+    english: "you have to prepare yourself a bit",
+    spanish: "tienes que prepararte un poco",
+  },
+  {
+    norwegian: "det gjenstår en del forskning",
+    english: "there is still some research to be done",
+    spanish: "todavía queda algo de investigación por hacer",
+  },
+  {
+    norwegian: "i påvente av et helsetilbud",
+    english: "awaiting a health service",
+    spanish: "a la espera de un servicio de salud",
+  },
+  {
+    norwegian: "stuer",
+    english: "storerooms",
+    spanish: "despensas",
+  },
+  {
+    norwegian: "virkestoffene",
+    english: "the active ingredients",
+    spanish: "los ingredientes activos",
+  },
+  {
+    norwegian: "det er innafor",
+    english: "it's acceptable",
+    spanish: "es aceptable",
+  },
+  {
+    norwegian: "at man ufarliggjøre dette her",
+    english: "that one trivializes this here",
+    spanish: "que uno trivializa esto aquí",
+  },
+  {
+    norwegian: "om mengde",
+    english: "about quantity",
+    spanish: "sobre la cantidad",
+  },
+  {
+    norwegian: "en ny agnstrunde",
+    english: "a new bait round",
+    spanish: "una nueva ronda de cebo",
+  },
+  {
+    norwegian: "snu tankene",
+    english: "turn the thoughts",
+    spanish: "girar los pensamientos",
+  },
+  {
+    norwegian: "stilling",
+    english: "position",
+    spanish: "posición",
+  },
+  {
+    norwegian: "innstillinger",
+    english: "settings",
+    spanish: "ajustes",
+  },
+  {
+    norwegian: "jeg har skyhøye forventninger til",
+    english: "i have sky-high expectations for",
+    spanish: "tengo expectativas altísimas para",
+  },
+  {
+    norwegian: "legg det bort",
+    english: "put it away",
+    spanish: "guárdalo",
+  },
+  {
+    norwegian: "preget meg",
+    english: "affected me",
+    spanish: "me afectó",
+  },
+  {
+    norwegian: "bråk til tider",
+    english: "noise at times",
+    spanish: "ruido a veces",
+  },
+  {
+    norwegian: "største omveltningen",
+    english: "biggest upheaval",
+    spanish: "mayor agitación",
+  },
+  {
+    norwegian: "heftig",
+    english: "intense",
+    spanish: "intenso",
+  },
+  {
+    norwegian: "et knips",
+    english: "a snap",
+    spanish: "un chasquido",
+  },
+  {
+    norwegian: "vanvittig fart",
+    english: "insane speed",
+    spanish: "velocidad insana",
+  },
+  {
+    norwegian: "sjelen",
+    english: "the soul",
+    spanish: "el alma",
+  },
 ];
