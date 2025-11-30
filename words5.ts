@@ -2187,4 +2187,109 @@ export const words: Question[] = [
     english: "the perception",
     spanish: "la percepción",
   },
+  {
+    norwegian: "fjernt",
+    english: "remote",
+    spanish: "remoto",
+  },
+  {
+    norwegian: "rekken",
+    english: "the series",
+    spanish: "la serie",
+  },
+  {
+    norwegian: "logiske brister",
+    english: "logical flaws",
+    spanish: "fallas lógicas",
+  },
+  {
+    norwegian: "oppgang",
+    english: "staircase",
+    spanish: "escalera",
+  },
+  {
+    norwegian: "var brenningen gjennomtenkt",
+    english: "was the burning deliberate",
+    spanish: "¿fue la quema deliberada?",
+  },
+  {
+    norwegian: "jeg feiger ikke ut",
+    english: "i'm not chickening out",
+    spanish: "no me estoy acobardando",
+  },
+  {
+    norwegian: "befolkningen splittes",
+    english: "the population is divided",
+    spanish: "la población está dividida",
+  },
+  {
+    norwegian: "nådeløse",
+    english: "ruthless",
+    spanish: "despiadados",
+  },
+  {
+    norwegian: "som nekter å følge strømmen",
+    english: "who refuse to follow the flow",
+    spanish: "que se niegan a seguir la corriente",
+  },
+  {
+    norwegian: "det første tilfellet av",
+    english: "the first case of",
+    spanish: "el primer caso de",
+  },
+  {
+    norwegian: "mest inngripende tiltakene",
+    english: "the most intrusive measures",
+    spanish: "las medidas más intrusivas",
+  },
+  {
+    norwegian: "uvirkelig",
+    english: "unreal",
+    spanish: "irreal",
+  },
+  {
+    norwegian: "strider mot",
+    english: "contradicts",
+    spanish: "contradice",
+  },
+  {
+    norwegian: "du er litt andpusten",
+    english: "you are a bit out of breath",
+    spanish: "estás un poco sin aliento",
+  },
+  {
+    norwegian: "folk tør",
+    english: "people dare",
+    spanish: "la gente se atreve",
+  },
+  {
+    norwegian: "et hastefremkalt eksperiment",
+    english: "an emergency experiment",
+    spanish: "un experimento de emergencia",
+  },
+  {
+    norwegian: "innen underholding",
+    english: "within entertainment",
+    spanish: "dentro del entretenimiento",
+  },
+  {
+    norwegian: "han brant munnbundet",
+    english: "he burned while gagged",
+    spanish: "se quemó mientras estaba amordazado",
+  },
+  {
+    norwegian: "spytting og sånt",
+    english: "spitting and such",
+    spanish: "escupir y cosas así",
+  },
+  {
+    norwegian: "han får tilsendt",
+    english: "he is sent",
+    spanish: "le envían",
+  },
+  {
+    norwegian: "å være i pluss igjen",
+    english: "to be in the black again",
+    spanish: "estar en números negros de nuevo",
+  },
 ];
