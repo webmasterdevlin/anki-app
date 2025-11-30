@@ -1975,4 +1975,216 @@ export const words: Question[] = [
     english: "is connected to",
     spanish: "está conectado a",
   },
+  {
+    norwegian: "en honningkrukke",
+    english: "a honey pot",
+    spanish: "un tarro de miel",
+  },
+  {
+    norwegian: "som straff fører",
+    english: "as punishment leads",
+    spanish: "como castigo conduce",
+  },
+  {
+    norwegian: "har neppe lest",
+    english: "has hardly read",
+    spanish: "apenas ha leído",
+  },
+  {
+    norwegian: "etterforskes",
+    english: "is being investigated",
+    spanish: "está siendo investigado",
+  },
+  {
+    norwegian: "skjebner",
+    english: "fates",
+    spanish: "destinos",
+  },
+  {
+    norwegian: "å meisle ut en strategi",
+    english: "to carve out a strategy",
+    spanish: "trazar una estrategia",
+  },
+  {
+    norwegian: "økokrim",
+    english:
+      "the Norwegian National Authority for Investigation and Prosecution of Economic and Environmental Crime",
+    spanish:
+      "la Autoridad Nacional Noruega para la Investigación y Persecución de Delitos Económicos y Ambientales",
+  },
+  {
+    norwegian: "innrømmer at det er",
+    english: "admits that it is",
+    spanish: "admite que es",
+  },
+  {
+    norwegian: "blir stadig bedre",
+    english: "is getting better and better",
+    spanish: "está mejorando cada vez más",
+  },
+  {
+    norwegian: "etatene",
+    english: "the agencies",
+    spanish: "las agencias",
+  },
+  {
+    norwegian: "bakmennene som holder på",
+    english: "the masterminds who are up to",
+    spanish: "los cerebros que están haciendo",
+  },
+  {
+    norwegian: "smutthull",
+    english: "loopholes",
+    spanish: "lagunas",
+  },
+  {
+    norwegian: "det undergraver samfunnstrukturen",
+    english: "it undermines the social structure",
+    spanish: "socava la estructura social",
+  },
+  {
+    norwegian: "noen oppsiktsvekkende e-poster",
+    english: "some sensational e-mails",
+    spanish: "algunos correos electrónicos sensacionales",
+  },
+  {
+    norwegian: "tilknytning til",
+    english: "connection to",
+    spanish: "conexión a",
+  },
+  {
+    norwegian: "å distrahere oss",
+    english: "to distract us",
+    spanish: "distraernos",
+  },
+  {
+    norwegian: "oppleves fra innsiden",
+    english: "experienced from the inside",
+    spanish: "experimentado desde adentro",
+  },
+  {
+    norwegian: "a-krim-satsningen",
+    english: 'the "A-crime" initiative',
+    spanish: 'la iniciativa "A-crimen"',
+  },
+  {
+    norwegian: "luftslott",
+    english: "castle in the air",
+    spanish: "castillo en el aire",
+  },
+  {
+    norwegian: " man er bevisst på",
+    english: "one is aware of",
+    spanish: "uno es consciente de",
+  },
+  {
+    norwegian: "hvor mye ressurser man har",
+    english: "how many resources one has",
+    spanish: "cuántos recursos tiene uno",
+  },
+  {
+    norwegian: "blir man bedt om å bregense",
+    english: "one is asked to limit",
+    spanish: "se le pide que limite",
+  },
+  {
+    norwegian: "den reelle statistikken",
+    english: "the real statistics",
+    spanish: "las estadísticas reales",
+  },
+  {
+    norwegian: "hvor mange er tatt",
+    english: "how many have been caught",
+    spanish: "cuántos han sido atrapados",
+  },
+  {
+    norwegian: "tas ikke ut tiltaler selv om",
+    english: "are not indicted even if",
+    spanish: "no son acusados incluso si",
+  },
+  {
+    norwegian: "er mest til pynt",
+    english: "is mostly for decoration",
+    spanish: "es principalmente para decoración",
+  },
+  {
+    norwegian: "at man svikter det som ber",
+    english: "that one fails those who ask",
+    spanish: "que uno falla a los que piden",
+  },
+  {
+    norwegian: "politiet om hjelp",
+    english: "the police for help",
+    spanish: "la policía para ayudar",
+  },
+  {
+    norwegian: "er like tilgivende overfor sånt",
+    english: "is just as forgiving of such",
+    spanish: "es igual de indulgente con tales",
+  },
+  {
+    norwegian: "lite nåløyet",
+    english: "narrow gate",
+    spanish: "puerta estrecha",
+  },
+  {
+    norwegian: "etterforsket",
+    english: "investigated",
+    spanish: "investigado",
+  },
+  {
+    norwegian: "er veldig snodig",
+    english: "is very weird",
+    spanish: "es muy raro",
+  },
+  {
+    norwegian: "er overhodet ikke bekymret for",
+    english: "is not at all concerned about",
+    spanish: "no está en absoluto preocupado por",
+  },
+  {
+    norwegian: "overførte min halvdel til henne",
+    english: "transferred my half to her",
+    spanish: "me transfirió la mitad a ella",
+  },
+  {
+    norwegian: "hørt lydopptak",
+    english: "heard audio recordings",
+    spanish: "escuchado grabaciones de audio",
+  },
+  {
+    norwegian: "unnlatt",
+    english: "omitted",
+    spanish: "omitido",
+  },
+  {
+    norwegian: "avviser",
+    english: "rejects",
+    spanish: "rechaza",
+  },
+  {
+    norwegian: "å påstå",
+    english: "to claim",
+    spanish: "afirmar",
+  },
+  {
+    norwegian: "etterforskes",
+    english: "is being investigated",
+    spanish: "está siendo investigado",
+  },
+  {
+    norwegian: "svikt",
+    english: "failure",
+    spanish: "fallo",
+  },
+  {
+    norwegian: "er leit å høre at",
+    english: "is sad to hear that",
+    spanish: "es triste escuchar que",
+  },
+  {
+    norwegian: "den oppfatningen",
+    english: "the perception",
+    spanish: "la percepción",
+  },
 ];
