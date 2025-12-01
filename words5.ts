@@ -2292,4 +2292,289 @@ export const words: Question[] = [
     english: "to be in the black again",
     spanish: "estar en números negros de nuevo",
   },
+  {
+    norwegian: "flere kritiske røster",
+    english: "several critical voices",
+    spanish: "varias voces críticas",
+  },
+  {
+    norwegian: "har etterlyst en bredere debatt",
+    english: "has called for a broader debate",
+    spanish: "ha pedido un debate más amplio",
+  },
+  {
+    norwegian: "innenfor samme felt",
+    english: "within the same field",
+    spanish: "dentro del mismo campo",
+  },
+  {
+    norwegian: "var kritisk til",
+    english: "was critical of",
+    spanish: "fue crítico con",
+  }
+  {
+    norwegian: "forlenget stengingen",
+    english: "extended closure",
+    spanish: "cierre prolongado",
+  },
+  {
+    norwegian: "sårbar",
+    english: "vulnerable",
+    spanish: "vulnerable",
+  },
+  {
+    norwegian: 'en oppsiktsvekkende setning',
+    english: "a sensational sentence",
+    spanish: "una frase sensacional",
+  },
+  {
+    norwegian: "syndebukkene",
+    english: "the scapegoats",
+    spanish: "los chivos expiatorios",
+  },
+  {
+    norwegian: "den hastegodkjente koronavaksinen",
+    english: "the emergency-approved coronavirus vaccine",
+    spanish: "la vacuna contra el coronavirus aprobada de emergencia",
+  },
+  {
+    norwegian: "med kandis og fløte",
+    english: "with rock candy and cream",
+    spanish: "con azúcar de roca y crema",
+  },
+  {
+    norwegian: "jeg er innstilt på at",
+    english: "i am prepared for",
+    spanish: "estoy preparado para",
+  },
+  {
+    norwegian: "innholder farlige ingredienser",
+    english: "contains dangerous ingredients",
+    spanish: "contiene ingredientes peligrosos",
+  },
+  {
+    norwegian: "du ikke stoler på",
+    english: "you don't trust",
+    spanish: "en quien no confías",
+  },
+  {
+    norwegian: "blanketten med",
+    english: "the form with",
+    spanish: "el formulario con",
+  },
+  {
+    norwegian: "leger er forpliktet til å gripe inn",
+    english: "doctors are obliged to intervene",
+    spanish: "los médicos están obligados a intervenir",
+  },
+  {
+    norwegian: "vi skal beslaglegge biovåpen",
+    english: "we will seize bioweapons",
+    spanish: "confiscaremos armas biológicas",
+  },
+  {
+    norwegian: "har avgjort",
+    english: "has decided",
+    spanish: "ha decidido",
+  },
+  {
+    norwegian: 'du er modig',
+    english: "you are brave",
+    spanish: "eres valiente",
+  },
+  {
+    norwegian: "han hevder britisk politi",
+    english: "he claims British police",
+    spanish: "él afirma que la policía británica",
+  },
+  {
+    norwegian:"vi etterkommer oppfordringen",
+    english: "we comply with the request",
+    spanish: "cumplimos con la solicitud",  
+  },
+  {
+    norwegian:"forbrytelser",
+    english: "crimes",
+    spanish: "crímenes",
+  },
+  {
+    norwegian: 'forpliktet til',
+    english: "obliged to",
+    spanish: "obligado a",
+  },
+  {
+    norwegian: 'jeg forpliktet til',
+    english: "i am obliged to",
+    spanish: "estoy obligado a",
+  },
+  {
+    norwegian: 'jeg pålegger deg',
+    english: "i impose on you",
+    spanish: "te impongo",
+  },
+  {
+    norwegian: 'bli innbragt',
+    english: "be brought in",
+    spanish: "ser llevado",
+  },
+  {
+    norwegian: 'å etterkomme',
+    english: "to comply",
+    spanish: "cumplir",
+  },
+  {
+    norwegian: 'dagen er risset inn i sjelen',
+    english: "the day is etched in the soul",
+    spanish: "el día está grabado en el alma",
+  },
+  {
+    norwegian: 'på forsiden av deller',
+    english: "on the front of deller",
+    spanish: "en la portada de deller",
+  },
+  {
+    norwegian: 'mye mediestyr',
+    english: "a lot of media attention",
+    spanish: "mucha atención mediática",
+  },
+  {
+    norwegian: 'det svineriet',
+    english: "the mess",
+    spanish: "el desorden",
+  },
+  {
+    norwegian: 'husk å skylle godt med saltvann',
+    english: "remember to rinse well with salt water",
+    spanish: "recuerda enjuagar bien con agua salada",
+  },
+  {
+    norwegian: 'etylenoksid',
+    english: "ethylene oxide",
+    spanish: "óxido de etileno",
+  },
+  {
+    norwegian: 'er kreftfremkallende',
+    english: "is carcinogenic",
+    spanish: "es cancerígeno",
+  },
+  {
+    norwegian: "små mengder",
+    english: "small amounts",
+    spanish: "pequeñas cantidades",
+  },
+  {
+    norwegian: 'kan ha påført dem ubehag',
+    english: "may have caused them discomfort",
+    spanish: "puede haberles causado incomodidad",
+  },
+  {
+    norwegian: 'til slakteren',
+    english: "to the butcher",
+    spanish: "al carnicero",
+  },
+  {
+    norwegian: 'printe den ut',
+    english: "print it out",
+    spanish: "imprimirlo",
+  },
+  {
+    norwegian: 'med bot på',
+    english: "with a fine of",
+    spanish: "con una multa de",
+  },
+  {
+    norwegian: 'i domstolen',
+    english: "in court",
+    spanish: "en la corte",
+  },
+  {
+    norwegian: 'man kan provosere fram bevis',
+    english: "one can provoke evidence",
+    spanish: "uno puede provocar evidencia",
+  },
+  {
+    norwegian: 'bevisbyrden',
+    english: "the burden of proof",
+    spanish: "la carga de la prueba",
+  },
+  {
+    norwegian: 'var usikre på hvorvidt',
+    english: "were unsure whether",
+    spanish: "no estaban seguros de si",
+  },
+  {
+    norwegian: 'tilregnelig',
+    english: "sane",
+    spanish: "cuerdo",
+  },
+  {
+    norwegian: 'bevisene er jo der',
+    english: "the evidence is there",
+    spanish: "la evidencia está ahí",
+  },
+  {
+    norwegian: 'gønner på',
+    english: "ramps up",
+    spanish: "aumenta",
+  },
+  {
+    norwegian:'de ikke tør å møte meg',
+    english: "they don't dare to meet me",
+    spanish: "no se atreven a reunirse conmigo",
+  },
+  {
+    norwegian: 'ha fått en skrue løs',
+    english: "have a screw loose",
+    spanish: "tener un tornillo suelto",
+  },
+  {
+    norwegian: 'et medmenneske',
+    english: "a fellow human being",
+    spanish: "un semejante",
+  },
+  {
+    norwegian: 'jeg beundrer ham',
+    english: "i admire him",
+    spanish: "lo admiro",
+  },
+  {
+    norwegian: 'kan leke fritt',
+    english: "can play freely",
+    spanish: "puede jugar libremente",
+  },
+  {
+    norwegian: 'en belastning som',
+    english: "a burden that",
+    spanish: "una carga que",
+  },
+  {
+    norwegian: 'blir man framstilt som',
+    english: "one is portrayed as",
+    spanish: "uno es retratado como",
+  },
+  {
+    norwegian: 'så følelsesstyrt',
+    english: "so emotional",
+    spanish: "tan emocional",
+  },
+  {
+    norwegian: 'mer fornuftige',
+    english: "more sensible",
+    spanish: "más sensato",
+  },
+  {
+    norwegian: 'den største forskjellen på',
+    english: "the biggest difference between",
+    spanish: "la mayor diferencia entre",
+  },
+  {
+    norwegian: 'undervist i',
+    english: "taught in",
+    spanish: "enseñado en",
+  },
+  {
+    norwegian: 'blir enda steiler fronter',
+    english: "even more steely fronts",
+    spanish: "frentes aún más acerados",
+  }
 ];
