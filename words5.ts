@@ -1636,7 +1636,7 @@ export const words: Question[] = [
     spanish: "palanca",
   },
   {
-    norwegian: " i beredskapsmodus",
+    norwegian: "i beredskapsmodus",
     english: "in emergency mode",
     spanish: "en modo de emergencia",
   },
