@@ -1242,7 +1242,7 @@ export const words: Question[] = [
   },
   {
     norwegian: "virkestoffene",
-    english: "the active ingredients",
+    english: "the active substances",
     spanish: "los ingredientes activos",
   },
   {
