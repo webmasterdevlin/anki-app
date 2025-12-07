@@ -435,4 +435,179 @@ export const words: Question[] = [
     english: "is the housing department",
     spanish: "es el departamento de vivienda",
   },
+  {
+    norwegian: "han tenner på",
+    english: "he is turned on by",
+    spanish: "él se excita con",
+  },
+  {
+    norwegian: "har maske",
+    english: "has a mask",
+    spanish: "tiene una máscara",
+  },
+  {
+    norwegian: "et opptak med ham",
+    english: "a recording with him",
+    spanish: "una grabación con él",
+  },
+  {
+    norwegian: "en påtalejurist",
+    english: "a prosecuting attorney",
+    spanish: "un fiscal",
+  },
+  {
+    norwegian: "en ransaking",
+    english: "a search",
+    spanish: "un registro",
+  },
+  {
+    norwegian: "er litt satt ut",
+    english: "is a bit taken aback",
+    spanish: "está un poco desconcertado",
+  },
+  {
+    norwegian: "jeg har kvelt noen",
+    english: "I have strangled some",
+    spanish: "he estrangulado a algunos",
+  },
+  {
+    norwegian: "mot strupen",
+    english: "against the throat",
+    spanish: "contra la garganta",
+  },
+  {
+    norwegian: "avlogget",
+    english: "logged out",
+    spanish: "cerrado sesión",
+  },
+  {
+    norwegian: "han er pågrepet nå",
+    english: "he is arrested now",
+    spanish: "él está arrestado ahora",
+  },
+  {
+    norwegian: "det skjellig grunn til mistanke",
+    english: "there is reasonable grounds for suspicion",
+    spanish: "hay motivos razonables para la sospecha",
+  },
+  {
+    norwegian: "til verks",
+    english: "into action",
+    spanish: "en acción",
+  },
+  {
+    norwegian: "en lystløgner",
+    english: "a pathological liar",
+    spanish: "un mentiroso patológico",
+  },
+  {
+    norwegian: "vi vender tilbake mot",
+    english: "we return towards",
+    spanish: "regresamos hacia",
+  },
+  {
+    norwegian: "for medvirkning til selvdrap",
+    english: "for assisting in suicide",
+    spanish: "por ayudar en el suicidio",
+  },
+  {
+    norwegian: "så inderlig ønske",
+    english: "so sincerely wish",
+    spanish: "desear sinceramente",
+  },
+  {
+    norwegian: "han erkjente seg skyldig i retten",
+    english: "he pleaded guilty in court",
+    spanish: "él se declaró culpable en la corte",
+  },
+  {
+    norwegian: "det var lavt",
+    english: "that was low",
+    spanish: "eso fue bajo",
+  },
+  {
+    norwegian: "har anket hele saken og straffeskyld",
+    english: "has appealed the entire case and criminal liability",
+    spanish: "ha apelado todo el caso y la responsabilidad penal",
+  },
+  {
+    norwegian: "delaktig",
+    english: "involved",
+    spanish: "involucrado",
+  },
+  {
+    norwegian: "i å frembringe døden",
+    english: "in bringing about death",
+    spanish: "en provocar la muerte",
+  },
+  {
+    norwegian: "var veldig bustete på",
+    english: "was very tousled on",
+    spanish: "estaba muy despeinado en",
+  },
+  {
+    norwegian: "rettens sakkyndige",
+    english: "the court's expert",
+    spanish: "el perito del tribunal",
+  },
+  {
+    norwegian: "konkluderer med at det ikke",
+    english: "concludes that it does not",
+    spanish: "concluye que no",
+  },
+  {
+    norwegian: "er fare for gjentagelse",
+    english: "is a risk of recurrence",
+    spanish: "hay riesgo de recurrencia",
+  },
+  {
+    norwegian: "han er derfor en fri mann",
+    english: "he is therefore a free man",
+    spanish: "por lo tanto, es un hombre libre",
+  },
+  {
+    norwegian: "i påvente av anke",
+    english: "pending appeal",
+    spanish: "en espera de apelación",
+  },
+  {
+    norwegian: "rettskraftig dom",
+    english: "final judgment",
+    spanish: "sentencia firme",
+  },
+  {
+    norwegian: "opprettet",
+    english: "created",
+    spanish: "creado",
+  },
+  {
+    norwegian: "jeg skjelver",
+    english: "I am trembling",
+    spanish: "estoy temblando",
+  },
+  {
+    norwegian: "er farmasøyt",
+    english: "is a pharmacist",
+    spanish: "es farmacéutico",
+  },
+  {
+    norwegian: "ikke selve nålen",
+    english: "not the needle itself",
+    spanish: "no la aguja en sí",
+  },
+  {
+    norwegian: "lå ved siden av henne",
+    english: "lay beside her",
+    spanish: "yació junto a ella",
+  },
+  {
+    norwegian: "en kriminaltekniker",
+    english: "a forensic technician",
+    spanish: "un técnico forense",
+  },
+  {
+    norwegian: "jeg reagerte mest på",
+    english: "I reacted most to",
+    spanish: "reaccioné más a",
+  },
 ];
