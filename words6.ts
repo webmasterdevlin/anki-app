@@ -840,4 +840,179 @@ export const words: Question[] = [
     english: "the police deny that the accused has not been interrogated",
     spanish: "la policía niega que el acusado no haya sido interrogado",
   },
+  {
+    norwegian: "den usikkerheten plager meg litt",
+    english: "that uncertainty bothers me a little",
+    spanish: "esa incertidumbre me molesta un poco",
+  },
+  {
+    norwegian: "utsagnene hans",
+    english: "his statements",
+    spanish: "sus declaraciones",
+  },
+  {
+    norwegian: "en seriemorder",
+    english: "a serial killer",
+    spanish: "un asesino en serie",
+  },
+  {
+    norwegian: "juridisk",
+    english: "legal",
+    spanish: "legal",
+  },
+  {
+    norwegian: "såpass , ja",
+    english: "that much, yes",
+    spanish: "tanto, sí",
+  },
+  {
+    norwegian: "utgangen er skjult",
+    english: "the exit is hidden",
+    spanish: "la salida está oculta",
+  },
+  {
+    norwegian: "rettsoppnevnte sakkyndige",
+    english: "court-appointed expert",
+    spanish: "perito designado por el tribunal",
+  },
+  {
+    norwegian: "tilstand",
+    english: "condition",
+    spanish: "condición",
+  },
+  {
+    norwegian: "offeret var",
+    english: "the victim was",
+    spanish: "la víctima era",
+  },
+  {
+    norwegian: "han tilfeldigvis",
+    english: "he accidentally",
+    spanish: "él accidentalmente",
+  },
+  {
+    norwegian: "av hensyn til",
+    english: "out of consideration for",
+    spanish: "por consideración a",
+  },
+  {
+    norwegian: "dommerne besluttet",
+    english: "the judges decided",
+    spanish: "los jueces decidieron",
+  },
+  {
+    norwegian: "å gi barnevernsnemnda",
+    english: "to give the child welfare committee",
+    spanish: "dar al comité de bienestar infantil",
+  },
+  {
+    norwegian: "tiltak",
+    english: "measures",
+    spanish: "medidas",
+  },
+  {
+    norwegian: "vurdering",
+    english: "assessment",
+    spanish: "evaluación",
+  },
+  {
+    norwegian: "avslørt oss",
+    english: "exposed us",
+    spanish: "nos expuso",
+  },
+  {
+    norwegian: "han skryter",
+    english: "he boasts",
+    spanish: "él se jacta",
+  },
+  {
+    norwegian: "som skurrer for meg",
+    english: "that sounds wrong to me",
+    spanish: "que suena mal para mí",
+  },
+  {
+    norwegian: "å berolige deg",
+    english: "to reassure you",
+    spanish: "para tranquilizarte",
+  },
+  {
+    norwegian: "kalde føtter",
+    english: "cold feet",
+    spanish: "pies fríos",
+  },
+  {
+    norwegian: "en plassering på ham",
+    english: "a placement on him",
+    spanish: "una colocación en él",
+  },
+  {
+    norwegian: "en absurd problemstilling",
+    english: "an absurd issue",
+    spanish: "un problema absurdo",
+  },
+  {
+    norwegian: "gjort opptak",
+    english: "made recordings",
+    spanish: "hecho grabaciones",
+  },
+  {
+    norwegian: "han kommer gående fra",
+    english: "he is coming walking from",
+    spanish: "él viene caminando desde",
+  },
+  {
+    norwegian: "en sikkerhetsvakt",
+    english: "a security guard",
+    spanish: "un guardia de seguridad",
+  },
+  {
+    norwegian: "bekrefter",
+    english: "confirms",
+    spanish: "confirma",
+  },
+  {
+    norwegian: "han hevder å være",
+    english: "he claims to be",
+    spanish: "él afirma ser",
+  },
+  {
+    norwegian: "bussholdenplassen",
+    english: "the bus stop",
+    spanish: "la parada de autobús",
+  },
+  {
+    norwegian: "to minutter herfra",
+    english: "two minutes from here",
+    spanish: "a dos minutos de aquí",
+  },
+  {
+    norwegian: "den sklir opp hvis du",
+    english: "it slips up if you",
+    spanish: "se desliza si tú",
+  },
+  {
+    norwegian: "gå forbi",
+    english: "go past",
+    spanish: "pasar por",
+  },
+  {
+    norwegian: "saklig måte",
+    english: "objective way",
+    spanish: "manera objetiva",
+  },
+  {
+    norwegian: "alvorlig",
+    english: "serious",
+    spanish: "serio",
+  },
+  {
+    norwegian: "du alvoret i saken",
+    english: "you the seriousness of the case",
+    spanish: "tú la seriedad del caso",
+  },
+  {
+    norwegian: "har ikke sperret deg inne",
+    english: "has not locked you up",
+    spanish: "no te ha encerrado",
+  },
 ];
