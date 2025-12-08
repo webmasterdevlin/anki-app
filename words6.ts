@@ -610,4 +610,234 @@ export const words: Question[] = [
     english: "I reacted most to",
     spanish: "reaccioné más a",
   },
+  {
+    norwegian: "gjentakelse",
+    english: "recurrence",
+    spanish: "recurrencia",
+  },
+  {
+    norwegian: "utslag på anken",
+    english: "rash on the ankle",
+    spanish: "erupción en el tobillo",
+  },
+  {
+    norwegian: "om forvaring",
+    english: "about preventive detention",
+    spanish: "sobre la detención preventiva",
+  },
+  {
+    norwegian: "helt ny vending",
+    english: "completely new turn",
+    spanish: "giro completamente nuevo",
+  },
+  {
+    norwegian: "dette tilfellet",
+    english: "this case",
+    spanish: "este caso",
+  },
+  {
+    norwegian: "etterlyst henne",
+    english: "looked for her",
+    spanish: "la buscó",
+  },
+  {
+    norwegian: "ikke blitt tatt",
+    english: "not been caught",
+    spanish: "no ha sido atrapado",
+  },
+  {
+    norwegian: "jeg ble pågrepet",
+    english: "I was arrested",
+    spanish: "fui arrestado",
+  },
+  {
+    norwegian: "varetektsfengslet i 4 uker",
+    english: "detained for 4 weeks",
+    spanish: "detenido por 4 semanas",
+  },
+  {
+    norwegian: "gjennomgikk to avhør",
+    english: "underwent two interrogations",
+    spanish: "sometió a dos interrogatorios",
+  },
+  {
+    norwegian: "bokstavelig talt",
+    english: "literally",
+    spanish: "literalmente",
+  },
+  {
+    norwegian: "ble sparket ut igjen",
+    english: "was kicked out again",
+    spanish: "fue expulsado de nuevo",
+  },
+  {
+    norwegian: "men siktelsen er der fortsatt",
+    english: "but the charge is still there",
+    spanish: "pero el cargo sigue ahí",
+  },
+  {
+    norwegian: "frem litt lydfiler",
+    english: "play some audio files",
+    spanish: "reproducir algunos archivos de audio",
+  },
+  {
+    norwegian: "å avklare",
+    english: "to clarify",
+    spanish: "aclarar",
+  },
+  {
+    norwegian: "tilregnelig",
+    english: "sane",
+    spanish: "cuerdo",
+  },
+  {
+    norwegian: "har beskyldt meg",
+    english: "has accused me",
+    spanish: "me ha acusado",
+  },
+  {
+    norwegian: "har vært pårørende",
+    english: "has been a relative",
+    spanish: "ha sido un familiar",
+  },
+  {
+    norwegian: "utdype",
+    english: "elaborate",
+    spanish: "elaborar",
+  },
+  {
+    norwegian: "sovemidler som kan",
+    english: "sleeping aids that can",
+    spanish: "somníferos que pueden",
+  },
+  {
+    norwegian: "en siktelse",
+    english: "a charge",
+    spanish: "un cargo",
+  },
+  {
+    norwegian: "uskyldig i den siktelsen",
+    english: "innocent of the charge",
+    spanish: "inocente del cargo",
+  },
+  {
+    norwegian: "ingen tråder",
+    english: "no threads",
+    spanish: "ningún hilo",
+  },
+  {
+    norwegian: "over streken",
+    english: "over the line",
+    spanish: "sobre la línea",
+  },
+  {
+    norwegian: "i kjeften",
+    english: "in the mouth",
+    spanish: "en la boca",
+  },
+  {
+    norwegian: "i disse avhørene",
+    english: "in these interrogations",
+    spanish: "en estos interrogatorios",
+  },
+  {
+    norwegian: "det verken kan",
+    english: "it can neither",
+    spanish: "no puede ni",
+  },
+  {
+    norwegian: "en tabbe av meg",
+    english: "a mistake of mine",
+    spanish: "un error mío",
+  },
+  {
+    norwegian: "tabben var å snakke med",
+    english: "the mistake was to talk to",
+    spanish: "el error fue hablar con",
+  },
+  {
+    norwegian: "ønsket å ta livet sitt",
+    english: "wanted to take her own life",
+    spanish: "quería quitarse la vida",
+  },
+  {
+    norwegian: "om hansker og samleie",
+    english: "about gloves and intercourse",
+    spanish: "sobre guantes e intercourse",
+  },
+  {
+    norwegian: "et snev av en fantasi",
+    english: "a hint of a fantasy",
+    spanish: "un atisbo de una fantasía",
+  },
+  {
+    norwegian: "nytelse",
+    english: "pleasure",
+    spanish: "placer",
+  },
+  {
+    norwegian: "en tabbe",
+    english: "a mistake",
+    spanish: "un error",
+  },
+  {
+    norwegian: "jeg påtok meg",
+    english: "I took upon myself",
+    spanish: "me encargué de",
+  },
+  {
+    norwegian: "det er hinsides",
+    english: "it is beyond",
+    spanish: "está más allá",
+  },
+  {
+    norwegian: "så vidt jeg kjenner til",
+    english: "as far as I know",
+    spanish: "hasta donde yo sé",
+  },
+  {
+    norwegian: "at jeg er juridisk uskyldig",
+    english: "that I am legally innocent",
+    spanish: "que soy legalmente inocente",
+  },
+  {
+    norwegian: "viklet inn i en slik sak",
+    english: "involved in such a case",
+    spanish: "involucrado en un caso así",
+  },
+  {
+    norwegian: "det kan tolkes litt forskellig",
+    english: "it can be interpreted a little differently",
+    spanish: "se puede interpretar un poco diferente",
+  },
+  {
+    norwegian: "han innrømmer",
+    english: "he admits",
+    spanish: "él admite",
+  },
+  {
+    norwegian: "alltid hadde pent hår",
+    english: "always had nice hair",
+    spanish: "siempre tenía buen cabello",
+  },
+  {
+    norwegian: "børsten lå ved sengen",
+    english: "the brush lay by the bed",
+    spanish: "el cepillo estaba junto a la cama",
+  },
+  {
+    norwegian: "forsvareren hans",
+    english: "his defense attorney",
+    spanish: "su abogado defensor",
+  },
+  {
+    norwegian: "en omfattende etterforskning",
+    english: "an extensive investigation",
+    spanish: "una investigación exhaustiva",
+  },
+  {
+    norwegian: "politiet avkrefter at siktede ikke har bliit avhørt",
+    english: "the police deny that the accused has not been interrogated",
+    spanish: "la policía niega que el acusado no haya sido interrogado",
+  },
 ];
