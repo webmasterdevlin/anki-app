@@ -1015,4 +1015,159 @@ export const words: Question[] = [
     english: "has not locked you up",
     spanish: "no te ha encerrado",
   },
+  {
+    norwegian: "spriten",
+    english: "the booze",
+    spanish: "el alcohol",
+  },
+  {
+    norwegian: "er kvalmestillende",
+    english: "is nauseating",
+    spanish: "es nauseabundo",
+  },
+  {
+    norwegian: "i slike sammenhenger",
+    english: "in such contexts",
+    spanish: "en tales contextos",
+  },
+  {
+    norwegian: "står oppført i",
+    english: "listed in",
+    spanish: "listado en",
+  },
+  {
+    norwegian: "den er utarbeidet av",
+    english: "it is prepared by",
+    spanish: "está preparado por",
+  },
+  {
+    norwegian: "gjentakelse",
+    english: "recurrence",
+    spanish: "recurrencia",
+  },
+  {
+    norwegian: "psykolog",
+    english: "psychologist",
+    spanish: "psicólogo",
+  },
+  {
+    norwegian: "psykiater",
+    english: "psychiatrist",
+    spanish: "psiquiatra",
+  },
+  {
+    norwegian: "i forbindelse med",
+    english: "in connection with",
+    spanish: "en relación con",
+  },
+  {
+    norwegian: "en mye bredere vurdering",
+    english: "a much broader assessment",
+    spanish: "una evaluación mucho más amplia",
+  },
+  {
+    norwegian: "få forvaring",
+    english: "get preventive detention",
+    spanish: "obtener detención preventiva",
+  },
+  {
+    norwegian: "for medvirkning til selvdmord",
+    english: "for assisting in suicide",
+    spanish: "por ayudar en el suicidio",
+  },
+  {
+    norwegian: "ble utestengt",
+    english: "was excluded",
+    spanish: "fue excluido",
+  },
+  {
+    norwegian: "foreligger",
+    english: "exists",
+    spanish: "existe",
+  },
+  {
+    norwegian: "har fått en dom",
+    english: "has received a sentence",
+    spanish: "ha recibido una sentencia",
+  },
+  {
+    norwegian: "først dopet ned",
+    english: "first drugged",
+    spanish: "primero drogado",
+  },
+  {
+    norwegian: "kvalmestillende",
+    english: "nauseating",
+    spanish: "nauseabundo",
+  },
+  {
+    norwegian: "et innfall",
+    english: "a whim",
+    spanish: "un capricho",
+  },
+  {
+    norwegian: "tilfelle med",
+    english: "case with",
+    spanish: "caso con",
+  },
+  {
+    norwegian: "næremest pårørende",
+    english: "closest relatives",
+    spanish: "parientes más cercanos",
+  },
+  {
+    norwegian: "er det ingen forsjell",
+    english: "there is no difference",
+    spanish: "no hay diferencia",
+  },
+  {
+    norwegian: "strafferammen er den samme",
+    english: "the penalty is the same",
+    spanish: "la pena es la misma",
+  },
+  {
+    norwegian: "tilsier",
+    english: "indicates",
+    spanish: "indica",
+  },
+  {
+    norwegian: "han foreslo",
+    english: "he suggested",
+    spanish: "él sugirió",
+  },
+  {
+    norwegian: "sannheten",
+    english: "the truth",
+    spanish: "la verdad",
+  },
+  {
+    norwegian: "er tydelig",
+    english: "is clear",
+    spanish: "está claro",
+  },
+  {
+    norwegian: "avgjøre",
+    english: "decide",
+    spanish: "decidir",
+  },
+  {
+    norwegian: "utsatt på ubestemt tid",
+    english: "postponed indefinitely",
+    spanish: "pospuesto indefinidamente",
+  },
+  {
+    norwegian: "kan ikke overlates",
+    english: "cannot leave",
+    spanish: "no puede dejar",
+  },
+  {
+    norwegian: "disse skjebnene",
+    english: "these fates",
+    spanish: "estos destinos",
+  },
+  {
+    norwegian: "sårbare mennesker som",
+    english: "vulnerable people who",
+    spanish: "personas vulnerables que",
+  },
 ];
