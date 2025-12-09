@@ -1111,7 +1111,7 @@ export const words: Question[] = [
     spanish: "caso con",
   },
   {
-    norwegian: "næremest pårørende",
+    norwegian: "nærmeste pårørende",
     english: "closest relatives",
     spanish: "parientes más cercanos",
   },
@@ -1169,5 +1169,430 @@ export const words: Question[] = [
     norwegian: "sårbare mennesker som",
     english: "vulnerable people who",
     spanish: "personas vulnerables que",
+  },
+  {
+    norwegian: "stoffskifteprøven viser tegn på",
+    english: "the thyroid test shows signs of",
+    spanish: "la prueba de tiroides muestra signos de",
+  },
+  {
+    norwegian: "thyreodieasykdom",
+    english: "thyroid disease",
+    spanish: "enfermedad tiroidea",
+  },
+  {
+    norwegian: "vektøkning",
+    english: "weight gain",
+    spanish: "aumento de peso",
+  },
+  {
+    norwegian: "slapphet",
+    english: "lethargy",
+    spanish: "letargo",
+  },
+  {
+    norwegian: "forstoppelse",
+    english: "constipation",
+    spanish: "estreñimiento",
+  },
+  {
+    norwegian: "kuldefølelse",
+    english: "sensitivity to cold",
+    spanish: "sensibilidad al frío",
+  },
+  {
+    norwegian: "forekommer",
+    english: "occurs",
+    spanish: "ocurre",
+  },
+  {
+    norwegian: "er hjernetåke",
+    english: "is brain fog",
+    spanish: "es niebla cerebral",
+  },
+  {
+    norwegian: "jeg føler meg utmattet",
+    english: "I feel exhausted",
+    spanish: "me siento exhausto",
+  },
+  {
+    norwegian: "kjappe og usunne løsnigher",
+    english: "quick and unhealthy solutions",
+    spanish: "soluciones rápidas e insalubres",
+  },
+  {
+    norwegian: "høyt blodtrykk",
+    english: "high blood pressure",
+    spanish: "presión arterial alta",
+  },
+  {
+    norwegian: "kostholdsrådene",
+    english: "the dietary advice",
+    spanish: "los consejos dietéticos",
+  },
+  {
+    norwegian: "samlebegrepet",
+    english: "the collective term",
+    spanish: "el término colectivo",
+  },
+  {
+    norwegian: "har inntatt norge",
+    english: "has taken over Norway",
+    spanish: "ha tomado el control de Noruega",
+  },
+  {
+    norwegian: "det strider ikke med ideen",
+    english: "it does not conflict with the idea",
+    spanish: "no entra en conflicto con la idea",
+  },
+  {
+    norwegian: "grepene",
+    english: "the measures",
+    spanish: "las medidas",
+  },
+  {
+    norwegian: "friskuser",
+    english: "health nuts",
+    spanish: "fanáticos de la salud",
+  },
+  {
+    norwegian: "tilstedeværelse",
+    english: "presence",
+    spanish: "presencia",
+  },
+  {
+    norwegian: "denne messen",
+    english: "this fair",
+    spanish: "esta feria",
+  },
+  {
+    norwegian: "skaffe deg duppeditter",
+    english: "get you gadgets",
+    spanish: "conseguir gadgets para ti",
+  },
+  {
+    norwegian: "grunnleggende bedre",
+    english: "fundamentally better",
+    spanish: "fundamentalmente mejor",
+  },
+  {
+    norwegian: "gjennomsnittsscore",
+    english: "the average score",
+    spanish: "la puntuación media",
+  },
+  {
+    norwegian: "den vanlige oppfatningen er",
+    english: "the common idea is",
+    spanish: "la idea común es",
+  },
+  {
+    norwegian: "emosjonelt",
+    english: "emotionally",
+    spanish: "emocionalmente",
+  },
+  {
+    norwegian: "litt fornuftig",
+    english: "a little sensible",
+    spanish: "un poco sensato",
+  },
+  {
+    norwegian: "sunn fornuft",
+    english: "common sense",
+    spanish: "sentido común",
+  },
+  {
+    norwegian: "det er flaut",
+    english: "it's embarrassing",
+    spanish: "es embarazoso",
+  },
+  {
+    norwegian: "det begrepet",
+    english: "that concept",
+    spanish: "ese concepto",
+  },
+  {
+    norwegian: "den harbarkete",
+    english: "the hardened",
+    spanish: "el endurecido",
+  },
+  {
+    norwegian: "da passerer vi",
+    english: "then we pass",
+    spanish: "entonces pasamos",
+  },
+  {
+    norwegian: "en overvektig 60-åring",
+    english: "an overweight 60-year-old",
+    spanish: "un obeso de 60 años",
+  },
+  {
+    norwegian: "hva er årsaken til",
+    english: "what is the cause of",
+    spanish: "cuál es la causa de",
+  },
+  {
+    norwegian: "de underliggende forholdene",
+    english: "the underlying conditions",
+    spanish: "las condiciones subyacentes",
+  },
+  {
+    norwegian: "stadium fire",
+    english: "stage four",
+    spanish: "etapa cuatro",
+  },
+  {
+    norwegian: "stråling",
+    english: "radiation",
+    spanish: "radiación",
+  },
+  {
+    norwegian: "se yndlingsserien din på",
+    english: "watch your favorite series on",
+    spanish: "ver tu serie favorita en",
+  },
+  {
+    norwegian: "av den kjelleren",
+    english: "of that basement",
+    spanish: "de ese sótano",
+  },
+  {
+    norwegian: "en liten klapp på kinnet",
+    english: "a little pat on the cheek",
+    spanish: "una pequeña palmada en la mejilla",
+  },
+  {
+    norwegian: "sette pris på",
+    english: "appreciate",
+    spanish: "aprecio",
+  },
+  {
+    norwegian: "sympatikusmodus",
+    english: "sympathetic mode",
+    spanish: "modo simpático",
+  },
+  {
+    norwegian: "hatt overskudd og energi",
+    english: "had surplus and energy",
+    spanish: "tenía excedente y energía",
+  },
+  {
+    norwegian: "tre hovedgrep",
+    english: "three main measures",
+    spanish: "tres medidas principales",
+  },
+  {
+    norwegian: "du fyller på",
+    english: "you refill",
+    spanish: "rellenas",
+  },
+  {
+    norwegian: "jeg har stått opp",
+    english: "I have gotten up",
+    spanish: "me he levantado",
+  },
+  {
+    norwegian: "en klesvask",
+    english: "a laundry",
+    spanish: "una colada",
+  },
+  {
+    norwegian: "en sånn fornektelse",
+    english: "a kind of denial",
+    spanish: "una especie de negación",
+  },
+  {
+    norwegian: "hun fremstår så sterk og frisk",
+    english: "she appears so strong and healthy",
+    spanish: "ella parece tan fuerte y saludable",
+  },
+  {
+    norwegian: "skjoldbruskkjertelen min",
+    english: "my thyroid gland",
+    spanish: "mi glándula tiroides",
+  },
+  {
+    norwegian: "bidrar til å dempe betennelsene",
+    english: "helps to reduce inflammation",
+    spanish: "ayuda a reducir la inflamación",
+  },
+  {
+    norwegian: "fedme og høyt blodtrykk",
+    english: "obesity and high blood pressure",
+    spanish: "obesidad y presión arterial alta",
+  },
+  {
+    norwegian: "min kondisjonalder er 60",
+    english: "my fitness age is 60",
+    spanish: "mi edad física es 60",
+  },
+  {
+    norwegian: "er slagord",
+    english: "are slogans",
+    spanish: "son eslóganes",
+  },
+  {
+    norwegian: "det motsatte av",
+    english: "the opposite of",
+    spanish: "lo contrario de",
+  },
+  {
+    norwegian: "for kondis",
+    english: "for fitness",
+    spanish: "para la condición física",
+  },
+  {
+    norwegian: "å tilfredsstille",
+    english: "to satisfy",
+    spanish: "satisfacer",
+  },
+  {
+    norwegian: "noen fartøy",
+    english: "some vessels",
+    spanish: "algunos vasos",
+  },
+  {
+    norwegian: "som frakter fett rundt i kroppen",
+    english: "that transport fat around the body",
+    spanish: "que transportan grasa por el cuerpo",
+  },
+  {
+    norwegian: "ikke noe tilbehør",
+    english: "no accessories",
+    spanish: "sin accesorios",
+  },
+  {
+    norwegian: "verdens fremste",
+    english: "the world's leading",
+    spanish: "el principal del mundo",
+  },
+  {
+    norwegian: "en biopat",
+    english: "a biopath",
+    spanish: "un biopata",
+  },
+  {
+    norwegian: "å styrke kroppen",
+    english: "to strengthen the body",
+    spanish: "fortalecer el cuerpo",
+  },
+  {
+    norwegian: "i samråd med",
+    english: "in consultation with",
+    spanish: "en consulta con",
+  },
+  {
+    norwegian: "en kostholdsplan",
+    english: "a diet plan",
+    spanish: "un plan de dieta",
+  },
+  {
+    norwegian: "var litt ålreit at",
+    english: "it was kind of nice that",
+    spanish: "fue un poco agradable que",
+  },
+  {
+    norwegian: "kuldebad",
+    english: "cold baths",
+    spanish: "baños fríos",
+  },
+  {
+    norwegian: "sukkerreseptorer",
+    english: "sugar receptors",
+    spanish: "receptores de azúcar",
+  },
+  {
+    norwegian: "åpenlyst",
+    english: "obviously",
+    spanish: "obviamente",
+  },
+  {
+    norwegian: "overskudd til å trene",
+    english: "surplus to exercise",
+    spanish: "excedente para hacer ejercicio",
+  },
+  {
+    norwegian: "å dempe symptomene",
+    english: "to alleviate the symptoms",
+    spanish: "aliviar los síntomas",
+  },
+  {
+    norwegian: "en gravstein på",
+    english: "a tombstone on",
+    spanish: "una lápida en",
+  },
+  {
+    norwegian: "uhelbredelig",
+    english: "incurable",
+    spanish: "incurable",
+  },
+  {
+    norwegian: "å strupe inntaket",
+    english: "to curb the intake",
+    spanish: "restringir la ingesta",
+  },
+  {
+    norwegian: "å krympe",
+    english: "to shrink",
+    spanish: "encoger",
+  },
+  {
+    norwegian: "det er ikke enten",
+    english: "it's not either",
+    spanish: "no es ni",
+  },
+  {
+    norwegian: "bekfrefter forhold",
+    english: "confirms conditions",
+    spanish: "confirma condiciones",
+  },
+  {
+    norwegian: "en murvegg",
+    english: "a brick wall",
+    spanish: "un muro de ladrillos",
+  },
+  {
+    norwegian: "er helt fjernt",
+    english: "is completely far-fetched",
+    spanish: "es completamente descabellado",
+  },
+  {
+    norwegian: "å døyve sulten",
+    english: "to stave off hunger",
+    spanish: "para saciar el hambre",
+  },
+  {
+    norwegian: "komplementær betyr",
+    english: "complementary means",
+    spanish: "complementario significa",
+  },
+  {
+    norwegian: "oppunder med noe",
+    english: "up to something",
+    spanish: "hasta algo",
+  },
+  {
+    norwegian: "en kreftsvulst",
+    english: "a cancerous tumor",
+    spanish: "un tumor canceroso",
+  },
+  {
+    norwegian: "å skille ut insulin",
+    english: "to secrete insulin",
+    spanish: "secreta insulina",
+  },
+  {
+    norwegian: "en vekstfaktor",
+    english: "a growth factor",
+    spanish: "un factor de crecimiento",
+  },
+  {
+    norwegian: "mistenkte",
+    english: "the suspect",
+    spanish: "el sospechoso",
+  },
+  {
+    norwegian: "som lavt stoffskifte",
+    english: "like hypothyroidism",
+    spanish: "como el hipotiroidismo",
   },
 ];
