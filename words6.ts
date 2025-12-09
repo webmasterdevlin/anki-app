@@ -1595,4 +1595,164 @@ export const words: Question[] = [
     english: "like hypothyroidism",
     spanish: "como el hipotiroidismo",
   },
+  {
+    norwegian: "et swingerstreff",
+    english: "a swinger party",
+    spanish: "una fiesta swinger",
+  },
+  {
+    norwegian: "velidg skjult da",
+    english: "very hidden then",
+    spanish: "muy escondido entonces",
+  },
+  {
+    norwegian: "overflaten er veldig ordentlige",
+    english: "the surface is very tidy",
+    spanish: "la superficie es muy ordenada",
+  },
+  {
+    norwegian: "seksuell frigjøring",
+    english: "sexual liberation",
+    spanish: "liberación sexual",
+  },
+  {
+    norwegian: "utforske sine fetisjer",
+    english: "explore their fetishes",
+    spanish: "explorar sus fetiches",
+  },
+  {
+    norwegian: "iv også streitingene",
+    english: "also the straights",
+    spanish: "también los heterosexuales",
+  },
+  {
+    norwegian: "en forholdsanarkist",
+    english: "a relationship anarchist",
+    spanish: "un anarquista de las relaciones",
+  },
+  {
+    norwegian: "å være frigjort",
+    english: "to be liberated",
+    spanish: "ser liberado",
+  },
+  {
+    norwegian: "ikke han yngste",
+    english: "not the youngest",
+    spanish: "no el más joven",
+  },
+  {
+    norwegian: "utforsket så mye",
+    english: "explored so much",
+    spanish: "explorado tanto",
+  },
+  {
+    norwegian: "det er utroskpa for oss",
+    english: "it is infidelity for us",
+    spanish: "es infidelidad para nosotros",
+  },
+  {
+    norwegian: "er kleskoder",
+    english: "are dress codes",
+    spanish: "son códigos de vestimenta",
+  },
+  {
+    norwegian: "kjenner seg bekvem",
+    english: "feels comfortable",
+    spanish: "se siente cómodo",
+  },
+  {
+    norwegian: "med åpen sin",
+    english: "with an open mind",
+    spanish: "con una mente abierta",
+  },
+  {
+    norwegian: "på slike",
+    english: "on such",
+    spanish: "en tales",
+  },
+  {
+    norwegian: "hos hovedsakelig utebransjen",
+    english: "mainly in the outdoor industry",
+    spanish: "principalmente en la industria al aire libre",
+  },
+  {
+    norwegian: 'trakasering som "seksuell',
+    english: 'harassment as "sexual',
+    spanish: 'acoso como "sexual',
+  },
+  {
+    norwegian: "kan utforske sin seksualitet",
+    english: "can explore their sexuality",
+    spanish: "puede explorar su sexualidad",
+  },
+  {
+    norwegian: "eventet",
+    english: "the event",
+    spanish: "el evento",
+  },
+  {
+    norwegian: "fordommene minne",
+    english: "the prejudices remember",
+    spanish: "los prejuicios recuerdan",
+  },
+  {
+    norwegian: "å briste",
+    english: "to burst",
+    spanish: "estallar",
+  },
+  {
+    norwegian: "kjøttkakene",
+    english: "the meatballs",
+    spanish: "las albóndigas",
+  },
+  {
+    norwegian: "å formidle",
+    english: "to convey",
+    spanish: "transmitir",
+  },
+  {
+    norwegian: "foregår",
+    english: "takes place",
+    spanish: "tiene lugar",
+  },
+  {
+    norwegian: "at han nyter",
+    english: "that he enjoys",
+    spanish: "que él disfruta",
+  },
+  {
+    norwegian: "bettatt av",
+    english: "captivated by",
+    spanish: "cautivado por",
+  },
+  {
+    norwegian: "tralassering",
+    english: "harassment",
+    spanish: "acoso",
+  },
+  {
+    norwegian: "tisselaken",
+    english: "pee sheet",
+    spanish: "sábana de pis",
+  },
+  {
+    norwegian: "er fritt",
+    english: "is free",
+    spanish: "es gratis",
+  },
+  {
+    norwegian: "klinsj",
+    english: "clinch",
+    spanish: "abrazo",
+  },
+  {
+    norwegian: "gjennomgående",
+    english: "consistent",
+    spanish: "consistente",
+  },
+  {
+    norwegian: "helt forferdelig",
+    english: "completely terrible",
+    spanish: "completamente terrible",
+  },
 ];
