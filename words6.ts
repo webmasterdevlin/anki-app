@@ -1646,7 +1646,7 @@ export const words: Question[] = [
     spanish: "explorado tanto",
   },
   {
-    norwegian: "det er utroskpa for oss",
+    norwegian: "det er utroskap for oss",
     english: "it is infidelity for us",
     spanish: "es infidelidad para nosotros",
   },
@@ -1741,7 +1741,7 @@ export const words: Question[] = [
     spanish: "es gratis",
   },
   {
-    norwegian: "klinsj",
+    norwegian: "klinch",
     english: "clinch",
     spanish: "abrazo",
   },
@@ -1754,5 +1754,10 @@ export const words: Question[] = [
     norwegian: "helt forferdelig",
     english: "completely terrible",
     spanish: "completamente terrible",
+  },
+  {
+    norwegian: "kontinuerlig",
+    english: "continuously",
+    spanish: "continuamente",
   },
 ];
