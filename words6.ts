@@ -1760,4 +1760,14 @@ export const words: Question[] = [
     english: "continuously",
     spanish: "continuamente",
   },
+  {
+    norwegian: "for en tilfeldighet!",
+    english: "what a coincidence!",
+    spanish: "¡qué coincidencia!",
+  },
+  {
+    norwegian: "dette er et tilfeldig event",
+    english: "this is a random event",
+    spanish: "este es un evento aleatorio",
+  },
 ];
